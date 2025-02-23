@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="470f-53ad-7c60-5bcd" name="Space Marines" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedRules>
+    <rule name="And They Shall Know No Fear" id="73f8-658e-9da5-beba" hidden="false">
+      <description>Space Marines automatically pass tests to regroup, and can take such tests even if the squad has been reduced to less than half strength by casualties, though all other criteria apply. Usually troops that regroup cannot move normally and always count as moving whether they do or not, but these restrictions do not apply to models subject to this special rule. If Space Marines are caught by a sweeping advance, they are not destroyed and will instead continue to fight normally. If this happens then the unit is subject to the No Retreat! rule in this round of close combat and might therefore suffer additional casualties.
+
+
+Units which include Servitors are still subject to this rule, providing that the unit contains at least one Space Marine.</description>
+    </rule>
+    <rule name="Combat Tactics" id="63e6-2a1c-88a5-4120" hidden="false">
+      <description>A non-fearless Space Marine unit with this special rule can choose to automatically fail any Morale check it is called upon to take</description>
+    </rule>
+    <rule name="Combat Squads" id="9b83-9c79-fe48-a8b5" hidden="false">
+      <description>A number of ten-man units in the Space Marines army have the option of breaking down into two five-man units, called combat squads. The decision to split the unit into combat squads, as well as which models go into each combat squad, must be made when the unit is deployed. Both combat squads can be deployed in separate locations. The one exception to this is a unit that arrives by Drop Pod. The player can choose to split such a unit into combat squads when it disembarks from the Drop Pod.
+
+
+If you decide to split the unit into combat squads, then each combat squad is treated as a separate unit for all game purposes from that point.</description>
+    </rule>
+  </sharedRules>
+  <infoLinks>
+    <infoLink targetId="9b83-9c79-fe48-a8b5" id="3fa7-f43f-4eed-7bca" type="rule" name="Combat Squads" hidden="false"/>
+    <infoLink targetId="63e6-2a1c-88a5-4120" id="baf0-8dd7-bead-21ee" type="rule" name="Combat Tactics" hidden="false"/>
+    <infoLink targetId="73f8-658e-9da5-beba" id="9476-9b90-eafb-3ce2" type="rule" name="And They Shall Know No Fear" hidden="false"/>
+  </infoLinks>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Marneus Calgar, Lord Macragge" hidden="false" id="5565-f3d0-6f8f-89aa">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="250"/>
+      </costs>
+      <profiles>
+        <profile name="Titanic Might" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="3f81-cd56-da54-bd8d">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Calgar can re-roll all failed attempts to wound with shooting and close combat attacks.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="God of War" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="34da-d65b-cb07-7874">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Calgar can choose whether to pass or fail any Morale check he is called upon to make. Whilst Calgar is on the table, all units with the Combat Tactics special rule can also choose whether to pass or fail any Morale check they are called upon to take.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Gauntlets of Ultramar" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="1d9f-5e85-cf66-409d">
+          <characteristics>
+            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+            <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink targetId="e427-87a4-ee08-b117" id="0556-d4d9-0077-d640" type="profile" name="Iron Halo" hidden="false"/>
+        <infoLink name="Power Weapon" id="d847-98cd-8b38-9cbf" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+        <infoLink name="And They Shall Know No Fear" id="3cab-a690-e377-62ef" hidden="false" type="rule" targetId="73f8-658e-9da5-beba"/>
+        <infoLink name="Combat Tactics" id="9bef-4433-bc28-166f" hidden="false" type="rule" targetId="63e6-2a1c-88a5-4120"/>
+        <infoLink name="Independent Character" id="bc65-a2a2-a75d-5413" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Eternal Warrior" id="5b46-3471-d5af-89e2" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
+        <infoLink name="Orbital Bombardment" id="17e0-887a-a688-ef57" hidden="false" type="profile" targetId="bc8c-064b-c6cf-a4ba"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Armour" id="ba80-eeac-bf77-9cf2" hidden="false" defaultSelectionEntryId="d242-f735-e137-6110">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Standard" hidden="false" id="d242-f735-e137-6110">
+              <profiles>
+                <profile name="Marneus Calgar" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="967f-f250-c559-f5de">
+                  <characteristics>
+                    <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+                    <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+                    <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+                    <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+                    <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+                    <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+                    <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+                    <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+                    <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Armour of Antilochus" hidden="false" id="eedc-da54-f209-0bd7">
+              <profiles>
+                <profile name="Marneus Calgar (Armour of Antilochus)" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="44b3-271a-50fd-82e4">
+                  <characteristics>
+                    <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+                    <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+                    <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+                    <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+                    <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+                    <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+                    <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+                    <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+                    <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink targetId="a5fa-5ad7-54d4-fd1a" id="cb02-7d65-cec2-558c" type="profile" name="Terminator Armour" hidden="false"/>
+                <infoLink targetId="fc92-a2a9-16c0-5a2f" id="47a9-f988-3c90-5109" type="profile" name="Teleport Homer" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94d9-db84-484c-f42a"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chapter Master" hidden="false" id="b570-3e3a-ed00-eba9">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="125"/>
+      </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Loadout" id="ba88-0998-3b4f-788a" hidden="false" defaultSelectionEntryId="63e1-bbe7-a877-1c0a">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Power Armour" hidden="false" id="63e1-bbe7-a877-1c0a">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="bdaa-1a2a-08c9-32be" hidden="false" defaultSelectionEntryId="none">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="f31e-2d23-984b-239b" defaultAmount="1">
+                      <infoLinks>
+                        <infoLink name="Bolt Pistol" id="9261-a6af-a8b1-c288" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee49-3f45-67f9-22ed"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="03f1-4c48-7bff-c44d">
+                      <infoLinks>
+                        <infoLink name="Boltgun" id="575b-00f6-f308-f88a" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4043-d468-8025-3a93"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="7358-96fb-d746-5eda">
+                      <infoLinks>
+                        <infoLink name="Storm Bolter" id="5361-6c6d-1fb7-46e5" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f7e-12cd-b3e6-27e2"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Combi-flamer" hidden="false" id="fd2c-8bf4-221e-85c8">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink targetId="6895-2cfe-6f5b-8f88" id="8d5a-0c8b-7bf5-7e55" type="profile" name="Combi-flamer (Flamer)" hidden="false"/>
+                        <infoLink targetId="79ec-9032-001f-b7bf" id="860f-8765-bdd3-d3b7" type="profile" name="Combi-flamer (Boltgun)" hidden="false"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1923-c6d2-fe57-76ad"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Combi-melta" hidden="false" id="e176-7ecb-a7e6-4288">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink targetId="aad5-fec1-bd21-2ae3" id="676d-66db-560b-dcc4" type="profile" name="Combi-melta (Boltgun)" hidden="false"/>
+                        <infoLink targetId="38ae-bcac-62af-c514" id="5629-f8b7-a61d-5697" type="profile" name="Combi-flamer (melta)" hidden="false"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="363a-c93e-8637-9f5c"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Combi-plasma" hidden="false" id="e1d3-9479-d4bd-df65">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <profiles>
+                        <profile name="Combi-plasma (Boltgun)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="f51e-b870-d21c-19b5">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+                            <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+                            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+                            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile name="Combi-plasma (plasma)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="caeb-74c6-3657-acf3">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+                            <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+                            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+                            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Gets Hot!, One Shot</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0cc1-b776-a653-ba56"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Chainsword" hidden="false" id="6e80-fbfd-dc55-f058" defaultAmount="1">
+                      <infoLinks>
+                        <infoLink name="Close-Combat Weapon" id="8f2a-c8d9-7bde-09f6" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e840-3d4e-eded-1987"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Storm Shield" hidden="false" id="5af8-2e10-dfd2-d6a1">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink targetId="5567-540d-ea70-31b2" id="59ef-d005-f866-d869" type="profile" name="Storm Shield" hidden="false"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0ed-bddc-39c6-b425"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power Sword" hidden="false" id="f8c2-7466-9884-d03a">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Weapon" id="375b-30d0-65a1-4723" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e73-6994-d313-5c06"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Lightning Claw" hidden="false" id="6a3e-b194-3610-edea">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Lightning Claws" id="aaa5-e5ec-eacb-64b4" hidden="false" type="profile" targetId="5f25-fc3f-2fbd-1d75"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d3a-8f7e-faff-b108"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="88ff-eb16-013d-f808">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Pistol" id="5f5b-20d2-160d-2039" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="30ec-f975-a1fb-b46a"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="32ed-466d-b3c6-4308">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Fist" id="3b45-a287-d6b9-a198" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d59d-199b-96f0-69d9"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Relic Blade" hidden="false" id="fd02-ad7f-fcb5-adfc">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink targetId="08b3-cd4c-5d89-d874" id="34fe-0925-7022-98f1" type="profile" name="Relic Blade" hidden="false"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ba9-3f46-d9d5-2f40"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Thunder Hammer" hidden="false" id="7a1c-78af-34b7-711c">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Thunder Hammers" id="7a0b-66de-c913-bba0" hidden="false" type="profile" targetId="4cb2-e19a-4b72-594d"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="self" shared="true" id="0a79-fe62-4b40-9168"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Armour" id="709f-9806-4e71-943e" hidden="false" defaultSelectionEntryId="9600-ae10-d769-5c1e">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Power Armour" hidden="false" id="9600-ae10-d769-5c1e">
+                      <profiles>
+                        <profile name="Chapter Master" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e049-4ae1-5ea8-4eb3">
+                          <characteristics>
+                            <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+                            <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+                            <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+                            <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+                            <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+                            <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+                            <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+                            <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+                            <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Artificer Armour" hidden="false" id="4a06-cae5-eb96-86c0">
+                      <profiles>
+                        <profile name="Chapter Master" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="bf59-06bd-a8b4-f6b0">
+                          <characteristics>
+                            <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+                            <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+                            <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+                            <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+                            <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+                            <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+                            <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+                            <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+                            <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink targetId="ade4-a747-5dea-4201" id="6ca3-6b69-d86a-e34c" type="profile" name="Artificer Armour" hidden="false"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="8c45-a5ae-1f6f-39af-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8c45-a5ae-1f6f-39af-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Upgrade" id="32b1-6f48-c029-c3f6" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Jump Pack" hidden="false" id="2458-037d-bb0f-fcd9">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink targetId="9fdf-bc3e-5c20-fe0c" id="321a-bbf0-7cca-3a0c" type="profile" name="Jump Pack" hidden="false"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Space Marine Bike" hidden="false" id="11cd-f172-4a9f-f1ef">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+                      </costs>
+                      <profiles>
+                        <profile name="Space Marine Bike" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="3593-ed6b-bdfc-89da">
+                          <characteristics>
+                            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Models equipped with Space Marine bikes follow all the rules for bikes. They are fitted with a twin-linked bolter.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile name="Twin-linked Bolter" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="a449-318c-ac04-4bcd">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+                            <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+                            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+                            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Twin-linked</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e532-13cc-8e20-74d9"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <infoLinks>
+                <infoLink name="Frag Grenades" id="d876-2f3e-d402-cde6" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+                <infoLink name="Krak Grenades" id="b1b3-f36d-0e6b-68d5" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Terminator" hidden="false" id="eda9-b536-00c3-9b79">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="First Weapon" id="a241-75ef-73be-1d64" hidden="false" defaultSelectionEntryId="2164-d933-c192-f081">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="2164-d933-c192-f081">
+                      <infoLinks>
+                        <infoLink name="Storm Bolter" id="de8d-dcd9-91e9-5e9e" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c890-c097-e23a-4fa2"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Combi-flamer" hidden="false" id="33ad-d881-ccec-1611">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Combi-flamer (Flamer)" id="d8c7-5922-a4e6-7e99" hidden="false" targetId="6895-2cfe-6f5b-8f88" type="profile"/>
+                        <infoLink name="Combi-flamer (Boltgun)" id="ca13-c9e8-2f9f-55f8" hidden="false" targetId="79ec-9032-001f-b7bf" type="profile"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9f5b-08b0-b72f-2378"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Combi-melta" hidden="false" id="864c-1293-c891-b1ad">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Combi-melta (Boltgun)" id="9cc3-f0ab-1695-5e23" hidden="false" targetId="aad5-fec1-bd21-2ae3" type="profile"/>
+                        <infoLink name="Combi-flamer (melta)" id="bd5f-e1d6-f95d-61e3" hidden="false" targetId="38ae-bcac-62af-c514" type="profile"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="850f-4afc-add5-a13b"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Combi-plasma" hidden="false" id="7569-2458-1834-3391">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <profiles>
+                        <profile name="Combi-plasma (Boltgun)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="7a64-d7d0-63ff-9cd6">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+                            <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+                            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+                            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile name="Combi-plasma (plasma)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4ae0-aef5-0866-7c45">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+                            <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+                            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+                            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Gets Hot!, One Shot</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a1e3-c0f0-91a0-f072"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Lightning Claw" hidden="false" id="ac80-3bc8-6726-b18e" collective="true">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Lightning Claws" id="b973-1ef7-f2c7-1703" hidden="false" type="profile" targetId="5f25-fc3f-2fbd-1d75"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Thunder hammer" hidden="false" id="d8ff-b626-81c4-5af6">
+                      <infoLinks>
+                        <infoLink name="Thunder Hammers" id="3c73-c8a4-1497-6f32" hidden="false" type="profile" targetId="4cb2-e19a-4b72-594d"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="b121-c4ee-bf7d-47ab-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b121-c4ee-bf7d-47ab-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Second Weapon" id="0e05-fd65-dda9-6a12" hidden="false" defaultSelectionEntryId="65f5-c16e-e3c9-c12f">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Power Sword" hidden="false" id="65f5-c16e-e3c9-c12f">
+                      <infoLinks>
+                        <infoLink name="Power Weapon" id="5022-d28d-bf0d-fe14" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6623-41c1-adb0-ec0d"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Lightning Claw" hidden="false" id="b0d0-3cc2-20e7-5645" collective="true">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Lightning Claws" id="569a-e739-97e1-18bc" hidden="false" type="profile" targetId="5f25-fc3f-2fbd-1d75"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="eb23-065a-7656-a5b0">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Fist" id="dd3c-4f48-2265-e5a7" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Storm Shield" hidden="false" id="0646-a937-0989-a745">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Storm Shield" id="47d9-0a55-f7a9-3265" hidden="false" type="profile" targetId="5567-540d-ea70-31b2"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Thunder Hammer" hidden="false" id="b4cc-a1c1-60fb-d52e">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Thunder Hammers" id="7da8-1fdb-a190-e88c" hidden="false" type="profile" targetId="4cb2-e19a-4b72-594d"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Chain Fist" hidden="false" id="2014-e559-6aca-7eb2">
+                      <infoLinks>
+                        <infoLink targetId="5151-d1aa-1f80-cb94" id="4508-f4f8-8bf8-c4e2" type="profile" name="Chain Fist" hidden="false"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="cb1c-5b4d-0cb2-79f3-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="cb1c-5b4d-0cb2-79f3-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <profiles>
+                <profile name="Chapter Master" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="ac3a-b8fe-546c-3b0b">
+                  <characteristics>
+                    <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+                    <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+                    <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+                    <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+                    <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+                    <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+                    <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+                    <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+                    <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+*</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Terminator Armour" id="9c77-5cbd-3cdd-6403" hidden="false" type="profile" targetId="a5fa-5ad7-54d4-fd1a"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="b56b-877d-ee72-9f5d-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b56b-877d-ee72-9f5d-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Upgrades" id="81e0-3f7a-caab-ecad" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Melta bombs" hidden="false" id="6af5-3542-4acd-79a4">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Melta Bomb" id="ceb0-9a57-b0db-2fec" hidden="false" type="profile" targetId="62b3-f972-0f32-e8d8"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d88c-9e2c-af58-29e2"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Digital Weapons" hidden="false" id="1151-3e30-7998-0319">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3295-7ad5-8b83-950c"/>
+              </constraints>
+              <infoLinks>
+                <infoLink targetId="ee5b-ba52-7418-5482" id="942f-4231-200a-23dd" type="profile" name="Digital Weapons" hidden="false"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Hellfire Rounds" hidden="false" id="ee49-a787-2126-72d9">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="157d-e898-6554-8de9"/>
+              </constraints>
+              <infoLinks>
+                <infoLink targetId="43e4-63b6-176d-07fa" id="eb07-a53f-bb79-bfec" type="profile" name="Hellfire Rounds" hidden="false"/>
+                <infoLink targetId="0194-29d7-8075-98d7" id="6e59-cdac-4161-ad29" type="profile" name="Hellfire Rounds" hidden="false"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Auxiliary Grenade Launcher" hidden="false" id="2a5c-47b7-84ef-01a1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5716-db10-d7ad-dd4f"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f083-83e0-c522-2de7"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Grenade Launcher (Frag)" id="f1a2-6f88-bca4-f858" hidden="false" type="profile" targetId="10bd-71f6-7fac-18b8"/>
+                <infoLink name="Grenade Launcher (Krak)" id="cd08-60fb-6813-9b9e" hidden="false" type="profile" targetId="52d0-c270-ad06-6656"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink targetId="bc8c-064b-c6cf-a4ba" id="b858-0418-7729-7093" type="profile" name="Orbital Bombardment" hidden="false"/>
+        <infoLink name="And They Shall Know No Fear" id="d5d5-abc3-b83e-2e7a" hidden="false" type="rule" targetId="73f8-658e-9da5-beba"/>
+        <infoLink name="Combat Tactics" id="1c4d-4fb8-da98-9823" hidden="false" type="rule" targetId="63e6-2a1c-88a5-4120"/>
+        <infoLink name="Independent Character" id="315b-04af-dfea-044b" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Iron Halo" id="c1e9-a14d-b3cf-c1cb" hidden="false" type="profile" targetId="e427-87a4-ee08-b117"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile name="Terminator Armour" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="a5fa-5ad7-54d4-fd1a">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Models in Terminator Armour have a 2+ armour save and a 5+ invulnerable save.
+
+
+Terminator armoured models have the Relentless special rule, may not perform a Sweeping advance and can be teleported onto the battlefield.
+
+
+They may start the game in reserve and arrive using deep strike rules, even if its not part of the mission being played.
+
+
+Terminators count as two models for the purposes of transport capacity and cannot embark in Rhinos or Razorbacks.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Teleport Homer" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="fc92-a2a9-16c0-5a2f">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">If Terminators wish to teleport onto the battlefield via deep strike and choose to do so within 6&quot; of a model carrying the homer, then they won&apos;t scatter. Note that the teleport homer only works for units that are teleporting, not for units entering play using jump packs, drop pods or other means of transport. Also note that the homer must already be on the table at the start of the turn for it to be used.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Orbital Bombardment" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="bc8c-064b-c6cf-a4ba">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Unlimited</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Barrage (This ability can be used once per game in the unit&apos;s shooting phase, provided they did not move in the preceding Movement phase (though they may later assault if the controlling player wishes). Calling down an orbital bombardment otherwise counts as firing a ranged weapon. Note that if an arrow is rolled on the scatter dice and orbital bombardment will always scatter the full 2D6&quot;, the model&apos;s Ballistic Skill makes no difference)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Iron Halo" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="e427-87a4-ee08-b117">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">An Iron Halo confers a 4+ invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Combi-flamer (Boltgun)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="79ec-9032-001f-b7bf">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Combi-flamer (Flamer)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="6895-2cfe-6f5b-8f88">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, One Shot</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Combi-flamer (melta)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="38ae-bcac-62af-c514">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Melta, One Shot</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Combi-melta (Boltgun)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="aad5-fec1-bd21-2ae3">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Storm Shield" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="5567-540d-ea70-31b2">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with a storm shield has a 3+ invulnerable save. A model equipped with a storm shield can never claim the +1 Attack bonus for being armed with two close combat weapons in an assault.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Relic Blade" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="08b3-cd4c-5d89-d874">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Relic blade counts as a power weapon whose hits are resolved at Strength 6. A model wielding a relic blade cannot get an extra attack for an additional close combat weapon.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Digital Weapons" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="ee5b-ba52-7418-5482">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A model armed with digital weapons can re-roll a single failed roll to wound in each Assault phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hellfire Rounds" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="0194-29d7-8075-98d7">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">If a model carries hellfire rounds, replace their boltgun&apos;s profile (including a boltgun on a Space Marine bike) with the following</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hellfire Rounds" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="43e4-63b6-176d-07fa">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">x</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid fire, Poisoned (2+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Artificer Armour" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="ade4-a747-5dea-4201">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The model gains a 2+ armour save.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <entryLinks>
+    <entryLink import="true" name="Marneus Calgar, Lord Macragge" hidden="false" id="4774-eaef-e52c-c026" type="selectionEntry" targetId="5565-f3d0-6f8f-89aa">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="32b4-4574-6b34-ee17" primary="true" name="Troops"/>
+        <categoryLink targetId="1f0d-7d41-7ef9-ce4a" id="1e42-2bab-8888-ff00" primary="false" name="Unique"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2105-6c4e-8b2e-69b9"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Chapter Master" hidden="false" id="9cd6-d5cb-780e-1cb8" type="selectionEntry" targetId="b570-3e3a-ed00-eba9">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="2941-1328-8196-eff5" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>
