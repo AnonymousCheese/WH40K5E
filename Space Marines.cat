@@ -5558,81 +5558,6 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                 <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="6910-ca25-3574-ef45-min"/>
                 <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="6910-ca25-3574-ef45-max"/>
               </constraints>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Any model may replace his bolt pistol and/or chainsword with" id="4ac7-e4b7-fef8-084a" hidden="false">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Storm Shield" hidden="false" id="4046-a0dc-bfd2-5d01">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Storm Shield" id="2f3c-28db-0f94-a664" hidden="false" type="profile" targetId="5567-540d-ea70-31b2"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b69-cf72-3ee3-2e60"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="f3d5-d4d3-487b-5d6c">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Plasma Pistol" id="6b12-da0d-6139-e515" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e096-4c8f-adc8-43d8"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Power weapon" hidden="false" id="a5be-2b1d-c576-250e">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Power Weapon" id="7c10-186b-0935-6cca" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f2cd-a3c4-b920-b2bb"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Lightning Claw" hidden="false" id="be38-048d-4414-6fa4">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Lightning Claws" id="3a07-dd9c-3f32-c196" hidden="false" type="profile" targetId="5f25-fc3f-2fbd-1d75"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c6c7-4402-e89d-b8a1"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="dcd3-887f-7e63-ad39">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Power Fist" id="23a6-5c25-78d5-2f9b" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="34b8-2c2b-2b47-c367"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Thunder Hammer" hidden="false" id="0108-517a-f821-b787">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Thunder Hammers" id="dad6-8838-bf64-f81f" hidden="false" type="profile" targetId="4cb2-e19a-4b72-594d"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8623-9c8c-61d5-4d51"/>
-                      </constraints>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <constraints>
-                    <constraint type="max" value="2" field="selections" scope="self" shared="true" id="2889-1f31-853c-bfb1"/>
-                  </constraints>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Jump Pack" hidden="false" id="21d6-1bf7-57a7-b6d5" collective="true">
                   <infoLinks>
@@ -5768,6 +5693,9 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                   <infoLinks>
                     <infoLink name="Combat Shield" id="01b0-5489-5783-d83b" hidden="false" targetId="ece8-5e68-841f-2578" type="profile"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10a6-52db-a0a5-4e7e"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Jump Pack" hidden="false" id="e979-35a3-a22e-28b6" collective="true">
                   <infoLinks>
@@ -5844,6 +5772,58 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
           <constraints>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="11c1-53ab-e8c3-d926"/>
           </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Any model may replace his bolt pistol and/or chainsword with" id="4ac7-e4b7-fef8-084a" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Storm Shield" hidden="false" id="4046-a0dc-bfd2-5d01">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Storm Shield" id="2f3c-28db-0f94-a664" hidden="false" type="profile" targetId="5567-540d-ea70-31b2"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="f3d5-d4d3-487b-5d6c">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Plasma Pistol" id="6b12-da0d-6139-e515" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Power weapon" hidden="false" id="a5be-2b1d-c576-250e">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Power Weapon" id="7c10-186b-0935-6cca" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lightning Claw" hidden="false" id="be38-048d-4414-6fa4">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lightning Claws" id="3a07-dd9c-3f32-c196" hidden="false" type="profile" targetId="5f25-fc3f-2fbd-1d75"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="dcd3-887f-7e63-ad39">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Power Fist" id="23a6-5c25-78d5-2f9b" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Thunder Hammer" hidden="false" id="0108-517a-f821-b787">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Thunder Hammers" id="dad6-8838-bf64-f81f" hidden="false" type="profile" targetId="4cb2-e19a-4b72-594d"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
@@ -6144,39 +6124,37 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <constraint type="max" value="9" field="selections" scope="self" shared="true" id="71a5-fd30-9d34-d857"/>
             <constraint type="min" value="3" field="selections" scope="self" shared="true" id="44cc-59c5-2b0a-3ef0"/>
           </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Up to two Bikers may replace their bolt pistols with" id="4edc-e259-e313-904f" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="2ef3-5052-151e-9a42">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Flamer" id="f3b6-7149-a84e-177a" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="82ee-3820-6bb0-acd8">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Meltagun" id="3629-7868-864c-6098" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="8bb0-145e-e14c-c5f5">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Plasma Gun" id="84a1-6466-70e2-393b" hidden="false" type="profile" targetId="29c3-2b26-b62c-779c"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="max" value="2" field="selections" scope="self" shared="true" id="56ec-cf4a-b1e6-83cf"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Up to two Bikers may replace their bolt pistols with" id="4edc-e259-e313-904f" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="2ef3-5052-151e-9a42">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Flamer" id="f3b6-7149-a84e-177a" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="82ee-3820-6bb0-acd8">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Meltagun" id="3629-7868-864c-6098" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="8bb0-145e-e14c-c5f5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Plasma Gun" id="84a1-6466-70e2-393b" hidden="false" type="profile" targetId="29c3-2b26-b62c-779c"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="56ec-cf4a-b1e6-83cf"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
@@ -6208,7 +6186,8 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             </profile>
           </profiles>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a36a-94bd-8ae9-d013"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a36a-94bd-8ae9-d013"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c992-1f4f-e1df-94dc"/>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup name="Loadout" id="5b13-b424-ee41-d3ca" hidden="false" defaultSelectionEntryId="9b76-50cd-1aed-41d4">
