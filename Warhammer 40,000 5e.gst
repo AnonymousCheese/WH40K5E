@@ -57,6 +57,7 @@
       <characteristicTypes>
         <characteristicType name="Capacity" id="7cdf-4c80-a83d-200c"/>
         <characteristicType name="Access Points" id="6e42-3bd5-70a6-724f"/>
+        <characteristicType name="Fire Points" id="aa94-ae0c-98e7-5923"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Unit" id="0967-823d-dd82-4e47" hidden="false">
@@ -108,6 +109,11 @@
         <characteristicType name="R" id="4eca-6e3c-2053-e75a"/>
         <characteristicType name="I" id="f706-f227-5d93-0fe3"/>
         <characteristicType name="A" id="12be-9dd2-0dd7-b17a"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Psychic Power" id="8c68-ad11-33db-e3c4" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Power" id="1638-2569-4ea3-9b0a"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -395,7 +401,7 @@ Each vehicle immediately suffers a hit against the armour facing where the othe
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">n/a</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
-        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, One Shot</characteristic>
       </characteristics>
     </profile>
     <profile name="Heavy Flamer" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="f83b-3e9d-4395-7a68">
@@ -702,6 +708,69 @@ witchblade counts his Strength as 9.</characteristic>
     <profile name="Jump Pack" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="9fdf-bc3e-5c20-fe0c">
       <characteristics>
         <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Models equipped with jump packs are jump infantry. In addition, Space Marines wearing jump packs can be kept in reserve and arrive using the deep strike rules.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Missile Launcher (Frag)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="5c9b-64b6-6546-fc94">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Missile Launcher (Krak)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="c290-fc2b-c332-8290">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dozer Blade" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="071f-6e73-2a57-cfc4">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Vehicles equipped with a dozer blade can re-roll a failed difficult terrain test.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Extra Armour" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="ec58-94f7-12e5-a9b9">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Vehicles equipped with the extra armour upgrade count crew stunned results on the Vehicle Damage table as crew shaken results instead</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Searchlight" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="589c-c16c-2ed7-61f9">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Searchlights are used when the Night Fighting rule is in effect. If a vehicle has a searchlight it must still use the night fighting rules to pick a target but, having acquired a target, will illuminate it with the searchlight. For the rest of the shooting phase, any other unit that fires at the illuminated unit does not use the Night fighting rules. However, a vehicle that uses a searchlight, can be targeted during the following enemy turn, as if the Night Fighting rules were not in effect.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Heavy Bolter" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="684d-431d-f854-d4fd">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3, Twin-linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Heavy Flamer" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="ac52-5bdd-8a29-3bb1">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Twin-linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Assault Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="899c-a6c5-c4a7-4a80">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 4, Rending, Twin-linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Plasma Gun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="a04e-4283-5e46-f839">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Gets Hot!, Twin-linked</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

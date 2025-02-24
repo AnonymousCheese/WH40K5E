@@ -452,6 +452,7 @@ The executed model is immediately removed as a casualty, regardless of the numbe
           <characteristics>
             <characteristic name="Capacity" typeId="7cdf-4c80-a83d-200c">12</characteristic>
             <characteristic name="Access Points" typeId="6e42-3bd5-70a6-724f">Rear</characteristic>
+            <characteristic typeId="aa94-ae0c-98e7-5923" name="Fire Points"/>
           </characteristics>
         </profile>
         <profile name="Mobile Command Vehicle" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="96b8-4379-a0a0-af25">
@@ -3132,16 +3133,12 @@ It is worth pointing out that some armies might use different versions of smoke
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
       </costs>
-      <profiles>
-        <profile name="Dozer Blade" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="071f-6e73-2a57-cfc4">
-          <characteristics>
-            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Vehicles equipped with a dozer blade can re-roll a failed difficult terrain test.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8974-ac31-0077-6bc5"/>
       </constraints>
+      <infoLinks>
+        <infoLink targetId="071f-6e73-2a57-cfc4" id="451e-4563-d211-0594" type="profile" name="Dozer Blade" hidden="false"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Extra Armor" hidden="false" id="f1f7-d0bf-1ebe-10f6">
       <costs>
@@ -3188,6 +3185,7 @@ It is worth pointing out that some armies might use different versions of smoke
               <characteristics>
                 <characteristic name="Capacity" typeId="7cdf-4c80-a83d-200c">12</characteristic>
                 <characteristic name="Access Points" typeId="6e42-3bd5-70a6-724f">One on each side of the hull and one at the rear.</characteristic>
+                <characteristic typeId="aa94-ae0c-98e7-5923" name="Fire Points"/>
               </characteristics>
             </profile>
             <profile name="Grav Chute Insertion" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="5155-531f-eee0-cba0">
@@ -5427,22 +5425,6 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast, Barrage</characteristic>
       </characteristics>
     </profile>
-    <profile name="Missile Launcher (Frag)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="5c9b-64b6-6546-fc94">
-      <characteristics>
-        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
-        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
-        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
-        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Missile Launcher (Krak)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="c290-fc2b-c332-8290">
-      <characteristics>
-        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
-        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
-        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
-        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Chimera Armored Transport" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="6c7f-e0f5-f0d6-396d">
       <characteristics>
         <characteristic name="BS" typeId="b539-c71b-9239-8da0">3</characteristic>
@@ -5551,19 +5533,9 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol, Sniper</characteristic>
       </characteristics>
     </profile>
-    <profile name="Searchlight" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="589c-c16c-2ed7-61f9">
-      <characteristics>
-        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Searchlights are used when the Night Fighting rule is in effect. If a vehicle has a searchlight it must still use the night fighting rules to pick a target but, having acquired a target, will illuminate it with the searchlight. For the rest of the shooting phase, any other unit that fires at the illuminated unit does not use the Night fighting rules. However, a vehicle that uses a searchlight, can be targeted during the following enemy turn, as if the Night Fighting rules were not in effect.</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Camo Netting" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="6d53-02aa-4b3e-2123">
       <characteristics>
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A vehicle equipped with camo netting has the Stealth universal special rule, if it remained stationary in the previous friendly Movement phase.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Extra Armour" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="ec58-94f7-12e5-a9b9">
-      <characteristics>
-        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Vehicles equipped with the extra armour upgrade count crew stunned results on the Vehicle Damage table as crew shaken results instead</characteristic>
       </characteristics>
     </profile>
     <profile name="Rough Rider" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="4d30-9533-1b31-f26b">
