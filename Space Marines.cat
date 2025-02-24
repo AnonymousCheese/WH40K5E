@@ -2197,7 +2197,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
         <infoLink name="Independent Character" id="8256-026d-d4fc-be7a" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Combi-weapon" hidden="false" id="d720-24d4-d7f1-df20">
+    <selectionEntry type="upgrade" import="true" name="Combi-weapon" hidden="false" id="d720-24d4-d7f1-df20" defaultAmount="0">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Combi-flamer" hidden="false" id="f589-6e69-8051-ff14">
           <costs>
