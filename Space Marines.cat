@@ -2251,8 +2251,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="self" shared="true" id="b9bf-a0a0-3657-c3b6-min"/>
-        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b9bf-a0a0-3657-c3b6-max"/>
+        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b9bf-a0a0-3657-c3b6"/>
       </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Techmarine" hidden="false" id="cb3c-3112-6c58-a35b">
