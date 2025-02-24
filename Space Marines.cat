@@ -6483,7 +6483,7 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2105-6c4e-8b2e-69b9"/>
       </constraints>
     </entryLink>
-    <entryLink import="true" name="Chapter Master" hidden="false" id="9cd6-d5cb-780e-1cb8" type="selectionEntry" targetId="b570-3e3a-ed00-eba9">
+    <entryLink import="true" name="Chapter Master" hidden="false" id="8c77-ac4d-20fe-2faa" type="selectionEntry" targetId="b570-3e3a-ed00-eba9">
       <categoryLinks>
         <categoryLink targetId="ac8d-efba-1884-d3ad" id="2941-1328-8196-eff5" primary="true" name="HQ"/>
       </categoryLinks>
@@ -6563,7 +6563,7 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <categoryLink targetId="978c-e18f-8aeb-f4c1" id="150e-5d6d-9c1a-c1b7" primary="true" name="Elites"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Ironclad Dreadnought" hidden="false" id="ef39-6c6b-4f8a-44ad" type="selectionEntry" targetId="758a-4728-08f4-d4b7">
+    <entryLink import="true" name="Ironclad Dreadnought" hidden="false" id="07cc-24ce-aa11-8fee" type="selectionEntry" targetId="758a-4728-08f4-d4b7">
       <categoryLinks>
         <categoryLink targetId="978c-e18f-8aeb-f4c1" id="a3f6-2a70-5932-6be0" primary="true" name="Elites"/>
       </categoryLinks>
@@ -6573,7 +6573,7 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <categoryLink targetId="978c-e18f-8aeb-f4c1" id="ee4e-a3d0-388c-0091" primary="true" name="Elites"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Assault Squad" hidden="false" id="85a7-31e9-5afa-00b3" type="selectionEntry" targetId="ba0c-0526-ca37-abb1">
+    <entryLink import="true" name="Assault Squad" hidden="false" id="b002-a5ef-598a-740d" type="selectionEntry" targetId="ba0c-0526-ca37-abb1">
       <categoryLinks>
         <categoryLink targetId="74fe-37c3-fbbf-849e" id="89f3-bc60-d6ea-abf4" primary="true" name="Fast Attack"/>
       </categoryLinks>
@@ -6593,7 +6593,7 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <categoryLink targetId="74fe-37c3-fbbf-849e" id="763c-abc7-2c76-d147" primary="true" name="Fast Attack"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Attack Bike Squad" hidden="false" id="a477-2c5b-1274-0d1e" type="selectionEntry" targetId="b998-d706-044f-7ce1">
+    <entryLink import="true" name="Attack Bike Squad" hidden="false" id="b92a-5522-17d6-ea7b" type="selectionEntry" targetId="b998-d706-044f-7ce1">
       <categoryLinks>
         <categoryLink targetId="74fe-37c3-fbbf-849e" id="71b7-1b9e-c9c9-3de2" primary="true" name="Fast Attack"/>
       </categoryLinks>
