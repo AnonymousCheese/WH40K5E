@@ -163,7 +163,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
                       </costs>
                       <infoLinks>
                         <infoLink targetId="aad5-fec1-bd21-2ae3" id="676d-66db-560b-dcc4" type="profile" name="Combi-melta (Boltgun)" hidden="false"/>
-                        <infoLink targetId="38ae-bcac-62af-c514" id="5629-f8b7-a61d-5697" type="profile" name="Combi-flamer (melta)" hidden="false"/>
+                        <infoLink targetId="38ae-bcac-62af-c514" id="5629-f8b7-a61d-5697" type="profile" name="Combi-melta (melta)" hidden="false"/>
                       </infoLinks>
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="363a-c93e-8637-9f5c"/>
@@ -401,7 +401,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
                       </costs>
                       <infoLinks>
                         <infoLink name="Combi-melta (Boltgun)" id="9cc3-f0ab-1695-5e23" hidden="false" targetId="aad5-fec1-bd21-2ae3" type="profile"/>
-                        <infoLink name="Combi-flamer (melta)" id="bd5f-e1d6-f95d-61e3" hidden="false" targetId="38ae-bcac-62af-c514" type="profile"/>
+                        <infoLink name="Combi-melta (melta)" id="bd5f-e1d6-f95d-61e3" hidden="false" targetId="38ae-bcac-62af-c514" type="profile"/>
                       </infoLinks>
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="850f-4afc-add5-a13b"/>
@@ -656,7 +656,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
                       </costs>
                       <infoLinks>
                         <infoLink name="Combi-melta (Boltgun)" id="34b4-7b14-bfee-fc2a" hidden="false" targetId="aad5-fec1-bd21-2ae3" type="profile"/>
-                        <infoLink name="Combi-flamer (melta)" id="c8d2-74bb-9059-61d6" hidden="false" targetId="38ae-bcac-62af-c514" type="profile"/>
+                        <infoLink name="Combi-melta (melta)" id="c8d2-74bb-9059-61d6" hidden="false" targetId="38ae-bcac-62af-c514" type="profile"/>
                       </infoLinks>
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="01ce-2bb1-72a0-7e9a"/>
@@ -869,7 +869,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
                       </costs>
                       <infoLinks>
                         <infoLink name="Combi-melta (Boltgun)" id="7de9-6f22-2afd-84cb" hidden="false" targetId="aad5-fec1-bd21-2ae3" type="profile"/>
-                        <infoLink name="Combi-flamer (melta)" id="d41e-c479-ea35-213a" hidden="false" targetId="38ae-bcac-62af-c514" type="profile"/>
+                        <infoLink name="Combi-melta (melta)" id="d41e-c479-ea35-213a" hidden="false" targetId="38ae-bcac-62af-c514" type="profile"/>
                       </infoLinks>
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="67dc-e170-c023-00dc"/>
@@ -2201,7 +2201,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Combi-flamer" hidden="false" id="f589-6e69-8051-ff14">
           <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
           </costs>
           <infoLinks>
             <infoLink name="Combi-flamer (Flamer)" id="fe09-5f7f-45b6-a978" hidden="false" targetId="6895-2cfe-6f5b-8f88" type="profile"/>
@@ -2213,7 +2213,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Combi-melta" hidden="false" id="a087-a0ee-5221-681b">
           <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
           </costs>
           <infoLinks>
             <infoLink name="Combi-melta (Boltgun)" id="dd57-824a-b3cb-713e" hidden="false" targetId="aad5-fec1-bd21-2ae3" type="profile"/>
@@ -2225,7 +2225,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Combi-plasma" hidden="false" id="7de9-f8dd-de1f-4133">
           <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
           </costs>
           <profiles>
             <profile name="Combi-plasma (Boltgun)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="9f42-a486-0fe8-5f37">
@@ -2253,6 +2253,9 @@ If you decide to split the unit into combat squads, then each combat squad is tr
       <constraints>
         <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b9bf-a0a0-3657-c3b6"/>
       </constraints>
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Techmarine" hidden="false" id="cb3c-3112-6c58-a35b">
       <costs>
@@ -2671,7 +2674,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
         </profile>
         <profile name="Repair" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="60e0-16a0-6bd5-838f">
           <characteristics>
-            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Rhino is immobilised for any reason, then in subsequent turns the crew can attempt a temporary repair instead of vehicle shooting. Roll a D6 in the Shooting phase, and on a 6 the vehicle is no longer Immobilised. </characteristic>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Rhino is immobilised for any reason, then in subsequent turns the crew can attempt a temporary repair instead of vehicle shooting. Roll a D6 in the Shooting phase, and on a 6 the vehicle is no longer Immobilised.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2899,7 +2902,7 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
         </profile>
         <profile name="Inertial Guidance System" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="9d11-bdb6-2cfe-e255">
           <characteristics>
-            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Should a Drop Pod scatter on top of impassable terrain or another model (friend or foe!) then reduce the scatter distance by the minimum required in order to avoid the obstacle. </characteristic>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Should a Drop Pod scatter on top of impassable terrain or another model (friend or foe!) then reduce the scatter distance by the minimum required in order to avoid the obstacle.</characteristic>
           </characteristics>
         </profile>
         <profile name="Immobile" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="4dc7-8470-5285-a63a">
@@ -3130,8 +3133,8 @@ If the result is 5 or more, then either a Weapon Destroyed result or Immobilised
   <entryLinks>
     <entryLink import="true" name="Marneus Calgar, Lord Macragge" hidden="false" id="4774-eaef-e52c-c026" type="selectionEntry" targetId="5565-f3d0-6f8f-89aa">
       <categoryLinks>
-        <categoryLink targetId="default-category" id="32b4-4574-6b34-ee17" primary="true" name="Troops"/>
         <categoryLink targetId="1f0d-7d41-7ef9-ce4a" id="1e42-2bab-8888-ff00" primary="false" name="Unique"/>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="0227-30d2-66ed-2f5f" primary="true" name="HQ"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2105-6c4e-8b2e-69b9"/>
