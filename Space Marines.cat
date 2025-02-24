@@ -5775,7 +5775,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
         </selectionEntryGroup>
         <selectionEntryGroup name="Any model may replace his bolt pistol and/or chainsword with" id="4ac7-e4b7-fef8-084a" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Storm Shield" hidden="false" id="4046-a0dc-bfd2-5d01">
+            <selectionEntry type="upgrade" import="true" name="Storm Shield" hidden="false" id="4046-a0dc-bfd2-5d01" sortIndex="4">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
               </costs>
@@ -5783,7 +5783,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                 <infoLink name="Storm Shield" id="2f3c-28db-0f94-a664" hidden="false" type="profile" targetId="5567-540d-ea70-31b2"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="f3d5-d4d3-487b-5d6c">
+            <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="f3d5-d4d3-487b-5d6c" sortIndex="2">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
               </costs>
@@ -5791,7 +5791,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                 <infoLink name="Plasma Pistol" id="6b12-da0d-6139-e515" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Power weapon" hidden="false" id="a5be-2b1d-c576-250e">
+            <selectionEntry type="upgrade" import="true" name="Power weapon" hidden="false" id="a5be-2b1d-c576-250e" sortIndex="3">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
               </costs>
@@ -5799,7 +5799,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                 <infoLink name="Power Weapon" id="7c10-186b-0935-6cca" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Lightning Claw" hidden="false" id="be38-048d-4414-6fa4">
+            <selectionEntry type="upgrade" import="true" name="Lightning Claw" hidden="false" id="be38-048d-4414-6fa4" sortIndex="1">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
               </costs>
@@ -5807,7 +5807,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                 <infoLink name="Lightning Claws" id="3a07-dd9c-3f32-c196" hidden="false" type="profile" targetId="5f25-fc3f-2fbd-1d75"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="dcd3-887f-7e63-ad39">
+            <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="dcd3-887f-7e63-ad39" sortIndex="5">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
               </costs>
@@ -5815,7 +5815,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                 <infoLink name="Power Fist" id="23a6-5c25-78d5-2f9b" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Thunder Hammer" hidden="false" id="0108-517a-f821-b787">
+            <selectionEntry type="upgrade" import="true" name="Thunder Hammer" hidden="false" id="0108-517a-f821-b787" sortIndex="6">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
               </costs>
