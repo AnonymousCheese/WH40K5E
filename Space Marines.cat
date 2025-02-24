@@ -3075,8 +3075,8 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
                 </profile>
               </profiles>
               <constraints>
-                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="1b37-4d8d-7b27-21f0-min"/>
-                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="1b37-4d8d-7b27-21f0-max"/>
+                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="1b37-4d8d-7b27-21f0-max-min"/>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="1b37-4d8d-7b27-21f0-max-max"/>
               </constraints>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Weapon" id="fa4d-7441-aacf-08e2" hidden="false" defaultSelectionEntryId="5402-aa51-cb5e-6a26">
@@ -3137,8 +3137,8 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
                 </profile>
               </profiles>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aa6c-bd48-6dd3-ed59-min"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa6c-bd48-6dd3-ed59-max"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aa6c-bd48-6dd3-ed59-max-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa6c-bd48-6dd3-ed59-max-max"/>
               </constraints>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Weapon" id="e51d-0b43-164d-4478" hidden="false" defaultSelectionEntryId="a344-b3b4-adae-74f1">
