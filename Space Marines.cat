@@ -5824,6 +5824,9 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="max" value="18" field="selections" scope="parent" shared="true" id="bb03-5f8a-2666-46a9"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
