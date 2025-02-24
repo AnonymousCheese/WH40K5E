@@ -6596,4 +6596,11 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
       </categoryLinks>
     </entryLink>
   </entryLinks>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="TEST UNIT DELETE" hidden="false" id="fba5-36bd-3772-1b60">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="deb1-01e5-23f4-4af3" primary="false" name="Elites"/>
+      </categoryLinks>
+    </selectionEntry>
+  </selectionEntries>
 </catalogue>
