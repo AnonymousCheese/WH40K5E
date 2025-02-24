@@ -791,5 +791,10 @@ witchblade counts his Strength as 9.</characteristic>
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Unless led by a Techpriest, a unit containing Servitors must roll a D6 at the start of each friendly turn. If the result is  a 1, 2 or 3 the unit may not move, shoot or assault that turn, though it will fight in close combat if already engaged.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Combat Shield" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="ece8-5e68-841f-2578">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Combat Shield confers a 6+ Invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
 </gameSystem>
