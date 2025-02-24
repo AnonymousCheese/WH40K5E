@@ -3058,7 +3058,7 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="8afe-2287-d9ed-947b" hidden="false">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Scout" hidden="false" id="37bc-f4ee-bb32-e269">
+            <selectionEntry type="model" import="true" name="Scout" hidden="false" id="37bc-f4ee-bb32-e269" collective="true">
               <profiles>
                 <profile name="Scout" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="3ffe-b8d1-cd0c-f163">
                   <characteristics>
@@ -3120,7 +3120,7 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
                 <infoLink name="Bolt Pistol" id="7e41-84d4-5040-d63a" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Scout Sergeant" hidden="false" id="a46f-b009-84bc-bd98">
+            <selectionEntry type="model" import="true" name="Scout Sergeant" hidden="false" id="a46f-b009-84bc-bd98" collective="true">
               <profiles>
                 <profile name="Scout Sergeant" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="5c92-10ab-776f-e6dc">
                   <characteristics>
@@ -3235,7 +3235,7 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
                 <infoLink name="Bolt Pistol" id="7da9-def0-b603-c858" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Additional Scouts" hidden="false" id="0bff-5071-976c-be3b">
+            <selectionEntry type="model" import="true" name="Additional Scouts" hidden="false" id="0bff-5071-976c-be3b" collective="true">
               <profiles>
                 <profile name="Scout" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="6fe1-da55-2fec-9802">
                   <characteristics>
@@ -3295,6 +3295,9 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
               <infoLinks>
                 <infoLink name="Bolt Pistol" id="b6b1-4f76-0e68-af22" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
               </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="13"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -3321,7 +3324,7 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="f71c-b243-c7b0-b487" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Terminator" hidden="false" id="54ac-55d7-e121-1211">
+            <selectionEntry type="upgrade" import="true" name="Terminator" hidden="false" id="54ac-55d7-e121-1211" collective="true">
               <constraints>
                 <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="f81d-4750-ca80-af22-min"/>
                 <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="f81d-4750-ca80-af22-max"/>
@@ -3409,7 +3412,7 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Additional Terminators" hidden="false" id="a455-3236-561d-8fd4">
+            <selectionEntry type="upgrade" import="true" name="Additional Terminators" hidden="false" id="a455-3236-561d-8fd4" collective="true">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
               </costs>
@@ -3831,7 +3834,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="0b3a-a845-7e8f-304e" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Terminator" hidden="false" id="849e-4bc6-0979-4ff5">
+            <selectionEntry type="upgrade" import="true" name="Terminator" hidden="false" id="849e-4bc6-0979-4ff5" collective="true">
               <constraints>
                 <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="7bff-0210-b2d9-f533-min"/>
                 <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="7bff-0210-b2d9-f533-max"/>
@@ -3873,7 +3876,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Terminator Sergeant" hidden="false" id="b25c-832b-1caf-e607">
+            <selectionEntry type="upgrade" import="true" name="Terminator Sergeant" hidden="false" id="b25c-832b-1caf-e607" collective="true">
               <profiles>
                 <profile name="Terminator Sergeant" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="bdd6-3301-cd82-3bf2">
                   <characteristics>
@@ -3915,7 +3918,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Additional Terminators" hidden="false" id="ade0-52fc-c46d-d1f9">
+            <selectionEntry type="upgrade" import="true" name="Additional Terminators" hidden="false" id="ade0-52fc-c46d-d1f9" collective="true">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
               </costs>
@@ -4046,7 +4049,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="2fe5-ac6e-60ff-ad17" hidden="false">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Veteran" hidden="false" id="6343-9579-3a76-9c36">
+            <selectionEntry type="model" import="true" name="Veteran" hidden="false" id="6343-9579-3a76-9c36" collective="true">
               <constraints>
                 <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="e99f-9bcb-9e9b-cf38-min"/>
                 <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="e99f-9bcb-9e9b-cf38-max"/>
@@ -4193,7 +4196,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Space Marine Sergeant" hidden="false" id="d016-4ae5-922f-bd36">
+            <selectionEntry type="model" import="true" name="Space Marine Sergeant" hidden="false" id="d016-4ae5-922f-bd36" collective="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f132-ee41-fc14-8b35-min"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f132-ee41-fc14-8b35-max"/>
@@ -4302,7 +4305,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Additional Veterans" hidden="false" id="e9f6-88dc-86d4-6696">
+            <selectionEntry type="upgrade" import="true" name="Additional Veterans" hidden="false" id="e9f6-88dc-86d4-6696" collective="true">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
               </costs>
@@ -5060,9 +5063,9 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="155"/>
       </costs>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Squad" id="8215-1f2c-00f7-d37c" hidden="false">
+        <selectionEntryGroup name="Squad" id="8215-1f2c-00f7-d37c" hidden="false" collective="true">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Damned Sergeant" hidden="false" id="1788-385a-76d1-331d">
+            <selectionEntry type="upgrade" import="true" name="Damned Sergeant" hidden="false" id="1788-385a-76d1-331d" collective="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2b9c-7d4c-269c-4682-min"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b9c-7d4c-269c-4682-max"/>
@@ -5142,7 +5145,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Damned Legionnaire" hidden="false" id="31b2-d4c9-01be-62da">
+            <selectionEntry type="upgrade" import="true" name="Damned Legionnaire" hidden="false" id="31b2-d4c9-01be-62da" collective="true">
               <constraints>
                 <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="da58-0d7a-cc9a-c8a0-min"/>
                 <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="da58-0d7a-cc9a-c8a0-max"/>
@@ -5163,7 +5166,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Additional Legionnaires" hidden="false" id="9ae6-5256-cf50-0fa5">
+            <selectionEntry type="upgrade" import="true" name="Additional Legionnaires" hidden="false" id="9ae6-5256-cf50-0fa5" collective="true">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
               </costs>
@@ -5308,7 +5311,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="faac-1933-7889-252c" hidden="false" collective="true">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Space Marine" hidden="false" id="cfe9-3b5f-7c61-0af8">
+            <selectionEntry type="model" import="true" name="Space Marine" hidden="false" id="cfe9-3b5f-7c61-0af8" collective="true">
               <profiles>
                 <profile name="Space Marine" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="be9e-ac68-d5b5-2629">
                   <characteristics>
@@ -5329,7 +5332,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                 <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="af69-94da-dd28-bb44-max"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Space Marine Sergeant" hidden="false" id="3d23-1065-a921-48e4">
+            <selectionEntry type="model" import="true" name="Space Marine Sergeant" hidden="false" id="3d23-1065-a921-48e4" collective="true">
               <profiles>
                 <profile name="Space Marine Sergeant" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="f9c4-a885-5967-4efc">
                   <characteristics>
@@ -5455,7 +5458,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Additional Marine" hidden="false" id="ec63-1975-2459-b9f1">
+            <selectionEntry type="model" import="true" name="Additional Marine" hidden="false" id="ec63-1975-2459-b9f1" collective="true">
               <profiles>
                 <profile name="Space Marine" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="6cac-81fb-f4d2-e2eb">
                   <characteristics>
@@ -5535,7 +5538,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="de3c-7874-9425-4c6b" hidden="false" collective="true">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Veteran" hidden="false" id="3c61-b579-f396-b495">
+            <selectionEntry type="model" import="true" name="Veteran" hidden="false" id="3c61-b579-f396-b495" collective="true">
               <profiles>
                 <profile name="Veteran" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="76d4-6db1-f7db-64af">
                   <characteristics>
@@ -5779,7 +5782,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Additional Veteran" hidden="false" id="801c-0a62-5e79-65b6">
+            <selectionEntry type="model" import="true" name="Additional Veteran" hidden="false" id="801c-0a62-5e79-65b6" collective="true">
               <profiles>
                 <profile name="Space Marine" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="8591-9cd3-8a94-af5e">
                   <characteristics>
@@ -5863,7 +5866,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Land Speeder Squadron" hidden="false" id="4a6e-2df9-cfdb-f638">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Land Speeder" hidden="false" id="fb4a-7877-fd87-6b18">
+        <selectionEntry type="model" import="true" name="Land Speeder" hidden="false" id="fb4a-7877-fd87-6b18" collective="true">
           <profiles>
             <profile name="Land Speeder" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="27dc-6319-d53f-9b96">
               <characteristics>
@@ -5954,6 +5957,9 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -5969,7 +5975,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="5d0c-7cea-f0f0-9318" hidden="false">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Biker Sergeant" hidden="false" id="bee2-3631-b308-fa43">
+            <selectionEntry type="model" import="true" name="Biker Sergeant" hidden="false" id="bee2-3631-b308-fa43" collective="true">
               <profiles>
                 <profile name="Space marine Biker" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="0fd8-fca9-360d-f4c6">
                   <characteristics>
@@ -6043,7 +6049,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Space marine Biker" hidden="false" id="e4d1-755b-aa0e-4973">
+            <selectionEntry type="model" import="true" name="Space marine Biker" hidden="false" id="e4d1-755b-aa0e-4973" collective="true">
               <profiles>
                 <profile name="Space marine Biker" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="1081-04cd-038c-28e7">
                   <characteristics>
@@ -6064,7 +6070,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5d97-7679-d4e9-133c-max"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Attack Bike" hidden="false" id="0ab7-924a-d2ba-14cb">
+            <selectionEntry type="model" import="true" name="Attack Bike" hidden="false" id="0ab7-924a-d2ba-14cb" collective="true">
               <profiles>
                 <profile name="Space marine Biker" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="063e-4a15-6fee-5ab6">
                   <characteristics>
@@ -6110,7 +6116,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Additional Biker" hidden="false" id="3ffa-6b36-84d0-188e">
+            <selectionEntry type="upgrade" import="true" name="Additional Biker" hidden="false" id="3ffa-6b36-84d0-188e" collective="true">
               <profiles>
                 <profile name="Space marine Biker" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="aa30-2a0c-a486-bccf">
                   <characteristics>
@@ -6185,7 +6191,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Attack Bike Squad" hidden="false" id="b998-d706-044f-7ce1">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Attack Bike" hidden="false" id="28b2-0191-c361-e9d1">
+        <selectionEntry type="model" import="true" name="Attack Bike" hidden="false" id="28b2-0191-c361-e9d1" collective="true">
           <profiles>
             <profile name="Space marine Biker" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="5cf7-d8c2-a27e-e5bb">
               <characteristics>
