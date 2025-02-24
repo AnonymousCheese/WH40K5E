@@ -1513,11 +1513,6 @@ The executed model is immediately removed as a casualty, regardless of the numbe
                 <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A servo-arm grants a model and additional close combat attack that strikes at Initiative 1, Strength 8 and ignores armour saves.</characteristic>
               </characteristics>
             </profile>
-            <profile name="Mindlock" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="10a3-06dc-0087-35a7">
-              <characteristics>
-                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Unless led by a Techpriest, a unit containing Servitors must roll a D6 at the start of each friendly turn. If the result is  a 1, 2 or 3 the unit may not move, shoot or assault that turn, though it will fight in close combat if already engaged.</characteristic>
-              </characteristics>
-            </profile>
           </profiles>
           <selectionEntryGroups>
             <selectionEntryGroup name="Upgrades" id="1985-b47c-a388-01c7" hidden="false" collective="true">
@@ -1562,6 +1557,9 @@ The executed model is immediately removed as a casualty, regardless of the numbe
           <constraints>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="c752-828c-f088-dec7"/>
           </constraints>
+          <infoLinks>
+            <infoLink targetId="10a3-06dc-0087-35a7" id="69e9-5aba-5cd5-6259" type="profile" name="Mindlock" hidden="false"/>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Melta bombs" hidden="false" id="48f8-f840-b1ed-3cd6" sortIndex="1">
           <costs>
@@ -5487,11 +5485,6 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
     <profile name="Carapace armour" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="955f-bb02-0d22-485c">
       <characteristics>
         <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The bearer has an armour save of 4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Camo Cloak" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="cc7f-61e1-06b2-0dc6">
-      <characteristics>
-        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model wearing a camo cloak has the stealth universal special rule</characteristic>
       </characteristics>
     </profile>
     <profile name="Storm Trooper" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="57dc-90ac-69aa-36d3">
