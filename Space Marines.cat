@@ -5436,6 +5436,9 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                   <infoLinks>
                     <infoLink targetId="ece8-5e68-841f-2578" id="166a-af94-5f9e-12d2" type="profile" name="Combat Shield" hidden="false"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1110-753e-41f7-842d"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
@@ -6172,8 +6175,8 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             </profile>
           </profiles>
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a36a-94bd-8ae9-d013"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c992-1f4f-e1df-94dc"/>
+            <constraint type="max" value="3" field="selections" scope="self" shared="true" id="b913-db36-f0c5-60de"/>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup name="Loadout" id="5b13-b424-ee41-d3ca" hidden="false" defaultSelectionEntryId="9b76-50cd-1aed-41d4">
@@ -6203,10 +6206,6 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="self" shared="true" id="b913-db36-f0c5-60de"/>
-        <constraint type="min" value="1" field="selections" scope="self" shared="true" id="9b99-c293-416b-2033"/>
-      </constraints>
       <infoLinks>
         <infoLink name="And They Shall Know No Fear" id="1125-b47e-47b3-ba9f" hidden="false" type="rule" targetId="73f8-658e-9da5-beba"/>
         <infoLink name="Combat Tactics" id="1f43-f204-48a1-06e8" hidden="false" type="rule" targetId="63e6-2a1c-88a5-4120"/>
