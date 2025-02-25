@@ -334,6 +334,58 @@ Each vehicle immediately suffers a hit against the armour facing where the othe
     <rule name="Rage" id="9b68-d29f-5d82-0a35" hidden="false">
       <description>In the Movement phase, units subject to rage must always move as fast as possible towards the closest visible enemy. In the Shooting phase, they are free to decide whether to run, but if they do they must run towards the closest visible enemy. In the Assault phase they must always consolidate towards the closest visible enemy. Whilst falling back, embarked on a transport, or if no enemy is visible, they ignore this rule.</description>
     </rule>
+    <rule name="Artillery" id="d466-164a-2f8e-6e4a" hidden="false">
+      <description>Artillery units count as infantry in most respects, but when they are fired at, hits may be scored on the guns themselves, which have vehicle-like characteristics. 
+
+
+The gun models are treated as vehicles with an Armour Rating of 10 Any glancing or penetrating hit will destroy a gun – do not roll on the Vehicle Damage table, the gun model is simply removed. If all the crewman models are killed, the guns are immediately removed as well. 
+
+
+Sometimes the player has the choice of adding leadersor additional models to the crew of an artillery unit. These models are part of the crew in all respects and may operate the guns as normal, even if they are otherwise slightly different from the rest of the crew. Independent characters that join the unit, however, do not count as crew and cannot operate the guns.
+
+
+Artillery units are slowed by difficult terrain like infantry, but gun models must also take dangerous terrain tests when they pass through it. There must be at least one crewman per gun to allow the unit to move – if there are fewer than this, then the unit may not move.
+
+
+Unlike other vehicles (see next section), the gun models cannot fire if they moved at all in that turn’s Movement phase. Any crewman that is within 2&quot; of a gun in the Shooting phase can fire it. The crewmen firing the guns may not fire any weapons they are carrying, while the other crew members (and any independent character that joined the unit) are free to fire their side arms, and can even shoot against a different unit than the one targeted by the unit’s guns. The guns themselves cannot split fire. When firing the guns, there must be a line of sight to the target from both the gun model and the crewman firing it (unless they are barrage weapons, of course). Ranges are measured from the gun model.
+
+
+When firing against an artillery unit, roll for each hit inflicted: on a 1-4 a gun is hit, on a 5-6 a crewman is hit. Roll to wound the crewmen and to penetrate the guns’ armour separately. 
+
+
+If an artillery unit goes to ground, this has no additional protective effect on the unit’s guns. Artillery units cannot run in the Shooting phase.
+
+
+Artillery units may not launch assaults as long as they include any gun models.
+
+
+If they are assaulted, move the assaulting models in base contact with the crew and guns as normal, but from then on the guns are ignored. All engaged enemies roll to hit and to wound against the crew (even if they are only engaged with guns). Engaged crew models can of course fight back, but the guns do not.
+
+
+For the purposes of Morale and other Leadership tests, and for combat resolution, always ignore the gun models, as if they were not there. Because they need at least one crewman per gun in order for the unit to move, if an artillery unit does not have one crewman per gun when it is forced to fall back, the gun models without crewmen are abandoned and immediately removed. The rest of the unit then falls back as normal. If an artillery unit is forced to fall back from close combat and the enemy is free to make a sweeping advance, then the artillery unit automatically loses the Initiative roll and is caught and destroyed by the victor.</description>
+    </rule>
+    <rule name="Seize the Initiative" id="b310-4123-ffe4-bf41" hidden="false">
+      <description>In any standard mission, just before the player that should go first begins his first turn, the opponent can decide to try to steal the initiative. If he decides to do so, he rolls a dice. On a result of a 6, he will go first instead, immediately beginning his first turn (The opponent cannot try to seize it back).</description>
+    </rule>
+    <rule name="Master-crafted" id="03d9-2a91-7dcd-8f57" hidden="false">
+      <description>Master-crafted weapons may re-roll one failed roll to hit per player turn.</description>
+    </rule>
+    <rule name="Combi" id="bc6b-768b-66df-f39f" hidden="false">
+      <description>A Combi-weapon may only shoot using the Combi-profile once per game.</description>
+    </rule>
+    <rule name="Jump Infantry" id="4158-c955-9c2f-46f7" hidden="false">
+      <description>Jump infantry can use their jump packs (or equivalent) and move up to 12&quot; in the Movement phase. This is optional and they can choose to move as normal infantry if they wish. When using jump packs, they can move over all other models and all terrain freely. However, if a moving jump infantry model begins or ends its move in difficult terrain, it must take a dangerous terrain test. Jump infantry models may not end their move on top of other models or impassable terrain, except that they can end their move on top of impassable terrain if it is actually possible to place the models on top of it. If they do that, however, they treat the impassable terrain as dangerous terrain. All jump infantry units may enter the battle by ‘deep strike’.
+
+
+Jump infantry fall back 3D6&quot;, because they always use their jump packs when doing this. They move over any terrain and models when falling back, but if they end their move in difficult terrain (or on top of flat impassable terrain) they must still take a dangerous terrain test. They cannot end their move on top of other models, and must alter the direction of their fall back move as little as possible in order to avoid them, just as a normal unit would when falling back on foot. If they cannot do this, they are trapped and destroyed. 
+
+
+Jump infantry assault 6&quot; like normal infantry. This move is slowed by difficult terrain in the same way as other infantry, because the unit always covers the last few yards of an assault on foot. 
+
+
+
+</description>
+    </rule>
   </sharedRules>
   <publications>
     <publication name="Warhammer 40,000 5e Rulebook" id="ad9c-8597-0188-2ba0" hidden="false"/>
@@ -794,6 +846,22 @@ witchblade counts his Strength as 9.</characteristic>
     <profile name="Combat Shield" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="ece8-5e68-841f-2578">
       <characteristics>
         <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Combat Shield confers a 6+ Invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Autocannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0439-7ae4-6bcf-50ac">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Stalker Pattern Boltgun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="1e5a-8a0a-984b-4148">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2, Rending, Pinning</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

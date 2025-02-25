@@ -5333,14 +5333,6 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol</characteristic>
       </characteristics>
     </profile>
-    <profile name="Autocannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0439-7ae4-6bcf-50ac">
-      <characteristics>
-        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
-        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
-        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
-        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Bastion-breacher Shells" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="c6c5-3fee-c2b3-0307">
       <characteristics>
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
