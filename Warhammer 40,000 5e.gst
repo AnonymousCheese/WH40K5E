@@ -79,6 +79,7 @@
         <characteristicType name="Str." id="1ebc-896c-43de-904a"/>
         <characteristicType name="AP" id="730c-47dc-fdad-3c8b"/>
         <characteristicType name="Type" id="1524-30c8-5da7-66ff"/>
+        <characteristicType name="Notes" id="45fd-0f50-e1d0-907c"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Melee Weapons" id="1d88-1369-f0ed-b39c" hidden="false">
@@ -380,11 +381,31 @@ For the purposes of Morale and other Leadership tests, and for combat resolutio
 Jump infantry fall back 3D6&quot;, because they always use their jump packs when doing this. They move over any terrain and models when falling back, but if they end their move in difficult terrain (or on top of flat impassable terrain) they must still take a dangerous terrain test. They cannot end their move on top of other models, and must alter the direction of their fall back move as little as possible in order to avoid them, just as a normal unit would when falling back on foot. If they cannot do this, they are trapped and destroyed. 
 
 
-Jump infantry assault 6&quot; like normal infantry. This move is slowed by difficult terrain in the same way as other infantry, because the unit always covers the last few yards of an assault on foot. 
+Jump infantry assault 6&quot; like normal infantry. This move is slowed by difficult terrain in the same way as other infantry, because the unit always covers the last few yards of an assault on foot.</description>
+    </rule>
+    <rule name="Slow and Purposeful" id="450e-a01d-902c-326c" hidden="false">
+      <description>Models with this special rule are relentless. However, they always count as moving through difficult terrain (including in assaults). Remember that a slow and purposeful independent character will cause any unit he joins to move at his speed (and vice versa) as units have to move at the speed of the slowest model.</description>
+    </rule>
+    <rule name="Obscured Target" id="aea9-636a-767d-2636" hidden="false">
+      <description>A vehicle is obscured if: 
 
 
+• At least 50% of the facing of the vehicle that is being targeted (i.e. its front, side or rear) needs to be hidden by intervening terrain or models from the point of view of the firer for the vehicle to claim to be in cover. If this is the case, the vehicle is said to be obscured (or ‘hull down’). If a squad is firing at a vehicle, the vehicle is obscured only if it is 50% hidden from the majority of the firing models (do not count models that cannot hurt the vehicle). Just like with units of several models, if you’re not sure whether the vehicle is 50% in cover or not, simply modify its save by –1.
 
-</description>
+
+• Vehicles are not obscured simply for being inside area terrain. The 50% rule given above takes precedence.
+
+
+• Obviously, vehicles cannot go to ground, voluntarily or otherwise
+
+
+If the target is obscured and suffers a glancing or penetrating hit, it may take a cover save against it, exactly like a non-vehicle model would do against a wound (for example, a save of 5+ for a hedge, 4+ for a building, 3+ for a fortification, and so on). If the save is passed, the hit is discarded and no roll is made on the Vehicle Damage table.
+
+
+If a special rule or a piece of wargear confers to a vehicle the ability of being obscured even if in the open, this is a 4+ cover save, unless specified otherwise in the Codex. 
+
+
+It may rarely happen that the firing unit cannot see any part of the facing they are in (front, side or rear), but they can still see another facing of the target vehicle. In this case they may take the shot against the facing they can see, but to represent such an extremely angled shot, the vehicle receives a 3+ cover save.</description>
     </rule>
   </sharedRules>
   <publications>
@@ -398,6 +419,7 @@ Jump infantry assault 6&quot; like normal infantry. This move is slowed by diff
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Gets Hot!</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Meltagun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="a9bc-3c46-8c3e-c07a">
@@ -406,6 +428,7 @@ Jump infantry assault 6&quot; like normal infantry. This move is slowed by diff
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Melta</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Plasma Pistol" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="b62f-861c-897a-2966">
@@ -414,6 +437,7 @@ Jump infantry assault 6&quot; like normal infantry. This move is slowed by diff
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol, Gets Hot!</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Heavy Bolter" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="a9ff-3d1e-c9e1-c169">
@@ -422,6 +446,7 @@ Jump infantry assault 6&quot; like normal infantry. This move is slowed by diff
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Boltgun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="a682-d8a1-a764-7cf0">
@@ -430,6 +455,7 @@ Jump infantry assault 6&quot; like normal infantry. This move is slowed by diff
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Bolt Pistol" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="d1b6-0b7d-7649-7b73">
@@ -438,6 +464,7 @@ Jump infantry assault 6&quot; like normal infantry. This move is slowed by diff
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Lascannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="2965-8d8c-d5b0-8aa1">
@@ -446,6 +473,7 @@ Jump infantry assault 6&quot; like normal infantry. This move is slowed by diff
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Hunter-Killer Missile" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="ecc5-0991-ef00-23ac">
@@ -454,6 +482,7 @@ Jump infantry assault 6&quot; like normal infantry. This move is slowed by diff
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, One Shot</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Heavy Flamer" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="f83b-3e9d-4395-7a68">
@@ -462,6 +491,7 @@ Jump infantry assault 6&quot; like normal infantry. This move is slowed by diff
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Flamer" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="8e25-e118-f3a3-6ac8">
@@ -470,6 +500,7 @@ Jump infantry assault 6&quot; like normal infantry. This move is slowed by diff
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Storm Bolter" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="a37b-6942-f8fb-4aee">
@@ -478,6 +509,7 @@ Jump infantry assault 6&quot; like normal infantry. This move is slowed by diff
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Stubborn" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="5493-e844-f447-39ae">
@@ -535,6 +567,7 @@ shooting attack (but still cannot use the same power twice in a turn).</charact
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Multi-melta" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0b59-dfc6-9696-0b99">
@@ -543,6 +576,7 @@ shooting attack (but still cannot use the same power twice in a turn).</charact
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Melta</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Furious Charge" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="8f63-946f-5992-31e0">
@@ -633,6 +667,7 @@ This rule also confers a special outflank move to units of scouts that are kept
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast, Gets Hot!</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Fast" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="0e9a-ece3-5024-5d32">
@@ -734,6 +769,7 @@ witchblade counts his Strength as 9.</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">X</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Sniper</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Grenade Launcher (Frag)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="10bd-71f6-7fac-18b8">
@@ -742,6 +778,7 @@ witchblade counts his Strength as 9.</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Blast</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Grenade Launcher (Krak)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="52d0-c270-ad06-6656">
@@ -750,6 +787,7 @@ witchblade counts his Strength as 9.</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Chain Fist" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="5151-d1aa-1f80-cb94">
@@ -768,6 +806,7 @@ witchblade counts his Strength as 9.</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Missile Launcher (Krak)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="c290-fc2b-c332-8290">
@@ -776,6 +815,7 @@ witchblade counts his Strength as 9.</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Dozer Blade" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="071f-6e73-2a57-cfc4">
@@ -799,6 +839,7 @@ witchblade counts his Strength as 9.</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3, Twin-linked</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Twin-linked Heavy Flamer" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="ac52-5bdd-8a29-3bb1">
@@ -807,6 +848,7 @@ witchblade counts his Strength as 9.</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Twin-linked</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Twin-linked Assault Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="899c-a6c5-c4a7-4a80">
@@ -815,6 +857,7 @@ witchblade counts his Strength as 9.</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 4, Rending, Twin-linked</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Twin-linked Plasma Gun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="a04e-4283-5e46-f839">
@@ -823,6 +866,7 @@ witchblade counts his Strength as 9.</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Gets Hot!, Twin-linked</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Camo Cloak" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="cc7f-61e1-06b2-0dc6">
@@ -836,6 +880,7 @@ witchblade counts his Strength as 9.</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Mindlock" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="10a3-06dc-0087-35a7">
@@ -854,6 +899,7 @@ witchblade counts his Strength as 9.</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="Stalker Pattern Boltgun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="1e5a-8a0a-984b-4148">
@@ -862,6 +908,20 @@ witchblade counts his Strength as 9.</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2, Rending, Pinning</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+      </characteristics>
+    </profile>
+    <profile name="Acute Senses" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="253f-bb05-f8fd-fffd">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">When the Night Fighting mission special rule is in use, such models may choose to re-roll the test to determine how far they can see, but must abide by the new result. Characters with this rule confer it onto any unit they join, as long as they are part of the unit. Units with this rule confer it onto any characters joining them, as long as they are part of the unit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Jet Pack" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="738d-e5f9-d3a3-c049">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">In the Movement phase, they only move 6&quot; when using their packs, but are always allowed to move 6&quot; in the Assault phase, even if they don’t assault. When jet packers move in the Assault phase and do not assault, they treat difficult terrain just as other jump infantry do in the Movement phase.
+
+
+Models with jet packs have the Relentless special rule </characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

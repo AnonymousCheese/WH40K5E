@@ -47,6 +47,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2</characteristic>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
           </characteristics>
         </profile>
       </profiles>
@@ -183,6 +184,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
                             <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
                             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
                             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+                            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                           </characteristics>
                         </profile>
                         <profile name="Combi-plasma (plasma)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="caeb-74c6-3657-acf3">
@@ -191,6 +193,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
                             <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
                             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
                             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Gets Hot!, One Shot</characteristic>
+                            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -359,6 +362,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
                             <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
                             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
                             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Twin-linked</characteristic>
+                            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -421,6 +425,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
                             <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
                             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
                             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+                            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                           </characteristics>
                         </profile>
                         <profile name="Combi-plasma (plasma)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4ae0-aef5-0866-7c45">
@@ -429,6 +434,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
                             <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
                             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
                             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Gets Hot!, One Shot</characteristic>
+                            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -889,6 +895,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
                             <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
                             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
                             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+                            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                           </characteristics>
                         </profile>
                         <profile name="Combi-plasma (plasma)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="d097-a6e2-907d-f2e0">
@@ -897,6 +904,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
                             <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
                             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
                             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Gets Hot!, One Shot</characteristic>
+                            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1635,6 +1643,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
                     <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
                     <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
                     <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 4</characteristic>
+                    <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1677,6 +1686,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
                     <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
                     <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
                     <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+                    <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1740,6 +1750,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
                     <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
                     <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
                     <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
+                    <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                   </characteristics>
                 </profile>
                 <profile name="Vortex of Doom" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="34b3-3131-0dd5-b980">
@@ -2091,6 +2102,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
                     <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
                     <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
                     <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
+                    <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                   </characteristics>
                 </profile>
                 <profile name="Conversion Beamer (close)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="2c13-8050-4dd2-2d23">
@@ -2099,6 +2111,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
                     <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
                     <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
                     <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
+                    <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                   </characteristics>
                 </profile>
                 <profile name="Conversion Beamer (Mid)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="810d-d910-4f7e-8277">
@@ -2107,6 +2120,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
                     <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
                     <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
                     <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
+                    <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                   </characteristics>
                 </profile>
                 <profile name="Conversion Beamer (Long)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="af1e-071a-7268-cd18">
@@ -2115,6 +2129,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
                     <characteristic name="Str." typeId="1ebc-896c-43de-904a">Miss!</characteristic>
                     <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">n/a</characteristic>
                     <characteristic name="Type" typeId="1524-30c8-5da7-66ff">n/a</characteristic>
+                    <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                   </characteristics>
                 </profile>
                 <profile name="Conversion Beamer" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="aaec-111a-3a42-12ef">
@@ -2267,6 +2282,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
                 <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
                 <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
                 <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
               </characteristics>
             </profile>
             <profile name="Combi-plasma (plasma)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4ecb-49df-c661-6aea">
@@ -2275,6 +2291,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
                 <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
                 <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
                 <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Gets Hot!, One Shot</characteristic>
+                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3007,6 +3024,7 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
                     <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
                     <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
                     <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Large Blast</characteristic>
+                    <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3463,6 +3481,7 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
                         <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
                         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
                         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 4, Rending</characteristic>
+                        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3481,6 +3500,7 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
                         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
                         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
                         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2, Blast</characteristic>
+                        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                       </characteristics>
                     </profile>
                     <profile name="Cyclone missile launcher (Krak)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="b5c1-f9cd-3167-b92d">
@@ -3489,6 +3509,7 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
                         <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
                         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
                         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2</characteristic>
+                        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3967,6 +3988,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
                         <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
                         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
                         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 4, Rending</characteristic>
+                        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3985,6 +4007,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
                         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
                         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
                         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2, Blast</characteristic>
+                        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                       </characteristics>
                     </profile>
                     <profile name="Cyclone missile launcher (Krak)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e539-5916-00ba-f6d3">
@@ -3993,6 +4016,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
                         <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
                         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
                         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2</characteristic>
+                        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4390,6 +4414,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Ignores Cover</characteristic>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
           </characteristics>
         </profile>
         <profile name="Kraken Bolts" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="672f-ab56-69b4-547d">
@@ -4398,6 +4423,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
           </characteristics>
         </profile>
         <profile name="Vengeance Rounds" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0be4-a357-2d00-9c59">
@@ -4406,6 +4432,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Gets Hot!</characteristic>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4485,6 +4512,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
                     <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
                     <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
                     <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 4, Rending</characteristic>
+                    <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4698,6 +4726,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                     <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
                     <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
                     <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 4, Rending</characteristic>
+                    <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6749,6 +6778,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 4, Blast</characteristic>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
           </characteristics>
         </profile>
         <profile name="Airburst" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="2506-0896-9199-f03f">
@@ -6757,6 +6787,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 4, Blast, Ignores Cover</characteristic>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
           </characteristics>
         </profile>
         <profile name="Subterranean Blast" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="c5e0-7ecf-5ecf-2f6e">
@@ -6765,6 +6796,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 4, Blast, Tremor (Any unit hit by a subterranean blast will move as if in difficult terrain in its following Movement phase. If the unit is actually moving through difficult terrain, it rolls one less dice than normal to determine its maximum move. A vehicle hit by a Tremor shell must take a dangerous terrain test if it moves in the following Movement phase. This even applies to skimmers.</characteristic>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6926,6 +6958,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Barrage</characteristic>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
           </characteristics>
         </profile>
         <profile name="Whirlwind Multiple Missile Launcher (Incendiary Castellan Missiles)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="dfbd-5aaf-f84c-01c7">
@@ -6934,6 +6967,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Barrage, Ignore Cover</characteristic>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
           </characteristics>
         </profile>
       </profiles>
@@ -7012,6 +7046,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1</characteristic>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
           </characteristics>
         </profile>
       </profiles>
@@ -7195,6 +7230,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                     <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
                     <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
                     <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 4</characteristic>
+                    <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7241,6 +7277,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                     <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
                     <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
                     <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+                    <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7309,6 +7346,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                     <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
                     <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
                     <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
+                    <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
                   </characteristics>
                 </profile>
                 <profile name="Vortex of Doom" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="3108-3967-1a59-287c">
@@ -7346,6 +7384,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Master-crafted, Hellfire rounds</characteristic>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
           </characteristics>
         </profile>
         <profile name="Infernus (Flamer)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="5ece-243f-6de1-6c30">
@@ -7354,6 +7393,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Combi</characteristic>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
           </characteristics>
         </profile>
       </profiles>
@@ -7407,6 +7447,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 4</characteristic>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
           </characteristics>
         </profile>
       </profiles>
@@ -7553,6 +7594,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
           </characteristics>
         </profile>
         <profile name="Spear of Vulkan" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="cf74-9eec-af8e-48ad">
@@ -7750,6 +7792,7 @@ Terminators count as two models for the purposes of transport capacity and canno
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Barrage (This ability can be used once per game in the unit&apos;s shooting phase, provided they did not move in the preceding Movement phase (though they may later assault if the controlling player wishes). Calling down an orbital bombardment otherwise counts as firing a ranged weapon. Note that if an arrow is rolled on the scatter dice and orbital bombardment will always scatter the full 2D6&quot;, the model&apos;s Ballistic Skill makes no difference)</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Iron Halo" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="e427-87a4-ee08-b117">
@@ -7763,6 +7806,7 @@ Terminators count as two models for the purposes of transport capacity and canno
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Combi-flamer (Flamer)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="6895-2cfe-6f5b-8f88">
@@ -7771,6 +7815,7 @@ Terminators count as two models for the purposes of transport capacity and canno
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, One Shot</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Combi-melta (melta)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="38ae-bcac-62af-c514">
@@ -7779,6 +7824,7 @@ Terminators count as two models for the purposes of transport capacity and canno
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Melta, One Shot</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Combi-melta (Boltgun)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="aad5-fec1-bd21-2ae3">
@@ -7787,6 +7833,7 @@ Terminators count as two models for the purposes of transport capacity and canno
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Storm Shield" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="5567-540d-ea70-31b2">
@@ -7810,6 +7857,7 @@ Terminators count as two models for the purposes of transport capacity and canno
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">X</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Poisoned (2+)</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="Hellfire Rounds" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="43e4-63b6-176d-07fa">
@@ -7818,6 +7866,7 @@ Terminators count as two models for the purposes of transport capacity and canno
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">x</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid fire, Poisoned (2+)</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Artificer Armour" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="ade4-a747-5dea-4201">
@@ -7831,6 +7880,7 @@ Terminators count as two models for the purposes of transport capacity and canno
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Combi-plasma (plasma)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="fc49-01ea-f31c-7b76">
@@ -7839,6 +7889,7 @@ Terminators count as two models for the purposes of transport capacity and canno
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Gets Hot!, One Shot</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Space Marine Bike" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="10d2-59d9-3431-593e">
@@ -7852,6 +7903,7 @@ Terminators count as two models for the purposes of transport capacity and canno
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Twin-linked</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Psychic Hood" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="27ab-7b2d-35be-bdf6">
@@ -7878,6 +7930,7 @@ Each player then rolls a D6 and adds their model&apos;s leadership value to the 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol, Gets Hot!, Twin-linked (cannot be used in close combat)</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Blessing of the Omnissiah" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="f01b-6ffb-5123-f9e1">
@@ -7903,6 +7956,7 @@ If the result is 5 or more, then either a Weapon Destroyed result or Immobilised
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Twin-linked</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Hurricane Bolter" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e41f-e1ad-f76e-371b">
@@ -7911,6 +7965,7 @@ If the result is 5 or more, then either a Weapon Destroyed result or Immobilised
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">3x Rapid Fire, Twin Linked (This weapon counts as three twin-linked boltguns)</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Flamestorm Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="7d1b-6f01-48bf-6807">
@@ -7919,6 +7974,7 @@ If the result is 5 or more, then either a Weapon Destroyed result or Immobilised
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Dreadnought Close Combat Weapon" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="72a1-7ddd-b4ae-b945">
@@ -7951,6 +8007,7 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2, Blast</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Typhoon Missile Launcher (Krak)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="17d9-dded-cdcc-f05c">
@@ -7959,6 +8016,7 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Assault Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e43a-8d38-ba2b-c23b">
@@ -7967,6 +8025,7 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 4, Rending</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Astartes Grenade Launcher (Krak)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="f500-36c4-91b9-2bb7">
@@ -7975,6 +8034,7 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="Astartes Grenade Launcher (Frag)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="30dc-7722-86b5-be37">
@@ -7983,6 +8043,7 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Blast</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="Bolster Defenses" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="a58b-9566-2629-fe38">

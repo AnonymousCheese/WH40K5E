@@ -1110,6 +1110,7 @@ The executed model is immediately removed as a casualty, regardless of the numbe
                     <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
                     <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
                     <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance Barrage 1 (If a hit is rolled, the template scatters 2D6&quot; in the direction shown by the arrow on the &apos;Hit&apos; symbol. If an arrow is rolled, the template scatters an additional D6&quot; (for a total of 3D6&quot;). In either case, if the Master of Ordnance has line of sight to his target he then reduces the total distance scattered by his Ballistic Skill. This attack cannot be made if the Master of Ordnance moved in the preceding Movement phase)</characteristic>
+                    <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1366,6 +1367,7 @@ The executed model is immediately removed as a casualty, regardless of the numbe
                 <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
                 <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
                 <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2D6</characteristic>
+                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
               </characteristics>
             </profile>
             <profile name="Nightshroud" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="8d19-f4bc-7095-18f7">
@@ -1541,6 +1543,7 @@ The executed model is immediately removed as a casualty, regardless of the numbe
                         <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
                         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
                         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy1, Blast, Gets Hot!</characteristic>
+                        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3293,6 +3296,7 @@ It is worth pointing out that some armies might use different versions of smoke
                 <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
                 <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
                 <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Large Blast</characteristic>
+                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3408,6 +3412,7 @@ It is worth pointing out that some armies might use different versions of smoke
                 <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
                 <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
                 <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 4, Twin-linked</characteristic>
+                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3543,6 +3548,7 @@ It is worth pointing out that some armies might use different versions of smoke
                 <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
                 <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
                 <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1 (Shots with a vindicator cannon roll and additional D6 when rolling for armour penetration)</characteristic>
+                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3678,6 +3684,7 @@ It is worth pointing out that some armies might use different versions of smoke
                 <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
                 <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
                 <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Large Blast (Cover saves may not be taken against wounds caused by an Eradicator nova cannon)</characteristic>
+                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3813,6 +3820,7 @@ It is worth pointing out that some armies might use different versions of smoke
                 <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
                 <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
                 <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Large Blast</characteristic>
+                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3948,6 +3956,7 @@ It is worth pointing out that some armies might use different versions of smoke
                 <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
                 <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
                 <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 20</characteristic>
+                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4083,6 +4092,7 @@ It is worth pointing out that some armies might use different versions of smoke
                 <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
                 <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
                 <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3, Blast</characteristic>
+                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4213,6 +4223,7 @@ It is worth pointing out that some armies might use different versions of smoke
                 <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
                 <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
                 <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2</characteristic>
+                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
               </characteristics>
             </profile>
             <profile name="Twin-linked Hydra autocannons" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="85b5-6e32-9938-483b">
@@ -4221,6 +4232,7 @@ It is worth pointing out that some armies might use different versions of smoke
                 <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
                 <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
                 <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2</characteristic>
+                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
               </characteristics>
             </profile>
             <profile name="Hydra" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="c013-3537-c793-9012">
@@ -4324,6 +4336,7 @@ It is worth pointing out that some armies might use different versions of smoke
                 <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
                 <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
                 <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance Barrage 1, Large Blast</characteristic>
+                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4459,6 +4472,7 @@ It is worth pointing out that some armies might use different versions of smoke
                         <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
                         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
                         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast (Shots from a bastion-breacher shell roll an additional D6 when determining armour penetration)</characteristic>
+                        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4471,6 +4485,7 @@ It is worth pointing out that some armies might use different versions of smoke
                         <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
                         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
                         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Large Blast</characteristic>
+                        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4505,6 +4520,7 @@ It is worth pointing out that some armies might use different versions of smoke
                 <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
                 <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
                 <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance Barrage 1, Large Blast (A colossus siege mortar cannot fire directly. In addition, cover saves may not be taken against hits from a Colossus siege mortar)</characteristic>
+                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4582,6 +4598,7 @@ It is worth pointing out that some armies might use different versions of smoke
                 <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
                 <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
                 <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance Barrage 1, Large Blast (A Griffon heavy mortar cannot fire directly)</characteristic>
+                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
               </characteristics>
             </profile>
             <profile name="Accurate Bombardment" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="293b-ffa8-2920-657f">
@@ -4666,6 +4683,7 @@ It is worth pointing out that some armies might use different versions of smoke
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance Barrage D3, Large Blast (Roll each time the Manticore Rocket launcher fires)</characteristic>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
           </characteristics>
         </profile>
         <profile name="Limited Ammunition" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="0e75-042b-122e-b659">
@@ -4730,6 +4748,7 @@ It is worth pointing out that some armies might use different versions of smoke
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance Barrage, One Shot Only, D3+3&quot; Blast (The Deathstrike missile cannot fire directly. The weapon has a variable blast radius. Once the final position of the missile has been determined, mark the impace point with a counter and roll to determine the blast radius. All models within range of the impace point are hit. Note that as the blast does not have a &apos;cantre of blast&apos;, it&apos;s full strength of 10 is used for armour penetration. Cover saves may not be taken against hits caused by a Deathstrike missile)</characteristic>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
           </characteristics>
         </profile>
         <profile name="T-Minus five minutes to launch... and counting" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="c700-e2d1-1051-7706">
@@ -4813,6 +4832,7 @@ Note that the Deathstrike Missile cannot be destroyed by a weapon destroyed resu
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol, Twin-linked</characteristic>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
           </characteristics>
         </profile>
         <profile name="Supreme Commander" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="9120-419e-7270-b3f2">
@@ -5331,6 +5351,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Bastion-breacher Shells" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="c6c5-3fee-c2b3-0307">
@@ -5339,6 +5360,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="Chem Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="9c39-b43a-3a39-94e7">
@@ -5347,6 +5369,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">1</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy, Poisoned (2+)</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="Demolition Charge" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="5257-38e9-039a-1a90">
@@ -5355,6 +5378,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Large Blast, One Shot Only</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="Eradicator Nova Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="7482-4f26-f568-a0aa">
@@ -5363,6 +5387,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy, Large Blast</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="Executioner Plasma Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="9a66-388c-2031-4e20">
@@ -5371,6 +5396,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3, Blast</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="Exterminator Autocannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="498a-9532-02ef-e521">
@@ -5379,6 +5405,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 4, Twin-linked</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="Lasgun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="3d2e-5448-edbf-a00a">
@@ -5387,6 +5414,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="Guardsman" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="b2de-546d-01f6-63e5">
@@ -5413,6 +5441,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast, Barrage</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="Chimera Armored Transport" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="6c7f-e0f5-f0d6-396d">
@@ -5429,6 +5458,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="Heavy Stubber" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="18dc-70dc-46bc-2834">
@@ -5437,6 +5467,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="First Rank, FIRE! Second Rank, FIRE!" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="edf8-122b-c682-0873">
@@ -5498,6 +5529,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="Carapace Armour" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="39a4-9761-14b0-f80f">
@@ -5516,6 +5548,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">X</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol, Sniper</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="Camo Netting" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="6d53-02aa-4b3e-2123">
@@ -5542,6 +5575,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Melta, Blast</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="Inferno Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e55b-09f1-6879-96a1">
@@ -5550,6 +5584,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="Chem Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="367e-3284-3183-c2a8">
@@ -5558,6 +5593,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">1</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Poisoned (2+)</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="Hellstrike Missiles" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="b414-a702-d75c-507e">
@@ -5566,6 +5602,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, One Shot</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="Multiple rocket pods" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e67a-1686-a377-67d8">
@@ -5574,6 +5611,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Large Blast</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="Hot-shot Laspistol" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="d57f-df99-38fa-f6ab">
@@ -5582,6 +5620,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="For the Honour of Cadia!" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="7e34-8f18-ea16-d83e">
@@ -5605,6 +5644,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="Bulky" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="1c0a-0c56-c294-9c52">
