@@ -422,6 +422,18 @@ It may rarely happen that the firing unit cannot see any part of the facing the
 
 All Eldar jetbikes (including Dark Eldar ones) are allowed to move 6&quot; in the Assault phase, even if they don’t assault. When Eldar jetbikes move in the Assault phase and do not assault, they treat difficult terrain in the same way as other jetbikes do in the Movement phase.</description>
     </rule>
+    <rule name="Monstrous Creature" id="6b1b-944b-162c-6851" hidden="false">
+      <description>All monstrous creatures have the ‘move through cover’ special rule. 
+
+
+Instead of firing a single weapon, monstrous creatures can fire two of their weapons once per Shooting phase. They must, of course, fire both of them at the same enemy target. In addition, monstrous creatures have the ‘relentless’ special rule.
+
+
+Unless otherwise specified in their special rules, monstrous creatures cannot go to ground, voluntarily or otherwise. In addition, for a monstrous creature to be in cover, at least 50% of its body has to be in cover from the point of view of the majority of the firing models. Also, standing in area terrain does not automatically confer a cover save to monstrous creatures – the 50% rule takes precedence. Cover for them works exactly as for vehicles. As usual, if you cannot clearly tell if 50% of the model’s body is covered, modify its cover save by –1.
+
+
+All wounds inflicted in close combat by a monstrous creature ignore armour saves, just like those from a power weapon. In addition, monstrous creatures roll an additional D6 for armour penetration (2D6 + Strength) when attacking a vehicle in close combat.</description>
+    </rule>
   </sharedRules>
   <publications>
     <publication name="Warhammer 40,000 5e Rulebook" id="ad9c-8597-0188-2ba0" hidden="false"/>
@@ -944,6 +956,11 @@ Models with jet packs have the Relentless special rule</characteristic>
 
 
 This rule cannot be used if, when assaulted, the unit was already locked in combat from a previous turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Daemon" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="f85c-0fbe-ac30-71e4">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This model has a 4+ invulnerable save.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

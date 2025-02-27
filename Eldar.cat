@@ -770,6 +770,109 @@
         <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">The Farseer can target any non-vehicle unit within 24&quot;. All hits caused upon that unit gain a re-roll to wound until the start of the next Eldar turn.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Eldritch Storm" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4526-37a8-2771-ea9e">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Large Blast, Pinning</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">The Eldar player places the Large blast marker centred on an enemy model within 18&quot;. Vehicles touched by the template suffer a hit with 2D6+3 armour penetration and are spun around to face in a direction determined by the scatter dice - if a hit is rolled, the Eldar player may choose its facing.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fortune" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="d310-768f-edc0-1851">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">Nominate one Eldar unit with a model within 6&quot; of the Farseer. This unit re-rolls any failed saves it makes until the start of the next Eldar turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Guide" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="7d0a-f869-4ba3-d77c">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">Nominate one Eldar unit with a model within 6&quot; of the Farseer. This unit re-rolls any failed to hit rolls made in that turn&apos;s shooting phase. If the unit is using a barrage weapon (such as a D-cannon) you may re-roll their scatter dice instead.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mind War" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="b085-0826-4130-759a">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This psychic power is used in the shooting phase instead of a weapon. The Eldar player may choose any unengaged model within 18&quot; of the Farseer and within his line of sight (models mounted in vehicles cannot be targeted). Both players roll a D6 and add the Leadership of their respective models. For each point the Farseer wins by, the target loses a wound, with no armour saves allowed.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wrist-mounted Avenger Shuriken Catapults" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0f18-d71c-4959-5577">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 4</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Bladestorm" typeId="56e3-7b0a-703a-e89d" typeName="Exarch Power" hidden="false" id="5330-f7e5-6561-5746">
+      <characteristics>
+        <characteristic name="Description" typeId="30bc-cf7e-dc4a-3be1">The Exarch and his squad may choose to add one to the number of shots they each fire with their Shuriken weapons that turn. If they do so they may not fire in the subsequent shooting phase as they reload.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Defend" typeId="56e3-7b0a-703a-e89d" typeName="Exarch Power" hidden="false" id="a8a7-0b93-5bdc-ce5c">
+      <characteristics>
+        <characteristic name="Description" typeId="30bc-cf7e-dc4a-3be1">Enemy models directing their attacks towards the Exarch&apos;s squad lose one Attack in each assault phase (to a minimum of 1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="War Shout" typeId="56e3-7b0a-703a-e89d" typeName="Exarch Power" hidden="false" id="9f30-2738-6be2-fccf">
+      <characteristics>
+        <characteristic name="Description" typeId="30bc-cf7e-dc4a-3be1">In the first round of an assault, any enemy unit she or her squad is fighting must pass a Morale test or count as having WS1 for the rest of that assault phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Acrobatic" typeId="56e3-7b0a-703a-e89d" typeName="Exarch Power" hidden="false" id="4a27-edc9-6fbb-7f3e">
+      <characteristics>
+        <characteristic name="Description" typeId="30bc-cf7e-dc4a-3be1">This unit has the Counter-Attack special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tank Hunters" typeId="56e3-7b0a-703a-e89d" typeName="Exarch Power" hidden="false" id="3151-3abf-952c-8046">
+      <characteristics>
+        <characteristic name="Description" typeId="30bc-cf7e-dc4a-3be1">The Exarch and his squad have the Tank Hunter ability.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Crack Shot" typeId="56e3-7b0a-703a-e89d" typeName="Exarch Power" hidden="false" id="6eb5-0805-00c4-cb1b">
+      <characteristics>
+        <characteristic name="Description" typeId="30bc-cf7e-dc4a-3be1">The enemy may not make cover saves against shots from the Exarch, and the Exarch may re-roll any failed to wound rolls when shooting.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shadowstrike" typeId="56e3-7b0a-703a-e89d" typeName="Exarch Power" hidden="false" id="abfd-8e97-eda9-89b2">
+      <characteristics>
+        <characteristic name="Description" typeId="30bc-cf7e-dc4a-3be1">A squad including a model with Shadowstrike has the Infiltrate special rule. This ability cannot affect and Autarch</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Stalker" typeId="56e3-7b0a-703a-e89d" typeName="Exarch Power" hidden="false" id="c50d-564f-0bda-2327">
+      <characteristics>
+        <characteristic name="Description" typeId="30bc-cf7e-dc4a-3be1">This unit has the Move Through Cover special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fast Shot" typeId="56e3-7b0a-703a-e89d" typeName="Exarch Power" hidden="false" id="1e50-f4b0-d60a-6158">
+      <characteristics>
+        <characteristic name="Description" typeId="30bc-cf7e-dc4a-3be1">The Exarch may add +1 to the number of shots fired by his weapon (for example, Heavy 2 becomes Heavy 3). Fast Shot may not be used by an Exarch in the same turn as he used Crack Shot.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Skyleap" typeId="56e3-7b0a-703a-e89d" typeName="Exarch Power" hidden="false" id="111d-993e-7705-4f5d">
+      <characteristics>
+        <characteristic name="Description" typeId="30bc-cf7e-dc4a-3be1">The player may elect to remove a unit with Skyleap from the table in its movement phase, placing it in reserve. If the squad was engaged in combat, the enemy may then Deep Strike back into play from their following turn, exactly as if they had been held in reserve from the beginning of the game (even in missions that do not allow Deep Strike or reserves). For example, if they are removed from the table on turn 2, they will re-enter play on turn 3 on the roll of a 3+.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Intercept" typeId="56e3-7b0a-703a-e89d" typeName="Exarch Power" hidden="false" id="bf0d-a365-5a90-b051">
+      <characteristics>
+        <characteristic name="Description" typeId="30bc-cf7e-dc4a-3be1">In assaults, they never require worse than 4+ to hit vehicles that do not have a WS.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Surprise Assault" typeId="56e3-7b0a-703a-e89d" typeName="Exarch Power" hidden="false" id="0035-71f9-cc53-d5c1">
+      <characteristics>
+        <characteristic name="Description" typeId="30bc-cf7e-dc4a-3be1">The Exarch and his squad may always use the Deep Strike rule, regardless of the mission being played.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Withdraw" typeId="56e3-7b0a-703a-e89d" typeName="Exarch Power" hidden="false" id="27fb-830a-f3ca-e7ea">
+      <characteristics>
+        <characteristic name="Description" typeId="30bc-cf7e-dc4a-3be1">The Exarch&apos;s unit has the Hit and Run special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Skilled Rider" typeId="56e3-7b0a-703a-e89d" typeName="Exarch Power" hidden="false" id="4e93-8dc5-3b3b-7ac9">
+      <characteristics>
+        <characteristic name="Description" typeId="30bc-cf7e-dc4a-3be1">The Exarch and his unit have the Skilled Rider ability.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Autarch" hidden="false" id="b9fb-9d94-2b5c-bfe1">
@@ -931,6 +1034,7 @@
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="55"/>
       </costs>
       <infoLinks>
+        <infoLink targetId="50c7-0050-7401-e053" id="006c-6f8a-2bbc-4325" type="rule" name="Farseer Psychic Powers" hidden="false"/>
         <infoLink targetId="6d20-f315-c90f-8850" id="cd2b-24d8-5452-8d5c" type="profile" name="Rune Armour" hidden="false"/>
         <infoLink targetId="a44a-6c86-57a8-b3cd" id="dc93-f8ba-4733-261e" type="profile" name="Ghosthelm" hidden="false"/>
         <infoLink name="Farseer" id="9b8a-dd37-1987-0437" hidden="false" type="profile" targetId="ed77-eaa0-ba18-1fc3"/>
@@ -1116,17 +1220,9 @@
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0477-e18f-d030-4eaa"/>
               </constraints>
-              <profiles>
-                <profile name="Eldritch Storm" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4526-37a8-2771-ea9e">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
-                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
-                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
-                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Large Blast, Pinning</characteristic>
-                    <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">The Eldar player places the Large blast marker centred on an enemy model within 18&quot;. Vehicles touched by the template suffer a hit with 2D6+3 armour penetration and are spun around to face in a direction determined by the scatter dice - if a hit is rolled, the Eldar player may choose its facing.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink targetId="4526-37a8-2771-ea9e" id="7fe8-4571-d870-a63a" type="profile" name="Eldritch Storm" hidden="false"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Fortune" hidden="false" id="eb79-4c1e-c46e-a43a">
               <costs>
@@ -1135,13 +1231,9 @@
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="adf9-ece9-92d0-3727"/>
               </constraints>
-              <profiles>
-                <profile name="Fortune" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="d310-768f-edc0-1851">
-                  <characteristics>
-                    <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">Nominate one Eldar unit with a model within 6&quot; of the Farseer. This unit re-rolls any failed saves it makes until the start of the next Eldar turn.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink targetId="d310-768f-edc0-1851" id="c111-4d0a-953e-e666" type="profile" name="Fortune" hidden="false"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Guide" hidden="false" id="f57c-0de4-1658-b319">
               <costs>
@@ -1150,13 +1242,9 @@
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a090-5d68-92f5-aa8f"/>
               </constraints>
-              <profiles>
-                <profile name="Guide" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="7d0a-f869-4ba3-d77c">
-                  <characteristics>
-                    <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">Nominate one Eldar unit with a model within 6&quot; of the Farseer. This unit re-rolls any failed to hit rolls made in that turn&apos;s shooting phase. If the unit is using a barrage weapon (such as a D-cannon) you may re-roll their scatter dice instead.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink targetId="7d0a-f869-4ba3-d77c" id="1428-311d-ef50-1fcc" type="profile" name="Guide" hidden="false"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Mind War" hidden="false" id="57f3-8cbf-9417-cbe5">
               <costs>
@@ -1165,22 +1253,228 @@
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="62b8-0a63-0321-2e6e"/>
               </constraints>
-              <profiles>
-                <profile name="Mind War" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="b085-0826-4130-759a">
-                  <characteristics>
-                    <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This psychic power is used in the shooting phase instead of a weapon. The Eldar player may choose any unengaged model within 18&quot; of the Farseer and within his line of sight (models mounted in vehicles cannot be targeted). Both players roll a D6 and add the Leadership of their respective models. For each point the Farseer wins by, the target loses a wound, with no armour saves allowed.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink targetId="b085-0826-4130-759a" id="9e13-1ca1-9fad-4021" type="profile" name="Mind War" hidden="false"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <rules>
-        <rule name="Farseer Psychic Powers" id="50c7-0050-7401-e053" hidden="false">
-          <description>Farseer Powers are used at the start of the Eldar turn and do not require the Eldar Psyker to have line of sight to the target.</description>
-        </rule>
-      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Avatar of Khaine" hidden="false" id="7145-e874-4b23-3180">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="155"/>
+      </costs>
+      <profiles>
+        <profile name="Inspiring" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="9764-6eb9-c8c8-e1ec">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Any Eldar unit with a model within 12&quot; of the Avatar becomes Fearless.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Molten Body" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="5a63-51f3-dfc8-800f">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Melta weapons, flamers and heavy flamers cannot wound the Avatar.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="The Wailing Doom" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0223-f9fd-e661-a358">
+          <characteristics>
+            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+            <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Melta</characteristic>
+            <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink targetId="6b1b-944b-162c-6851" id="d3c9-3b35-2900-40b2" type="rule" name="Monstrous Creature" hidden="false"/>
+        <infoLink targetId="f85c-0fbe-ac30-71e4" id="8e79-33b6-622c-df9a" type="profile" name="Daemon" hidden="false"/>
+        <infoLink name="Avatar" id="90cf-5dc6-233d-d17d" hidden="false" type="profile" targetId="d638-e667-4345-c14c"/>
+        <infoLink name="Fearless" id="a39c-9a3e-36fb-6e15" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Prince Yriel of Iyanden" hidden="false" id="fd06-d26f-01b0-0dcc">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="155"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Forceshield" id="85cf-c606-a94f-1895" hidden="false" type="profile" targetId="d22a-e1bb-dbd6-b516"/>
+        <infoLink name="Yriel" id="406c-2474-41ed-7691" hidden="false" type="profile" targetId="19e7-3d25-eccf-297d"/>
+        <infoLink name="Plasma Grenades" id="3335-f80b-1314-5df5" hidden="false" type="profile" targetId="f199-6b5f-7b3d-f011"/>
+        <infoLink name="Independent Character" id="9585-49b1-4c80-e631" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Master Strategist" id="1bfd-dd99-96f3-5fa6" hidden="false" type="profile" targetId="e419-7f8e-7b40-28e4"/>
+        <infoLink name="Fleet" id="bc22-84ab-fe56-756d" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Doomed" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="3ee8-08bb-b12e-b785">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">At the end of every game, Yriel suffers one automatic wound from his own weapon. Yriel may take his forceshield save as normal.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Spear of Twilight" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="37b2-199b-4250-11d5">
+          <characteristics>
+            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This weapon is a singing spear that ignores armour saves.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Eye of Wrath" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="84fd-711f-46a9-9da5">
+          <characteristics>
+            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Once per game, Yriel can activate the Eye of Wrath in lieu of making his normal attack in assault. Place the large blast template with the hole centred over Yriel; all models under the template take a Strength 6 hit at AP 3. Yriel is not affected.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Eldrad Ulthran" hidden="false" id="3a1d-2234-82ac-f7d7">
+      <infoLinks>
+        <infoLink name="Eldrad Ulthran" id="f7ad-e84a-ffd3-03b9" hidden="false" type="profile" targetId="c707-cf8a-b5b3-1b7e"/>
+        <infoLink name="Shuriken Pistol" id="f3a7-ad53-9bfd-be86" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+        <infoLink name="Runes of Warding" id="e86b-6b15-6df4-5617" hidden="false" type="profile" targetId="a533-3584-4847-4d9e"/>
+        <infoLink name="Runes of Witnessing" id="878b-4242-0f07-0e70" hidden="false" type="profile" targetId="68f7-d23e-0003-f5da"/>
+        <infoLink name="Ghosthelm" id="603f-6c55-f8b1-f18f" hidden="false" type="profile" targetId="a44a-6c86-57a8-b3cd"/>
+        <infoLink name="Spirit Stones" id="fcaf-a8ae-f7dc-5ad1" hidden="false" type="profile" targetId="69dc-1c6c-deb2-375d"/>
+        <infoLink name="Witchblade" id="607a-cbfa-8b44-4232" hidden="false" type="profile" targetId="d9ba-84db-8924-20a3"/>
+        <infoLink name="Eldritch Storm" id="5252-996c-789c-0c51" hidden="false" type="profile" targetId="4526-37a8-2771-ea9e"/>
+        <infoLink name="Fortune" id="d5d7-4fcc-3f44-7a47" hidden="false" type="profile" targetId="d310-768f-edc0-1851"/>
+        <infoLink name="Guide" id="e20b-ad25-2584-3059" hidden="false" type="profile" targetId="7d0a-f869-4ba3-d77c"/>
+        <infoLink name="Doom" id="8081-7315-7d23-6f1c" hidden="false" type="profile" targetId="e532-a72d-30b4-07c7"/>
+        <infoLink name="Mind War" id="c06f-55d1-a90f-4196" hidden="false" type="profile" targetId="b085-0826-4130-759a"/>
+        <infoLink name="Independent Character" id="8923-97e5-2493-ebdd" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Farseer Psychic Powers" id="0bd5-859c-275e-c6dd" hidden="false" type="rule" targetId="50c7-0050-7401-e053"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="210"/>
+      </costs>
+      <profiles>
+        <profile name="Rune Armour" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="a884-fdc2-eeaf-ce09">
+          <characteristics>
+            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The bearer gains a 3+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Divination" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="2849-6069-1b89-8058">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">After both sides have deployed at the start of a game, the Eldar player may reposition D3+1 units in his army. No unit may be moved outside of its deployment zone.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Staff of Ulthamar" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="65cc-0965-7af8-d951">
+          <characteristics>
+            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This staff counts as a power weapon. If Eldrad is not in an assault it can allow Eldrad to use a third psychic power per turn, which may be a psychic power he has already used that turn. In combat it always wounds on a roll of 2+ and ignores armour saves.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="unit" import="true" name="Warlock Bodyguard" hidden="false" id="37ef-df73-f7ab-9156" collective="true">
+          <infoLinks>
+            <infoLink name="Warlock Power" id="3c60-9158-770c-20c3" hidden="false" targetId="6622-8fbf-6aa8-2e1e" type="rule"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d4c-0e0e-dbd6-b61e"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Warlocks" hidden="false" id="fcb1-c1c7-78e7-cec5" collective="true">
+              <infoLinks>
+                <infoLink name="Warlock" id="1a11-84a7-4003-2d01" hidden="false" type="profile" targetId="b454-b372-499d-fc15"/>
+                <infoLink name="Rune Armour" id="e819-5a65-9903-f84d" hidden="false" type="profile" targetId="6d20-f315-c90f-8850"/>
+                <infoLink name="Shuriken Pistol" id="065a-27d2-f34b-2ee9" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+                <infoLink name="Witchblade" id="6e88-8d35-1a55-3721" hidden="false" type="profile" targetId="d9ba-84db-8924-20a3"/>
+                <infoLink name="Fleet" id="3f39-7151-ec0f-500b" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="5089-8c12-5a96-ec80"/>
+                <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="6f71-203a-0148-cdfd"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="All Warlocks may buy one Warlock Psychic power" id="b9be-1b3a-ee0f-faf6" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Conceal" hidden="false" id="46b2-389e-6017-db9b">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Conceal" id="d4ed-cce8-5eef-10c1" hidden="false" targetId="0e7f-1bf2-7bf4-f188" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Destructor" hidden="false" id="1612-07ef-ab45-89de">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Destructor" id="ca37-8cf6-513c-e6ad" hidden="false" targetId="5a25-42f8-99b9-744c" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Embolden" hidden="false" id="1200-28c7-0abb-82e9">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Embolden" id="4424-1106-f9e5-e18d" hidden="false" targetId="9231-7d9c-5717-f72d" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Enhance" hidden="false" id="c345-d333-4be2-a68f">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Enhance" id="1b31-83ba-921c-c76e" hidden="false" targetId="d7ae-b2cd-f69b-41e3" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="24ef-45a6-5d26-dd33"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="All Warlocks may choose from the following:" id="5996-d02e-eed1-f667" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Upgrade to Spiritseet" hidden="false" id="2d30-80db-09e2-827c">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Spiritseet" id="78b6-dca0-69f0-6773" hidden="false" targetId="4eba-d802-81e0-644e" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Upgrade Witchblade to Singing Spear" hidden="false" id="aba0-bc5c-354b-9300">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Singing Spear" id="b315-4352-833c-56e5" hidden="false" type="profile" targetId="270c-bcfc-0b28-1be2"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Mount all Warlocks in the unit on Eldar jetbikes (Set to number of models)" hidden="false" id="172b-9ac4-67b8-ff08">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Jetbike" id="8046-7a53-15de-26d8" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Asurmen" hidden="false" id="c8e5-e2d1-c8d2-a9e5">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="230"/>
+      </costs>
+      <profiles>
+        <profile name="Sword of Asur" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="e8c4-1d22-77d0-bf89">
+          <characteristics>
+            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">The Sword of Asur is a diresword that allows Asurmen to re-roll misses in close combat.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Wrist-mounted Avenger Shuriken Catapults" id="8b24-cc86-7495-fcf8" hidden="false" type="profile" targetId="0f18-d71c-4959-5577"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink targetId="bde0-bf0a-44b9-d62d" id="2acf-77f6-3e70-c299" type="selectionEntryGroup" name="Phoenix Lord" hidden="false"/>
+      </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <infoLinks>
@@ -1197,10 +1491,61 @@
         <categoryLink targetId="ac8d-efba-1884-d3ad" id="98e3-f611-94f1-7451" primary="true" name="HQ"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Avatar of Khaine" hidden="false" id="cea3-078e-0572-5f7d" type="selectionEntry" targetId="7145-e874-4b23-3180">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="70ee-abff-b5bf-5343" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bcfe-0f0a-6bab-2afb"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Prince Yriel of Iyanden" hidden="false" id="6693-bde9-875c-e12f" type="selectionEntry" targetId="fd06-d26f-01b0-0dcc">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2679-d4ab-91a6-511d"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="0ce2-684c-2685-cbf1" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Eldrad Ulthran" hidden="false" id="cdc7-e9fe-63c4-6779" type="selectionEntry" targetId="3a1d-2234-82ac-f7d7">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="2a8b-0080-0658-77f3" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec5f-84fd-3e8e-0488"/>
+      </constraints>
+    </entryLink>
   </entryLinks>
   <sharedRules>
     <rule name="Warlock Power" id="6622-8fbf-6aa8-2e1e" hidden="false">
       <description>Warlock powers are available permanently, so he does not need to take a Psychic test to use it.</description>
     </rule>
+    <rule name="Farseer Psychic Powers" id="50c7-0050-7401-e053" hidden="false">
+      <description>Farseer Powers are used at the start of the Eldar turn and do not require the Eldar Psyker to have line of sight to the target.</description>
+    </rule>
   </sharedRules>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Phoenix Lord" id="bde0-bf0a-44b9-d62d" hidden="false">
+      <profiles>
+        <profile name="Disciplines" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="ddc5-5505-cd9d-6897">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If the Phoenix Lord is leading a squad of their Aspect, the whole squad becomes Fearless. Phoenix Lords cannot join Aspect Warrior squads not of their Aspect. Note that if a squad has two of the same Exarch power, they are not cumulative.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Eternal Warrior" id="e936-55fa-94ed-0e4c" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
+        <infoLink name="Fearless" id="9188-95f4-4146-bd87" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Fleet" id="a71c-b348-558c-145b" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Independent Character" id="6aeb-9bd6-8c4d-dbbc" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+      </infoLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <profileTypes>
+    <profileType name="Exarch Power" id="56e3-7b0a-703a-e89d" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Description" id="30bc-cf7e-dc4a-3be1"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
 </catalogue>
