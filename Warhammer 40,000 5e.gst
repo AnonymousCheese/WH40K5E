@@ -407,6 +407,21 @@ If a special rule or a piece of wargear confers to a vehicle the ability of bei
 
 It may rarely happen that the firing unit cannot see any part of the facing they are in (front, side or rear), but they can still see another facing of the target vehicle. In this case they may take the shot against the facing they can see, but to represent such an extremely angled shot, the vehicle receives a 3+ cover save.</description>
     </rule>
+    <rule name="Jetbike" id="a523-0c5b-eb97-f0a0" hidden="false">
+      <description>Jetbikes are the same as bikes, with the following exceptions: 
+
+
+• In the Movement phase, jetbikes can move over all other models and all terrain freely. However, if a moving jetbike begins or ends its move in difficult terrain, it must take a dangerous terrain test. Jetbikes may not end their move over other models or impassable terrain, except that they can end their move on top of impassable terrain if it is actually possible to place the models on top of it. If they do that, however, they treat the impassable terrain as dangerous terrain. 
+
+
+• In the Assault phase, jetbikes are treated like normal bikes when assaulting, as they must move close to the ground in order to fight.
+
+
+• When falling back, jetbikes move over any terrain and models, but if they end their move in difficult terrain (or on top of flat impassable terrain) they must still take a dangerous terrain test. They cannot end their move on top of other models, and must alter the direction of their fall back move as little as possible in order to avoid them, just as a normal unit would when falling back on foot. If they cannot do this, they are trapped and immediately destroyed. 
+
+
+All Eldar jetbikes (including Dark Eldar ones) are allowed to move 6&quot; in the Assault phase, even if they don’t assault. When Eldar jetbikes move in the Assault phase and do not assault, they treat difficult terrain in the same way as other jetbikes do in the Movement phase.</description>
+    </rule>
   </sharedRules>
   <publications>
     <publication name="Warhammer 40,000 5e Rulebook" id="ad9c-8597-0188-2ba0" hidden="false"/>
@@ -759,8 +774,7 @@ Roll to hit and wound as normal, allowing any invulnerable saving throws the vi
     </profile>
     <profile name="Witchblade" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="d9ba-84db-8924-20a3">
       <characteristics>
-        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">All hits scored in close combat by models armed with a witchblade inflict wounds on a roll of 2+, regardless of the target’s Toughness. Armour saves are taken as normal. Against vehicles, the wielder of a
-witchblade counts his Strength as 9.</characteristic>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">All hits scored in close combat by models armed with a witchblade inflict wounds on a roll of 2+, regardless of the target’s Toughness. Armour saves are taken as normal. Against vehicles, the wielder of a witchblade counts his Strength as 9.</characteristic>
       </characteristics>
     </profile>
     <profile name="Sniper Rifle" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e691-3702-5252-d630">
@@ -921,7 +935,15 @@ witchblade counts his Strength as 9.</characteristic>
         <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">In the Movement phase, they only move 6&quot; when using their packs, but are always allowed to move 6&quot; in the Assault phase, even if they don’t assault. When jet packers move in the Assault phase and do not assault, they treat difficult terrain just as other jump infantry do in the Movement phase.
 
 
-Models with jet packs have the Relentless special rule </characteristic>
+Models with jet packs have the Relentless special rule</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Counter-Attack" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="98cd-d727-4827-db44">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">When a unit with this rule is assaulted by the enemy it must take a Leadership test. If the test is successful all models in the unit get the +1 assault bonus to their attacks, exactly as if they too had assaulted that turn.
+
+
+This rule cannot be used if, when assaulted, the unit was already locked in combat from a previous turn.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

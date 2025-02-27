@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="43fc-3e09-4a79-7a71" name="Eldar" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Autarch" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="48ad-6dc6-755d-8e96">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">6</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Avatar" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="d638-e667-4345-c14c">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">10</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dark Reaper" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e4a9-7458-eb31-d8a9">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dire Avenger" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="9268-db77-02e6-f959">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Death Jester" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="3181-e769-9320-2f17">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Eldrad Ulthran" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="c707-cf8a-b5b3-1b7e">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Exarch" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="4846-9fbc-e26a-0635">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Farseer" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="ed77-eaa0-ba18-1fc3">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fire Dragon" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="d8be-1b35-f1f5-efb4">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Guardian" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="7644-7bd2-1464-8c8b">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Guardian Jetbike" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="3a0c-d7d6-b338-040b">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3(4)</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Harlequin" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="7460-f0eb-ae03-d278">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Howling Banshee" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="c813-a94e-08e6-c4a9">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Phoenix Lord" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="9353-0d17-6adf-23bc">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">7</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">7</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">7</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ranger" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="4c73-9c08-dcf7-c191">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shadowseer" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="b956-1a91-34e2-3ada">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shining Spear" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="a935-0c9d-2b55-9100">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3(4)</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Striking Scorpion" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="3fed-50df-cb14-aedf">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Swooping Hawk" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="3bb9-661b-14fb-f99c">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Troupe Master" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="7508-23a7-a5fa-4c1f">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Warlock" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="b454-b372-499d-fc15">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Warp Spider" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="3d5d-361d-eb39-db8f">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wraithguard" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e177-3d41-99e2-419d">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wraithlord" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="04ef-61c5-9973-89f9">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">10</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">8</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Yriel" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="19e7-3d25-eccf-297d">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">6</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">7</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="War Walker" typeId="acd3-2539-3641-1250" typeName="Walker Vehicle" hidden="false" id="6cf5-4efa-e231-85a8">
+      <characteristics>
+        <characteristic name="WS" typeId="3d9c-8977-9b95-824b">3</characteristic>
+        <characteristic name="BS" typeId="ea47-07be-ab4a-6569">3</characteristic>
+        <characteristic name="STR" typeId="a630-c404-957f-a49f">5</characteristic>
+        <characteristic name="F" typeId="3549-2d9e-3052-b396">10</characteristic>
+        <characteristic name="S" typeId="94fc-8af8-d4d4-7b1a">10</characteristic>
+        <characteristic name="R" typeId="4eca-6e3c-2053-e75a">10</characteristic>
+        <characteristic name="I" typeId="f706-f227-5d93-0fe3">4</characteristic>
+        <characteristic name="A" typeId="12be-9dd2-0dd7-b17a">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wave Serpent" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="7637-b6e6-5faa-49a1">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">3</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">12</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">12</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Falcon" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="e104-438a-4d84-a798">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">3</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">12</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">12</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fire Prism" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="f714-42c0-b8e5-1640">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">4</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">12</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">12</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Vyper" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="6605-2c0b-296a-10fd">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">3</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">10</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">10</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Avenger Shuriken Catapult" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="d272-054a-af72-4f94">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Bright Lance" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="bfd9-6ef3-6072-c0ba">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Lance</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="D-Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="cbaf-c822-680a-c030">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">x</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">D-cannons always wound on a 2+, and on a roll to wound of 6 it inflicts instant death. It always inflicts a glancing hit on a roll of 3 or 4 and a penetrating hit on a roll of 5 or 6.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Death Spinner" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="ca11-e91e-fabd-caec">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Dragon&apos;s Breath Flamer" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4a11-8642-716c-3d68">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Exarch Deathspinner" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="a1bb-ae46-aba5-5099">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 4</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Firepike" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="6e88-d115-0321-a187">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Melta</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Fusion Gun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="408b-d81f-b690-6638">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Melta</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Fusion Pistol" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="c66e-c5fe-f566-bb37">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">6&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol, Melta</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Hawk&apos;s Talon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="7268-2538-d0f3-01e2">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Lasblaster" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="b561-cd7e-edfd-59f7">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Laser Lance" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4ddc-3656-e72c-087d">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">6&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Lance</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">On any turn in which the bearer initiate an assault, this model counts as having a Strength 6 power weapon.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Eldar Missile Launcher (Krak)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="87ed-f72d-1883-564a">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Eldar Missile Launcher (Plasma)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="c8a4-edd8-ca09-6a37">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast, Pinning</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Prism Cannon (Focussed)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="fe48-eeb4-eb94-d4de">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">60&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">If prism cannons have a line of sight to other prism cannons they may forfeit their chance to fire in order to combine beams. Pick one of the prism cannons as the firer, and the other(s) as contributor - The firing prism cannon&apos;s shot counts as twin-linked for that turn. Furthermore the strength of the shot is increased by 1 and the AP lowered by 1 for each cannon contributing to it. For example, if one Fire Prism contributes its beam to a second prism cannon, the beam the second prism cannon fires will be S10 AP1 (focussed; the maximum Strength and AP) or S6 AP3 (Dispersed).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Prism Cannon (Dispersed)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="d137-3ed2-7e79-9789">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">60&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Large Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">If prism cannons have a line of sight to other prism cannons they may forfeit their chance to fire in order to combine beams. Pick one of the prism cannons as the firer, and the other(s) as contributor - The firing prism cannon&apos;s shot counts as twin-linked for that turn. Furthermore the strength of the shot is increased by 1 and the AP lowered by 1 for each cannon contributing to it. For example, if one Fire Prism contributes its beam to a second prism cannon, the beam the second prism cannon fires will be S10 AP1 (focussed; the maximum Strength and AP) or S6 AP3 (Dispersed).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Pulse Laser" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="86a2-ced0-6683-8523">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Ranger Long Rifle" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0de6-35b5-b77e-45fb">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">x</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Sniper, Pinning</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Any shooting roll to hit of a 6 counts as having AP 1. In a pathfinder unit, any shooting roll to hit of 5+ counts as having AP 1</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Reaper Launcher" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="a5d6-2485-f9a2-8a8e">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Scatter Laser" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4a05-4111-e207-f688">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 4</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Singing Spear" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="270c-bcfc-0b28-1be2">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">x</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Singing spears wound on a 2+ and count as Strength 9 when rolling to damage vehicles.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shadow Weaver" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="97c7-fdb1-31d2-df62">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast, Barrage</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Shrieker Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="db20-c0b9-7553-8719">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3, Pinning</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Shuriken Catapult" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4ffa-aab7-f0b3-0b34">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Shuriken Pistol" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="826d-a035-4dcc-5d36">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Spinneret Rifle" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="24c9-9600-2caf-eb4e">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Pinning</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Star Lance" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0b55-27fa-718a-2b31">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">6&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Lance</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Starcannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="eec3-78b8-1100-fed9">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Sunrifle" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="50ed-f656-a2d3-3b26">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 6, Pinning</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Tempest Launcher" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="d7cd-6da1-dcf2-33aa">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2, Blast, Barrage</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Triskele" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="c257-5d80-59dc-2cf9">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Vibro Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="42b5-3fa8-fd69-06e5">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Pinning</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">When firing a Vibro Cannon, roll to hit (the firer does not need to pick a target) if any of the Vibro cannons hit, draw a single 36&quot; straight line from one Vibro cannon in any direction. Any unit which the line passes through suffers D6 hits. For each Vibro cannon in the battery after the first, add 1 to the strength of these hits. A target with an Armour value that is hit by a vibro cannon always suffer a single glancing hit; do not roll for armour penetration.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wraithcannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="2e4a-759a-78fe-ad85">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">x</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">The Wraithcannon always wounds on a 2+, and a roll to wound of 6 inflicts instant death. Againsts vehicles, a warithcannon always inflicts a glancing hit on a 3 or 4 and a penetrating hit on a 5 or 6.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Forceshield" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="d22a-e1bb-dbd6-b516">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Grants the bearer a 4+ invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Plasma Grenades" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="f199-6b5f-7b3d-f011">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Models equipped with assault grenades don’t suffer the penalty to their Initiative for assaulting enemies through cover, but fight as normal.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Haywire Grenades" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="49d2-85d6-9995-2583">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model attacking with these grenades may only make a single attack. If it hits, roll a D6 to determine the effect: 
+
+
+1 - No effect
+
+
+2-5 - Glancing Hit
+
+
+6 - Penetrating Hit</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Master Strategist" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="e419-7f8e-7b40-28e4">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Any Eldar army including one or more Autarchs, you may choose to add 1 to your rolls for reserves (A roll of 1 always counts as a failure).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Banshee mask" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="e08f-bb4c-89f8-496a">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">In the first round of an assault a model wearing a Banshee mask has Initiative 10 and negates any Initiative bonus conferred by cover and grenades.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Warp Jump Generator" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="0ce7-0a3b-08e1-a0d6">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A unit with a warp jump generator moves as if it was equipped with a jump pack. if unengaged, the unit may make a second jump during the assault phase instead of assaulting. Nominate the direction the unit is jumping in and move it up to 2D6&quot; in this direction. Any model finishing its move in impassable terrain is destroyed. If you roll a double, one member of the unit has been claimed by the Warp and is removed as a casualty.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mandiblasters" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="1219-1c68-6a82-b394">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A model with mandiblasters has +1 A.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ghosthelm" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="a44a-6c86-57a8-b3cd">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">If a Farseer suffers a Perils of the Warp attack, his Ghosthelm will prevent it on a D6 roll of 3+.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rune Armour" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="6d20-f315-c90f-8850">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The bearer gains a 4+ Invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Spiritseet" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="4eba-d802-81e0-644e">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Any Wraithlord or Wraithguard unit with a model within 12&quot; of a Spiritseer need not test for Wraithsight.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Conceal" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="0e7f-1bf2-7bf4-f188">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">The Warlock&apos;s whole squad receives a 5+ Cover Save. This does not count as occupying cover for the purposes of assault.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Destructor" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="5a25-42f8-99b9-744c">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Embolden" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="9231-7d9c-5717-f72d">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">The Warlock and his squad may re-roll any failed Leadership tests.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Enhance" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="d7ae-b2cd-f69b-41e3">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">All models in the same unit as the Warlock, including the Warlock itself, add +1 to their Weapon Skill and Initiative. The effects of multiple Enhance powers are not cumulative.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Runes of Warding" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="a533-3584-4847-4d9e">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">All enemy Psychic tests must be taken on 3D6, suffering a Perils of the Warp attack on any roll of 12 or above.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Runes of Witnessing" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="68f7-d23e-0003-f5da">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A Farseer with runes of witnessing rolls 3D6 and discards the highest roll when taking a Psychic test. You must use the lowest two rolls.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Spirit Stones" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="69dc-1c6c-deb2-375d">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A Farseer with spirit stones can use two psychic powers per turn. A Farseer cannot use the same psychic power twice in the same turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Doom" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="e532-a72d-30b4-07c7">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">The Farseer can target any non-vehicle unit within 24&quot;. All hits caused upon that unit gain a re-roll to wound until the start of the next Eldar turn.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Autarch" hidden="false" id="b9fb-9d94-2b5c-bfe1">
+      <infoLinks>
+        <infoLink targetId="e419-7f8e-7b40-28e4" id="0391-55fb-29ed-6c8f" type="profile" name="Master Strategist" hidden="false"/>
+        <infoLink targetId="49d2-85d6-9995-2583" id="5511-f670-143a-0672" type="profile" name="Haywire Grenades" hidden="false"/>
+        <infoLink targetId="f199-6b5f-7b3d-f011" id="3b14-d141-61c4-0405" type="profile" name="Plasma Grenades" hidden="false"/>
+        <infoLink name="Autarch" id="0a42-8461-9ffb-0659" hidden="false" type="profile" targetId="48ad-6dc6-755d-8e96"/>
+        <infoLink name="Shuriken Pistol" id="754c-dbbc-09bc-407d" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+        <infoLink name="Forceshield" id="9237-efae-055b-34de" hidden="false" type="profile" targetId="d22a-e1bb-dbd6-b516"/>
+        <infoLink name="Independent Character" id="f9af-8757-4448-2227" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Fleet" id="330f-ab8d-fab5-50cb" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="An Autarch may also be given one of the following:" id="196d-e82d-924c-add4" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Swooping Hawk Wings" hidden="false" id="f2ee-1647-0dc3-2851">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Jump Infantry" id="2e6b-4c38-b7d3-0e92" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Warp Jump Generator" hidden="false" id="27d6-a5ac-cdc8-662a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="0ce7-0a3b-08e1-a0d6" id="d07c-5b60-fd65-29bc" type="profile" name="Warp Jump Generator" hidden="false"/>
+                <infoLink name="Jump Infantry" id="49bc-5c53-abe2-3f7a" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Eldar Jetbike" hidden="false" id="14ea-243f-9426-056a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Jetbike" id="5044-f816-828d-b3b7" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="235f-312d-b445-60c8"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="An Autarch may also be given one of the following:" id="d400-6452-be4c-8280" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Banshee mask" hidden="false" id="318d-30b9-417d-a85c">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="e08f-bb4c-89f8-496a" id="d142-d30f-403d-9f6b" type="profile" name="Banshee mask" hidden="false"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mandiblasters" hidden="false" id="6c40-f249-1d25-5ad9">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="1219-1c68-6a82-b394" id="9f90-76ef-2367-8300" type="profile" name="Mandiblasters" hidden="false"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="ca8e-664e-6d20-03c1"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="An Autarch may take one single-handed weapon" id="9adc-8f12-5fcb-1ddf" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="6c59-7de6-3749-255a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Power Weapon" id="4b45-b2a1-4a8b-b8ce" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Scorpion Chainsword" hidden="false" id="4b5b-86ac-7d80-3c0b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <profiles>
+                <profile name="Scorpion Chainsword" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="7f16-1d19-383f-f6f6">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">This is a one-handed weapon that adds +1 S to the model&apos;s attacks.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Laser Lance (only on jetbike)" hidden="false" id="fe23-075b-de6c-b871">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Laser Lance" id="6145-7cb5-c24d-3062" hidden="false" type="profile" targetId="4ddc-3656-e72c-087d"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3df4-bc08-6501-4219"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="An Autarch may take one two-handed weapon" id="9ac2-e9f6-a3cc-7a88" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Avenger Shuriken Catapult" hidden="false" id="7e8e-2932-0bb1-82f2">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Avenger Shuriken Catapult" id="9f54-97f0-410c-73a7" hidden="false" type="profile" targetId="d272-054a-af72-4f94"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Death Spinner" hidden="false" id="dbf5-f093-ccd6-f254">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Death Spinner" id="3e0e-ccd9-0e70-0e09" hidden="false" type="profile" targetId="ca11-e91e-fabd-caec"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Fusion Gun" hidden="false" id="865f-2c50-5d69-bd7d">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Fusion Gun" id="0042-64ed-3c1d-5b32" hidden="false" type="profile" targetId="408b-d81f-b690-6638"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lasblaster" hidden="false" id="5506-6b8a-d6fb-581e">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lasblaster" id="0b8b-7cc7-af62-483a" hidden="false" type="profile" targetId="b561-cd7e-edfd-59f7"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Reaper Launcher" hidden="false" id="8b4f-646e-1db8-8b8a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Reaper Launcher" id="0166-6bc7-1faa-9772" hidden="false" type="profile" targetId="a5d6-2485-f9a2-8a8e"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b19a-31cf-4c38-1d3c"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="70"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Farseer" hidden="false" id="249c-5f61-670e-b70c">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="55"/>
+      </costs>
+      <infoLinks>
+        <infoLink targetId="6d20-f315-c90f-8850" id="cd2b-24d8-5452-8d5c" type="profile" name="Rune Armour" hidden="false"/>
+        <infoLink targetId="a44a-6c86-57a8-b3cd" id="dc93-f8ba-4733-261e" type="profile" name="Ghosthelm" hidden="false"/>
+        <infoLink name="Farseer" id="9b8a-dd37-1987-0437" hidden="false" type="profile" targetId="ed77-eaa0-ba18-1fc3"/>
+        <infoLink name="Shuriken Pistol" id="0aca-1e08-cdf6-0062" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+        <infoLink name="Witchblade" id="6b59-b7a3-913b-9701" hidden="false" type="profile" targetId="d9ba-84db-8924-20a3"/>
+        <infoLink name="Independent Character" id="9c33-7a45-f64a-40f2" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Fleet" id="f112-8aa0-43fa-c11f" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="unit" import="true" name="Warlock Bodyguard" hidden="false" id="5c79-148d-ed54-112b" collective="true">
+          <infoLinks>
+            <infoLink name="Warlock Power" id="6c8e-607d-ac4a-b631" hidden="false" targetId="6622-8fbf-6aa8-2e1e" type="rule"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e4b-9a97-8704-89dd"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Warlocks" hidden="false" id="2b7d-eb26-d1a7-8b03" collective="true">
+              <infoLinks>
+                <infoLink name="Warlock" id="12ee-78aa-a3c9-ba99" hidden="false" type="profile" targetId="b454-b372-499d-fc15"/>
+                <infoLink name="Rune Armour" id="4d5a-610c-7d26-889f" hidden="false" type="profile" targetId="6d20-f315-c90f-8850"/>
+                <infoLink name="Shuriken Pistol" id="6923-6ec7-de8e-af2c" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+                <infoLink name="Witchblade" id="2f8d-9f6d-d68d-ea24" hidden="false" type="profile" targetId="d9ba-84db-8924-20a3"/>
+                <infoLink name="Fleet" id="7d59-20dc-a5c3-9634" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="7cf1-9a68-c85b-bf1d"/>
+                <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="cd63-5806-95f0-18f4"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="All Warlocks may buy one Warlock Psychic power" id="250d-b445-ef95-b0c5" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Conceal" hidden="false" id="39b1-fa57-f554-274e">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Conceal" id="890a-497b-d49b-c537" hidden="false" targetId="0e7f-1bf2-7bf4-f188" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Destructor" hidden="false" id="92b7-de47-fcd2-bbcd">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Destructor" id="4903-3db3-a309-08cd" hidden="false" targetId="5a25-42f8-99b9-744c" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Embolden" hidden="false" id="c579-0581-f518-7d41">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Embolden" id="fcb1-c7cf-2c7b-5baa" hidden="false" targetId="9231-7d9c-5717-f72d" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Enhance" hidden="false" id="66c9-47d9-2377-a4be">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Enhance" id="8cc5-5177-1f3c-abf7" hidden="false" targetId="d7ae-b2cd-f69b-41e3" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8952-7d47-fc80-1d41"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="All Warlocks may choose from the following:" id="9989-aa87-8420-b3fc" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Upgrade to Spiritseet" hidden="false" id="efa3-57d5-a855-2de8">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Spiritseet" id="ea4f-157a-400c-a9f1" hidden="false" targetId="4eba-d802-81e0-644e" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Upgrade Witchblade to Singing Spear" hidden="false" id="6e4c-040f-b4f7-95c6">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Singing Spear" id="b2fe-e01f-1030-792f" hidden="false" type="profile" targetId="270c-bcfc-0b28-1be2"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Mount all Warlocks in the unit on Eldar jetbikes (Set to number of models)" hidden="false" id="bdd3-1cf2-6e72-307b">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Jetbike" id="da64-788b-2c01-17be" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="A Farseer may be given any of the following:" id="938a-24af-9996-c3d1" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Upgrade witchblade to singing spear" hidden="false" id="a9d9-08bf-6efd-1b91">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Singing Spear" id="e996-0035-0e25-85ab" hidden="false" type="profile" targetId="270c-bcfc-0b28-1be2"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b0ea-d84e-d88c-e4d0"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Runes of Warding" hidden="false" id="4de9-ecfb-496f-3482">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="a533-3584-4847-4d9e" id="6a4f-c872-c947-a896" type="profile" name="Runes of Warding" hidden="false"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8eae-995e-e556-4fb6"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Runes of Witnessing" hidden="false" id="6dc8-ae12-3832-b0c1">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="68f7-d23e-0003-f5da" id="e27c-0dd4-99c1-239d" type="profile" name="Runes of Witnessing" hidden="false"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7365-6cb9-7dca-4830"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Spirit Stones" hidden="false" id="68b8-d48a-1fd6-32ec">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="69dc-1c6c-deb2-375d" id="359b-d214-2613-5a2b" type="profile" name="Spirit Stones" hidden="false"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e25-b6e4-3930-3765"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Eldar Jetbike" hidden="false" id="b073-d286-ae37-453d">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Jetbike" id="cf6b-8956-f3ef-5649" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="64c3-e3f5-d339-52bc"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="A Farseer must buy between one and four Farseer Psychic Powers" id="82be-7cf9-67a6-9f81" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Doom" hidden="false" id="3c17-3084-4829-8302">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="e532-a72d-30b4-07c7" id="4f56-7603-1e28-c3b4" type="profile" name="Doom" hidden="false"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="118c-9983-c4c3-43de"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Eldritch Storm" hidden="false" id="99df-91dd-6bda-e3ef">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0477-e18f-d030-4eaa"/>
+              </constraints>
+              <profiles>
+                <profile name="Eldritch Storm" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4526-37a8-2771-ea9e">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
+                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Large Blast, Pinning</characteristic>
+                    <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">The Eldar player places the Large blast marker centred on an enemy model within 18&quot;. Vehicles touched by the template suffer a hit with 2D6+3 armour penetration and are spun around to face in a direction determined by the scatter dice - if a hit is rolled, the Eldar player may choose its facing.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Fortune" hidden="false" id="eb79-4c1e-c46e-a43a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="adf9-ece9-92d0-3727"/>
+              </constraints>
+              <profiles>
+                <profile name="Fortune" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="d310-768f-edc0-1851">
+                  <characteristics>
+                    <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">Nominate one Eldar unit with a model within 6&quot; of the Farseer. This unit re-rolls any failed saves it makes until the start of the next Eldar turn.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Guide" hidden="false" id="f57c-0de4-1658-b319">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a090-5d68-92f5-aa8f"/>
+              </constraints>
+              <profiles>
+                <profile name="Guide" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="7d0a-f869-4ba3-d77c">
+                  <characteristics>
+                    <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">Nominate one Eldar unit with a model within 6&quot; of the Farseer. This unit re-rolls any failed to hit rolls made in that turn&apos;s shooting phase. If the unit is using a barrage weapon (such as a D-cannon) you may re-roll their scatter dice instead.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mind War" hidden="false" id="57f3-8cbf-9417-cbe5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="62b8-0a63-0321-2e6e"/>
+              </constraints>
+              <profiles>
+                <profile name="Mind War" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="b085-0826-4130-759a">
+                  <characteristics>
+                    <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This psychic power is used in the shooting phase instead of a weapon. The Eldar player may choose any unengaged model within 18&quot; of the Farseer and within his line of sight (models mounted in vehicles cannot be targeted). Both players roll a D6 and add the Leadership of their respective models. For each point the Farseer wins by, the target loses a wound, with no armour saves allowed.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <rules>
+        <rule name="Farseer Psychic Powers" id="50c7-0050-7401-e053" hidden="false">
+          <description>Farseer Powers are used at the start of the Eldar turn and do not require the Eldar Psyker to have line of sight to the target.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <infoLinks>
+    <infoLink targetId="a523-0c5b-eb97-f0a0" id="eb88-22d2-76d6-ec55" type="rule" name="Jetbike" hidden="false"/>
+  </infoLinks>
+  <entryLinks>
+    <entryLink import="true" name="Autarch" hidden="false" id="e838-03e0-abe2-b533" type="selectionEntry" targetId="b9fb-9d94-2b5c-bfe1">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="bdeb-e9da-09ac-cd4d" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Farseer" hidden="false" id="4f73-47cf-f46b-cbd2" type="selectionEntry" targetId="249c-5f61-670e-b70c">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="98e3-f611-94f1-7451" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedRules>
+    <rule name="Warlock Power" id="6622-8fbf-6aa8-2e1e" hidden="false">
+      <description>Warlock powers are available permanently, so he does not need to take a Psychic test to use it.</description>
+    </rule>
+  </sharedRules>
+</catalogue>

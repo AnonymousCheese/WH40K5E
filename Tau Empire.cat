@@ -552,7 +552,7 @@ The profile of this model is the same as before the pilot ejected, less 2 Streng
         <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The failsafe detonator may be triggered if the bearer is part of a team that is forced to make a Fall Back move having lost an assault.
 
 
-The team is moved as normal, but the character stays where he is and the enemy may not make a Sweeping Advance. Once his team has moved, and before Pile in moves, the character activates the detonator - Place the Large Blast marker centred on the character, and roll for partial hits on the other models as normal. Every model hit takes a single, Strength 8, AP- hit, and the character is removed as a casualty. The enemy may not consolidate. Note that the enemy unit need not take a Morale check should this attack inflict 25% casualties, as it occurs outside the normal sequence in which such checks are required. </characteristic>
+The team is moved as normal, but the character stays where he is and the enemy may not make a Sweeping Advance. Once his team has moved, and before Pile in moves, the character activates the detonator - Place the Large Blast marker centred on the character, and roll for partial hits on the other models as normal. Every model hit takes a single, Strength 8, AP- hit, and the character is removed as a casualty. The enemy may not consolidate. Note that the enemy unit need not take a Morale check should this attack inflict 25% casualties, as it occurs outside the normal sequence in which such checks are required.</characteristic>
       </characteristics>
     </profile>
     <profile name="Iridium Armour Plates" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="210b-c88e-ce5c-fabd">
@@ -4436,12 +4436,8 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Sniper Drone Teams" hidden="false" id="0395-9a14-610f-3ba1">
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Up to three teams can be taken as a single Heavy Support Choice" hidden="false" id="cb8f-9efb-9a5f-a24b">
-          <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="8867-ce3c-5866-7194"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4cda-debb-adac-3024"/>
-          </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Up to three teams can be taken as a single Heavy Support Choice" id="0391-f14f-eda2-e472" hidden="false">
           <selectionEntries>
             <selectionEntry type="unit" import="true" name="Sniper Team" hidden="false" id="fb04-f4c5-9d5b-4f4b" collective="true">
               <infoLinks>
@@ -4503,10 +4499,17 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="8867-ce3c-5866-7194"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4cda-debb-adac-3024"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="80"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
-        </selectionEntry>
-      </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Hammerhead Gunship" hidden="false" id="21e1-8599-9e5e-5189">
       <costs>
@@ -4814,6 +4817,559 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="125"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Aun&apos;Va and Honour Guard" hidden="false" id="84fc-0a0c-b091-e728">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Honour Guard" hidden="false" id="c4c6-aa94-3f7a-40e4">
+          <profiles>
+            <profile name="Honour Guard" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="d46d-e63c-6d0c-bf0a">
+              <characteristics>
+                <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+                <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+                <characteristic name="S" typeId="09af-e927-0c3c-9d88">3(5)</characteristic>
+                <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3(5)</characteristic>
+                <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+                <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+                <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+                <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+                <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Honour Blade" id="68bd-aba6-3d3f-9c38" hidden="false" type="profile" targetId="1688-3488-96d6-ecc0"/>
+            <infoLink targetId="98cd-d727-4827-db44" id="61f0-e6db-f061-ccfe" type="profile" name="Counter-Attack" hidden="false"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="4a50-b403-3d18-60db-min"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="4a50-b403-3d18-60db-max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="205"/>
+      </costs>
+      <profiles>
+        <profile name="Aun&apos;Va" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="a4a4-46e5-5a19-baec">
+          <characteristics>
+            <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">1</characteristic>
+            <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+            <characteristic name="S" typeId="09af-e927-0c3c-9d88">2</characteristic>
+            <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3(5)</characteristic>
+            <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+            <characteristic name="I" typeId="8517-a46c-d6df-9c75">1</characteristic>
+            <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+            <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+            <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="The Paradox of Duality" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="6a8c-8aa8-102e-03f1">
+          <characteristics>
+            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">This wargear grants Aun&apos;Va and his Honour guard an increased Toughness characteristic (the unmodified value is used for the purposes of Instant Death) and a 4+ Cover Save, which may be re-rolled if it is failed.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Supremely Inspiring Presence" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="949a-6e35-4eb5-6f0f">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">All Tau units (not Kroot, Vespid or Drones) with a line of sight to Aun&apos;Va are counted as Stubborn. If the Night Fighting rules are in use, roll to determine if the unit can see the Ethereal.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ultimate Price of Failure" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="c3e9-94c0-080f-f245">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Should Aun&apos;Va be removed as a casualty, every Tau unit on the table (not Kroot, Vespid or drones) must take a Morale check if they are not in close combat or falling back. Every unit that takes the test gains the Preferred Enemy universal special rule in relation to the enemy army, and in addition gains the Furious Charge universal special rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="O&apos;Shovah - Commander Farsight" hidden="false" id="4b72-ac33-7abc-d8b8">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="170"/>
+      </costs>
+      <profiles>
+        <profile name="O&apos;Shovah - Commander Farsight" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="ba8c-7674-9430-b2f2">
+          <characteristics>
+            <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+            <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+            <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+            <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+            <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+            <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+            <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+            <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+            <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dawn Blade" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="4fb4-d113-3d4b-940d">
+          <characteristics>
+            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">No armour saves may be taken from hits caused by the dawn blade and O&apos;Shovah rolls 2D6+5 when rolling to penetrate the armour of the vehicle.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Special Character" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="9752-7a88-a8fc-b95b">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">May not be included in a force with Aun&apos;Va or Commander Shadowsun.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ork Fighter" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="b1c3-751f-7626-e944">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Any Tau model in an army led by O&apos;Shovah counts as having the Preferred Enemy special rule when fighting Orks.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Breakaway Faction" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="1cc8-e4bf-720c-231c">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">No Ethereals, Kroot or Vespid units may be included in O&apos;Shovah&apos;s force. You may only include a maximum of one Stealth Armour, Pathfinder Squads, Hammerhead, Broadside Battlesuits, Sky Ray gunships and Piranha Skimmers.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Blood Brothers" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="75f9-6759-c335-dae7">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Every model in Farsight&apos;s army with access to the Armoury gains a bonding knife at no additional cost.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Target Lock" id="4c08-85c4-307e-46dc" hidden="false" type="profile" targetId="acc9-9396-2894-6426"/>
+        <infoLink name="Shield Generator" id="1616-cdac-2a54-cc1b" hidden="false" type="profile" targetId="aed5-b40c-b40b-dfb4"/>
+        <infoLink name="Bonding Knife" id="4b4e-4cff-ef54-bda0" hidden="false" type="profile" targetId="8917-b687-41df-907b"/>
+        <infoLink name="Plasma Rifle" id="8d90-723f-8983-92e2" hidden="false" type="profile" targetId="92fe-29f5-2729-f7d0"/>
+        <infoLink name="Independent Character" id="d8aa-a105-967b-b288" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Bodyguard" hidden="false" id="4447-7f2f-6f8b-cc8e" collective="true">
+          <constraints>
+            <constraint type="max" value="7" field="selections" scope="parent" shared="true" id="5400-7c3b-7937-2f3d"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Each Shas&apos;vre must select three battlesuit weapons systems or support systems. Each may select additional items from the Battlesuit Wargear list, including Special Issue Systems" id="9ffc-7c82-7875-356a" hidden="false">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Battlesuit Wargear" id="5306-01d3-b411-9a89" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Bonding Knife" hidden="false" id="7e5d-a2d3-3ef7-fa45">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Bonding Knife" id="fd8d-0cea-651f-9ee6" hidden="false" type="profile" targetId="8917-b687-41df-907b"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Ejection System (Special Issue)" hidden="false" id="f29d-01c3-9733-12c3">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Ejection Systems" id="c0d2-5c99-9b91-133c" hidden="false" type="profile" targetId="a713-821a-1b43-d6f1"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a7bb-74d1-f9a7-fc7c" includeChildSelections="true" includeChildForces="true"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Failsafe Detonator (Special Issue)" hidden="false" id="f96b-f0de-41b9-54a6">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Failsafe Detonator" id="aa94-16db-0306-7a52" hidden="false" type="profile" targetId="8e65-c1e1-0547-4206"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6b90-2d74-c254-f67f" includeChildSelections="true" includeChildForces="true"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="model" import="true" name="Gun Drone" hidden="false" id="8de5-db62-f6a2-fb05">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Gun Drone" id="dab4-4adf-e0a1-c650" hidden="false" type="profile" targetId="3969-d555-f692-a0d0"/>
+                        <infoLink name="Twin-linked Pulse Carbine" id="f073-99e8-a706-9032" hidden="false" type="profile" targetId="38bc-4e53-be82-6233"/>
+                        <infoLink name="Jump Infantry" id="2660-5cd5-8c4d-2df3" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Iridium Armour (Special Issue)" hidden="false" id="bfa8-218c-00f1-6ee1">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Iridium Armour Plates" id="83ab-f87d-010c-f37b" hidden="false" type="profile" targetId="210b-c88e-ce5c-fabd"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d330-6870-b47b-16cc" includeChildSelections="true" includeChildForces="true"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Hard-wired Drone Controller" hidden="false" id="3d83-34d2-734e-989d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Drone Controller" id="9506-8e47-161d-964b" hidden="false" type="profile" targetId="6a48-ae3b-b476-9d71"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Hard-wired Blacksun Filter" hidden="false" id="ffd9-c1cb-852d-31bc">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Blacksun Filter" id="506c-72eb-e034-425e" hidden="false" type="profile" targetId="f235-7880-f61b-f7d2"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Hard-wired Target Lock" hidden="false" id="e52a-fe05-94ad-f9f7">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Target Lock" id="e759-406c-b839-0827" hidden="false" type="profile" targetId="acc9-9396-2894-6426"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Hard-wired Multi-tracker" hidden="false" id="dfe9-0632-9836-7720">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Multi-tracker" id="cbc2-8b10-36ba-418c" hidden="false" type="profile" targetId="f2d8-73a2-483f-7625"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="model" import="true" name="Marker Drone" hidden="false" id="7d52-081c-0bb1-3407">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Marker Drone" id="6d59-80f0-bb94-cac1" hidden="false" type="profile" targetId="06eb-39a9-634c-c821"/>
+                        <infoLink name="Networked Markerlight" id="8255-705a-209d-d9d3" hidden="false" type="profile" targetId="ebf0-1674-f193-5618"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="model" import="true" name="Shield Drone" hidden="false" id="ce40-7d1a-a064-d2c2">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Shield Drone" id="3547-17a7-bb18-35de" hidden="false" type="profile" targetId="0aba-da36-8a01-a832"/>
+                      </infoLinks>
+                      <profiles>
+                        <profile name="Close Protection" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="7d1a-2e9a-ce7a-51a0">
+                          <characteristics>
+                            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Shield Drones always have the same Toughness and Armour Save values a the individual they accompany.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile name="Invulnerable Save" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="ae57-44a3-78be-bcdb">
+                          <characteristics>
+                            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The Shield Drone has a 4+ Invulnerable Save.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Stimulant Injector (Special Issue)" hidden="false" id="1bc1-0074-7566-af90">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Stimulant Injector" id="3d7c-0f3d-766d-54ee" hidden="false" type="profile" targetId="cac3-0c54-a85b-59a4"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a92f-d274-6796-74c6" includeChildSelections="true" includeChildForces="true"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Battlesuit Weapon Systems" id="a49d-ea36-caff-901c" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Airbursting Fragmentation Projector (Special Issue)" hidden="false" id="900d-4773-55ae-4e9a">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Airburst Fragmentation Projector" id="fb12-382c-910b-3e78" hidden="false" type="profile" targetId="7496-b7e9-e1e3-e157"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4dac-3630-ec38-626e" includeChildSelections="true" includeChildForces="true"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Burst Cannon" hidden="false" id="6ce5-e049-e63b-0566">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Burst Cannon" id="c530-0f03-2a53-821e" hidden="false" type="profile" targetId="f287-d7e7-db30-4fb4"/>
+                      </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin-linked (Counts as a second weapon choice)" hidden="false" id="32a8-f44c-4fd7-9dd3">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="76d0-6dee-79d1-71b9"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Cyclic Ion Blaster (Special Issue)" hidden="false" id="b124-8c76-8560-ce0e">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Cyclic Ion Blaster" id="a07b-3590-c9e6-af04" hidden="false" type="profile" targetId="026c-b961-ed6d-f146"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a500-1888-c146-2237" includeChildSelections="true" includeChildForces="true"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="64e0-6739-1969-b310">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Flamer" id="4529-0529-9d87-b6ec" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
+                      </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin-linked (Counts as a second weapon choice)" hidden="false" id="c9e3-fb11-be4f-f770">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2eaf-d041-8653-8514"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Fusion Blaster" hidden="false" id="3f3f-e1fc-5b6b-0206">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Fusion Blaster" id="bdc5-70f3-1f45-a524" hidden="false" type="profile" targetId="239f-9f31-4ce4-fe6a"/>
+                      </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin-linked (Counts as a second weapon choice)" hidden="false" id="1cc4-5617-e079-fa96">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36f8-0fd1-1fa2-9cde"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Missile Pod" hidden="false" id="0d53-43ce-9063-b62d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Missile Pod" id="221f-1f80-75d9-3578" hidden="false" type="profile" targetId="ad81-e1d9-7cf6-84ea"/>
+                      </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin-linked (Counts as a second weapon choice)" hidden="false" id="9ee5-fb77-04a8-14b5">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f8b2-fc3f-9796-56cd"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Rifle" hidden="false" id="59a2-208e-2b7c-391c">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Rifle" id="53e0-6f44-ddd8-14fc" hidden="false" type="profile" targetId="92fe-29f5-2729-f7d0"/>
+                      </infoLinks>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Twin-linked (Counts as a second weapon choice)" hidden="false" id="9ac2-8801-f356-7418">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b560-f8d7-fa7f-22d1"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Battlesuit Support Systems" id="f501-62e3-f791-2b64" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Advanced Stabilisation System" hidden="false" id="cf18-f893-df8d-56b7">
+                      <infoLinks>
+                        <infoLink name="Advanced Stabilisation System" id="35f4-727a-2205-10d0" hidden="false" type="profile" targetId="b65a-f5a5-5a41-daf6"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Blacksun Filter" hidden="false" id="d921-9ccf-0e87-eb2d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Blacksun Filter" id="85fe-6832-a612-286a" hidden="false" type="profile" targetId="f235-7880-f61b-f7d2"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Command and Control Node (Special Issue)" hidden="false" id="5b1b-335a-d5a4-137f">
+                      <infoLinks>
+                        <infoLink name="Command and Control Node" id="26f2-4713-e0bc-ed97" hidden="false" type="profile" targetId="7d09-1c37-fac3-3e7e"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3bb9-38bc-1e6e-eda2" includeChildSelections="true" includeChildForces="true"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Drone Controller" hidden="false" id="a753-9319-6f7a-9eb2">
+                      <infoLinks>
+                        <infoLink name="Drone Controller" id="ba18-2aa6-2aff-62a0" hidden="false" type="profile" targetId="6a48-ae3b-b476-9d71"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Multi-tracker" hidden="false" id="617d-943e-e618-103f">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Multi-tracker" id="266e-744d-2e29-a4ea" hidden="false" type="profile" targetId="f2d8-73a2-483f-7625"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Positional Relay (Special Issue)" hidden="false" id="9cb5-9bc6-5334-7cd4">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Positional Relay" id="2347-5bea-e959-4996" hidden="false" type="profile" targetId="7faf-215a-ae41-d28e"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b020-b2e8-4a8a-e69c" includeChildSelections="true" includeChildForces="true"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Shield Generator" hidden="false" id="3653-76e0-9007-bd10">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Shield Generator" id="bfd9-5243-6be6-f351" hidden="false" type="profile" targetId="aed5-b40c-b40b-dfb4"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Target Lock" hidden="false" id="dbf3-68fe-8cd3-b631">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Target Lock" id="6f0d-5a47-a7a2-aa38" hidden="false" type="profile" targetId="acc9-9396-2894-6426"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Targeting Array" hidden="false" id="28ad-2abe-85d3-8d1b">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Targeting Array" id="1962-add8-b14f-edb4" hidden="false" type="profile" targetId="3c84-bbba-a8c2-fdc0"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Vectored Retro-Thrusters (Special Issue)" hidden="false" id="b975-dcc5-6e11-0aa1">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Vectored retro-thrusters" id="325c-0bbe-9c3d-fc7b" hidden="false" type="profile" targetId="ba1a-533b-aa8b-c276"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d903-3750-1f3d-cfa8" includeChildSelections="true" includeChildForces="true"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <infoLinks>
+            <infoLink name="Crisis Shas&apos;vre" id="ff00-af86-78ef-4a4e" hidden="false" type="profile" targetId="6ce4-9692-cb1a-e52a"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="O&apos;Shaserra - Commander Shadowsun" hidden="false" id="1048-8fbd-2e6b-49da">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="175"/>
+      </costs>
+      <profiles>
+        <profile name="O&apos;Shaserra - Commander Shadowsun" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="59fa-cc9f-1ea3-32c8">
+          <characteristics>
+            <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+            <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+            <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+            <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+            <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+            <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+            <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+            <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+            <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Multi Tracker Advanced Target Lock" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="87f8-fac9-0b15-d253">
+          <characteristics>
+            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">May target two enemy units.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Drone Controller" id="4068-583d-473c-3b44" hidden="false" type="profile" targetId="6a48-ae3b-b476-9d71"/>
+        <infoLink name="Fusion Blaster" id="9e6b-0fd9-993c-8db9" hidden="false" type="profile" targetId="239f-9f31-4ce4-fe6a"/>
+        <infoLink name="Fusion Blaster" id="fc4e-526b-8479-b6f3" hidden="false" type="profile" targetId="239f-9f31-4ce4-fe6a"/>
+        <infoLink name="Bonding Knife" id="b222-2c2e-f296-f797" hidden="false" type="profile" targetId="8917-b687-41df-907b"/>
+        <infoLink name="Acute Senses" id="39d5-808d-7f44-898e" hidden="false" type="profile" targetId="253f-bb05-f8fd-fffd"/>
+        <infoLink name="Stealth Field Generator" id="e21d-3f28-0243-7513" hidden="false" type="profile" targetId="4140-e781-09d4-8186"/>
+        <infoLink name="Shield Generator" id="baaa-0371-9300-faa7" hidden="false" type="profile" targetId="aed5-b40c-b40b-dfb4"/>
+        <infoLink name="Independent Character" id="5a64-daa6-7735-e625" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Shield Drone" hidden="false" id="3a28-c5cb-9e89-91f4">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Shield Drone" id="5c43-def6-0631-d6f0" hidden="false" type="profile" targetId="0aba-da36-8a01-a832"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Close Protection" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="f7bb-9d55-50d4-2f4d">
+              <characteristics>
+                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Shield Drones always have the same Toughness and Armour Save values a the individual they accompany.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Invulnerable Save" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="a2bb-4847-a050-8bae">
+              <characteristics>
+                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The Shield Drone has a 4+ Invulnerable Save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="0474-1eb5-1caf-70f6-min"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0474-1eb5-1caf-70f6-max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Command-link Drone" hidden="false" id="3ccc-3176-8493-10db">
+          <profiles>
+            <profile name="Command-link Drone" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="f18a-3075-e019-5881">
+              <characteristics>
+                <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">2</characteristic>
+                <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+                <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+                <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+                <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+                <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+                <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+                <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">n/a</characteristic>
+                <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Command-link Drone" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="f927-d221-ddf5-fe6e">
+              <characteristics>
+                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Any Tau units (including Vespid units with a Strain Leader, but not Kroot units) within 18&quot; may use her Leadership for any Morale or Pinning tests.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f514-407f-5bea-0ff6-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f514-407f-5bea-0ff6-max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Commander (Shas&apos;el)" hidden="false" id="f64d-c3bd-0061-cfa2" type="selectionEntry" targetId="a7b8-c9b0-a065-3d02">
@@ -4893,6 +5449,27 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="cbbc-fdec-c2f1-4c98" primary="true" name="Heavy Support"/>
       </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Aun&apos;Va and Honour Guard" hidden="false" id="a787-e7d2-7ab7-f0cb" type="selectionEntry" targetId="84fc-0a0c-b091-e728">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a864-2aff-a64f-f8cc"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="7104-46f5-5cfc-1dd8" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="O&apos;Shovah - Commander Farsight" hidden="false" id="526f-64af-7ae2-46f3" type="selectionEntry" targetId="4b72-ac33-7abc-d8b8">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="a05d-89f5-cb9f-5547" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abc0-302c-8442-9397"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="O&apos;Shaserra - Commander Shadowsun" hidden="false" id="5351-01ee-d5ce-4645" type="selectionEntry" targetId="1048-8fbd-2e6b-49da">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="31bb-5d69-9bf8-557b"/>
+      </constraints>
     </entryLink>
   </entryLinks>
 </catalogue>
