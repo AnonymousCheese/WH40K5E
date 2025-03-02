@@ -1,0 +1,2034 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="302a-dd20-f8bc-1035" name="Chaos Space Marines" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Abaddon" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="4984-5c46-5c7a-76f2">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">7</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4(8)</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4(5)</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4*</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ahriman" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="7512-5859-4c75-1cec">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+ (4+ Invulnerable)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Aspiring Champion" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="f893-cd6d-f3e5-0547">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Aspiring Sorcerer" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="45d9-c507-dba5-be2a">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Berzerker" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="a9c4-f803-547e-ccea">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Biker Champion" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="aa02-a5f5-7cab-780f">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4(5)</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chaos Biker" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e32b-a5e8-c586-a3bd">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4(5)</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chaos Lord" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="0220-067e-1cef-8e52">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+ (5+ Invulnerable)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chaos Space Marine" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="164e-e619-daa2-31ea">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chaos Spawn" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="f25c-f80a-75fa-d58f">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">D6</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chosen" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="3f62-1dc8-61ef-3f99">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Daemon Prince" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="4dc8-f9fd-29ba-99e4">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">7</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+ (5+ Invulnerable)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fabius Bile" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="0f56-f954-461f-0f65">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">5</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Greater Daemon" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="dd42-219d-3c46-7ffd">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">8</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">5</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Huron" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="a176-6037-a272-8dd0">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+ (5+ invulnerable save)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Kharn" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="6aea-1c02-dc2d-7520">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">7</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">5</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+ (5+ Invulnerable)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lesser Daemon" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e31a-f70b-f241-4d79">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lucius" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="c9ae-1713-2b94-04ff">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">7</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+ (5+ Invulnerable)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Noise Marine" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="16aa-5d0b-526f-2ced">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Noise Champion" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="38bd-c0b8-1e77-111c">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Obliterator" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="7e7d-a82a-ed77-66f1">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Plague Champion" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="5a0c-e38b-0ad6-2ee2">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4(5)</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Plague Marine" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="9cf9-ff76-12c4-648e">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4(5)</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Pessessed" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="c9b8-dc0d-9469-44bd">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Possessed Champion" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="6dea-87fb-1a43-42e2">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Raptor" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="b991-2612-d49a-0f56">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Skull Champion" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="ff62-3777-96da-fe2c">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sorcerer" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="fbd5-93bc-10cc-ac26">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+ (5+ Invulnerable)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Terminator" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="5103-70e0-abec-1974">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Terminator Champion" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="a68f-e36b-e032-a311">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Thousand Son" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="d580-438e-a10e-ffbf">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Typhus" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="33d6-0b44-661b-7e81">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4(5)</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chaos Land Raider" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="cc53-a120-b984-0bf4">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">4</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">14</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">14</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">14</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chaos Predator" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="6f75-ae99-ead8-f054">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">4</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">13</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">11</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chaos Rhino" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="81f5-fc7a-df1a-ef48">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">4</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">11</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">11</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chaos Vindicator" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="ffdb-7b22-009d-39c7">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">4</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">13</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">11</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Defiler" typeId="acd3-2539-3641-1250" typeName="Walker Vehicle" hidden="false" id="85d4-cd51-ca69-2d75">
+      <characteristics>
+        <characteristic name="WS" typeId="3d9c-8977-9b95-824b">3</characteristic>
+        <characteristic name="BS" typeId="ea47-07be-ab4a-6569">3</characteristic>
+        <characteristic name="STR" typeId="a630-c404-957f-a49f">6</characteristic>
+        <characteristic name="F" typeId="3549-2d9e-3052-b396">12</characteristic>
+        <characteristic name="S" typeId="94fc-8af8-d4d4-7b1a">12</characteristic>
+        <characteristic name="R" typeId="4eca-6e3c-2053-e75a">10</characteristic>
+        <characteristic name="I" typeId="f706-f227-5d93-0fe3">3</characteristic>
+        <characteristic name="A" typeId="12be-9dd2-0dd7-b17a">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chaos Dreadnought" typeId="acd3-2539-3641-1250" typeName="Walker Vehicle" hidden="false" id="eae9-a63f-c1af-1369">
+      <characteristics>
+        <characteristic name="WS" typeId="3d9c-8977-9b95-824b">4</characteristic>
+        <characteristic name="BS" typeId="ea47-07be-ab4a-6569">4</characteristic>
+        <characteristic name="STR" typeId="a630-c404-957f-a49f">6</characteristic>
+        <characteristic name="F" typeId="3549-2d9e-3052-b396">12</characteristic>
+        <characteristic name="S" typeId="94fc-8af8-d4d4-7b1a">12</characteristic>
+        <characteristic name="R" typeId="4eca-6e3c-2053-e75a">10</characteristic>
+        <characteristic name="I" typeId="f706-f227-5d93-0fe3">4</characteristic>
+        <characteristic name="A" typeId="12be-9dd2-0dd7-b17a">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blastmaster (Varied Frequency)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="dcd6-0d66-bd21-4489">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2, Pinning</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Blastmaster (Single Frequency)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="98df-a6d7-c5df-8491">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast, Pinning</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Doom Siren" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="265c-a50f-70be-fea5">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Reaper Autocannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="014c-57ed-c0b2-f020">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Sonic Blaster" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="eb25-7261-42fe-2264">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2 or Heavy 3</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Havoc Launcher" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="71c2-459a-7168-82f6">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Icon of Chaos Glory" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="f270-0328-367a-29cf">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The unit may re-roll failed Morale Checks (Chaos Icon)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Personal Icon" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="275a-e61d-a8a9-5870">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Chaos Icon</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Icon of Khorne" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="643c-3bbb-41b1-1685">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Chaos Icon. All models in the unit, except Independent characters joining the unit, have the Mark of Khorne.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Icon of Nurgle" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="6554-6525-0fd2-9551">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Chaos Icon. All models in the unit, except Independent characters joining the unit, have the Mark of Nurgle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Icon of Slaanesh" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="c7de-2c6d-4bb9-fae9">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Chaos Icon. All models in the unit, except Independent characters joining the unit, have the Mark of Slaanesh.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Icon of Tzeentch" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="7429-8181-fdc2-3e0f">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Chaos Icon. All models in the unit, except Independent characters joining the unit, have the Mark of Tzeentch.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mark of Khorne" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="54e8-b1c8-2d9c-b264">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Models with the Mark of Khorne gain +1 Attack.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mark of Tzeentch" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="d2e7-0507-e479-a0c6">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Models with the Mark of Tzeentch gain +1 to their Invulnerable save (to a maximum of 2+). If given to a model that does not normally have an Invulnerable save, this Mark confers an Invulnerable save of 5+.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mark of Nurgle" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="5920-fd24-ceda-39ee">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Models with the Mark of Nurgle gain +1 Toughness. Like the Toughness bonus from riding a bike, this Mark does not affect the model&apos;s Toughness in regards to Instant Death.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mark of Slaanesh" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="0682-af00-f4b4-e49c">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Models with the Mark of Slaanesh gain +1 Initiative.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mount of Slaanesh" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="8935-d9d6-00bf-d2cc">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The model gains +1 Attack and changes the unit type of the model to Cavalry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Disc of Tzeentch" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="9f73-e7ed-37c0-9531">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The rider gains +1 Attack and changes the unit type to Jump Infantry.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Juggernaut of Khorne" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="b81c-d049-8385-dbb2">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The rider gains +1 Attack and +1 Strength. The model cannot be carried in transport, exactly as if it was a Cavalry model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Palanquin of Nurgle" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="23b6-cf6b-d5a0-ed40">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The rider gains +1 Attack and +1 Wound. The model may not be carried in a Chaos Rhino. It may be carried in a Chaos Land Raider, but counts as two models.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Doombolt" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="31a8-068a-9d61-47ee">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Doombolt may be used in the model&apos;s Shooting phase instead of using another ranged weapon. A Psychic test must be passed in order to use the power.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Warptime" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="3513-243e-c4dc-b9a7">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">The power is used at the start of any player&apos;s turn. If successful, the psyker may re-roll all rolls to hit and rolls to wound for the entirety of that player&apos;s turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Gift of Chaos" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="c5a5-df47-f56e-8723">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">A Psyker may use this power at the beginning of his turn. The psyker may be in close combat at the time as may the target. Pick an enemy model and then take a Psychic test. If the test is successful and the target is found to be within 6&quot; of the psyker, roll a D6.
+
+
+If the D6 roll scores over the victim&apos;s Toughness, the victim transforms into a shapeless blob of flesh and is removed as a casualty (and, as no wounds are taken, no saves apply). Use the model&apos;s base Toughness (not the modified Toughness for being on a Bike for example), and a roll of 6 is always successful regardless of the target&apos;s Toughness value. Models without a Toughness characteristic cannot be affected.
+
+
+If the player using this power has a Chaos Spawn model available, he may replace the victim with a Spawn. The Spawn is immediately under the Chaos player&apos;s control (and is worth 40 Victory points if killed). If the model was in base contact with friendly models, they are now engaged in combat with the spawn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wind of Chaos" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="d649-665c-8fb6-c97e">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">Wind of Chaos may be used in the model&apos;s Shooting phase instead of using another ranged weapon. A Psychic test must be passed in order to use the power. If successful, this is resolved in the same way as firing a template weapon. Any models fully or partially under the template suffer one wound on a D6 roll of 4+, with no armour or cover saves allowed. Vehicles touched by the template suffer a glancing hit on a D6 roll of 4+.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lash of Submission (Slaanesh only)" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="e629-196a-0c40-4017">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">A psyker may use this Psychic power in the Shooting phase instead of using another ranged weapon. Pick any non-vehicle enemy unit visible to the psyker and within 24&quot;, and then take a Psychic test in order to use the power. If the test is successful, the target is moved 2D6&quot; by the Chaos player. This move is not slowed by difficult terrain, but dangerous terrain tests are taken as normal. Victims may not be moved off the table, into impassable terrain or within 1&quot; of enemy models. After this, the affected unit must take a Pinning test.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Nurgle&apos;s Rot" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="63f1-df99-c4f4-498e">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">A psyker may use this power in the Shooting phase instead of using another ranged weapon. The psyker may be in close combat at the time, as may the targets. If the psychic test is successful, all enemy models within 6&quot; of the psyker suffer a Strength 3 hit with AP-.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bolt of Change (Tzeentch only)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="6e68-6f58-024f-b1ba">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Bolt of Change may be used in the model&apos;s Shooting phase instead of using another ranged weapon. Psyker must perform a successful Psychic test to fire this spell.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blight Grenades" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="fdc5-3720-0b02-76f6">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">These are defensive grenades, which means that enemy units do not gain their bonus Attacks for charging if they are assaulting this unit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Inferno Bolt Pistol" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="38e7-8d99-f333-00d5">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Inferno Boltgun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="38a9-96da-313e-dab8">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Chaos Lord in Terminator Armour" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="f4ed-60c6-09ed-a2f1">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+ (5+ Invulnerable)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sorcerer in Terminator Armour" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="bfb7-4c97-e554-70ce">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+ (5+ Invulnerable)</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedRules>
+    <rule name="Chaos Icon" id="b2c2-5f7b-a147-6f46" hidden="false">
+      <description>If models in Teminator armour or Obliterators are deployed onto the battlefield via Deep Strike and choose to do so within 6&quot; of a model carrying an Icon, then they won&apos;t scatter. If the Icon Bearer is inside a transport, then the range of the icon is 6&quot; from the transport vehicle itself. Lesser Daemons must enter the game by Deep Striking within 6&quot; of an icon (see Summoning Daemons) Note that Icons only work for models in Terminator armour, Obliterators and Lesser Daemons, not for units entering play using jump packs or other means of transport. Also note that an icon must already be on the table at the start of the turn for it to be used.</description>
+    </rule>
+  </sharedRules>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Abaddon the Despoiler" hidden="false" id="71cf-98df-61ce-bfe0">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="275"/>
+      </costs>
+      <infoLinks>
+        <infoLink targetId="0f1a-e452-e74a-284a" id="3a53-30da-29b3-ddbc" type="profile" name="Twin-linked Bolter" hidden="false"/>
+        <infoLink name="Abaddon" id="4336-42dc-8e23-31c1" hidden="false" type="profile" targetId="4984-5c46-5c7a-76f2"/>
+        <infoLink name="Personal Icon" id="ab90-4acc-f22d-c5d7" hidden="false" type="profile" targetId="275a-e61d-a8a9-5870"/>
+        <infoLink name="Fearless" id="4500-5b61-3a4d-b039" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Independent Character" id="4321-3b3c-1aae-6ee8" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Mark of Chaos Ascendant" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="a7d5-ba94-1e1a-e817">
+          <characteristics>
+            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">This model has all marks of Chaos (these are reflected in his profile) The mark of Tzeentch grants him a 4+ invulnerable save. Additionally, he is immune to Instant Death.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Daemon Sword Drach&apos;nyen and Talon of Horus" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="92d3-8c9f-3bb9-9cb0">
+          <characteristics>
+            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This weapon counts as a Daemon Weapon which doubles his Strength (shown in profile) instead of the normal +1, and he may re-roll any failed roll to wound in combat. This models gains +D6 attacks in melee from the Daemon weapon. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fabius Bile" hidden="false" id="ec41-9309-8c97-5d45">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="160"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Fabius Bile" id="7d6d-674c-0a48-b037" hidden="false" type="profile" targetId="0f56-f954-461f-0f65"/>
+        <infoLink name="Bolt Pistol" id="c335-bc80-7239-248f" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+        <infoLink name="Frag Grenades" id="7d42-c31e-37c9-4498" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="33a2-ae38-63f6-58a3" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Fearless" id="4a1d-1216-2c14-7fdc" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Independent Character" id="420c-2a06-f7ec-1ee2" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Feel No Pain" id="d045-1c5f-7f8d-902d" hidden="false" type="profile" targetId="d22d-ca74-1014-8212"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Xyclos Needler" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="afde-974b-90d6-a104">
+          <characteristics>
+            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+            <characteristic name="Str." typeId="1ebc-896c-43de-904a">n/a</characteristic>
+            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
+            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3</characteristic>
+            <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">This weapon always wounds on a D6 roll of 2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Rod of Torment" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="dbf0-bc81-5395-4ca7">
+          <characteristics>
+            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a close combat weapon. Any opposing model suffering one or more wounds from the Rod of Torment is immediately disabled by the pain and suffers Instant Death, regardless of toughness.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Enhanced Warriors" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="7c6f-5768-54c6-9c87">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If Fabius Bile is included in a force, he can enhance some of the warriors in the army through genetic manipulation and drugs. For +3 pts per model, any number of Chaos Space Marine squads can be &apos;enhanced&apos; by Bile&apos;s treatment. At the start of the battle, after both sides have set up but before the first turn takes place, roll a D6 for each enhanced squad and consult the table.
+
+
+1: Berserk Rage! Make an Armour save for each warrior, removing any who fail. Survivors are Fearless and at +1 Strength for the remainder of the game.
+
+
+2-5: Stable Mutation. The Enhanced warriors are Fearless and at +1 Strength for the entire game.
+
+
+6: Created a Monster. The warriors are Fearless and add +2 to their Strength for the entire game. At the end of every owning player&apos;s turn, one of the squad&apos;s members is removed as a casualty (owner&apos;s choice).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Huron Blackheart" hidden="false" id="f49a-dcbd-85e7-35b2">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="170"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Huron" id="a32f-e0cb-ba79-4fd1" hidden="false" type="profile" targetId="a176-6037-a272-8dd0"/>
+        <infoLink name="Power Weapon" id="b9cd-e2de-224d-94ef" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+        <infoLink name="Frag Grenades" id="a581-df9a-a0fd-70ed" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="a3d7-f185-9051-29c3" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Personal Icon" id="7e02-5f76-e0a3-2923" hidden="false" type="profile" targetId="275a-e61d-a8a9-5870"/>
+        <infoLink name="Fearless" id="5cc6-3bf5-1787-204d" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Independent Character" id="5e80-cdfd-889b-a11a" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Warptime" id="e761-741b-36b5-2ab3" hidden="false" type="profile" targetId="3513-243e-c4dc-b9a7"/>
+      </infoLinks>
+      <profiles>
+        <profile name="The Tyrant&apos;s Claw" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="fe09-2830-ae3e-2274">
+          <characteristics>
+            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">The Claw is a Power Fist that incorporates a built-in Heavy Flamer</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Typhus" hidden="false" id="8e8c-08ba-40da-013a">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="225"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Typhus" id="c2b3-87a6-6a44-722e" hidden="false" type="profile" targetId="33d6-0b44-661b-7e81"/>
+        <infoLink name="Personal Icon" id="63ca-6dce-573b-3462" hidden="false" type="profile" targetId="275a-e61d-a8a9-5870"/>
+        <infoLink name="Mark of Nurgle" id="cb6c-d302-00c8-4212" hidden="false" type="profile" targetId="5920-fd24-ceda-39ee"/>
+        <infoLink name="Fearless" id="6af2-7578-5def-02ea" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Independent Character" id="cc21-aec3-3ae3-1622" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Feel No Pain" id="ed54-4dfe-bddb-bd24" hidden="false" type="profile" targetId="d22d-ca74-1014-8212"/>
+        <infoLink name="Wind of Chaos" id="3e12-a9ea-a111-d015" hidden="false" type="profile" targetId="d649-665c-8fb6-c97e"/>
+        <infoLink name="Nurgle&apos;s Rot" id="e770-dd6b-ab58-15e5" hidden="false" type="profile" targetId="63f1-df99-c4f4-498e"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Herald of Nurgle" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="8858-4ed6-50cb-1a40">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Typhus always successfully passes his Psychic tests when casting &apos;winds of chaos&apos; or &apos;Nurgle&apos;s Rot&apos;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Manreaper" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="6f63-0faa-30d6-45a3">
+          <characteristics>
+            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">The Manreaper is both a Daemon Weapon and a Force Weapon. Treat the Manreaper as a normal Daemon Weapon, and in addition any model wounded but not killed by the Manreaper can be killed by Typhus with a successful Psychic test, following all the rules for a normal force weapon. Typhus may take the test even if he has used one of his psychic powers in this turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Destroyer Hive" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="f5fc-2b25-df71-8bce">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Typhus counts as using frag and blight grenades.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Kharn The Betrayer" hidden="false" id="79df-3f28-1d69-5977">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="165"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Kharn" id="d91c-280f-9f04-bc84" hidden="false" type="profile" targetId="6aea-1c02-dc2d-7520"/>
+        <infoLink name="Plasma Pistol" id="5249-740e-efa4-498a" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+        <infoLink name="Frag Grenades" id="a7ef-1d4d-a6f2-4705" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="af46-939f-3a5c-6ff4" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Personal Icon" id="65a4-fd31-0007-d3c1" hidden="false" type="profile" targetId="275a-e61d-a8a9-5870"/>
+        <infoLink name="Mark of Khorne" id="3119-6077-63d1-f3f7" hidden="false" type="profile" targetId="54e8-b1c8-2d9c-b264"/>
+        <infoLink name="Fearless" id="a1c0-e2ed-53ab-27a2" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Independent Character" id="2a0a-b55c-a22e-1217" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Furious Charge" id="0d3b-d48e-9864-eb5a" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Gorechild" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="47d2-23c4-9c98-a103">
+          <characteristics>
+            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">Kharn&apos;s close combat attacks always hit on a roll of 2+. In addition, Gorechild is treated as a power weapon and, against vehicles, add an extra D6 to Kharn&apos;s armour penetration rolls.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="The Betrayer" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="0d4c-745d-54c0-050c">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Any of Kharn&apos;s to hit rolls of 1 in close combat have hit his own side. Resolve the hits on a random friendly engaged in the same combat, as if they were hit by the enemy, using Kharn&apos;s weapons and profile. If there are no other units in the same combat as Kharn, these attacks simply miss.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Blessing of the Blood God" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="a58e-0633-a1d1-b6cd">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Kharn is immune to the effects of psychic powers, and force weapons count as normal power weapons against him.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ahriman" hidden="false" id="763a-7ff3-c597-a8e6">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="250"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Ahriman" id="f63b-5f7a-2f0e-bb12" hidden="false" type="profile" targetId="7512-5859-4c75-1cec"/>
+        <infoLink name="Inferno Bolt Pistol" id="e673-9962-ab5d-7f43" hidden="false" type="profile" targetId="38e7-8d99-f333-00d5"/>
+        <infoLink name="Frag Grenades" id="374a-b7f0-15df-f45d" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="65aa-70c9-d486-bf8a" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Personal Icon" id="1735-c076-2124-65dc" hidden="false" type="profile" targetId="275a-e61d-a8a9-5870"/>
+        <infoLink name="Mark of Tzeentch" id="09c4-280b-4fc5-fbee" hidden="false" type="profile" targetId="d2e7-0507-e479-a0c6"/>
+        <infoLink name="Fearless" id="c229-af52-5b53-8be0" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Independent Character" id="7a28-4ff0-9980-3526" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Doombolt" id="f943-a606-ebb6-b5a5" hidden="false" type="profile" targetId="31a8-068a-9d61-47ee"/>
+        <infoLink name="Warptime" id="f78d-b485-83d2-f33a" hidden="false" type="profile" targetId="3513-243e-c4dc-b9a7"/>
+        <infoLink name="Wind of Chaos" id="7c03-d5f6-cb69-835e" hidden="false" type="profile" targetId="d649-665c-8fb6-c97e"/>
+        <infoLink name="Gift of Chaos" id="1602-e243-1f11-fe05" hidden="false" type="profile" targetId="c5a5-df47-f56e-8723"/>
+        <infoLink name="Bolt of Change (Tzeentch only)" id="15c9-ee6f-8ec9-c2dd" hidden="false" type="profile" targetId="6e68-6f58-024f-b1ba"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Black Staff of Ahriman" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="815a-bbbe-5db4-caad">
+          <characteristics>
+            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">This counts as a Force Weapon and in addition allows Ahriman to make up to three Psychic tests in the same turn (one of these may be to use the special ability of his force weapon). It even allows him to use several powers that count as firing a weapon in the same Shooting phase (he must target the same unit with all of them, however).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lucius The Eternal" hidden="false" id="7fd7-e6d2-6430-8728">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="160"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Lucius" id="e908-90b3-031e-0f98" hidden="false" type="profile" targetId="c9ae-1713-2b94-04ff"/>
+        <infoLink name="Frag Grenades" id="abec-a129-b446-6001" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="a0a0-7b47-8083-f72d" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Power Weapon" id="7021-86a7-b87a-a472" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+        <infoLink name="Personal Icon" id="1276-7465-9f3a-48ce" hidden="false" type="profile" targetId="275a-e61d-a8a9-5870"/>
+        <infoLink name="Doom Siren" id="df7e-39c2-8297-17bd" hidden="false" type="profile" targetId="265c-a50f-70be-fea5"/>
+        <infoLink name="Mark of Slaanesh" id="e058-32d4-a541-3d2d" hidden="false" type="profile" targetId="0682-af00-f4b4-e49c"/>
+        <infoLink name="Fearless" id="2751-2920-3c46-55f1" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Independent Character" id="839c-685e-8fac-47c4" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Armour of Shrieking Souls" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="c068-2598-59fe-92db">
+          <characteristics>
+            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">For each successful Power armour save or Invulnerable save Lucius makes in close combat, the unit causing the wound immediately suffers a Strength 4 hit that ignored armour saves.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lash of Torment" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="6567-6b42-712e-dc19">
+          <characteristics>
+            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This counts as a close combat weapon, and in addition it reduces the Attacks of any model in base contact with Lucius by 1 (to a minimum of 1).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Daemon Prince" hidden="false" id="f9b4-228e-4a58-9ae0">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="110"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Monstrous Creature" id="8a81-e8bc-b966-4b47" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Daemon Prince" id="f74d-9ae9-0b64-7605" hidden="false" type="profile" targetId="4dc8-f9fd-29ba-99e4"/>
+        <infoLink name="Close-Combat Weapon" id="f434-4f1d-e373-2e6c" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+        <infoLink name="Fearless" id="ea3e-216d-713d-3462" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Eternal Warrior" id="4d7f-e540-5b18-a93b" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Wings" hidden="false" id="932a-046c-f527-b314">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e86-3ede-84ab-89f9"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Jump Infantry" id="78fc-60f8-c99f-e13b" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+            <infoLink name="Deep Strike" id="093f-fdb5-4901-5eef" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Chaos Mark" id="656e-ec48-1aee-29e2" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Mark of Khorne" hidden="false" id="8253-4081-592d-db4b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Khorne" id="764a-0390-1ac5-36bd" hidden="false" type="profile" targetId="54e8-b1c8-2d9c-b264"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mark of Slaanesh" hidden="false" id="e36b-5a00-b61b-7711">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Slaanesh" id="8278-4374-956d-9854" hidden="false" type="profile" targetId="0682-af00-f4b4-e49c"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mark of Nurgle" hidden="false" id="7f8b-de4f-2cb8-e879">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Nurgle" id="e233-d1ff-0a61-7607" hidden="false" type="profile" targetId="5920-fd24-ceda-39ee"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mark of Tzeentch" hidden="false" id="acb3-a7bc-1bc9-060b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Tzeentch" id="015e-52f0-1305-7c27" hidden="false" type="profile" targetId="d2e7-0507-e479-a0c6"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d171-d63b-4a56-6d33"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="If it does not have the Mark of Khorne, a Daemon Prince may be a psyker by taking one of the following (models with the Mark of Tzeentch may take two)" id="3842-390f-6969-91fa" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Doombolt" hidden="false" id="75a2-db5c-f259-208a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Doombolt" id="42d5-be30-69d9-42cf" hidden="false" type="profile" targetId="31a8-068a-9d61-47ee"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c88-c554-ed71-2ffc"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Warptime" hidden="false" id="1237-00f6-7f05-3aec">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Warptime" id="0114-c94f-ecd1-3c70" hidden="false" type="profile" targetId="3513-243e-c4dc-b9a7"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d61d-e65d-c083-ed02"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Wind of Chaos" hidden="false" id="4f18-b993-f199-8b41">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Wind of Chaos" id="78e1-c706-d6f3-1c79" hidden="false" type="profile" targetId="d649-665c-8fb6-c97e"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dbee-8008-9cbd-7cb2"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Gift of Chaos" hidden="false" id="d70e-e4e5-d934-0050">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Gift of Chaos" id="f316-4faf-cf8b-2d02" hidden="false" type="profile" targetId="c5a5-df47-f56e-8723"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a31-7003-88f3-ccb3"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nurgle&apos;s Rot (Mark of Nurgle only)" hidden="false" id="198c-c56d-529d-f7bf">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Nurgle&apos;s Rot" id="86a3-9b19-73c0-d4b6" hidden="false" type="profile" targetId="63f1-df99-c4f4-498e"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6203-0fc6-27bd-8f74"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bolt of Change (Mark of Tzeentch only)" hidden="false" id="2fcc-c9ff-7d12-01b6">
+              <infoLinks>
+                <infoLink name="Bolt of Change (Tzeentch only)" id="ee21-349a-30af-f5bc" hidden="false" type="profile" targetId="6e68-6f58-024f-b1ba"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f6c7-700e-3335-a0af"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lash of Submission (Mark of Slaanesh only)" hidden="false" id="daff-347a-46a5-172f">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lash of Submission (Slaanesh only)" id="9781-9713-15a1-2972" hidden="false" type="profile" targetId="e629-196a-0c40-4017"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0bee-9d2a-a3bc-916d"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="b463-12cf-3e33-18cc"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chaos Lord" hidden="false" id="d7ce-a131-a838-02eb">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="90"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Chaos Lord" id="e397-30d9-fa92-2daf" hidden="false" type="profile" targetId="0220-067e-1cef-8e52"/>
+        <infoLink name="Frag Grenades" id="be83-2bb8-03b4-abd8" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="f3e6-9330-2ea9-1686" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Fearless" id="eeb4-1119-2ca6-8432" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Independent Character" id="1062-62bd-bb03-9171" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Chaos Mark" id="4c07-4efd-4e38-1b96" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Mark of Khorne" hidden="false" id="f461-71bb-4666-e5bf">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Khorne" id="0133-a27d-44ea-cb13" hidden="false" type="profile" targetId="54e8-b1c8-2d9c-b264"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mark of Slaanesh" hidden="false" id="8c19-8665-5420-e6f7">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Slaanesh" id="5844-4906-2cd8-e785" hidden="false" type="profile" targetId="0682-af00-f4b4-e49c"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mark of Nurgle" hidden="false" id="37f2-f0b8-6761-1306">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Nurgle" id="afc9-e893-c5d8-c44e" hidden="false" type="profile" targetId="5920-fd24-ceda-39ee"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mark of Tzeentch" hidden="false" id="d8b8-b5db-86b5-2789">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Tzeentch" id="c90c-8662-febd-f454" hidden="false" type="profile" targetId="d2e7-0507-e479-a0c6"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="84d9-cf95-c273-22b3"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Pistol" id="74e9-23fa-ca1f-6aab" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="9d42-e4cc-5df8-5ec2">
+              <infoLinks>
+                <infoLink name="Bolt Pistol" id="c1e7-adaf-696b-dfa9" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="2852-dd33-8265-fbe1">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Plasma Pistol" id="d684-6622-d430-8346" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2f59-ddc7-8a67-0698"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Melee Weapon" id="0a53-3145-914c-f2e5" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="52dd-64ea-9b2a-6ac4">
+              <infoLinks>
+                <infoLink name="Close-Combat Weapon" id="5977-3d67-8e31-63e5" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="8814-722e-775d-241a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Power Weapon" id="ce71-ca56-ba3f-06dc" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="fb7f-5aa6-5d23-4a3a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Power Fist" id="b8e0-2ee6-8f61-4713" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Single Lightning Claw" hidden="false" id="7e50-fba4-d3e7-cdcf">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lightning Claws" id="e602-1f0c-ddfc-a057" hidden="false" type="profile" targetId="5f25-fc3f-2fbd-1d75"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Pair of Lightning Claws" hidden="false" id="16b0-193a-daab-d1dc">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lightning Claws" id="fe2c-5bc6-226e-ccfb" hidden="false" type="profile" targetId="5f25-fc3f-2fbd-1d75"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink targetId="47cc-6cf7-39d2-838e" id="c5cf-2cd5-ac4e-d1d4" type="selectionEntry" name="Daemon Weapon" hidden="false"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="c494-ad7b-222c-3a33-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c494-ad7b-222c-3a33-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take one of the following" id="4120-5518-fd6c-5b27" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked bolter" hidden="false" id="2ea8-5bbf-e5ce-9b17">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Twin-linked Bolter" id="cd9e-60a8-c8fe-0267" hidden="false" type="profile" targetId="0f1a-e452-e74a-284a"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Combi-weapon" hidden="false" id="678e-f5cf-dcac-f10d" type="selectionEntry" targetId="d720-24d4-d7f1-df20">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1329-dfd7-9c53-9b21"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take any of the following" id="269b-ad3a-4c5a-3f16" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Melta Bombs" hidden="false" id="de29-3e60-3300-3667">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Melta Bomb" id="d882-4673-6c29-99fa" hidden="false" type="profile" targetId="62b3-f972-0f32-e8d8"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c2d-ad05-4f4f-c972"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Personal Icon" hidden="false" id="c8e9-53fd-d03d-b1f8">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Personal Icon" id="f640-9828-33bc-944b" hidden="false" type="profile" targetId="275a-e61d-a8a9-5870"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3907-fb73-26e1-1199"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May Take one of the following" id="ec07-f354-abd2-92e2" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Jump Pack/Wings" hidden="false" id="c03a-e1db-f386-e3da">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Jump Infantry" id="88a8-2ee7-d91b-ffc7" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+                <infoLink name="Deep Strike" id="59eb-a128-1b5c-8170" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bike" hidden="false" id="43f1-f194-4912-7c23">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="3326-67e1-a5e9-b3e7" id="c109-3abf-b0d8-186f" type="rule" name="Bike" hidden="false"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Demonic Steed" hidden="false" id="6e7b-6a6e-5d47-ffec">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Disc of Tzeentch" hidden="false" id="6589-6f4c-e5d1-4629">
+                  <infoLinks>
+                    <infoLink name="Disc of Tzeentch" id="8423-942c-688a-fdd0" hidden="false" type="profile" targetId="9f73-e7ed-37c0-9531"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Mount of Slaanesh" hidden="false" id="4dcf-44b5-845c-0f23">
+                  <infoLinks>
+                    <infoLink name="Mount of Slaanesh" id="aa93-35ce-3819-545e" hidden="false" type="profile" targetId="8935-d9d6-00bf-d2cc"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Juggernaut of Khorne" hidden="false" id="d3dc-d629-e632-0a81">
+                  <infoLinks>
+                    <infoLink name="Juggernaut of Khorne" id="6243-f037-de0c-d7da" hidden="false" type="profile" targetId="b81c-d049-8385-dbb2"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Palanquin of Nurgle" hidden="false" id="ead2-494c-b953-5ae3">
+                  <infoLinks>
+                    <infoLink name="Palanquin of Nurgle" id="b111-2603-3d9e-f1de" hidden="false" type="profile" targetId="23b6-cf6b-d5a0-ed40"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="14e6-d50c-2701-db6a"/>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="719e-1721-235a-d277-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="719e-1721-235a-d277-max"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Daemon Weapon" hidden="false" id="47cc-6cf7-39d2-838e">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+      </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Additional Ability (pick based on equipped Mark of Chaos)" id="a540-cd5d-1275-0502" hidden="false" defaultSelectionEntryId="4286-d25a-d6b0-a164">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Daemon Weapon (No Mark of Chaos)" hidden="false" id="4286-d25a-d6b0-a164">
+              <profiles>
+                <profile name="Daemon Weapon (No Mark of Chaos)" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="534d-ccd3-5666-ac61">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bloodfeeder (Mark of Khorne)" hidden="false" id="fc41-fcab-d622-cb2e">
+              <profiles>
+                <profile name="Bloodfeeder (Mark of Khorne)" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="e8ca-75e2-d014-1e66">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A model with Bloodfeeder gains 2D6 attacks rather than D6. If either dice rolls a 1, the model does not attack and suffers one wound (not one wound for each 1 rolled)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Plaguebringer (Mark of Nurgle)" hidden="false" id="3eaf-808b-a4b5-86cb">
+              <profiles>
+                <profile name="Plaguebringer (Mark of Nurgle)" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="1f55-11ee-e51d-1e0b">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A model with Plaguebringer has Poisoned (4+) in close combat.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Deathscreamer (Mark of Tzeentch)" hidden="false" id="84bd-de7e-a54e-9c75">
+              <profiles>
+                <profile name="Deathscreamer (Mark of Tzeentch)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="80f6-c729-5600-9cdb">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault D6</characteristic>
+                    <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">If a 1 is rolled for number of shots, no shots are fired and the wielder suffers a wound with no armour save allowed.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Blissgiver (Mark of Slaanesh)" hidden="false" id="7b4e-2041-7574-bea3">
+              <profiles>
+                <profile name="Blissgiver (Mark of Slaanesh)" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="3003-591a-c707-4cbf">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Any wounds caused on the enemy by Blissgiver inflict Instant Death, regardless of the target&apos;s Toughness.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="63e9-5500-f33d-53ad-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="63e9-5500-f33d-53ad-max"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="Daemon Weapon" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="48e5-534b-9a37-3469">
+          <characteristics>
+            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a power weapon which requires two hands to use. It adds an additional D6 attacks in close combat. Roll the dice every time the model is about to attack. On a roll of 1, the model may not make any attacks in this round and suffers one wound with no armour saves allowed.
+
+
+Daemon Weapons have an additional ability based on which Mark of Chaos they have.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chaos Lord in Terminator Armour" hidden="false" id="5b53-67d8-21da-5600">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="120"/>
+      </costs>
+      <infoLinks>
+        <infoLink targetId="7fad-3b17-9b7d-1b05" id="b7bc-79db-b94d-61bd" type="rule" name="Terminator Armour" hidden="false"/>
+        <infoLink name="Chaos Lord in Terminator Armour" id="0b05-d70d-fa94-dd01" hidden="false" type="profile" targetId="f4ed-60c6-09ed-a2f1"/>
+        <infoLink name="Frag Grenades" id="e9e5-44e0-c540-9f49" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="14b9-bdf6-cbd1-2ef1" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Fearless" id="7831-9998-fd33-ed31" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Independent Character" id="1d2b-83cf-5300-3ee5" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Chaos Mark" id="dfc0-ca07-4215-8e0d" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Mark of Khorne" hidden="false" id="c3e4-ceee-f063-0984">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Khorne" id="896f-857a-e274-e31e" hidden="false" type="profile" targetId="54e8-b1c8-2d9c-b264"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mark of Slaanesh" hidden="false" id="bb21-1f18-f637-e9b9">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Slaanesh" id="3c12-2b24-bd9a-5285" hidden="false" type="profile" targetId="0682-af00-f4b4-e49c"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mark of Nurgle" hidden="false" id="ae81-9668-9dac-dccf">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Nurgle" id="2f26-47d4-dc2c-ee2d" hidden="false" type="profile" targetId="5920-fd24-ceda-39ee"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mark of Tzeentch" hidden="false" id="cab3-42da-197c-080b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Tzeentch" id="7aee-53c0-d218-09ea" hidden="false" type="profile" targetId="d2e7-0507-e479-a0c6"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a581-3548-fb97-168f"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Pistol" id="6c61-51c5-25e4-17c0" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="a8a7-a9f7-4a7a-ad84">
+              <infoLinks>
+                <infoLink name="Bolt Pistol" id="36d1-0c8a-0559-d118" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="3199-0cb8-9eec-44f9">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Plasma Pistol" id="dc9a-6bab-187e-2446" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="61b5-9474-25f8-546d"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Melee Weapon" id="1605-5da5-1b57-2bd4" hidden="false" defaultSelectionEntryId="c858-5b42-23ed-b453">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="c858-5b42-23ed-b453">
+              <infoLinks>
+                <infoLink name="Power Weapon" id="31d2-bd43-0af1-e4b9" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="80ee-6dc6-5a87-e639">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Power Fist" id="fb7e-855d-3bc0-0157" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Single Lightning Claw" hidden="false" id="dbc9-a5be-a919-e5eb">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lightning Claws" id="cafb-375d-186c-594a" hidden="false" type="profile" targetId="5f25-fc3f-2fbd-1d75"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Pair of Lightning Claws" hidden="false" id="b743-1c13-1149-6674">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lightning Claws" id="d39e-39cf-368d-85bd" hidden="false" type="profile" targetId="5f25-fc3f-2fbd-1d75"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Chainfist" hidden="false" id="9892-1ee6-2df4-c36d">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Chain Fist" id="54b5-8b01-2d5b-91fb" hidden="false" type="profile" targetId="5151-d1aa-1f80-cb94"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Daemon Weapon" hidden="false" id="5ff8-d872-f69c-f135" targetId="47cc-6cf7-39d2-838e" type="selectionEntry">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="8401-f6b1-ef06-4fde-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8401-f6b1-ef06-4fde-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Loadout" id="4cb2-3882-7dc9-5350" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked bolter" hidden="false" id="0920-8a5b-f643-b6a3">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Twin-linked Bolter" id="4597-0e1a-4f2c-fccf" hidden="false" type="profile" targetId="0f1a-e452-e74a-284a"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Combi-weapon" hidden="false" id="e034-4305-5035-5a13" type="selectionEntry" targetId="d720-24d4-d7f1-df20">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="5ef5-15b8-d9e4-cc61-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5ef5-15b8-d9e4-cc61-max"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Personal Icon" hidden="false" id="2c4e-78f3-adeb-6c95">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Personal Icon" id="e0e1-0944-7168-93a9" hidden="false" type="profile" targetId="275a-e61d-a8a9-5870"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0200-04ff-fefe-df9c"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chaos Sorcerer" hidden="false" id="8d6a-d8ee-6a04-b4b1">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="100"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Independent Character" id="3bc9-cc63-3b46-2f44" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Sorcerer" id="53f0-3e16-af21-1c1b" hidden="false" type="profile" targetId="fbd5-93bc-10cc-ac26"/>
+        <infoLink name="Frag Grenades" id="d30c-e377-c1b4-644e" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="199d-9acc-8eb3-5122" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Force Weapon" id="b7ad-0d90-4e2d-2897" hidden="false" type="profile" targetId="84e8-f828-c1c0-81c1"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Pistol" id="6cdd-3e63-8614-85fd" hidden="false" defaultSelectionEntryId="d5eb-bc8e-f78f-5c14">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="d5eb-bc8e-f78f-5c14">
+              <infoLinks>
+                <infoLink name="Bolt Pistol" id="a4ed-2082-12aa-f75b" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="dfe7-1ad5-70fe-64a7">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Plasma Pistol" id="107e-6163-6799-e70a" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="58a9-e2e3-14e7-d098-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="58a9-e2e3-14e7-d098-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="A Sorcerer must take one of the following psychic powers (models with the mark of Tzeentch may take two)" id="97a6-a6bd-3f18-1d6d" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Doombolt" hidden="false" id="6a85-e60a-18ef-665e">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Doombolt" id="fa74-ab93-835a-72b0" hidden="false" type="profile" targetId="31a8-068a-9d61-47ee"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="66bd-3465-13ac-2eec"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Warptime" hidden="false" id="57e2-9d6c-81a9-72c4">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Warptime" id="8434-b2b4-9cf9-fe3e" hidden="false" type="profile" targetId="3513-243e-c4dc-b9a7"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29e1-0786-21ee-eefd"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Wind of Chaos" hidden="false" id="5530-7041-0728-1287">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Wind of Chaos" id="a318-fb53-7441-3584" hidden="false" type="profile" targetId="d649-665c-8fb6-c97e"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="67a3-a43e-63b3-bb17"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Gift of Chaos" hidden="false" id="382f-2175-e1c1-f10b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Gift of Chaos" id="1836-b93c-7fb1-b6c9" hidden="false" type="profile" targetId="c5a5-df47-f56e-8723"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="97bc-7995-e671-b9b1"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nurgle&apos;s Rot (Mark of Nurgle only)" hidden="false" id="61c9-a7d3-2f85-18da">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Nurgle&apos;s Rot" id="c760-56ca-1575-aeb6" hidden="false" type="profile" targetId="63f1-df99-c4f4-498e"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4013-f2a1-8d8f-632e"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bolt of Change (Mark of Tzeentch only)" hidden="false" id="9121-cfca-70d4-e58a">
+              <infoLinks>
+                <infoLink name="Bolt of Change (Tzeentch only)" id="19d9-1ce7-f1f2-e56c" hidden="false" type="profile" targetId="6e68-6f58-024f-b1ba"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="12c2-7d53-80e4-4315"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lash of Submission (Mark of Slaanesh only)" hidden="false" id="7fb5-c53e-8450-62dc">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lash of Submission (Slaanesh only)" id="dde7-2cd2-641a-3721" hidden="false" type="profile" targetId="e629-196a-0c40-4017"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7bfb-e1f5-4d4c-9883"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="self" shared="true" id="245c-6d50-ce6f-25fd"/>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="99a0-0833-9301-993a"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May Take one of the following" id="4aed-ad26-7b3b-23ef" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Jump Pack/Wings" hidden="false" id="0295-882e-3ec7-4e94">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Jump Infantry" id="8aba-16aa-6d2b-28bc" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+                <infoLink name="Deep Strike" id="6048-3c5b-23aa-79ec" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bike" hidden="false" id="fea8-a580-5d8a-f496">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Bike" id="d64e-317e-cd4d-fac9" hidden="false" targetId="3326-67e1-a5e9-b3e7" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Demonic Steed" hidden="false" id="f2c5-b494-e234-5732">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Disc of Tzeentch" hidden="false" id="52ee-3ac1-1b3c-bc37">
+                  <infoLinks>
+                    <infoLink name="Disc of Tzeentch" id="1a72-3d6a-4b70-c031" hidden="false" type="profile" targetId="9f73-e7ed-37c0-9531"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Mount of Slaanesh" hidden="false" id="e65b-375c-92b4-5e42">
+                  <infoLinks>
+                    <infoLink name="Mount of Slaanesh" id="f977-2227-1e30-9725" hidden="false" type="profile" targetId="8935-d9d6-00bf-d2cc"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Juggernaut of Khorne" hidden="false" id="e8cd-a378-2ac7-1b29">
+                  <infoLinks>
+                    <infoLink name="Juggernaut of Khorne" id="8dca-9d1d-2eb4-2bbc" hidden="false" type="profile" targetId="b81c-d049-8385-dbb2"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Palanquin of Nurgle" hidden="false" id="0cfb-1d47-6dab-eb94">
+                  <infoLinks>
+                    <infoLink name="Palanquin of Nurgle" id="e295-2e95-bfdf-9aa6" hidden="false" type="profile" targetId="23b6-cf6b-d5a0-ed40"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f68a-7b7e-7f13-4a38"/>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="6da8-64f4-9e16-e2b3-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="6da8-64f4-9e16-e2b3-max"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take any of the following" id="bfba-07c5-fa17-1fd7" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Melta Bombs" hidden="false" id="2424-51f0-10cb-55e8">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Melta Bomb" id="95f7-469f-937e-7059" hidden="false" type="profile" targetId="62b3-f972-0f32-e8d8"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d3c9-9b41-ccc9-ef75"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Personal Icon" hidden="false" id="95fe-eb5c-f0ad-7c76">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Personal Icon" id="d754-4f49-32f4-4230" hidden="false" type="profile" targetId="275a-e61d-a8a9-5870"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72f2-20f5-c8cc-906b"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Familiar" hidden="false" id="075d-80e2-c741-6448">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <profiles>
+                <profile name="Familiar" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="18d5-02ac-ea55-617c">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with a Familiar may be given one psychic power more than normal.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b497-4de1-c396-6957"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Chaos Mark" id="dc86-75aa-4082-7fc1" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Mark of Slaanesh" hidden="false" id="01ea-8b93-2860-6e51">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Slaanesh" id="d02b-a699-ead8-33b1" hidden="false" type="profile" targetId="0682-af00-f4b4-e49c"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mark of Nurgle" hidden="false" id="e898-55e1-f70d-2ea6">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Nurgle" id="a1c7-568e-8c5c-7653" hidden="false" type="profile" targetId="5920-fd24-ceda-39ee"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mark of Tzeentch" hidden="false" id="13a2-6194-c2eb-fc94">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Tzeentch" id="d971-808f-8094-d935" hidden="false" type="profile" targetId="d2e7-0507-e479-a0c6"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="12cc-ce21-bd2d-ddc9"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chaos Sorcerer in Terminator Armour" hidden="false" id="a1df-2b2b-4b1d-2bd8">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="115"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Independent Character" id="5d71-7617-8080-b190" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Sorcerer in Terminator Armour" id="e8f8-39ea-8ee1-ef4a" hidden="false" type="profile" targetId="bfb7-4c97-e554-70ce"/>
+        <infoLink name="Frag Grenades" id="3549-6145-4a7a-2b2a" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="37ba-b816-6bfe-828f" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Force Weapon" id="6ce0-36a4-d67e-f024" hidden="false" type="profile" targetId="84e8-f828-c1c0-81c1"/>
+        <infoLink name="Terminator Armour" id="4b9a-6aaf-28cd-c44d" hidden="false" type="rule" targetId="7fad-3b17-9b7d-1b05"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapon" id="8717-caad-d6f1-2f76" hidden="false" defaultSelectionEntryId="5805-8b5d-007c-413a">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Bolter" hidden="false" id="5805-8b5d-007c-413a">
+              <infoLinks>
+                <infoLink name="Twin-linked Bolter" id="c2ad-e010-4029-31d8" hidden="false" type="profile" targetId="0f1a-e452-e74a-284a"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="98c5-5c62-32ed-ca07-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="98c5-5c62-32ed-ca07-max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Combi-weapon" hidden="false" id="c5cf-d97b-e223-3ecd" type="selectionEntry" targetId="d720-24d4-d7f1-df20">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="A Sorcerer must take one of the following psychic powers (models with the mark of Tzeentch may take two)" id="c5d4-42f2-71f2-d0b3" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Doombolt" hidden="false" id="bd81-3f4f-3f1f-a90b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Doombolt" id="6822-97e8-4be5-2233" hidden="false" type="profile" targetId="31a8-068a-9d61-47ee"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7762-96c8-fe73-96a7"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Warptime" hidden="false" id="a327-a381-d2a2-b2d5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Warptime" id="099c-5c3a-57d8-1e4f" hidden="false" type="profile" targetId="3513-243e-c4dc-b9a7"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e041-72e2-ed3b-aae7"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Wind of Chaos" hidden="false" id="e521-f00c-1035-eed0">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Wind of Chaos" id="ce51-2683-d386-c7d2" hidden="false" type="profile" targetId="d649-665c-8fb6-c97e"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d590-24eb-6564-fe47"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Gift of Chaos" hidden="false" id="09ee-7da5-d454-1cf0">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Gift of Chaos" id="ca97-6282-f709-4b2e" hidden="false" type="profile" targetId="c5a5-df47-f56e-8723"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd82-ba74-8a98-9c01"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nurgle&apos;s Rot (Mark of Nurgle only)" hidden="false" id="0bc8-4bd6-9462-afd4">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Nurgle&apos;s Rot" id="20d7-57d5-8607-6907" hidden="false" type="profile" targetId="63f1-df99-c4f4-498e"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b690-79cb-ffb8-3889"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bolt of Change (Mark of Tzeentch only)" hidden="false" id="4dce-69e9-2f8a-ad4b">
+              <infoLinks>
+                <infoLink name="Bolt of Change (Tzeentch only)" id="6648-497f-8132-c6da" hidden="false" type="profile" targetId="6e68-6f58-024f-b1ba"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c11-1571-b803-af90"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lash of Submission (Mark of Slaanesh only)" hidden="false" id="5da8-0a6f-3f69-d7b6">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lash of Submission (Slaanesh only)" id="3b50-91a8-3a09-eeb6" hidden="false" type="profile" targetId="e629-196a-0c40-4017"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e17-a54e-7999-4cb3"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="self" shared="true" id="9c00-50ce-d259-4b0f"/>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="f842-084d-0627-ceb3"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take any of the following" id="8e41-a26f-fbe7-9053" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Personal Icon" hidden="false" id="6a5a-4096-b130-c9f5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Personal Icon" id="a6b6-a7cd-ac6d-bfe9" hidden="false" type="profile" targetId="275a-e61d-a8a9-5870"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab7d-c8ef-7761-3897"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Familiar" hidden="false" id="678a-a5a4-887f-350b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <profiles>
+                <profile name="Familiar" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="581b-075c-b7bb-563a">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with a Familiar may be given one psychic power more than normal.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e92-e88b-9ef9-6ebe"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Chaos Mark" id="c613-32fe-59d5-b243" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Mark of Slaanesh" hidden="false" id="c9cd-0164-6319-4af4">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Slaanesh" id="f8a0-0e46-a3a5-ee8f" hidden="false" type="profile" targetId="0682-af00-f4b4-e49c"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mark of Nurgle" hidden="false" id="a73d-ca58-281e-3608">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Nurgle" id="27fe-3774-5d07-dbf7" hidden="false" type="profile" targetId="5920-fd24-ceda-39ee"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mark of Tzeentch" hidden="false" id="a85b-0d45-e917-3ea5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Tzeentch" id="05c3-f9f7-c8e4-b931" hidden="false" type="profile" targetId="d2e7-0507-e479-a0c6"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7b31-ccf9-ef3a-56aa"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Abaddon the Despoiler" hidden="false" id="ec1c-0579-6db5-cae9" type="selectionEntry" targetId="71cf-98df-61ce-bfe0">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="0a88-28a8-245d-da0a" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0452-3692-b41e-e8ae"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Fabius Bile" hidden="false" id="5e5b-15f4-73f8-9c9d" type="selectionEntry" targetId="ec41-9309-8c97-5d45">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="a935-798e-8c7f-1de5" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d8e0-39a9-8d5a-828d"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Huron Blackheart" hidden="false" id="b779-421e-334d-14ae" type="selectionEntry" targetId="f49a-dcbd-85e7-35b2">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="bce4-e0a1-0277-38b4" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8097-530c-d895-e9e1"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Typhus" hidden="false" id="13c1-37a1-7277-ff9d" type="selectionEntry" targetId="8e8c-08ba-40da-013a">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="c71c-3366-3215-c447" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="81e1-6d14-1cf0-59c5"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Kharn The Betrayer" hidden="false" id="f419-11fa-0bfc-4a84" type="selectionEntry" targetId="79df-3f28-1d69-5977">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="bc53-e5f9-f70f-8306" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="863a-870e-4b44-9a2a"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Ahriman" hidden="false" id="6952-1da5-9864-1403" type="selectionEntry" targetId="763a-7ff3-c597-a8e6">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="7a38-adb5-2eb2-a8f2" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1203-88c0-8129-48e8"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Lucius The Eternal" hidden="false" id="c325-b44d-a76d-cca6" type="selectionEntry" targetId="7fd7-e6d2-6430-8728">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="202f-6409-a7fa-e097" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9295-cbec-9583-20f6"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Daemon Prince" hidden="false" id="1d20-33ac-b558-c3b4" type="selectionEntry" targetId="f9b4-228e-4a58-9ae0">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="1549-a278-8d89-a409" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Chaos Lord" hidden="false" id="e0aa-a59a-9af3-44b9" type="selectionEntry" targetId="d7ce-a131-a838-02eb">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="42f6-284f-d5b2-b81c" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Chaos Lord in Terminator Armour" hidden="false" id="35a8-5c69-9172-a6e4" type="selectionEntry" targetId="5b53-67d8-21da-5600">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="a50f-c134-a97c-cd0d" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Chaos Sorcerer" hidden="false" id="0c23-a2d2-bda1-ca26" type="selectionEntry" targetId="8d6a-d8ee-6a04-b4b1">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="60c4-8f36-93b1-7e1b" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Chaos Sorcerer in Terminator Armour" hidden="false" id="0aa5-8282-eca0-f421" type="selectionEntry" targetId="a1df-2b2b-4b1d-2bd8">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="0f86-68bc-ce93-a475" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>

@@ -2245,68 +2245,6 @@ If you decide to split the unit into combat squads, then each combat squad is tr
         <infoLink name="Independent Character" id="8256-026d-d4fc-be7a" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Combi-weapon" hidden="false" id="d720-24d4-d7f1-df20" defaultAmount="0">
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Combi-flamer" hidden="false" id="f589-6e69-8051-ff14">
-          <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Combi-flamer (Flamer)" id="fe09-5f7f-45b6-a978" hidden="false" targetId="6895-2cfe-6f5b-8f88" type="profile"/>
-            <infoLink name="Combi-flamer (Boltgun)" id="c544-2819-ed5c-10bc" hidden="false" targetId="79ec-9032-001f-b7bf" type="profile"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2100-a04d-b30d-4c34"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Combi-melta" hidden="false" id="a087-a0ee-5221-681b">
-          <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Combi-melta (Boltgun)" id="dd57-824a-b3cb-713e" hidden="false" targetId="aad5-fec1-bd21-2ae3" type="profile"/>
-            <infoLink name="Combi-melta (melta)" id="82e3-9932-779c-dc3d" hidden="false" targetId="38ae-bcac-62af-c514" type="profile"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="590b-5a6d-71b3-eda1"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Combi-plasma" hidden="false" id="7de9-f8dd-de1f-4133">
-          <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
-          </costs>
-          <profiles>
-            <profile name="Combi-plasma (Boltgun)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="9f42-a486-0fe8-5f37">
-              <characteristics>
-                <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
-                <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
-                <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
-                <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
-                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
-              </characteristics>
-            </profile>
-            <profile name="Combi-plasma (plasma)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4ecb-49df-c661-6aea">
-              <characteristics>
-                <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
-                <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
-                <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
-                <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Gets Hot!, One Shot</characteristic>
-                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf08-30f2-82e0-7ca8"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b9bf-a0a0-3657-c3b6"/>
-      </constraints>
-      <costs>
-        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry type="unit" import="true" name="Techmarine" hidden="false" id="cb3c-3112-6c58-a35b">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>

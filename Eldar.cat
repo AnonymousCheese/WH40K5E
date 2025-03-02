@@ -568,7 +568,7 @@
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
-    <profile name="Shrieker Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="db20-c0b9-7553-8719">
+    <profile name="Shuriker Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="db20-c0b9-7553-8719">
       <characteristics>
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
@@ -610,7 +610,7 @@
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Lance</characteristic>
-        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">On any turn this model initiates an assault, models armed with a Star Lance count as having a Strength 8 power weapon.</characteristic>
       </characteristics>
     </profile>
     <profile name="Starcannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="eec3-78b8-1100-fed9">
@@ -646,7 +646,7 @@
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3</characteristic>
-        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">This weapon also counts as a power weapon.</characteristic>
       </characteristics>
     </profile>
     <profile name="Vibro Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="42b5-3fa8-fd69-06e5">
@@ -871,6 +871,214 @@
     <profile name="Skilled Rider" typeId="56e3-7b0a-703a-e89d" typeName="Exarch Power" hidden="false" id="4e93-8dc5-3b3b-7ac9">
       <characteristics>
         <characteristic name="Description" typeId="30bc-cf7e-dc4a-3be1">The Exarch and his unit have the Skilled Rider ability.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Diresword" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="3a02-77ac-d2ac-9459">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Diresword is a power weapon. In addition, if a model suffers any unsaved wounds from a diresword, it must immediately pass a Leadership test for each wound suffered. If any of these tests are failed, the victim dies automatically and is removed regardless of remaining wounds.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shimmershield" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="cbfa-0ca4-202a-a591">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with a Shimmershield, and all members of his unit, will benefit from a 5+ invulnerable save in close combat.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Executioner" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="aa81-c3d5-3e71-9571">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a two-handed power weapon that adds +2 S.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mirrorswords" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="a87f-9c82-c302-1a26">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A model with mirrorswords counts as having an extra hand weapon that grants +2 A instead of the usual +1 A. Mirrorswords ignore armour saves.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Scorpion&apos;s Claw" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="e895-bcf0-d9d5-6c2e">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This weapon counts as both a Power Fist and a Shuriken catapult.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Scorpion Chainsword" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="a2c5-4bc2-47b4-0a53">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a one-handed weapon that adds +1 S to the model&apos;s attacks.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chainsabres" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="9a05-9aa2-475d-bf3f">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A model with chainsabres has +1 Attack and can re-roll all failed to hit and to wound rolls.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Biting Blade" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="175f-7b4c-b754-a245">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a two-handed close combat weapon that adds +1 S. Furthermore, each hit scored by a model with a biting blade adds a further +1S for the purposes of resolving those attacks. For example, an Exarch who hits three times will strike at S7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Swooping Hawk Wings" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="c8c2-a007-e987-c28b">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with Swooping Hawk wings moves as if equipped with a jump pack and may use the Deep Strike rules to deploy in missions that allow it.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Swooping Hawk Grenade Pack" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="dbc3-0720-b3e9-7840">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">n/a</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Large Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Any time a Swooping Hawk unit uses its Deep Strike ability, it may place a Large Blast Marker centred on an enemy model anywhere on the table and roll a scatter dice. If an arrow is rolled, the marker scatters D6&quot; in the indicated direction. Work out hits and damage as normal.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Powerblades" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="d8bb-9bf6-743f-f535">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">Powerblades confer +1 A and ignore armour saves.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Star Lance" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="9a00-5c10-88e5-14ed">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This weapon follows the same rules for a Laser Lance, but has a Strength of 8 in all cases.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Silent Death" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="080f-7ac0-0563-d02c">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">This weapon also counts as a power weapon.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Scorpion&apos;s Bite" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="e418-fda3-af45-8e48">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A model with mandiblasters has +2 A.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Fire Axe" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="cf70-b1b4-0696-22a1">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This weapon confers +1S to attacks and allows the bearer to attack as a monstrous creature (Ignores armour saves, rolls 2D6+5 for armour penetration).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Maugetar" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="545e-b7c4-7c2d-bc20">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 4, Pinning, Rending</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">This weapon has an inbuilt Executioner.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Shuriken Catapults" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0af5-7e80-fa6a-d979">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Shuriken Cannons" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="9ba2-53e1-c3aa-81e8">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Scatter Lasers" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="659c-9c7d-25e3-feea">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 4, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Eldar Missile Launchers (Krak)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="ec8b-03d2-93d4-76fb">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Eldar Missile Launchers (Plasma)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="85e9-0e3b-9e9f-ac9a">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast, Pinning, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Starcannons" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="73a2-b0f3-b031-6ec7">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Bright Lances" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="5ac9-7506-88c4-16ad">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Lance</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Vectored Engines" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="2732-9d94-b202-e3aa">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">If the vehicle would crash due to being immobilised, it instead makes a forced landing as if it had not moved that turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Star Engines" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="6d44-86d2-abdd-929e">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">This vehicle may move an additional 12&quot; in lieu of shooting, but troops may not embark or disembark that turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Spirit Stones (Vehicle)" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="3933-2c64-aa15-2cbd">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">If the vehicle suffers a &apos;crew stunned&apos; result it is automatically counted as a &apos;crew shaken&apos; result.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Holo-field" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="83d0-c976-0337-bf00">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Whenever your opponent rolls on the damage table for that vehicle, they must roll two dice and apply the lowest result.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wraithsight" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="21df-e06e-c5f5-5a33">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">At the start of the unit&apos;s turn, roll a D6 for each Wraithguard unit that is not within 6&quot; of a friendly Psyker. On a roll of a 1, the Wraithguard is inactive until the end of their turn. Inactive models may not move, shoot, assault or attack in close combat, and are hit automatically in close combat.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Harlequin&apos;s Kiss" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="58c0-2817-9fac-1e65">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Harlequin&apos;s Kiss counts as a close combat weapon. In addition, close combat attacks made by a model armed with a Harlequin&apos;s Kiss have the Rending special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shrieker Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="97a0-3ad8-afe2-c152">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Duel Deathspinners" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="d90f-f5c2-efb3-978d">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 4</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Wraithblade" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="cb7b-4d75-5286-58f3">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This weapon may re-roll failed rolls to hit in close combat.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -1468,12 +1676,2418 @@
             <characteristic name="Ability" typeId="2113-98a2-4376-a94c">The Sword of Asur is a diresword that allows Asurmen to re-roll misses in close combat.</characteristic>
           </characteristics>
         </profile>
+        <profile name="Disciplines (Dire Avengers)" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="167d-6ec6-c09b-65b2">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If the Phoenix Lord is leading a squad of their Aspect, the whole squad becomes Fearless. Phoenix Lords cannot join Aspect Warrior squads not of their Aspect. Note that if a squad has two of the same Exarch power, they are not cumulative.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Battle Fate" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="f207-cec6-c022-aec9">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This model has a 4+ Invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Wrist-mounted Avenger Shuriken Catapults" id="8b24-cc86-7495-fcf8" hidden="false" type="profile" targetId="0f18-d71c-4959-5577"/>
+        <infoLink name="Defend" id="adaf-3ae7-8766-35d3" hidden="false" type="profile" targetId="a8a7-0b93-5bdc-ce5c"/>
+        <infoLink name="Bladestorm" id="e834-cef5-d765-e54c" hidden="false" type="profile" targetId="5330-f7e5-6561-5746"/>
       </infoLinks>
       <entryLinks>
         <entryLink targetId="bde0-bf0a-44b9-d62d" id="2acf-77f6-3e70-c299" type="selectionEntryGroup" name="Phoenix Lord" hidden="false"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Jain Zar" hidden="false" id="b996-6673-68c0-abda">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="190"/>
+      </costs>
+      <profiles>
+        <profile name="Disciplines (Howling Banshees)" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="6982-f6c4-a052-2f80">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If the Phoenix Lord is leading a squad of their Aspect, the whole squad becomes Fearless. Phoenix Lords cannot join Aspect Warrior squads not of their Aspect. Note that if a squad has two of the same Exarch power, they are not cumulative.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Banshee mask" id="d647-f755-ee9f-2b30" hidden="false" type="profile" targetId="e08f-bb4c-89f8-496a"/>
+        <infoLink name="Executioner" id="ace8-7623-8bf4-cd58" hidden="false" type="profile" targetId="aa81-c3d5-3e71-9571"/>
+        <infoLink name="The Silent Death" id="90ae-6268-9c2b-1645" hidden="false" type="profile" targetId="080f-7ac0-0563-d02c"/>
+        <infoLink name="Acrobatic" id="d628-8e47-bed1-ea31" hidden="false" type="profile" targetId="4a27-edc9-6fbb-7f3e"/>
+        <infoLink name="War Shout" id="441e-09cc-d364-5cad" hidden="false" type="profile" targetId="9f30-2738-6be2-fccf"/>
+        <infoLink name="Furious Charge" id="83c1-2921-9e5f-1a6d" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Phoenix Lord" hidden="false" id="6f8f-d1f9-14f7-30df" targetId="bde0-bf0a-44b9-d62d" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Baharroth" hidden="false" id="21de-b843-ff6b-1cdb">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="200"/>
+      </costs>
+      <profiles>
+        <profile name="Disciplines (Swooping Hawks)" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="689f-111b-bb7c-1641">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If the Phoenix Lord is leading a squad of their Aspect, the whole squad becomes Fearless. Phoenix Lords cannot join Aspect Warrior squads not of their Aspect. Note that if a squad has two of the same Exarch power, they are not cumulative.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Swooping Hawk Wings" id="ecf6-48e5-396a-4f9e" hidden="false" type="profile" targetId="c8c2-a007-e987-c28b"/>
+        <infoLink name="Swooping Hawk Grenade Pack" id="5048-b37a-0e5c-82cc" hidden="false" type="profile" targetId="dbc3-0720-b3e9-7840"/>
+        <infoLink name="Plasma Grenades" id="42e4-fc6c-64a6-e4f7" hidden="false" type="profile" targetId="f199-6b5f-7b3d-f011"/>
+        <infoLink name="Haywire Grenades" id="7405-01a1-b271-916d" hidden="false" type="profile" targetId="49d2-85d6-9995-2583"/>
+        <infoLink name="Power Weapon" id="a15c-de24-143f-6b34" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+        <infoLink name="Hawk&apos;s Talon" id="e4a7-526d-f3da-f11a" hidden="false" type="profile" targetId="7268-2538-d0f3-01e2"/>
+        <infoLink name="Skyleap" id="dbd3-4b36-b7dd-d85c" hidden="false" type="profile" targetId="111d-993e-7705-4f5d"/>
+        <infoLink name="Intercept" id="4031-337c-2b8f-2732" hidden="false" type="profile" targetId="bf0d-a365-5a90-b051"/>
+        <infoLink name="Hit and Run" id="8cfd-372d-ba16-b780" hidden="false" type="profile" targetId="17a2-9db7-3461-361c"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Phoenix Lord" hidden="false" id="667e-8a86-c71e-5579" targetId="bde0-bf0a-44b9-d62d" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Karandras" hidden="false" id="92c8-f497-4675-395b">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="215"/>
+      </costs>
+      <profiles>
+        <profile name="Disciplines (Striking Scorpions)" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="f7de-c802-6d0c-de87">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If the Phoenix Lord is leading a squad of their Aspect, the whole squad becomes Fearless. Phoenix Lords cannot join Aspect Warrior squads not of their Aspect. Note that if a squad has two of the same Exarch power, they are not cumulative.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Scorpion&apos;s Bite" id="5c8f-1c1a-5e61-fc86" hidden="false" type="profile" targetId="e418-fda3-af45-8e48"/>
+        <infoLink name="Scorpion Chainsword" id="6b78-09db-7fff-7871" hidden="false" type="profile" targetId="a2c5-4bc2-47b4-0a53"/>
+        <infoLink name="Scorpion&apos;s Claw" id="681b-838e-6ec7-f598" hidden="false" type="profile" targetId="e895-bcf0-d9d5-6c2e"/>
+        <infoLink name="Plasma Grenades" id="d5f4-5c97-ac4d-d49e" hidden="false" type="profile" targetId="f199-6b5f-7b3d-f011"/>
+        <infoLink name="Shadowstrike" id="0285-d66a-9ad7-5e3c" hidden="false" type="profile" targetId="abfd-8e97-eda9-89b2"/>
+        <infoLink name="Stalker" id="75b4-cb9d-372e-4ac2" hidden="false" type="profile" targetId="c50d-564f-0bda-2327"/>
+        <infoLink name="Stealth" id="074b-2b8c-9f85-46dc" hidden="false" type="profile" targetId="8dc7-2ec3-1248-9d84"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Phoenix Lord" hidden="false" id="0408-d2d7-12e5-d061" targetId="bde0-bf0a-44b9-d62d" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fuegan" hidden="false" id="730f-88de-e870-5d44">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="205"/>
+      </costs>
+      <profiles>
+        <profile name="Disciplines (Fire Dragons)" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="7312-f08d-c279-0ed3">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If the Phoenix Lord is leading a squad of their Aspect, the whole squad becomes Fearless. Phoenix Lords cannot join Aspect Warrior squads not of their Aspect. Note that if a squad has two of the same Exarch power, they are not cumulative.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Firepike" id="653e-31a0-5881-c531" hidden="false" type="profile" targetId="6e88-d115-0321-a187"/>
+        <infoLink name="The Fire Axe" id="c7b0-9916-4963-2402" hidden="false" type="profile" targetId="cf70-b1b4-0696-22a1"/>
+        <infoLink name="Melta Bomb" id="7671-2622-c22f-79e5" hidden="false" type="profile" targetId="62b3-f972-0f32-e8d8"/>
+        <infoLink name="Tank Hunters" id="e3ad-d475-1916-8432" hidden="false" type="profile" targetId="3151-3abf-952c-8046"/>
+        <infoLink name="Crack Shot" id="1086-e5cb-ba6c-a571" hidden="false" type="profile" targetId="6eb5-0805-00c4-cb1b"/>
+        <infoLink name="Feel No Pain" id="2ac1-0323-cd9b-9427" hidden="false" type="profile" targetId="d22d-ca74-1014-8212"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Phoenix Lord" hidden="false" id="22bb-c607-2cc3-22b9" targetId="bde0-bf0a-44b9-d62d" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Maugan Ra" hidden="false" id="f5c1-2026-9a09-1996">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="195"/>
+      </costs>
+      <profiles>
+        <profile name="Disciplines (Dark Reapers)" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="3f15-2e6a-2d96-8ec1">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If the Phoenix Lord is leading a squad of their Aspect, the whole squad becomes Fearless. Phoenix Lords cannot join Aspect Warrior squads not of their Aspect. Note that if a squad has two of the same Exarch power, they are not cumulative.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="The Maugetar" id="d316-9e3c-97f2-cacf" hidden="false" type="profile" targetId="545e-b7c4-7c2d-bc20"/>
+        <infoLink name="Crack Shot" id="ec7f-313f-a6f7-c670" hidden="false" type="profile" targetId="6eb5-0805-00c4-cb1b"/>
+        <infoLink name="Fast Shot" id="5f64-9c91-734b-633a" hidden="false" type="profile" targetId="1e50-f4b0-d60a-6158"/>
+        <infoLink name="Acute Senses" id="557d-a53a-506e-1c09" hidden="false" type="profile" targetId="253f-bb05-f8fd-fffd"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Phoenix Lord" hidden="false" id="e56c-17a3-1044-7cd7" targetId="bde0-bf0a-44b9-d62d" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Striking Scorpions" hidden="false" id="87fd-2e03-068a-bb47">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="304f-15a4-dafe-2aed" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Striking Scorpions" hidden="false" id="f5fc-6d71-3d87-f914">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="16"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Striking Scorpion" id="4f62-2f02-7e47-6c9d" hidden="false" type="profile" targetId="3fed-50df-cb14-aedf"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Exarch" hidden="false" id="0493-2915-8d85-b5d0">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="28"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Exarch" id="2d05-62b2-b1b9-d649" hidden="false" type="profile" targetId="4846-9fbc-e26a-0635"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fff7-e673-0d83-ae95"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="The Exarch may replace his shuriken pistol with a scorpion claw, replace hs chainsword with a biting blade or both with chainsabres." id="8505-ca97-e668-2d81" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Scorpion&apos;s Claw" hidden="false" id="e237-d1c4-58af-15d9">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb20-df8e-a207-8604"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Scorpion&apos;s Claw" id="744f-d4d6-83f7-6072" hidden="false" type="profile" targetId="e895-bcf0-d9d5-6c2e"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Biting Blade" hidden="false" id="5a50-8292-4c4f-56a3">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ec8-32fa-0245-79b5"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Biting Blade" id="210a-029e-aef4-5505" hidden="false" type="profile" targetId="175f-7b4c-b754-a245"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Chainsabres" hidden="false" id="2d0a-596f-77f3-f7d7">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Chainsabres" id="5b13-007a-ce2f-a82c" hidden="false" type="profile" targetId="9a05-9aa2-475d-bf3f"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1850-6a1d-1e3a-070a"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="The Exarch may be given the following warrior powers" id="1af4-4614-8150-e5f4" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Stalker" hidden="false" id="e42a-5704-4aa1-e25f">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ff0-6ff1-4e9b-c278"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Stalker" id="2ad5-7711-799c-9e43" hidden="false" type="profile" targetId="c50d-564f-0bda-2327"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Shadowstrike" hidden="false" id="792d-6109-5e61-15e9">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3dec-d6aa-e266-67c2"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Shadowstrike" id="9182-61fb-866d-4f8e" hidden="false" type="profile" targetId="abfd-8e97-eda9-89b2"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="b1a2-99f3-c29c-b31b"/>
+            <constraint type="max" value="10" field="selections" scope="self" shared="true" id="85bc-df63-4b4b-efcd"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Mandiblasters" id="a41f-4c2f-1f73-aef6" hidden="false" type="profile" targetId="1219-1c68-6a82-b394"/>
+        <infoLink name="Shuriken Pistol" id="a203-b0fc-6528-6fa1" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+        <infoLink name="Plasma Grenades" id="eff7-5a42-4923-c95c" hidden="false" type="profile" targetId="f199-6b5f-7b3d-f011"/>
+        <infoLink name="Scorpion Chainsword" id="c9a4-dc1f-9347-ac23" hidden="false" type="profile" targetId="a2c5-4bc2-47b4-0a53"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Wave Serpent" hidden="false" id="87a7-64c4-a186-c332" type="selectionEntry" targetId="c756-f51c-36b3-ff68">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c16-9221-ce46-8bce"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Wave Serpent" hidden="false" id="c756-f51c-36b3-ff68">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="90"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Wave Serpent" id="b329-a503-a924-780c" hidden="false" type="profile" targetId="7637-b6e6-5faa-49a1"/>
+        <infoLink name="Skimmer" id="6ef3-b626-2845-2a52" hidden="false" type="rule" targetId="5768-8357-f0e3-1484"/>
+        <infoLink name="Tank" id="2990-810e-7bb5-582a" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
+        <infoLink name="Fast" id="2556-6168-9c9c-593c" hidden="false" type="rule" targetId="4d59-8511-a8e5-1f62"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Wave Serpent" typeId="9a37-e4d2-11fe-9e81" typeName="Transport" hidden="false" id="857c-85e6-5ad2-8dc5">
+          <characteristics>
+            <characteristic name="Capacity" typeId="7cdf-4c80-a83d-200c">12 Models or 5 Wraithguard and up to two accompanying characters.</characteristic>
+            <characteristic name="Access Points" typeId="6e42-3bd5-70a6-724f">Rear access ramp</characteristic>
+            <characteristic name="Fire Points" typeId="aa94-ae0c-98e7-5923"/>
+          </characteristics>
+        </profile>
+        <profile name="Energy Field" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="dbf1-b0a2-0b87-ac02">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Any ranged attack against the Wave Serpent from the front or side arc with a Strength of greater than 8 counts as S8. In addition, all ranged attacks never roll more than +1D6 for their armour penetration (for example, melta weapons at half range or ordnance only roll one dice). Attacks in close combat, or from the read, are unaffected by the energy field rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Nose-weapon" id="94c0-8974-c072-bf63" hidden="false" defaultSelectionEntryId="1253-9508-5032-ee71">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Shuriken Catapults" hidden="false" id="1253-9508-5032-ee71">
+              <infoLinks>
+                <infoLink name="Twin-linked Shuriken Catapults" id="ee41-e75e-0b30-beda" hidden="false" targetId="0af5-7e80-fa6a-d979" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shuriken Cannon" hidden="false" id="207e-2770-4a44-6602">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Shuriker Cannon" id="3934-82fa-e9be-fba3" hidden="false" type="profile" targetId="db20-c0b9-7553-8719"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="70b2-ae3a-668c-3631-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="70b2-ae3a-668c-3631-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Turret" id="6e8f-2c78-dafc-c768" hidden="false" defaultSelectionEntryId="17f3-fb14-89e6-90f6">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Shuriken Cannons" hidden="false" id="17f3-fb14-89e6-90f6">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="9ba2-53e1-c3aa-81e8" id="209b-4cb4-0e2b-4249" type="profile" name="Twin-linked Shuriken Cannons" hidden="false"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Scatter Lasers" hidden="false" id="35b2-8485-4edd-5775">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="659c-9c7d-25e3-feea" id="83b0-c5b5-bee7-51ba" type="profile" name="Twin-linked Scatter Lasers" hidden="false"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Eldar Missile Launchers" hidden="false" id="0d8d-5bc3-82fc-916e">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="85e9-0e3b-9e9f-ac9a" id="8d56-f6db-a62b-b455" type="profile" name="Twin-linked Eldar Missile Launchers (Plasma)" hidden="false"/>
+                <infoLink targetId="ec8b-03d2-93d4-76fb" id="2685-7daa-6178-f87e" type="profile" name="Twin-linked Eldar Missile Launchers (Krak)" hidden="false"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Starcannons" hidden="false" id="ca0c-343c-5b35-f568">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="73a2-b0f3-b031-6ec7" id="bb7e-3fcb-8261-102d" type="profile" name="Twin-linked Starcannons" hidden="false"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Bright Lances" hidden="false" id="c40c-b058-efa3-b64a">
+              <infoLinks>
+                <infoLink targetId="5ac9-7506-88c4-16ad" id="c0df-f45e-1168-bdda" type="profile" name="Twin-linked Bright Lances" hidden="false"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="1826-5892-f644-e88f-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1826-5892-f644-e88f-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Upgrades" id="987a-0869-c464-0500" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Vectored Engines" hidden="false" id="ddec-561b-23b1-b17a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f69-caa1-02c5-54eb"/>
+              </constraints>
+              <infoLinks>
+                <infoLink targetId="2732-9d94-b202-e3aa" id="6bcb-d9d0-e297-d3ab" type="profile" name="Vectored Engines" hidden="false"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Star Engines" hidden="false" id="35a4-9f5a-cc3c-f4fa">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Star Engines" id="b376-4354-f3f7-2a8b" hidden="false" type="profile" targetId="6d44-86d2-abdd-929e"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="86f4-5b37-7525-f4cb"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Spirit Stones" hidden="false" id="0393-870c-fd5e-389e">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Spirit Stones (Vehicle)" id="b981-c76b-17a8-fbc3" hidden="false" type="profile" targetId="3933-2c64-aa15-2cbd"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83fe-ce77-bd6d-1203"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fire Dragons" hidden="false" id="f83d-52d4-a336-229d">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="c369-ee25-4e65-b2fa" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Fire Dragons" hidden="false" id="0b7e-26f8-24ae-43a1">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="16"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Fire Dragon" id="1410-96ce-349f-f7ee" hidden="false" type="profile" targetId="d8be-1b35-f1f5-efb4"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Exarch" hidden="false" id="65ef-081c-088d-d63b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="28"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Exarch" id="1f94-3d8e-6246-0cd4" hidden="false" type="profile" targetId="4846-9fbc-e26a-0635"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0689-8ba4-fced-7b9f"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="The Exarch may exchange his fusion gun for a Firepike or a Dragon&apos;s Breath flamer" id="6926-b114-faa6-9cbf" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Firepike" hidden="false" id="4691-9166-8c09-6c72">
+                      <infoLinks>
+                        <infoLink name="Firepike" id="d51e-5468-af84-9b9e" hidden="false" type="profile" targetId="6e88-d115-0321-a187"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Dragon&apos;s Breath Flamer" hidden="false" id="f577-692a-d1c8-1df2">
+                      <infoLinks>
+                        <infoLink name="Dragon&apos;s Breath Flamer" id="695b-8e57-7eb6-70a9" hidden="false" type="profile" targetId="4a11-8642-716c-3d68"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2654-8f60-806b-04aa"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="The Exarch may be given the following warrior powers" id="51b3-bfc1-31c5-b6d0" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Crack Shot" hidden="false" id="be8e-a0cd-c2bc-162b">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Crack Shot" id="b1dc-635c-4cee-f945" hidden="false" type="profile" targetId="6eb5-0805-00c4-cb1b"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="270d-8978-a1cd-58ca"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Tank Hunters" hidden="false" id="d039-5273-bb76-ed28">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Tank Hunters" id="082e-edc4-7e70-95c7" hidden="false" type="profile" targetId="3151-3abf-952c-8046"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94f1-b730-ef73-0434"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="0d76-4826-7d16-644f"/>
+            <constraint type="max" value="10" field="selections" scope="self" shared="true" id="b39f-95cd-61e9-cc4a"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Fusion Gun" id="8341-08c4-1c79-2808" hidden="false" type="profile" targetId="408b-d81f-b690-6638"/>
+        <infoLink name="Melta Bomb" id="8bf4-d6b1-8c56-83ee" hidden="false" type="profile" targetId="62b3-f972-0f32-e8d8"/>
+        <infoLink name="Fleet" id="dca9-59be-9e42-3792" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Wave Serpent" hidden="false" id="747f-90b2-f9e1-198b" type="selectionEntry" targetId="c756-f51c-36b3-ff68"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Wraithguard" hidden="false" id="736f-81c2-3353-c5c6">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="006b-4ee2-97ef-ab50" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Wraithguard" hidden="false" id="0218-57ee-a3bf-cdf1" collective="true">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Wraithguard" id="b48d-fbaf-e604-7207" hidden="false" type="profile" targetId="e177-3d41-99e2-419d"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="75f2-d09e-af4b-b7fa"/>
+                <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="3d42-87b2-cc7a-4629"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="unit" import="true" name="Warlock" hidden="false" id="aaf7-8eb7-414c-63c1" collective="true">
+              <infoLinks>
+                <infoLink name="Warlock Power" id="6e0d-5672-c8c2-d191" hidden="false" targetId="6622-8fbf-6aa8-2e1e" type="rule"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7882-ab4f-1254-3a21"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="model" import="true" name="Warlocks" hidden="false" id="5fe1-d829-3c24-90c2" collective="true">
+                  <infoLinks>
+                    <infoLink name="Warlock" id="2cf0-079c-83aa-934c" hidden="false" type="profile" targetId="b454-b372-499d-fc15"/>
+                    <infoLink name="Rune Armour" id="2e6d-9079-6970-f310" hidden="false" type="profile" targetId="6d20-f315-c90f-8850"/>
+                    <infoLink name="Shuriken Pistol" id="f76a-5992-139e-8933" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+                    <infoLink name="Witchblade" id="1b67-90c4-d8d0-561e" hidden="false" type="profile" targetId="d9ba-84db-8924-20a3"/>
+                    <infoLink name="Fleet" id="378a-986a-c8a4-30ea" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f375-93e9-8bcd-b7c1-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f375-93e9-8bcd-b7c1-max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="The Warlocks may buy one Warlock Psychic power" id="3e09-c89f-37d9-c3e2" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Conceal" hidden="false" id="8f41-8e6d-49a3-279b">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Conceal" id="c018-3d0f-2d5e-ead7" hidden="false" targetId="0e7f-1bf2-7bf4-f188" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Destructor" hidden="false" id="0418-a2e7-ce70-be5f">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Destructor" id="5ba5-b2ee-8025-02e5" hidden="false" targetId="5a25-42f8-99b9-744c" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Embolden" hidden="false" id="2603-2237-7116-6019">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Embolden" id="a45c-e427-ab61-f052" hidden="false" targetId="9231-7d9c-5717-f72d" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Enhance" hidden="false" id="9df1-51ed-15eb-ccc2">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Enhance" id="ff7f-d1ef-bbaa-331b" hidden="false" targetId="d7ae-b2cd-f69b-41e3" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2141-24b6-98d7-0f10"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="The Warlocks may choose from the following:" id="8d90-9b35-7bcd-5639" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade to Spiritseet" hidden="false" id="532a-2db1-d2cf-a1bd">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Spiritseet" id="d172-929a-ed0d-fa55" hidden="false" targetId="4eba-d802-81e0-644e" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Witchblade to Singing Spear" hidden="false" id="18f9-ee45-f691-fc6f">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Singing Spear" id="e059-2b6f-d7a0-c983" hidden="false" type="profile" targetId="270c-bcfc-0b28-1be2"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Mount all Warlocks in the unit on Eldar jetbikes (Set to number of models)" hidden="false" id="2d43-ff63-5fe2-60cb">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Jetbike" id="99e3-640d-4a1b-07b7" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="A unit of up to 5 Wraithguard and 1 Warlock may be mounted in a Wave Serpent" id="86dd-5f0f-c920-961b" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Wave Serpent" hidden="false" id="4f01-3449-783b-c564" type="selectionEntry" targetId="c756-f51c-36b3-ff68">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c8da-edbe-e4f6-a84a"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink targetId="21df-e06e-c5f5-5a33" id="8f3c-d1b3-a876-ac96" type="profile" name="Wraithsight" hidden="false"/>
+        <infoLink name="Wraithcannon" id="cdc7-53e0-b71f-3435" hidden="false" type="profile" targetId="2e4a-759a-78fe-ad85"/>
+        <infoLink name="Fearless" id="4864-1aa7-f46b-0039" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Warlocks" hidden="false" id="792b-f657-8f7a-3ec5" collective="true">
+      <infoLinks>
+        <infoLink name="Warlock Power" id="4ef4-faf9-7dc3-eeb0" hidden="false" targetId="6622-8fbf-6aa8-2e1e" type="rule"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed24-4c00-efe5-5ec6"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Warlocks" hidden="false" id="3e8d-adcc-63a0-f4ff" collective="true">
+          <infoLinks>
+            <infoLink name="Warlock" id="6f3b-8cd6-9050-4d7b" hidden="false" type="profile" targetId="b454-b372-499d-fc15"/>
+            <infoLink name="Rune Armour" id="3201-9287-382d-8d89" hidden="false" type="profile" targetId="6d20-f315-c90f-8850"/>
+            <infoLink name="Shuriken Pistol" id="b3b5-90dc-ab31-fdb1" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+            <infoLink name="Witchblade" id="694e-e472-5840-eb87" hidden="false" type="profile" targetId="d9ba-84db-8924-20a3"/>
+            <infoLink name="Fleet" id="5966-6373-ce90-8354" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="07bc-3afe-e9d1-3ef4"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="728b-a5b3-ec49-22e2"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="All Warlocks may buy one Warlock Psychic power" id="e237-21d1-8616-a23e" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Conceal" hidden="false" id="36dc-a04c-cd21-77e3">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Conceal" id="5796-7e0e-8e4d-02ca" hidden="false" targetId="0e7f-1bf2-7bf4-f188" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Destructor" hidden="false" id="6c1f-d7ea-2506-4079">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Destructor" id="b54e-e33b-00dc-b7a8" hidden="false" targetId="5a25-42f8-99b9-744c" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Embolden" hidden="false" id="749f-0535-92c9-efed">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Embolden" id="8256-7109-c154-1a58" hidden="false" targetId="9231-7d9c-5717-f72d" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Enhance" hidden="false" id="be13-2d91-5151-6dcb">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Enhance" id="7ad0-91df-eb5b-1d97" hidden="false" targetId="d7ae-b2cd-f69b-41e3" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8778-f268-e1b8-7245"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="All Warlocks may choose from the following:" id="f8b9-3a2c-9f27-339c" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Upgrade to Spiritseet" hidden="false" id="4cf2-ee98-daaf-3731">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Spiritseet" id="636d-eb3b-ce8a-1833" hidden="false" targetId="4eba-d802-81e0-644e" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Upgrade Witchblade to Singing Spear" hidden="false" id="3542-6902-1173-2b4c">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Singing Spear" id="b637-b9a9-eade-4bf6" hidden="false" type="profile" targetId="270c-bcfc-0b28-1be2"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mount all Warlocks in the unit on Eldar jetbikes (Set to number of models)" hidden="false" id="af7a-50c8-5848-e92c">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Jetbike" id="fcdf-5d04-4946-3ce0" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Howling Banshees" hidden="false" id="e8cb-b99b-c600-c1e5">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="0fc7-5316-5ca5-9e70" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Howling Banshee" hidden="false" id="8c07-0e04-b1a7-121f">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="16"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Howling Banshee" id="5a2d-2091-71e6-3690" hidden="false" type="profile" targetId="c813-a94e-08e6-c4a9"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Exarch" hidden="false" id="3a0d-1dac-9cf4-c767">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="28"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Exarch" id="131b-4f12-6afc-706a" hidden="false" type="profile" targetId="4846-9fbc-e26a-0635"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff28-0573-2e4f-83e3"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="The Exarch may replace her power weapon with an executioner or a triskele. Alternatively she may replace her power weapon and shuriken pistol with mirrors" id="e016-41db-59f7-cebb" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Executioner" hidden="false" id="8b0c-0503-fce8-d190">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Executioner" id="e699-3cd8-8ed5-3aa5" hidden="false" type="profile" targetId="aa81-c3d5-3e71-9571"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b49-d996-8c37-4f04"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Triskele" hidden="false" id="7101-c0c8-db59-8f46">
+                      <infoLinks>
+                        <infoLink name="Triskele" id="1050-50bc-c608-640c" hidden="false" type="profile" targetId="c257-5d80-59dc-2cf9"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ca1-e947-888b-b4d5"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Mirrorswords" hidden="false" id="b6a4-80e7-6426-6ad5">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Mirrorswords" id="2fca-435f-0758-7911" hidden="false" type="profile" targetId="a87f-9c82-c302-1a26"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ed9-9aa9-e60a-4f4a"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="The Exarch may be given the following warrior powers" id="a163-316d-97d8-3769" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="War Shout" hidden="false" id="f65d-aa7e-e04b-2f84">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="War Shout" id="91f2-8673-e81a-79c6" hidden="false" type="profile" targetId="9f30-2738-6be2-fccf"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c45-9c27-bc6f-4d46"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Acrobatic" hidden="false" id="21b8-7ed2-8785-4b45">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Acrobatic" id="c200-6b7d-5242-90ee" hidden="false" type="profile" targetId="4a27-edc9-6fbb-7f3e"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a8e-fa32-a3dc-06de"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="10" field="selections" scope="self" shared="true" id="a34c-95bf-8ddd-4e62"/>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="d25c-111e-fb47-c00c"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Banshee mask" id="1d4e-d3c1-eebc-e071" hidden="false" type="profile" targetId="e08f-bb4c-89f8-496a"/>
+        <infoLink name="Shuriken Pistol" id="3814-0bf8-7943-8ffb" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+        <infoLink name="Power Weapon" id="eef6-cdd0-9de0-f4c1" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+        <infoLink name="Fleet" id="e85b-52f0-c9a5-ef93" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Wave Serpent" hidden="false" id="eb1b-5b50-d008-a3ad" type="selectionEntry" targetId="c756-f51c-36b3-ff68">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f6cc-59bd-c0ad-82dc"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Harlequin Troupe" hidden="false" id="cac8-479b-9339-2781">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="04d6-2a38-94cd-3a03" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Harlequin" hidden="false" id="9679-adef-56bf-8be4">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="18"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Harlequin" id="de0e-eda4-314f-9be1" hidden="false" type="profile" targetId="7460-f0eb-ae03-d278"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Troupe Master" hidden="false" id="3824-a975-6b60-7d79">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="38"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Troupe Master" id="360a-3ad6-5ac6-424a" hidden="false" type="profile" targetId="7508-23a7-a5fa-4c1f"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ff5-0293-4e70-183f"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Melee Weapon" id="fc7a-7a59-64d7-d31b" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="5409-670d-4d62-2217">
+                      <infoLinks>
+                        <infoLink name="Power Weapon" id="9a5a-2fbc-3b08-19cf" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Harlequin&apos;s Kiss" hidden="false" id="afb9-fe65-8bb0-f7f6">
+                      <infoLinks>
+                        <infoLink name="Harlequin&apos;s Kiss" id="29fd-fa60-902d-b1c3" hidden="false" type="profile" targetId="58c0-2817-9fac-1e65"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b26-b7d6-622d-2456"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Death Jester" hidden="false" id="93ca-1383-2fbb-42af">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="28"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Death Jester" id="d39f-738c-38be-ef8c" hidden="false" type="profile" targetId="3181-e769-9320-2f17"/>
+                <infoLink name="Shrieker Cannon" id="b68f-2ff0-d225-e0ee" hidden="false" type="profile" targetId="97a0-3ad8-afe2-c152"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c3c-2726-345d-131e"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shadowseer" hidden="false" id="ef8f-9319-922d-1bb2">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="48"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Shadowseer" id="8a99-7632-7476-756f" hidden="false" type="profile" targetId="b956-1a91-34e2-3ada"/>
+                <infoLink name="Warlock Power" id="a9c0-c607-bc77-e9e4" hidden="false" type="rule" targetId="6622-8fbf-6aa8-2e1e"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bbec-04c8-76ac-4c08"/>
+              </constraints>
+              <profiles>
+                <profile name="Hallucinogen Grenades" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="a007-0d35-8a75-823f">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The Shadowseer&apos;s entire unit counts as armed with plasma grenades</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Veil of Tears" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="2e78-f0de-216f-e081">
+                  <characteristics>
+                    <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">Any enemy unit wishing to target the Shadowseer or their unit must roll 2D6x2. This is their spotting distance in inches. If the models are not within spotting range, they may not fire that turn. The Shadowseer and her unit can always be ignored by the enemy for the purposes of cover.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="1ec9-4214-7076-9edd"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="4238-0076-6faf-2265"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Any Harlequin may exchange their close combat weapon for a Harlequin&apos;s Kiss. Up to two models may exchange their Shuriken pistol for a fusion pistol" id="6307-eb9d-e60c-d5e1" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Harlequin&apos;s Kiss" hidden="false" id="2808-dd89-a873-fb9a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Harlequin&apos;s Kiss" id="e3a8-41d8-1d98-4f81" hidden="false" type="profile" targetId="58c0-2817-9fac-1e65"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Fusion Pistol" hidden="false" id="909e-47ad-0c97-59e1">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Fusion Pistol" id="8138-d4be-9c29-824b" hidden="false" type="profile" targetId="c66e-c5fe-f566-bb37"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7175-a23a-56e0-fde6"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="Flip Belts" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="3dd6-090f-8310-9c45">
+          <characteristics>
+            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">This unit ignore difficult terrain.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Holo-suit" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="4b55-42ba-adc5-55c2">
+          <characteristics>
+            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">This unit has a 5+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Fleet" id="a509-6390-56f9-16d4" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Furious Charge" id="95e2-2fd7-9998-7fb3" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Hit and Run" id="a2ad-0e9a-c62c-126c" hidden="false" type="profile" targetId="17a2-9db7-3461-361c"/>
+        <infoLink name="Shuriken Pistol" id="d46e-c2ab-4a3f-a5d0" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+        <infoLink name="Close-Combat Weapon" id="f2c3-bfb3-d998-a019" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dire Avengers" hidden="false" id="1f51-c98b-3fab-ecf3">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="f2e3-2b8e-7dab-9f5a" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Dire Avenger" hidden="false" id="1a93-0d2e-d2d8-d9cc">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Dire Avenger" id="fbe0-7436-c290-edd0" hidden="false" type="profile" targetId="9268-db77-02e6-f959"/>
+                <infoLink name="Avenger Shuriken Catapult" id="8297-771f-0b86-2ad4" hidden="false" type="profile" targetId="d272-054a-af72-4f94"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Exarch" hidden="false" id="887f-348a-99df-0c86">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="24"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Exarch" id="ecc9-ab54-8b85-8a2a" hidden="false" type="profile" targetId="4846-9fbc-e26a-0635"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0cca-0e74-1ac2-8538"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="c5a9-f363-4b7c-dfab" hidden="false" defaultSelectionEntryId="d8e8-a8fd-11d8-3ee8">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Avenger Shuriken Catapult" hidden="false" id="d8e8-a8fd-11d8-3ee8">
+                      <infoLinks>
+                        <infoLink name="Avenger Shuriken Catapult" id="9223-d38b-4ec7-1ffd" hidden="false" type="profile" targetId="d272-054a-af72-4f94"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Duel Shuriken Catapults" hidden="false" id="4979-0bbf-4e7f-51f4">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <profiles>
+                        <profile name="Duel Shuriken Catapults" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="53eb-6632-4ef8-de0e">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+                            <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+                            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+                            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 4</characteristic>
+                            <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Diresword and Shuriken Pistol" hidden="false" id="e7fd-993f-cefc-50c6">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Diresword" id="a94a-13c7-7099-d2ad" hidden="false" type="profile" targetId="3a02-77ac-d2ac-9459"/>
+                        <infoLink name="Shuriken Pistol" id="872e-4994-cd14-4cfe" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power weapon and Shimmershield" hidden="false" id="d30d-bed4-4118-045e">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Weapon" id="272f-7b51-4175-93c5" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+                        <infoLink name="Shimmershield" id="8eb7-b9ca-c60e-eab1" hidden="false" type="profile" targetId="cbfa-0ca4-202a-a591"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="c115-3423-3215-3a20-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c115-3423-3215-3a20-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Exarch Powers" id="4045-4baa-29fa-e37f" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Defend" hidden="false" id="32a3-085c-1681-6594">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Defend" id="5b4b-532d-7e05-9dad" hidden="false" type="profile" targetId="a8a7-0b93-5bdc-ce5c"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abd1-ac12-d478-d53e"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Bladestorm" hidden="false" id="d71c-ff81-2cac-9bec">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Bladestorm" id="b024-93ec-7df6-7159" hidden="false" type="profile" targetId="5330-f7e5-6561-5746"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ec4-40b0-44ee-a821"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="10" field="selections" scope="self" shared="true" id="be75-9e10-a78a-7839"/>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="9a02-a71e-9c16-d9f4"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Wave Serpent" hidden="false" id="05f0-d6f0-6c02-a377" type="selectionEntry" targetId="c756-f51c-36b3-ff68">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c3e-b6b2-0946-0dce"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Rangers" hidden="false" id="ef32-30c7-89c1-13e7">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Rangers" hidden="false" id="8e20-40fe-7f67-f0d7">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="19"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="ac81-4c08-4077-21d8"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="c574-4a97-75f6-0331"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ranger" id="610b-fc96-58b2-42be" hidden="false" type="profile" targetId="4c73-9c08-dcf7-c191"/>
+            <infoLink name="Ranger Long Rifle" id="010e-bd7c-f697-dd0f" hidden="false" type="profile" targetId="0de6-35b5-b77e-45fb"/>
+            <infoLink name="Shuriken Pistol" id="19c5-31e9-7afa-cd29" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Rangers may be upgraded to Pathfinders at a cost of +5 points per model" hidden="false" id="f20b-3ead-6e26-ab33">
+          <infoLinks>
+            <infoLink name="Scouts" id="5ae8-399a-4260-74fc" hidden="false" type="profile" targetId="e289-1576-b63b-c142"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Pathfinders" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="a53c-7247-945e-16eb">
+              <characteristics>
+                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Pathfinders ignore difficult terrain and any cover save they use is improved by +2 instead of the usual +1 conferred by the Stealth rule.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Fleet" id="9589-1cb1-f3a8-703a" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Infiltrate" id="4be1-0689-8666-ba6b" hidden="false" type="profile" targetId="db64-5b1f-d306-b354"/>
+        <infoLink name="Move Through Cover" id="e605-76c3-f5c8-462d" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
+        <infoLink name="Stealth" id="32f4-29be-28e6-bfeb" hidden="false" type="profile" targetId="8dc7-2ec3-1248-9d84"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Guardians" hidden="false" id="c3e6-0231-0505-5d0a">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="0313-db0d-e723-9692" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Guardian" hidden="false" id="ee53-e985-86e1-11a5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Guardian" id="4e09-cd41-72b9-24de" hidden="false" type="profile" targetId="7644-7bd2-1464-8c8b"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="00d5-1807-65ea-f0a0"/>
+                <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="6dab-81cf-c3ec-5e9f"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink targetId="9a0c-4c7c-e376-4f1f" id="8d1c-e362-c12e-1a55" type="selectionEntry" name="Warlock" hidden="false" collective="true"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Two Guardians must be upgraded to a weapon team with a heavy weapon platform, chosen from the following:" id="c488-0bd4-7c99-b4b4" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bright Lance" hidden="false" id="1748-3aab-0e1b-9f53">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Bright Lance" id="f9a2-161c-eca8-daf6" hidden="false" type="profile" targetId="bfd9-6ef3-6072-c0ba"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Eldar Missile Launcher" hidden="false" id="8b89-2f51-da1d-05e7">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Eldar Missile Launcher (Krak)" id="4645-3712-d043-a3ef" hidden="false" type="profile" targetId="87ed-f72d-1883-564a"/>
+                <infoLink name="Eldar Missile Launcher (Plasma)" id="7555-0ce5-afb2-1a29" hidden="false" type="profile" targetId="c8a4-edd8-ca09-6a37"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Scatter Laser" hidden="false" id="e040-b2cd-1fbf-9bab">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Scatter Laser" id="3abf-e478-9e42-1672" hidden="false" type="profile" targetId="4a05-4111-e207-f688"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shuriken Cannon" hidden="false" id="7a3d-f6ce-251c-c6d2">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Shuriker Cannon" id="6362-8087-328b-8842" hidden="false" type="profile" targetId="db20-c0b9-7553-8719"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Starcannon" hidden="false" id="4e76-af88-b8cb-7371">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Starcannon" id="6421-a3d1-174b-880c" hidden="false" type="profile" targetId="eec3-78b8-1100-fed9"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="6599-fa59-a785-734b-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="6599-fa59-a785-734b-max"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Fleet" id="d614-d4d6-8e59-46ef" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Shuriken Catapult" id="39a6-b1f4-2cb8-9a4e" hidden="false" type="profile" targetId="4ffa-aab7-f0b3-0b34"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Wave Serpent" hidden="false" id="52de-535e-8bc3-0c48" type="selectionEntry" targetId="c756-f51c-36b3-ff68">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc1a-7f43-13fd-cf58"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Storm Guardians" hidden="false" id="df33-844a-1c44-a426">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="d2e2-6d29-4743-d7e2" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Storm Guardian" hidden="false" id="6ab3-ccb0-e914-bb40">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Guardian" id="3c7f-d92e-ad75-67c4" hidden="false" type="profile" targetId="7644-7bd2-1464-8c8b"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="b92c-7ed0-b79b-6c41"/>
+                <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="a752-a749-f581-36c5"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="unit" import="true" name="Warlock" hidden="false" id="2340-fe8b-16bb-34ed" collective="true">
+              <infoLinks>
+                <infoLink name="Warlock Power" id="916b-8d43-b6ce-4a89" hidden="false" targetId="6622-8fbf-6aa8-2e1e" type="rule"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5869-d426-6b06-d70f"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="model" import="true" name="Warlocks" hidden="false" id="1ab2-938e-3742-11a7" collective="true">
+                  <infoLinks>
+                    <infoLink name="Warlock" id="3c80-fd00-5218-23f4" hidden="false" type="profile" targetId="b454-b372-499d-fc15"/>
+                    <infoLink name="Rune Armour" id="f5b8-af07-cc1d-968f" hidden="false" type="profile" targetId="6d20-f315-c90f-8850"/>
+                    <infoLink name="Shuriken Pistol" id="c95c-3843-7aae-9b2d" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+                    <infoLink name="Witchblade" id="3333-0ec7-fbea-54b6" hidden="false" type="profile" targetId="d9ba-84db-8924-20a3"/>
+                    <infoLink name="Fleet" id="6347-fa58-8ee7-7b50" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="212d-f97a-3d18-065f-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="212d-f97a-3d18-065f-max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="The Warlock may buy one Warlock Psychic power" id="d9f0-c8ad-104b-b54b" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Conceal" hidden="false" id="11b8-4905-dae4-8abc">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Conceal" id="ea16-1d0f-6704-4f8c" hidden="false" targetId="0e7f-1bf2-7bf4-f188" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Destructor" hidden="false" id="f522-080c-0ae1-6ecf">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Destructor" id="89bf-72d9-97f5-0f64" hidden="false" targetId="5a25-42f8-99b9-744c" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Embolden" hidden="false" id="8d7b-f1c9-7d28-6742">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Embolden" id="e889-a4d3-1144-a2a7" hidden="false" targetId="9231-7d9c-5717-f72d" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Enhance" hidden="false" id="0f51-8030-ce32-caf1">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Enhance" id="998b-381e-bb4e-32cd" hidden="false" targetId="d7ae-b2cd-f69b-41e3" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="fc23-78d9-e0c5-b1f7"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="The Warlock may choose from the following:" id="d234-65f4-432a-108b" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade to Spiritseet" hidden="false" id="7e2c-1b80-27a7-776d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Spiritseet" id="eb6b-dd5e-5148-644c" hidden="false" targetId="4eba-d802-81e0-644e" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Witchblade to Singing Spear" hidden="false" id="a700-7490-0435-049d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Singing Spear" id="4b3a-a843-dad9-37c7" hidden="false" type="profile" targetId="270c-bcfc-0b28-1be2"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Eldar jetbike " hidden="false" id="a5dd-ba91-3e42-541e">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Jetbike" id="90df-a03a-79ce-2164" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Two Storm guardians may exchange their weapons for the following:" id="8a30-2297-0e52-d729" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Fusion Gun" hidden="false" id="be64-b37a-543c-4ae9">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Fusion Gun" id="664a-b4b5-5943-ce62" hidden="false" type="profile" targetId="408b-d81f-b690-6638"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="260a-a092-1ac2-a073">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Flamer" id="fb13-1d02-9e32-19e3" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="b99a-f810-ed22-b285"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Fleet" id="d13b-ba95-4c3e-81ab" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Shuriken Pistol" id="fe7f-da38-b222-607d" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+        <infoLink name="Close-Combat Weapon" id="b33e-7cdf-e138-1e0c" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Wave Serpent" hidden="false" id="53de-8abd-3a3f-0572" type="selectionEntry" targetId="c756-f51c-36b3-ff68">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d5b-6148-5d3c-90b4"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Guardian Jetbike Squadron" hidden="false" id="7357-fb6c-f147-c490">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="c641-e717-cd9b-0faa" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Guardian Jetbike" hidden="false" id="e729-3c67-dd24-c94d">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Guardian Jetbike" id="0ce5-addb-9af8-070a" hidden="false" type="profile" targetId="3a0c-d7d6-b338-040b"/>
+                <infoLink name="Twin-linked Shuriken Catapults" id="fae2-2593-8e1c-b7e9" hidden="false" type="profile" targetId="0af5-7e80-fa6a-d979"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="350f-8f26-5e5f-6208"/>
+                <constraint type="max" value="12" field="selections" scope="parent" shared="true" id="92bb-8323-9e4d-3687"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="unit" import="true" name="Warlock on Jetbike" hidden="false" id="b587-63db-70a9-1169" collective="true">
+              <infoLinks>
+                <infoLink name="Warlock Power" id="6044-7389-0610-86a3" hidden="false" targetId="6622-8fbf-6aa8-2e1e" type="rule"/>
+                <infoLink name="Jetbike" id="3e5c-7f5e-3c87-f56a" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e88-70ba-31e3-4325"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="model" import="true" name="Warlock" hidden="false" id="e0d3-ddf4-737c-a78d" collective="true">
+                  <infoLinks>
+                    <infoLink name="Warlock" id="0517-d6ef-c542-b0b2" hidden="false" type="profile" targetId="b454-b372-499d-fc15"/>
+                    <infoLink name="Rune Armour" id="153b-fa86-a9e8-57d5" hidden="false" type="profile" targetId="6d20-f315-c90f-8850"/>
+                    <infoLink name="Shuriken Pistol" id="3f2f-e460-fc2c-bab0" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+                    <infoLink name="Witchblade" id="f707-8e79-36d9-a4f9" hidden="false" type="profile" targetId="d9ba-84db-8924-20a3"/>
+                    <infoLink name="Fleet" id="c5b0-3e07-7dca-09a1" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="738f-6027-af70-f90b-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="738f-6027-af70-f90b-max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="The Warlock may buy one Warlock Psychic power" id="b1b3-7206-2e79-d717" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Conceal" hidden="false" id="6687-791d-354c-7e75">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Conceal" id="8a6c-3356-1d47-46f6" hidden="false" targetId="0e7f-1bf2-7bf4-f188" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Destructor" hidden="false" id="594e-3208-4a33-5c7d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Destructor" id="2e9d-ff9d-8eae-3ac2" hidden="false" targetId="5a25-42f8-99b9-744c" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Embolden" hidden="false" id="0fd0-3102-3ab4-ce05">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Embolden" id="2544-5003-cd3f-edd2" hidden="false" targetId="9231-7d9c-5717-f72d" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Enhance" hidden="false" id="2a78-6294-c2ad-cd02">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Enhance" id="7176-3e8f-8827-4101" hidden="false" targetId="d7ae-b2cd-f69b-41e3" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1730-e9ff-711f-9755"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="The Warlock may choose from the following:" id="08c5-1c21-67ae-9d05" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade to Spiritseet" hidden="false" id="1fc1-4ad2-8b40-0cb3">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Spiritseet" id="56df-56df-74a5-5cc3" hidden="false" targetId="4eba-d802-81e0-644e" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Witchblade to Singing Spear" hidden="false" id="7f7c-2e44-8519-60fa">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Singing Spear" id="78b3-1e09-3971-aa8f" hidden="false" type="profile" targetId="270c-bcfc-0b28-1be2"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Every third Guardian Jetbike may replace its shuriken catapult with a single Shuriken Cannon" id="ff22-ccf8-5738-bc69" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Shuriken Cannon" hidden="false" id="10c3-ff7c-e0d0-44c8">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Shuriker Cannon" id="cf58-c9a1-f2b2-ce15" hidden="false" type="profile" targetId="db20-c0b9-7553-8719"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Shining Spears" hidden="false" id="0ee0-18b5-b41c-de44">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="01fa-f515-16e3-fd56" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Shining Spear" hidden="false" id="a839-9f1e-3a93-1324">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Shining Spear" id="294d-7125-b687-cbd7" hidden="false" type="profile" targetId="a935-0c9d-2b55-9100"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Exarch" hidden="false" id="e9d9-a512-809c-707f">
+              <infoLinks>
+                <infoLink name="Exarch" id="cb21-1cbe-6e4a-b647" hidden="false" type="profile" targetId="4846-9fbc-e26a-0635"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="47"/>
+              </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="The Exarch may replace his laser lance with the following" id="aac1-a21d-bf7c-ea93" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="3540-0427-50a9-c55f">
+                      <infoLinks>
+                        <infoLink name="Power Weapon" id="d229-2d20-39ac-de64" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Star Lance" hidden="false" id="fde6-0591-a46e-de91">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Star Lance" id="3b91-d91f-87e4-c458" hidden="false" type="profile" targetId="0b55-27fa-718a-2b31"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="99e3-654e-e494-9f05"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="The Exarch may be given the following Exarch Powers" id="bfef-9886-ff8b-fd38" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Skilled Rider" hidden="false" id="635d-c4d4-71fb-6c27">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Skilled Rider" id="b054-883e-1973-9c25" hidden="false" type="profile" targetId="4e93-8dc5-3b3b-7ac9"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c33a-3fb4-8b60-6c3d"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Withdraw" hidden="false" id="2af2-8d30-607f-31af">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Withdraw" id="1497-bf42-3e7a-ad32" hidden="false" type="profile" targetId="27fb-830a-f3ca-e7ea"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ae9-1687-2f3e-ce26"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="The Exarch may replace his twin-linked Shuriken Catapult with a Shuriken Cannon" hidden="false" id="cfa7-10f9-5707-ba05">
+                  <infoLinks>
+                    <infoLink name="Shuriker Cannon" id="22e9-98e5-a259-9aa1" hidden="false" type="profile" targetId="db20-c0b9-7553-8719"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="78ce-49dd-d4cb-408a"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Twin-linked Shuriken Catapults" id="e5a1-3789-7035-b3fb" hidden="false" type="profile" targetId="0af5-7e80-fa6a-d979"/>
+        <infoLink name="Laser Lance" id="3c37-33d5-6c5b-179a" hidden="false" type="profile" targetId="4ddc-3656-e72c-087d"/>
+        <infoLink name="Jetbike" id="2caa-9b73-be3e-603b" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Warp Spider" hidden="false" id="c09c-c5b0-6839-efb3">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="7445-3ec7-c131-c9cd" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Warp Spider" hidden="false" id="1dc0-6f78-773f-d2c6">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="22"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Warp Spider" id="3c54-640d-d66a-651a" hidden="false" type="profile" targetId="3d5d-361d-eb39-db8f"/>
+                <infoLink name="Death Spinner" id="467f-fbf1-e3b1-f2b0" hidden="false" type="profile" targetId="ca11-e91e-fabd-caec"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Exarch" hidden="false" id="e8b3-0dff-587f-7424">
+              <infoLinks>
+                <infoLink name="Exarch" id="04de-999a-b489-99ec" hidden="false" type="profile" targetId="4846-9fbc-e26a-0635"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7978-2775-152e-418e"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="The exarch may take the following" id="82ed-c7dd-9d13-9369" hidden="false" defaultSelectionEntryId="bce5-3109-3b16-8f05">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Deathspinner" hidden="false" id="bce5-3109-3b16-8f05">
+                      <infoLinks>
+                        <infoLink name="Death Spinner" id="2418-09c1-884b-4bdc" hidden="false" type="profile" targetId="ca11-e91e-fabd-caec"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Duel Deathspinners" hidden="false" id="056d-d85b-26f8-4c9c">
+                      <infoLinks>
+                        <infoLink targetId="d90f-f5c2-efb3-978d" id="67b3-7ec0-5ea2-0fa5" type="profile" name="Duel Deathspinners" hidden="false"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Spinneret Rifle" hidden="false" id="a6cc-fd14-637d-68bd">
+                      <infoLinks>
+                        <infoLink name="Spinneret Rifle" id="dfdc-8062-3084-d82d" hidden="false" type="profile" targetId="24c9-9600-2caf-eb4e"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0f8b-a9f2-df29-abd1-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f8b-a9f2-df29-abd1-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="The Exarch may have the following warrior powers" id="75b6-1fac-bbf6-34cd" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Surprise Assault" hidden="false" id="120a-59e6-7902-4122">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Surprise Assault" id="c563-5165-bdee-e6ef" hidden="false" type="profile" targetId="0035-71f9-cc53-d5c1"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f5c8-0f7f-9f47-1493"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Withdraw" hidden="false" id="2a40-0cbc-190c-ba74">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Withdraw" id="176f-8e33-424d-4fa4" hidden="false" type="profile" targetId="27fb-830a-f3ca-e7ea"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="37ee-a3f6-b437-fd67"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Powerblades" hidden="false" id="0bd3-2df8-f13a-f825">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Powerblades" id="6860-b2a9-0c70-7fed" hidden="false" type="profile" targetId="d8bb-9bf6-743f-f535"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0047-5a2a-c3c6-7b44"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="34"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="f347-e8e5-0282-14dd"/>
+            <constraint type="max" value="10" field="selections" scope="self" shared="true" id="74e6-5715-cc83-79b5"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Warp Jump Generator" id="13e5-0dd2-5d90-d66f" hidden="false" type="profile" targetId="0ce7-0a3b-08e1-a0d6"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Swooping Hawks" hidden="false" id="2fd5-b8ed-9c87-4bed">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="5fa5-fbe7-44e6-bdd7" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Swooping Hawk" hidden="false" id="4241-edb2-13e8-4ed2">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="21"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Swooping Hawk" id="3c5d-e968-8a75-fda3" hidden="false" type="profile" targetId="3bb9-661b-14fb-f99c"/>
+                <infoLink name="Lasblaster" id="894b-9825-0873-dead" hidden="false" type="profile" targetId="b561-cd7e-edfd-59f7"/>
+                <infoLink name="Plasma Grenades" id="6373-ecc5-19e0-a088" hidden="false" type="profile" targetId="f199-6b5f-7b3d-f011"/>
+                <infoLink name="Haywire Grenades" id="8e7d-8aeb-f604-0611" hidden="false" type="profile" targetId="49d2-85d6-9995-2583"/>
+                <infoLink name="Swooping Hawk Grenade Pack" id="88f3-1918-811c-e70e" hidden="false" type="profile" targetId="dbc3-0720-b3e9-7840"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Exarch" hidden="false" id="3f2f-7ddc-0dc5-9713">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="33"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Exarch" id="5e28-ee49-3955-b8bb" hidden="false" type="profile" targetId="4846-9fbc-e26a-0635"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="19e1-7786-725a-a9c4"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="4ae3-d7eb-830c-5544" hidden="false" defaultSelectionEntryId="290a-005c-28ac-906e">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Lasblaster" hidden="false" id="290a-005c-28ac-906e">
+                      <infoLinks>
+                        <infoLink name="Lasblaster" id="bd05-2972-a7e7-cc5c" hidden="false" type="profile" targetId="b561-cd7e-edfd-59f7"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Hawk&apos;s Talon" hidden="false" id="b0f6-dd38-4dba-7a07">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Hawk&apos;s Talon" id="2db6-447a-9726-5e56" hidden="false" type="profile" targetId="7268-2538-d0f3-01e2"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Sunrifle" hidden="false" id="f7d3-689a-acc8-0a50">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Sunrifle" id="f731-640b-43da-fedb" hidden="false" type="profile" targetId="50ed-f656-a2d3-3b26"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="0d76-1b36-cedd-da98-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0d76-1b36-cedd-da98-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Exarch Powers" id="65b5-bc13-690e-fb8b" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Skyleap" hidden="false" id="d5e7-6110-672d-62d1">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Skyleap" id="4a17-bc22-0fe7-12d6" hidden="false" type="profile" targetId="111d-993e-7705-4f5d"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="62e7-f902-e30b-5179"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Intercept" hidden="false" id="c5d9-2d44-ef5e-3f6c">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Intercept" id="2f7a-ca5f-5ee0-509c" hidden="false" type="profile" targetId="bf0d-a365-5a90-b051"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="48c7-8b6f-9eb3-6030"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="4eb1-e3f8-f5fd-ef1c"/>
+            <constraint type="max" value="10" field="selections" scope="self" shared="true" id="b4f0-63ad-8cda-62b0"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Fleet" id="fd6b-48b9-6e10-ccbd" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Jump Infantry" id="102e-7870-4cb5-3425" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Vyper Squadron" hidden="false" id="ab04-160a-37cb-d575">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Vyper" hidden="false" id="019b-e553-d7a9-0212">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Vyper" id="36de-8fb6-2867-3afc" hidden="false" type="profile" targetId="6605-2c0b-296a-10fd"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Hull-weapon" id="c1ac-a348-a82b-b92b" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Twin-linked Shuriken Catapults" hidden="false" id="ff87-326c-5783-8e4a">
+                  <infoLinks>
+                    <infoLink name="Twin-linked Shuriken Catapults" id="60e8-9508-6184-2c8c" hidden="false" type="profile" targetId="0af5-7e80-fa6a-d979"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Shuriken Cannon" hidden="false" id="d186-eb9f-b22a-b80a">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Shuriker Cannon" id="a9ca-13f7-8853-7605" hidden="false" type="profile" targetId="db20-c0b9-7553-8719"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="a234-fb60-6dbe-7c10-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a234-fb60-6dbe-7c10-max"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Turret" id="6796-01e1-7d3a-2d82" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Eldar Missile Launcher" hidden="false" id="6418-0a0a-137b-0a0c">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Eldar Missile Launcher (Krak)" id="9378-047b-6b10-b34a" hidden="false" type="profile" targetId="87ed-f72d-1883-564a"/>
+                    <infoLink name="Eldar Missile Launcher (Plasma)" id="cc2d-76f6-a96a-32f5" hidden="false" type="profile" targetId="c8a4-edd8-ca09-6a37"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Scatter Laser" hidden="false" id="ec84-fffb-5540-3a7d">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Scatter Laser" id="619e-aad1-9dc4-3407" hidden="false" type="profile" targetId="4a05-4111-e207-f688"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Starcannon" hidden="false" id="5865-f9bd-17f3-0b7b">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Starcannon" id="0228-63a6-ef17-7fcd" hidden="false" type="profile" targetId="eec3-78b8-1100-fed9"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Bright Lance" hidden="false" id="cb3e-b12e-a9a0-f8d8">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Bright Lance" id="87cd-28c1-66ff-e1aa" hidden="false" type="profile" targetId="bfd9-6ef3-6072-c0ba"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="bbce-1bd7-8575-1a1f-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="bbce-1bd7-8575-1a1f-max"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Upgrades" id="80b7-d9f1-568a-aa37" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Vectored Engines" hidden="false" id="c7e4-de27-c826-36ff">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Vectored Engines" id="80c7-e93f-7bf1-3f87" hidden="false" type="profile" targetId="2732-9d94-b202-e3aa"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="27aa-785f-4f23-9b26"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Star Engines" hidden="false" id="09be-f04d-0f3b-b12e">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Star Engines" id="2c7e-0fe8-bdea-dbbd" hidden="false" type="profile" targetId="6d44-86d2-abdd-929e"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6bd6-a6de-71a9-985d"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Holo-fields" hidden="false" id="8592-c7b3-4888-f505">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Holo-field" id="5360-b5b5-8450-2b60" hidden="false" type="profile" targetId="83d0-c976-0337-bf00"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="38d9-15c6-7b5c-79bd"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Spirit Stones" hidden="false" id="037c-731a-b085-9699">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Spirit Stones (Vehicle)" id="bd86-b93f-ea3c-c09c" hidden="false" type="profile" targetId="3933-2c64-aa15-2cbd"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f974-028e-1c77-dd7c"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="62aa-1854-2949-efb5"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4388-8675-ed6d-bd39"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Skimmer" id="7bbe-67b6-45ca-a7e6" hidden="false" type="rule" targetId="5768-8357-f0e3-1484"/>
+        <infoLink name="Open-topped" id="62f2-e37c-657e-8359" hidden="false" type="rule" targetId="21d9-2669-1dba-9fb2"/>
+        <infoLink name="Fast" id="df4b-feef-7f18-5f56" hidden="false" type="rule" targetId="4d59-8511-a8e5-1f62"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Support Weapon Battery" hidden="false" id="83b0-3654-be53-3db1">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Loadout (Select equal to number of batteries, entire unit must be armed with the same weapon)" id="0b05-4ca7-809a-72b0" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="D-Cannon" hidden="false" id="cda3-67e3-fcfa-544e">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="D-Cannon" id="1e53-bf94-f3c5-5463" hidden="false" type="profile" targetId="cbaf-c822-680a-c030"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Vibro Cannon" hidden="false" id="eae6-f70e-9e58-7bb3">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Vibro Cannon" id="d502-1ba1-f2b3-c725" hidden="false" type="profile" targetId="42b5-3fa8-fd69-06e5"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shadow Weaver" hidden="false" id="817a-276f-d10c-fac0">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Shadow Weaver" id="d9a4-cefd-dee5-45d0" hidden="false" type="profile" targetId="97c7-fdb1-31d2-df62"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Support Weapon (including two Guardian crew per weapon)" hidden="false" id="e497-ac99-a00c-0e04">
+          <infoLinks>
+            <infoLink name="Guardian" id="fa17-ae6e-abda-bc18" hidden="false" type="profile" targetId="7644-7bd2-1464-8c8b"/>
+            <infoLink name="Guardian" id="6ded-7a5e-eb5a-ad20" hidden="false" type="profile" targetId="7644-7bd2-1464-8c8b"/>
+            <infoLink name="Shuriken Catapult" id="433e-3d19-fe0a-5e7a" hidden="false" type="profile" targetId="4ffa-aab7-f0b3-0b34"/>
+            <infoLink name="Shuriken Catapult" id="7e9d-5bee-3055-1993" hidden="false" type="profile" targetId="4ffa-aab7-f0b3-0b34"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Warlock" hidden="false" id="3ddb-7f39-273c-7923" type="selectionEntry" targetId="9a0c-4c7c-e376-4f1f">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Warlock" hidden="false" id="9a0c-4c7c-e376-4f1f" collective="true">
+      <infoLinks>
+        <infoLink name="Warlock Power" id="c725-6255-863f-13cb" hidden="false" targetId="6622-8fbf-6aa8-2e1e" type="rule"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c7ae-5f5b-a7a8-ef67"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Warlocks" hidden="false" id="4aca-002b-6de0-218d" collective="true">
+          <infoLinks>
+            <infoLink name="Warlock" id="b6c3-7d49-d8c1-101b" hidden="false" type="profile" targetId="b454-b372-499d-fc15"/>
+            <infoLink name="Rune Armour" id="a83e-e727-14f8-aa68" hidden="false" type="profile" targetId="6d20-f315-c90f-8850"/>
+            <infoLink name="Shuriken Pistol" id="b1af-1b5a-ebde-475d" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+            <infoLink name="Witchblade" id="3f34-655d-2b31-8a7c" hidden="false" type="profile" targetId="d9ba-84db-8924-20a3"/>
+            <infoLink name="Fleet" id="8950-c386-6b15-9767" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="afaa-e36a-91da-f2d4-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="afaa-e36a-91da-f2d4-max"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="The Warlock may buy one Warlock Psychic power" id="8052-1c00-ec55-8d39" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Conceal" hidden="false" id="b913-60c0-40ff-d31d">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Conceal" id="e385-d242-8e3a-bb47" hidden="false" targetId="0e7f-1bf2-7bf4-f188" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Destructor" hidden="false" id="2a9b-36a5-972d-e730">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Destructor" id="8d9d-f91d-7eaa-0bf1" hidden="false" targetId="5a25-42f8-99b9-744c" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Embolden" hidden="false" id="56cb-214f-959e-abfb">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Embolden" id="9d5e-84bc-83d4-d461" hidden="false" targetId="9231-7d9c-5717-f72d" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Enhance" hidden="false" id="5a05-f5d1-debc-1bd7">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Enhance" id="c27b-d87c-09b2-21ff" hidden="false" targetId="d7ae-b2cd-f69b-41e3" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="6407-e6db-90fb-ae1f"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="The Warlock may choose from the following:" id="d29f-ec23-5258-6554" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Upgrade to Spiritseet" hidden="false" id="acf5-45db-4e81-2959">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Spiritseet" id="c3e2-728d-2a58-9448" hidden="false" targetId="4eba-d802-81e0-644e" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Upgrade Witchblade to Singing Spear" hidden="false" id="1040-2984-6930-e5a5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Singing Spear" id="8794-8201-e469-a79f" hidden="false" type="profile" targetId="270c-bcfc-0b28-1be2"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Eldar jetbike " hidden="false" id="689e-c88f-7fb0-ceec">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Jetbike" id="1f7f-a4ae-4731-9d41" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dark Reapers" hidden="false" id="24ad-3cda-3c7a-c95a">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="7c7d-3b24-67fd-3476" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Dark Reaper" hidden="false" id="1434-956c-4562-024d">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Dark Reaper" id="e9f0-00d7-e626-2e16" hidden="false" type="profile" targetId="e4a9-7458-eb31-d8a9"/>
+                <infoLink name="Reaper Launcher" id="9d4e-7ced-fdaf-408b" hidden="false" type="profile" targetId="a5d6-2485-f9a2-8a8e"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Exarch" hidden="false" id="65b9-deaf-fb28-5432">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="47"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Exarch" id="ca24-5346-e2a7-17dc" hidden="false" type="profile" targetId="4846-9fbc-e26a-0635"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e01c-a83a-f4d2-182a"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="8f87-4b5c-763b-12f8" hidden="false" defaultSelectionEntryId="e365-6387-e490-2e2e">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Reaper Launcher" hidden="false" id="e365-6387-e490-2e2e">
+                      <infoLinks>
+                        <infoLink name="Reaper Launcher" id="85c5-922e-58e6-4c69" hidden="false" type="profile" targetId="a5d6-2485-f9a2-8a8e"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Shuriken Cannon" hidden="false" id="d133-c58c-2353-9d0f">
+                      <infoLinks>
+                        <infoLink name="Shuriker Cannon" id="bd1f-aa02-5ea5-188f" hidden="false" type="profile" targetId="db20-c0b9-7553-8719"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Eldar Missile Launcher" hidden="false" id="a1c0-56ff-73da-28ea">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Eldar Missile Launcher (Krak)" id="c1d4-7c8b-1578-f1d4" hidden="false" type="profile" targetId="87ed-f72d-1883-564a"/>
+                        <infoLink name="Eldar Missile Launcher (Plasma)" id="a03c-55aa-45ca-6382" hidden="false" type="profile" targetId="c8a4-edd8-ca09-6a37"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Tempest Launcher" hidden="false" id="89bd-9c77-6c7b-08a4">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Tempest Launcher" id="87a7-d164-f9c2-ed8e" hidden="false" type="profile" targetId="d7cd-6da1-dcf2-33aa"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="32e2-c9c5-f034-65b2-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="32e2-c9c5-f034-65b2-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Exarch Powers" id="a01a-5c18-e8b8-d35d" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Fast Shot" hidden="false" id="e8c2-1dc2-17ae-4457">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Fast Shot" id="1fed-0bc5-415d-74e9" hidden="false" type="profile" targetId="1e50-f4b0-d60a-6158"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9edf-759b-80e5-8c84"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Crack Shot" hidden="false" id="9de2-b145-f9f0-b6c4">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Crack Shot" id="7399-2088-4423-c9e2" hidden="false" type="profile" targetId="6eb5-0805-00c4-cb1b"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="688c-8bcc-ac67-dd9b"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="self" shared="true" id="78b5-2c18-0ac7-8751"/>
+            <constraint type="max" value="5" field="selections" scope="self" shared="true" id="6d00-4358-e1fb-9814"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Wave Serpent" hidden="false" id="bb67-d7a0-c5fb-7e6d" type="selectionEntry" targetId="c756-f51c-36b3-ff68">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b3c5-d9ee-424e-abe4"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Wraithlord" hidden="false" id="4b93-3a46-eaf1-565b">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="90"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Monstrous Creature" id="3e31-8f5a-caa1-cd18" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Wraithlord" id="b6bd-4fc5-d61f-f698" hidden="false" type="profile" targetId="04ef-61c5-9973-89f9"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Arm Weapons (If a duplicate is chosen, they count as a single twin-linked weapon)" id="bf03-fd19-d4d1-f4e7" hidden="false" defaultSelectionEntryId="6c61-05a6-e93e-ea10">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Shuriken Catapult" hidden="false" id="6c61-05a6-e93e-ea10">
+              <infoLinks>
+                <infoLink name="Shuriken Catapult" id="32a7-ab52-0730-6c4b" hidden="false" type="profile" targetId="4ffa-aab7-f0b3-0b34"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="7fcd-c3c0-827d-4985">
+              <infoLinks>
+                <infoLink name="Flamer" id="64d2-8fa0-bac4-af10" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="self" shared="true" id="b6b5-0fdb-e04f-a109-min"/>
+            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="b6b5-0fdb-e04f-a109-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Shoulder Cannons (if a duplicate is chosen, it counts as a single twin-linked weapon)" id="9589-e4fc-93d4-f8d6" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Starcannon" hidden="false" id="162c-9be8-a872-4d32">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Starcannon" id="3af0-7d72-d8c1-9754" hidden="false" type="profile" targetId="eec3-78b8-1100-fed9"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bright Lance" hidden="false" id="5093-e58f-9190-324b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Bright Lance" id="e89c-3e95-1d86-f14f" hidden="false" type="profile" targetId="bfd9-6ef3-6072-c0ba"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Scatter Laser" hidden="false" id="fc64-a93a-85bf-ebb0">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Scatter Laser" id="7ac6-1a5b-1cdb-8790" hidden="false" type="profile" targetId="4a05-4111-e207-f688"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shuriken Cannon" hidden="false" id="e082-04e7-5618-394d">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Shuriker Cannon" id="8228-8601-64b3-698a" hidden="false" type="profile" targetId="db20-c0b9-7553-8719"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Eldar Missile Launcher" hidden="false" id="4ab8-124d-28ec-1c52">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Eldar Missile Launcher (Krak)" id="94e0-df63-7153-bdef" hidden="false" type="profile" targetId="87ed-f72d-1883-564a"/>
+                <infoLink name="Eldar Missile Launcher (Plasma)" id="0f79-8ce7-6c31-ca4b" hidden="false" type="profile" targetId="c8a4-edd8-ca09-6a37"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Wraithsword" hidden="false" id="98f5-2af8-f85a-23e1">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="cb7b-4d75-5286-58f3" id="f9ad-2379-31ee-36f1" type="profile" name="Wraithblade" hidden="false"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6271-466b-1cbb-0dfa"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="1878-e44e-8070-6d2c"/>
+            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="1451-8eb3-9d0c-e145"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="War Walker Squadron" hidden="false" id="0852-be22-3109-1b78">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="War Walker" hidden="false" id="d65d-fefe-35f3-aa7a">
+          <infoLinks>
+            <infoLink name="War Walker" id="894d-2f99-2f6c-801b" hidden="false" type="profile" targetId="6cf5-4efa-e231-85a8"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3c41-aa3f-2178-c6f8"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="59d8-7b0d-3c5e-c506"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+          </costs>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Loadout" id="246f-1b93-b645-2abd" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Starcannon" hidden="false" id="91c9-c629-199d-391b">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Starcannon" id="e606-0c7b-cede-2098" hidden="false" type="profile" targetId="eec3-78b8-1100-fed9"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Eldar Missile Launcher" hidden="false" id="3bd1-d668-b749-0e25">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Eldar Missile Launcher (Krak)" id="7df6-2353-3186-beed" hidden="false" type="profile" targetId="87ed-f72d-1883-564a"/>
+                    <infoLink name="Eldar Missile Launcher (Plasma)" id="1858-be14-85cd-d5ef" hidden="false" type="profile" targetId="c8a4-edd8-ca09-6a37"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Scatter Laser" hidden="false" id="fe09-0025-3b08-675c">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Scatter Laser" id="14ff-2ebd-b7f1-cb36" hidden="false" type="profile" targetId="4a05-4111-e207-f688"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Shuriken Cannon" hidden="false" id="e28a-a176-77db-d88e">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Shuriker Cannon" id="e0ec-ec3f-7af2-ccd2" hidden="false" type="profile" targetId="db20-c0b9-7553-8719"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Bright Lance" hidden="false" id="e5f8-5c9e-b925-88d8">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Bright Lance" id="e23e-b659-481a-a43b" hidden="false" type="profile" targetId="bfd9-6ef3-6072-c0ba"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="self" shared="true" id="4d36-8f7a-50fc-9789-min"/>
+                <constraint type="max" value="2" field="selections" scope="self" shared="true" id="4d36-8f7a-50fc-9789-max"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="The Entire Squadron can be upgraded with Spirit Stones (select per model)" hidden="false" id="8e71-b9b0-3b7d-6040">
+          <infoLinks>
+            <infoLink name="Spirit Stones (Vehicle)" id="76ec-0d81-a0bd-3c59" hidden="false" type="profile" targetId="3933-2c64-aa15-2cbd"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6a18-ed4a-80a7-6ed5"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink targetId="fea1-2c4a-c33c-5600" id="19e7-5e37-9b15-a981" type="rule" name="Walker" hidden="false"/>
+        <infoLink name="Scouts" id="8f47-96db-dd2d-a907" hidden="false" type="profile" targetId="e289-1576-b63b-c142"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Falcon" hidden="false" id="6169-c675-6c0b-f321">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="115"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Falcon" id="1398-6351-564b-9acd" hidden="false" type="profile" targetId="e104-438a-4d84-a798"/>
+        <infoLink name="Skimmer" id="9193-883a-abf2-2812" hidden="false" type="rule" targetId="5768-8357-f0e3-1484"/>
+        <infoLink name="Tank" id="f40d-c305-56bf-0ed5" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
+        <infoLink name="Fast" id="6128-f116-57d0-505c" hidden="false" type="rule" targetId="4d59-8511-a8e5-1f62"/>
+        <infoLink name="Pulse Laser" id="03d4-8042-0850-9d90" hidden="false" type="profile" targetId="86a2-ced0-6683-8523"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Hull Weapon" id="8782-5c1c-de30-87e9" hidden="false" defaultSelectionEntryId="03d1-1769-150e-63c3">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Shuriken Catapults" hidden="false" id="03d1-1769-150e-63c3">
+              <infoLinks>
+                <infoLink name="Twin-linked Shuriken Catapults" id="4959-0947-41ab-53f9" hidden="false" type="profile" targetId="0af5-7e80-fa6a-d979"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shuriken Cannon" hidden="false" id="7271-0e73-b02e-b58e">
+              <infoLinks>
+                <infoLink name="Shuriker Cannon" id="dd51-3679-46de-59b8" hidden="false" type="profile" targetId="db20-c0b9-7553-8719"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="4129-6850-100c-c0a1-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4129-6850-100c-c0a1-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Turret" id="37db-ad32-a9d0-6553" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Shuriken Cannon" hidden="false" id="dbca-e905-0ff7-b9c0">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Shuriker Cannon" id="4186-b08f-d10a-9103" hidden="false" type="profile" targetId="db20-c0b9-7553-8719"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Scatter Laser" hidden="false" id="f325-a3df-dbf7-6cdf">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Scatter Laser" id="0a6a-509e-a6a8-e21c" hidden="false" type="profile" targetId="4a05-4111-e207-f688"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Eldar Missile Launcher" hidden="false" id="d20e-1508-c280-1ce2">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Eldar Missile Launcher (Krak)" id="10b9-315d-4a4a-ca89" hidden="false" type="profile" targetId="87ed-f72d-1883-564a"/>
+                <infoLink name="Eldar Missile Launcher (Plasma)" id="9f66-b1e6-9f59-b025" hidden="false" type="profile" targetId="c8a4-edd8-ca09-6a37"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Starcannon" hidden="false" id="2f81-1e01-511d-4c43">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Starcannon" id="fd32-f858-fd48-2828" hidden="false" type="profile" targetId="eec3-78b8-1100-fed9"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bright Lance" hidden="false" id="eb98-33bd-34a5-7259">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Bright Lance" id="ee77-f12e-c349-a158" hidden="false" type="profile" targetId="bfd9-6ef3-6072-c0ba"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="22d0-e940-4040-e64e-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="22d0-e940-4040-e64e-max"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink targetId="ea13-5c3a-0b18-21a9" id="6f47-3cd9-28db-83af" type="selectionEntryGroup" name="Vehicle Upgrades" hidden="false"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Falcon" typeId="9a37-e4d2-11fe-9e81" typeName="Transport" hidden="false" id="4d65-6e26-6019-77e1">
+          <characteristics>
+            <characteristic name="Capacity" typeId="7cdf-4c80-a83d-200c">6 models. It may not carry Wraithguards</characteristic>
+            <characteristic name="Access Points" typeId="6e42-3bd5-70a6-724f">Rear access ramp</characteristic>
+            <characteristic name="Fire Points" typeId="aa94-ae0c-98e7-5923">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fire Prism" hidden="false" id="5dea-c7ec-51fb-cde3">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="115"/>
+      </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Hull Weapon" id="5a48-8159-70c5-370d" hidden="false" defaultSelectionEntryId="03d1-1769-150e-63c3">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Shuriken Catapults" hidden="false" id="5845-e691-bbcd-0553">
+              <infoLinks>
+                <infoLink name="Twin-linked Shuriken Catapults" id="1f5f-60f5-5288-7805" hidden="false" type="profile" targetId="0af5-7e80-fa6a-d979"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shuriken Cannon" hidden="false" id="d5fa-49de-aa67-4b0b">
+              <infoLinks>
+                <infoLink name="Shuriker Cannon" id="1cb0-85c0-680c-46d0" hidden="false" type="profile" targetId="db20-c0b9-7553-8719"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="4fd6-374b-27e7-d638-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4fd6-374b-27e7-d638-max"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Fire Prism" id="7a9e-f1d9-3e1d-fe7a" hidden="false" type="profile" targetId="f714-42c0-b8e5-1640"/>
+        <infoLink name="Prism Cannon (Dispersed)" id="9dd7-d400-104e-c057" hidden="false" type="profile" targetId="d137-3ed2-7e79-9789"/>
+        <infoLink name="Prism Cannon (Focussed)" id="2f2c-5ce7-5f7c-c0e4" hidden="false" type="profile" targetId="fe48-eeb4-eb94-d4de"/>
+        <infoLink name="Skimmer" id="49ca-2c22-6759-1a21" hidden="false" type="rule" targetId="5768-8357-f0e3-1484"/>
+        <infoLink name="Tank" id="391a-0ec5-f830-e98b" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
+        <infoLink name="Fast" id="2007-a0a3-bc92-8091" hidden="false" type="rule" targetId="4d59-8511-a8e5-1f62"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Vehicle Upgrades" hidden="false" id="61ae-2b63-5403-222c" type="selectionEntryGroup" targetId="ea13-5c3a-0b18-21a9"/>
       </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1515,6 +4129,150 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec5f-84fd-3e8e-0488"/>
       </constraints>
     </entryLink>
+    <entryLink import="true" name="Asurmen" hidden="false" id="13a7-0c3f-5781-d7e5" type="selectionEntry" targetId="c8e5-e2d1-c8d2-a9e5">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="63ea-6907-62b4-9160" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d856-5ff9-6d4c-9fe1"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Jain Zar" hidden="false" id="487b-3d39-7fea-4ced" type="selectionEntry" targetId="b996-6673-68c0-abda">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="40b5-ed2c-b903-f22c" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a4e-b08b-37d5-f2a9"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Baharroth" hidden="false" id="9004-ba5d-4457-ae12" type="selectionEntry" targetId="21de-b843-ff6b-1cdb">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="46a9-b6de-6b6f-4512"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="8fc2-a2e5-cdb8-36c3" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Karandras" hidden="false" id="5021-0c84-6fa4-dc9d" type="selectionEntry" targetId="92c8-f497-4675-395b">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="5132-fc0c-a94f-e04c" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04cb-124d-8bb2-429e"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Fuegan" hidden="false" id="6bb5-8ea0-54cf-61cc" type="selectionEntry" targetId="730f-88de-e870-5d44">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="88d4-ff85-a3c8-b473" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a75-4eb0-8762-5c3e"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Maugan Ra" hidden="false" id="5f28-50aa-86c2-5a5d" type="selectionEntry" targetId="f5c1-2026-9a09-1996">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="3e02-b8d5-43f8-39d0" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d663-5154-ab50-7d0a"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Striking Scorpions" hidden="false" id="e3c4-2383-0184-730a" type="selectionEntry" targetId="87fd-2e03-068a-bb47">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="e8b6-34f2-8bd7-c3de" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Fire Dragons" hidden="false" id="5150-0857-6bcb-22c9" type="selectionEntry" targetId="f83d-52d4-a336-229d">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="c009-8639-2982-cc09" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wraithguard" hidden="false" id="0e99-a241-c747-2143" type="selectionEntry" targetId="736f-81c2-3353-c5c6">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="8b0e-0ccc-2285-a9d7" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Howling Banshees" hidden="false" id="ea59-5e79-3e3d-d326" type="selectionEntry" targetId="e8cb-b99b-c600-c1e5">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="15a4-3a19-6e55-0f1a" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Harlequin Troupe" hidden="false" id="1735-9e56-ec72-c77c" type="selectionEntry" targetId="cac8-479b-9339-2781">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="943a-7bbc-6cf6-8cd2" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dire Avengers" hidden="false" id="c9b7-a2af-3ff3-c3d6" type="selectionEntry" targetId="1f51-c98b-3fab-ecf3">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="f547-7bb1-7d4c-b36c" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Rangers" hidden="false" id="7402-e71c-f362-f33c" type="selectionEntry" targetId="ef32-30c7-89c1-13e7">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="690a-ace0-d156-609f" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Guardians" hidden="false" id="be26-48aa-2c27-21fe" type="selectionEntry" targetId="c3e6-0231-0505-5d0a">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="06c4-0027-01f9-a7af" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Storm Guardians" hidden="false" id="c8a2-363b-d66a-a5f6" type="selectionEntry" targetId="df33-844a-1c44-a426">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="a72f-6765-b8b6-b53a" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Guardian Jetbike Squadron" hidden="false" id="839d-0142-e91f-5971" type="selectionEntry" targetId="7357-fb6c-f147-c490">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="4029-c771-6100-1441" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Shining Spears" hidden="false" id="460e-8e5b-f5eb-9416" type="selectionEntry" targetId="0ee0-18b5-b41c-de44">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="2f31-66f9-717d-9533" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Warp Spider" hidden="false" id="d2a6-5859-95ab-7436" type="selectionEntry" targetId="c09c-c5b0-6839-efb3">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="dd4f-9411-7f57-93cc" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Swooping Hawks" hidden="false" id="c907-2119-9b77-8b89" type="selectionEntry" targetId="2fd5-b8ed-9c87-4bed">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="d0a0-12d8-bdf7-24c1" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vyper Squadron" hidden="false" id="622b-b67a-ced8-823f" type="selectionEntry" targetId="ab04-160a-37cb-d575">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="aa5b-8dd2-22ab-88f0" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Support Weapon Battery" hidden="false" id="a066-1b5e-6262-b9a0" type="selectionEntry" targetId="83b0-3654-be53-3db1">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="7c33-93b7-6fbc-fbb3" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Dark Reapers" hidden="false" id="55c0-d451-6101-e673" type="selectionEntry" targetId="24ad-3cda-3c7a-c95a"/>
+    <entryLink import="true" name="Wraithlord" hidden="false" id="c0ed-1a91-57c6-379c" type="selectionEntry" targetId="4b93-3a46-eaf1-565b">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="fe74-02bd-b960-eeb1" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="War Walker Squadron" hidden="false" id="f46f-ad56-093a-7b14" type="selectionEntry" targetId="0852-be22-3109-1b78">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="f11c-9f6f-1f0d-8c6f" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Falcon" hidden="false" id="1126-1b19-feea-e47d" type="selectionEntry" targetId="6169-c675-6c0b-f321">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="b46e-efc1-2bfa-ca2b" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Fire Prism" hidden="false" id="efbd-a90b-11d7-2d03" type="selectionEntry" targetId="5dea-c7ec-51fb-cde3">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="c02a-4adc-2cc5-2384" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedRules>
     <rule name="Warlock Power" id="6622-8fbf-6aa8-2e1e" hidden="false">
@@ -1526,19 +4284,61 @@
   </sharedRules>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Phoenix Lord" id="bde0-bf0a-44b9-d62d" hidden="false">
-      <profiles>
-        <profile name="Disciplines" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="ddc5-5505-cd9d-6897">
-          <characteristics>
-            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If the Phoenix Lord is leading a squad of their Aspect, the whole squad becomes Fearless. Phoenix Lords cannot join Aspect Warrior squads not of their Aspect. Note that if a squad has two of the same Exarch power, they are not cumulative.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <infoLinks>
         <infoLink name="Eternal Warrior" id="e936-55fa-94ed-0e4c" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
         <infoLink name="Fearless" id="9188-95f4-4146-bd87" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
         <infoLink name="Fleet" id="a71c-b348-558c-145b" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
         <infoLink name="Independent Character" id="6aeb-9bd6-8c4d-dbbc" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Phoenix Lord" id="a15b-545e-2c9e-675e" hidden="false" type="profile" targetId="9353-0d17-6adf-23bc"/>
       </infoLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Vehicle Upgrades" id="ea13-5c3a-0b18-21a9" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Vectored Engines" hidden="false" id="5f32-5d9d-3148-87f5">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Vectored Engines" id="2fb4-fc57-925e-d598" hidden="false" type="profile" targetId="2732-9d94-b202-e3aa"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a69f-001d-f25c-1142"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Star Engines" hidden="false" id="caf1-c2c6-d74c-5f17">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Star Engines" id="1dd9-2e50-d33d-6df8" hidden="false" type="profile" targetId="6d44-86d2-abdd-929e"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd75-6529-75ca-197e"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Holo-fields" hidden="false" id="33f7-897e-3150-2af2">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Holo-field" id="36e0-2ae0-6a12-0c40" hidden="false" type="profile" targetId="83d0-c976-0337-bf00"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e77d-45ce-0489-b332"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Spirit Stones" hidden="false" id="855c-5957-f1d4-995a">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Spirit Stones (Vehicle)" id="1b41-0109-eefe-c30b" hidden="false" type="profile" targetId="3933-2c64-aa15-2cbd"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1839-ef0a-cea7-fcd6"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <profileTypes>

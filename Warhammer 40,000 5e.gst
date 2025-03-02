@@ -218,33 +218,15 @@ First place the blast marker for the weapon in the firing unit that is closest 
     <rule name="Fast" id="4d59-8511-a8e5-1f62" hidden="false">
       <description>Fast vehicles follow the normal rules for vehicles, with the additions and exceptions: 
 
-
-
-
 Fast vehicles are capable of a third level of speed, called ‘flat out’. A fast vehicle going flat out moves more than 12&quot; and up to 18&quot;. This represents the fast vehicle moving at top speed, without firing its guns and is treated in all respects exactly the same as moving at cruising speed for a vehicle that is not fast (except where noted otherwise). For example, a fast vehicle moving flat out on a road may move up to 24&quot;.
-
-
-
 
 Fast vehicles that move at combat speed may fire all of their weapons, just like other types of vehicles that have remained stationary (including ordnance barrage weapons, which cannot usually be fired on the move).
 
-
-
-
 Fast vehicles that move at cruising speed may fire a single weapon (plus all defensive weapons, just like other types of vehicle moving at combat speed).
-
-
-
 
 Fast vehicles moving flat out may fire no weapons.
 
-
-
-
 Fast vehicles that moved ‘flat out’ in the previous turn and are not immobilised are hit on a 6 in assaults (exactly as if moving at cruising speed).
-
-
-
 
 Passengers may not embark onto or disembark from a fast vehicle if it has moved (or is going to move) flat out in that Movement phase.</description>
     </rule>
@@ -433,6 +415,88 @@ Unless otherwise specified in their special rules, monstrous creatures cannot g
 
 
 All wounds inflicted in close combat by a monstrous creature ignore armour saves, just like those from a power weapon. In addition, monstrous creatures roll an additional D6 for armour penetration (2D6 + Strength) when attacking a vehicle in close combat.</description>
+    </rule>
+    <rule name="Walker" id="fea1-2c4a-c33c-5600" hidden="false">
+      <description>While other vehicles can only move in the Movement phase, walkers can also run in the Shooting phase and assault in the Assault phase, just as infantry can.
+
+
+Walkers move in exactly the same way as infantry, so they can move up to 6&quot; in the Movement phase and assault up to 6&quot; in the Assault phase.
+
+
+Difficult terrain affects walkers just as it does infantry. Difficult terrain only counts as dangerous terrain for walkers if it would do so for infantry. If walkers fail a dangerous terrain test, they are immobilised. 
+
+
+Unlike infantry, a walker has a facing, which influences where it can fire and its Armour Value when fired at.
+
+
+Walkers can move and fire all of their weapons, just like a stationary vehicle.
+
+
+Alternatively, they can choose to run like infantry, and this prevents them from firing and assaulting that turn, as normal (though they can still trigger their smoke launchers, if they have any). Obviously they cannot run if they are stunned or immobilised.
+
+
+When firing a walker’s weapons, pivot the walker on the spot so that its guns are aimed at the target (assume that all weapons mounted on a walker can swivel 45º, like hull-mounted weapons) and then measure the range from the weapon itself and line of sight from the mounting point of the weapon and along its barrel, as normal for vehicles. This pivoting in the Shooting phase does not count as moving and represents the vastly superior agility of walkers in comparison with other vehicles. Keep in mind however that the walker will probably remain facing in this direction until its next Movement phase, so its facing will determine where its rear armour is going to be when the enemy returns fire! 
+
+
+Walkers that are locked in combat cannot be shot at.
+
+
+Walkers assault like infantry models, meaning that they make assault moves and can be locked in combat with enemy units. Walkers can make an assault even if they fired heavy or rapid fire weapons. However, like normal infantry, they can still only assault the unit they fired at.
+
+
+In close combat, walkers fight like infantry models. However, any hits scored against them must roll for armour penetration and damage as for a vehicle. Models hitting a walker in close combat always roll for penetration against its front armour. 
+
+
+Grenades and melta bombs can be used against a walker. A model will only manage to score a hit with a grenade against a walker on the roll of 6. However, if a walker is already stunned or immobilised at the start of the Assault phase, the attackers roll to hit based on the normal comparison of WS. Remember that models using grenades against vehicles only make one attack.
+
+
+Immobilised and/or stunned walkers fight in close combat with one less attack than usual (to a minimum of 1), but otherwise attack normally, no matter how many immobilised and stunned results they suffered.
+
+
+Shaken damage results do not affect the way a walker fights in close combat.
+
+
+Each roll made on the Vehicle Damage table against a walker counts as a single wound for the purposes of working out who won the combat.
+
+
+Defeated walkers do not take Morale checks and are not affected by the No Retreat! rule. 
+
+
+Walkers make sweeping advances, pile-in moves and consolidations unless they are stunned or immobilised.
+
+
+If a walker is rammed by a tank, it can choose to either brace itself for the impact, in which case the collision is resolved as normal for a vehicle, or it can attempt a ‘Death or Glory!’ attack in the same way as infantry (it cannot do this, however, if it is rammed in its rear arc). 
+
+
+If it chooses ‘Death or Glory!’ and its attack fails to stop the ramming tank, the walker will not be ready for the impact and is hit on its rear armour in the collision.</description>
+    </rule>
+    <rule name="Bike" id="3326-67e1-a5e9-b3e7" hidden="false">
+      <description>Bikes are large, solid constructions, and are often fitted with protective armour and shields to deflect and absorb incoming fire. Bike riders benefit from the protection offered by their bike, which increases their Toughness characteristic by 1. Note that this increase does not affect the model’s Toughness for the purposes of instant death.
+
+
+Bikes can move up to 12&quot; in the Movement phase. Bikes are not slowed down by difficult terrain. However, they treat all difficult terrain as dangerous terrain instead. 
+
+
+Bikes also have the ‘turbo boosters’ special rule.
+
+
+As bikes are so fast moving, they fall back 3D6&quot;, rather than 2D6&quot;. Remember that they treat all difficult terrain as dangerous.
+
+
+Bikes cannot run in the Shooting phase.
+Bikes have the ‘relentless’ special rule
+
+
+Each bike in a unit may fire with one weapon for each rider on the bike. Thus a Space Marine Attack Bike with a driver and passenger in sidecar can fire two weapons.
+
+
+Bike assault moves are not slowed down by difficult terrain. However, each model entering or moving through difficult terrain, or assaulting an enemy who is standing in difficult terrain or behind an obstacle, must take a dangerous terrain test.</description>
+    </rule>
+    <rule name="Terminator Armour" id="7fad-3b17-9b7d-1b05" hidden="false">
+      <description>Models in Terminator armour are capable of moving and firing with heavy weapons and may assault after firing rapid fire and heavy weapons. On the other hand, models in Terminator armour may not Sweeping Advance after assaults. 
+
+
+Additionally, models in Terminator armour may always start the battle in Deep Strike, even if it is not part of the mission being played.</description>
     </rule>
   </sharedRules>
   <publications>
@@ -963,5 +1027,78 @@ This rule cannot be used if, when assaulted, the unit was already locked in com
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This model has a 4+ invulnerable save.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Twin-linked Bolter" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0f1a-e452-e74a-284a">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
   </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Combi-weapon" hidden="false" id="d720-24d4-d7f1-df20" defaultAmount="0">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Combi-flamer" hidden="false" id="f589-6e69-8051-ff14">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Combi-flamer (Flamer)" id="fe09-5f7f-45b6-a978" hidden="false" targetId="6895-2cfe-6f5b-8f88" type="profile"/>
+            <infoLink name="Combi-flamer (Boltgun)" id="c544-2819-ed5c-10bc" hidden="false" targetId="79ec-9032-001f-b7bf" type="profile"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2100-a04d-b30d-4c34"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Combi-melta" hidden="false" id="a087-a0ee-5221-681b">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Combi-melta (Boltgun)" id="dd57-824a-b3cb-713e" hidden="false" targetId="aad5-fec1-bd21-2ae3" type="profile"/>
+            <infoLink name="Combi-melta (melta)" id="82e3-9932-779c-dc3d" hidden="false" targetId="38ae-bcac-62af-c514" type="profile"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="590b-5a6d-71b3-eda1"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Combi-plasma" hidden="false" id="7de9-f8dd-de1f-4133">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Combi-plasma (Boltgun)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="9f42-a486-0fe8-5f37">
+              <characteristics>
+                <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+                <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+                <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+                <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+              </characteristics>
+            </profile>
+            <profile name="Combi-plasma (plasma)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4ecb-49df-c661-6aea">
+              <characteristics>
+                <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+                <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+                <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+                <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Gets Hot!, One Shot</characteristic>
+                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf08-30f2-82e0-7ca8"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b9bf-a0a0-3657-c3b6"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
 </gameSystem>
