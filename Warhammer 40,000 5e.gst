@@ -1036,6 +1036,85 @@ This rule cannot be used if, when assaulted, the unit was already locked in com
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
+    <profile name="Twin-linked Lascannons" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0652-8647-3961-0d47">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Dreadnought Close Combat Weapon" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="72a1-7ddd-b4ae-b945">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Dreadnought close combat weapon is a power weapon and doubles the walker’s Strength in close combat (up to a maximum of 10).
+
+
+If the walker suffers a weapon destroyed result and the player chooses the close combat weapon, the walker loses the bonuses conferred by the Dreadnought close combat weapon (and any other weapon built into the same arm). 
+
+
+If a walker is armed with two or more close combat weapons, it gains one bonus attack for each additional weapon over the first. If one of its additional weapons is destroyed, one bonus attack is lost.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Combi-flamer (Flamer)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="6895-2cfe-6f5b-8f88">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, One Shot</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+      </characteristics>
+    </profile>
+    <profile name="Combi-flamer (Boltgun)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="79ec-9032-001f-b7bf">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+      </characteristics>
+    </profile>
+    <profile name="Combi-melta (Boltgun)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="aad5-fec1-bd21-2ae3">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+      </characteristics>
+    </profile>
+    <profile name="Combi-melta (melta)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="38ae-bcac-62af-c514">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Melta, One Shot</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+      </characteristics>
+    </profile>
+    <profile name="Combi-plasma (Boltgun)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="acca-ed1e-f99b-f2d7">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+      </characteristics>
+    </profile>
+    <profile name="Combi-plasma (plasma)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="fc49-01ea-f31c-7b76">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Gets Hot!, One Shot</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+      </characteristics>
+    </profile>
+    <profile name="Extra Dreadnought close combat weapon" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="b92f-cf52-754a-3e21">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This adds +1 Attacks to the unit&apos;s profile.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Combi-weapon" hidden="false" id="d720-24d4-d7f1-df20" defaultAmount="0">
