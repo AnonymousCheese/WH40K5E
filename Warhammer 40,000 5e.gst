@@ -498,6 +498,21 @@ Bike assault moves are not slowed down by difficult terrain. However, each mode
 
 Additionally, models in Terminator armour may always start the battle in Deep Strike, even if it is not part of the mission being played.</description>
     </rule>
+    <rule name="Turbo-Boosters" id="86ec-b742-7630-d3d4" hidden="false">
+      <description>Units mounted on bikes and jetbikes may utilise turboboosters to move at extreme speed. When using their turbo-boosters they may move up to 24&quot; in the Movement phase. Controlling their bike at such speeds takes all their concentration and skill, however, so they cannot move through difficult terrain, shoot, launch assaults or execute any other voluntary action in the same turn. In the following enemy Shooting phase, the bike benefits from a cover save of 3+ to represent the difficulty of hitting such fast-moving targets. In that enemy Shooting phase, however, bikers lose the ability of going to ground, and automatically pass Pinning tests. A unit using turbo-boosters must end its move at least 18&quot; away from its starting point to claim this cover save, as it relies on flat-out speed.</description>
+    </rule>
+    <rule name="Beast" id="0b22-19ae-f545-c0ba" hidden="false">
+      <description>Beasts and cavalry move like infantry.
+
+
+Beasts and cavalry fall back just like infantry, except that they move 3D6&quot; due to their speed.
+
+
+Beasts and cavalry have the ‘fleet’ special rule.
+
+
+When assaulting they move up to 12&quot;. If assaulting through cover, beasts and cavalry are slowed by difficult terrain – roll for the distance they can move just as you would for infantry, but double the result of the highest scoring dice. </description>
+    </rule>
   </sharedRules>
   <publications>
     <publication name="Warhammer 40,000 5e Rulebook" id="ad9c-8597-0188-2ba0" hidden="false"/>
@@ -1113,6 +1128,20 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
     <profile name="Extra Dreadnought close combat weapon" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="b92f-cf52-754a-3e21">
       <characteristics>
         <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This adds +1 Attacks to the unit&apos;s profile.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Slow and Purposeful" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="4e36-f773-3571-6ed4">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Models with this special rule are relentless. However, they always count as moving through difficult terrain (including in assaults). Remember that a slow and purposeful independent character will cause any unit he joins to move at his speed (and vice versa) as units have to move at the speed of the slowest model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Battle Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="5323-3577-3ed2-1a5d">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Large Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
   </sharedProfiles>
