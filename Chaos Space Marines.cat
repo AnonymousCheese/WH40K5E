@@ -2868,7 +2868,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                 <infoLink name="Aspiring Champion" id="2620-a1b4-32a5-40aa" hidden="false" type="profile" targetId="f893-cd6d-f3e5-0547"/>
               </infoLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="acaa-d267-e471-37c2"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="acaa-d267-e471-37c2"/>
               </constraints>
               <selectionEntryGroups>
                 <selectionEntryGroup name="This model may replace his bolter with one of the following" id="33ab-ffa9-065d-0d47" hidden="false">
