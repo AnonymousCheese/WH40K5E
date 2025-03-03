@@ -2868,7 +2868,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                 <infoLink name="Aspiring Champion" id="2620-a1b4-32a5-40aa" hidden="false" type="profile" targetId="f893-cd6d-f3e5-0547"/>
               </infoLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="acaa-d267-e471-37c2"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6fee-95a9-2d50-f5bb"/>
               </constraints>
               <selectionEntryGroups>
                 <selectionEntryGroup name="This model may replace his bolter with one of the following" id="33ab-ffa9-065d-0d47" hidden="false">
@@ -2890,7 +2890,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                     </entryLink>
                   </entryLinks>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5826-2218-2805-14e3"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="92b5-a673-905b-3bea"/>
                   </constraints>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="This model may replace his close combat weapon with" id="cc1b-1bdd-87f9-d7a2" hidden="false">
@@ -2912,6 +2912,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                       </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2431-f3d3-99b3-aebe"/>
+                  </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <selectionEntries>
