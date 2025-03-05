@@ -5800,110 +5800,6 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Land Speeder Squadron" hidden="false" id="4a6e-2df9-cfdb-f638">
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Land Speeder" hidden="false" id="fb4a-7877-fd87-6b18" collective="true">
-          <profiles>
-            <profile name="Land Speeder" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="27dc-6319-d53f-9b96">
-              <characteristics>
-                <characteristic name="BS" typeId="b539-c71b-9239-8da0">4</characteristic>
-                <characteristic name="F" typeId="84f1-6495-b3c8-6025">10</characteristic>
-                <characteristic name="S" typeId="38b6-8429-f0fd-11cb">10</characteristic>
-                <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="3693-76ec-1008-464a"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="997e-7757-a20c-c79e"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Primary Weapon" id="afd1-caf0-1cc9-6075" hidden="false" defaultSelectionEntryId="e4c9-9531-a2a5-c4e4">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Heavy Bolter" hidden="false" id="e4c9-9531-a2a5-c4e4">
-                  <infoLinks>
-                    <infoLink name="Heavy Bolter" id="82d5-85da-ab4d-147c" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy Flamer" hidden="false" id="821e-e25a-8375-831b">
-                  <infoLinks>
-                    <infoLink name="Heavy Flamer" id="3eec-2ddc-ea2d-b07b" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Multi-melta" hidden="false" id="c83a-955e-4a43-3952">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Multi-melta" id="8435-0b60-8330-a55d" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="2095-9955-3a69-1b01-min"/>
-                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2095-9955-3a69-1b01-max"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Upgrade" id="e7bb-b12b-79c3-7dd3" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Typhoon Missile Launcher" hidden="false" id="4542-2915-5759-e7e4">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink targetId="17d9-dded-cdcc-f05c" id="f861-4735-3b29-992d" type="profile" name="Typhoon Missile Launcher (Krak)" hidden="false"/>
-                    <infoLink targetId="0e20-adab-e559-5fd8" id="e715-b87f-61f1-682b" type="profile" name="Typhoon Missile Launcher (Frag)" hidden="false"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Tornado Pattern Heavy Flamer" hidden="false" id="81e3-2544-900e-c27a">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Heavy Flamer" id="7653-cbf8-5cd9-c6e8" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Tornado Pattern Multi-melta" hidden="false" id="55bc-3f7c-bd91-98bc">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Multi-melta" id="4be0-8c69-e362-8825" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Tornado Pattern Heavy Bolter" hidden="false" id="1ab8-2dfc-d356-4664">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Heavy Bolter" id="8551-69db-2faa-d205" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Tornado Pattern Assault Cannon" hidden="false" id="ab6c-89e4-86c3-bf4b">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink targetId="e43a-8d38-ba2b-c23b" id="f959-6395-b6e5-2b62" type="profile" name="Assault Cannon" hidden="false"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="6a62-2835-1bef-9c58"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <infoLinks>
-        <infoLink name="Deep Strike" id="8378-28ab-0f6c-adaf" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
-        <infoLink name="Skimmer" id="baab-476d-71a6-159e" hidden="false" type="rule" targetId="5768-8357-f0e3-1484"/>
-        <infoLink name="Fast" id="2ae6-9778-0726-6b2a" hidden="false" type="rule" targetId="4d59-8511-a8e5-1f62"/>
-      </infoLinks>
-    </selectionEntry>
     <selectionEntry type="unit" import="true" name="Space Marine Bike Squad" hidden="false" id="b6e6-1b4f-3612-da46">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="90"/>
@@ -7738,11 +7634,6 @@ Terminators count as two models for the purposes of transport capacity and canno
         <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">An Iron Halo confers a 4+ invulnerable save.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Storm Shield" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="5567-540d-ea70-31b2">
-      <characteristics>
-        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with a storm shield has a 3+ invulnerable save. A model equipped with a storm shield can never claim the +1 Attack bonus for being armed with two close combat weapons in an assault.</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Relic Blade" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="08b3-cd4c-5d89-d874">
       <characteristics>
         <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Relic blade counts as a power weapon whose hits are resolved at Strength 6. A model wielding a relic blade cannot get an extra attack for an additional close combat weapon.</characteristic>
@@ -7796,11 +7687,6 @@ Terminators count as two models for the purposes of transport capacity and canno
 
 
 Each player then rolls a D6 and adds their model&apos;s leadership value to the score. If the Space Marine Librarian beats the opposing model&apos;s score then the psychic power is nullified and does not take effect that turn. If the opposing model&apos;s score is equal or higher, it can use its psychic power as normal. The psychic hood can be used once each time an enemy model uses a psychic power within range.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Servo-arm" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="3bb0-d10e-9059-eb84">
-      <characteristics>
-        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">Each servo-arm grants the model a single extra close combat attack, made separately at Initiative 1 and Strength 8, ignoring Armour Saves.</characteristic>
       </characteristics>
     </profile>
     <profile name="Servo-Harness" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="184e-8bbb-d1ae-78d8">
@@ -7922,11 +7808,6 @@ If the result is 5 or more, then either a Weapon Destroyed result or Immobilised
     <profile name="Bolster Defenses" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="a58b-9566-2629-fe38">
       <characteristics>
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Each model with this ability can bolster a single ruin before the game begins. When you deploy, nominate one ruin in your deployment area for your Model to bolster. The ruin&apos;s cover save is increased by one for the duration of the game. For example, a normal ruin (4+ save) so reinforced would offer a 3+ cover save. A ruin can only be bolstered once.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Crozius Arcanum" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="e336-f381-5334-1961">
-      <characteristics>
-        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Crozius Arcanum is a power weapon</characteristic>
       </characteristics>
     </profile>
     <profile name="Rosarius" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="3b72-5db6-baa8-690f">
