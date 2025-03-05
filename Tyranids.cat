@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="fb81-2fd6-1a4c-f64f" name="Tyranids" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Biovore" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="5c69-a5c8-e9be-8840">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">1</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">6</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Broodlord" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="6d62-fc4e-2f6c-97c6">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">7</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">7</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Carnifex" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="99c4-13fe-7a43-7de6">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">9</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">1</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Deathleaper" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="75e9-fd36-3e92-19d1">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">9</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">7</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Doom of Malan&apos;tai" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="463b-78ff-04f9-d748">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">X</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Gargoyle" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="b1b3-5042-a837-ac35">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">6</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Genestealer" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="ed07-d354-b6e4-13f0">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Harpy" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="4142-76a3-09e8-af29">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hive Guard" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="ed35-f5ef-0d26-d342">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hive Tyrant" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="0280-8392-c5c4-0e4d">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">8</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hormagaunt" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="c9ab-3527-23a5-d703">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">6</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lictor" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="23d1-2da6-3be8-93d5">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mawloc" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="ec7e-6534-bb2e-4c9b">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">6</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mycetic Spore" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="cc29-1e38-f9f4-8e31">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">2</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">1</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">5</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Old One Eye" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="7432-6527-0223-c2a4">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">10</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">1</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Parasite of Mortrex" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="03c0-977a-d819-78f8">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Pyrovore" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e9fe-cac8-e330-84df">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">1</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">6</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ravener" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="2774-96b5-fc43-409b">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">6</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ripper Swarm" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="01e0-0fbb-07cb-2388">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">2</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">5</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sky-slasher Swarm" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="764c-c6ef-f1cd-c0e0">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">2</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">5</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Spore Mine" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="f0bf-63c7-ed8d-4464">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">-</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">-</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">1</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">1</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">1</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">-</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">1</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Swarmlord" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="fae9-59c3-c0b2-d822">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">9</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">5</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Termagaunt" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="5f70-0aa0-c80f-013e">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">6</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tervigon" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="3f21-d6f8-1e88-8426">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">6</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">1</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Trygon" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="7cb5-8c62-8d6e-90ba">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">6</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">6</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Trygon Prime" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="667d-2e98-a6cc-8f66">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">6</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">6</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tyranid Warrior" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="aba5-b46d-93a3-7137">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tyranid Prime" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="07ff-44a8-8ab5-4fe2">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tyranid Shrike" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="1276-3792-2f69-8014">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tyrant Guard" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="bbc9-f26d-d296-4a2d">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tyrannofex" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="2744-7e34-284c-0c62">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">6</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">1</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Venomthrope" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="88d8-75bc-f2d5-9f56">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">6</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ymgarl Genestealer" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="77d3-0ad9-79df-24f0">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Zoanthrope" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="3664-b0c7-000e-a9ad">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Acid Spray" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="22d1-385f-56f0-8466">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">To fire the acid spray place the template so that the narrow end is within 12&quot; of the weapon and the large end is no closer to the weapon than the narrow end. The acid spray is then treated like any other template weapon.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Barbed Strangler" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="d3b6-6b49-23b8-30fd">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Large Blast, Pinning</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Devourer with Brainleech Worms" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="9e28-50b6-18cf-0900">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 6</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">If an enemy unit suffers one or more casualties because of this weapon and is required to take a Morale check at the end of the phase, it suffers a -1 penalty to its Leadership.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bio-electric Pulse" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="504c-d63e-269f-1d4a">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 6</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Bio-plasma" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="9add-55c0-a791-7c5b">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Containment Spines" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0fb4-a9e9-6f26-2315">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 12</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Cluster Spines" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="45f6-a36b-9494-e369">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Large Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Deathspitters" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="00e2-7771-a8dd-5bf8">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Devourer" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="d150-d6bc-04ca-634b">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">If an enemy unit suffers one or more casualties because of this weapon and is required to take a Morale check at the end of the phase, it suffers a -1 penalty to its Leadership.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Flamespurt" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="6cef-235a-8b53-e760">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">A Pyrovore can fire its flamespurt, even if it is subject to Instinctive Behaviour - Feed.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fleshborer" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="92e8-4499-60cc-d8f0">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Fleshborer Hive" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="c30d-59ea-4eb1-ee27">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 20</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Flesh Hooks" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="29d2-7727-8aaa-e025">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">6&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2, Rending</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Venom Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="c008-395f-3bd0-8b72">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Unless the target is an open-topped vehicle, any glancing or penetrating hit inflicted by a heavy venom cannon suffer an additional -1 penalty to rolls on the Vehicle Damage Chart.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Impaler Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="621c-8897-92ec-6ed8">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">The Impaler cannon can shoot any target in range, regardless of whether there is line of sight to it or not. The target can only count the benefits of cover they are in or youching if it lies between them and the Hive Guard. Vehicles are always hit on the armour value facing the Hive Guard.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ripper Tentacles" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="5854-62b8-77e0-576e">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">6&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 6</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Repture Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="95da-185c-8c2a-797c">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Spike Rifle" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="c1ad-8cb3-666e-ac6a">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Spore Mine Cysts" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4f36-d562-609c-dc73">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">N/A</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault D3, Large Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">If, after the final position of the first template in the barrage has been determined, there are no enemy models within 6&quot; of the central hole, do not resolve the attack but instead place D3 Spore Mines in base contact with each other on the spot where the central hole would have landed. These then follow the rules for Spore Mines.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Spore Mine Launcher" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4950-2dbf-7422-e7c5">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Barrage, Large Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">If, after the final position of the first template in the barrage has been determined, there are no enemy models within 6&quot; of the central hole, do not resolve the attack but instead place a number of Spore Mines, equal to the number of Biovores in the unit, in base contact with each other, on the spot where the central hole would have landed. These then follow the rules for Spore Mines.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Spinefists" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="527c-ef0c-0fc4-a542">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault X, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Spinefists get one shot for every Attack on the unmodified profile of the Tyranid creature firing them. For example, a Termagaunt (1 Attack) fires 1 shot whilst a Ravener (4 Attacks) fires 4 shots.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Stinger Salvo" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="624c-10a6-80bd-fd9f">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 4</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Stranglethorn Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="b1f6-94cd-91f8-1517">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Large Blast, Pinning</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Strangleweb" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="00bb-38f3-55ea-96bf">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">2*</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Pinning</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Hits caused by a strangleweb against non-vehicle units roll To Wound against the opponent&apos;s unmodifies Strength characteristic instead of their Toughness</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Thorax Swarm (Electroshock Grubs)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="6d68-3102-357f-54a6">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+      <alias> </alias>
+    </profile>
+    <profile name="Thorax Swarm (Desiccator Larvae)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4c04-81db-6eb3-090b">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">1</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Against non-vehicle units, hits inflicted by desiccator larvae wound on a 2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Thorax Swarm (Shreddershard Beetles)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4753-5245-8609-61f9">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Rending</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Venom Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="ceb3-7424-1f03-0ca7">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Unless the target is an open-topped vehicle, any glancing or penetrating hit inflicted by a venom cannon suffer an additional -1 penalty to rolls on the vehicle damage chart.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bonesword" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="6c07-f05d-c18a-ee85">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">No armour save may be taken against wounds inflicted in close combat by a Tyranid with a bonesword. In addition, if a model suffers one or more unsaved wounds in close combat from a Tyranid with a bonesword, it must immediately pass a Leadership test or suffer instant death. If the Tyranid creature that inflicted the wound is armed with a pair of boneswords then the Leadership test must instead be passed on 3D6.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Claws and Teeth" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="7c9d-9e0a-cc00-defb">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">Models with claws and teeth count as having a normal close combat weapon.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Crushing Claws" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="2d7b-ae8e-20dd-559d">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Tyranid with crashing claws gains an extra D3 Attacks in close combat (rolled for at the beginning of each round of combat) but strikes at Initiative 1, regardless of any modifiers.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lash Whip" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="03cb-0385-2167-e4be">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">An enemy model that is in base contact with a Tyranid with one or more lash whips counts their Initiative value as 1 unit the end of the Assault phase, regardless of their actual Initiative.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rending Claws" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="b14f-e98f-bb94-e63f">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">Close combat attacks made by models with rending claws gain the Rending ability.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Scything Talons" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="4142-8bec-e73c-f7b7">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Tyranid model with a single set of scything talons re-rolls any To Hit rolls of a 1 in close combat. A Tyranid model with two sets of Scything talons re-rolls all failed To Hit rolls in close combat.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bonded Exoskeleton" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="87b4-00cc-c9cc-9210">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with Bonded Exoskeleton has a 3+ armour save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Armoured Shell" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="2209-b050-a79c-fa7f">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with an armoured shell has an armour save of 2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Acid Blood" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="932f-f50f-f25b-029b">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">For every unsaved wound a model with acid blood suffers in close combat, the enemy unit that struck the blow must pass an Initiative test or suffer a wound. No armour saves or cover saves may be taken against these wounds and casualties count towards combat resolution. Walkers instead suffer a glancing hit on the D6 roll of a 4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Acid Maw" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="0b26-f58c-c911-5671">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The bearer&apos;s close combat attacks ignore armour saves.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Adrenal Glands" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="ba15-539b-8427-fa0b">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Tyranid models with the adrenal glands biomorph have the Furious Charge special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blinding Venom" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="f0a0-4589-74e6-5c9a">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Against non-vehicle units, any roll To Hit of 6 made by the bearer in close combat automatically causes a wound - no separate roll To Wound is necessary</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chameleonic Skin" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="59fd-1cf3-9413-7912">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Lictors always start the game in reserve, even in missions that do not normally use this rule. When Lictors become available they are placed anywhere on the battlefield that is more than 1&quot; away from any enemy model. Lictors may not move or assault on the turn they arrive, although they can shoot (or run) normally.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Frag Spines" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="0571-b003-4f15-3a92">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The bearer counts as being equipped with assault grenades.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Implant Attack" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="5597-556d-1de7-5fa9">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Any To Wound roll of a 6 by a model with an implant attack in close combat will inflict Instant Death, regardless of the opponent&apos;s Toughness.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Regeneration" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="e8d9-c24c-0ada-0f4a">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">At the start of your turn, as long as the model with the regeneration biomorph is still alive, roll a D6 for each Wound suffered. For every 6 that is rolled, the model recovers a single lost Wound.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Toxic Miasma" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="f0af-7b7b-bae0-b9fe">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">At the end of each player&apos;s turn, every non-vehicle enemy model in base contact with a Tyranid with the Toxic Miasma biomorph must pass a Toughness test or suffer a wound - saves (but not cover saves) may be taken as normal.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Toxin Sacs" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="bf9b-5f6f-7099-c9e8">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">If a Tyranid has the Toxin Sacs biomorph all of its close combat attacks become Poisoned (4+).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wings" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="4b5c-7fa6-cbb6-81a9">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Models equipped with wings move in the same way as Jump Infantry.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Instinctive Behaviour - Lurk" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="b0d0-ba0f-5b54-513e">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">see Instinctive Behaviour
+
+A unit that Lurks may not move in the Movement phase and may not launch an assault in the Assault phase. in the Shooting phase, the unit must fire at the nearest visible enemy. If there are no enemies in the unit&apos;s line of sight or within range of at least one of its ranged weapons, or if the unit has no ranged weaponry, it must instead run towards the nearest piece of area terrain, trying to move into it if possible. If the unit is already in a piece of area terrain it will not move and will stay where it is.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Instinctive Behaviour - Feed" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="033b-00cf-e0e1-c66c">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">see Instinctive Behaviour
+
+A unit that Feeds is subject to Rage. In addition, the unit may not fire any weapons in the Shooting phase, though it may still run, according to the stipulations of Rage.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Synapse Creature" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="c532-63f6-20dd-0d6f">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Synapse Creatures and Tyranid units that are within 12&quot; of a Synapse Creature are said to be within Synapse range. A unit that is within Synapse range is not subject to the Instinctive Behaviour rule and gains the Fearless rule. If a unit that is falling back is within synapse range before it moves, it automatically rallies, regardless of any normal restrictions.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shadow in the Warp" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="90e3-72fc-385a-b619">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Any enemy Psyker that takes a Psychic test within 12&quot; of a Tyranid with the Shadow in the Warp special rule must take the test on 3D6 and will suffer a Perils of the Warp attack on the roll of any double 1 or double 6.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Deathspitter" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="7fef-72a3-7feb-5273">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Devourers with Brainleech Worms" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="c2c8-8387-5e85-1269">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 6, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">If an enemy unit suffers one or more casualties because of this weapon and is required to take a Morale check at the end of the phase, it suffers a -1 penalty to its Leadership.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Horror" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="f456-0120-d5ef-c6ac">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This is a psychic shooting attack that automatically hits a single non-vehicle enemy unit within 12&quot;. That unit must immediately take a Morale check or fall back. This has no effect on enemy units that have the Fearless special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Leech Essence" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="45fb-4a21-aada-c51d">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This is a Psychic shooting attack that automatically hits a single non-vehicle enemy unit within 12&quot;. The target immediately suffers D3, Strength 3, AP2 hits. The Hive Tyrant recovers a single lost Wound for each wound inflicted using this power, up to its starting number of Wounds.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Paroxysm" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="8591-bb24-f8f4-acc0">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This is a psychic shooting attack that automatically hits a single non-vehicle enemy unit within 12&quot;. That unit must reduce its Weapon Skill and Ballistic Skill to 1 until the beginning of the Hive Tyrant&apos;s next turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psychic Scream" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="1f20-ad5f-1a3a-b262">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This is a Psychic shooting attack that automatically hits all non-vehicle enemy units within 2D6&quot; of the Hive Tyrant. All units must immediately take a Leadership test. If they fail the test they suffer a single wound for each point they filed by, with no armour saves allowed.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Catalyst" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="43ea-65e8-f738-419f">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This psychic power is used during your movement phase. If successful a single friendly unit within 12&quot; of the psyker gains the Feel No Pain special rule until the beginning of the next Tyranid turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dominion" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="2872-afd7-741d-5691">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This psychic power is used at the beginning of your turn, before any Instinctive Behaviour tests are rolled. If successful, the Tervigon&apos;s synapse range is increased to 18&quot; until the beginning of the next friendly turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Onslaught" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="d7c3-0cf8-f36b-8cdb">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This is a psychic shooting attack that automatically hits a single friendly unit within 12&quot;. That unit may both run, and then shoot in the same Shooting phase. The unit may do so even if it is subject to Instinctive Behaviour - Feed. A unit under the effect of Onslaught may not assault unless it also has the Fleet ability.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Aura of Despair" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="09d1-235b-654e-001c">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This psychic power is used at the beginning of your Assault phase. If successful, ell enemy units within 12&quot; of the Broodlord suffer a -1 penalty to their Leadership until the end of the following player turn. If an enemy unit is within range of several Broodlords using this power, the modifiers are cumulative.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hypnotic Gaze" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="9d31-77ef-ddac-9a12">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This psychic power is used during your Assault phase, after any assault moves have been made, but before any attacks are made. If successful, select one model in base contact with the Broodlord. Both players roll a D6 and add the Leadership of their respective models. If the Broodlord rolls equal to or higher than the target&apos;s score, that model may not attack in the ensuing close combat. This power cannot affect models that do not have a Leadership value.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Warp Blast" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="03e2-2b5f-2690-f68e">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">This is a psychic shooting attack.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Warp Lance" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="516b-72ea-d906-7389">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Lance</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Psychic shooting attack.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Hive Tyrant" hidden="false" id="b7df-e825-5bd8-ed62">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="170"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Hive Tyrant" id="cd51-ee65-cd5e-8070" hidden="false" type="profile" targetId="0280-8392-c5c4-0e4d"/>
+        <infoLink name="Monstrous Creature" id="a62d-3f18-9850-e9dd" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Synapse Creature" id="48ae-9f69-3e2c-8613" hidden="false" type="profile" targetId="c532-63f6-20dd-0d6f"/>
+        <infoLink name="Shadow in the Warp" id="38b7-ad28-925b-6af2" hidden="false" type="profile" targetId="90e3-72fc-385a-b619"/>
+        <infoLink name="Psyker" id="a463-4537-05cc-4958" hidden="false" type="profile" targetId="d241-1e73-a625-ec7d"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Loadout" id="6ef9-55c3-0d71-dd43" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="48e5-8444-54d9-13f2" defaultAmount="1">
+              <infoLinks>
+                <infoLink name="Scything Talons" id="97ea-96dd-9191-1dc0" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bone Sword and Lash Whip" hidden="false" id="9572-df50-55fe-9339" defaultAmount="1">
+              <infoLinks>
+                <infoLink name="Bonesword" id="ec18-c720-723a-707b" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
+                <infoLink name="Lash Whip" id="c31f-0ff7-397c-dd98" hidden="false" type="profile" targetId="03cb-0385-2167-e4be"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="653e-9910-06b1-bf1a"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Deathspitters" hidden="false" id="dc76-9b4a-dcc6-d248">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Twin-linked Deathspitters" id="7395-0feb-93a4-b4ca" hidden="false" type="profile" targetId="00e2-7771-a8dd-5bf8"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Devourers with Brainleech Worms" hidden="false" id="4ac7-3dd0-29b4-0179">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Twin-linked Devourers with Brainleech Worms" id="6ef0-1427-fcc4-55fa" hidden="false" type="profile" targetId="c2c8-8387-5e85-1269"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="One of the following" id="9c61-eecd-dc76-f57b" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Stranglethorn Cannon" hidden="false" id="eed7-5751-b6bc-84c6">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Stranglethorn Cannon" id="0427-67e3-b383-6cd3" hidden="false" type="profile" targetId="b1f6-94cd-91f8-1517"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="27da-a4d8-48ce-ced7"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Venom Cannon" hidden="false" id="296d-d596-bddd-4175">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Heavy Venom Cannon" id="5d31-1064-bbfa-d2a0" hidden="false" type="profile" targetId="c008-395f-3bd0-8b72"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="98a0-e50e-fdee-65d2"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="039e-5b58-e613-dbe4" includeChildSelections="true"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Take any of the following abilities" id="1f5c-52b4-2a04-fa21" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Hive Commander" hidden="false" id="a151-de8d-e0f8-c121">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <profiles>
+                <profile name="Hive Commander" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="0203-0403-6f1a-25f0">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Hive Tyrant has the Hive Commander upgrade, a single unit of Troops may outflank. In addition, whilst the Hive Tyrant is alive, you may add +1 to your reserve rolls.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="475c-b793-e923-4927"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Indescribable Horror" hidden="false" id="debc-af45-7462-9f28">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <profiles>
+                <profile name="Indescribable Horror" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="8af6-5286-a250-fa3a">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Units wishing to assault a Hive Tyrant with the Indescribable Horror upgrade, or the unit it is with, must first pass a Leadership test. If the test is passed then the unit may assault as normal. If the test is failed then the squad falters and may not launch an assault that turn. This has no effect on enemy units that have the Fearless special rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5064-40a7-7568-46dc"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Old Adversary" hidden="false" id="5253-a3fe-ddbe-5263">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <profiles>
+                <profile name="Old Adversary" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="c67e-99af-35d2-2faa">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">All Tyranid units within 6&quot; of a Hive Tyrant with the Old Adversary upgrade benefit from the Preferred Enemy special rule. This includes the Hive Tyrant itself.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a52-1343-797f-c300"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Take any of the following" id="a4f9-ea16-09ff-b5a6" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="f471-5fe3-73ae-133c">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Adrenal Glands" id="0077-4ea2-2a48-8199" hidden="false" type="profile" targetId="ba15-539b-8427-fa0b"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e2b7-2293-7da2-f43f"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Toxic Sacs" hidden="false" id="01c2-1ded-c78d-9208">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Toxin Sacs" id="a685-d874-0341-07fe" hidden="false" type="profile" targetId="bf9b-5f6f-7099-c9e8"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc48-8dcc-58a7-07f7"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Acid Blood" hidden="false" id="ab08-bd0f-941e-272b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Acid Blood" id="dee0-93de-df55-6e5e" hidden="false" type="profile" targetId="932f-f50f-f25b-029b"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b66-2d7b-2d32-7224"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Implant Attack" hidden="false" id="fca8-2bd2-a5bb-8f5d">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Implant Attack" id="aeb5-9333-8f23-4c59" hidden="false" type="profile" targetId="5597-556d-1de7-5fa9"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84e8-d786-0804-0745"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Toxic Miasma" hidden="false" id="01f9-e688-61b7-de49">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Toxic Miasma" id="d05d-17e9-ec90-16fe" hidden="false" type="profile" targetId="f0af-7b7b-bae0-b9fe"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="624b-b82e-941c-2285"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Regeneration" hidden="false" id="790a-cfe9-f416-0e9d">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Regeneration" id="4e90-d7eb-9d0b-448e" hidden="false" type="profile" targetId="e8d9-c24c-0ada-0f4a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c3c3-8928-b203-15eb"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Take one of the following" id="c94c-a8fe-70a8-5431" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Thorax swarm with electroshock grubs" hidden="false" id="2970-0c7e-6e0f-7e0a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Thorax Swarm (Electroshock Grubs)" id="c59b-0245-ffe6-4534" hidden="false" type="profile" targetId="6d68-3102-357f-54a6"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Thorax swarm with Desiccator Larvae" hidden="false" id="22a6-1df7-6cff-4b6b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Thorax Swarm (Desiccator Larvae)" id="6aa8-253b-ef22-47da" hidden="false" type="profile" targetId="4c04-81db-6eb3-090b"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Thorax swarm with Shreddershard Beetles" hidden="false" id="c06b-1bc7-a5ce-815a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Thorax Swarm (Shreddershard Beetles)" id="32ea-8cb0-21cf-f358" hidden="false" type="profile" targetId="4753-5245-8609-61f9"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Armoured Shell" hidden="false" id="55c4-7d78-a798-8372">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Armoured Shell" id="b6e2-82ec-44e5-9878" hidden="false" type="profile" targetId="2209-b050-a79c-fa7f"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Wings" hidden="false" id="0e63-f5dd-648f-19d7">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="60"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Wings" id="cb7b-6280-3c9b-3cf1" hidden="false" type="profile" targetId="4b5c-7fa6-cbb6-81a9"/>
+                <infoLink name="Jump Infantry" id="b347-e322-bc43-6811" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5a16-e13a-007e-3d83"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="A Hive Tyrant has any two of the following powers" id="9cfe-6ce9-0855-b7d0" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="The Horror" hidden="false" id="36f2-e302-ad58-bdb8">
+              <infoLinks>
+                <infoLink name="The Horror" id="2d13-62a5-7826-92ef" hidden="false" type="profile" targetId="f456-0120-d5ef-c6ac"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eac7-a71d-a62a-e492"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Leech Essence" hidden="false" id="5d66-66e4-d3b8-da45">
+              <infoLinks>
+                <infoLink name="Leech Essence" id="0644-79b9-a736-2bb0" hidden="false" type="profile" targetId="45fb-4a21-aada-c51d"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f90c-0b31-5a4e-8387"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Paroxysm" hidden="false" id="9f06-6946-c22c-fcf2">
+              <infoLinks>
+                <infoLink name="Paroxysm" id="e374-51e5-aa2b-72b1" hidden="false" type="profile" targetId="8591-bb24-f8f4-acc0"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f2e-9df9-8cea-f9d9"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psychic Scream" hidden="false" id="2dc2-72e5-1e98-6949">
+              <infoLinks>
+                <infoLink name="Psychic Scream" id="2fbe-4635-d3be-8928" hidden="false" type="profile" targetId="1f20-ad5f-1a3a-b262"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c17f-33b0-27cf-4939"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="self" shared="true" id="1ed4-27cb-6aed-6211-min"/>
+            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="1ed4-27cb-6aed-6211-max"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule name="Instinctive Behaviour" id="2661-5eaf-7f02-4291" hidden="false">
+      <description>All unengaged Tyranid models that are not within Synapse range and not falling back or gone to ground, must take a Leadership test at the beginning of their Movement phase:
+
+
+• If the test is passed the unit acts normally that turn
+
+
+• If the test is failed the unit reverts to its baser instincts and will either Lurk or Feed, depending on the type of Instinctive Behaviour listed in its entry, for the duration of that turn.</description>
+    </rule>
+  </sharedRules>
+  <entryLinks>
+    <entryLink import="true" name="Hive Tyrant" hidden="false" id="bcf1-12ed-3ced-e1e4" type="selectionEntry" targetId="b7df-e825-5bd8-ed62">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="a0a6-b171-111a-c5ff" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>

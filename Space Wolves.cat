@@ -3254,7 +3254,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="One Grey Hunter may replace his close combat weapon with" id="4054-0909-4eb6-a9ba" hidden="false">
+        <selectionEntryGroup name="One Blood Claw may replace his close combat weapon with" id="4054-0909-4eb6-a9ba" hidden="false">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="61fc-cbb1-d1f5-4dc4">
               <costs>
