@@ -284,10 +284,10 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+ (4+ Invulnerable)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Termagaunt" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="5f70-0aa0-c80f-013e">
+    <profile name="Termagant" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="5f70-0aa0-c80f-013e">
       <characteristics>
         <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
         <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
@@ -667,7 +667,7 @@
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
-      <alias> </alias>
+      <alias/>
     </profile>
     <profile name="Thorax Swarm (Desiccator Larvae)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4c04-81db-6eb3-090b">
       <characteristics>
@@ -896,9 +896,14 @@ A unit that Feeds is subject to Rage. In addition, the unit may not fire any wea
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Psychic shooting attack.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Pheromone Trail" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="269d-06e3-8000-220c">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Lictor is on the board at the beginning of the Movement phase, the Tyranid player adds +1 to any of his reserve rolls. In addition, if any unit is deployed using Deep Strike, they may be placed within 6&quot; of a Lictor and will not scatter. This ability does not work if the Lictor itself has arrived from reserve during the same turn.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Hive Tyrant" hidden="false" id="b7df-e825-5bd8-ed62">
+    <selectionEntry type="unit" import="true" name="Hive Tyrant" hidden="false" id="b7df-e825-5bd8-ed62">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="170"/>
       </costs>
@@ -1037,7 +1042,7 @@ A unit that Feeds is subject to Rage. In addition, the unit may not fire any wea
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e2b7-2293-7da2-f43f"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Toxic Sacs" hidden="false" id="01c2-1ded-c78d-9208">
+            <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="01c2-1ded-c78d-9208">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
@@ -1183,6 +1188,733 @@ A unit that Feeds is subject to Rage. In addition, the unit may not fire any wea
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="unit" import="true" name="Tyrant Guard Brood" hidden="false" id="aade-b354-1882-2dc2">
+          <infoLinks>
+            <infoLink name="Instinctive Behaviour - Feed" id="48ce-6b4f-89d7-6c55" hidden="false" type="profile" targetId="033b-00cf-e0e1-c66c"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Blind Rampage" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="858e-3983-e0ac-43a8">
+              <characteristics>
+                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Hive Tyrant is killed whilst part of a unit of Tyrant Guard, the surviving Tyrant Guard immediately gain the Furious Charge and Rage special rules. These abilities last for the remainder of the battle.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Shieldwall" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="1dda-f42b-9070-9bad">
+              <characteristics>
+                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A single Hive Tyrant (including the Swarmlord) may join a unit of Tyrant Guard exactly as if it were an independent character. If a Hive Tyrant (or the Swarmlord) has joined a unit of Tyrant Guard, the unit cannot go to ground, voluntarily or otherwise.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Tyrant Guard" hidden="false" id="e9d4-2381-c58a-88fd">
+              <infoLinks>
+                <infoLink name="Tyrant Guard" id="bf5d-0368-fb91-7929" hidden="false" type="profile" targetId="bbc9-f26d-d296-4a2d"/>
+                <infoLink name="Rending Claws" id="5ed2-acd6-2955-6b06" hidden="false" type="profile" targetId="b14f-e98f-bb94-e63f"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="54ae-c650-bbc3-8970" hidden="false" defaultSelectionEntryId="7772-f58f-a2d5-7154">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="7772-f58f-a2d5-7154">
+                      <infoLinks>
+                        <infoLink name="Scything Talons" id="48bd-1cda-78c5-aadf" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Lash Whip" hidden="false" id="348d-8dcb-98b0-9bc9">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Lash Whip" id="f017-7638-8a0e-9b45" hidden="false" type="profile" targetId="03cb-0385-2167-e4be"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Bonesword" hidden="false" id="c52d-f36e-6b8d-0a11">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Bonesword" id="50a5-757a-6f74-e0c5" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="85e8-ea98-5c8e-64a3-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="85e8-ea98-5c8e-64a3-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2b17-f4c0-6f13-082d"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="7de1-5ef7-19e6-1f0e"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="60"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="21fe-7a20-7797-ee2d"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="The Swarmlord" hidden="false" id="9e34-863a-97d2-500e">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="280"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="The Swarmlord" id="e207-12de-8306-5ad8" hidden="false" type="profile" targetId="fae9-59c3-c0b2-d822"/>
+        <infoLink name="Monstrous Creature" id="d49d-ae46-1652-bafe" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Synapse Creature" id="d07e-8bcd-5b7f-97ac" hidden="false" type="profile" targetId="c532-63f6-20dd-0d6f"/>
+        <infoLink name="Psyker" id="7cd7-a732-5488-93e1" hidden="false" type="profile" targetId="d241-1e73-a625-ec7d"/>
+        <infoLink name="Shadow in the Warp" id="2b6e-f52c-247f-5d76" hidden="false" type="profile" targetId="90e3-72fc-385a-b619"/>
+        <infoLink name="The Horror" id="663d-3c6c-5382-3b0f" hidden="false" type="profile" targetId="f456-0120-d5ef-c6ac"/>
+        <infoLink name="Leech Essence" id="26be-8dcc-6362-93c3" hidden="false" type="profile" targetId="45fb-4a21-aada-c51d"/>
+        <infoLink name="Paroxysm" id="648b-60fc-eced-111a" hidden="false" type="profile" targetId="8591-bb24-f8f4-acc0"/>
+        <infoLink name="Psychic Scream" id="786a-c7b9-026a-4734" hidden="false" type="profile" targetId="1f20-ad5f-1a3a-b262"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Bone Sabres" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="bd4c-f4e0-d3c2-0328">
+          <characteristics>
+            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">Bone Sabre&apos;s attacks inflict instant death regardless of opponent&apos;s Toughness. In addition, any successful invulnerable saves made against hits inflicted by the Bone Sabres must be re-rolled.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Psychic Monstrosity" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="2f0d-6e98-dd47-b0d7">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The Swarmlord has a Synapse range of 18&quot;. In addition, the Swarmlord may use two Psychic powers a turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Swarm Leader" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="1788-b5ed-9dd6-fed8">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">At the beginning of your Shooting phase, the Swarmlord can bestow one of the following special abilities onto any one friendly unit within 18&quot;: Acute Senses, Preferred Enemy or Furious Charge. These benefits last until the end of your turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Alien Cunning" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="ed07-6c57-c8ef-b693">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Whilst the Swarmlord is alive, you must add 1 to any of your reserve rolls. In addition, if any of your units arrive using the outflank ability, you may re-roll the dice to determine which table edge they arrive from.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="unit" import="true" name="Tyrant Guard Brood" hidden="false" id="e5f3-87b3-5185-8b98">
+          <infoLinks>
+            <infoLink name="Instinctive Behaviour - Feed" id="0697-90e4-6663-310a" hidden="false" type="profile" targetId="033b-00cf-e0e1-c66c"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Blind Rampage" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="e44f-2827-5d50-4ec7">
+              <characteristics>
+                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Hive Tyrant is killed whilst part of a unit of Tyrant Guard, the surviving Tyrant Guard immediately gain the Furious Charge and Rage special rules. These abilities last for the remainder of the battle.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Shieldwall" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="c85b-31e8-b584-c8c6">
+              <characteristics>
+                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A single Hive Tyrant (including the Swarmlord) may join a unit of Tyrant Guard exactly as if it were an independent character. If a Hive Tyrant (or the Swarmlord) has joined a unit of Tyrant Guard, the unit cannot go to ground, voluntarily or otherwise.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Tyrant Guard" hidden="false" id="3465-61ea-7b5c-559f">
+              <infoLinks>
+                <infoLink name="Tyrant Guard" id="7c7e-a040-31cb-097a" hidden="false" type="profile" targetId="bbc9-f26d-d296-4a2d"/>
+                <infoLink name="Rending Claws" id="17d6-d033-8d89-bb4d" hidden="false" type="profile" targetId="b14f-e98f-bb94-e63f"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="30de-e057-9102-5713" hidden="false" defaultSelectionEntryId="7772-f58f-a2d5-7154">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="54d5-dd94-82e1-b650">
+                      <infoLinks>
+                        <infoLink name="Scything Talons" id="eedc-c11f-a5f3-039b" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Lash Whip" hidden="false" id="cd1f-d69d-c2d3-6a9a">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Lash Whip" id="1f16-3e54-9ecf-b424" hidden="false" type="profile" targetId="03cb-0385-2167-e4be"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Bonesword" hidden="false" id="9b05-df95-e687-1740">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Bonesword" id="2ae2-5019-796e-b44c" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="5e09-9342-16b4-177d-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5e09-9342-16b4-177d-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="71ae-1507-d5b2-0d9e"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="58ab-5115-ed2b-951c"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="60"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f75-afe7-f693-b2e1"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Tervigon" hidden="false" id="0f36-b514-b951-ac09">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="160"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Monstrous Creature" id="021e-af45-4165-dcc4" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Tervigon" id="0734-2656-8a5c-4ede" hidden="false" type="profile" targetId="3f21-d6f8-1e88-8426"/>
+        <infoLink name="Claws and Teeth" id="45c5-d4b1-ceea-02db" hidden="false" type="profile" targetId="7c9d-9e0a-cc00-defb"/>
+        <infoLink name="Synapse Creature" id="c2f3-852b-9016-ee11" hidden="false" type="profile" targetId="c532-63f6-20dd-0d6f"/>
+        <infoLink name="Psyker" id="0377-0922-369c-d6f1" hidden="false" type="profile" targetId="d241-1e73-a625-ec7d"/>
+        <infoLink name="Shadow in the Warp" id="d7c2-cd74-9251-7c26" hidden="false" type="profile" targetId="90e3-72fc-385a-b619"/>
+        <infoLink name="Dominion" id="3bd9-86cc-aed8-7f8f" hidden="false" type="profile" targetId="2872-afd7-741d-5691"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Carapace Weapon" id="dcb3-d95d-099a-254f" hidden="false" defaultSelectionEntryId="abff-f8fc-cc61-8fa9">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Stinger Salvo" hidden="false" id="abff-f8fc-cc61-8fa9">
+              <infoLinks>
+                <infoLink name="Stinger Salvo" id="7b9d-40f0-2c6e-bc69" hidden="false" type="profile" targetId="624c-10a6-80bd-fd9f"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Cluster Spines" hidden="false" id="d7db-9a52-d4ee-7b89">
+              <infoLinks>
+                <infoLink name="Cluster Spines" id="6cca-646b-e079-e65c" hidden="false" type="profile" targetId="45f6-a36b-9494-e369"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="c97b-c8c9-f616-6275-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c97b-c8c9-f616-6275-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Front Claws" id="4ced-e48f-f0a3-67a4" hidden="false" defaultSelectionEntryId="db0f-c7fb-7ce5-8fe3">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="db0f-c7fb-7ce5-8fe3">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Scything Talons" id="050e-1c94-4b5c-60c4" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Crushing Claws" hidden="false" id="2747-8bb9-175d-a0a4">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Crushing Claws" id="6df7-9bfb-eb3f-3377" hidden="false" type="profile" targetId="2d7b-ae8e-20dd-559d"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="5c7b-2b43-814d-4973-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5c7b-2b43-814d-4973-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Take any of the additional psychic powers" id="468a-f8bf-f8af-dd9d" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Catalyst" hidden="false" id="db63-8a04-2615-5df7">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Catalyst" id="7df3-8a99-73fc-a8eb" hidden="false" type="profile" targetId="43ea-65e8-f738-419f"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab18-c5ba-386c-fa41"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Onslaught" hidden="false" id="0ff1-53d0-6300-333a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Onslaught" id="66ae-2ccb-d4db-f785" hidden="false" type="profile" targetId="d7c3-0cf8-f36b-8cdb"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="314f-4915-86d9-381a"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Take any of the following" id="08fd-bc3c-2aad-9154" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="3ac3-b92c-dc4a-b14a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Adrenal Glands" id="6339-119c-e1c8-25c3" hidden="false" type="profile" targetId="ba15-539b-8427-fa0b"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf86-2ee6-51bc-e88f"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="b975-d5dc-ccd3-ff7f">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Toxin Sacs" id="ba96-65d4-4c5a-59a3" hidden="false" type="profile" targetId="bf9b-5f6f-7099-c9e8"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98da-123b-9e2c-1b59"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Acid Blood" hidden="false" id="754f-ab49-f854-4307">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Acid Blood" id="57a6-b35f-1830-3d48" hidden="false" type="profile" targetId="932f-f50f-f25b-029b"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6541-6312-7a35-cc56"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Implant Attack" hidden="false" id="711c-83cd-efb6-9d19">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Implant Attack" id="5274-bee6-79a7-33d8" hidden="false" type="profile" targetId="5597-556d-1de7-5fa9"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e35-45cd-d2db-06be"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Toxic Miasma" hidden="false" id="c938-4593-ebc5-a578">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Toxic Miasma" id="7b31-3ae8-01fd-fda7" hidden="false" type="profile" targetId="f0af-7b7b-bae0-b9fe"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b3fb-cc79-284f-6d7a"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Regeneration" hidden="false" id="7e32-4d6a-aa88-f648">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Regeneration" id="fa6a-1543-52f8-c796" hidden="false" type="profile" targetId="e8d9-c24c-0ada-0f4a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a850-094b-75d9-da01"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="Spawn Termagants" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="6cf9-99f1-52bc-4bce">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Tervigon can spawn Termagants in the Tyranid Movement phase before it has moved - even if it is locked in assault. If it does so, roll 3D6. Place a new unit of Termagants such that no model is more than 6&quot; from the Tervigon - the size of the unit is equal to the total rolled. Models in this new unit cannot be placed in impassable terrain, or within 1&quot; of enemy models. If you cannot place some of the models due to enemy proximity, impassable terrain or simply because you have run out of models, the excess is destroyed. The spawned unit may then move, shoot and assault normally. A unit spawned by a Tervigon is identical in every way to a Termagunt unit chosen from the Troops section of the force organisation chart, and is treated as such for all scenario special rules. Models in a spawned unit have no biomorphs and always carry fleshborers.
+
+
+If any double is rolled when determining the size of a spawned unit, the Tervigon has temporarily exhausted its supply of larvae - the unit is created as normal, but the Tervigon may not attempt to spawn further units for the rest of the game.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Brood Progenitor" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="235f-1ccf-42c4-edea">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">All units of Termagants, spawned or otherwise, within 6&quot; of a Tervigon can use the Tervigon&apos;s Leadership for any tests they are required to make. They also gain the benefits of the Tervigon&apos;s toxin sacs and adrenal glands (if it has any). In addition, all Termagant units within 6&quot; of the Tervigon have the Counter-attack special rule.
+
+
+Should a Tervigon be slain, every Termagant brood, spawned or otherwise, within 6&quot; immediately suffers 3D6 Strength 3, AP- hits.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Tyranid Prime" hidden="false" id="6a43-eb42-9048-43cb">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="80"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Tyranid Prime" id="c150-7b2b-df7d-def0" hidden="false" type="profile" targetId="07ff-44a8-8ab5-4fe2"/>
+        <infoLink name="Synapse Creature" id="19dc-16d6-c86e-e291" hidden="false" type="profile" targetId="c532-63f6-20dd-0d6f"/>
+        <infoLink name="Independent Character" id="7111-c41f-ad83-b066" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Shadow in the Warp" id="2be9-2732-a53b-2baf" hidden="false" type="profile" targetId="90e3-72fc-385a-b619"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Alpha Warrior" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="5941-99b4-20b2-3b39">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Tyranid Prime joins a unit of Tyranid Warriors then the entire unit uses the Tyranid Prime&apos;s Weapon Skill and Ballistic Skill. Thiese benefits are immediately lost if the Tyranid Prime is slain or leaves the unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="First Weapon" id="52a7-dc3d-9919-fb9d" hidden="false" defaultSelectionEntryId="2057-e692-a5ce-d370">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="2057-e692-a5ce-d370">
+              <infoLinks>
+                <infoLink name="Scything Talons" id="34aa-1581-dba0-46da" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Rending Claws" hidden="false" id="1246-f884-a451-6cd6">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Rending Claws" id="4ee9-724a-6e9c-ce2d" hidden="false" type="profile" targetId="b14f-e98f-bb94-e63f"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="A pair of Boneswords" hidden="false" id="f2f2-b6bc-63c3-1a03">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Bonesword" id="def6-8ca0-1965-7a5c" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
+                <infoLink name="Bonesword" id="e3e8-fcab-2eee-d430" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lash Whip and Bonesword" hidden="false" id="7c95-77b9-41d7-bd28">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lash Whip" id="e10a-f3f4-56f3-031e" hidden="false" type="profile" targetId="03cb-0385-2167-e4be"/>
+                <infoLink name="Bonesword" id="9bec-bf72-7956-2900" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="9c80-2c50-1f31-2e43-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9c80-2c50-1f31-2e43-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Second Weapon" id="c082-827e-6f5b-8997" hidden="false" defaultSelectionEntryId="2834-e6a5-fe87-6e92">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Devourer" hidden="false" id="2834-e6a5-fe87-6e92">
+              <infoLinks>
+                <infoLink name="Devourer" id="fafa-e8f5-7470-95b6" hidden="false" type="profile" targetId="d150-d6bc-04ca-634b"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Rending Claws" hidden="false" id="595e-0a59-25d5-eca7">
+              <infoLinks>
+                <infoLink name="Rending Claws" id="d3af-61c9-e640-4819" hidden="false" type="profile" targetId="b14f-e98f-bb94-e63f"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Spinefists" hidden="false" id="768b-607e-37c2-052c">
+              <infoLinks>
+                <infoLink name="Spinefists" id="8fd3-be3b-5bde-2db5" hidden="false" type="profile" targetId="527c-ef0c-0fc4-a542"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Deathspitter" hidden="false" id="4f04-37e5-d2ee-5d1b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Deathspitter" id="dc66-6044-5b78-7b2c" hidden="false" type="profile" targetId="7fef-72a3-7feb-5273"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="2bc9-bb63-f206-abfa">
+              <infoLinks>
+                <infoLink name="Scything Talons" id="1789-bfe5-449d-c6c0" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="bfe8-984a-2c10-d7e1-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="bfe8-984a-2c10-d7e1-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Take any of the following" id="8188-12ef-2e19-6e52" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="cf82-822e-e0ae-b590">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Adrenal Glands" id="8cab-981c-7240-d5fd" hidden="false" type="profile" targetId="ba15-539b-8427-fa0b"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ece-bedc-7c2a-2c94"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="f227-1e56-6ff6-80d5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Toxin Sacs" id="c546-efa8-b60c-c7cd" hidden="false" type="profile" targetId="bf9b-5f6f-7099-c9e8"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7135-cb47-3900-39c2"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Regeneration" hidden="false" id="1a5e-3f8f-4bc6-b184">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Regeneration" id="f2c0-a6ba-a77d-cb96" hidden="false" type="profile" targetId="e8d9-c24c-0ada-0f4a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9cfa-9cae-a3fc-4699"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="The Parasite of Mortrex" hidden="false" id="4124-cde7-60b0-84d5">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="160"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="The Parasite of Mortrex" id="2156-3a98-0870-c8fc" hidden="false" type="profile" targetId="03c0-977a-d819-78f8"/>
+        <infoLink name="Jump Infantry" id="22c8-0250-4b20-b2f7" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+        <infoLink name="Implant Attack" id="fcff-7abb-dc76-c05b" hidden="false" type="profile" targetId="5597-556d-1de7-5fa9"/>
+        <infoLink name="Rending Claws" id="c6fa-11a9-3c7c-9771" hidden="false" type="profile" targetId="b14f-e98f-bb94-e63f"/>
+        <infoLink name="Wings" id="ebf0-1ff4-1048-d6de" hidden="false" type="profile" targetId="4b5c-7fa6-cbb6-81a9"/>
+        <infoLink name="Synapse Creature" id="0c55-ebd8-d436-ba3a" hidden="false" type="profile" targetId="c532-63f6-20dd-0d6f"/>
+        <infoLink name="Independent Character" id="ee86-76ed-b251-3608" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Shadow in the Warp" id="ae23-5723-b0b0-3f51" hidden="false" type="profile" targetId="90e3-72fc-385a-b619"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Host Organism" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="c063-8fcf-2933-9c83">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Ripper Swarms that are within 24&quot; of the Parasite of Mortrex ar the beginning of the turn do not need to test for Instinctive Behaviour.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Implant Parasite" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="a2c2-37c7-604c-5f5a">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Your opponent must take a Toughness test for each model removed as a casualty because of Wounds inflicted by the Parasite of Mortrex. For each test failed, roll a D6. At the end of the Assault phase place a Ripper Swarm unit with a number of bases equal to the sum total of all the dice rolled such that all bases are within 6&quot; of the Parasite of Mortrex. Any bases that cannot be placed due to impassible terrain, enemy within 1&quot; or because you have run out of models, are lost.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="&quot;The Sarge is Acting Strangely&quot;" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="01df-a135-9b13-cef4">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Every enemy infantry unit that arrives using the outflank ability may harbout a squad member infested with Ripper parasites. At the end of their Movement phase, one model in each of these units (owning player&apos;s choice) must take a Toughness test. If the test is failed that model is instantly removed as a casualty and the Tyranid player may place a Ripper Swarm unit consisting of D6 bases anywhere within 6&quot; of the victim. If the victim was inside a transport vehicle it is assumed he staggered out before dying. Any bases that cannot be placed due to impassable terrain, enemy within 1&quot; or because you have run out of models, are lost.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Hive Guard Brood" hidden="false" id="3cf9-a8f8-8d26-0ad5">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Hive Guard" hidden="false" id="01be-53f8-6d46-1b6d">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Hive Guard" id="c90f-7e01-928a-d4d1" hidden="false" type="profile" targetId="ed35-f5ef-0d26-d342"/>
+            <infoLink name="Impaler Cannon" id="4570-093b-c746-e8cb" hidden="false" type="profile" targetId="621c-8897-92ec-6ed8"/>
+            <infoLink name="Claws and Teeth" id="c47d-c2d7-0219-9056" hidden="false" type="profile" targetId="7c9d-9e0a-cc00-defb"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b8be-5f0d-1725-211c"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="8102-0ff8-b2d0-0442"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Instinctive Behaviour - Lurk" id="9cdf-79c2-5311-c006" hidden="false" type="profile" targetId="b0d0-ba0f-5b54-513e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Lictor Brood" hidden="false" id="69da-685f-c2f7-4be7">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Lictor" hidden="false" id="35ff-55c4-5bb0-223d">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="65"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Lictor" id="9e0a-46d7-bd91-1d68" hidden="false" type="profile" targetId="23d1-2da6-3be8-93d5"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a733-334a-46a8-ab56"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="7f6e-471d-559f-f767"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink targetId="269d-06e3-8000-220c" id="d7ee-a42d-90f7-daf4" type="profile" name="Pheromone Trail" hidden="false"/>
+        <infoLink name="Chameleonic Skin" id="b3db-3708-aa11-b090" hidden="false" type="profile" targetId="59fd-1cf3-9413-7912"/>
+        <infoLink name="Flesh Hooks" id="7126-bfc5-7c9b-9117" hidden="false" type="profile" targetId="29d2-7727-8aaa-e025"/>
+        <infoLink name="Rending Claws" id="b8f1-9e9b-2faf-5e77" hidden="false" type="profile" targetId="b14f-e98f-bb94-e63f"/>
+        <infoLink name="Scything Talons" id="5d08-f5a4-871d-e733" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+        <infoLink name="Instinctive Behaviour - Lurk" id="ddcf-d2e4-a1e9-abed" hidden="false" type="profile" targetId="b0d0-ba0f-5b54-513e"/>
+        <infoLink name="Fleet" id="88c9-c2fb-6e30-6b19" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Hit and Run" id="447d-3fb6-f018-2954" hidden="false" type="profile" targetId="17a2-9db7-3461-361c"/>
+        <infoLink name="Move Through Cover" id="367e-7f32-c866-698d" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
+        <infoLink name="Stealth" id="94e4-4bcb-5402-45d9" hidden="false" type="profile" targetId="8dc7-2ec3-1248-9d84"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Deathleaper" hidden="false" id="1b9e-06be-9a2f-f69e">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="140"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Deathleaper" id="815a-89af-7e48-5ed9" hidden="false" type="profile" targetId="75e9-fd36-3e92-19d1"/>
+        <infoLink name="Chameleonic Skin" id="41b0-53db-4a5d-a82a" hidden="false" type="profile" targetId="59fd-1cf3-9413-7912"/>
+        <infoLink name="Flesh Hooks" id="d668-d91e-e828-c5ed" hidden="false" type="profile" targetId="29d2-7727-8aaa-e025"/>
+        <infoLink name="Rending Claws" id="28dd-81f2-8cc1-fa43" hidden="false" type="profile" targetId="b14f-e98f-bb94-e63f"/>
+        <infoLink name="Scything Talons" id="dfd1-ea54-6c1b-b02e" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+        <infoLink name="Instinctive Behaviour - Lurk" id="3f33-8434-c8a5-facf" hidden="false" type="profile" targetId="b0d0-ba0f-5b54-513e"/>
+        <infoLink name="Fearless" id="0e3a-125f-d74c-6798" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Fleet" id="9c26-e587-4023-1590" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Move Through Cover" id="5c37-9e25-bd74-5c24" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
+        <infoLink name="Pheromone Trail" id="50b4-a737-8b50-9274" hidden="false" type="profile" targetId="269d-06e3-8000-220c"/>
+        <infoLink name="Stealth" id="fb90-18a2-a115-ef4f" hidden="false" type="profile" targetId="8dc7-2ec3-1248-9d84"/>
+        <infoLink name="Hit and Run" id="cacf-ac71-22a6-9f30" hidden="false" type="profile" targetId="17a2-9db7-3461-361c"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Killing Strike" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="103f-3c25-dadd-9d03">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">All of Deathleaper&apos;s flesh hooks and close combat attacks count as rending on any To Wound rolls of 5 or 6.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="&quot;It&apos;s after me!&quot;" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="e0c8-562d-b20a-43fc">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Nominate a single enemy character at the beginning of the game as the victim of Deathleaper&apos;s psychological attacks. Roll a D3. Whilst Deathleaper is still alive, that model&apos;s Leadership is reduced by the result rolled.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="&quot;What was that?&quot;" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="e0a0-0b51-05d4-3268">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">All enemy infantry units within 12&quot; of Deathleaper roll one less dice (to a minimum of one) when moving through difficult terrain.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="&quot;Where is it?&quot;" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="07e6-cbd5-a7d8-54c0">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Enemy units wishing to shoot at Deathleaper must first test to see if they can see him following the rules for Night Fighting, halving the distance they roll. (rounding up)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="&quot;Where&apos;d it go?&quot;" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="cd41-fc7a-dbef-5090">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If Deathleaper ends its Movement phase more than 1&quot; from any enemy model, the owning player can decide that it will blend into the background. If the player elects to do so, remove Deathleaper from the table and place him back into reserve. In the subsequent Tyranid Movement phase, Deathleaper can be re-deployed following the normal rules for Chameleonic Skin</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Venomthrope Brood" hidden="false" id="145d-c581-4dda-a684">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Venomthrope" hidden="false" id="94a6-238e-adef-57ee">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="55"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Venomthrope" id="ab90-edda-1d5b-a93f" hidden="false" type="profile" targetId="88d8-75bc-f2d5-9f56"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="636d-dee2-d572-7fdb"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="ee6f-620d-9dc6-1cbd"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Lash Whip" id="fd18-ffb8-b52a-a143" hidden="false" type="profile" targetId="03cb-0385-2167-e4be"/>
+        <infoLink name="Instinctive Behaviour - Feed" id="fd4b-4d0e-f9d8-23f5" hidden="false" type="profile" targetId="033b-00cf-e0e1-c66c"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Spore Cloud" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="04f4-9d79-d429-4c8d">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The Venomthrope and any friendly units within 6&quot; of the unit, can claim a 5+ cover save against any shooting attacks. In addition, these units count as being armed with defensive grenades and any non-vehicle enemy model that assaults one of these units must take a dangerous terrain test to represent the toxic effect of the spore cloud. Should the venomthrope be killed, these bonuses are immediately lost.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Toxic Touch" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="1d99-652c-553a-bf44">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Venomthrope&apos;s close combat attacks are Poisoned (2+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Mycetic Spore" hidden="false" id="240d-af9c-6ec1-1feb" type="selectionEntry" targetId="c059-7987-8ef4-3a9c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3bf0-d155-1dda-6871"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Mycetic Spore" hidden="false" id="c059-7987-8ef4-3a9c">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Mycetic Spore" id="4186-eace-ae55-1fcc" hidden="false" type="profile" targetId="cc29-1e38-f9f4-8e31"/>
+        <infoLink name="Monstrous Creature" id="c796-2c3f-440a-7055" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Lash Whip" id="e916-55ec-f825-96fc" hidden="false" type="profile" targetId="03cb-0385-2167-e4be"/>
+        <infoLink name="Ripper Tentacles" id="2c9f-9289-24c9-e262" hidden="false" type="profile" targetId="5854-62b8-77e0-576e"/>
+        <infoLink name="Deep Strike" id="15fa-3789-b84b-7892" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
+        <infoLink name="Fearless" id="8087-83b7-9946-739b" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Take one of the following" id="e53c-7ccd-e7e0-8cba" hidden="false" defaultSelectionEntryId="badf-2590-248a-533d">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Cluster Spines" hidden="false" id="badf-2590-248a-533d">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Cluster Spines" id="6ff3-99d3-0566-7ec4" hidden="false" type="profile" targetId="45f6-a36b-9494-e369"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Stinger Salvo" hidden="false" id="7618-230b-42d1-94ce">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Stinger Salvo" id="9e62-d0ec-aff7-65ed" hidden="false" type="profile" targetId="624c-10a6-80bd-fd9f"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Deathspitter" hidden="false" id="13ec-7db9-2cf3-c79d">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Twin-linked Deathspitters" id="1a58-b355-355c-42f7" hidden="false" type="profile" targetId="00e2-7771-a8dd-5bf8"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Barbed Strangler" hidden="false" id="9beb-6eda-c068-bfdd">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Barbed Strangler" id="5189-b8ba-5a97-9a5f" hidden="false" type="profile" targetId="d3b6-6b49-23b8-30fd"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Venom Cannon" hidden="false" id="f347-5b84-27ad-4c9a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Venom Cannon" id="0c7e-a708-bf24-29e4" hidden="false" type="profile" targetId="ceb3-7424-1f03-0ca7"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="567e-7886-d8e8-84bd-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="567e-7886-d8e8-84bd-max"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="Limited Sentience" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="5994-616f-ef48-967c">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Mycetic Spore is not subject to Instinctive Behaviour. The Mycetic Spore automatically shoots the closest enemy unit each Shooting phase unless it is engaged in close combat.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Transport Spore" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="a698-518c-4cfd-2822">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Mycetic Spore always enters play using the Deep Strike rules, even in missions that do not use these rules. If, when a Mycetic Spore Deep Strikes, it scatters on top of impassable terrain or another model (friend or foe), reduce the scatter distance by the minimum required to avoid the obstacle.
+
+
+A Mycetic Spore can carry a single unit of up to 20 infantry models or a single monstrous creature within its armoured shell. Once the Mycetic Spore has landed, all creatures within must immediately deploy - place the unit such that every model is within 2&quot; of the Mycetic Spore. If any model cannot be deployed because of impassable terrain or enemy models within 1&quot;, those models are destroyed. A unit that Deep Strikes via a Mycetic Spore cannot move or assault in the same turn it arrives but may shoot (or run) as normal.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Immobile Pod" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="6c57-4a5b-ea03-76ac">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Mycetic Spore cannot move for any reason once it has entered the battle. It may never go to ground, voluntarily or otherwise - and may not consolidate or make a sweeping advance following a close combat.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
@@ -1200,6 +1932,50 @@ A unit that Feeds is subject to Rage. In addition, the unit may not fire any wea
     <entryLink import="true" name="Hive Tyrant" hidden="false" id="bcf1-12ed-3ced-e1e4" type="selectionEntry" targetId="b7df-e825-5bd8-ed62">
       <categoryLinks>
         <categoryLink targetId="ac8d-efba-1884-d3ad" id="a0a6-b171-111a-c5ff" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="The Swarmlord" hidden="false" id="d434-592b-bedb-c136" type="selectionEntry" targetId="9e34-863a-97d2-500e">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="62ed-1080-0938-0697" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40af-2502-2a09-152c"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Tervigon" hidden="false" id="a8a3-5605-298d-8692" type="selectionEntry" targetId="0f36-b514-b951-ac09">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="c6a6-eb79-1ecd-070e" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tyranid Prime" hidden="false" id="d642-89f0-d0a9-5119" type="selectionEntry" targetId="6a43-eb42-9048-43cb">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="2cae-be3d-5410-d18b" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="The Parasite of Mortrex" hidden="false" id="2822-d1f9-5b0e-dac7" type="selectionEntry" targetId="4124-cde7-60b0-84d5">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ceb1-ad79-a674-3e01"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="bc94-8340-f72f-eca7" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hive Guard Brood" hidden="false" id="e4b7-34b7-801d-8a7e" type="selectionEntry" targetId="3cf9-a8f8-8d26-0ad5">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="ccbb-ba57-7414-8131" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Lictor Brood" hidden="false" id="2337-2941-4c7e-f1b4" type="selectionEntry" targetId="69da-685f-c2f7-4be7">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="4535-c782-5080-b570" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Deathleaper" hidden="false" id="19ae-1455-4065-1885" type="selectionEntry" targetId="1b9e-06be-9a2f-f69e">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cfb5-c223-f31b-068f"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="dbd8-884d-b67b-411c" primary="true" name="Elites"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
