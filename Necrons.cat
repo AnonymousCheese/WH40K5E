@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="6360-ab90-4c59-ba46" name="Necrons" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Anrakyr the Traveller" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="ffd3-0fd4-8f13-7be2">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Canoptek Scarabs" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="d2fa-2641-e1de-c36a">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">2</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Canoptek Spyder" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="c7b3-b9d1-971f-03b7">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Canoptek Wraith" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="1920-5f99-3b9b-2317">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Cryptek" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e4d5-bae3-d4cd-fa6d">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="C&apos;tan Shard" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="8dae-e961-bd64-a06d">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">7</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">7</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Deathmark" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="60cc-ba81-41f8-f60d">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Destroyer Lord" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="a648-0595-ca1d-d21c">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Flayed One" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="1e36-3082-8cde-62e2">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">1</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Destroyer" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="6e75-f45d-9ed3-7979">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Illuminor Szeras" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="b655-482e-c67e-368e">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Imotekh the Stormlord" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="b76f-28e1-e256-6114">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lychguard" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="0adf-539e-bd75-c899">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Necron Destroyer" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="f68b-dcf3-0ad3-da5c">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Necron Immortal" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="60f6-2ab2-a0fa-3010">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Necron Lord" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="ea64-86cb-8273-5ab4">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Necron Overlord" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="5a6e-cea6-53dd-1b7d">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Necron Warrior" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="95d0-e835-9e47-5e9d">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Nemesor Zahndrekh" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="327c-9da3-464e-8470">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Orikan the Diviner" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e01b-30b5-a7a2-8c03">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Orikan Empowered" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="9a00-e4a2-5645-6ce3">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">7</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">7</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tomb Blade" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="7c4a-cc80-58ec-0b53">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4(5)</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Trazyn the Infinite" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="3193-0959-8be1-205f">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Triarch Praetorian" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="4d07-0302-40e9-5d89">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Vangard Obyron" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="29ec-a01c-353b-e6b6">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Annihilation Barge" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="012d-8aef-7d0b-bfb6">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">4</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">11</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">11</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">11</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Catacomb Command Barge" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="e0af-253a-ccc7-4803">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">4</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">11</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">11</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">11</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Doom Scythe" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="0a66-e4a0-3449-23fc">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">4</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">11</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">11</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">11</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Doomsday Ark" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="b4ad-a836-0f0e-5776">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">4</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">11</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">11</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">11</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ghost Ark" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="f176-0371-aff9-9d2c">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">4</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">11</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">11</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">11</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Necron Monolith" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="1732-5a5e-895a-7976">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">4</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">14</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">14</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">14</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Night Scythe" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="5a0e-c661-08a3-442b">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">4</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">11</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">11</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">11</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Triarch Stalker" typeId="acd3-2539-3641-1250" typeName="Walker Vehicle" hidden="false" id="c5e2-a0d8-8dc9-5f32">
+      <characteristics>
+        <characteristic name="WS" typeId="3d9c-8977-9b95-824b">4</characteristic>
+        <characteristic name="BS" typeId="ea47-07be-ab4a-6569">4</characteristic>
+        <characteristic name="STR" typeId="a630-c404-957f-a49f">7</characteristic>
+        <characteristic name="F" typeId="3549-2d9e-3052-b396">11</characteristic>
+        <characteristic name="S" typeId="94fc-8af8-d4d4-7b1a">11</characteristic>
+        <characteristic name="R" typeId="4eca-6e3c-2053-e75a">11</characteristic>
+        <characteristic name="I" typeId="f706-f227-5d93-0fe3">2</characteristic>
+        <characteristic name="A" typeId="12be-9dd2-0dd7-b17a">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Death Ray" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="84a6-9652-fb97-0419">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Doomsday Cannon (Stationary)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="7dad-50b0-3927-931c">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Large Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Doomsday Cannon (Combat Speed)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0bd7-ee89-0bd5-ada2">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Eternity Gate Portal of Exile" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="ec6a-b2b1-fff4-bcc0">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">D6&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">X</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Special</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Gauntlet of Fire" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="23f1-293e-92d9-56ce">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">A gauntlet of fire is a close combat weapon. Attacks made with a gauntlet of fire re-roll failed rolls To Hit and To Wound in close combat.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Gauss Blaster" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="dae5-6f92-4507-9ceb">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Gauss</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Gauss Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="d2ed-ca20-e2ce-9763">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2, Gauss</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Gauss Flayer" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="139b-46a3-bf85-e711">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Gauss</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Gauss Flux Arc" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0f3e-20e1-402d-1304">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3, Gauss*</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">A Gauss Flux Arc can be fired at a different target unit to other weapons on the vehicle (including other gauss flux arcs) subject to the normal rules for shooting.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heat Ray (Focussed)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4285-6c83-11f7-ffa3">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2, Melta</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Heat Ray (Dispersed)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0755-8bbd-11ca-4a21">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Gauss Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="9781-00fd-f871-6cb8">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Gauss</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Particle Beamer" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="64eb-3191-7486-f344">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Particle Caster" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="249c-1ff7-0cd5-a720">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Particle Shredder" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="a033-05b1-860d-a57d">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Large Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Particle Whip" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="c74a-9967-0fc9-a025">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Large Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Rod of Covenant" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="aca9-ff98-db5d-cf2d">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">6&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Staff of Light" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="41a3-28df-7544-359a">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Staff of the Destroyer" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="5cc2-c555-7b48-2f58">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">2D6&quot;*</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, One use only</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Synaptic Disintegrator" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="fbf5-746b-854c-25c1">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">X</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Sniper</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Tachyon Arror" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="139d-bb6d-97d6-1882">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Infinite</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Tesla Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="d01e-306f-88e9-1f3a">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2, Tesla</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Tesla Carbine" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="da7c-fb89-658b-90bd">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Tesla</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Tesla Destructor" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="3d35-28ea-9f33-8a2b">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 4, Tesla, Arc</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Transdimensional Beamer" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="292d-6c70-e3ba-1f92">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">X</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Exile Ray</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Pyreshards" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="81d6-5768-825d-404c">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 8</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Moulder of Worlds" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e1f3-2c04-90b6-96e6">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Large Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Transdimensional Thunderbolt" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="a914-15db-e8f0-dc00">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Abyssal Staff" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="06ce-1651-972d-de97">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Shroud of Despair</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Eldritch Lance" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="dcb3-182c-4da4-8618">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Harp of Dissonance" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="2917-54a0-8a05-af65">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Infinite</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Entropic Strike</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Tremorstave" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="f589-8297-86df-0728">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Blast, Quake</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Voltaic Staff" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="22b3-1aa6-825f-62b1">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 4, Haywire</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Hyperphase Sword" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="ee7e-67d8-f21e-e8fa">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Hyperphase sword is a power weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mindshackle Scarabs" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="63b9-2df9-63ea-5c07">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">At the start of the Assault phase, after assault moves have been made, but before any blows are struck, randomly select an enemy model in base contact with the bearer of the mindshackle scarabs. That model must immediately take a Leadership test on 3D6. If the test is passed, the mindshackle scarabs have no effect. If the test is failed, the victim strikes out at his allies. Instead of attacking normally, he inflicts D3 hits on his own unit when it is his turn to attack. These hits are resolved at the victim&apos;s Strength, and benefit from any abilities and penalties from his close combat weapons (the controller of the mindshackle scarabs choose which, if there is a choice). If he is still alive, the victim returns to normal once all blows in that round of combat have been struck.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Phase Shifter" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="40ab-5096-0f21-97e9">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with a phase shifter has a 3+ Invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Phylactery" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="663f-e1b4-6598-8a7a">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">One use only. A model with a phylactery that passes his first Reanimation Protocol roll returns to play with D3 Wounds.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Quantum Shielding" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="e4ed-9f4a-71e8-cd3a">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Until the vehicle suffers a penetrating hit, it counts all Armour Values on its front and side facings as being 2 points higher. Once the vehicle has suffered a penetrating hit, it uses its own armour value against subsequent hits.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Resurrection Orb" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="685e-545a-419f-ad43">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The bearer of the Resurrection Orb (and his unit) pass Reanimation Protocol rolls on a 4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sempiternal Weave" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="7649-d5f8-65c8-a881">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with Sempiternal Weave has a 2+ Armour save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tesseract Labyrinth" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="b9a5-ff72-b654-68b9">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">One use only. The bearer can use the tesseract labytingth in lieu of making close combat attacks that round. Choose a character or monstrous creature in base contact with the bearer. The victim must immediately roll equal to or under its remaining Wounds on a D6 or be trapped within the Terreract Labyrinth forever. Remove as a casualty with no saves of any kind allowed.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Voidblade" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="3b19-d44a-0451-eafa">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Voidblade is a close combat weapon with the Rending and Entropic Strike special rules.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Warscythe" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="18ec-40e1-be6a-2fd2">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Warscythe is a two-handed close combat weapon. Attacks made with a warscythe are resolved with a +2 Strength Bonus. Additionally, hits with a warscythe roll 2D6 Armour Penetration. Armour saves are not permitted against Wounds caused by a warscythe.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Nightmare Shroud" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="9fde-298f-ab6a-b393">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The nightmare shroud can be used during the Shooting phase instead of firing a weapon. Choose an unengaged enemy unit within 18&quot; of the Cryptek. That unit must immediately take a Morale check.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Veil of Darkness" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="1702-d0d5-f1ce-f730">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A Cryptek with a veil of darkness can use it in its Movement phase instead of moving normally. The Cryptek and his unit are removed from the tabletop and immediately Deep Strike back onto the battlefield. The veil of darkness cannot be used if the Cryptek or his unit are locked in combat.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Gaze of Flame" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="ecbc-d891-017a-5302">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Cryptek, and his unit, are treated as being armed with defensive grenades. The rest of the unit loses this ability if the Cryptek is removed as a casualty.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Solar Pulse" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="9cd0-d242-8313-146f">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">One use only. The solar pulse can be used at the start of any turn. If the Night Fighting rules are in effect, they cease to apply until the end of the turn. If the night Fighting rules are not in effect, then they apply until the end of the turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Aeonstave" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="dc74-10a5-425a-36b2">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">The Aeonstave is a close combat weapon. Any enemy model that suffers an unsaved Wound from an aeonstave loses the Fleet special rule (if it has it) and has his Weapon Skill, Ballistic Skill, Initiative and Attacks values reduced to 1 for the remainder of the game.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chronometron" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="1acb-dc33-9168-fdae">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with a Chronometron can re-roll one of his D6 rolls each phase. If the bearer is in a unit, this ability can be used to instead re-roll one of the unit&apos;s D6 rolls each phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Timesplinter Cloak" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="24fe-ae31-22b1-9e2d">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with a Timesplinter cloak has a 3+ Invulnerable Save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ether Crystal" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="a94c-6bf7-b05c-6e5c">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Any enemy unit arriving by Deep Strike within 6&quot; of the bearer of an Ether Crystal suffers D6 Strength 5 AP5 hits. If any enemy unit arrives by Deep Strike within range of one or more ether crystals, then increase the number of hits by one for each ether crystal beyond the first (it doesn&apos;t suffer D6 hits per ether crystal)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lightning Field" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="7fad-29cc-8b8c-7e98">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">When an enemy unit successfully moves into assault with the Cryptek (or his unit) the assaulting unit immediately suffers D6 Strength 8, AP 5 hits. The rest of the unit loses this ability if the Cryptek is removed as a casualty.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Seismic Crucible" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="5cef-f77c-bf0f-adb8">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">At the start of the enemy Assault phase, roll a D3 and nominate an enemy unit. If the nominated unit attempts to assault the Cryptek, or his unit, reduce their assault move by the result of the D3 for that phase.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedRules>
+    <rule name="Tesla" id="3720-e4a1-4ea0-087b" hidden="false">
+      <description>Tesla shots have a chance to strike several times with a single shot. For every To Hit roll of 6, the target suffers 2 additional automatic hits.</description>
+    </rule>
+    <rule name="Arc" id="9231-40fe-6c8f-07aa" hidden="false">
+      <description>Once the Tesla Destructor&apos;s initial shot has been resolved, roll a D6 for each other unit (friendly and enemy, engaged and unengaged) within 6&quot; of the target. If you roll a 6, that unit suffers D6 automatic Strength 5, AP - hits.</description>
+    </rule>
+    <rule name="Exile Ray" id="f938-d991-b193-a7d8" hidden="false">
+      <description>If a shot from a weapon with the exile ray type hits, randomly select a model in the target unit. That model must immediately pass a Strength test or be removed as a casualty with no saves of any kinda allowed. Models with no Strength value automatically pass.</description>
+    </rule>
+    <rule name="Gauss" id="21ef-b0c9-89b2-c0a3" hidden="false">
+      <description>Any armour penetration roll made by a weapon with the Gauss type will score a glancing hit on a D6 roll of 6, unless the dice roll is already sufficient to cause a penetrating hit.</description>
+    </rule>
+    <rule name="Entropic Strike" id="88dd-202a-716c-bb3e" hidden="false">
+      <description>Any model that suffers one or more unsaved Wounds from a weapon or model with this special rule immediately loses its armour save for the remainder of the battle (effectively altering its armour save to &apos;-&apos;). For each hit a vehicle suffers from a weapon or model with this special rule, roll a D6. For each result of 4+, it immediately loses 1 point of Armour value from all facings. If a vehicle is reduced to Armour 0 on any facing, it is immediately wrecked.</description>
+    </rule>
+    <rule name="Shroud of Despair" id="cd69-99b8-75c6-f4e3" hidden="false">
+      <description>To Wound rolls from the Abyssal staff&apos;s shooting attacks are made against the target&apos;s Leadership, rather than Toughness. The abyssal staff&apos;s shooting attack has no effect against vehicles.</description>
+    </rule>
+    <rule name="Haywire" id="3f27-8c42-9302-cfd9" hidden="false">
+      <description>Vehicles hit by a shot from the Voltaic Staff suffer a glancing hit on a 2-5, and a penetrating hit on a 6.</description>
+    </rule>
+    <rule name="Quake" id="419d-4f03-f11c-2732" hidden="false">
+      <description>All enemy units hit by a weapon with the Quake type treat open ground as difficult terrain during their next Movement phase.</description>
+    </rule>
+  </sharedRules>
+</catalogue>
