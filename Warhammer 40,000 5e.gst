@@ -531,6 +531,12 @@ Beasts and cavalry have the ‘fleet’ special rule.  When assaulting they mo
 
 If assaulting through cover, beasts and cavalry are slowed by difficult terrain – roll for the distance they can move just as you would for infantry, but double the result of the highest scoring dice.</description>
     </rule>
+    <rule name="Swarm" id="d74e-1928-0d91-b80a" hidden="false">
+      <description>All swarms have the ‘stealth’ and ‘vulnerable to blasts/templates’ special rules. In addition, intervening swarms never offer any cover save to monstrous creatures or vehicles.</description>
+    </rule>
+    <rule name="Vulnerable to blasts/templates" id="0897-ab5f-e35c-178d" hidden="false">
+      <description> If the unit is a vehicle, then each hit counts as two hits. If it is not a vehicle, each unsaved wound is doubled to two wounds.</description>
+    </rule>
   </sharedRules>
   <publications>
     <publication name="Warhammer 40,000 5e Rulebook" id="ad9c-8597-0188-2ba0" hidden="false"/>

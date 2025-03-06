@@ -587,7 +587,7 @@
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
-    <profile name="Repture Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="95da-185c-8c2a-797c">
+    <profile name="Rupture Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="95da-185c-8c2a-797c">
       <characteristics>
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
@@ -899,6 +899,46 @@ A unit that Feeds is subject to Rage. In addition, the unit may not fire any wea
     <profile name="Pheromone Trail" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="269d-06e3-8000-220c">
       <characteristics>
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Lictor is on the board at the beginning of the Movement phase, the Tyranid player adds +1 to any of his reserve rolls. In addition, if any unit is deployed using Deep Strike, they may be placed within 6&quot; of a Lictor and will not scatter. This ability does not work if the Lictor itself has arrived from reserve during the same turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Warp Field" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="6622-3596-f6bb-091d">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Warp Field grants the model a 3+ Invulnerable Save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Brood Telepathy" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="4d6c-98fb-0e8b-b1a1">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Genestealers are not subject to the Instinctive Behaviour rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Stranglethorn Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="6578-a80d-0865-64e7">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Large Blast, Pinning, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Heavy Venom Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="1713-4155-f08d-d8ef">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Blast, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Unless the target is an open-topped vehicle, any glancing or penetrating hit inflicted by a heavy venom cannon suffer an additional -1 penalty to rolls on the Vehicle Damage Chart.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Living Bomb" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="d421-bc38-3f2d-7fee">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Each Spore Mine model is treated as an individual unit. Spore Mines are always ignored for the purposes of any and all mission objectives. Spore Mines are not subject to Instinctive Behaviour, never go to ground (voluntarily or otherwise), run or fall back. At the beginning of the Tyranid Movement phase, each Spore Mine moves D6&quot; in a direction determined by rolling the scatter dice (Tyranid player chooses the direction if a hit is rolled).
+
+If a Spore Mine suffers a wound, touches an enemy model, impassable terrain, or it ends any Movement phase within 2&quot; of an enemy unit, it immediately explodes. Place the central hole of the large blast marker over the Spore Mine and resolve any hits at Strength 4 and AP 4. Spore Mines that drift off the table or into a friendly unit are immediately removed from play.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Living Battering Ram" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="1cf6-a779-a032-78d5">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Carnifex gains +2 Initiative during a turn in which it launched an assault.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -1916,6 +1956,1675 @@ A Mycetic Spore can carry a single unit of up to 20 infantry models or a single 
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Zoanthrope Brood" hidden="false" id="6adf-75d3-9773-652c">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Zoanthrope" hidden="false" id="a5cc-7500-e529-c2ca">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="60"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Zoanthrope" id="ffb7-b967-e93a-71f8" hidden="false" type="profile" targetId="3664-b0c7-000e-a9ad"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="78d3-8f6c-886e-46f9"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1d76-8943-da17-897d"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink targetId="6622-3596-f6bb-091d" id="5dda-95ff-6fa5-1c78" type="profile" name="Warp Field" hidden="false"/>
+        <infoLink name="Claws and Teeth" id="6720-53c1-12b4-347f" hidden="false" type="profile" targetId="7c9d-9e0a-cc00-defb"/>
+        <infoLink name="Synapse Creature" id="52b5-0d14-0a38-2fe1" hidden="false" type="profile" targetId="c532-63f6-20dd-0d6f"/>
+        <infoLink name="Psyker" id="e6b0-dde3-773f-2cb6" hidden="false" type="profile" targetId="d241-1e73-a625-ec7d"/>
+        <infoLink name="Shadow in the Warp" id="dcb0-a2f9-4d2d-6f3b" hidden="false" type="profile" targetId="90e3-72fc-385a-b619"/>
+        <infoLink name="Warp Blast" id="fc45-2e91-6c7c-5856" hidden="false" type="profile" targetId="03e2-2b5f-2690-f68e"/>
+        <infoLink name="Warp Lance" id="4823-a4b0-1f7a-c86a" hidden="false" type="profile" targetId="516b-72ea-d906-7389"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Mycetic Spore" hidden="false" id="74fc-1536-e31d-81ab" type="selectionEntry" targetId="c059-7987-8ef4-3a9c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b10e-6fa4-e996-be29"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="The Doom of Malan&apos;tai" hidden="false" id="be4b-26de-f016-d121">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="90"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="The Doom of Malan&apos;tai" id="ff37-a286-4083-a3b2" hidden="false" type="profile" targetId="463b-78ff-04f9-d748"/>
+        <infoLink name="Claws and Teeth" id="3514-889d-3923-b73f" hidden="false" type="profile" targetId="7c9d-9e0a-cc00-defb"/>
+        <infoLink name="Instinctive Behaviour - Feed" id="b179-d02c-19ae-e508" hidden="false" type="profile" targetId="033b-00cf-e0e1-c66c"/>
+        <infoLink name="Fearless" id="dac0-5f3e-b0a4-d586" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Psyker" id="9224-20ad-dd88-be05" hidden="false" type="profile" targetId="d241-1e73-a625-ec7d"/>
+        <infoLink name="Shadow in the Warp" id="fb32-da9d-dce7-1ec2" hidden="false" type="profile" targetId="90e3-72fc-385a-b619"/>
+        <infoLink name="Warp Field" id="fc90-d4a9-9dd5-a855" hidden="false" type="profile" targetId="6622-3596-f6bb-091d"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Mycetic Spore" hidden="false" id="905a-3740-e041-526c" type="selectionEntry" targetId="c059-7987-8ef4-3a9c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e65f-cf4b-2393-c3c2"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="Spirit Leech" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="d2e1-653f-e7ce-794b">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">At the beginning of every Shooting phase, including the foe&apos;s, every non-vehicle enemy unit within 6&quot; of the Doom of Malan&apos;tai must take a Leadership test on 3D6. If the test is failed the unit suffers a single wound for each point they failed by, with no armour saves allowed.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Absorb Life" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="5d86-3b08-a4ea-14d3">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The Doom of Malan&apos;tai immediately gains +1 Wound, to a maximum of 10 Wounds, for every unsaved wound it inflicts.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Psychic Strength" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="b9b7-8f36-9e47-405b">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The Doom of Malan&apos;tai&apos;s Strength is always the same as its Wounds characteristic. Therefore, as it suffers Wounds its Strength is reduced, and vice versa.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Cataclysm" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="985d-adc6-1c24-2fdc">
+          <characteristics>
+            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+            <characteristic name="Str." typeId="1ebc-896c-43de-904a">X</characteristic>
+            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Large Blast</characteristic>
+            <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Psychic shooting attack. The Strength of this psychic power is equal to the number of Wounds the Doom of Malan&apos;tai has when the power is used. 
+
+
+After this power has been used, but before any additional Wounds are gained due to the Absorb Life ability, the Doom of Malan&apos;tai suffers D3 wounds. No saves of any kind can be taken against these wounds.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Pyrovore Brood" hidden="false" id="82a3-852f-7b1e-b597">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Pyrovore" hidden="false" id="6d13-b58e-0149-4c24">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Pyrovore" id="450c-a8b5-48dd-2205" hidden="false" type="profile" targetId="e9fe-cac8-e330-84df"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e221-51d0-5769-02cc"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="069f-9672-77de-9db2"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Acid Blood" id="6bd9-f2e1-c124-c433" hidden="false" type="profile" targetId="932f-f50f-f25b-029b"/>
+        <infoLink name="Acid Maw" id="5053-48d4-8d6b-95de" hidden="false" type="profile" targetId="0b26-f58c-c911-5671"/>
+        <infoLink name="Claws and Teeth" id="bd5c-8884-215d-8580" hidden="false" type="profile" targetId="7c9d-9e0a-cc00-defb"/>
+        <infoLink name="Flamespurt" id="0c2f-0485-f7f5-0706" hidden="false" type="profile" targetId="6cef-235a-8b53-e760"/>
+        <infoLink name="Instinctive Behaviour - Feed" id="41f7-6b84-7464-1d35" hidden="false" type="profile" targetId="033b-00cf-e0e1-c66c"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Mycetic Spore" hidden="false" id="87cb-1e0f-1ce5-9749" type="selectionEntry" targetId="c059-7987-8ef4-3a9c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="33e4-0e28-6111-3a94"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="Volatile" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="2157-f96c-ba94-ac70">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Pyrovore is killed by a wound that inflicted instant death, roll a D6. On a 4+ the weapon has ignited the Pyrovore&apos;s internal chemicals and all models within D6&quot; of the slain Pyrovore suffer a Strength 3, AP - hit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ymgarl Genestealer Brood" hidden="false" id="e617-087f-8fcf-0ec3">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Ymgarl Genestealer" hidden="false" id="3f7a-e329-6cf4-5c87">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="23"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Ymgarl Genestealer" id="2f7a-0469-d8c9-8b8f" hidden="false" type="profile" targetId="77d3-0ad9-79df-24f0"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="6920-f582-d303-c809"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="8cfa-01dc-1910-9931"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink targetId="4d6c-98fb-0e8b-b1a1" id="9721-a010-1964-976f" type="profile" name="Brood Telepathy" hidden="false"/>
+        <infoLink name="Rending Claws" id="a483-39f8-0173-81d3" hidden="false" type="profile" targetId="b14f-e98f-bb94-e63f"/>
+        <infoLink name="Fleet" id="fac5-addb-b211-e915" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Move Through Cover" id="c1ee-b9fb-3b3c-5547" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Dormant" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="6ec2-76fa-e53b-9109">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Ymgarl Genestealers can elect to start the game in a dormant state provided there is at least one piece of area terrain large enough to accommodate the entire unit (be sure to discuss with your opponent what the boundaries of all such terrain features are before the game begins). If you choose to do this, the brood is not deployed with the rest of the army. Instead, after both sides have deployed, secretly write down which piece of terrain they are lying dormant in. When the brood becomes available from reserve, they must be deployed such that all models are within the selected terrain. If any models cannot be placed inside this terrain due to impassable terrain or enemy within 1&quot;, they are destroyed. The Ymgarl Genestealers can move and assault normally in the same turn they are revealed. </characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Alter Form" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="b8e4-9221-24bd-5e82">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">At the start of every Assault phase, the Ymgarl Genestealers must alter their form into one of those listed below. The benefits last until the end of the phase. Due to the instability of moulding their forms, they cannot choose the same alteration in two consecutive player turns.
+
+
+Slashing Claws: +1 to Strength
+
+
+Tentacled Limbs: +1 to Attacks
+
+
+Protective Carapace: +1 to Toughness</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Tyranid Warrior Brood" hidden="false" id="a5b4-8db3-10f6-d26f">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Tyranid Warrior" hidden="false" id="1ece-5ef0-4057-e424">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Tyranid Warrior" id="7d0c-9c4e-fb21-dae9" hidden="false" type="profile" targetId="aba5-b46d-93a3-7137"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="First Weapon" id="98f8-928c-dd3c-5812" hidden="false" defaultSelectionEntryId="e64e-aeef-9292-adc7">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="e64e-aeef-9292-adc7">
+                  <infoLinks>
+                    <infoLink name="Scything Talons" id="1e50-7ee0-a188-8e5e" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Rending Claws" hidden="false" id="467a-9fcf-9d6c-8302">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Rending Claws" id="d2a3-f8c0-de41-612f" hidden="false" type="profile" targetId="b14f-e98f-bb94-e63f"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="A Pair of Boneswords" hidden="false" id="b344-44ae-bc41-0d70">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Bonesword" id="5f5c-9764-f3a8-69a6" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
+                    <infoLink name="Bonesword" id="a1f7-0180-b463-26d4" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Lash-whip and Bonesword" hidden="false" id="5a1b-663c-5e85-2999">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Lash Whip" id="b262-4ae4-7144-ada6" hidden="false" type="profile" targetId="03cb-0385-2167-e4be"/>
+                    <infoLink name="Bonesword" id="24b4-4a9a-2613-7984" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="c748-bf56-f2fe-6ad7-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c748-bf56-f2fe-6ad7-max"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Second Weapon" id="9a8f-4459-7304-1334" hidden="false" defaultSelectionEntryId="085f-bbab-b65e-a557">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Devourer" hidden="false" id="085f-bbab-b65e-a557">
+                  <infoLinks>
+                    <infoLink name="Devourer" id="060d-45e8-ab08-cd74" hidden="false" type="profile" targetId="d150-d6bc-04ca-634b"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Rending Claws" hidden="false" id="3437-12ab-b1da-3275">
+                  <infoLinks>
+                    <infoLink name="Rending Claws" id="02bb-c73b-13cb-98a3" hidden="false" type="profile" targetId="b14f-e98f-bb94-e63f"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Spinefists" hidden="false" id="2d4c-8f2b-19e0-fe4a">
+                  <infoLinks>
+                    <infoLink name="Spinefists" id="17af-c7bc-cb3c-9614" hidden="false" type="profile" targetId="527c-ef0c-0fc4-a542"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Deathspitter" hidden="false" id="8ad7-0b0e-7d58-b5a4">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Deathspitter" id="6ddf-ffa3-09c2-5805" hidden="false" type="profile" targetId="7fef-72a3-7feb-5273"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="a3cd-7532-fed4-5feb">
+                  <infoLinks>
+                    <infoLink name="Scything Talons" id="9797-ab42-6bc0-d1d0" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="db8f-9738-b243-6fea-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="db8f-9738-b243-6fea-max"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="One Tyranid warrior in the Brood may Exchange its devourer for" id="59b6-fe6c-d422-0411" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Barbed Stangler" hidden="false" id="464a-ebcd-30ae-db79">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Barbed Strangler" id="e9b9-97f0-8d60-638a" hidden="false" type="profile" targetId="d3b6-6b49-23b8-30fd"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Venom Cannon" hidden="false" id="ee6e-6881-48ca-5fe3">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Venom Cannon" id="40a1-98be-ea4b-406d" hidden="false" type="profile" targetId="ceb3-7424-1f03-0ca7"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="dd76-0750-3df5-e61f"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="The entire brood may take" id="a8d5-4a05-7d2b-1072" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="0c24-fa12-8075-f718">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Adrenal Glands" id="f8f0-e905-78fe-1c13" hidden="false" type="profile" targetId="ba15-539b-8427-fa0b"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1bc2-228e-de10-7a86"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="9a54-61cb-dcd4-f756">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Toxin Sacs" id="66bb-4ce7-b805-8a44" hidden="false" type="profile" targetId="bf9b-5f6f-7099-c9e8"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3feb-1bfa-263b-b58b"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="61dc-c4da-3753-fa9c"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="6d38-dba2-607e-8cd0"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Mycetic Spore" hidden="false" id="8557-4258-e8c6-8029" type="selectionEntry" targetId="c059-7987-8ef4-3a9c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="820f-abfb-ccc2-ac0a"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Synapse Creature" id="8ae7-2064-75f0-a8da" hidden="false" type="profile" targetId="c532-63f6-20dd-0d6f"/>
+        <infoLink name="Shadow in the Warp" id="b138-aa7c-95c6-56ac" hidden="false" type="profile" targetId="90e3-72fc-385a-b619"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Genestealer Brood" hidden="false" id="8033-7f5c-2617-d04c">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Brood" id="2f5b-4dee-6a48-221d" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Genestealer" hidden="false" id="0dc9-4216-acfc-1cff">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="14"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Genestealer" id="f17c-e7ce-5804-a536" hidden="false" type="profile" targetId="ed07-d354-b6e4-13f0"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="The Entire Brood may take" id="eba7-f87a-2c31-a3fd" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="1043-aff7-dc53-33c6">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Scything Talons" id="555a-dfc5-7ad0-7e14" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c44a-d37e-bd24-45b9"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="74c6-26b5-d14c-98d7">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Adrenal Glands" id="a0f3-ddb8-19ed-70b0" hidden="false" type="profile" targetId="ba15-539b-8427-fa0b"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f842-b7e8-2992-0b8c"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="539d-8077-50f4-928e">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Toxin Sacs" id="cc3f-61aa-93a3-2206" hidden="false" type="profile" targetId="bf9b-5f6f-7099-c9e8"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b64-94e4-99a2-3c0f"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Broodlord" hidden="false" id="439f-071b-21e1-d3de">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="60"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Broodlord" id="8cff-9aca-2862-8889" hidden="false" type="profile" targetId="6d62-fc4e-2f6c-97c6"/>
+                <infoLink name="Psyker" id="4a9c-68f1-251a-0f9b" hidden="false" type="profile" targetId="d241-1e73-a625-ec7d"/>
+                <infoLink name="Aura of Despair" id="d0e0-56b6-1ce4-6f22" hidden="false" type="profile" targetId="09d1-235b-654e-001c"/>
+                <infoLink name="Hypnotic Gaze" id="01f8-4be5-6e8e-469c" hidden="false" type="profile" targetId="9d31-77ef-ddac-9a12"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be3f-c576-8058-b216"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="The Broodlord may take" id="951a-f832-9ac7-9642" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="86e0-0c84-21fd-905d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Scything Talons" id="d7f2-3138-42f5-c591" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="436a-a6dd-dac0-12f8"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Implant Attack" hidden="false" id="3b58-35be-c207-1a86">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Implant Attack" id="13f5-e82f-8610-30b8" hidden="false" type="profile" targetId="5597-556d-1de7-5fa9"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c3b-660e-4bde-94e8"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Acid Blood" hidden="false" id="dec8-ff06-7143-79a4">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Acid Blood" id="129c-1f67-04d4-27dd" hidden="false" type="profile" targetId="932f-f50f-f25b-029b"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb6c-2a0c-ad5f-5de6"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="418a-5b5c-2b36-ee93"/>
+            <constraint type="max" value="20" field="selections" scope="self" shared="true" id="cb21-0f84-001a-7a25"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Rending Claws" id="a2f4-f2aa-7587-ef9a" hidden="false" type="profile" targetId="b14f-e98f-bb94-e63f"/>
+        <infoLink name="Brood Telepathy" id="b9f6-c010-bdc9-3fe9" hidden="false" type="profile" targetId="4d6c-98fb-0e8b-b1a1"/>
+        <infoLink name="Fleet" id="19c7-e2f0-315f-7d9b" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Infiltrate" id="1017-2167-8d38-568d" hidden="false" type="profile" targetId="db64-5b1f-d306-b354"/>
+        <infoLink name="Move Through Cover" id="9e4c-425b-353e-48ac" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Mycetic Spore" hidden="false" id="4a94-9b25-3862-efed" type="selectionEntry" targetId="c059-7987-8ef4-3a9c">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a7c-553e-4455-a7bd"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Termagant Brood" hidden="false" id="4fed-36d0-39a8-e477">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="For Every Termagant Brood included in your army, you can include one Tervigon as a Troop choice." id="9689-b1fd-626a-c2e3" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Tervigon" hidden="false" id="4df7-1bff-2145-f3a6" type="selectionEntry" targetId="0f36-b514-b951-ac09">
+              <categoryLinks>
+                <categoryLink targetId="default-category" id="fd93-6fed-d697-67cd" primary="true" name="Troops"/>
+              </categoryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6bb-ca7b-0f80-2d90"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="If the brood consists of 20 models or less, you may take" id="600f-904b-3579-3d76" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Mycetic Spore" hidden="false" id="f759-850e-4509-71cd" type="selectionEntry" targetId="c059-7987-8ef4-3a9c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3926-d0d0-6bc0-4de4"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Termagant" hidden="false" id="3d92-e7ed-f2ea-b68c">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Termagant" id="e639-89b1-ef8e-72fc" hidden="false" type="profile" targetId="5f70-0aa0-c80f-013e"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Loadout" id="cf27-7146-4290-e128" hidden="false" defaultSelectionEntryId="a1f2-4660-247d-21cd">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Fleshborer" hidden="false" id="a1f2-4660-247d-21cd">
+                  <infoLinks>
+                    <infoLink name="Fleshborer" id="070f-f948-942a-ed9c" hidden="false" type="profile" targetId="92e8-4499-60cc-d8f0"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Spinefists" hidden="false" id="a673-8eba-1ad4-e6ad">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Spinefists" id="e943-352c-3e50-7959" hidden="false" type="profile" targetId="527c-ef0c-0fc4-a542"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Spike Rifle" hidden="false" id="2b27-4c19-f080-2956">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Spike Rifle" id="a749-55a7-348c-bfdd" hidden="false" type="profile" targetId="c1ad-8cb3-666e-ac6a"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Devourer" hidden="false" id="e096-48d9-acfc-8514">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Devourer" id="4d52-e9c9-3ba6-5d9a" hidden="false" type="profile" targetId="d150-d6bc-04ca-634b"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="8b9d-8ed6-c9f1-6a2f-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8b9d-8ed6-c9f1-6a2f-max"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="The entire brood may take" id="1ce8-744b-2044-f871" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="30e5-2518-ea02-0651">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Adrenal Glands" id="2228-eb77-c547-78c5" hidden="false" type="profile" targetId="ba15-539b-8427-fa0b"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a41a-3c3d-2dad-c78c"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="3911-e980-0820-a4d0">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Toxin Sacs" id="9996-849a-8c95-3fb6" hidden="false" type="profile" targetId="bf9b-5f6f-7099-c9e8"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6d2-bcc3-aeea-65ac"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="154b-e15f-dd82-d207"/>
+            <constraint type="min" value="30" field="selections" scope="parent" shared="true" id="8af1-40bf-7f21-ce0d"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="For every 10 Termagants the brood contains, one may replace its fleshborer with a Strangleweb" hidden="false" id="acb9-cca3-41d6-62c7">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Strangleweb" id="1ac4-4054-41b8-4d14" hidden="false" type="profile" targetId="00bb-38f3-55ea-96bf"/>
+            <infoLink name="Instinctive Behaviour - Lurk" id="d197-a7da-7a3b-f763" hidden="false" type="profile" targetId="b0d0-ba0f-5b54-513e"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="04df-32c8-46e4-daa7"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Claws and Teeth" id="04f2-e39c-98e5-114a" hidden="false" type="profile" targetId="7c9d-9e0a-cc00-defb"/>
+        <infoLink name="Move Through Cover" id="2a0a-2591-1a6d-1bca" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Hormagaunt Brood" hidden="false" id="c1ea-33fd-b106-ab15">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="If the brood consists of 20 models or less you may take" id="2fbd-a64e-16f5-f034" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Mycetic Spore" hidden="false" id="d849-0dca-9b96-8723" type="selectionEntry" targetId="c059-7987-8ef4-3a9c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a8a-025c-e505-46cc"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Hormagaunt" hidden="false" id="116e-512c-87e6-d7dd">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Hormagaunt" id="8a7b-91dc-2778-fafa" hidden="false" type="profile" targetId="c9ab-3527-23a5-d703"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="The entire brood may take" id="283d-9297-0905-fa22" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="6ccf-a30b-208e-bde1">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Adrenal Glands" id="d51d-4b95-b8cb-e9c7" hidden="false" type="profile" targetId="ba15-539b-8427-fa0b"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e672-52ef-48bc-3c96"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="3bc3-154a-c2f5-d0ef">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Toxin Sacs" id="775d-af49-cf55-6b2a" hidden="false" type="profile" targetId="bf9b-5f6f-7099-c9e8"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7224-c6b3-d5e5-f5f5"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="ef60-2031-c005-0bf9"/>
+            <constraint type="max" value="30" field="selections" scope="parent" shared="true" id="0eaf-2d2a-b354-28fe"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Scything Talons" id="4d76-77ec-4079-cc2c" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+        <infoLink name="Instinctive Behaviour - Feed" id="a6bf-8032-8016-285e" hidden="false" type="profile" targetId="033b-00cf-e0e1-c66c"/>
+        <infoLink name="Fleet" id="65f8-8828-505a-07eb" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Move Through Cover" id="ce78-76bf-f44a-04a0" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Bounding Leap" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="848a-103a-cca1-8b9c">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">When a unit of Hormagaunts run, they roll three dice and use the highest to determine how far they move.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ripper Swarm Brood" hidden="false" id="9a92-7c07-f170-c3a9">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Rippers" hidden="false" id="51a0-bd3d-0661-5ba9">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Ripper Swarm" id="3d38-2278-0eb6-34aa" hidden="false" type="profile" targetId="01e0-0fbb-07cb-2388"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="ad74-3329-cf71-24b9"/>
+            <constraint type="min" value="9" field="selections" scope="parent" shared="true" id="dbae-ce13-827a-eea7"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="The entire brood may take" id="8ff9-f236-dbb6-cf76" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Spinefists" hidden="false" id="912a-fa40-fce0-444f">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Spinefists" id="f818-40bc-19c6-0c23" hidden="false" type="profile" targetId="527c-ef0c-0fc4-a542"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2fc9-6934-72ef-9270"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="ad65-f87b-4900-2de0">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Adrenal Glands" id="db41-5e1f-05d2-46e3" hidden="false" type="profile" targetId="ba15-539b-8427-fa0b"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="87c6-7998-6c74-2b8e"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="4cf5-d37e-acc3-8565">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Toxin Sacs" id="e3bf-d146-77cc-1e25" hidden="false" type="profile" targetId="bf9b-5f6f-7099-c9e8"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="07b7-d838-2d40-184c"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Tunnel Swarm" hidden="false" id="dc66-e0b8-1bcb-a6ec">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Tunnel Swarm" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="2aa3-8df3-41da-51d8">
+                      <characteristics>
+                        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Ripper Swarm upgraded to have the Tunnel Swarm ability gains the Deep Strike special rule.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0fa0-153e-4b5e-5cbd"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink targetId="d74e-1928-0d91-b80a" id="e14e-0f54-18f2-ec3a" type="rule" name="Swarm" hidden="false"/>
+        <infoLink name="Claws and Teeth" id="31c6-8797-0cf7-ca8a" hidden="false" type="profile" targetId="7c9d-9e0a-cc00-defb"/>
+        <infoLink name="Instinctive Behaviour - Feed" id="0dd3-1e09-1b34-559a" hidden="false" type="profile" targetId="033b-00cf-e0e1-c66c"/>
+        <infoLink name="Fearless" id="e1e0-c74a-7b5c-820d" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Mindless" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="bf5f-6dd7-a8fd-c029">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Ripper Swarm of Sky-slasher Swarm is more than 12&quot; from a Synapse Creature at the beginning of the turn and fails a Leadership test because of the Instinctive Behaviour rule, the unit loses 1 Wound for each point they fail the Leadership test by - no saves allowed.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Tyranid Shrikes" hidden="false" id="0189-36bf-3860-ac9c">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Shrikes" hidden="false" id="41ee-d775-3071-477b">
+          <infoLinks>
+            <infoLink name="Tyranid Shrike" id="e85f-bd0b-6c18-123f" hidden="false" type="profile" targetId="1276-3792-2f69-8014"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="b982-6257-36a4-6f51"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="9e50-a5b7-b0c3-0dd2"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Second Weapon" id="87ca-7f45-4466-4196" hidden="false" defaultSelectionEntryId="616c-dcc6-2da8-cd1a">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Devourer" hidden="false" id="616c-dcc6-2da8-cd1a">
+                  <infoLinks>
+                    <infoLink name="Devourer" id="0876-db0e-9cac-022d" hidden="false" type="profile" targetId="d150-d6bc-04ca-634b"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Spinefists" hidden="false" id="5e36-0e02-db0d-6116">
+                  <infoLinks>
+                    <infoLink name="Spinefists" id="89b2-0194-ff46-e4bb" hidden="false" type="profile" targetId="527c-ef0c-0fc4-a542"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Deathspitter" hidden="false" id="876e-9128-8937-a5a5">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Deathspitter" id="923c-527e-851f-2c75" hidden="false" type="profile" targetId="7fef-72a3-7feb-5273"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="38bc-58fa-ef34-d4af">
+                  <infoLinks>
+                    <infoLink name="Scything Talons" id="cbfd-d020-4a01-d87e" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Lash-whip and Bonesword" hidden="false" id="be46-adc0-6450-f0a6">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Lash Whip" id="66b9-e50d-2fbe-b611" hidden="false" type="profile" targetId="03cb-0385-2167-e4be"/>
+                    <infoLink name="Bonesword" id="2f0b-9e2c-100b-52fc" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="A Pair of Boneswords" hidden="false" id="cbaa-f262-be87-28e1">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Bonesword" id="bdc9-2957-0743-4fab" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
+                    <infoLink name="Bonesword" id="009f-7c67-aa4e-0427" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="1152-a4f4-625f-7224-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1152-a4f4-625f-7224-max"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="First Weapon" id="2c82-5ae5-86f9-e780" hidden="false" defaultSelectionEntryId="c556-28d9-d257-786d">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="c556-28d9-d257-786d">
+                  <infoLinks>
+                    <infoLink name="Scything Talons" id="ee7c-9316-5b2d-bea7" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Rending Claws" hidden="false" id="eeac-557d-c70e-4ce2">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Rending Claws" id="4576-7998-a819-2ac9" hidden="false" type="profile" targetId="b14f-e98f-bb94-e63f"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="1453-2ed2-85bb-5d3e-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1453-2ed2-85bb-5d3e-max"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="The entire brood may take" id="7372-c357-8614-1e5b" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="bf9c-128c-94b9-be17">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Adrenal Glands" id="a04b-8008-507c-e963" hidden="false" type="profile" targetId="ba15-539b-8427-fa0b"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d061-0740-c26e-6251"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="fd47-621b-bb9a-5e4d">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Toxin Sacs" id="bce0-3151-6ff1-12b8" hidden="false" type="profile" targetId="bf9b-5f6f-7099-c9e8"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58c9-270f-a6e2-7ff8"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Jump Infantry" id="f92b-40a2-e1e5-64ab" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+        <infoLink name="Wings" id="288a-c65e-397e-3206" hidden="false" type="profile" targetId="4b5c-7fa6-cbb6-81a9"/>
+        <infoLink name="Synapse Creature" id="0edc-eb98-41e1-f5c5" hidden="false" type="profile" targetId="c532-63f6-20dd-0d6f"/>
+        <infoLink name="Shadow in the Warp" id="19bf-bb7e-55ba-0ff8" hidden="false" type="profile" targetId="90e3-72fc-385a-b619"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="One Tyranid warrior in the Brood may Exchange its devourer for" id="7c33-254f-ebcc-8195" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Barbed Stangler" hidden="false" id="2d06-c769-8b79-1005">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Barbed Strangler" id="5431-7e2e-ce2b-11a8" hidden="false" type="profile" targetId="d3b6-6b49-23b8-30fd"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Venom Cannon" hidden="false" id="6556-c195-9b6a-da73">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Venom Cannon" id="a1e0-64f9-7e8f-aab9" hidden="false" type="profile" targetId="ceb3-7424-1f03-0ca7"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7eab-d969-bf2b-b111"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ravener Brood" hidden="false" id="9590-5821-44fe-6866">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Ravener" hidden="false" id="e904-4355-5613-3343">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="3ce2-c257-3ddb-41c2"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="e436-564b-1305-7534"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Weapons" id="646d-61ff-29c9-0665" hidden="false" defaultSelectionEntryId="bd93-f0af-fdfd-4159">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="bd93-f0af-fdfd-4159">
+                  <infoLinks>
+                    <infoLink name="Scything Talons" id="8a46-4a72-ec18-ab4b" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Rending Claws" hidden="false" id="2df4-5dba-b3ca-b0e5">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Rending Claws" id="1cd2-ab8d-def8-2f98" hidden="false" type="profile" targetId="b14f-e98f-bb94-e63f"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="9270-1702-0855-d38c-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9270-1702-0855-d38c-max"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="The entire brood may take one of the following" id="416b-5e16-5f83-761e" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Spinefists" hidden="false" id="3309-ac32-ba3a-59d0">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Spinefists" id="24f5-0aa3-1c77-0eeb" hidden="false" type="profile" targetId="527c-ef0c-0fc4-a542"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Devourers" hidden="false" id="f848-1323-60c0-a9a7">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Devourer" id="730c-55a9-348f-eac9" hidden="false" type="profile" targetId="d150-d6bc-04ca-634b"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Deathspitters" hidden="false" id="9166-94f2-9cb2-2ba9">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Deathspitter" id="824d-9ec4-8ed4-7afb" hidden="false" type="profile" targetId="7fef-72a3-7feb-5273"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d62c-dca0-afc7-9759"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Acute Senses" id="9a16-dfbc-3b4f-66a8" hidden="false" type="profile" targetId="253f-bb05-f8fd-fffd"/>
+        <infoLink name="Deep Strike" id="06e8-ce23-7ca0-9fbe" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
+        <infoLink name="Instinctive Behaviour - Feed" id="3022-58aa-614b-8607" hidden="false" type="profile" targetId="033b-00cf-e0e1-c66c"/>
+        <infoLink name="Move Through Cover" id="537f-a32c-ecf6-496b" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
+        <infoLink name="Ravener" id="7c6c-e183-cb37-a05f" hidden="false" type="profile" targetId="2774-96b5-fc43-409b"/>
+        <infoLink name="Scything Talons" id="4b49-a49f-f6ae-af0c" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+        <infoLink name="Beast" id="2c9a-c98e-6cb8-338d" hidden="false" type="rule" targetId="0b22-19ae-f545-c0ba"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Sky-slasher Swarm Brood" hidden="false" id="8f63-c6fc-d36b-9e6a">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Sky-slasher Swarm" hidden="false" id="ad7e-2dc5-d2b2-5a0b">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Sky-slasher Swarm" id="65c3-722d-6b35-7ecb" hidden="false" type="profile" targetId="764c-c6ef-f1cd-c0e0"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="1398-0d48-8e76-d913"/>
+            <constraint type="min" value="9" field="selections" scope="parent" shared="true" id="0c4a-8e4e-dcbe-bd8e"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="The entire brood may take" id="b3d6-17c7-8f3a-b930" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Spinefists" hidden="false" id="44d6-b855-badd-65af">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Spinefists" id="8fe5-d17d-c9b7-644c" hidden="false" type="profile" targetId="527c-ef0c-0fc4-a542"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb0f-22f5-8dce-cb0b"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="846a-75b2-2ba6-24ec">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Adrenal Glands" id="68e5-e44b-8a70-f33e" hidden="false" type="profile" targetId="ba15-539b-8427-fa0b"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec0b-679a-7183-8f13"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="bd00-0748-7eb9-78ab">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Toxin Sacs" id="5af5-ec22-f460-17ce" hidden="false" type="profile" targetId="bf9b-5f6f-7099-c9e8"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17a9-6f2b-434e-137a"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Swarm" id="037c-adbb-49ba-ae38" hidden="false" targetId="d74e-1928-0d91-b80a" type="rule"/>
+        <infoLink name="Claws and Teeth" id="6125-59fa-68f2-4db5" hidden="false" type="profile" targetId="7c9d-9e0a-cc00-defb"/>
+        <infoLink name="Instinctive Behaviour - Feed" id="f313-c1ab-add8-12b3" hidden="false" type="profile" targetId="033b-00cf-e0e1-c66c"/>
+        <infoLink name="Fearless" id="9451-7994-8578-6df6" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Wings" id="c39b-39b2-9468-5bfd" hidden="false" type="profile" targetId="4b5c-7fa6-cbb6-81a9"/>
+        <infoLink name="Jump Infantry" id="4650-d2c8-90ed-a1d6" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Mindless" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="ab9b-7776-3cfe-e807">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Ripper Swarm of Sky-slasher Swarm is more than 12&quot; from a Synapse Creature at the beginning of the turn and fails a Leadership test because of the Instinctive Behaviour rule, the unit loses 1 Wound for each point they fail the Leadership test by - no saves allowed.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Gargoyle Brood" hidden="false" id="a3fe-0404-a74f-efdc">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Gargoyle" hidden="false" id="1320-4408-c845-cb29">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Gargoyle" id="e65e-bee1-caf0-be67" hidden="false" type="profile" targetId="b1b3-5042-a837-ac35"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="1a05-f5ed-2d0b-bb6e"/>
+            <constraint type="max" value="30" field="selections" scope="parent" shared="true" id="4ef6-ace1-0d14-8e68"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="The entire brood may take" id="190e-f8a5-7383-6ad9" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="bc8d-835e-f3ca-e2bc">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Adrenal Glands" id="a789-935e-71ac-b834" hidden="false" type="profile" targetId="ba15-539b-8427-fa0b"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f356-36b8-7383-6fa2"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="5f4d-7359-168f-4fd4">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Toxin Sacs" id="24fd-1ad0-9aa1-7a0f" hidden="false" type="profile" targetId="bf9b-5f6f-7099-c9e8"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed67-af54-2002-152d"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Jump Infantry" id="1595-658b-ece9-c14f" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+        <infoLink name="Claws and Teeth" id="5175-3166-afb0-f8e5" hidden="false" type="profile" targetId="7c9d-9e0a-cc00-defb"/>
+        <infoLink name="Fleshborer" id="7413-789e-07cd-5dcf" hidden="false" type="profile" targetId="92e8-4499-60cc-d8f0"/>
+        <infoLink name="Wings" id="fa45-beb6-eb14-b15a" hidden="false" type="profile" targetId="4b5c-7fa6-cbb6-81a9"/>
+        <infoLink name="Instinctive Behaviour - Lurk" id="402a-c3cd-ad1f-6a71" hidden="false" type="profile" targetId="b0d0-ba0f-5b54-513e"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Blinding Venom" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="974a-7e13-c9a2-8ca9">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Against non-vehicle units, any roll To Hit of 6 made by a Gargoyle in close combat automatically causes a wound - no separate roll To Wound is necessary.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Harpy" hidden="false" id="640e-1695-a3e4-8fa6">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="160"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Harpy" id="6123-c2f0-cba4-2578" hidden="false" type="profile" targetId="4142-76a3-09e8-af29"/>
+        <infoLink name="Scything Talons" id="90eb-995b-b3d3-0895" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+        <infoLink name="Monstrous Creature" id="fa86-6bbe-674f-f0f6" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Spore Mine Cysts" id="3b74-3ba5-962b-c0fe" hidden="false" type="profile" targetId="4f36-d562-609c-dc73"/>
+        <infoLink name="Wings" id="bc17-ffe8-3df4-5470" hidden="false" type="profile" targetId="4b5c-7fa6-cbb6-81a9"/>
+        <infoLink name="Instinctive Behaviour - Lurk" id="b670-0102-581e-2f26" hidden="false" type="profile" targetId="b0d0-ba0f-5b54-513e"/>
+        <infoLink name="Fearless" id="c15b-8ef1-ed78-ae99" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Spore Mine" id="d292-16e6-e728-8a03" hidden="false" type="profile" targetId="f0bf-63c7-ed8d-4464"/>
+        <infoLink name="Living Bomb" id="b1d2-b868-e8f1-3f63" hidden="false" type="profile" targetId="d421-bc38-3f2d-7fee"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="First Weapon" id="2985-6055-4698-a5fa" hidden="false" defaultSelectionEntryId="5bff-adf3-d767-6d31">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Stranglethorn Cannon" hidden="false" id="5bff-adf3-d767-6d31">
+              <infoLinks>
+                <infoLink name="Twin-linked Stranglethorn Cannon" id="9043-34ac-3121-5f81" hidden="false" type="profile" targetId="6578-a80d-0865-64e7"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Heavy Venom Cannon" hidden="false" id="967f-df56-f219-6da5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Twin-linked Heavy Venom Cannon" id="e56d-622b-7dda-13f0" hidden="false" type="profile" targetId="1713-4155-f08d-d8ef"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="5026-ee34-b4fe-1a78-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5026-ee34-b4fe-1a78-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Second Weapon" id="3d2b-503a-38f2-44c8" hidden="false" defaultSelectionEntryId="a41c-fff2-67fa-a32e">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Stinger Salvo" hidden="false" id="a41c-fff2-67fa-a32e">
+              <infoLinks>
+                <infoLink name="Stinger Salvo" id="bdcd-a5f2-62dd-6eea" hidden="false" type="profile" targetId="624c-10a6-80bd-fd9f"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Cluster Spines" hidden="false" id="c3e0-3c46-a901-74dd">
+              <infoLinks>
+                <infoLink name="Cluster Spines" id="7e01-ccba-25b0-974e" hidden="false" type="profile" targetId="45f6-a36b-9494-e369"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="7ca3-a7e5-64b1-75f6-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7ca3-a7e5-64b1-75f6-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="The Harpy may take" id="813e-1f8b-46d9-8171" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="15d3-30bf-eb9f-ed8c">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Adrenal Glands" id="567e-b292-76db-c3ad" hidden="false" type="profile" targetId="ba15-539b-8427-fa0b"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fc36-0591-0fa5-8459"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="801e-83fe-2ed6-5fa7">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Toxin Sacs" id="1a31-0f0a-9255-791b" hidden="false" type="profile" targetId="bf9b-5f6f-7099-c9e8"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6acc-a0b9-78be-e02b"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Regeneration" hidden="false" id="e1da-c936-5f9c-8343">
+              <infoLinks>
+                <infoLink name="Regeneration" id="484e-6037-66d0-98d4" hidden="false" type="profile" targetId="e8d9-c24c-0ada-0f4a"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b46-004f-2700-c6ae"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="Sonic Screech" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="b5fa-a230-caf2-ab16">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">On any turn in which a Harpy charges into close combat, it counts as if it is equipped with assault grenades. In addition, any non-vehicle unit that is charged by a Harpy must halve its Initiative value (rounding up) for the remainder of that Assault phase.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Spore Mine Cluster" hidden="false" id="3a5f-ff5d-a0c5-1456">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Spore Mines" hidden="false" id="29d5-9093-fad9-3aa7">
+          <infoLinks>
+            <infoLink name="Spore Mine" id="5940-d3ba-f4aa-f1db" hidden="false" type="profile" targetId="f0bf-63c7-ed8d-4464"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="9cc0-ce85-b2cf-42c7"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="22cd-699c-e04f-fb45"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink targetId="d421-bc38-3f2d-7fee" id="79c3-81bf-e2bc-7162" type="profile" name="Living Bomb" hidden="false"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Orbital Deployment" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="ea77-5f68-89e5-dc9c">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Spore Mine Clusters are always deployed in the following manner. After both sides have selected their deployment zone, but before any units are deployed, all of your Spore Mine Clusters must Deep Strike onto the board. If any scatter off the board or into impassable terrain the entire cluster is destroyed as described in the 1-2 result on the Deep Strike Mishap table. After they have landed, the Spore Mines in the cluster are treated as individual Spore Mines (see Living Bomb)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Carnifex Brood" hidden="false" id="72b2-b527-e277-7cfc">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="If the brood consists of a single Carnifex it may take a Mycetic Spore" id="5818-9129-2184-fd83" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Mycetic Spore" hidden="false" id="6ab5-1aaa-1be4-a99f" type="selectionEntry" targetId="c059-7987-8ef4-3a9c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9236-27bf-b65f-4e43"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Carnifex" hidden="false" id="7589-0b93-e6ea-3000">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="160"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Carnifex" id="ae6f-3085-44ff-6c05" hidden="false" type="profile" targetId="99c4-13fe-7a43-7de6"/>
+            <infoLink name="Scything Talons" id="ec7a-51e8-f8c4-fc82" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+            <infoLink name="Scything Talons" id="5992-a52c-01e3-98cc" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Replace one set of Scything Talons with" id="0c80-e930-9142-c3d4" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Crushing Claws" hidden="false" id="2f48-080e-9e35-fdd5">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Crushing Claws" id="ed17-ce17-32d8-79d2" hidden="false" type="profile" targetId="2d7b-ae8e-20dd-559d"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="23d0-81a8-9642-5a24"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Replace any set of Scything Talons with" id="7e9a-e23d-1e6b-d1f4" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Twin-linked Deathspitters" hidden="false" id="9175-f2f1-e95b-2ac7">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Twin-linked Deathspitters" id="5a24-de24-14db-d58e" hidden="false" type="profile" targetId="00e2-7771-a8dd-5bf8"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Twin-linked Devourers with Brainleech Worms" hidden="false" id="8704-2a6d-70e2-5687">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Twin-linked Devourers with Brainleech Worms" id="d8a5-5a61-f5cf-1d27" hidden="false" type="profile" targetId="c2c8-8387-5e85-1269"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Take one of the following, replacing a set of Scything talons" id="da95-4fea-04b5-07aa" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Stranglethorn Cannon" hidden="false" id="6140-d1b2-145b-8ecc">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Stranglethorn Cannon" id="2132-e63f-05c2-81bd" hidden="false" type="profile" targetId="b1f6-94cd-91f8-1517"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Venom Cannons" hidden="false" id="1afc-49d2-db7b-6d6d">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Heavy Venom Cannon" id="19a0-863e-9941-4918" hidden="false" type="profile" targetId="c008-395f-3bd0-8b72"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b305-a7d1-6b86-b3b6"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Take any of the following" id="bbd0-4ca0-8eaa-2a7a" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Frag Spines" hidden="false" id="8971-b037-aeba-9d2f">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Frag Spines" id="2d03-f249-b9e9-488d" hidden="false" type="profile" targetId="0571-b003-4f15-3a92"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bae8-9265-fe77-cf26"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="757d-20ae-17ce-3fd0">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Adrenal Glands" id="8d1c-201b-e85e-0615" hidden="false" type="profile" targetId="ba15-539b-8427-fa0b"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="690e-e12b-6417-1744"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="96bc-328a-a8c2-2230">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Toxin Sacs" id="3ec3-1e29-1c70-7d60" hidden="false" type="profile" targetId="bf9b-5f6f-7099-c9e8"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d86b-2fbc-d72a-8a0c"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Bio-plasma" hidden="false" id="e5fb-dc70-fe1f-35f3">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Bio-plasma" id="2c4c-570a-694d-6ce3" hidden="false" type="profile" targetId="9add-55c0-a791-7c5b"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7cfc-467a-d691-bf87"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Regeneration" hidden="false" id="0440-61af-38f7-d09f">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Regeneration" id="6abb-a4eb-d144-7a55" hidden="false" type="profile" targetId="e8d9-c24c-0ada-0f4a"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e93e-c1d3-fa16-a1bd"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink targetId="1cf6-a779-a032-78d5" id="020b-3817-6785-c7e8" type="profile" name="Living Battering Ram" hidden="false"/>
+        <infoLink name="Monstrous Creature" id="62e9-cfe9-cb01-4777" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Instinctive Behaviour - Feed" id="092d-e2cb-c39d-34b4" hidden="false" type="profile" targetId="033b-00cf-e0e1-c66c"/>
+        <infoLink name="Fearless" id="b528-0614-d4d6-72c7" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Old One Eye" hidden="false" id="6f8a-5d1d-1440-5c0f">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="260"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Monstrous Creature" id="affd-5075-3017-28e8" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Old One Eye" id="6986-13d2-05ca-1182" hidden="false" type="profile" targetId="7432-6527-0223-c2a4"/>
+        <infoLink name="Crushing Claws" id="4321-9646-3829-6d3a" hidden="false" type="profile" targetId="2d7b-ae8e-20dd-559d"/>
+        <infoLink name="Scything Talons" id="9d45-0cbf-5d42-3ebe" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+        <infoLink name="Instinctive Behaviour - Feed" id="b762-bf2e-248b-4667" hidden="false" type="profile" targetId="033b-00cf-e0e1-c66c"/>
+        <infoLink name="Fearless" id="30d7-61d3-b30b-e26a" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Living Battering Ram" id="89f4-b221-3e8b-332e" hidden="false" type="profile" targetId="1cf6-a779-a032-78d5"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Rapid Regeneration" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="6324-4b41-0e7c-6657">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">At the start of your turn, as long as Old One Eye is still alive, roll a D6 for each Wound lost: for every 5 or 6 rolled, Old One Eye recovers a single lost Wound.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Berserk Rampage" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="69a2-0358-3617-3e32">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">For every successful To Hit roll that Old One Eye makes in close combat, it may immediately make one additional Attack against the same unit. These additional Attacks do not confer any extra Attacks if they also hit the enemy.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Alpha Leader" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="777e-57c5-efac-59db">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Any friendly units within 12&quot; of Old One Eye may choose to use its Leadership for any Morale or Leadership tests they are required to make.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Biovore Brood" hidden="false" id="ba3e-4974-c2a3-5590">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Biovore" hidden="false" id="5d21-e7c3-103c-a0ee">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Biovore" id="c2b6-787e-6a21-bcd6" hidden="false" type="profile" targetId="5c69-a5c8-e9be-8840"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d079-5c07-b2db-08fc"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a50f-79dc-5ef3-488e"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Claws and Teeth" id="27e1-b171-8a02-e0f0" hidden="false" type="profile" targetId="7c9d-9e0a-cc00-defb"/>
+        <infoLink name="Spore Mine Launcher" id="5c5f-855a-0b7d-6362" hidden="false" type="profile" targetId="4950-2dbf-7422-e7c5"/>
+        <infoLink name="Instinctive Behaviour - Lurk" id="27f3-645f-a99a-7371" hidden="false" type="profile" targetId="b0d0-ba0f-5b54-513e"/>
+        <infoLink name="Living Bomb" id="0d65-9faf-494d-3549" hidden="false" type="profile" targetId="d421-bc38-3f2d-7fee"/>
+        <infoLink name="Spore Mine" id="230b-390d-b983-40cc" hidden="false" type="profile" targetId="f0bf-63c7-ed8d-4464"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Trygon" hidden="false" id="998f-bf31-8ab5-b716">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Variant" id="663f-32ca-3af0-e0ab" hidden="false" defaultSelectionEntryId="bf1c-a237-4f26-84b1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Trygon" hidden="false" id="bf1c-a237-4f26-84b1">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="200"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Trygon" id="1468-0fb6-536c-b279" hidden="false" type="profile" targetId="7cb5-8c62-8d6e-90ba"/>
+                <infoLink name="Instinctive Behaviour - Feed" id="22e6-20c0-b724-e2a4" hidden="false" type="profile" targetId="033b-00cf-e0e1-c66c"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Trygon Prime" hidden="false" id="dca3-c410-acdf-da93">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="240"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Trygon Prime" id="90c6-60c4-73dd-b2de" hidden="false" type="profile" targetId="667d-2e98-a6cc-8f66"/>
+                <infoLink name="Containment Spines" id="7f66-56c7-8126-9ca1" hidden="false" type="profile" targetId="0fb4-a9e9-6f26-2315"/>
+                <infoLink name="Synapse Creature" id="29d0-42fb-5fcf-7918" hidden="false" type="profile" targetId="c532-63f6-20dd-0d6f"/>
+                <infoLink name="Shadow in the Warp" id="97fd-aada-2023-a69b" hidden="false" type="profile" targetId="90e3-72fc-385a-b619"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="4e53-72a8-4d51-66d1-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4e53-72a8-4d51-66d1-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="The Trygon may take" id="53e9-788d-af9b-c45c" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="7cab-7f2a-614d-29f9">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Adrenal Glands" id="f5a4-4319-ef45-1d96" hidden="false" type="profile" targetId="ba15-539b-8427-fa0b"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ec4-f146-3cbf-7e8a"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="527b-25f0-b09a-017e">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Toxin Sacs" id="a05e-6754-f87c-fd54" hidden="false" type="profile" targetId="bf9b-5f6f-7099-c9e8"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e063-d41b-ffd3-0438"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Regeneration" hidden="false" id="c17e-b1da-67bb-2795">
+              <infoLinks>
+                <infoLink name="Regeneration" id="a34b-5820-5f7a-b138" hidden="false" type="profile" targetId="e8d9-c24c-0ada-0f4a"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b15-368a-2244-5b78"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Monstrous Creature" id="cc09-ecb0-89a1-9e27" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Bio-electric Pulse" id="0ffd-d40a-0483-44df" hidden="false" type="profile" targetId="504c-d63e-269f-1d4a"/>
+        <infoLink name="Scything Talons" id="2f6a-718f-5da7-94ac" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+        <infoLink name="Scything Talons" id="17a0-2cb2-5b68-55a1" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+        <infoLink name="Deep Strike" id="9fe7-1326-3f9e-8c04" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
+        <infoLink name="Fearless" id="6453-8d29-fbeb-3f10" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Fleet" id="467e-dcca-f53c-2459" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Subterranean Assault" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="e79b-49cb-6eec-87fc">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If, when a Trygon deploys via Deep Strike, it scatters on top of impassable terrain or another model (friend or foe), reduce the scatter distance by the minimum required to avoid the obstacle.
+
+
+After the Trygon has emerged, mark the position under the creature&apos;s base with a suitable marker. Any Tyranid infantry units (excluding those with wings) that arrive from reserve in subsequent turns may attempt to utilise this tunnel network to emerge from it instead of arriving as normal. If they choose to do so, place the entire unit so that all models are within 6&quot; of the marker and in unit coherency. If any models cannot be placed because of enemy models within 1&quot; or impassable terrain, the excess are removed as casualties. The unit may not move or assault on the same turn it arrives, but may shoot or run as normal. No more than a single unit may emerge from each tunnel entrance in the same turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Mawloc" hidden="false" id="482d-fbbb-5430-df9d">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="170"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Mawloc" id="f6ab-f3ec-9374-5ffb" hidden="false" type="profile" targetId="ec7e-6534-bb2e-4c9b"/>
+        <infoLink name="Monstrous Creature" id="fb4d-ebad-2c09-25fa" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Claws and Teeth" id="fc38-68ba-a689-38ff" hidden="false" type="profile" targetId="7c9d-9e0a-cc00-defb"/>
+        <infoLink name="Instinctive Behaviour - Feed" id="ecfe-0708-6d19-a870" hidden="false" type="profile" targetId="033b-00cf-e0e1-c66c"/>
+        <infoLink name="Deep Strike" id="87a0-e686-91ad-5ea1" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
+        <infoLink name="Fearless" id="c2bc-e91c-f200-3913" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Hit and Run" id="d4c5-8579-080f-4533" hidden="false" type="profile" targetId="17a2-9db7-3461-361c"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="The Mawloc may take" id="5f95-606c-d56a-9484" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="563e-2337-decd-759b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Adrenal Glands" id="dc2c-02fb-c3bb-2158" hidden="false" type="profile" targetId="ba15-539b-8427-fa0b"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be53-53ec-7c07-32fa"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="dd8e-dc47-c9d1-9bb3">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Toxin Sacs" id="349e-88f7-ed7a-c6dc" hidden="false" type="profile" targetId="bf9b-5f6f-7099-c9e8"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d83c-cf99-f82a-6b94"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Regeneration" hidden="false" id="b4a7-76c9-9a8c-a186">
+              <infoLinks>
+                <infoLink name="Regeneration" id="c829-6bd3-16a8-0595" hidden="false" type="profile" targetId="e8d9-c24c-0ada-0f4a"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65e5-4c5e-4985-21d5"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="Terror from the Deep" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="6589-4325-15fa-2cb6">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If the Mawloc Deep Strikes onto a point occupied by another model, do not roll on the Deep Strike Mishap table but instead do the following.
+
+
+Place the Large blast template directly over the spot the Mawloc is emerging from. Every unit under the template suffers a number of Strength 6, AP 2 hits equal to the number of models in that unit that are wholly or partially covered by the template. Vehicles are always struck on their rear armour. If any unit still has surviving models under the template, move that unit by the minimum distance necessary to clear all models from beneath the template whilst maintaining squad coherency and avoiding impassable terrain. Units that were locked in combat prior to the Mawloc&apos;s attack must remain in base contact if possible, but otherwise models cannot be moved within 1&quot; of an enemy model. Vehicles, including immobile vehicles, retain their original facing if they are moved. Any models that cannot be moved out of the way are destroyed. After all casualties have been determined, replace the large blast template with the Mawloc.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Burrow" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="803c-dc95-e80c-48db">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Mawloc can, at any point during its Movement phase, elect to re-burrow provided it is not engaged in close combat. If a Mawloc chooses to do so remove it from the table and place it back in reserve. It automatically re-emerges vis Deep Strike during your next Movement phase. Note that a Mawloc cannot Deep Strike and burrow in the same turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Tyrannofex" hidden="false" id="47b8-e3a1-9068-de42">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="250"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Tyrannofex" id="b446-f461-19ee-01d2" hidden="false" type="profile" targetId="2744-7e34-284c-0c62"/>
+        <infoLink name="Monstrous Creature" id="c9b7-d1ea-615e-7e26" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Claws and Teeth" id="b6f8-4099-fac4-89b8" hidden="false" type="profile" targetId="7c9d-9e0a-cc00-defb"/>
+        <infoLink name="Instinctive Behaviour - Lurk" id="f53b-5310-4ebf-4b68" hidden="false" type="profile" targetId="b0d0-ba0f-5b54-513e"/>
+        <infoLink name="Fearless" id="ef84-2bdd-3284-70bd" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapon" id="eb69-db93-2b77-90a5" hidden="false" defaultSelectionEntryId="ed1e-63de-d0cf-3aab">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Acid Spray" hidden="false" id="ed1e-63de-d0cf-3aab">
+              <infoLinks>
+                <infoLink name="Acid Spray" id="cd6d-ea1c-c4e6-9ab2" hidden="false" type="profile" targetId="22d1-385f-56f0-8466"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Fleshborer Hive" hidden="false" id="d4cf-2589-a54e-25a0">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Fleshborer Hive" id="3df7-4206-d764-d7b6" hidden="false" type="profile" targetId="c30d-59ea-4eb1-ee27"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Rupture Cannon" hidden="false" id="91dc-ebaa-8807-12ed">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Rupture Cannon" id="fe37-00d7-e834-38f5" hidden="false" type="profile" targetId="95da-185c-8c2a-797c"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="b59b-e8f8-f2ad-0cee-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b59b-e8f8-f2ad-0cee-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Carapace weapon" id="2277-c69c-06f3-a68e" hidden="false" defaultSelectionEntryId="c9d2-37ec-a743-a834">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Stinger Salvo" hidden="false" id="c9d2-37ec-a743-a834">
+              <infoLinks>
+                <infoLink name="Stinger Salvo" id="e954-7e1d-87b4-9431" hidden="false" type="profile" targetId="624c-10a6-80bd-fd9f"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Cluster Spines" hidden="false" id="0fa5-365d-a673-796f">
+              <infoLinks>
+                <infoLink name="Cluster Spines" id="ca45-c139-6bd4-4591" hidden="false" type="profile" targetId="45f6-a36b-9494-e369"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="30be-d54f-a639-11f3-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="30be-d54f-a639-11f3-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Thorax Swarm" id="1c6a-9697-5199-135d" hidden="false" defaultSelectionEntryId="b21d-06d6-0317-1edb">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Electroshock Grubs" hidden="false" id="b21d-06d6-0317-1edb">
+              <infoLinks>
+                <infoLink name="Thorax Swarm (Electroshock Grubs)" id="8f6f-f3c9-d4da-a488" hidden="false" type="profile" targetId="6d68-3102-357f-54a6"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Desiccator Larvae" hidden="false" id="d682-95ea-ed06-90cc">
+              <infoLinks>
+                <infoLink name="Thorax Swarm (Desiccator Larvae)" id="ad39-79ae-1dbb-b337" hidden="false" type="profile" targetId="4c04-81db-6eb3-090b"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shreddershard Beetles" hidden="false" id="55eb-c188-9b08-b6c5">
+              <infoLinks>
+                <infoLink name="Thorax Swarm (Shreddershard Beetles)" id="b861-c87c-f692-29b4" hidden="false" type="profile" targetId="4753-5245-8609-61f9"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="3ec7-af00-852b-8dc1-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3ec7-af00-852b-8dc1-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="The Tyrannofex may take" id="3cf9-1507-c86e-16dc" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="4aca-0110-f739-9078">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Adrenal Glands" id="ebe1-35bc-aea3-4fc1" hidden="false" type="profile" targetId="ba15-539b-8427-fa0b"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a251-1f7c-d08a-3b8f"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="795f-b295-bff4-6505">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Toxin Sacs" id="a520-8973-1b4c-9ede" hidden="false" type="profile" targetId="bf9b-5f6f-7099-c9e8"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="54ac-66f9-8c9e-f937"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Regeneration" hidden="false" id="4c6c-9227-876b-426e">
+              <infoLinks>
+                <infoLink name="Regeneration" id="507d-b5fa-95b2-79be" hidden="false" type="profile" targetId="e8d9-c24c-0ada-0f4a"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f00b-d640-ba01-a82f"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule name="Instinctive Behaviour" id="2661-5eaf-7f02-4291" hidden="false">
@@ -1976,6 +3685,122 @@ A Mycetic Spore can carry a single unit of up to 20 infantry models or a single 
       </constraints>
       <categoryLinks>
         <categoryLink targetId="978c-e18f-8aeb-f4c1" id="dbd8-884d-b67b-411c" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Venomthrope Brood" hidden="false" id="f8ac-b3b4-f8a3-83a2" type="selectionEntry" targetId="145d-c581-4dda-a684">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="8416-76b0-1795-1d6c" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Zoanthrope Brood" hidden="false" id="0b04-2882-f65c-74c8" type="selectionEntry" targetId="6adf-75d3-9773-652c">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="db26-73c2-3e77-66ed" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="The Doom of Malan&apos;tai" hidden="false" id="df60-2cb8-6b1b-07bb" type="selectionEntry" targetId="be4b-26de-f016-d121">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e52-81e6-7923-0ee1"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="a6f3-d08b-cbaa-e783" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Pyrovore Brood" hidden="false" id="6f10-f7e9-82fd-eddd" type="selectionEntry" targetId="82a3-852f-7b1e-b597">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="c51c-e9e6-2ab8-5741" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ymgarl Genestealer Brood" hidden="false" id="1060-b3fe-6d99-93fa" type="selectionEntry" targetId="e617-087f-8fcf-0ec3">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="2891-b61d-d907-b8e2" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tyranid Warrior Brood" hidden="false" id="6de2-f4d7-8181-b494" type="selectionEntry" targetId="a5b4-8db3-10f6-d26f">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="ee56-3678-01b3-f407" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Genestealer Brood" hidden="false" id="e5f7-6054-3e35-cfe1" type="selectionEntry" targetId="8033-7f5c-2617-d04c">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="abda-2589-12ab-1ccf" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Termagant Brood" hidden="false" id="b639-ffe6-63b2-f07c" type="selectionEntry" targetId="4fed-36d0-39a8-e477">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="3f24-8e26-cdb0-3fba" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hormagaunt Brood" hidden="false" id="6d28-bcd1-f038-921b" type="selectionEntry" targetId="c1ea-33fd-b106-ab15">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="555e-3468-5e76-df4f" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ripper Swarm Brood" hidden="false" id="2474-a58f-ce38-35cd" type="selectionEntry" targetId="9a92-7c07-f170-c3a9">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="4408-9e7f-93b5-631b" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tyranid Shrikes" hidden="false" id="669c-f487-cf44-6712" type="selectionEntry" targetId="0189-36bf-3860-ac9c">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="f9f5-3d3c-70fe-f373" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ravener Brood" hidden="false" id="e220-b910-55a0-d031" type="selectionEntry" targetId="9590-5821-44fe-6866">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="1da9-ea6d-6bce-e3a9" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sky-slasher Swarm Brood" hidden="false" id="8322-37a2-cc58-a201" type="selectionEntry" targetId="8f63-c6fc-d36b-9e6a">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="7b60-f978-cc67-fafa" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Gargoyle Brood" hidden="false" id="20ea-16e7-9102-cb34" type="selectionEntry" targetId="a3fe-0404-a74f-efdc">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="4c4f-7970-223c-1ee0" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Harpy" hidden="false" id="694e-64f0-7d9f-5514" type="selectionEntry" targetId="640e-1695-a3e4-8fa6">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="28ec-10b3-b3ac-1da4" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Spore Mine Cluster" hidden="false" id="fba5-6825-5fcf-fbd2" type="selectionEntry" targetId="3a5f-ff5d-a0c5-1456">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="0d21-3d44-e0b8-e3af" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Carnifex Brood" hidden="false" id="2d55-13e7-abc4-959e" type="selectionEntry" targetId="72b2-b527-e277-7cfc">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="55e5-695c-fb4c-b7ed" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Old One Eye" hidden="false" id="41a6-d7b5-3300-3cdd" type="selectionEntry" targetId="6f8a-5d1d-1440-5c0f">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="f33d-0031-30d2-902e" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a2c3-be71-c1f2-c6b5"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Biovore Brood" hidden="false" id="d829-8619-0075-a275" type="selectionEntry" targetId="ba3e-4974-c2a3-5590">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="584b-1c95-6414-c786" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Trygon" hidden="false" id="9135-fb52-7aaa-1b43" type="selectionEntry" targetId="998f-bf31-8ab5-b716">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="c354-4740-f30f-cdcf" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mawloc" hidden="false" id="4995-e023-20a8-77d4" type="selectionEntry" targetId="482d-fbbb-5430-df9d">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="ff77-dc8b-cfcc-d1f7" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tyrannofex" hidden="false" id="08f0-5fd3-6e34-1f91" type="selectionEntry" targetId="47b8-e3a1-9068-de42">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="8230-8706-a996-8f7c" primary="true" name="Heavy Support"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
