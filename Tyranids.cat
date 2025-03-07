@@ -2099,7 +2099,7 @@ After this power has been used, but before any additional Wounds are gained due 
       <profiles>
         <profile name="Dormant" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="6ec2-76fa-e53b-9109">
           <characteristics>
-            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Ymgarl Genestealers can elect to start the game in a dormant state provided there is at least one piece of area terrain large enough to accommodate the entire unit (be sure to discuss with your opponent what the boundaries of all such terrain features are before the game begins). If you choose to do this, the brood is not deployed with the rest of the army. Instead, after both sides have deployed, secretly write down which piece of terrain they are lying dormant in. When the brood becomes available from reserve, they must be deployed such that all models are within the selected terrain. If any models cannot be placed inside this terrain due to impassable terrain or enemy within 1&quot;, they are destroyed. The Ymgarl Genestealers can move and assault normally in the same turn they are revealed. </characteristic>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Ymgarl Genestealers can elect to start the game in a dormant state provided there is at least one piece of area terrain large enough to accommodate the entire unit (be sure to discuss with your opponent what the boundaries of all such terrain features are before the game begins). If you choose to do this, the brood is not deployed with the rest of the army. Instead, after both sides have deployed, secretly write down which piece of terrain they are lying dormant in. When the brood becomes available from reserve, they must be deployed such that all models are within the selected terrain. If any models cannot be placed inside this terrain due to impassable terrain or enemy within 1&quot;, they are destroyed. The Ymgarl Genestealers can move and assault normally in the same turn they are revealed.</characteristic>
           </characteristics>
         </profile>
         <profile name="Alter Form" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="b8e4-9221-24bd-5e82">
@@ -2496,7 +2496,7 @@ Protective Carapace: +1 to Toughness</characteristic>
           </selectionEntryGroups>
           <constraints>
             <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="154b-e15f-dd82-d207"/>
-            <constraint type="min" value="30" field="selections" scope="parent" shared="true" id="8af1-40bf-7f21-ce0d"/>
+            <constraint type="max" value="30" field="selections" scope="parent" shared="true" id="8af1-40bf-7f21-ce0d"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="For every 10 Termagants the brood contains, one may replace its fleshborer with a Strangleweb" hidden="false" id="acb9-cca3-41d6-62c7">
@@ -2596,7 +2596,7 @@ Protective Carapace: +1 to Toughness</characteristic>
           </infoLinks>
           <constraints>
             <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="ad74-3329-cf71-24b9"/>
-            <constraint type="min" value="9" field="selections" scope="parent" shared="true" id="dbae-ce13-827a-eea7"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="dbae-ce13-827a-eea7"/>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup name="The entire brood may take" id="8ff9-f236-dbb6-cf76" hidden="false">
@@ -3285,6 +3285,10 @@ Protective Carapace: +1 to Toughness</characteristic>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fc02-8eec-ef11-bfb4"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="2632-6320-158e-767c"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>

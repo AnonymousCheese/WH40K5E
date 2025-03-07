@@ -1,0 +1,1531 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="e6da-4259-c063-f81e" name="Orks" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="&apos;Ard Boy" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="1f76-d1e7-0cb9-09d0">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Badrukk" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="facc-d3f2-04d0-f6cc">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Big Mek" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="4974-47c5-f103-dcaf">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Burna Boy" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="c1b6-f44e-ed7c-958f">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Deffkopta" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="4a0a-40b8-a7c5-bf0d">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4(5)</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dok Grotsnik" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="2191-5f91-d044-29cb">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Flash Gitz" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="2844-8a18-d3af-149e">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ghazghkull" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="c959-f24c-cdb9-0d5b">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">5</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Gretchin" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="6882-d396-31c8-f316">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">2</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">2</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">2</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">5</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Kommando" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="8222-6e45-b87d-0472">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lootas" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="265b-26d4-e4ef-78e6">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Meganob" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="359d-184d-8dfe-d9df">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mek" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="4953-1d44-13a4-8a30">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Nob" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="2170-7dfa-4d28-aa46">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Old Zogwort" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e4a4-f964-b4ff-8591">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ork Boy" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="616f-0467-bef9-3819">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Painboy" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="dc54-0a5a-b0bf-127c">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Runtherd" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="031c-245c-a9e1-fe3d">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Snikrot" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="ef66-92c8-3639-f737">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Stormboy" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="a1da-a9d5-4643-4a81">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tankbusta" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="b19f-1e01-401c-f1f3">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Warbiker" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="01e4-1027-1d8d-880e">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4(5)</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Warboss" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="6fb5-d408-41bf-65ba">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wazdakka" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="5ae0-70df-dab3-0470">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5(6)</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Weirdboy" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="b9f5-a5b4-80c3-69ba">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Zagstruk" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="fbf4-0732-94f3-d0f7">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Deff Dread" typeId="acd3-2539-3641-1250" typeName="Walker Vehicle" hidden="false" id="6119-b15e-bb04-1548">
+      <characteristics>
+        <characteristic name="WS" typeId="3d9c-8977-9b95-824b">4</characteristic>
+        <characteristic name="BS" typeId="ea47-07be-ab4a-6569">2</characteristic>
+        <characteristic name="STR" typeId="a630-c404-957f-a49f">5</characteristic>
+        <characteristic name="F" typeId="3549-2d9e-3052-b396">12</characteristic>
+        <characteristic name="S" typeId="94fc-8af8-d4d4-7b1a">12</characteristic>
+        <characteristic name="R" typeId="4eca-6e3c-2053-e75a">10</characteristic>
+        <characteristic name="I" typeId="f706-f227-5d93-0fe3">2</characteristic>
+        <characteristic name="A" typeId="12be-9dd2-0dd7-b17a">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Killa Kan" typeId="acd3-2539-3641-1250" typeName="Walker Vehicle" hidden="false" id="53d2-e1c1-2cd6-ed4f">
+      <characteristics>
+        <characteristic name="WS" typeId="3d9c-8977-9b95-824b">2</characteristic>
+        <characteristic name="BS" typeId="ea47-07be-ab4a-6569">3</characteristic>
+        <characteristic name="STR" typeId="a630-c404-957f-a49f">5</characteristic>
+        <characteristic name="F" typeId="3549-2d9e-3052-b396">11</characteristic>
+        <characteristic name="S" typeId="94fc-8af8-d4d4-7b1a">11</characteristic>
+        <characteristic name="R" typeId="4eca-6e3c-2053-e75a">10</characteristic>
+        <characteristic name="I" typeId="f706-f227-5d93-0fe3">2</characteristic>
+        <characteristic name="A" typeId="12be-9dd2-0dd7-b17a">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Battlewagon" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="d706-a27a-c0a8-7e37">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">2</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">14</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">12</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Big Gun" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="0b6d-0fa0-4036-628c">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">3</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">10</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">10</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Looted Wagon" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="40ca-7daa-5c96-5ef2">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">2</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">11</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">11</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Trukk" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="de23-31b0-7e28-5444">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">2</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">10</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">10</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Warbuggy" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="9adc-9290-e4b7-f572">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">2</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">10</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">10</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Big Shoota" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="dd74-99d0-eda5-7f44">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Boomgun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="24ca-6eba-51e7-7e4c">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Orgnance 1, Large Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Burnas" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="bf3f-e3cb-ceca-2958">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Dakkaguns" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="3a03-309c-19a5-9b1f">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Deffguns" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="c3fe-a1a9-1292-05d3">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy D3</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Grot Blasta" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="2d25-0e50-600d-90b1">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Grotzooka" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="6b9c-e986-55e7-8ce6">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2, Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Kannon (Frag)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="a508-fd47-9789-f683">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Kannon (Shell)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="69ea-02af-bd76-b124">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Killkannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="9152-4d2a-0794-de3e">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Large Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Kustom Mega-blasta" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="6cc4-37a2-1053-bc7b">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Gets Hot!</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Lobba" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4556-c4b4-eb6e-8ce2">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast, Barrage</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Rokkit Launcha" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="21ca-215a-88b3-e23c">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Shokk Attack Gun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="8323-712f-a42c-d113">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">60&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">2D6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Large Blast, Ordnance 1 (The Shokk Attack Gun is treated as Heavy for the purposes of movement and assault)</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Roll 2D6 to determine its Strength after placing the template but before rolling the Scatter dice. If a double (or an 11) is rolled for the gun&apos;s Strength, consult the chart below.
+
+
+1,1 Boom: The shokk attack gun explodes, leaving a crackling orb of unreality in its place. No shot is fired. Remove the Mek as a casualty. Models within D6&quot; are removed from play.
+
+
+2,2 Oops: The Mek operator struggles to control the gun as it spins out of control. The opponent may choose the target of the shokk attack gun this turn. This may be a unit on the same side as the Mek.
+
+
+3,3 Gah: The exit hole materialises in the wrong place. Revolve this shot upon the nearest unit to the intended target, be it friend or foe.
+
+
+4,4 Sploosh: The Snotling exit the tunnel in an explosive spray of bone and gore. Resolve the attack upon the target, but use the small template. Any hits are resolved with a Strength and AP of 6.
+
+
+5,5 Zoink: In a freak accident, the shokk attack gun fires the Mek and leaves the Snotlings in place. No shot is fired. Immediately place the Mek in base contact with the target, and treat him as if he has initiated an assault that turn.
+
+
+5,6 Bzzap: The shokk attack gun&apos;s field collapses, opening a tiny portal into the warp. Only the model under the template hole is hit, but the shot is Strength 10. The gun may not fire next turn.
+
+
+6,6 Raargh: The tunnel opens a hole into the warp itself, and a ravening cloud of sentient daemonic ichor gushes out into the material realm. Any model hit by the gun this turn is removed from play. Vehicles take an automatic penetrating hit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Skorcha" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="78a3-0775-367f-aec7">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Shoota" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="d829-45f3-6722-9c6f">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Snazzgun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="5499-c093-a33b-9799">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">D6</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Slugga" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="6af5-d755-49e5-700d">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Zzap Gun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="b23c-729e-e0d2-0ab4">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">2D6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Each time a Zzap gun batter is fired roll 2D6 to determine its Strength. If the roll is above 10, one of the Gretchin crew is killed but the shot is still fired, counting as S10. When they score glancing or penetrating hits against vehicles, Zzap guns automatically cause a Crew Shaken result in addition to any other effects.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Big Choppa" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="cf9b-b3be-00d9-802c">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A big choppa is a two-handed close combat weapon. A model using a big choppa adds +2 to its Strength.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bomb-Squig" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="1aa3-679f-e484-3d00">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A Tankbusta may release a Bomb-squig instead of shooting. Roll a dice. On the roll of a 2+ the Bomb-squig will run straight into the nearest enemy vehicle within 18&quot; and detonate, causing a S8 hit on the section of the vehicle facing the Tankbusta. On the roll of a 1 the squig will run straight into the nearest friendly vehicle within 18&quot; and detonate there instead. Remove the Bomb-squig once it has been released, whether or not they are in range of their target. Bomb-squig models are purely decorative and do not have a profile.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Choppa" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="7c5b-db0d-b847-c0ce">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">Choppas count as a normal close combat weapon.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grabba Stikk" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="d5a0-bbbe-d646-5dd9">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A model with a Grabba Stikk attacks normally but each Assault phase he can cause a single model in base contact to lose an Attack (to a minimum of 1).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grot-prod" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="18f1-5125-fd25-4c38">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A model with a Grot-prod counts as having a Poisoned 4+ melee weapon.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Kustom Force Field" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="08fd-7ff9-1a41-dd7c">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A Kustom Force Field gives all units within 6&quot; of the Mek a cover save of 5+. Vehicles within 6&quot; are treated as being obscured targets. The force field has no effect in an assault.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Power Klaw" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="6705-2eb7-6536-7904">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Power Klaw counts as a Power Fist.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Stikkbomb" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="9e56-a965-6c2e-f383">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Stikkbombz count as frag grenades in all respects.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tankbusta Bombs" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="70fb-44c8-f239-f39e">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Tankbusta bombs are used just like Krak Grenades, except that they have an armour penetration of 2D6+6.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tankhammer" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="c938-5594-247c-fd07">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Tankhammer is a two-handed weapon that confers S10 in the Assault phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="&apos;Urty Syringe" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="02aa-48ad-fcb0-ae2a">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">An &apos;urty syringe is a Poisoned 4+ close combat weapon.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Cybork Body" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="db0c-7be3-0871-ec2d">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with a Cybork body has a 5+ Invulnerable saving throw.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="&apos;Eavy Armour" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="de7a-2ad5-747f-0e00">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">This grants the bearer a 4+ Armour save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mega Armour" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="fe2e-b047-c235-e67e">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Mega Armour confers a 2+ armour save and includes both a twin-linked shoota and a power klaw. A model wearing mega armour has the Slow and Purposeful special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Shoota" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="7017-2bdb-0dd4-58f8">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Ammo Runt" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="0569-d662-c6dd-c21a">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with an ammo runt is allowed to re-roll one To Hit roll for a shooting attack, one per game. Ammo runt models are purely decorative and are always ignored for game purposes.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Attack Squig" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="a9d0-764b-8aec-749a">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A character with an attack squig benefits from +1 Attack</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bosspole" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="e01c-2614-7a86-cde2">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Each time a unit with a Bosspole fails a Morale test you may choose to inflict a wound on that unit (not on the model with the bosspole) in order to re-roll that Morale test.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dok&apos;s Tools" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="89d6-38bc-7c40-b836">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with this ability confers the Feel No Pain ability to his unit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mek&apos;s Tools" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="74a7-584a-a26b-eece">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">If a Mekboy or Big Mek is inside (or in base contact with) a vehicle at the beginning of his Shooting phase, he can attempt to repair a single Weapon Destroyed or Immobilised result instead of shooting. Roll a D6 - on the roll of a 4+ the result is negated. This could allow a previously destroyed weapon to fire in that Shooting phase. On the roll of a 1, the Mek gets a bit carried away and the vehicle counts as shaken.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Stormboyz Rokkit Pack" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="ca15-e261-7493-3e4f">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Rokkit packs count as jump packs. Every time the Stormboyz unit utilises its rokkit packs to move or fall back, roll a D6. On the roll of a 1, one of the rokkit packs has gone out of control. Its owner lands on his head and his pack detonates. Remove a Stormboy model as a casualty. Regardless of the result you may add the number rolled to the amount the unit moves that turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Waaagh! Banner" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="cc13-130c-897e-72bb">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A mob including a Waaagh! Banner has +1 WS</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Warbike" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="719e-aa29-8b6f-e437">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Any model mounted on a Warbite adds 1 to his Toughness (though not for determining Instant Death), modifies his troop type to Bike, gains a 4+ armour save and the Exhaust Cloud special rule. Warbikes have noisy twin-linked dakkaguns mounted on their bikes.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Dakkaguns" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="ce57-bc62-088c-ddba">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="&apos;Ard Case" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="36ce-0eb6-f04d-1a34">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A vehicle with an &apos;ard case no longer counts as Open-topped. Note that this affects its Access Points and Fire Points.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Armour Plates" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="3ebf-07b8-e5ff-f2ae">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The bearer treats &apos;Crew Stunned&apos; results as &apos;Crew Shaken&apos; results instead.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Boarding Plank" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="ed45-86d8-2606-20a5">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A boarding plank allows a single embarked Ork to make its close combat attacks against an enemy vehicle within 2&quot; exactly as if the Ork were disembarked and charging, provided neither vehicle has moved more than 12&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Deff Rolla" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="bb0c-2f80-8288-f7d8">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A Battlewagon with a Deff Rolla may re-roll Dangerous Terrain tests. Any Tank Shock made by a Battlewagon with a Deff Rolla causes D6 Strength 10 hits on the vehicle unit. If the unit elects to make a Death or Glory attack, it takes a further D6 Strength 10 hits in addition to the usual effects.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grabbin&apos; Klaw" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="9d90-7611-47f1-a479">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">At the beginning of the enemy Movement phase, nominate an enemy vehicle within 2&quot; of the Grabbin&apos; Klaw. On the roll of a 4+ that vehicle may not move this turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grot Riggers" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="fdcc-0b48-84d6-ed83">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">An Immobilised Ork vehicle with Grot Riggers may roll a dice during the Ork shooting phase - on a 4+ the Immobilised result is negated. The vehicle is able to start moving next turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Red Paint Job" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="cbc5-3c46-4e0b-b124">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Ork vehicles with red paint jobs add +1&quot; to their move in the Movement phase but do not incur penalties for this extra inch. For example, a vehicle could move 13&quot; and still counts as moving 12&quot;.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Reinforced Ram" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="4936-981a-7f82-6638">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A vehicle with a reinforced ram can Tank Shock, and treats its from armour as two higher than normal when resolving Death or Glory attacks (to a maximum of 12). Furthermore the vehicle may re-roll Dangerous Terrain tests.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Stikkbomb Chukka" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="cdff-95ae-bee8-40fc">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Any unit disembarking from a vehicle with a stikkbomb chukka is treated as having stikkbombs if they charge into combat that turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wreckin&apos; Ball" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="e8de-db8b-a2e7-3f6b">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A vehicle with a wreckin&apos; ball causes a Strength 9 hit upon one unengaged enemy unit within 2&quot; of the wreckin&apos; ball at the beginning of the Assault phase on the rolll of a 4+. The vehicle may not use its wreckin&apos; ball if it has moved more than 12&quot; that turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Waaagh!" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="7b0a-52ae-ae3a-4538">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Once per game, the Ork player can declare a Waaagh! during his Shooting phase. This may not normally be declared on the first turn, all friendly Ork infantry units have the &apos;fleet&apos; rule (not Gretchin units, they&apos;re far too weedy for a proper Waaagh!). 
+
+
+If a unit rolls a 1 when making this Waaagh! movement, the Orks start fightin before they get to the enemy. One model from that unit takes a single wound. Note that the unit may still move an inch, and assault as normal.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mob Rule!" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="ae62-4a3e-a956-b78d">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Ork mobs may always choose to substitute the number of Orks in their mob for their normal Leadership value. If an Ork mob numbers 11 or more models, it has the Fearless special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Weirdboy Psychic Powers" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="5f6c-49a8-31a2-05dc">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Weirdboys cannot control their psychic powers. At the beginning of each Ork Shooting phase, a Weirdboy must roll on the following table to find out which Psychic power he must use that turn.
+
+
+Weirdboys must take a Psychic test before determining the power they use. If the test is failed, do not roll to determine which power he uses. Remember that a Weirdboy&apos;s Leadership is affected by Mob Rule!. A Weirdboy using the Frazzle or Zzap power is counted as having shot a weapon that phase. If the Weirdboy is in combat, do not apply any results of a 1, 2 or 3 - instead the Weirdboy is treated as having a power weapon for the duration of that turn.
+
+
+1 - &apos;Eadbanger
+
+
+2 - Frazzle
+
+
+3 - Zzap
+
+
+4 - Warpath
+
+
+5 - &apos;Ere we go
+
+
+6 - Waaaagh!</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="&apos;Eadbanger" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="a27b-0139-17c1-06f3">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">Resolve the Frazzle psychic power detailed below with the template centred on the Weirdboy himself.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Frazzle" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="042c-b3fb-ae96-81c7">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Blast, Pinning</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Psychic Shooting Attack</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Zzap" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="464b-1859-7b26-c03d">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Melta</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Warpath" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="79d7-b33b-4bc2-6674">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">All Orks in the Weirdboy&apos;s unit have +1 Attacks until the beginning of the next Ork turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="&apos;Ere We Go" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="0233-2c3f-0da1-1224">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">The Weirdboy and any unit he is with must be placed anywhere on the board as per the Deep Strike rules. This power must be used even if enemy models are in base contact; if so the enemy models stay in place.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Waaaagh!" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="bf71-642f-8fb7-0c75">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">A Waaagh! is automatically invoked this turn, This does not use up the normal Waaagh! available to the Ork player. Such is the power of the Weirdboy&apos;s energy discharge that this may even allow the Orks to use a Waaagh! on the first turn of the game. Note that multiple Waaaghs! have no cumulative effect.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rokkit Kombi-weapon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="8dfa-dc28-fde9-e1ac">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, One-shot</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Skorcha Kombi-weapon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="2b10-adb1-f767-671f">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, One-Shot</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Warboss in Mega-armour" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e31c-7d10-6799-8cd9">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grot Oilers" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="3cb5-80d6-bdae-a403">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A Grot Oiler allows a Mek to re-roll a failed Mek&apos;s Tools repair roll. Remove the Oiler model once he has been used. Oiler models are purely decorative.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Ghazghkull Thraka" hidden="false" id="6abe-ecc3-945d-68ee">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="225"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Ghazghkull" id="9e65-1074-4070-c381" hidden="false" type="profile" targetId="c959-f24c-cdb9-0d5b"/>
+        <infoLink name="Cybork Body" id="7011-19e0-cd1c-1f5e" hidden="false" type="profile" targetId="db0c-7be3-0871-ec2d"/>
+        <infoLink name="Bosspole" id="261f-5de7-c90f-035f" hidden="false" type="profile" targetId="e01c-2614-7a86-cde2"/>
+        <infoLink name="Mega Armour" id="e9c8-fecd-6707-d9d6" hidden="false" type="profile" targetId="fe2e-b047-c235-e67e"/>
+        <infoLink name="Stikkbomb" id="8ec7-e165-cd80-466f" hidden="false" type="profile" targetId="9e56-a965-6c2e-f383"/>
+        <infoLink name="Big Shoota" id="60d3-e9ca-9a4c-c3dd" hidden="false" type="profile" targetId="dd74-99d0-eda5-7f44"/>
+        <infoLink name="Independent Character" id="827e-f4b9-28bb-b963" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Furious Charge" id="45ec-9077-b4fe-dbcb" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Mob Rule!" id="65f7-372b-fb68-892c" hidden="false" type="profile" targetId="ae62-4a3e-a956-b78d"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Adamantium Skull" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="e975-7cc1-b851-d8d1">
+          <characteristics>
+            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">When Ghazghkull charges, he gets +2 Attacks instead of the usual +1. Furthermore, Ghazghkull is immune to instant death.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Prophet of the Waaagh!" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="8be8-5c65-6007-caa0">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Ghazghkull&apos;s Waaagh! can be summoned at any time, but only once per game, and not on the first turn. It replaces the army&apos;s usual Waaagh! - this one is better.
+
+
+Ghazghkull&apos;s Waaagh! lasts the remainter of that player turn and all the following player turn. During this period Ghazghkull&apos;s saving throw is Invulnerable.
+
+
+Furthermore, for the duration of the Waaagh! all Ork infantry units automatically count as rolling a 6 for the Waaagh! movement they wish to make. All non-fleeing friendly units become Fearless for the duration of the Waaagh!.
+
+
+Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot combine his Waaagh! with the Waaagh! generated by a Weirdboy.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Ammo Runt" hidden="false" id="f093-a49d-45e7-8170">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Ammo Runt" id="4111-7610-fd54-a653" hidden="false" type="profile" targetId="0569-d662-c6dd-c21a"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36fb-69ad-6fca-6009"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Mad Dok Grotsnik" hidden="false" id="a209-10ec-9860-7ac7">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="160"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Dok Grotsnik" id="e79d-1cf7-1ddc-e4c5" hidden="false" type="profile" targetId="2191-5f91-d044-29cb"/>
+        <infoLink name="Power Klaw" id="7352-d1cb-4f1b-da4b" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
+        <infoLink name="Slugga" id="9874-34a3-a210-fed1" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
+        <infoLink name="&apos;Urty Syringe" id="50f1-9a40-49c3-9654" hidden="false" type="profile" targetId="02aa-48ad-fcb0-ae2a"/>
+        <infoLink name="Dok&apos;s Tools" id="1261-e18e-1206-11c2" hidden="false" type="profile" targetId="89d6-38bc-7c40-b836"/>
+        <infoLink name="Cybork Body" id="c934-735b-5cbf-f86d" hidden="false" type="profile" targetId="db0c-7be3-0871-ec2d"/>
+        <infoLink name="Independent Character" id="cc15-0de0-ebfa-8747" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Furious Charge" id="d536-cfee-7597-e75e" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Fearless" id="9794-71f4-e5da-e177" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Waaagh!" id="6f2c-24c5-798f-55a2" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
+      </infoLinks>
+      <profiles>
+        <profile name="One Scalpel Short of a Medpack" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="7b6b-dd2e-3e6c-77a4">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Grotsnik is fearless, as is any unit he joins. Furthermore, Grotsnik is so bloodthirsty that he will always move as fast as possible towards the nearest enemy, assaulting it if possible. This bloodlust is conferred to any unit he joins. This means that once Dok Grotsnik has joined a unit, he may not leave it unless he is the last remaining member of that unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Wazdakka Gutsmek" hidden="false" id="9051-10d0-f999-0e20">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="180"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Wazdakka" id="de68-83f7-ec0f-595d" hidden="false" type="profile" targetId="5ae0-70df-dab3-0470"/>
+        <infoLink name="Bike" id="c0e0-53eb-1ec6-5b36" hidden="false" type="rule" targetId="3326-67e1-a5e9-b3e7"/>
+        <infoLink name="Kustom Mega-blasta" id="f55e-7409-a7b2-52c3" hidden="false" type="profile" targetId="6cc4-37a2-1053-bc7b"/>
+        <infoLink name="Power Klaw" id="59c5-fdce-6519-a477" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
+        <infoLink name="Slugga" id="138b-1c3e-61cf-7f57" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
+        <infoLink name="Mek&apos;s Tools" id="3d2c-2e07-2b6c-08d6" hidden="false" type="profile" targetId="74a7-584a-a26b-eece"/>
+        <infoLink name="Stikkbomb" id="9423-9a4f-53e9-0832" hidden="false" type="profile" targetId="9e56-a965-6c2e-f383"/>
+        <infoLink name="Bosspole" id="ccca-11da-4990-4285" hidden="false" type="profile" targetId="e01c-2614-7a86-cde2"/>
+        <infoLink name="Independent Character" id="2e63-7dde-f4cd-2bfa" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Furious Charge" id="88c3-ff5b-b14d-ab39" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Mob Rule!" id="638d-2b33-3feb-70ed" hidden="false" type="profile" targetId="ae62-4a3e-a956-b78d"/>
+        <infoLink name="Waaagh!" id="7212-4102-9693-ca40" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Bike of the Aporkalypse" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="9a1b-97c5-0817-aa11">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Wazdakka follows the rules for Warbikes. Furthermore, when Wazdakka&apos;s bike uses a Turbo Boost he may still fire his weapon that turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dakkakannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="6de0-3c5b-1ef8-11e8">
+          <characteristics>
+            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+            <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 4</characteristic>
+            <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Old Zogwort" hidden="false" id="af2e-abbe-0ad6-80f6">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="145"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Old Zogwort" id="d0ed-82a2-6f17-ed21" hidden="false" type="profile" targetId="e4a4-f964-b4ff-8591"/>
+        <infoLink name="Independent Character" id="54f3-49f8-f4dd-0a95" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Furious Charge" id="e352-73e3-9822-96f1" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Mob Rule!" id="5eed-04c6-01fc-7fc8" hidden="false" type="profile" targetId="ae62-4a3e-a956-b78d"/>
+        <infoLink name="Waaagh!" id="c700-0685-fe5a-47b7" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
+        <infoLink name="Psyker" id="4091-abf8-750e-783d" hidden="false" type="profile" targetId="d241-1e73-a625-ec7d"/>
+        <infoLink name="Weirdboy Psychic Powers" id="54eb-74bd-a5e2-160a" hidden="false" type="profile" targetId="5f6c-49a8-31a2-05dc"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Nest of Vipers" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="dc8a-b808-7204-335c">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Old Zogwort has an additional D6 Attacks at an Initiative of 4. All of Zogwort&apos;s Attacks are Poisoned 2+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Zogwort&apos;s Curse" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="6c08-f697-b898-7bd0">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Zogwort has the ability to transform a powerful enemy into a squig. Zogwort may use his curse as a psychic power instead of rolling on the Weirdboy Psychic power chart. Choose an indipendent Character model that is in Zogwort&apos;s line of sight. If that model is within 18&quot;, both players roll a dice. If the Ork player scores higher, the target model is replaced with an angry Squig under the control of your opponent. You must provide the Squig model. It has no wargear or special rules, but is an Independent Character that counts as infantry.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Squig" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="a84c-8619-2ec1-abc4">
+          <characteristics>
+            <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+            <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+            <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+            <characteristic name="T" typeId="ff29-f8b2-5b20-b686">2</characteristic>
+            <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+            <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+            <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+            <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">5</characteristic>
+            <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Warboss" hidden="false" id="46ab-d737-8369-46c1">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="60"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Warboss" id="b04a-1b72-7fc8-b9f1" hidden="false" type="profile" targetId="6fb5-d408-41bf-65ba"/>
+        <infoLink name="Stikkbomb" id="aafd-fc7b-4d81-e5e5" hidden="false" type="profile" targetId="9e56-a965-6c2e-f383"/>
+        <infoLink name="Independent Character" id="f2f5-173e-5476-2902" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Furious Charge" id="0b34-7c5f-5f57-28f7" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Mob Rule!" id="784f-ceb0-70c4-ed18" hidden="false" type="profile" targetId="ae62-4a3e-a956-b78d"/>
+        <infoLink name="Waaagh!" id="bd6b-1190-248f-931e" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Ranged Weapon" id="1c79-c6af-d373-792f" hidden="false" defaultSelectionEntryId="4ee6-64a8-996a-377e">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Slugga" hidden="false" id="4ee6-64a8-996a-377e">
+              <infoLinks>
+                <infoLink name="Slugga" id="5851-c04c-924d-1223" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shoota" hidden="false" id="b17d-9bee-2396-9bac">
+              <infoLinks>
+                <infoLink name="Shoota" id="61d7-e051-e3bd-e016" hidden="false" type="profile" targetId="d829-45f3-6722-9c6f"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Shoota" hidden="false" id="4596-6aa8-9335-3e5a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Twin-linked Shoota" id="6eba-ac92-aca7-fcab" hidden="false" type="profile" targetId="7017-2bdb-0dd4-58f8"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Kombi-weapon" hidden="false" id="df27-1840-9b3c-4712" type="selectionEntry" targetId="d077-973a-0026-4cbd">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="20ca-8d9d-110c-097e-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="20ca-8d9d-110c-097e-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Melee Weapon" id="77be-ada4-b5bf-d559" hidden="false" defaultSelectionEntryId="4a3c-0e35-0e85-4114">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Choppa" hidden="false" id="4a3c-0e35-0e85-4114">
+              <infoLinks>
+                <infoLink name="Choppa" id="1e56-fd6f-5e75-a055" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Big Choppa" hidden="false" id="841d-a0d1-ad08-9876">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Big Choppa" id="af16-693d-7604-4be9" hidden="false" type="profile" targetId="cf9b-b3be-00d9-802c"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="1116-ad10-7d77-11db">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Power Klaw" id="09b3-c292-15c3-0daa" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="5267-1316-d7ae-dfe6-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5267-1316-d7ae-dfe6-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take any of the following" id="729f-da90-5cda-30b8" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Warbike" hidden="false" id="a79f-0aa0-8ec2-0db4">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1549-f3fd-b91d-1304"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Warbike" id="0708-c226-d95e-a5f4" hidden="false" type="profile" targetId="719e-aa29-8b6f-e437"/>
+                <infoLink name="Bike" id="402b-58fc-15fa-e9f4" hidden="false" type="rule" targetId="3326-67e1-a5e9-b3e7"/>
+                <infoLink name="Twin-linked Dakkaguns" id="5e36-8c23-5755-ed2f" hidden="false" type="profile" targetId="ce57-bc62-088c-ddba"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ammo Runt" hidden="false" id="dcf6-2006-d208-edfa">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Ammo Runt" id="edf3-c4a0-c472-9148" hidden="false" type="profile" targetId="0569-d662-c6dd-c21a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4087-33da-4554-8e26"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Attack Squig" hidden="false" id="5805-06da-9c0e-9714">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Attack Squig" id="5ad5-9155-f028-eeed" hidden="false" type="profile" targetId="a9d0-764b-8aec-749a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="19f3-99f3-c445-f99a"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Cybork Body" hidden="false" id="01a6-62e5-9a75-f159">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Cybork Body" id="1fd9-d99a-c07e-8781" hidden="false" type="profile" targetId="db0c-7be3-0871-ec2d"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bosspole" hidden="false" id="3502-d7f2-33c5-4784">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Bosspole" id="7629-44c2-72ef-843c" hidden="false" type="profile" targetId="e01c-2614-7a86-cde2"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="&apos;Eavy Armour" hidden="false" id="a7c0-c1bc-8149-d058">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="&apos;Eavy Armour" id="66e8-c38d-04ce-b43e" hidden="false" type="profile" targetId="de7a-2ad5-747f-0e00"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Kombi-weapon" hidden="false" id="d077-973a-0026-4cbd">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Shoota/Rokkit Kombi-weapon" hidden="false" id="21c7-a0cc-421e-17b8" defaultAmount="1">
+          <infoLinks>
+            <infoLink name="Rokkit Kombi-weapon" id="d1b1-e364-62a2-6222" hidden="false" type="profile" targetId="8dfa-dc28-fde9-e1ac"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Shoota/Skorcha Kombi-weapon" hidden="false" id="2e99-3212-cdc4-7f4f">
+          <infoLinks>
+            <infoLink name="Skorcha Kombi-weapon" id="e1c6-b04a-7c86-8518" hidden="false" type="profile" targetId="2b10-adb1-f767-671f"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Shoota" id="7bba-88bc-a61a-eb73" hidden="false" type="profile" targetId="d829-45f3-6722-9c6f"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="self" shared="true" id="0a8c-ddc5-9671-15c6-min"/>
+        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0a8c-ddc5-9671-15c6-max"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Warboss in Mega-Armour" hidden="false" id="4f2a-e31e-1dbc-7ae8">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="100"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Warboss in Mega-armour" id="0b42-213c-0633-0635" hidden="false" type="profile" targetId="e31c-7d10-6799-8cd9"/>
+        <infoLink name="Stikkbomb" id="a538-f353-bffc-e2d4" hidden="false" type="profile" targetId="9e56-a965-6c2e-f383"/>
+        <infoLink name="Independent Character" id="38c6-3397-4a7e-d752" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Furious Charge" id="7114-411c-b090-fbd8" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Mob Rule!" id="fadf-878b-99dd-d93b" hidden="false" type="profile" targetId="ae62-4a3e-a956-b78d"/>
+        <infoLink name="Waaagh!" id="1f51-6b26-b57b-0c9a" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
+        <infoLink name="Slow and Purposeful" id="1b2a-fd58-72bc-b6ca" hidden="false" type="profile" targetId="4e36-f773-3571-6ed4"/>
+        <infoLink name="Twin-linked Shoota" id="2be7-ddb5-63b7-2584" hidden="false" type="profile" targetId="7017-2bdb-0dd4-58f8"/>
+        <infoLink name="Power Klaw" id="52fb-decb-b93b-f129" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May take any of the following" id="8534-3058-3d6c-875c" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ammo Runt" hidden="false" id="39a3-4a3f-e556-d086">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Ammo Runt" id="52e8-a1b5-fea9-ee23" hidden="false" type="profile" targetId="0569-d662-c6dd-c21a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5448-292e-5b1e-f319"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Attack Squig" hidden="false" id="dd64-2081-da5f-37c6">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Attack Squig" id="7770-db03-770a-9df3" hidden="false" type="profile" targetId="a9d0-764b-8aec-749a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ae0-644c-5916-34d8"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Cybork Body" hidden="false" id="5522-d07d-b8d1-ffe4">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Cybork Body" id="79b8-ba8b-9541-7fc5" hidden="false" type="profile" targetId="db0c-7be3-0871-ec2d"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bosspole" hidden="false" id="2289-5723-403e-b061">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Bosspole" id="8283-01dd-9e69-8b56" hidden="false" type="profile" targetId="e01c-2614-7a86-cde2"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="&apos;Eavy Armour" hidden="false" id="086a-5655-f8e7-5432">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="&apos;Eavy Armour" id="72f6-f81a-7608-f7d0" hidden="false" type="profile" targetId="de7a-2ad5-747f-0e00"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Big Mek" hidden="false" id="cb0d-250a-b8f4-e940">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Big Mek" id="eed6-022d-13e9-1d1f" hidden="false" type="profile" targetId="4974-47c5-f103-dcaf"/>
+        <infoLink name="Mek&apos;s Tools" id="0e11-a740-b49e-3f43" hidden="false" type="profile" targetId="74a7-584a-a26b-eece"/>
+        <infoLink name="Independent Character" id="a984-c145-767e-ae35" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Furious Charge" id="3b84-07be-92b5-799a" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Mob Rule!" id="4279-78a0-55e4-ce54" hidden="false" type="profile" targetId="ae62-4a3e-a956-b78d"/>
+        <infoLink name="Waaagh!" id="6f4d-1e9e-e04e-17b4" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Loadout" id="e733-2f05-2c5f-2966" hidden="false" defaultSelectionEntryId="c71b-6b1e-816f-624e">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Slugga" hidden="false" id="c71b-6b1e-816f-624e">
+              <infoLinks>
+                <infoLink name="Slugga" id="6c2e-096d-3819-5cf9" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shoota" hidden="false" id="f5c0-5f04-e278-b80c">
+              <infoLinks>
+                <infoLink name="Shoota" id="e6b7-b54a-bdd0-8775" hidden="false" type="profile" targetId="d829-45f3-6722-9c6f"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Kustom mega-blasta" hidden="false" id="2bf1-e1ed-6ff5-8be5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Kustom Mega-blasta" id="ec6b-0f40-db96-518b" hidden="false" type="profile" targetId="6cc4-37a2-1053-bc7b"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mega-armour" hidden="false" id="febb-063e-8b06-b709">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mega Armour" id="25c5-a938-9ae7-175b" hidden="false" type="profile" targetId="fe2e-b047-c235-e67e"/>
+                <infoLink name="Slow and Purposeful" id="b78d-f323-91e1-e354" hidden="false" type="profile" targetId="4e36-f773-3571-6ed4"/>
+                <infoLink name="Twin-linked Shoota" id="2633-6f74-d75f-6164" hidden="false" type="profile" targetId="7017-2bdb-0dd4-58f8"/>
+                <infoLink name="Power Klaw" id="0908-95f1-d7de-cfa9" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shokk Attack Gun" hidden="false" id="0ced-0947-bdbe-359b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="60"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Shokk Attack Gun" id="0340-130d-0261-a7fe" hidden="false" type="profile" targetId="8323-712f-a42c-d113"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Kustom Force Field" hidden="false" id="9aae-60ef-c4e0-d253">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Kustom Force Field" id="f5a2-9a40-85ba-2489" hidden="false" type="profile" targetId="08fd-7ff9-1a41-dd7c"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Warbike" hidden="false" id="54b0-75a2-cb0e-cc63">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Warbike" id="aa5a-99d0-be3e-1d06" hidden="false" type="profile" targetId="719e-aa29-8b6f-e437"/>
+                <infoLink name="Bike" id="76b2-8425-6749-cbd1" hidden="false" type="rule" targetId="3326-67e1-a5e9-b3e7"/>
+                <infoLink name="Twin-linked Shoota" id="6f58-50cd-783b-5045" hidden="false" type="profile" targetId="7017-2bdb-0dd4-58f8"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Kombi-weapon" hidden="false" id="3aa1-51bf-eff4-148f" type="selectionEntry" targetId="d077-973a-0026-4cbd">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="b0e5-039b-79e5-4449-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b0e5-039b-79e5-4449-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Melee Weapon" id="7245-61b7-18ec-9cd8" hidden="false" defaultSelectionEntryId="4a3c-0e35-0e85-4114">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Choppa" hidden="false" id="8d4f-08c9-cf9a-4632">
+              <infoLinks>
+                <infoLink name="Choppa" id="609a-afcd-b797-d00e" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="6586-b021-7740-22ae">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Power Klaw" id="487b-67da-fcbe-2775" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Burna" hidden="false" id="8477-8279-d125-0526">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Burnas" id="ab31-945d-97b1-91a2" hidden="false" type="profile" targetId="bf3f-e3cb-ceca-2958"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="20c4-0813-80c9-04e2-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="20c4-0813-80c9-04e2-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take any of the following" id="452a-7fcc-eb26-5901" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ammo Runt" hidden="false" id="24fc-cde0-805d-7b16">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Ammo Runt" id="2220-b2bf-916c-6645" hidden="false" type="profile" targetId="0569-d662-c6dd-c21a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c553-5f17-cbf6-3af6"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Attack Squig" hidden="false" id="9fd1-bce9-b169-2a20">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Attack Squig" id="8eb2-9338-9579-a2fd" hidden="false" type="profile" targetId="a9d0-764b-8aec-749a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1bd1-1b23-9577-968c"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Cybork Body" hidden="false" id="8e94-89c4-8ee8-583b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Cybork Body" id="e7b9-263d-4080-df79" hidden="false" type="profile" targetId="db0c-7be3-0871-ec2d"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bosspole" hidden="false" id="079f-547b-ce62-505a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Bosspole" id="c6a0-51e3-d2e8-c118" hidden="false" type="profile" targetId="e01c-2614-7a86-cde2"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="&apos;Eavy Armour" hidden="false" id="80e7-d049-5aec-6f91">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="&apos;Eavy Armour" id="f63d-9789-3233-a487" hidden="false" type="profile" targetId="de7a-2ad5-747f-0e00"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Grot Oilers" hidden="false" id="46de-ba66-d1c4-8b89">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="3669-82b4-72ba-e2c7"/>
+          </constraints>
+          <infoLinks>
+            <infoLink targetId="3cb5-80d6-bdae-a403" id="02ad-c2c5-c1b8-3933" type="profile" name="Grot Oilers" hidden="false"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Weirdboy" hidden="false" id="925e-c084-20d4-e745">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="55"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Weirdboy" id="a10b-05bc-cd7d-8eb5" hidden="false" type="profile" targetId="b9f5-a5b4-80c3-69ba"/>
+        <infoLink name="Weirdboy Psychic Powers" id="8759-0c3e-117d-dfcc" hidden="false" type="profile" targetId="5f6c-49a8-31a2-05dc"/>
+        <infoLink name="Psyker" id="d3b0-b677-f6b5-5afa" hidden="false" type="profile" targetId="d241-1e73-a625-ec7d"/>
+        <infoLink name="Independent Character" id="730c-4c9d-a11d-7a2b" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Furious Charge" id="895b-8ae9-0302-ac3a" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Mob Rule!" id="b89e-c817-21a2-0ec9" hidden="false" type="profile" targetId="ae62-4a3e-a956-b78d"/>
+        <infoLink name="Waaagh!" id="84f8-010a-5596-f680" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Upgrade to Warphead" hidden="false" id="941c-c859-0465-7c48">
+          <profiles>
+            <profile name="Warphead" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="925f-8c1c-fa94-4150">
+              <characteristics>
+                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Each turn, a Weirdboy that has been upgraded to a Warphead may re-roll the dice to see which psychic power he uses.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a7cf-c8fe-2e1f-517e"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Ghazghkull Thraka" hidden="false" id="f9c1-1987-2897-dad0" type="selectionEntry" targetId="6abe-ecc3-945d-68ee">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="249d-cf8d-0fa3-0bfe"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="874f-4718-497e-509c" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mad Dok Grotsnik" hidden="false" id="c007-0f23-ca24-532d" type="selectionEntry" targetId="a209-10ec-9860-7ac7">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="b323-d87b-17cc-84ca" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3986-ac55-e179-d134"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Wazdakka Gutsmek" hidden="false" id="332b-9407-0844-9e5e" type="selectionEntry" targetId="9051-10d0-f999-0e20">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="682e-9bc9-02eb-c71d" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ffd-837b-1691-1645"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Old Zogwort" hidden="false" id="7ccd-4a64-ffb0-932e" type="selectionEntry" targetId="af2e-abbe-0ad6-80f6">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="74ac-be39-2448-28c0" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a043-6962-d75b-a02f"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Warboss" hidden="false" id="4e76-20b5-110a-c3ae" type="selectionEntry" targetId="46ab-d737-8369-46c1">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="36a7-707d-c811-909e" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Warboss in Mega-Armour" hidden="false" id="8fbd-2fa9-3600-1b93" type="selectionEntry" targetId="4f2a-e31e-1dbc-7ae8">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="7934-afc2-6fcf-a05a" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Big Mek" hidden="false" id="2dbb-a56a-bdf5-9988" type="selectionEntry" targetId="cb0d-250a-b8f4-e940">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="8651-8e23-0ebb-784d" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Weirdboy" hidden="false" id="daf6-9eeb-1ec3-a98d" type="selectionEntry" targetId="925e-c084-20d4-e745">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="21b1-f576-55f9-36a5" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>
