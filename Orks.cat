@@ -24,7 +24,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+ (5+ Invulnerable)</characteristic>
       </characteristics>
     </profile>
     <profile name="Big Mek" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="4974-47c5-f103-dcaf">
@@ -574,7 +574,7 @@
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">D6</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
-        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Roll once each Shooting phase to determine the unit&apos;s AP, but only after the target has been chosen.</characteristic>
       </characteristics>
     </profile>
     <profile name="Slugga" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="6af5-d755-49e5-700d">
@@ -884,6 +884,60 @@ Weirdboys must take a Psychic test before determining the power they use. If the
     <profile name="Grot Oilers" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="3cb5-80d6-bdae-a403">
       <characteristics>
         <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A Grot Oiler allows a Mek to re-roll a failed Mek&apos;s Tools repair roll. Remove the Oiler model once he has been used. Oiler models are purely decorative.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grot Orderly" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="8220-f421-4cb9-b49d">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A Grot Orderley allows a Painboy&apos;s unit to re-roll a single &apos;Feel No Pain&apos; roll. Remove the Orderly model once he has been used. The Orderly model is purely decorative.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="&apos;Ard Boy Nob" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="cb5b-6539-f69d-9bc2">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Big Shoota" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="6f29-5051-9504-9814">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Rokkit Launcha" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0421-ef70-10b3-55c3">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Nob on Warbike" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="66ac-c034-7df9-8ab7">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">2</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4(5)</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Squig Hound" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="682d-f744-6245-dd2a">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Each time a unit with a Squig-hound fails a Morale test it may remove D3 Gretchin models to re-roll that Morale test.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -1473,6 +1527,2519 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Nobz" hidden="false" id="bdf3-6247-488d-f20a">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Mob" id="85fc-3a2f-5122-cb88" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Nob" hidden="false" id="2743-af08-abdb-4965">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Nob" id="f77c-a310-7f1f-5305" hidden="false" type="profile" targetId="2170-7dfa-4d28-aa46"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Ranged Weapon" id="2855-3d2d-59ff-1a40" hidden="false" defaultSelectionEntryId="2dd3-7485-af6a-89fc">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Slugga" hidden="false" id="2dd3-7485-af6a-89fc">
+                      <infoLinks>
+                        <infoLink name="Slugga" id="77d3-e4a2-8855-7f14" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin-linked Shoota" hidden="false" id="ebe1-e8f9-a17e-fc2b">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Twin-linked Shoota" id="54f5-45cb-c191-0086" hidden="false" type="profile" targetId="7017-2bdb-0dd4-58f8"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <entryLinks>
+                    <entryLink import="true" name="Kombi-weapon" hidden="false" id="f11e-05ca-436a-6075" type="selectionEntry" targetId="d077-973a-0026-4cbd">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="bfda-1e7d-cbb6-264a-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="bfda-1e7d-cbb6-264a-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Close Combat Weapon" id="b7b1-c04c-4cd8-3cf8" hidden="false" defaultSelectionEntryId="75b3-4460-050b-e191">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Choppa" hidden="false" id="75b3-4460-050b-e191">
+                      <infoLinks>
+                        <infoLink name="Choppa" id="45ea-2f4b-e9b6-59e4" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Big Choppa" hidden="false" id="ab01-691a-bb18-eb7e">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Big Choppa" id="4fcf-befb-f987-2a53" hidden="false" type="profile" targetId="cf9b-b3be-00d9-802c"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="cef9-3285-a64c-b20b">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Klaw" id="395a-d9c6-0f1b-324e" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="d695-9f6e-a7fb-f164-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d695-9f6e-a7fb-f164-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Any nob may take any of the following" id="c9ed-cf9e-c851-1c6f" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="&apos;Eavy Armour" hidden="false" id="ae89-bed5-3017-edc8">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="&apos;Eavy Armour" id="2a55-95bb-ba76-56ec" hidden="false" type="profile" targetId="de7a-2ad5-747f-0e00"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8630-88cc-41f2-e382"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Bosspole" hidden="false" id="ff44-d0e8-15f3-671c">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Bosspole" id="5d2d-ac34-04ae-c770" hidden="false" type="profile" targetId="e01c-2614-7a86-cde2"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1936-f23f-fad0-cb34"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Waaagh! banner" hidden="false" id="0133-20ee-fc8c-cb7d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Waaagh! Banner" id="a1fa-b280-1495-b5db" hidden="false" type="profile" targetId="cc13-130c-897e-72bb"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="774a-06ba-334d-4926"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Ammo Runt" hidden="false" id="4f30-9a33-249e-8207">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Ammo Runt" id="cd59-e0c5-90fb-5c24" hidden="false" type="profile" targetId="0569-d662-c6dd-c21a"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb1b-52d7-ee54-20dc"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="The entire mob may be upgraded to Nob Bikers" hidden="false" id="db9b-0fd8-7f46-5c16">
+                  <infoLinks>
+                    <infoLink name="Warbike" id="c1e8-5393-b2c2-4024" hidden="false" type="profile" targetId="719e-aa29-8b6f-e437"/>
+                    <infoLink name="Twin-linked Shoota" id="60da-2394-4daa-5c42" hidden="false" type="profile" targetId="7017-2bdb-0dd4-58f8"/>
+                    <infoLink name="Bike" id="eea1-8d1a-bb6a-2c8e" hidden="false" type="rule" targetId="3326-67e1-a5e9-b3e7"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b2a-3215-fb9e-77bc"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Painboy" hidden="false" id="57af-8a2d-7f5b-d06a">
+              <infoLinks>
+                <infoLink name="Painboy" id="5a7a-9ca1-9415-2811" hidden="false" type="profile" targetId="dc54-0a5a-b0bf-127c"/>
+                <infoLink name="Dok&apos;s Tools" id="2846-4098-fc17-dc76" hidden="false" type="profile" targetId="89d6-38bc-7c40-b836"/>
+                <infoLink name="&apos;Urty Syringe" id="2ee3-e29c-8c7f-0881" hidden="false" type="profile" targetId="02aa-48ad-fcb0-ae2a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2682-5efd-e890-f070"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
+              </costs>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Grot Orderly" hidden="false" id="aa91-3479-667d-05c3">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink targetId="8220-f421-4cb9-b49d" id="f312-e34a-f99b-6007" type="profile" name="Grot Orderly" hidden="false"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa48-0290-7b82-002f"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="All models in the Painboy&apos;s unit may have" id="e957-32b6-d05b-8664" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Cybork Bodies (must select per model)" hidden="false" id="b1cc-630a-7983-c8f1">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Cybork Body" id="a462-54a7-2e33-2a86" hidden="false" type="profile" targetId="db0c-7be3-0871-ec2d"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="self" shared="true" id="945b-24aa-c279-d4b2"/>
+            <constraint type="max" value="10" field="selections" scope="self" shared="true" id="def9-7250-ca74-7d42"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take a Trukk or Battlewagon as a dedicated transport, though it may not have the Killkannon upgrade." id="2594-5283-2c33-29ac" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Trukk" hidden="false" id="c14d-991e-c8d8-0e80" type="selectionEntry" targetId="f15f-cf9a-ff59-228f"/>
+            <entryLink import="true" name="Battlewagon" hidden="false" id="e59d-8cd0-16a4-efd8" type="selectionEntry" targetId="43ac-0ac9-44bb-185c"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="cc2a-9bf9-597c-e31c"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Furious Charge" id="2b35-28f7-2e04-ccf2" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Mob Rule!" id="f936-1ace-7823-05c2" hidden="false" type="profile" targetId="ae62-4a3e-a956-b78d"/>
+        <infoLink name="Waaagh!" id="bff2-cb94-ee9e-8ac9" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Trukk" hidden="false" id="f15f-cf9a-ff59-228f">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Trukk" id="ca33-0c9f-6021-3459" hidden="false" type="profile" targetId="de23-31b0-7e28-5444"/>
+        <infoLink name="Fast" id="2384-a51f-53be-71f1" hidden="false" type="rule" targetId="4d59-8511-a8e5-1f62"/>
+        <infoLink name="Open-topped" id="f39c-e896-d1eb-df5f" hidden="false" type="rule" targetId="21d9-2669-1dba-9fb2"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Trukk" typeId="9a37-e4d2-11fe-9e81" typeName="Transport" hidden="false" id="9b55-2a42-4592-7ef1">
+          <characteristics>
+            <characteristic name="Capacity" typeId="7cdf-4c80-a83d-200c">12 Models. Models in mega armour count as 2 models.</characteristic>
+            <characteristic name="Access Points" typeId="6e42-3bd5-70a6-724f"/>
+            <characteristic name="Fire Points" typeId="aa94-ae0c-98e7-5923"/>
+          </characteristics>
+        </profile>
+        <profile name="Ramshackle" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="4628-e05b-921d-3ffe">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Trukk suffers a Vehicle Destroyed! or Vehicle Explodes! (wrecked) result, roll on the Ramshackle table below and apply the result instead of the usual effects. If the Trukk suffers more than one Vehicle Destroyed! or Vehicle Explodes! result, roll one per dice per result on the Ramshackle table, but only apply the lowest dice roll.
+
+
+1-2 Kaboom!: The Trukk explodes, catapulting flaming debris and stunned Orks in all directions. The Trukk is destroyed. All passengers and models within D6&quot; take a Strength 3 hit. Surviving passengers must disembark and take a Pinning test.
+
+
+3-4 Kareen!: The shot sends the Trukk out of control. Move the Trukk 3D6&quot; as far as possible in a random direction (the Ork player chooses if he rolls a Hit on the Scatter dice). Then apply the Kaboom! result above. If the Trukk would careen into enemy models or terrain, stop it 1&quot; away.
+
+
+5-6 Kerrunch!: Something vital gives, but the Ork passengers bail out of their vehicle before it falls apart with a noise like a Meganob falling down a spiral staircase. The Ork passengers take no damage but must immediately disembark. The Trukk is then wrecked.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapon" id="b554-d73c-db79-a049" hidden="false" defaultSelectionEntryId="f021-8db5-1052-746c">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="f021-8db5-1052-746c">
+              <infoLinks>
+                <infoLink name="Big Shoota" id="acb2-78ae-1afb-de64" hidden="false" type="profile" targetId="dd74-99d0-eda5-7f44"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="1d49-554f-92a9-e709">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Rokkit Launcha" id="ae13-aa4d-4c47-9fbf" hidden="false" type="profile" targetId="21ca-215a-88b3-e23c"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="736a-9483-7de3-e51f-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="736a-9483-7de3-e51f-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take any of the following" id="4c87-5c24-eba1-4b55" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Red Paint Job" hidden="false" id="7ad3-69b3-837b-8f3c">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Red Paint Job" id="ed0e-6c29-c478-4cae" hidden="false" type="profile" targetId="cbc5-3c46-4e0b-b124"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d37-4ce8-1a7f-6e75"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Grot Riggers" hidden="false" id="aa91-9e00-a0b4-abdc">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Grot Riggers" id="4d01-496a-59e3-c015" hidden="false" type="profile" targetId="fdcc-0b48-84d6-ed83"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="edd6-d8e7-018a-58ea"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Stikkbomb Chukka" hidden="false" id="a199-7e5f-925e-6e16">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Stikkbomb Chukka" id="df1a-1087-cebc-822f" hidden="false" type="profile" targetId="cdff-95ae-bee8-40fc"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cbda-a661-9392-8218"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Armour Plates" hidden="false" id="677b-ef7c-83c8-64a5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Armour Plates" id="03fd-d331-dc34-445a" hidden="false" type="profile" targetId="3ebf-07b8-e5ff-f2ae"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a66e-7977-d65a-d232"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Boarding Plank" hidden="false" id="6ff1-c869-d612-572e">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Boarding Plank" id="2fea-9b96-f545-7a08" hidden="false" type="profile" targetId="ed45-86d8-2606-20a5"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5984-678f-9860-b84b"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Wreckin&apos; Ball" hidden="false" id="3bb4-3678-a0ff-a5d1">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Wreckin&apos; Ball" id="639e-709d-2c52-9b57" hidden="false" type="profile" targetId="e8de-db8b-a2e7-3f6b"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d5c6-04a9-a7a7-6869"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Reinforced Ram" hidden="false" id="6475-2525-3fdf-c069">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Reinforced Ram" id="ebf5-5143-a02d-4bac" hidden="false" type="profile" targetId="4936-981a-7f82-6638"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c5e4-2c8a-b5ab-9aa2"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Battlewagon" hidden="false" id="43ac-0ac9-44bb-185c">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="90"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Battlewagon" id="2e36-6a5c-7da3-1ce8" hidden="false" type="profile" targetId="d706-a27a-c0a8-7e37"/>
+        <infoLink name="Tank" id="9ff5-1c85-d991-c30a" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
+        <infoLink name="Open-topped" id="a528-a632-eccf-4017" hidden="false" type="rule" targetId="21d9-2669-1dba-9fb2"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May take any of the following" id="a511-4106-e457-6e44" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Killkannon" hidden="false" id="7a10-07c1-efc5-53d1">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="60"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Killkannon" id="1530-791e-9554-6340" hidden="false" type="profile" targetId="9152-4d2a-0794-de3e"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="38eb-16f8-34f5-0766"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="&apos;Ard Case" hidden="false" id="9e8b-14b7-cc93-1547">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="&apos;Ard Case" id="991f-44ff-7dbb-32bc" hidden="false" type="profile" targetId="36ce-0eb6-f04d-1a34"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e410-1a8c-83d1-8f9b"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Red Paint Job" hidden="false" id="f157-be56-9364-5ed8">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Red Paint Job" id="a947-3a01-e166-0b75" hidden="false" type="profile" targetId="cbc5-3c46-4e0b-b124"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a818-c7f6-b4c1-daed"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Grot Riggers" hidden="false" id="2628-45c0-ea43-fef5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Grot Riggers" id="4a13-72da-2422-cc60" hidden="false" type="profile" targetId="fdcc-0b48-84d6-ed83"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e67-98c1-a95c-0d27"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Stikkbomb Chukka" hidden="false" id="42b5-a84b-9324-ac81">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Stikkbomb Chukka" id="4835-1754-062e-ce78" hidden="false" type="profile" targetId="cdff-95ae-bee8-40fc"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f73-1714-3c1e-0050"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Armour Plates" hidden="false" id="8312-c1d0-c9ec-8da7">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Armour Plates" id="55ac-dd81-a9c5-bd2d" hidden="false" type="profile" targetId="3ebf-07b8-e5ff-f2ae"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e238-7828-04ab-b515"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Boarding Plank" hidden="false" id="808d-bce9-854a-abb2">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Boarding Plank" id="f16d-1a9f-6fc6-11ed" hidden="false" type="profile" targetId="ed45-86d8-2606-20a5"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1f7-2f38-e291-69b4"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Wreckin&apos; Ball" hidden="false" id="6139-da22-df85-8281">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Wreckin&apos; Ball" id="7aca-d4bc-df6e-74ce" hidden="false" type="profile" targetId="e8de-db8b-a2e7-3f6b"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="81af-8bb3-20cc-fee3"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Grabbin&apos; Klaw" hidden="false" id="c5f5-ef89-1433-3fdc">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Grabbin&apos; Klaw" id="5759-cc27-ea1c-0b3b" hidden="false" type="profile" targetId="9d90-7611-47f1-a479"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a9c-f168-79d7-d96e"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Either of these" id="4370-455e-d537-d27a" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Deffrolla" hidden="false" id="ba3e-267c-b349-b952">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Deff Rolla" id="7833-9918-1d13-fb29" hidden="false" type="profile" targetId="bb0c-2f80-8288-f7d8"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6015-d899-3b98-c9d4"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Reinforced Ram" hidden="false" id="b68d-6d73-8b1d-2840">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Reinforced Ram" id="3d56-f6a1-b8e4-fef9" hidden="false" type="profile" targetId="4936-981a-7f82-6638"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0086-1cc8-8f53-14d4"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="56ed-b1de-f50d-9e0f"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take a single Big Gun (does not include crew)" id="8441-1dfa-0daa-7ebd" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Kannon" hidden="false" id="7186-4620-7170-46d2">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Kannon (Frag)" id="46a2-9a49-3d7a-24d5" hidden="false" type="profile" targetId="a508-fd47-9789-f683"/>
+                <infoLink name="Kannon (Shell)" id="9366-4a47-4ac8-c570" hidden="false" type="profile" targetId="69ea-02af-bd76-b124"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lobba" hidden="false" id="299c-eed6-32a3-4dc5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lobba" id="e73c-eb7a-96ef-a601" hidden="false" type="profile" targetId="4556-c4b4-eb6e-8ce2"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Zzap Gun" hidden="false" id="c163-929d-ef5d-afcb">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Zzap Gun" id="0e5a-423e-cb04-f961" hidden="false" type="profile" targetId="b23c-729e-e0d2-0ab4"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="41f3-bbaa-e419-c294"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take up to four of the following" id="e456-14bd-6dfb-a968" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="aa00-5d7a-952e-2631">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Big Shoota" id="a31d-4242-d1d4-6f94" hidden="false" type="profile" targetId="dd74-99d0-eda5-7f44"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="d9eb-bfa6-b0c4-e79a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Rokkit Launcha" id="6ff4-7b68-e6cb-4f61" hidden="false" type="profile" targetId="21ca-215a-88b3-e23c"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="4" field="selections" scope="self" shared="true" id="88e5-f727-3e85-e390"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="Battlewagon" typeId="9a37-e4d2-11fe-9e81" typeName="Transport" hidden="false" id="4d21-d6f9-c526-7949">
+          <characteristics>
+            <characteristic name="Capacity" typeId="7cdf-4c80-a83d-200c">20 Models. Models in Mega Armour count as two models. A Battlewagon with a Killkannon has a transport capacity of 12.</characteristic>
+            <characteristic name="Access Points" typeId="6e42-3bd5-70a6-724f">If a Battlewagon has the &apos;ard case upgrade it has five fire points, two on either side of the hull and one at the rear.</characteristic>
+            <characteristic name="Fire Points" typeId="aa94-ae0c-98e7-5923">If a Battlewagon has the &apos;ard case upgrade it has three access points, one on either side of the hull and one at the rear.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Meganobz" hidden="false" id="167d-785f-dab8-db03">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Meganob" hidden="false" id="67f7-1e5d-7509-c82b">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Meganob" id="c99c-2adc-9af3-405f" hidden="false" type="profile" targetId="359d-184d-8dfe-d9df"/>
+            <infoLink name="Power Klaw" id="ce3b-12b2-1471-8555" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="33c3-08ae-5f55-a8da"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="ea8a-7bc7-f130-e0c0"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Ranged weapon" id="bc99-b5a3-7c97-5d3a" hidden="false" defaultSelectionEntryId="2b4d-cc06-1cca-ee11">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Twin-linked Shoota" hidden="false" id="2b4d-cc06-1cca-ee11">
+                  <infoLinks>
+                    <infoLink name="Twin-linked Shoota" id="bd5f-b60a-6915-ce5f" hidden="false" type="profile" targetId="7017-2bdb-0dd4-58f8"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink import="true" name="Kombi-weapon" hidden="false" id="f085-ab88-ef4a-9935" type="selectionEntry" targetId="d077-973a-0026-4cbd">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="42e9-0e52-724d-933a-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="42e9-0e52-724d-933a-max"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Stikkbomb" id="032d-83ae-84e1-dd7d" hidden="false" type="profile" targetId="9e56-a965-6c2e-f383"/>
+        <infoLink name="Mega Armour" id="a1ee-e599-3d4f-53d1" hidden="false" type="profile" targetId="fe2e-b047-c235-e67e"/>
+        <infoLink name="Furious Charge" id="d321-cca0-8429-aa5a" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Mob Rule!" id="b298-fb6d-da4d-9739" hidden="false" type="profile" targetId="ae62-4a3e-a956-b78d"/>
+        <infoLink name="Waaagh!" id="0a25-25c9-7cc7-5b3d" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May take a Battlewagon dedicated transport vehicle (may not have the killkannon upgrade), or a Trukk if the mob has six or fewer models." id="3adb-265c-b961-bab6" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Battlewagon" hidden="false" id="489d-2059-f939-f1e4" type="selectionEntry" targetId="43ac-0ac9-44bb-185c"/>
+            <entryLink import="true" name="Trukk" hidden="false" id="3c35-561f-3c2c-3d95" type="selectionEntry" targetId="f15f-cf9a-ff59-228f"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3fcb-c955-7790-8d05"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Burna Boyz" hidden="false" id="d4c9-5e90-70fc-e5fa">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Mob" id="efa1-7322-d7ed-fda6" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Burna Boy" hidden="false" id="ada8-ea0a-47e4-f404" defaultAmount="5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Burna Boy" id="352d-8c85-61d5-ef78" hidden="false" type="profile" targetId="c1b6-f44e-ed7c-958f"/>
+                <infoLink name="Burnas" id="668b-6a91-cb30-acb8" hidden="false" type="profile" targetId="bf3f-e3cb-ceca-2958"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mek" hidden="false" id="5109-93a9-09d8-fea2">
+              <infoLinks>
+                <infoLink name="Mek" id="4247-b629-024d-e5f6" hidden="false" type="profile" targetId="4953-1d44-13a4-8a30"/>
+                <infoLink name="Mek&apos;s Tools" id="e9dd-a050-63ee-2ca7" hidden="false" type="profile" targetId="74a7-584a-a26b-eece"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="c792-0a18-fe4d-a8bf"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon" id="4795-91b2-b388-d2e5" hidden="false" defaultSelectionEntryId="9c63-b977-0997-eadf">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Kustom Mega-blasta" hidden="false" id="9c63-b977-0997-eadf">
+                      <infoLinks>
+                        <infoLink name="Kustom Mega-blasta" id="6a07-f21d-8744-9fc2" hidden="false" type="profile" targetId="6cc4-37a2-1053-bc7b"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Slugga and Choppa" hidden="false" id="943f-2a54-9496-31b8">
+                      <infoLinks>
+                        <infoLink name="Slugga" id="633f-c662-d6cb-3852" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
+                        <infoLink name="Choppa" id="5ca9-2d67-c166-3679" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="b796-9278-ea8b-8c9b">
+                      <infoLinks>
+                        <infoLink name="Big Shoota" id="72e0-2192-86bd-c8ce" hidden="false" type="profile" targetId="dd74-99d0-eda5-7f44"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="7952-7678-a444-bcf9">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Rokkit Launcha" id="2577-d4f3-cc3e-82ea" hidden="false" type="profile" targetId="21ca-215a-88b3-e23c"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="47be-21d1-2adc-7f02-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="47be-21d1-2adc-7f02-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Grot Oiler" hidden="false" id="2e11-c6f4-e96f-3c25">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Grot Oilers" id="ff95-2d05-3160-0635" hidden="false" type="profile" targetId="3cb5-80d6-bdae-a403"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb07-6e74-3d8a-4283"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="1564-98e5-60b3-afc4"/>
+            <constraint type="max" value="15" field="selections" scope="self" shared="true" id="cdc4-b55a-ffb5-0d05"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Furious Charge" id="5639-b5af-bfd1-469c" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Mob Rule!" id="dab1-ad52-5e4e-c12d" hidden="false" type="profile" targetId="ae62-4a3e-a956-b78d"/>
+        <infoLink name="Waaagh!" id="89f6-2dc4-6835-6ac7" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Tankbustas" hidden="false" id="6578-eb4d-e60d-377f">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Mob" id="b767-cdef-b2e0-ec5c" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Tankbusta" hidden="false" id="4e74-14f6-236f-2b89">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Tankbusta" id="e1c4-510c-db77-594b" hidden="false" type="profile" targetId="b19f-1e01-401c-f1f3"/>
+                <infoLink name="Rokkit Launcha" id="3a96-6d49-d692-a906" hidden="false" type="profile" targetId="21ca-215a-88b3-e23c"/>
+                <infoLink name="Tankbusta Bombs" id="9368-7d37-c3f9-f6f4" hidden="false" type="profile" targetId="70fb-44c8-f239-f39e"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nob" hidden="false" id="628a-06c0-da46-f010">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Nob" id="72d0-e30b-8b8b-cb24" hidden="false" type="profile" targetId="2170-7dfa-4d28-aa46"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cce0-1e1a-3263-70b6"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon" id="297a-5395-9b45-d6ec" hidden="false" defaultSelectionEntryId="e2ce-dfa9-ea94-3f0a">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="849e-6010-0e0b-c6fb">
+                      <infoLinks>
+                        <infoLink name="Rokkit Launcha" id="c8d7-eaf9-8ceb-bf85" hidden="false" type="profile" targetId="21ca-215a-88b3-e23c"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="3d62-5971-61d0-d6f9">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Klaw" id="e653-1c5e-642e-b736" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="3db8-c8b8-d274-93f4-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3db8-c8b8-d274-93f4-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Nob may take any of the following" id="48b6-74ca-dd05-f0eb" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="&apos;Eavy Armour" hidden="false" id="26d1-77bd-044b-3a82">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="&apos;Eavy Armour" id="930a-e295-e2da-526d" hidden="false" type="profile" targetId="de7a-2ad5-747f-0e00"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f6d-ebd7-4ad7-2e35"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Bosspole" hidden="false" id="ef30-b96b-3437-2c56">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Bosspole" id="da7a-4de9-8c89-8718" hidden="false" type="profile" targetId="e01c-2614-7a86-cde2"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5b8d-70fa-f443-4cb4"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="9e78-6b5c-4152-935a"/>
+            <constraint type="max" value="15" field="selections" scope="self" shared="true" id="1396-a3df-d515-f12a"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Up to two Tankbustas may replace their Rokkit Launchas with" id="56d9-03f6-9666-7f82" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Tankhammer" hidden="false" id="f25d-2299-b9f4-1577">
+              <infoLinks>
+                <infoLink name="Tankhammer" id="5d36-bb54-9fe1-88e3" hidden="false" type="profile" targetId="c938-5594-247c-fd07"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e4b1-de22-db46-6339"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="The mob may include up to three" id="a2b6-59d5-74d8-4cb7" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bomb-squig" hidden="false" id="369a-6b1f-852d-ef02">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Bomb-Squig" id="4434-edb9-761d-a514" hidden="false" type="profile" targetId="1aa3-679f-e484-3d00"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="fd73-71d1-da4b-aad8"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Furious Charge" id="09a4-85ea-69c7-6c81" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Mob Rule!" id="0b05-fcdd-44b1-f64c" hidden="false" type="profile" targetId="ae62-4a3e-a956-b78d"/>
+        <infoLink name="Waaagh!" id="14cb-9cb2-c4b9-02e3" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Glory Hogs" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="c439-9950-000e-0597">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This unit must always attempt to shoot at and/or assault an enemy vehicle if there is one in line of sight, regardless of range. If there is no visible vehicle target, the Tankbustas may select a target as normal.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lootas" hidden="false" id="891b-80fa-7a66-3f6a">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Mob" id="5f7c-a5b9-6e54-f75e" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Loota" hidden="false" id="187a-cad8-8a73-d060" defaultAmount="5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lootas" id="2b3e-24ec-9cca-9f68" hidden="false" type="profile" targetId="265b-26d4-e4ef-78e6"/>
+                <infoLink name="Deffguns" id="4dd2-8a69-1e0f-77a2" hidden="false" type="profile" targetId="c3fe-a1a9-1292-05d3"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mek" hidden="false" id="d896-9418-6960-f589">
+              <infoLinks>
+                <infoLink name="Mek" id="9dab-658b-26ca-34ae" hidden="false" type="profile" targetId="4953-1d44-13a4-8a30"/>
+                <infoLink name="Mek&apos;s Tools" id="b7fc-766e-41e3-f113" hidden="false" type="profile" targetId="74a7-584a-a26b-eece"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="04c5-3443-450f-6ac8"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon" id="b6ce-b672-411d-580f" hidden="false" defaultSelectionEntryId="9c1b-f664-fafc-aa76">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Kustom Mega-blasta" hidden="false" id="9c1b-f664-fafc-aa76">
+                      <infoLinks>
+                        <infoLink name="Kustom Mega-blasta" id="2df3-bada-10f4-2b48" hidden="false" type="profile" targetId="6cc4-37a2-1053-bc7b"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Slugga and Choppa" hidden="false" id="5f37-909e-40b7-3b47">
+                      <infoLinks>
+                        <infoLink name="Slugga" id="60d3-3952-f4f3-85b7" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
+                        <infoLink name="Choppa" id="64b3-47ab-02a2-2cb3" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="a393-38f7-7e23-1c55">
+                      <infoLinks>
+                        <infoLink name="Big Shoota" id="4fad-df23-709f-62d8" hidden="false" type="profile" targetId="dd74-99d0-eda5-7f44"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="dc55-8770-c9e0-0181">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Rokkit Launcha" id="6f75-d1c5-b643-95b0" hidden="false" type="profile" targetId="21ca-215a-88b3-e23c"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="7c49-159b-a5d9-1aac-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7c49-159b-a5d9-1aac-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Grot Oiler" hidden="false" id="a1ad-73f3-75b5-312c">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Grot Oilers" id="a4cd-8f54-527f-2c16" hidden="false" type="profile" targetId="3cb5-80d6-bdae-a403"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6806-a5a2-00d1-e213"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="557c-ebe0-35dc-7ff9"/>
+            <constraint type="max" value="15" field="selections" scope="self" shared="true" id="51d2-ab0f-ebb1-a331"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Furious Charge" id="2c3d-b0d4-6136-eb6b" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Mob Rule!" id="f27b-c6bb-654d-d4e5" hidden="false" type="profile" targetId="ae62-4a3e-a956-b78d"/>
+        <infoLink name="Waaagh!" id="2ea8-0e06-75da-1212" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Kommandos" hidden="false" id="627a-40d7-c5c0-d5d7">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Mob" id="ab4f-b726-6bea-179a" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Kommando" hidden="false" id="dae7-7fc5-cea1-ef21">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Kommando" id="b079-da6e-7ce6-1c61" hidden="false" type="profile" targetId="8222-6e45-b87d-0472"/>
+                <infoLink name="Slugga" id="0c99-c0bd-da19-78a7" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
+                <infoLink name="Choppa" id="caf8-0e14-f515-ceaa" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
+                <infoLink name="Stikkbomb" id="2106-ffbc-7a7b-91c8" hidden="false" type="profile" targetId="9e56-a965-6c2e-f383"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Boss Snikrot (Cannot take Nob)" hidden="false" id="d713-772a-eb2e-7354">
+              <infoLinks>
+                <infoLink name="Snikrot" id="34a7-ac0d-3d1b-c2b4" hidden="false" type="profile" targetId="ef66-92c8-3639-f737"/>
+                <infoLink name="Stikkbomb" id="470b-5a65-595b-1aad" hidden="false" type="profile" targetId="9e56-a965-6c2e-f383"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d6ab-bc86-c6c9-4fd8" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="85"/>
+              </costs>
+              <profiles>
+                <profile name="Mork&apos;s Teeth" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="7b3a-500e-8b89-e335">
+                  <characteristics>
+                    <characteristic name="Ability" typeId="2113-98a2-4376-a94c">These count as having an extra close combat weapon. The bearer may re-roll all failed rolls to hit in an assault.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Ambush" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="b9a2-594b-0a53-c19e">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If the owning player chooses, Snikrot and his unit may be held in reserve. When Snikrot and his unit become available from Reserve, they may move on from any table edge.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Killa Reputation" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="039c-9b19-e878-0b82">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If Snikrot and his unit win a combat, the enemy suffers an additional -1 modifier to their Leadership</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nob" hidden="false" id="ece5-2b1b-e33b-fdc5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Nob" id="264c-e348-1c88-768a" hidden="false" type="profile" targetId="2170-7dfa-4d28-aa46"/>
+                <infoLink name="Slugga" id="12f1-5bfa-7255-f8d6" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="73df-2605-5c86-64e5"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon" id="905c-583b-3adc-8af9" hidden="false" defaultSelectionEntryId="4595-6539-3d2a-0884">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="5e17-2584-0f59-483c">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Klaw" id="f623-2009-6b2c-1999" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Choppa" hidden="false" id="4595-6539-3d2a-0884">
+                      <infoLinks>
+                        <infoLink name="Choppa" id="8d2f-8cdf-b0d2-c403" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Big Choppa" hidden="false" id="a934-82d4-60a3-f200">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Big Choppa" id="e14c-a07f-643e-219e" hidden="false" type="profile" targetId="cf9b-b3be-00d9-802c"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="657a-31a6-bf0f-c20a-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="657a-31a6-bf0f-c20a-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Nob may take any of the following" id="f518-df12-0fda-7ab9" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="&apos;Eavy Armour" hidden="false" id="9f95-951e-3abb-2f20">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="&apos;Eavy Armour" id="5fb7-1971-6933-766b" hidden="false" type="profile" targetId="de7a-2ad5-747f-0e00"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2fb-3d7f-a22a-fbf9"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Bosspole" hidden="false" id="ba82-c336-0914-f4fc">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Bosspole" id="38e4-5d90-bc0f-0929" hidden="false" type="profile" targetId="e01c-2614-7a86-cde2"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d61-48ef-41f3-4f74"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="5c5e-4ebc-1e48-0f3a"/>
+            <constraint type="max" value="15" field="selections" scope="self" shared="true" id="db04-03e6-4a51-499f"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Furious Charge" id="fec4-96a9-d4bf-a303" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Mob Rule!" id="2faf-e9b3-7dd5-8dd6" hidden="false" type="profile" targetId="ae62-4a3e-a956-b78d"/>
+        <infoLink name="Move Through Cover" id="4af8-6d16-55da-5a0f" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
+        <infoLink name="Infiltrate" id="ac5d-f390-7b37-221a" hidden="false" type="profile" targetId="db64-5b1f-d306-b354"/>
+        <infoLink name="Waaagh!" id="4078-c357-ac76-d55d" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Nob" hidden="false" id="df5d-a456-052f-b22e">
+      <infoLinks>
+        <infoLink name="Nob" id="1a57-3385-429c-9c3c" hidden="false" type="profile" targetId="2170-7dfa-4d28-aa46"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b6dd-8722-f296-de79"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapon" id="d913-35ee-6ed8-d58c" hidden="false" defaultSelectionEntryId="e2ce-dfa9-ea94-3f0a">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="e2ce-dfa9-ea94-3f0a">
+              <infoLinks>
+                <infoLink name="Rokkit Launcha" id="d04e-9146-00d2-7496" hidden="false" type="profile" targetId="21ca-215a-88b3-e23c"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="2570-bb48-4995-6bd8">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Power Klaw" id="004c-a1fc-4613-461e" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="4714-da60-338b-7e6b-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4714-da60-338b-7e6b-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Nob may take any of the following" id="69d8-c092-3916-37e1" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="&apos;Eavy Armour" hidden="false" id="8302-5225-ae42-3b54">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="&apos;Eavy Armour" id="af2e-f0b7-e372-d5e6" hidden="false" type="profile" targetId="de7a-2ad5-747f-0e00"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd8c-a66a-04b7-3c35"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bosspole" hidden="false" id="03df-13d4-1be4-45bf">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Bosspole" id="e4a3-6fad-eb90-818f" hidden="false" type="profile" targetId="e01c-2614-7a86-cde2"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5808-61a9-1119-6339"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ork Boyz" hidden="false" id="3908-2593-d77a-7e00">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Mob" id="2bbe-1397-efdc-bff6" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Boy" hidden="false" id="c802-5342-19a4-6d36">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Ork Boy" id="93cf-9610-af35-df9f" hidden="false" type="profile" targetId="616f-0467-bef9-3819"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Stikkbombs" hidden="false" id="01d9-a6e7-6712-e009">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Stikkbomb" id="f723-4a30-5635-1f4d" hidden="false" type="profile" targetId="9e56-a965-6c2e-f383"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1675-e281-8c44-4b19"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nob" hidden="false" id="05fd-cc8a-cfa3-f132">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Nob" id="4aa4-28a9-08a7-a7cd" hidden="false" type="profile" targetId="2170-7dfa-4d28-aa46"/>
+                <infoLink name="Slugga" id="62eb-f9e6-0eae-b2c4" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b03-6b16-57ab-9941"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon" id="feba-738c-a603-72b3" hidden="false" defaultSelectionEntryId="7d54-94e3-ad0b-fb0a">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="6063-d27b-8b4a-2204">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Klaw" id="9b3f-d6d7-6952-4b39" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Choppa" hidden="false" id="7d54-94e3-ad0b-fb0a">
+                      <infoLinks>
+                        <infoLink name="Choppa" id="54aa-ad5e-a105-2967" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Big Choppa" hidden="false" id="72d1-1f86-a3f9-778c">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Big Choppa" id="0bbc-f6e5-3841-7bda" hidden="false" type="profile" targetId="cf9b-b3be-00d9-802c"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="fd9a-1478-3fc1-36fa-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="fd9a-1478-3fc1-36fa-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Nob may take any of the following" id="0164-10a6-026d-b0f3" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="&apos;Eavy Armour" hidden="false" id="6f0f-02e2-fce0-b350">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="&apos;Eavy Armour" id="cf4b-166e-2b17-8b8d" hidden="false" type="profile" targetId="de7a-2ad5-747f-0e00"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d4fe-7029-ee00-6abb"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Bosspole" hidden="false" id="bc09-8c55-a6f0-df00">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Bosspole" id="27a2-c850-6084-af3f" hidden="false" type="profile" targetId="e01c-2614-7a86-cde2"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="caf6-5a8f-6fd5-362e"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="self" shared="true" id="e0f6-ceac-e540-d9dc"/>
+            <constraint type="max" value="30" field="selections" scope="self" shared="true" id="9452-591f-b2e1-80bf"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Loadout" id="eacf-8b5e-b6d8-333c" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Sluggas and Choppas" hidden="false" id="da46-3912-de82-9706">
+              <infoLinks>
+                <infoLink name="Slugga" id="7467-eb0d-b026-ff1b" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
+                <infoLink name="Choppa" id="f236-29e7-6dbd-8196" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61ae-7fe2-5690-5077"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shootas" hidden="false" id="3a6d-393c-3c0b-2e65">
+              <infoLinks>
+                <infoLink name="Shoota" id="bdea-f0b9-4ee7-52ef" hidden="false" type="profile" targetId="d829-45f3-6722-9c6f"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b7e-8985-9aef-7280"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="2e3b-dfa6-a1e7-f8b7-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2e3b-dfa6-a1e7-f8b7-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="For every ten Orks in the mob, one Ork may exchange his slugga or shoota for" id="2c83-9530-69a3-539f" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="e054-3a87-e52e-9966">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Big Shoota" id="c4f3-52b0-d9fa-77f1" hidden="false" type="profile" targetId="dd74-99d0-eda5-7f44"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="d6b5-99e2-20f4-40f9">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Rokkit Launcha" id="a47f-32ad-d0c9-1c91" hidden="false" type="profile" targetId="21ca-215a-88b3-e23c"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Mobs of 12 or fewer models may take a Trukk" id="0679-4916-83dc-6961" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Trukk" hidden="false" id="3973-a952-ea10-e97f" type="selectionEntry" targetId="f15f-cf9a-ff59-228f">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="746b-d252-f609-cf31"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Furious Charge" id="8255-b757-19b8-39a0" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Mob Rule!" id="bb0c-812c-38a1-4764" hidden="false" type="profile" targetId="ae62-4a3e-a956-b78d"/>
+        <infoLink name="Waaagh!" id="0e77-2cf5-7aa7-8b8b" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ork &apos;Ard Boyz" hidden="false" id="ca6a-1c00-8d66-4ce5">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Mob" id="24de-ceef-c1bc-e6c5" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="&apos;Ard Boy" hidden="false" id="fe16-7fd1-755c-e691">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="&apos;Ard Boy" id="a318-348c-677c-b796" hidden="false" type="profile" targetId="1f76-d1e7-0cb9-09d0"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Stikkbombs" hidden="false" id="4213-6929-6bd7-faf5">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Stikkbomb" id="18af-f0cb-7aeb-d602" hidden="false" type="profile" targetId="9e56-a965-6c2e-f383"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5853-7d96-04e8-f664"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="&apos;Ard Boy Nob" hidden="false" id="0674-8ec7-9215-0271">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="24"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="&apos;Ard Boy Nob" id="0315-4422-6091-35df" hidden="false" type="profile" targetId="cb5b-6539-f69d-9bc2"/>
+                <infoLink name="Slugga" id="59f0-4966-88d5-7f5b" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58ca-3432-fad9-6cc9"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon" id="bb9c-bf88-ac38-a7ab" hidden="false" defaultSelectionEntryId="7d54-94e3-ad0b-fb0a">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="4925-d90f-94f1-2d90">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Klaw" id="15a4-15c1-0531-9419" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Choppa" hidden="false" id="8cea-e20d-228b-9798">
+                      <infoLinks>
+                        <infoLink name="Choppa" id="0661-c0d4-23ca-efcc" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Big Choppa" hidden="false" id="8160-d4c8-f7e4-be0e">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Big Choppa" id="9f22-a732-652c-527e" hidden="false" type="profile" targetId="cf9b-b3be-00d9-802c"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="773c-7b7e-81da-c12a-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="773c-7b7e-81da-c12a-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Nob may take any of the following" id="ba4a-ea53-04ae-ad37" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Bosspole" hidden="false" id="d9a6-c5bf-3fa0-67d5">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Bosspole" id="c56c-8ee5-4ce6-1bb3" hidden="false" type="profile" targetId="e01c-2614-7a86-cde2"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="acf2-fbb1-797e-bfd3"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="self" shared="true" id="ea70-15a1-8c4d-6b99"/>
+            <constraint type="max" value="30" field="selections" scope="self" shared="true" id="149e-c9b4-6f07-22b9"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Loadout" id="62e5-ef67-c538-b0aa" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Sluggas and Choppas" hidden="false" id="31ae-6c83-38eb-0889">
+              <infoLinks>
+                <infoLink name="Slugga" id="1ee2-765d-a763-c999" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
+                <infoLink name="Choppa" id="f2fa-5c85-1f54-f8f8" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7fe7-15b3-9892-21c6"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shootas" hidden="false" id="81bf-904b-3d2f-0e03">
+              <infoLinks>
+                <infoLink name="Shoota" id="5612-8e7b-f06e-e32c" hidden="false" type="profile" targetId="d829-45f3-6722-9c6f"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9bc-4e46-1ea6-de89"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="de3e-7ed1-63d2-60ba-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="de3e-7ed1-63d2-60ba-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="For every ten Orks in the mob, one Ork may exchange his slugga or shoota for" id="b21e-962e-9a73-e1a5" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="acca-153a-41f3-6407">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Big Shoota" id="ad4c-555a-e8cf-4768" hidden="false" type="profile" targetId="dd74-99d0-eda5-7f44"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="a722-9880-276f-821b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Rokkit Launcha" id="7608-f6b7-1dc9-0fe9" hidden="false" type="profile" targetId="21ca-215a-88b3-e23c"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Mobs of 12 or fewer models may take a Trukk" id="eb25-9b52-6d57-b742" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Trukk" hidden="false" id="8c5c-a82e-2b5c-58bc" type="selectionEntry" targetId="f15f-cf9a-ff59-228f">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e64-8028-8617-99e5"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Furious Charge" id="1353-2fb1-d95a-8699" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Mob Rule!" id="f6ac-4217-0eb8-7d87" hidden="false" type="profile" targetId="ae62-4a3e-a956-b78d"/>
+        <infoLink name="Waaagh!" id="1f37-1dd6-e907-d878" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Gretchin" hidden="false" id="d9d6-974f-8a89-d1a7">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Mob" id="5b85-cb23-9470-02cf" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Gretchin" hidden="false" id="97be-0365-3da5-fa72">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Gretchin" id="31c8-b30d-d621-ace9" hidden="false" type="profile" targetId="6882-d396-31c8-f316"/>
+                <infoLink name="Grot Blasta" id="7bed-291c-884d-b5d9" hidden="false" type="profile" targetId="2d25-0e50-600d-90b1"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="c623-764b-4526-f9b7"/>
+                <constraint type="max" value="30" field="selections" scope="parent" shared="true" id="110f-02e7-1d58-c43c"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Runtherd (for every 10 Gretchin)" hidden="false" id="defd-1aa0-0933-d511">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="682d-f744-6245-dd2a" id="a47e-32ba-8f83-6cc5" type="profile" name="Squig Hound" hidden="false"/>
+                <infoLink name="Runtherd" id="1660-2b6c-89fb-3e58" hidden="false" type="profile" targetId="031c-245c-a9e1-fe3d"/>
+                <infoLink name="Slugga" id="a7e6-5437-0f93-b113" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
+                <infoLink name="Furious Charge" id="a875-64af-a55b-1517" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+                <infoLink name="Mob Rule!" id="8e44-db25-6f6c-b2ff" hidden="false" type="profile" targetId="ae62-4a3e-a956-b78d"/>
+                <infoLink name="Waaagh!" id="caf7-0266-74e7-1608" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="9960-8697-8f59-ed3a"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4ec1-cded-0c1b-c694"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="88cb-a081-b9bb-e51c" hidden="false" defaultSelectionEntryId="8d19-4106-8ce0-0073">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Grabba Stikk" hidden="false" id="8d19-4106-8ce0-0073">
+                      <infoLinks>
+                        <infoLink name="Grabba Stikk" id="d0ca-4274-5b62-4217" hidden="false" type="profile" targetId="d5a0-bbbe-d646-5dd9"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Grot-prod" hidden="false" id="7495-268b-7eea-7312">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Grot-prod" id="d414-c3e4-796a-d904" hidden="false" type="profile" targetId="18f1-5125-fd25-4c38"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="3825-85c8-c052-8046-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3825-85c8-c052-8046-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="It&apos;s a Grot&apos;s Life" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="2b44-d751-2eff-f23e">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Grot mob moves into a minefield then remove the minefield marker and 3D6 Grotz along with is as green limbs fly in all directions.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Stormboyz" hidden="false" id="921d-59f6-1373-3a97">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Mob" id="5fdd-f3a4-bb5d-e12f" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Stormboy" hidden="false" id="05dd-7886-8e78-2e91">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Stormboy" id="701d-e69a-97e1-20fe" hidden="false" type="profile" targetId="a1da-a9d5-4643-4a81"/>
+                <infoLink name="Slugga" id="8354-d2b2-d7bc-2618" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
+                <infoLink name="Choppa" id="a5dc-77c8-6cae-36b5" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
+                <infoLink name="Stikkbomb" id="a631-6c3e-765d-a933" hidden="false" type="profile" targetId="9e56-a965-6c2e-f383"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nob" hidden="false" id="999d-d221-5f09-0613">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="22"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Nob" id="f949-7f2b-2c07-4d8a" hidden="false" type="profile" targetId="2170-7dfa-4d28-aa46"/>
+                <infoLink name="Stikkbomb" id="670a-dc5b-96b8-db2d" hidden="false" type="profile" targetId="9e56-a965-6c2e-f383"/>
+                <infoLink name="Slugga" id="813f-2194-f9ab-fa4b" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="35d9-150e-8d76-3756"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon" id="a8c0-94b8-4318-eaad" hidden="false" defaultSelectionEntryId="58bc-4e9a-4c75-6e63">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Big Choppa" hidden="false" id="a949-d375-e563-b57c">
+                      <infoLinks>
+                        <infoLink name="Big Choppa" id="fe20-fc3a-93a1-0e2b" hidden="false" type="profile" targetId="cf9b-b3be-00d9-802c"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="5fdf-d464-c8c3-547c">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Klaw" id="0638-34e0-b2b3-73c4" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Choppa" hidden="false" id="58bc-4e9a-4c75-6e63">
+                      <infoLinks>
+                        <infoLink name="Choppa" id="a0f7-8e27-4405-3b92" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="237f-34b0-f427-243a-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="237f-34b0-f427-243a-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Nob may take any of the following" id="9ff5-7e4c-cf87-5751" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="&apos;Eavy Armour" hidden="false" id="ba09-adc7-b7f0-465a">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="&apos;Eavy Armour" id="eb9f-4f9c-239a-d8f6" hidden="false" type="profile" targetId="de7a-2ad5-747f-0e00"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9590-43cb-8fd9-4f93"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Bosspole" hidden="false" id="d038-429e-548b-c103">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Bosspole" id="cbba-3acc-c475-b7a2" hidden="false" type="profile" targetId="e01c-2614-7a86-cde2"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4eeb-3f18-a6d0-f0f1"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Boss Zagstruk" hidden="false" id="d640-bb70-1f7b-eea8">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="85"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Zagstruk" id="a8bd-8a0e-af03-6e2c" hidden="false" type="profile" targetId="fbf4-0732-94f3-d0f7"/>
+                <infoLink name="Stikkbomb" id="6f10-0b50-da94-bdc6" hidden="false" type="profile" targetId="9e56-a965-6c2e-f383"/>
+                <infoLink name="Cybork Body" id="57ef-1e3b-4ee4-b4b8" hidden="false" type="profile" targetId="db0c-7be3-0871-ec2d"/>
+                <infoLink name="Choppa" id="f70b-90ce-7674-82d9" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
+                <infoLink name="Slugga" id="d591-d1b7-7b14-9f67" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
+                <infoLink name="Waaagh!" id="7528-3dd5-761f-70c6" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Da Vulcha&apos;s Klaws" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="b079-dc79-5179-f0c2">
+                  <characteristics>
+                    <characteristic name="Ability" typeId="2113-98a2-4376-a94c">On any turn that Zagstruk charges, he counts as having a power klaw that strikes in normal Initiative order (remember that with Zagstruk&apos;s Furious Charge this will be resolved at Initiative 4).</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Swoop Attack" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="283f-7900-649d-af89">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Zagstuk and da Vulcha Boyz must enter the battle via Deep Strike. They may not shoot that turn, but to represent their swooping dive into the enemy ranks they may assault that turn (provided they are close enough). If the Vulcha Squad assaults the turn it Deep Strikes into play, remove D3 Stormboyz at the beginning of combat as crash landing casualties.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Violent Temper" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="6bd3-0da2-eede-2bcd">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Should this unit ever fail a Morale check, Zagstruk will execute a member of the unit to restore order. The unit is instead counted as passing the test, but a Stormboy model must be removed as a casualty as a result. If Zagstruk is on his own, the Violent Temper rule does not apply.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="b443-76b5-eae3-e570" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="8277-5a3c-a2fb-3a6e"/>
+            <constraint type="max" value="20" field="selections" scope="self" shared="true" id="a0eb-b607-0406-c01e"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Jump Infantry" id="ab5d-65e1-b402-27e1" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+        <infoLink name="Stormboyz Rokkit Pack" id="a98e-c321-ccfa-f781" hidden="false" type="profile" targetId="ca15-e261-7493-3e4f"/>
+        <infoLink name="Furious Charge" id="0720-f59b-8a25-a736" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Mob Rule!" id="eb65-eb68-6bdd-1ed8" hidden="false" type="profile" targetId="ae62-4a3e-a956-b78d"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Warbuggies" hidden="false" id="a634-68aa-bd9e-e759">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Warbuggy" hidden="false" id="4f47-7ed6-0937-439d">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Warbuggy" id="503c-7feb-7821-3a2a" hidden="false" type="profile" targetId="9adc-9290-e4b7-f572"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="266c-b57f-24ab-358c"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="97ca-6dff-cf86-410a"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Weapon" id="1679-852a-18c2-da3a" hidden="false" defaultSelectionEntryId="fc8b-eae7-b14b-2bea">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Twin-linked Big Shoota" hidden="false" id="fc8b-eae7-b14b-2bea">
+                  <infoLinks>
+                    <infoLink name="Twin-linked Big Shoota" id="9aa0-9e1d-a5c4-b988" hidden="false" type="profile" targetId="6f29-5051-9504-9814"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Skorcha" hidden="false" id="528d-29ab-f546-523b">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Skorcha" id="77cb-684d-a28d-3f2e" hidden="false" type="profile" targetId="78a3-0775-367f-aec7"/>
+                  </infoLinks>
+                  <profiles>
+                    <profile name="Trakk unit" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="e15f-74ad-4770-edca">
+                      <characteristics>
+                        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">This model may re-roll any Dangerous Terrain tests it must take.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Twin-linked Rokkit Launcha" hidden="false" id="5af2-0bb7-1ad0-8a69">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Twin-linked Rokkit Launcha" id="40a2-56bd-ac46-b794" hidden="false" type="profile" targetId="0421-ef70-10b3-55c3"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="1b1b-c9bf-b585-d8c0-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1b1b-c9bf-b585-d8c0-max"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="May take any of the following" id="725d-20c7-5430-434d" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Red Paint Job" hidden="false" id="f2c2-c974-09af-1e77">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Red Paint Job" id="3784-105a-edd5-10d2" hidden="false" type="profile" targetId="cbc5-3c46-4e0b-b124"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1950-7239-6edd-9c06"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Grot Riggers" hidden="false" id="6594-0a9f-7412-b3af">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Grot Riggers" id="9fea-dda5-9e03-534a" hidden="false" type="profile" targetId="fdcc-0b48-84d6-ed83"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bfc4-2a63-6373-01b3"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Armour Plates" hidden="false" id="fc11-afc3-26fb-d5f9">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Armour Plates" id="058b-6122-dd18-c7f3" hidden="false" type="profile" targetId="3ebf-07b8-e5ff-f2ae"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0bca-f050-a3cc-a548"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Wartrakk" hidden="false" id="4b97-de8a-64ef-b62d">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3a1d-cbd5-6c61-039e"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Trakk unit" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="4931-3472-82fe-5f9b">
+                      <characteristics>
+                        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">This model may re-roll any Dangerous Terrain tests it must take.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Fast" id="92fa-cfb4-72e3-ba05" hidden="false" type="rule" targetId="4d59-8511-a8e5-1f62"/>
+        <infoLink name="Open-topped" id="aeaa-fecc-2fb0-acc7" hidden="false" type="rule" targetId="21d9-2669-1dba-9fb2"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Warbikes" hidden="false" id="2469-a334-374d-3c73">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Mob" id="acc9-e598-1841-070d" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Warbiker" hidden="false" id="d48a-1bef-648f-749d">
+              <infoLinks>
+                <infoLink name="Warbiker" id="9f58-8a5d-38df-dca7" hidden="false" type="profile" targetId="01e4-1027-1d8d-880e"/>
+                <infoLink name="Choppa" id="c406-d8d4-31ef-b3f7" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
+                <infoLink name="Slugga" id="100b-bd18-d2f4-5336" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
+                <infoLink name="Dakkaguns" id="2358-eea5-d7fb-3d95" hidden="false" type="profile" targetId="3a03-309c-19a5-9b1f"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nob" hidden="false" id="41be-0a21-ab57-de6a">
+              <infoLinks>
+                <infoLink name="Nob on Warbike" id="a2f0-1a14-e106-1957" hidden="false" type="profile" targetId="66ac-c034-7df9-8ab7"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e22-121c-55da-5ee7"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon" id="d9ec-32d7-e599-4bf4" hidden="false" defaultSelectionEntryId="cdb1-fc04-6ca8-5562">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Big Choppa" hidden="false" id="d6b2-d182-d33c-8349">
+                      <infoLinks>
+                        <infoLink name="Big Choppa" id="3264-31fc-a988-b29e" hidden="false" type="profile" targetId="cf9b-b3be-00d9-802c"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="d672-7d74-11b0-27c7">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Klaw" id="c938-2137-8980-d133" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Choppa" hidden="false" id="cdb1-fc04-6ca8-5562">
+                      <infoLinks>
+                        <infoLink name="Choppa" id="9fd1-0f15-04d4-3f3a" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="edd1-dc70-afcf-d266-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="edd1-dc70-afcf-d266-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Nob may take any of the following" id="2de9-b9a7-061a-47ee" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Bosspole" hidden="false" id="b215-ff56-9f12-f238">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Bosspole" id="3104-435a-0df6-9703" hidden="false" type="profile" targetId="e01c-2614-7a86-cde2"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2fe2-5447-6b7a-fc4c"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="self" shared="true" id="2191-0ab6-7e4e-ff14"/>
+            <constraint type="max" value="12" field="selections" scope="self" shared="true" id="953f-4bc6-65ae-18e8"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Warbike" id="44cb-4ca0-676a-1218" hidden="false" type="profile" targetId="719e-aa29-8b6f-e437"/>
+        <infoLink name="Bike" id="4ce6-1544-ee9b-9309" hidden="false" type="rule" targetId="3326-67e1-a5e9-b3e7"/>
+        <infoLink name="Furious Charge" id="0d87-d2c3-fe7a-9c36" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Mob Rule!" id="a5ec-546f-8861-a0f8" hidden="false" type="profile" targetId="ae62-4a3e-a956-b78d"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Exhaust Cloud" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="8a35-9f9c-6334-aae8">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Warbikes produce great clouds of smoky exhaust fumes, giving them a 4+ cover save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Deffkoptas" hidden="false" id="b5da-d503-9ccf-512c">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Deffkopta" hidden="false" id="884b-7d05-a3ed-1cb7">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ba88-33d2-18d1-c7c3"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="c220-1937-3637-2f4a"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Deffkopta" id="48ac-92e0-f266-d980" hidden="false" type="profile" targetId="4a0a-40b8-a7c5-bf0d"/>
+            <infoLink name="Choppa" id="52c1-b28b-31c3-408e" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Weapon" id="2bbc-d8e8-4197-7154" hidden="false" defaultSelectionEntryId="4796-6feb-a516-117a">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Twin-linked Big Shoota" hidden="false" id="4796-6feb-a516-117a">
+                  <infoLinks>
+                    <infoLink name="Twin-linked Big Shoota" id="77d4-195c-2136-f5ee" hidden="false" type="profile" targetId="6f29-5051-9504-9814"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Twin-linked Rokkit Launcha" hidden="false" id="67c9-54b3-6957-00a1">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Twin-linked Rokkit Launcha" id="3c68-d1fd-fa0b-9fcc" hidden="false" type="profile" targetId="0421-ef70-10b3-55c3"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Kustom Mega-blasta" hidden="false" id="7a98-b294-dcf1-3f74">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Kustom Mega-blasta" id="96cb-7f5b-a0d2-3f12" hidden="false" type="profile" targetId="6cc4-37a2-1053-bc7b"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="508c-e3b3-6012-b86e-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="508c-e3b3-6012-b86e-max"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="May be equipped with" id="cb80-fb15-bd04-e412" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Bigbomm" hidden="false" id="3d4a-d5d9-e5db-9ae0">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Bigbomm" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="9ab4-6724-a1b6-4fab">
+                      <characteristics>
+                        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Once per game, a Deffkopta with a Bigbomm may make a special attack, even if it has turbo boosted that turn. Place the large blast template with the central hole on a model that the Deffkopta has passed over during its Movement phase. The Bigbomm scatters D6&quot; and is resolved with Strength 4 and AP 5.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5497-a88f-9b97-2b65"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Buzzsaw" hidden="false" id="53c5-32ea-f09b-8b9d">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Buzzsaw" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="239a-1cb6-7f6e-762c">
+                      <characteristics>
+                        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A Deffkopta with a buzzsaw is treated as having a power klaw.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7bc4-f42e-b32d-5637"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Jetbike" id="7b7f-99dc-b97e-2cd3" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
+        <infoLink name="Furious Charge" id="33f8-75ea-bef8-e299" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Mob Rule!" id="4b62-3a0e-ec05-c3ce" hidden="false" type="profile" targetId="ae62-4a3e-a956-b78d"/>
+        <infoLink name="Scouts" id="f63b-add0-5b49-d488" hidden="false" type="profile" targetId="e289-1576-b63b-c142"/>
+        <infoLink name="Hit and Run" id="be11-8c1b-79f4-ae70" hidden="false" type="profile" targetId="17a2-9db7-3461-361c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Deff Dread" hidden="false" id="59ba-03b6-7dc2-6369">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="75"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Deff Dread" id="d923-6058-d944-8753" hidden="false" type="profile" targetId="6119-b15e-bb04-1548"/>
+        <infoLink name="Walker" id="870c-a9dc-c7e7-ac7e" hidden="false" type="rule" targetId="fea1-2c4a-c33c-5600"/>
+        <infoLink name="Dreadnought Close Combat Weapon" id="8d2f-07ba-b8d5-a056" hidden="false" type="profile" targetId="72a1-7ddd-b4ae-b945"/>
+        <infoLink name="Dreadnought Close Combat Weapon" id="8910-bdfd-3f47-0ab9" hidden="false" type="profile" targetId="72a1-7ddd-b4ae-b945"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="The Deff Dread MUST take two of the following" id="c670-b6a3-ed68-f640" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="ed8a-2e26-5ef6-805a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Big Shoota" id="d740-9c7c-5088-2a9b" hidden="false" type="profile" targetId="dd74-99d0-eda5-7f44"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="2f73-2ddf-b83d-6e25">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Rokkit Launcha" id="a4f7-bcb5-50a8-d2c1" hidden="false" type="profile" targetId="21ca-215a-88b3-e23c"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Kustom Mega-blasta" hidden="false" id="5377-c8ba-4f36-987c">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Kustom Mega-blasta" id="d581-f6e5-fa4e-4555" hidden="false" type="profile" targetId="6cc4-37a2-1053-bc7b"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Skorcha" hidden="false" id="21a2-fe8f-8c23-3cb7">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Skorcha" id="9494-c1dc-b338-c117" hidden="false" type="profile" targetId="78a3-0775-367f-aec7"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Dreadnought Close Combat Weapon" hidden="false" id="a544-5b5a-8c42-3eb0">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Dreadnought Close Combat Weapon" id="991c-619a-d325-d0b1" hidden="false" type="profile" targetId="72a1-7ddd-b4ae-b945"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="self" shared="true" id="fb7b-3cda-9180-f532-min"/>
+            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="fb7b-3cda-9180-f532-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take any of the following" id="39ac-d5f8-ac1e-8fdb" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Grot Riggers" hidden="false" id="fe59-010a-a4e1-a78f">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a29-20db-dd6c-0718"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Grot Riggers" id="2273-fc6e-db35-e4c0" hidden="false" type="profile" targetId="fdcc-0b48-84d6-ed83"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Armour Plates" hidden="false" id="7b73-a02f-5b84-1f5e">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Armour Plates" id="514c-5798-b8db-c134" hidden="false" type="profile" targetId="3ebf-07b8-e5ff-f2ae"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="232a-7d8f-fd54-0706"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Killa Kans" hidden="false" id="fbdd-cc21-6eba-4a71">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Killa Kan" hidden="false" id="c62a-259b-00c3-6a4e">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Killa Kan" id="248f-0cd0-7609-5d28" hidden="false" type="profile" targetId="53d2-e1c1-2cd6-ed4f"/>
+            <infoLink name="Dreadnought Close Combat Weapon" id="65c0-f45f-03bc-8b8e" hidden="false" type="profile" targetId="72a1-7ddd-b4ae-b945"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="56dd-5246-2291-82a1"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="c834-3c92-3988-cf3c"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Each Killa Kan MUST take one of the following" id="8e1e-3682-7f5d-241b" hidden="false" defaultSelectionEntryId="f9b6-a79c-a572-662b">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="f9b6-a79c-a572-662b">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Big Shoota" id="f8dd-7cbe-cc5f-5e55" hidden="false" type="profile" targetId="dd74-99d0-eda5-7f44"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="f7f6-f2fd-9053-159f">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Rokkit Launcha" id="e9ed-ea74-83b4-b126" hidden="false" type="profile" targetId="21ca-215a-88b3-e23c"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Kustom Mega-blasta" hidden="false" id="6c9a-ad6e-6bf9-5f1a">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Kustom Mega-blasta" id="e172-a6c4-e3ce-39a5" hidden="false" type="profile" targetId="6cc4-37a2-1053-bc7b"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Skorcha" hidden="false" id="8e7c-f012-b9e0-160b">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Skorcha" id="6196-2976-7d1b-7f3e" hidden="false" type="profile" targetId="78a3-0775-367f-aec7"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Grotzooka" hidden="false" id="2c25-39dd-a06d-368b">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Grotzooka" id="5ceb-7467-32c3-ba68" hidden="false" type="profile" targetId="6b9c-e986-55e7-8ce6"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="f199-cff5-c230-022d-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="f199-cff5-c230-022d-max"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="May take any of the following" id="6128-9518-393f-75b7" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Grot Riggers" hidden="false" id="ccc2-eb3e-cce1-bdc5">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f7ee-18de-0625-1685"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Grot Riggers" id="21b9-af07-a13d-0c8b" hidden="false" type="profile" targetId="fdcc-0b48-84d6-ed83"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Armour Plates" hidden="false" id="4ec9-ac60-7dd4-3fc5">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Armour Plates" id="f2d8-83f2-9e4f-eca0" hidden="false" type="profile" targetId="3ebf-07b8-e5ff-f2ae"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="160f-67c3-c430-1be7"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Flash Gitz" hidden="false" id="e18b-6c8a-6f82-70ca">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Mob" id="af7a-fdf6-9907-63cc" hidden="false" defaultSelectionEntryId="7705-04b8-bddb-4604">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Flash Git" hidden="false" id="7705-04b8-bddb-4604">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Flash Gitz" id="835c-bc0c-5600-4d15" hidden="false" type="profile" targetId="2844-8a18-d3af-149e"/>
+                <infoLink name="Snazzgun" id="254d-f54f-7a61-93d1" hidden="false" type="profile" targetId="5499-c093-a33b-9799"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="May take any of the following" id="16f5-089c-d8ec-7678" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="More Dakka " hidden="false" id="7237-726a-dab8-b1d2">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <profiles>
+                        <profile name="More Dakka " typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="d7bb-2fd4-1c28-2db2">
+                          <characteristics>
+                            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Snazzguns with the More Dakka upgrade are Assault 2</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a472-8774-5d68-1bce"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Shootier" hidden="false" id="a038-e25c-d6c0-e809">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <profiles>
+                        <profile name="Shootier" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="a52d-45e0-f467-ce57">
+                          <characteristics>
+                            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Snazzguns with the Shootier upgrade have S6</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec97-92e8-9c05-97b7"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Blastas" hidden="false" id="1c55-0130-3128-13f8">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <profiles>
+                        <profile name="Blastas" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="d678-7989-905c-2bf1">
+                          <characteristics>
+                            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">When rolling to determine the AP of the unit&apos;s fire, subtract 1 from the roll (to a minimum of 1). Blasta Snazzguns have the Gets Hot! special rule.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2963-9dac-6c97-0492"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Painboy" hidden="false" id="1cce-e27e-089a-a507">
+              <infoLinks>
+                <infoLink name="Painboy" id="90cc-61ec-0ae7-e9f0" hidden="false" type="profile" targetId="dc54-0a5a-b0bf-127c"/>
+                <infoLink name="Dok&apos;s Tools" id="3217-1e77-7e41-6797" hidden="false" type="profile" targetId="89d6-38bc-7c40-b836"/>
+                <infoLink name="&apos;Urty Syringe" id="26a4-af12-f0ba-ac19" hidden="false" type="profile" targetId="02aa-48ad-fcb0-ae2a"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="55"/>
+              </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="All models in the Painboy&apos;s unit may have" id="b522-e203-bc05-8708" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Cybork Bodies (must select per model)" hidden="false" id="0260-6bf2-02d1-4b01">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Cybork Body" id="8bd1-4077-6064-1592" hidden="false" type="profile" targetId="db0c-7be3-0871-ec2d"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Grot Orderly" hidden="false" id="2b5c-cfd4-859d-5c02">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Grot Orderly" id="b426-8d25-4192-55b2" hidden="false" targetId="8220-f421-4cb9-b49d" type="profile"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="784d-e61e-2b02-b4b4"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e635-08c2-05b3-81fa"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="89a8-be96-d410-515d"/>
+            <constraint type="max" value="10" field="selections" scope="self" shared="true" id="e02e-9c83-a645-2ce7"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Ammo Runt" hidden="false" id="ff91-a890-fec5-97da">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Ammo Runt" id="4b04-cb6a-a7dd-5a95" hidden="false" type="profile" targetId="0569-d662-c6dd-c21a"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5dfb-a148-ea2e-595b"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="unit" import="true" name="One Flashgitz mob may be led by Kaptin Badrukk" hidden="false" id="fe32-6e48-03db-692b">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="135"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Badrukk" id="44ac-841a-7255-5c4a" hidden="false" type="profile" targetId="facc-d3f2-04d0-f6cc"/>
+            <infoLink name="Bosspole" id="6675-e010-bea1-fbc9" hidden="false" type="profile" targetId="e01c-2614-7a86-cde2"/>
+            <infoLink name="Slugga" id="3749-c045-6737-c18e" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
+            <infoLink name="Choppa" id="63a3-e600-7ee3-88c8" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2465-6f05-eb26-c4f6" includeChildSelections="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Da Powder Grotz" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="fba3-d1f8-fd91-198c">
+              <characteristics>
+                <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Badrukk has 3 Ammo Runts. These are seperate from the Ammo Runts allows by his unit.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Da Rippa" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="3ae8-cc4c-25ac-a4cc">
+              <characteristics>
+                <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+                <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+                <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+                <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3, Gets Hot!</characteristic>
+                <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Gitfindas" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="1246-a88c-1658-e0cd">
+          <characteristics>
+            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">When shooting, Flash Gitz may measure to see if they are in range before declaring their target.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Furious Charge" id="8312-886d-5f0d-3f93" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Mob Rule!" id="3d28-78fb-2612-5a97" hidden="false" type="profile" targetId="ae62-4a3e-a956-b78d"/>
+        <infoLink name="Waaagh!" id="2f0c-2768-7ae0-0585" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Big Gunz" hidden="false" id="6bae-4c44-d281-4757">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="The battery may include any of the following" id="0287-33f1-8dcd-a9a2" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Ammo Runt" hidden="false" id="c2fd-26df-895e-cb45">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Ammo Runt" id="993e-5da4-1a81-47dd" hidden="false" type="profile" targetId="0569-d662-c6dd-c21a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6b54-5503-f5e4-9bdb"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Additional Grot Krew" hidden="false" id="839a-1797-475b-2ae5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Gretchin" id="7834-23ab-5809-9452" hidden="false" type="profile" targetId="6882-d396-31c8-f316"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="8469-1a6a-ba9d-d533"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Big Gun" hidden="false" id="b464-14cb-4347-0d51" collective="true">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Big Gun" id="3760-8ba9-992d-fbef" hidden="false" type="profile" targetId="0b6d-0fa0-4036-628c"/>
+            <infoLink name="Gretchin" id="0d4f-b412-9ced-d77c" hidden="false" type="profile" targetId="6882-d396-31c8-f316"/>
+            <infoLink name="Gretchin" id="8813-6c1e-2b57-c4dc" hidden="false" type="profile" targetId="6882-d396-31c8-f316"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0c97-49ad-d61b-be45"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="ea56-0f74-1847-5954"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Weapon" id="ee2a-42d3-cf80-0f3e" hidden="false" defaultSelectionEntryId="22ca-0da7-bf9b-3ab4">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Kannon" hidden="false" id="22ca-0da7-bf9b-3ab4">
+                  <infoLinks>
+                    <infoLink name="Kannon (Frag)" id="d23f-59a9-2e8a-9e22" hidden="false" type="profile" targetId="a508-fd47-9789-f683"/>
+                    <infoLink name="Kannon (Shell)" id="b021-3d25-8025-79eb" hidden="false" type="profile" targetId="69ea-02af-bd76-b124"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Lobbas" hidden="false" id="e4f2-eaa8-47d0-1bdc">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Lobba" id="3528-a849-7a78-bd68" hidden="false" type="profile" targetId="4556-c4b4-eb6e-8ce2"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Zzap Gun" hidden="false" id="bbf4-1406-6079-9764">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Zzap Gun" id="76d8-9041-ed72-5a03" hidden="false" type="profile" targetId="b23c-729e-e0d2-0ab4"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="0eca-e60c-9224-290f-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0eca-e60c-9224-290f-max"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Runtherd" hidden="false" id="1284-1107-ca5f-b010">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Runtherd" id="0056-23a5-d03b-7d64" hidden="false" type="profile" targetId="031c-245c-a9e1-fe3d"/>
+            <infoLink name="Squig Hound" id="8944-38fb-b20c-c5df" hidden="false" type="profile" targetId="682d-f744-6245-dd2a"/>
+            <infoLink name="Slugga" id="71fc-c7ea-405d-df62" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
+            <infoLink name="Furious Charge" id="7cfe-a1b9-245e-559f" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Loadout" id="bf4b-4388-b425-6a1f" hidden="false" defaultSelectionEntryId="0146-1f03-069a-9b85">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Grabba Stikk" hidden="false" id="0146-1f03-069a-9b85">
+                  <infoLinks>
+                    <infoLink name="Grabba Stikk" id="69b9-8a36-cf1d-af78" hidden="false" type="profile" targetId="d5a0-bbbe-d646-5dd9"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Grot Prod" hidden="false" id="a96b-ce77-971a-e86b">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Grot-prod" id="6fee-888e-dc09-fe5c" hidden="false" type="profile" targetId="18f1-5125-fd25-4c38"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="caaa-6d54-13dd-75fe-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="caaa-6d54-13dd-75fe-max"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b0ce-77d4-f971-adb2"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Artillery" id="15d2-06be-2d23-1e8c" hidden="false" type="rule" targetId="d466-164a-2f8e-6e4a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Looted Wagon" hidden="false" id="8814-6340-dc3b-3609">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Looted Wagon" id="e30a-e72f-10ab-f606" hidden="false" type="profile" targetId="40ca-7daa-5c96-5ef2"/>
+        <infoLink name="Tank" id="7f48-843b-f853-1118" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
+        <infoLink name="Open-topped" id="bd19-0f50-3807-832f" hidden="false" type="rule" targetId="21d9-2669-1dba-9fb2"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Looted Wagon" typeId="9a37-e4d2-11fe-9e81" typeName="Transport" hidden="false" id="06a4-267d-fd6a-a6a9">
+          <characteristics>
+            <characteristic name="Capacity" typeId="7cdf-4c80-a83d-200c">12 Models. Models in Mega-armour count as two models. A Looted Wagon with a boomgun loses its transport capacity altogether.</characteristic>
+            <characteristic name="Access Points" typeId="6e42-3bd5-70a6-724f">If a Looted Wagon has the &apos;ard case upgrade it has one access point at the rear.</characteristic>
+            <characteristic name="Fire Points" typeId="aa94-ae0c-98e7-5923">If a Looted Wagon has the &apos;ard case upgrade it has three fire points, one on either side of the hull and one at the rear.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Don&apos;t Press Dat" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="ec0e-a1e8-3a81-ec3e">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Each Looted Wagon must roll a dice at the start of each Ork Movement phase. On the roll of a 1, that vehicle must move directly forward as far as possible as the Orks inside get carried away. This can potentially mean that the Wagon may Tank Shock an enemy unit. Passengers may not disembark this turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May take one of the following" id="2c8e-cbc0-ac5e-970f" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Boomgun" hidden="false" id="b6fb-447b-91d2-c59a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="70"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Boomgun" id="520e-0e93-f0ab-a541" hidden="false" type="profile" targetId="24ca-6eba-51e7-7e4c"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Skorcha" hidden="false" id="890c-77a7-84bf-3690">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Skorcha" id="708b-35a4-7a8e-f4d8" hidden="false" type="profile" targetId="78a3-0775-367f-aec7"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b388-730f-cc1e-414e"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take up to two" id="4d1b-5fae-94c9-d048" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="132c-beb8-c41c-c3c4">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Big Shoota" id="8772-d999-0f04-5762" hidden="false" type="profile" targetId="dd74-99d0-eda5-7f44"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="2db5-b713-9cb8-6e21">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Rokkit Launcha" id="25b3-0805-5291-61bc" hidden="false" type="profile" targetId="21ca-215a-88b3-e23c"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="43b0-2c8c-e31b-8be8"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take any of the following" id="e85d-27f5-ed76-2540" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="&apos;Ard Case" hidden="false" id="df46-ffaa-2137-2ef2">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="&apos;Ard Case" id="097c-1420-fd36-d4c9" hidden="false" type="profile" targetId="36ce-0eb6-f04d-1a34"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c22-31e6-4e79-13c2"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Red Paint Job" hidden="false" id="b742-06a4-88d6-8071">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Red Paint Job" id="e1e6-2cfc-8ded-75a9" hidden="false" type="profile" targetId="cbc5-3c46-4e0b-b124"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b393-685e-45a7-a585"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Grot Riggers" hidden="false" id="646d-519c-be3c-9117">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Grot Riggers" id="9791-1b97-9bca-d031" hidden="false" type="profile" targetId="fdcc-0b48-84d6-ed83"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e31-eb2a-8806-eaae"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Stikkbomb Chukka" hidden="false" id="34a0-4870-fdf1-c4c6">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Stikkbomb Chukka" id="246a-d8c8-6383-0156" hidden="false" type="profile" targetId="cdff-95ae-bee8-40fc"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cd2f-155e-0cb1-8b27"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Armour Plates" hidden="false" id="e905-0546-fef5-1fb3">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Armour Plates" id="8ee8-e461-71fb-7c4c" hidden="false" type="profile" targetId="3ebf-07b8-e5ff-f2ae"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ecf-8bfb-cb0b-75ef"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Boarding Plank" hidden="false" id="0df9-d7ec-3e99-3748">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Boarding Plank" id="85fc-a37c-b606-2da1" hidden="false" type="profile" targetId="ed45-86d8-2606-20a5"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="35cd-65d9-ced5-1632"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Wreckin&apos; Ball" hidden="false" id="3593-4cc3-8eb7-4685">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Wreckin&apos; Ball" id="ae76-d0e1-deae-8b50" hidden="false" type="profile" targetId="e8de-db8b-a2e7-3f6b"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c943-4b22-6ce0-915c"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Reinforced Ram" hidden="false" id="b606-4505-9c59-5c4f">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Reinforced Ram" id="0d4e-2ebd-a46f-96d8" hidden="false" type="profile" targetId="4936-981a-7f82-6638"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e9cb-67a4-0711-99bc"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Grabbin&apos; Klaw" hidden="false" id="a1c6-058f-86dd-f5eb">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Grabbin&apos; Klaw" id="180f-38c3-88ef-1335" hidden="false" type="profile" targetId="9d90-7611-47f1-a479"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="82b4-9468-d3fb-ebaf"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Ghazghkull Thraka" hidden="false" id="f9c1-1987-2897-dad0" type="selectionEntry" targetId="6abe-ecc3-945d-68ee">
@@ -1525,6 +4092,104 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
     <entryLink import="true" name="Weirdboy" hidden="false" id="daf6-9eeb-1ec3-a98d" type="selectionEntry" targetId="925e-c084-20d4-e745">
       <categoryLinks>
         <categoryLink targetId="ac8d-efba-1884-d3ad" id="21b1-f576-55f9-36a5" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Nobz" hidden="false" id="8ff5-e95b-2b1e-9aac" type="selectionEntry" targetId="bdf3-6247-488d-f20a">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="e81f-52ea-0799-7141" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Meganobz" hidden="false" id="7f22-c8d7-8627-cdb8" type="selectionEntry" targetId="167d-785f-dab8-db03">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="2e59-b475-4e3e-0f80" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Burna Boyz" hidden="false" id="cac3-9bf6-e1a2-93a8" type="selectionEntry" targetId="d4c9-5e90-70fc-e5fa">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="d5a1-7e20-fda8-1eb6" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tankbustas" hidden="false" id="ef8a-7a69-2a33-1025" type="selectionEntry" targetId="6578-eb4d-e60d-377f">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="ffb7-12ce-6ea9-4262" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Lootas" hidden="false" id="96bb-b075-7b72-036c" type="selectionEntry" targetId="891b-80fa-7a66-3f6a">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="e1ad-2ffa-e32d-e62a" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kommandos" hidden="false" id="205f-a81e-6c67-f0e3" type="selectionEntry" targetId="627a-40d7-c5c0-d5d7">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="3098-95fc-bd5e-c7e1" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ork Boyz" hidden="false" id="85fb-2dcb-30b0-6fc1" type="selectionEntry" targetId="3908-2593-d77a-7e00">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="1a12-b973-5ac4-1d8f" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ork &apos;Ard Boyz" hidden="false" id="2da6-fb95-7592-8e56" type="selectionEntry" targetId="ca6a-1c00-8d66-4ce5">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0625-b91d-6d40-5d00"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="922f-2741-a93f-d870" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Gretchin" hidden="false" id="e4b0-9a9f-3fa1-07ca" type="selectionEntry" targetId="d9d6-974f-8a89-d1a7">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="ef3a-a1b9-3803-123f" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Stormboyz" hidden="false" id="4368-1ea3-cb9b-e415" type="selectionEntry" targetId="921d-59f6-1373-3a97">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="1fb8-1836-7cfb-3b86" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Warbuggies" hidden="false" id="62f6-a6a5-2162-8c03" type="selectionEntry" targetId="a634-68aa-bd9e-e759">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="9e7b-d1b5-567f-e66c" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Warbikes" hidden="false" id="ca23-7c30-3c3c-0822" type="selectionEntry" targetId="2469-a334-374d-3c73">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="4504-49fb-3e1f-a81a" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Deffkoptas" hidden="false" id="d206-5392-a5a2-37db" type="selectionEntry" targetId="b5da-d503-9ccf-512c">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="018e-0290-8414-b336" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Battlewagon" hidden="false" id="3505-e950-ee1c-485e" type="selectionEntry" targetId="43ac-0ac9-44bb-185c">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="64b8-a0a2-0be3-996c" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Deff Dread" hidden="false" id="8583-52b4-2d76-15b1" type="selectionEntry" targetId="59ba-03b6-7dc2-6369">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="464d-73ff-0ebd-b9e4" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Killa Kans" hidden="false" id="a727-97a4-f01d-474c" type="selectionEntry" targetId="fbdd-cc21-6eba-4a71">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="7122-4b68-35ed-0088" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Flash Gitz" hidden="false" id="4a96-3b47-855f-ab40" type="selectionEntry" targetId="e18b-6c8a-6f82-70ca">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="fb41-556b-3654-371d" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Big Gunz" hidden="false" id="7519-5f83-109a-dfe7" type="selectionEntry" targetId="6bae-4c44-d281-4757">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="340d-4f3f-d7a0-9c09" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Looted Wagon" hidden="false" id="bdfb-c528-bd2e-56e5" type="selectionEntry" targetId="8814-6340-dc3b-3609">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="bd9f-e8e1-cf08-660c" primary="true" name="Heavy Support"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

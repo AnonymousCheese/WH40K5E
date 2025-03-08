@@ -258,7 +258,13 @@ If a skimmer is immobilised or wrecked, its base is removed, if possible. If th
 Skimmers may try to dodge out of the way of tanks attempting to ram them (as long as the ramming tank is not also a skimmer). The ramming tank stops in contact with the skimmer as normal, but then, if the player controlling the skimmer wants to dodge, he rolls a D6. On a 1 or 2 the collision proceeds as normal. On a 3+ the skimmer avoids the tank, neither vehicle suffers any damage, and the ramming tank stops in its tracks (literally!), its crew confused and disappointed.</description>
     </rule>
     <rule name="Open-topped" id="21d9-2669-1dba-9fb2" hidden="false">
-      <description>Whenever a damage roll is made against an opentopped vehicle, add +1 to the result.</description>
+      <description>Open-topped vehicles follow the normal vehicle rules, with the additions and exceptions given below.
+
+
+Whenever a damage roll is made against an opentopped vehicle, add +1 to the result.
+
+
+Open-topped vehicles do not have specific fire points. Instead, all passengers in an open-topped vehicle may fire, measuring range and line of sight from the hull of the vehicle. Open-topped vehicles do not have specific access points. Models can embark or disembark within 2&quot; of any point of the vehicle. The passengers of opentopped vehicles may assault, even if the vehicle has moved before their disembarkation. As it is much easier to bail out from an open topped transport, the Strength of hits inflicted on passengers by exploding open topped transports is one point lower than it would be in a normal transport (i.e. Strength 3).</description>
     </rule>
     <rule name="Tank" id="3475-46b4-28e6-8fb0" hidden="false">
       <description>Tanks follow the normal rules for vehicles, with the additions and exceptions given below.
@@ -535,7 +541,7 @@ If assaulting through cover, beasts and cavalry are slowed by difficult terrain
       <description>All swarms have the ‘stealth’ and ‘vulnerable to blasts/templates’ special rules. In addition, intervening swarms never offer any cover save to monstrous creatures or vehicles.</description>
     </rule>
     <rule name="Vulnerable to blasts/templates" id="0897-ab5f-e35c-178d" hidden="false">
-      <description> If the unit is a vehicle, then each hit counts as two hits. If it is not a vehicle, each unsaved wound is doubled to two wounds.</description>
+      <description>If the unit is a vehicle, then each hit counts as two hits. If it is not a vehicle, each unsaved wound is doubled to two wounds.</description>
     </rule>
   </sharedRules>
   <publications>
@@ -1088,9 +1094,7 @@ This rule cannot be used if, when assaulted, the unit was already locked in com
       <characteristics>
         <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Dreadnought close combat weapon is a power weapon and doubles the walker’s Strength in close combat (up to a maximum of 10).
 
-
 If the walker suffers a weapon destroyed result and the player chooses the close combat weapon, the walker loses the bonuses conferred by the Dreadnought close combat weapon (and any other weapon built into the same arm). 
-
 
 If a walker is armed with two or more close combat weapons, it gains one bonus attack for each additional weapon over the first. If one of its additional weapons is destroyed, one bonus attack is lost.</characteristic>
       </characteristics>
