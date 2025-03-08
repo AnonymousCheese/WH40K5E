@@ -13,8 +13,8 @@
                 <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
                 <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
                 <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
-                <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
-                <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
+                <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+                <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
                 <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
               </characteristics>
             </profile>
@@ -3272,7 +3272,7 @@ It is worth pointing out that some armies might use different versions of smoke
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Leman Russ Squadron" hidden="false" id="92e0-1714-ead2-08c7" collective="true" subType="unit-group">
       <selectionEntries>
-        <selectionEntry type="unit" import="true" name="Leman Russ Battle Tank" hidden="false" id="e901-3bc3-7439-81a9" defaultAmount="" collective="true">
+        <selectionEntry type="unit" import="true" name="Leman Russ Battle Tank" hidden="false" id="e901-3bc3-7439-81a9" collective="true">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="150"/>
           </costs>
@@ -3388,7 +3388,7 @@ It is worth pointing out that some armies might use different versions of smoke
             <entryLink targetId="a875-5b3a-7050-4c42" id="d80d-7e55-11e2-1b33" type="selectionEntryGroup" name="Pintle-mount" hidden="false"/>
           </entryLinks>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Leman Russ Exterminator" hidden="false" id="f2e8-a12e-2bb0-c3e1" defaultAmount="" collective="true">
+        <selectionEntry type="unit" import="true" name="Leman Russ Exterminator" hidden="false" id="f2e8-a12e-2bb0-c3e1" collective="true">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="150"/>
           </costs>
@@ -3524,7 +3524,7 @@ It is worth pointing out that some armies might use different versions of smoke
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Leman Russ Vanquisher" hidden="false" id="f2c1-14ee-63b1-1101" defaultAmount="" collective="true">
+        <selectionEntry type="unit" import="true" name="Leman Russ Vanquisher" hidden="false" id="f2c1-14ee-63b1-1101" collective="true">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="155"/>
           </costs>
@@ -3660,7 +3660,7 @@ It is worth pointing out that some armies might use different versions of smoke
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Leman Russ Eradicator" hidden="false" id="08b0-c4fc-32d5-f61b" defaultAmount="" collective="true">
+        <selectionEntry type="unit" import="true" name="Leman Russ Eradicator" hidden="false" id="08b0-c4fc-32d5-f61b" collective="true">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="160"/>
           </costs>
@@ -3796,7 +3796,7 @@ It is worth pointing out that some armies might use different versions of smoke
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Leman Russ Demolisher" hidden="false" id="84a6-850c-6fbf-3d10" defaultAmount="" collective="true">
+        <selectionEntry type="unit" import="true" name="Leman Russ Demolisher" hidden="false" id="84a6-850c-6fbf-3d10" collective="true">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="165"/>
           </costs>
@@ -3932,7 +3932,7 @@ It is worth pointing out that some armies might use different versions of smoke
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Leman Russ Punisher" hidden="false" id="f759-bd0f-b525-611f" defaultAmount="" collective="true">
+        <selectionEntry type="unit" import="true" name="Leman Russ Punisher" hidden="false" id="f759-bd0f-b525-611f" collective="true">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="180"/>
           </costs>
@@ -4068,7 +4068,7 @@ It is worth pointing out that some armies might use different versions of smoke
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Leman Russ Executioner" hidden="false" id="2514-7ac1-42da-d0c6" defaultAmount="" collective="true">
+        <selectionEntry type="unit" import="true" name="Leman Russ Executioner" hidden="false" id="2514-7ac1-42da-d0c6" collective="true">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="190"/>
           </costs>

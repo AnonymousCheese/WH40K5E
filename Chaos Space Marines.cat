@@ -3679,9 +3679,6 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Chaos Biker" id="44a0-28e1-5074-0684" hidden="false" type="profile" targetId="e32b-a5e8-c586-a3bd"/>
               </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="09a4-22c4-f671-d74f"/>
-              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Biker Champion" hidden="false" id="9e96-5e05-f58a-2595">
               <costs>
@@ -3739,6 +3736,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                   </constraints>
                 </selectionEntry>
               </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="09a4-22c4-f671-d74f"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
