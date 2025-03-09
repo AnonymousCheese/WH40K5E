@@ -167,7 +167,6 @@ If the special rules of a unit specify that the unit can never be pinned, the u
     <rule name="Gets Hot!" id="2cd4-e1aa-f02f-7867" hidden="false">
       <description>Roll to hit as normal, except that you must roll to hit even if the target is found to be out of range. For each result of a 1 rolled on its to hit rolls, the firing model suffers a wound (normal saves apply). Because of their additional cooling systems, weapons on vehicles are not affected by this rule. 
 
-
 Blast weapons do not roll to hit, so you must always roll a D6 before firing a Gets Hot! blast weapon to check if the weapon overheats. If you roll a 1, the weapon gets hot, it does not fire, and the firing model suffers a wound (normal saves apply). Otherwise the shot is resolved as normal.</description>
     </rule>
     <rule name="Twin-Linked" id="760e-3aca-a958-7cf6" hidden="false">
@@ -541,7 +540,19 @@ If assaulting through cover, beasts and cavalry are slowed by difficult terrain
       <description>All swarms have the ‘stealth’ and ‘vulnerable to blasts/templates’ special rules. In addition, intervening swarms never offer any cover save to monstrous creatures or vehicles.</description>
     </rule>
     <rule name="Vulnerable to blasts/templates" id="0897-ab5f-e35c-178d" hidden="false">
-      <description>If the unit is a vehicle, then each hit counts as two hits. If it is not a vehicle, each unsaved wound is doubled to two wounds.</description>
+      <description>If the unit is a vehicle, then each hit counts as two hits. 
+
+
+If it is not a vehicle, each unsaved wound is doubled to two wounds.</description>
+    </rule>
+    <rule name="No Retreat!" id="1fea-fc8f-5fb3-4dbc" hidden="false">
+      <description>It’s not uncommon for units to be immune to Morale checks for losing an assault, or to automatically pass them for some reason (they may have the ‘fearless’ special rule, be subject to a vow or some other special rule). When such units lose a close combat, they are in danger of being dragged down by the victorious enemy despite their determination to hang on.
+
+
+These units do not take Morale checks and will never fall back. Instead, these units suffer a number of wounds equal to the number their side has lost the combat by (allocated as normal). All types of saving throws, except for cover saves, can be taken against these wounds. 
+
+
+If none of the enemies involved in the combat against a fearless unit can actually hurt it, the unit does not suffer any wounds if its side is defeated in combat, and simply continues to fight.</description>
     </rule>
   </sharedRules>
   <publications>
@@ -779,7 +790,10 @@ This rule also confers a special outflank move to units of scouts that are kept
     </profile>
     <profile name="Fearless" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="1380-eda3-7a3b-055c">
       <characteristics>
-        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Fearless troops automatically pass all Morale and Pinning tests they are required to take, and will never fall back. They can however go to ground voluntarily. This special rule is gained by any independent character joining a fearless unit. However, as long as a fearless character stays with a unit that is not fearless, he loses this special rule. If a unit that is falling back suddenly gains this rule, it will automatically regroup at the beginning of its next Movement phase, regardless of all normal restrictions on regrouping.</characteristic>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Fearless troops automatically pass all Morale and Pinning tests they are required to take, and will never fall back. They can however go to ground voluntarily. This special rule is gained by any independent character joining a fearless unit. However, as long as a fearless character stays with a unit that is not fearless, he loses this special rule. If a unit that is falling back suddenly gains this rule, it will automatically regroup at the beginning of its next Movement phase, regardless of all normal restrictions on regrouping.
+
+
+Note: units with the Fearless ability are subject to the No Retreat! rule.</characteristic>
       </characteristics>
     </profile>
     <profile name="Move Through Cover" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="25f7-501a-6b03-6c3b">
@@ -1272,6 +1286,21 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
     <profile name="Rage" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="4548-d7d5-3a03-36c2">
       <characteristics>
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">In the Movement phase, units subject to rage must always move as fast as possible towards the closest visible enemy. In the Shooting phase, they are free to decide whether to run, but if they do they must run towards the closest visible enemy. In the Assault phase they must always consolidate towards the closest visible enemy. Whilst falling back, embarked on a transport, or if no enemy is visible, they ignore this rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Preferred Enemy" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="1d62-9aab-05fd-0a35">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Units with this ability can always re-roll their rolls to hit in close combat against their preferred enemy. This ability does not work when attacking vehicles without a Weapon Skill characteristic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Skilled Rider" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="5dc5-48c4-c855-9adc">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The rider is highly practiced at moving though perilous warzones. It may re-roll the dice for failed dangerous terrain tests as long as its unit type is bike or cavalry.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tank Hunters" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="45b2-1680-0bd2-99ba">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Tank hunters are especially skilled at finding and exploiting weaknesses in the armour of enemy vehicles. They add +1 to their armour penetration rolls whenever they hit a vehicle (both at range and in close combat). In addition, they automatically pass Morale checks caused by tank shock.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
