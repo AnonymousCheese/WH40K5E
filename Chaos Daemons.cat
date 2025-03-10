@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="372d-cc35-485d-bd8c" name="Chaos Daemons" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Beast of Nurgle" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="4df3-011c-360d-4be8">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">D6</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bloodletter of Khorne" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="4f61-bc0e-9008-306e">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bloodcrusher of Khorne" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="f226-565e-c7ca-85b2">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bloodthirster" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="2309-46ce-2284-0421">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">10</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">7</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">5</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Blue Scribes" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="9068-1656-dcc0-59b8">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">2</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Changeling" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="4e20-e97a-a16b-5d8d">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">2</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Daemon Prince" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="c119-66af-3195-2bd4">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">7</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Daemonette of Slaanesh" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="0bb5-6050-fb2c-48bc">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Epidemius" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e7aa-dbdf-d3b7-5f57">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fateweaver" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="2087-f9c8-44e5-7a3b">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fiend of Slaanesh" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="8276-1fc6-461f-923e">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">5</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Flamer of Tzeentch" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e2e5-5850-01f7-70e5">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">2</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Flesh Hound of Khorne" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="a94f-1416-7e88-73e2">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fury of Chaos" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="abe0-e81b-0e26-c82b">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Great Unclean One" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="0379-b928-b905-7d11">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">5</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Herald of Khorne" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="daf5-0027-6b1b-b4ff">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Herald of Nurgle" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="ded6-40b1-d668-4de4">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Herald of Slaanesh" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="afa8-6bbe-1fa9-5c54">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">7</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Herald of Tzeentch" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="2e85-ad7d-efd2-b472">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">2</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Karanak" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="419f-5b0d-5294-e7e9">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Keeper of Secrets" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="3739-b485-413d-fbb1">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">8</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">10</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">6</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ku&apos;gath" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="35e0-3c9d-085b-43a5">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">6</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">5</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lord of Change" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="5302-23ba-69f8-86c4">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Masque" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e5d6-733c-fcae-52a2">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">7</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Nurglings" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="8a02-d4e4-527b-f707">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">2</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Pink Horror of Tzeentch" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="95d1-a9f2-e07d-e6bf">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">2</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Plaguebearer of Nurgle" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="36b7-8b53-cae1-cf7f">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Screamer of Tzeentch" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="959b-e6bd-0b35-5239">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Seeker of Slaanesh" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="0370-3644-6bb1-cde5">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Skarbrand" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="0d7e-efe7-4e26-541d">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">10</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">8</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">6</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Skulltaker" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="94d6-56ff-ef0e-d9d8">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">7</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Soul Grinder" typeId="acd3-2539-3641-1250" typeName="Walker Vehicle" hidden="false" id="025c-4591-78ec-76cd">
+      <characteristics>
+        <characteristic name="WS" typeId="3d9c-8977-9b95-824b">3</characteristic>
+        <characteristic name="BS" typeId="ea47-07be-ab4a-6569">3</characteristic>
+        <characteristic name="STR" typeId="a630-c404-957f-a49f">6</characteristic>
+        <characteristic name="F" typeId="3549-2d9e-3052-b396">13</characteristic>
+        <characteristic name="S" typeId="94fc-8af8-d4d4-7b1a">13</characteristic>
+        <characteristic name="R" typeId="4eca-6e3c-2053-e75a">11</characteristic>
+        <characteristic name="I" typeId="f706-f227-5d93-0fe3">3</characteristic>
+        <characteristic name="A" typeId="12be-9dd2-0dd7-b17a">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Daemonic Assault" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="68d6-f62a-d0ef-702a">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">No model in this army is ever placed on the battlefield during deployment. Instead, all of the units in the army always start the game in reserve, even in missions that do not normally allow this rule to be used. You must declare if any independent characters are on their own, counting as a seperate unit in reserve, or if they are joining a unit, in which case they and their unit are a single unit in reserve. The enemy deploys as normal.
+
+
+At the beginning of your first turn, divide the army into two groups that must include, as much as possible, the same number of units. Then you must face the unfathomable judgement of the Gods of Chaos, and nominate which of the two groups you wish to make a &apos;Daemonic Assault&apos; at the beginning of the battle. Pick one of the two groups and pray to the Dark Gods by rolling a D6. On a 3-6 the Powers of Chaos agree with your choice, but on a 1-2 they choose the other group.
+
+
+The units in the group that has been chosen to make the Daemonic Assault arrive on your first turn, using the Deep Strike rules. The remaining units are held in reserve and their arrival is rolled for as normal. When a unit becomes available, it enters play by Deep Strike.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Daemon Rivalry" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="e7e1-e741-1d66-f70c">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Independent characters in this army cannot join units of Daemons belonging to a different Chaos God or units of Furies of Chaos.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Boon of Mutation" typeId="b192-b9f1-2f11-9858" typeName="Daemonic Gift" hidden="false" id="e434-cb03-5e6d-2701">
+      <characteristics>
+        <characteristic name="Gift" typeId="4d66-900b-56b0-2c29">Boon of Mutation is a ranged weapon, but the Daemon may be in close combat at the time it uses it, as may the target. Pick any one enemy model (no line of sight required) and roll to hit. If a hit is scored and the target is found to be within 6&quot; of the Daemon, the target must immediately take a Toughness test. If the test is failed, the target is transformed into a shapeless blob of flesh and is removed as a casualty. Note that, as no wounds are taken, no saves apply! Models without a Toughness characteristic cannot be affected.
+
+
+If the player using this Gift has a Chaos Spawn model available, he may replace the victim with a Spawn. If the model was in base contact with any models, move it so that it is 1&quot; away from them. The Spawn is not a Daemon, but is a normal unit under the control of the player that used the Gift. The new Spawn may do nothing for the rest of the turn when it is created. If killed, it is worth 40 Victory points.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Breath of Chaos" typeId="b192-b9f1-2f11-9858" typeName="Daemonic Gift" hidden="false" id="6852-1171-a8a5-4145">
+      <characteristics>
+        <characteristic name="Gift" typeId="4d66-900b-56b0-2c29">Breath of Chaos is a template weapon. Any models fully or partially under the template suffer one wound on a D6 roll of 4+, with no Armour or Cover saves allowed! Vehicles touched by the template suffer a glancing hit on a D6 roll of 4+.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chaos Icon" typeId="b192-b9f1-2f11-9858" typeName="Daemonic Gift" hidden="false" id="5b3f-9a8c-8210-491f">
+      <characteristics>
+        <characteristic name="Gift" typeId="4d66-900b-56b0-2c29">When a friendly unit Deep Strikes within 6&quot; of an Icon of Chaos it does not roll for scatter, provided that the icon was on the table from the beginning of the turn and has not arrived from Reserve in the same turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Iron Hide" typeId="b192-b9f1-2f11-9858" typeName="Daemonic Gift" hidden="false" id="08a8-6ead-e4d1-0726">
+      <characteristics>
+        <characteristic name="Gift" typeId="4d66-900b-56b0-2c29">Models with Iron Hide receive a 3+ Armour save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Daemonic Flight" typeId="b192-b9f1-2f11-9858" typeName="Daemonic Gift" hidden="false" id="3675-23c4-6f79-269e">
+      <characteristics>
+        <characteristic name="Gift" typeId="4d66-900b-56b0-2c29">Models with Daemonic Flight move like Jump Infantry.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Daemonic Gaze" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e21b-c4f1-b3ab-502c">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Instrument of Chaos" typeId="b192-b9f1-2f11-9858" typeName="Daemonic Gift" hidden="false" id="57e5-c398-bff7-2da4">
+      <characteristics>
+        <characteristic name="Gift" typeId="4d66-900b-56b0-2c29">If the Daemon bearing this gift is involved in a fight which results in a draw, its side counts as having won by one wound. If both sides include an Instrument of Chaos, the result remains a draw.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Unholy Might" typeId="b192-b9f1-2f11-9858" typeName="Daemonic Gift" hidden="false" id="b943-c06c-ae53-a4db">
+      <characteristics>
+        <characteristic name="Gift" typeId="4d66-900b-56b0-2c29">The model has +1 Strength on its profile.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blessing of the Blood God" typeId="b192-b9f1-2f11-9858" typeName="Daemonic Gift" hidden="false" id="2540-afd4-7bc8-b0f4">
+      <characteristics>
+        <characteristic name="Gift" typeId="4d66-900b-56b0-2c29">A Daemon has a 2+ Invulnerable save against wounds caused by psychic powers or force weapons.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fury of Khorne" typeId="b192-b9f1-2f11-9858" typeName="Daemonic Gift" hidden="false" id="28b5-7807-5845-3e58">
+      <characteristics>
+        <characteristic name="Gift" typeId="4d66-900b-56b0-2c29">The close combat attacks of a model gifted with the Fury of Khorne gain the Rending special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Death Strike" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="ce74-46d2-83f5-47e3">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Hellblade" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="4463-ae7a-768d-3fa0">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">Hellblades are power weapons.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bolt of Tzeentch" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4da7-2910-02cd-f2cc">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Master of Sorcery" typeId="b192-b9f1-2f11-9858" typeName="Daemonic Gift" hidden="false" id="e155-a1c9-9c1a-610b">
+      <characteristics>
+        <characteristic name="Gift" typeId="4d66-900b-56b0-2c29">The model can use one extra ranged weapon in its Shooting phase (but not the same one twice, as normal)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Soul Devourer" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="4e82-dfef-e335-aca0">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">The Daemon counts as armed with a power weapon. In addition, if a model suffers any unsaved wounds from the Daemon&apos;s close combat attack, it must immediately take a Leadership test for each wound suffered (on its own Leadership value, the model cannot use another model&apos;s Ld for this test). If any of these tests are failed, the victim suffers instant death.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Warpfire" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="9d60-d031-d9f4-23d8">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="We are Legion" typeId="b192-b9f1-2f11-9858" typeName="Daemonic Gift" hidden="false" id="9166-594e-8054-18db">
+      <characteristics>
+        <characteristic name="Gift" typeId="4d66-900b-56b0-2c29">During the Shooting phase, the Daemon does not have to target all its ranged weapons against the same target. Instead, it may fire any of its weapons at a different target (declare all targets before rolling to hit). It can then choose to assault any of the enemies it has fired against.
+
+
+If the Daemon is an Independent Character and joins a unit, it can choose different targets from its unit&apos;s. Note that the unit is not affected by the shooting of the character in regards to which enemy they can assault in the ensuing Assault phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Aura of Acquiescence" typeId="b192-b9f1-2f11-9858" typeName="Daemonic Gift" hidden="false" id="b825-e78c-86af-dbd7">
+      <characteristics>
+        <characteristic name="Gift" typeId="4d66-900b-56b0-2c29">Models with this gift count as equipped with both assault grenades and defensive grenades (but receive no strength bonus in close combat against vehicles).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Pavane of Slaanesh" typeId="b192-b9f1-2f11-9858" typeName="Daemonic Gift" hidden="false" id="c617-8872-6a25-029a">
+      <characteristics>
+        <characteristic name="Gift" typeId="4d66-900b-56b0-2c29">The Pavane of Slaanesh is a ranged weapon with a range of 18&quot;. Roll to hit as normal. If the target unit is hit, it will immediately begin to dance to the tune of the Lord of Excess - the firer can immediately move the target unit up to D6&quot;. This movement follows the same rules as a normal move, except that it is not slowed by difficult terrain. So, for example, Dangerous Terrain tests are taken as normal, victims may not be moved off the table, out of conbat, into impassable terrain or to within 1&quot; of enemy models, and so on. An enemy unit may only be moved by this Gift once per turn, successive hits have no effect. The Pavane has no effect on vehicles other than walkers, which are effected as normal (as they can dance!).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rending Claws" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="4a9a-12db-e17e-04f1">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">Rending Claws are a pair of close combat rending weapons (the bonus attack is always included in the Daemon&apos;s profile).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Soporific Musk" typeId="b192-b9f1-2f11-9858" typeName="Daemonic Gift" hidden="false" id="7ce2-21aa-1e70-95e5">
+      <characteristics>
+        <characteristic name="Gift" typeId="4d66-900b-56b0-2c29">The Daemon has the Hit and Run special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Transfixing Gaze" typeId="b192-b9f1-2f11-9858" typeName="Daemonic Gift" hidden="false" id="377d-0c12-fa30-5533">
+      <characteristics>
+        <characteristic name="Gift" typeId="4d66-900b-56b0-2c29">The player may force one model in base contact with the Daemon to lose an Attack in close combat.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Aura of Decay" typeId="b192-b9f1-2f11-9858" typeName="Daemonic Gift" hidden="false" id="8077-ddb8-ea45-aaf5">
+      <characteristics>
+        <characteristic name="Gift" typeId="4d66-900b-56b0-2c29">Aura of Decay is a ranged weapon, but the Daemon may be in close combat at the time it uses it, as may the targets. When used, all enemy models within 6&quot; of the Daemon automatically suffer a Strength 2 hit with AP- (roll to wound as normal).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Cloud of Flies" typeId="b192-b9f1-2f11-9858" typeName="Daemonic Gift" hidden="false" id="3d37-8d1d-12b2-bd73">
+      <characteristics>
+        <characteristic name="Gift" typeId="4d66-900b-56b0-2c29">Models with this gift count as being equipped with both assault grenades and defensive grenades (but receive no Strength bonus in close combat against enemies).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Noxious Touch" typeId="b192-b9f1-2f11-9858" typeName="Daemonic Gift" hidden="false" id="b581-c7fc-5dad-d510">
+      <characteristics>
+        <characteristic name="Gift" typeId="4d66-900b-56b0-2c29">The Daemon&apos;s close combat attacks are poisoned, wounding on a 2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Plaguesword" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="c0b6-effa-11c6-dbbf">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">Plagueswords are poisoned close combat weapons that wound all opponents on a 4+.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Juggernaut of Khorne" typeId="4749-4760-1a44-ff2d" typeName="Daemonic Steed" hidden="false" id="6611-d6d6-9962-c7ef">
+      <characteristics>
+        <characteristic name="Description" typeId="02f8-5b87-f623-9664">This Daemonic Steed confers +1 Strength, +1 Toughness, +1 Wound, +1 Attack and the Iron Hide gift to the rider.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chariot of Khorne" typeId="4749-4760-1a44-ff2d" typeName="Daemonic Steed" hidden="false" id="740a-79b4-8695-3f69">
+      <characteristics>
+        <characteristic name="Description" typeId="02f8-5b87-f623-9664">This Daemonic Steed confers +1 Strength, +1 Toughness, +2 Wounds, +1 Attack and the Iron Hide gift to the rider. In addition, the rider loses the Independent Character rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mount of Slaanesh" typeId="4749-4760-1a44-ff2d" typeName="Daemonic Steed" hidden="false" id="a0f2-1f52-606c-4d0a">
+      <characteristics>
+        <characteristic name="Description" typeId="02f8-5b87-f623-9664">This Daemonic steed confers +1 Attack and changes its unit type from Infantry to Cavalry</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chariot of Slaanesh" typeId="4749-4760-1a44-ff2d" typeName="Daemonic Steed" hidden="false" id="c12e-2ca6-a08c-57fe">
+      <characteristics>
+        <characteristic name="Description" typeId="02f8-5b87-f623-9664">This Daemonic Steed confers +2 Attacks, +1 Toughness, +3 Wounds and a 4+ Armour save to the rider, and changes its unit type from Infantry to Cavalry. In addition, it loses the Independent character rules and gains the Furious Charge rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Disc of Tzeentch" typeId="4749-4760-1a44-ff2d" typeName="Daemonic Steed" hidden="false" id="a3f1-ca83-5342-0edf">
+      <characteristics>
+        <characteristic name="Description" typeId="02f8-5b87-f623-9664">This Daemonic Steed confers +1 Attack to the rider and changes its unit type from Infantry to Jump Infantry.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Charior of Tzeentch" typeId="4749-4760-1a44-ff2d" typeName="Daemonic Steed" hidden="false" id="6226-8a01-d61a-42b2">
+      <characteristics>
+        <characteristic name="Description" typeId="02f8-5b87-f623-9664">This Daemonic Steed confers +2 Attacks, +1 Toughness, +3 Wounds and changes its unit type from Infantry to Jetbike. In addition, the Herald replaces the Independent Character rule with the Furious Charge rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Palanquin of Nurgle" typeId="4749-4760-1a44-ff2d" typeName="Daemonic Steed" hidden="false" id="366b-638c-8e2d-1dc5">
+      <characteristics>
+        <characteristic name="Description" typeId="02f8-5b87-f623-9664">This Daemonic Steed confers +1 Attack and +1 Wound to the rider.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mark of Khorne" typeId="b192-b9f1-2f11-9858" typeName="Daemonic Gift" hidden="false" id="225a-9ba7-663f-2226">
+      <characteristics>
+        <characteristic name="Gift" typeId="4d66-900b-56b0-2c29">+1 Attack</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mark of Slaanesh" typeId="b192-b9f1-2f11-9858" typeName="Daemonic Gift" hidden="false" id="b554-1a0d-107e-a1ec">
+      <characteristics>
+        <characteristic name="Gift" typeId="4d66-900b-56b0-2c29">+1 Initiative</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mark of Nurgle" typeId="b192-b9f1-2f11-9858" typeName="Daemonic Gift" hidden="false" id="10fb-6c73-291d-478b">
+      <characteristics>
+        <characteristic name="Gift" typeId="4d66-900b-56b0-2c29">+1 Toughness</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mark of Tzeentch" typeId="b192-b9f1-2f11-9858" typeName="Daemonic Gift" hidden="false" id="d8c5-fbf4-b3a5-4a28">
+      <characteristics>
+        <characteristic name="Gift" typeId="4d66-900b-56b0-2c29">Increase invulnerable save value by one. (For example, a 5+ invulnerable save would become a 4+ Invulnerable save).</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Daemon" id="0adb-8c2e-bb6b-0b48" hidden="false">
+      <infoLinks>
+        <infoLink targetId="e7e1-e741-1d66-f70c" id="8c7d-2f14-814f-aa1d" type="profile" name="Daemon Rivalry" hidden="false"/>
+        <infoLink targetId="68d6-f62a-d0ef-702a" id="7cf3-9a3f-f8b3-623a" type="profile" name="Daemonic Assault" hidden="false"/>
+        <infoLink name="Fearless" id="7d12-ffbe-9e2f-7a91" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Eternal Warrior" id="8141-d828-4836-dd3d" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
+      </infoLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <profileTypes>
+    <profileType name="Daemonic Gift" id="b192-b9f1-2f11-9858" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Gift" id="4d66-900b-56b0-2c29"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Daemonic Steed" id="4749-4760-1a44-ff2d" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Description" id="02f8-5b87-f623-9664"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
+</catalogue>
