@@ -557,7 +557,7 @@
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2, Rending</characteristic>
-        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">A model with Flesh Hooks always strikes in Initiative order when assaulting an enemy in cover.</characteristic>
       </characteristics>
     </profile>
     <profile name="Heavy Venom Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="c008-395f-3bd0-8b72">
@@ -708,7 +708,7 @@
     </profile>
     <profile name="Crushing Claws" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="2d7b-ae8e-20dd-559d">
       <characteristics>
-        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Tyranid with crashing claws gains an extra D3 Attacks in close combat (rolled for at the beginning of each round of combat) but strikes at Initiative 1, regardless of any modifiers.</characteristic>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Tyranid with crushing claws gains an extra D3 Attacks in close combat (rolled for at the beginning of each round of combat) but strikes at Initiative 1, regardless of any modifiers.</characteristic>
       </characteristics>
     </profile>
     <profile name="Lash Whip" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="03cb-0385-2167-e4be">
@@ -1738,6 +1738,28 @@ Should a Tervigon be slain, every Termagant brood, spawned or otherwise, within 
           </characteristics>
         </profile>
       </profiles>
+      <selectionEntries>
+        <selectionEntry type="unit" import="true" name="Ripper Swarm" hidden="false" id="9c15-3232-d1cd-0280">
+          <infoLinks>
+            <infoLink name="Swarm" id="ba53-dcaa-b572-5121" hidden="false" targetId="d74e-1928-0d91-b80a" type="rule"/>
+            <infoLink name="Claws and Teeth" id="21b0-a5d1-3a8e-6fd7" hidden="false" type="profile" targetId="7c9d-9e0a-cc00-defb"/>
+            <infoLink name="Instinctive Behaviour - Feed" id="a422-3cae-2dd5-7ddf" hidden="false" type="profile" targetId="033b-00cf-e0e1-c66c"/>
+            <infoLink name="Fearless" id="4bc4-725f-5528-1fca" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+            <infoLink name="Ripper Swarm" id="6402-bf41-2078-839a" hidden="false" type="profile" targetId="01e0-0fbb-07cb-2388"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Mindless" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="ac25-d556-33ab-240e">
+              <characteristics>
+                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Ripper Swarm of Sky-slasher Swarm is more than 12&quot; from a Synapse Creature at the beginning of the turn and fails a Leadership test because of the Instinctive Behaviour rule, the unit loses 1 Wound for each point they fail the Leadership test by - no saves allowed.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c491-32ec-5305-ff36-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c491-32ec-5305-ff36-max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Hive Guard Brood" hidden="false" id="3cf9-a8f8-8d26-0ad5">
       <selectionEntries>
