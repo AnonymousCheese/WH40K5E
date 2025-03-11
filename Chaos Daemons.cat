@@ -662,4 +662,2190 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
       </characteristicTypes>
     </profileType>
   </profileTypes>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Ku&apos;gath, The Plaguefather" hidden="false" id="473f-098f-09ac-d246">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="300"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Ku&apos;gath" id="755b-ea88-a081-8dfe" hidden="false" type="profile" targetId="35e0-3c9d-085b-43a5"/>
+        <infoLink name="Monstrous Creature" id="7d99-0ac2-7d3b-0520" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Cloud of Flies" id="fa36-468d-296e-54a0" hidden="false" type="profile" targetId="3d37-8d1d-12b2-bd73"/>
+        <infoLink name="Noxious Touch" id="1b6e-ad7b-87f2-5e4d" hidden="false" type="profile" targetId="b581-c7fc-5dad-d510"/>
+        <infoLink name="Breath of Chaos" id="ca52-c267-0cff-5a9e" hidden="false" type="profile" targetId="6852-1171-a8a5-4145"/>
+        <infoLink name="Aura of Decay" id="95b9-1a04-3a48-8c85" hidden="false" type="profile" targetId="8077-ddb8-ea45-aaf5"/>
+        <infoLink name="Feel No Pain" id="3971-dcff-247a-ceba" hidden="false" type="profile" targetId="d22d-ca74-1014-8212"/>
+        <infoLink name="Slow and Purposeful" id="aa2e-bc67-4707-587a" hidden="false" type="profile" targetId="4e36-f773-3571-6ed4"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="b172-9f98-1bc1-0ed5" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Necrotic Missiles" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="9ea2-d748-312e-c4c2">
+          <characteristics>
+            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+            <characteristic name="Str." typeId="1ebc-896c-43de-904a">n/a</characteristic>
+            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Large Blast</characteristic>
+            <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Poison (4+)</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Nurgling Infestation" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="cfda-e186-2739-3d1b">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">At the beginning of any turn in which Ku&apos;gath is on the table (not including the one when he arrives from reserve), the player may roll a dice on behalf of the Plaguefather. On a roll of 4+, a new unit consisting of a single base of Nurglings enter the game by Deep Strike within 12&quot; of Ku&apos;gath.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="645e-376b-38b5-3ea6" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fateweaver, Oracle of Tzeentch" hidden="false" id="efc9-6d6a-bfd2-0336">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="333"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Fateweaver" id="d9d7-1c3a-11d9-e81b" hidden="false" type="profile" targetId="2087-f9c8-44e5-7a3b"/>
+        <infoLink name="Monstrous Creature" id="7492-0607-719d-a700" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Soul Devourer" id="e6b8-53da-23c3-fea1" hidden="false" type="profile" targetId="4e82-dfef-e335-aca0"/>
+        <infoLink name="Daemonic Flight" id="d687-9a14-46a0-2c15" hidden="false" type="profile" targetId="3675-23c4-6f79-269e"/>
+        <infoLink name="Jump Infantry" id="bccf-de05-f5d8-c00e" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+        <infoLink name="Master of Sorcery" id="7801-51cc-f31e-3c5c" hidden="false" type="profile" targetId="e155-a1c9-9c1a-610b"/>
+        <infoLink name="We are Legion" id="4027-8195-7e6e-de26" hidden="false" type="profile" targetId="9166-594e-8054-18db"/>
+        <infoLink name="Breath of Chaos" id="464e-eb49-4e4b-75cd" hidden="false" type="profile" targetId="6852-1171-a8a5-4145"/>
+        <infoLink name="Daemonic Gaze" id="305d-4f4a-73e1-4e31" hidden="false" type="profile" targetId="e21b-c4f1-b3ab-502c"/>
+        <infoLink name="Boon of Mutation" id="aff7-80d7-f66b-4398" hidden="false" type="profile" targetId="e434-cb03-5e6d-2701"/>
+        <infoLink name="Bolt of Tzeentch" id="3b53-fb97-76de-9e51" hidden="false" type="profile" targetId="4da7-2910-02cd-f2cc"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="7f03-87d5-039b-789f" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Oracle of Eternity" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="e7ed-7a95-b33d-895e">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Fateweaver and all friendly units within 6&quot; may re-roll all failed Armour, Invulnerable and Cover saves. However, for every unsaved wound suffered by Fateweaver, take a Ld test. If the test is failed, he retreats in shock and is removed as a casualty.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a9cb-ed71-e87a-fa70" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Skarbrand, The Exiled One" hidden="false" id="008d-c557-ade8-4acc">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="300"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Skarbrand" id="b25f-eeb5-3d5d-998a" hidden="false" type="profile" targetId="0d7e-efe7-4e26-541d"/>
+        <infoLink name="Iron Hide" id="5436-ad32-9db3-9dd1" hidden="false" type="profile" targetId="08a8-6ead-e4d1-0726"/>
+        <infoLink name="Fleet" id="5b2e-b3ea-fa2e-e79f" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Furious Charge" id="7f93-cb20-3135-9ebd" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Breath of Chaos" id="7ada-fae6-22ca-ed3d" hidden="false" type="profile" targetId="6852-1171-a8a5-4145"/>
+        <infoLink name="Instrument of Chaos" id="7f6f-3160-409c-a54b" hidden="false" type="profile" targetId="57e5-c398-bff7-2da4"/>
+        <infoLink name="Monstrous Creature" id="418c-10ad-9586-b4e2" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="ba22-b34d-249b-8cbc" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Rage Embodied" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="f807-4330-141d-e12c">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Skarbrand and every unit within 24&quot; of the Exiled one (friend and foe alike!) must re-roll failed rolls to hit in close combat.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1c19-d9db-7117-4e79" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Keeper of Secrets" hidden="false" id="0fb4-23c3-dd5c-ece6">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="200"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Keeper of Secrets" id="133d-cdde-4b59-2647" hidden="false" type="profile" targetId="3739-b485-413d-fbb1"/>
+        <infoLink name="Aura of Acquiescence" id="9811-7b7f-555d-6a83" hidden="false" type="profile" targetId="b825-e78c-86af-dbd7"/>
+        <infoLink name="Fleet" id="d613-5e23-4491-a1b7" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Monstrous Creature" id="57fd-8589-2f49-f830" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="87bf-d926-60bb-aa7e" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May have any of the following" id="af25-9738-c104-3c8b" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Transfixing Gaze" hidden="false" id="aa44-631b-e9d3-ec74">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Transfixing Gaze" id="2f0e-d80b-5be6-a46c" hidden="false" type="profile" targetId="377d-0c12-fa30-5533"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fcf1-9f55-e770-7de6"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Soporific Musk" hidden="false" id="d756-0886-88f5-3bcc">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Soporific Musk" id="ced5-6933-0b2a-b5fa" hidden="false" type="profile" targetId="7ce2-21aa-1e70-95e5"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e56a-58cf-c129-039e"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Pavane of Slaanesh" hidden="false" id="9bb6-c123-9e8c-2182">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Pavane of Slaanesh" id="09dc-06be-09e8-2364" hidden="false" type="profile" targetId="c617-8872-6a25-029a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17cf-b132-f417-485f"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Daemonic Gaze" hidden="false" id="603b-c3f4-318e-e7b7">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Daemonic Gaze" id="95fc-f472-fb5f-789e" hidden="false" type="profile" targetId="e21b-c4f1-b3ab-502c"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="046c-1c50-2c57-d6e7"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Unholy Might" hidden="false" id="135d-139a-46c4-694a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Unholy Might" id="d06d-751b-1388-0408" hidden="false" type="profile" targetId="b943-c06c-ae53-a4db"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a217-3c41-7748-cf2e"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Instrument of Chaos" hidden="false" id="98da-d5a9-3d1b-ff54">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Instrument of Chaos" id="b37d-495e-8513-6cd1" hidden="false" type="profile" targetId="57e5-c398-bff7-2da4"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c99-7f01-115e-a550"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Great Unclean One" hidden="false" id="2af2-be4b-fe2f-e6b5">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="160"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Great Unclean One" id="a4a7-18dd-f098-51fa" hidden="false" type="profile" targetId="0379-b928-b905-7d11"/>
+        <infoLink name="Monstrous Creature" id="a915-4391-f62d-bfe3" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Noxious Touch" id="5e29-66f7-e49c-a1c8" hidden="false" type="profile" targetId="b581-c7fc-5dad-d510"/>
+        <infoLink name="Feel No Pain" id="1982-7492-27e2-9efd" hidden="false" type="profile" targetId="d22d-ca74-1014-8212"/>
+        <infoLink name="Slow and Purposeful" id="8620-d61b-a4c6-be9c" hidden="false" type="profile" targetId="4e36-f773-3571-6ed4"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="d9a7-3d45-10fd-0e6e" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May have any of the following" id="9ee1-01c6-4b6e-f606" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Cloud of Flies" hidden="false" id="8795-363b-e376-3f66">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Cloud of Flies" id="fa8b-1f81-46b1-8710" hidden="false" type="profile" targetId="3d37-8d1d-12b2-bd73"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="21ed-d2e1-794a-d931"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Aura of Decay" hidden="false" id="36b0-b911-e0af-d7d9">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Aura of Decay" id="b059-be53-4996-ae8e" hidden="false" type="profile" targetId="8077-ddb8-ea45-aaf5"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d20c-2db3-04b1-2815"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Breath of Chaos" hidden="false" id="420b-4f9c-5955-749e">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Breath of Chaos" id="cd42-e561-46e9-1ac3" hidden="false" type="profile" targetId="6852-1171-a8a5-4145"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="107d-3c24-eda9-cca0"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Unholy Might" hidden="false" id="e3c6-6d7e-ae2a-7886">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Unholy Might" id="ab19-5486-f771-0cd6" hidden="false" type="profile" targetId="b943-c06c-ae53-a4db"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4455-565b-ab3a-4ff9"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Instrument of Chaos" hidden="false" id="4c1b-9584-9cd1-ecf8">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Instrument of Chaos" id="8419-089f-5bfb-4609" hidden="false" type="profile" targetId="57e5-c398-bff7-2da4"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d643-c2c1-700c-c407"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bloodthirster" hidden="false" id="3564-b4f1-0fb6-8e83">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="250"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Bloodthirster" id="e6c3-67d5-4ad8-a9c3" hidden="false" type="profile" targetId="2309-46ce-2284-0421"/>
+        <infoLink name="Monstrous Creature" id="f307-4efb-02ed-413b" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Iron Hide" id="0662-b1a9-3c90-0282" hidden="false" type="profile" targetId="08a8-6ead-e4d1-0726"/>
+        <infoLink name="Daemonic Flight" id="aaf8-5628-75c4-d951" hidden="false" type="profile" targetId="3675-23c4-6f79-269e"/>
+        <infoLink name="Furious Charge" id="b810-3098-9ca0-be5a" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="09bc-3ef7-9cf9-4375" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May have any of the following" id="4087-0e3a-043f-4279" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Death Strike" hidden="false" id="8631-5575-1d92-09d3">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Death Strike" id="e56a-fb42-d3e0-2979" hidden="false" type="profile" targetId="ce74-46d2-83f5-47e3"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a9d7-d785-99e0-1da3"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Blessing of the Blood God" hidden="false" id="8702-068a-192a-79a7">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Blessing of the Blood God" id="dade-5342-8a2c-9df8" hidden="false" type="profile" targetId="2540-afd4-7bc8-b0f4"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df85-6ed7-a33c-8f60"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Unholy Might" hidden="false" id="a286-e32b-a219-5726">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Unholy Might" id="7664-6597-1d42-7244" hidden="false" type="profile" targetId="b943-c06c-ae53-a4db"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="790e-f262-5407-0b39"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Instrument of Chaos" hidden="false" id="a6f3-2788-2362-c717">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Instrument of Chaos" id="d326-09f7-06a6-14da" hidden="false" type="profile" targetId="57e5-c398-bff7-2da4"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0499-11ff-9c28-d1d9"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lord of Change" hidden="false" id="b7b0-8dd2-1bdc-f3b7">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="250"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Lord of Change" id="2bce-cf16-2416-c09d" hidden="false" type="profile" targetId="5302-23ba-69f8-86c4"/>
+        <infoLink name="Soul Devourer" id="a53e-c16e-c9c1-eaf8" hidden="false" type="profile" targetId="4e82-dfef-e335-aca0"/>
+        <infoLink name="Monstrous Creature" id="f701-738a-7257-6fe7" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Daemonic Gaze" id="26c4-b368-9a66-839c" hidden="false" type="profile" targetId="e21b-c4f1-b3ab-502c"/>
+        <infoLink name="Bolt of Tzeentch" id="da36-586c-7f43-f03d" hidden="false" type="profile" targetId="4da7-2910-02cd-f2cc"/>
+        <infoLink name="Daemonic Flight" id="9f31-d75e-fef7-05af" hidden="false" type="profile" targetId="3675-23c4-6f79-269e"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="edd8-cf59-41df-6a2c" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May have any of the following" id="aa45-5fe4-df0a-40bc" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="We are Legion" hidden="false" id="5bda-b3d3-5d3d-5c0f">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="We are Legion" id="737b-8e37-f1f4-b629" hidden="false" type="profile" targetId="9166-594e-8054-18db"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d8ab-2fa1-b84f-4651"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Master of Sorcery" hidden="false" id="df7b-5434-e6a9-7012">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Master of Sorcery" id="cf41-b625-ff9b-adf4" hidden="false" type="profile" targetId="e155-a1c9-9c1a-610b"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7552-63d4-4d3a-385c"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Breath of Chaos" hidden="false" id="03aa-27c4-02ef-2d58">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Breath of Chaos" id="01cd-9a50-a072-7b23" hidden="false" type="profile" targetId="6852-1171-a8a5-4145"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="15c9-f7c7-b6ba-73db"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Boon of Mutation" hidden="false" id="9a0c-3715-1ed0-c818">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Boon of Mutation" id="2c1a-e8a4-26ca-c615" hidden="false" type="profile" targetId="e434-cb03-5e6d-2701"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8342-790d-d48c-3c9b"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Instrument of Chaos" hidden="false" id="a24e-e478-8d1c-bbd5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Instrument of Chaos" id="eb2f-fb99-a31c-8f62" hidden="false" type="profile" targetId="57e5-c398-bff7-2da4"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f83-68ac-420b-8da0"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="The Masque" hidden="false" id="e02c-c263-1ffe-466e">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="100"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="The Masque" id="161b-7a1a-0605-158f" hidden="false" type="profile" targetId="e5d6-733c-fcae-52a2"/>
+        <infoLink name="Aura of Acquiescence" id="2fc4-4fc4-4c40-91d8" hidden="false" type="profile" targetId="b825-e78c-86af-dbd7"/>
+        <infoLink name="Soporific Musk" id="cba3-34a7-ba2d-0ce0" hidden="false" type="profile" targetId="7ce2-21aa-1e70-95e5"/>
+        <infoLink name="Rending Claws" id="5a66-ae15-6e18-bfe7" hidden="false" type="profile" targetId="4a9a-12db-e17e-04f1"/>
+        <infoLink name="Instrument of Chaos" id="6d59-26be-cc6b-09df" hidden="false" type="profile" targetId="57e5-c398-bff7-2da4"/>
+        <infoLink name="Pavane of Slaanesh" id="e412-de9c-895c-121e" hidden="false" type="profile" targetId="c617-8872-6a25-029a"/>
+        <infoLink name="We are Legion" id="9ef3-7a02-b320-a511" hidden="false" type="profile" targetId="9166-594e-8054-18db"/>
+        <infoLink name="Fleet" id="b6d1-2cbc-c099-d6e8" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9a45-c296-d953-66a8" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="2677-baa2-828a-1246" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <profiles>
+        <profile name="The Eternal Dance" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="3b4a-3d05-dc9c-ff29">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The Masque may use her Pavane of Slaanesh three times in her Shooting phase.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Epidemius" hidden="false" id="7689-80cf-9db2-eca3">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="110"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Epidemius" id="7434-2285-f23e-6ba0" hidden="false" type="profile" targetId="e7aa-dbdf-d3b7-5f57"/>
+        <infoLink name="Cloud of Flies" id="017e-e47e-0221-6f67" hidden="false" type="profile" targetId="3d37-8d1d-12b2-bd73"/>
+        <infoLink name="Plaguesword" id="b2a1-4d53-d48d-9dc8" hidden="false" type="profile" targetId="c0b6-effa-11c6-dbbf"/>
+        <infoLink name="Aura of Decay" id="e47e-4f36-8f45-5f72" hidden="false" type="profile" targetId="8077-ddb8-ea45-aaf5"/>
+        <infoLink name="Feel No Pain" id="dc8d-2a4d-9a09-6d6f" hidden="false" type="profile" targetId="d22d-ca74-1014-8212"/>
+        <infoLink name="Independent Character" id="a51e-77c0-6de3-1ecf" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Slow and Purposeful" id="7469-cda9-8f25-e528" hidden="false" type="profile" targetId="4e36-f773-3571-6ed4"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="b39a-07f6-1e9b-8ea9" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <profiles>
+        <profile name="The Tally of Pestilence" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="c87c-0bb8-d2ca-3138">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Whilst Epidemius is on the table, keep a count of all models killed by followers of Nurgle (ie. any Daemon of Nurgle , or model with the Mark of Nurgle, both friends and enemies) anywhere on the table. At the start of each of your turns, consult the table below to determine the effect of the Tally of Pestilence. From the beginning of that turn, and as long as Epidemius is on the table, these cumulative bonuses affect all followers of Nurgle (friend and foe!).
+
+
+1-4 None
+
+
+5-9 All Plagueswords now wound on 3+
+
+
+10-14 All followers of Nurgle have Noxious Touch
+
+
+15-19 If a follower of Nurgle has Feel no Pain, it now saves on 3+
+
+
+20+ All attacks from followers of Nurgle ignore Armour saves.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3784-bd8e-3f99-91e4" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="The Blue Scribes" hidden="false" id="c270-6b6c-f9b2-e072">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="130"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="The Blue Scribes" id="857d-6f93-b917-7c7d" hidden="false" type="profile" targetId="9068-1656-dcc0-59b8"/>
+        <infoLink name="Master of Sorcery" id="0018-8b24-ea37-c122" hidden="false" type="profile" targetId="e155-a1c9-9c1a-610b"/>
+        <infoLink name="We are Legion" id="7536-744d-ea98-e256" hidden="false" type="profile" targetId="9166-594e-8054-18db"/>
+        <infoLink name="Warpfire" id="ce41-67e9-f0de-e51e" hidden="false" type="profile" targetId="9d60-d031-d9f4-23d8"/>
+        <infoLink name="Bolt of Tzeentch" id="f952-844e-2542-1c6b" hidden="false" type="profile" targetId="4da7-2910-02cd-f2cc"/>
+        <infoLink name="Boon of Mutation" id="ad5b-ef2a-44a4-35f1" hidden="false" type="profile" targetId="e434-cb03-5e6d-2701"/>
+        <infoLink name="Daemonic Gaze" id="3a68-b6d4-7771-f626" hidden="false" type="profile" targetId="e21b-c4f1-b3ab-502c"/>
+        <infoLink name="Breath of Chaos" id="26b9-770e-e5aa-000f" hidden="false" type="profile" targetId="6852-1171-a8a5-4145"/>
+        <infoLink name="Pavane of Slaanesh" id="fa39-efe1-0900-01f5" hidden="false" type="profile" targetId="c617-8872-6a25-029a"/>
+        <infoLink name="Aura of Decay" id="f8e4-6928-67f0-dc83" hidden="false" type="profile" targetId="8077-ddb8-ea45-aaf5"/>
+        <infoLink name="Independent Character" id="ea50-3638-98c2-d736" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="4a90-2c75-01e6-47ca" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Watch This!" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="9b4f-1918-5914-f68d">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The endless arguments of the Blue Scribes often result in petty squabbles about the best way to cast a spell, making them somehow unreliable... In their Shooting phase, before using their second ranged attack, roll a dice. On a 4-6 they proceed as normal. On a 1-3 they will use once again the same power they have just used.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="f51a-6ae1-cdd9-8c25" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Skulltaker" hidden="false" id="82d3-c778-d921-5a80">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="140"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Skulltaker" id="d450-0326-1720-15eb" hidden="false" type="profile" targetId="94d6-56ff-ef0e-d9d8"/>
+        <infoLink name="Hellblade" id="8078-5cc8-ff26-d7bc" hidden="false" type="profile" targetId="4463-ae7a-768d-3fa0"/>
+        <infoLink name="Iron Hide" id="f5dc-1db8-1575-f4d4" hidden="false" type="profile" targetId="08a8-6ead-e4d1-0726"/>
+        <infoLink name="Fury of Khorne" id="35c2-a2f0-9d15-83c2" hidden="false" type="profile" targetId="28b5-7807-5845-3e58"/>
+        <infoLink name="Blessing of the Blood God" id="1748-084f-a0ed-81d8" hidden="false" type="profile" targetId="2540-afd4-7bc8-b0f4"/>
+        <infoLink name="Independent Character" id="95f4-6e69-69a2-c16e" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Furious Charge" id="f8b9-4a89-cead-6b16" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="d47d-09af-8019-d81c" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Skulls for the Skull Throne!" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="8ce0-575c-5be1-37fd">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Against non-vehicle models, Skulltaker&apos;s close combat attacks are Rending on rolls of 4+ instead of 6, and any of his Rending wounds also inflicts Instant Death</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May have one of the following" id="5106-8793-f9a5-8adf" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Juggernaut" hidden="false" id="c628-f26d-144e-eebc">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Juggernaut of Khorne" id="8cf3-7c78-9790-5e64" hidden="false" type="profile" targetId="6611-d6d6-9962-c7ef"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Chariot of Khorne" hidden="false" id="ccaa-b81d-3b30-90f0">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Chariot of Khorne" id="c5fe-1957-772f-7d40" hidden="false" type="profile" targetId="740a-79b4-8695-3f69"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d2f8-86fd-9ceb-3ffd"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="26e4-d1be-d1a4-c6b6" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Herald of Khorne" hidden="false" id="576d-19c4-69f5-1f82">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="70"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Herald of Khorne" id="8834-5006-8209-9cc6" hidden="false" type="profile" targetId="daf5-0027-6b1b-b4ff"/>
+        <infoLink name="Hellblade" id="01de-6403-37d1-ad10" hidden="false" type="profile" targetId="4463-ae7a-768d-3fa0"/>
+        <infoLink name="Independent Character" id="b73b-4ed5-3fa1-f33c" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Furious Charge" id="3631-cacf-74e2-042a" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="28c5-87b2-0e93-7d30" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May have one of the following" id="1b2b-4687-c58c-54a9" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Juggernaut" hidden="false" id="c02f-3107-ca32-5a86">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Juggernaut of Khorne" id="51d3-ea8d-1f50-cdd7" hidden="false" type="profile" targetId="6611-d6d6-9962-c7ef"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe78-ec20-d10b-80ed"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Chariot of Khorne" hidden="false" id="7fcf-1d7d-e9e5-f69c">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Chariot of Khorne" id="e719-4f94-3d6e-bdd7" hidden="false" type="profile" targetId="740a-79b4-8695-3f69"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f80b-44e0-3ffb-e1f6"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="ffb6-8f88-dbdd-e36c"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May have three of the following" id="6373-d609-5764-49e4" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Fury of Khorne" hidden="false" id="6e33-06f5-16a4-5b92">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Fury of Khorne" id="827b-6933-6f4f-9d0b" hidden="false" type="profile" targetId="28b5-7807-5845-3e58"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0db5-0c22-f651-0271"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Death Strike" hidden="false" id="4b61-7a44-0e2c-ad5f">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Death Strike" id="f212-8749-95c7-9c41" hidden="false" type="profile" targetId="ce74-46d2-83f5-47e3"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="60d5-184c-5e6a-5b06"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Blessing of the Blood God" hidden="false" id="03c8-ecae-3a20-e816">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Blessing of the Blood God" id="1adb-ae1a-9151-87ad" hidden="false" type="profile" targetId="2540-afd4-7bc8-b0f4"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2600-3f5d-5469-04bb"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Iron Hide" hidden="false" id="fa2f-6c0e-11f2-ae99">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Iron Hide" id="b47e-a461-305a-3cdc" hidden="false" type="profile" targetId="08a8-6ead-e4d1-0726"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dec8-851c-5f9c-d4bf"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Chaos Icon" hidden="false" id="a9b8-5ea7-6e63-fdf5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Chaos Icon" id="36a9-c5ca-0067-a0b6" hidden="false" type="profile" targetId="5b3f-9a8c-8210-491f"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c725-9557-f990-b074"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Unholy Might" hidden="false" id="73b1-edb0-bad1-2a4d">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Unholy Might" id="e13a-2e91-8b24-ab37" hidden="false" type="profile" targetId="b943-c06c-ae53-a4db"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3fda-876b-994f-95e8"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="self" shared="true" id="44af-4113-49a5-a186"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Herald of Tzeentch" hidden="false" id="f217-dcf7-625c-d28f">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Herald of Tzeentch" id="c67e-eda5-1ea9-6643" hidden="false" type="profile" targetId="2e85-ad7d-efd2-b472"/>
+        <infoLink name="Daemonic Gaze" id="1f9b-ac8c-72ba-cf5d" hidden="false" type="profile" targetId="e21b-c4f1-b3ab-502c"/>
+        <infoLink name="Independent Character" id="8263-7b24-6c52-55f4" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="420f-1165-72c2-42a6" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May have one of the following" id="aac6-2d47-bef8-6733" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Disc of Tzeentch" hidden="false" id="806b-fc55-f6da-6ada">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Disc of Tzeentch" id="20bf-8c40-98b6-3524" hidden="false" type="profile" targetId="a3f1-ca83-5342-0edf"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="75d8-924f-6e0b-2ee5"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Chariot of Tzeentch" hidden="false" id="09f3-40de-6b94-9d61">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Charior of Tzeentch" id="82ac-7181-38db-ec76" hidden="false" type="profile" targetId="6226-8a01-d61a-42b2"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="806a-2656-4b51-b71d"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1ad1-e188-1495-230f"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May have three of the following" id="2c8d-993d-f834-d6d5" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="We are Legion" hidden="false" id="568e-dca6-e2de-a592">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="We are Legion" id="644f-9115-0b66-6c76" hidden="false" type="profile" targetId="9166-594e-8054-18db"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d3ce-f80d-5d11-9246"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Master of Sorcery" hidden="false" id="7506-e0c0-2128-9f94">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Master of Sorcery" id="1f30-b597-8009-a5eb" hidden="false" type="profile" targetId="e155-a1c9-9c1a-610b"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e24-1ebd-7fcd-28b8"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Soul Devourer" hidden="false" id="f9e0-98c6-5bd3-ce8c">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Soul Devourer" id="8fdb-c8a3-f634-6582" hidden="false" type="profile" targetId="4e82-dfef-e335-aca0"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f6e7-6370-3cda-1a11"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bolt of Tzeentch" hidden="false" id="cc59-1296-f122-c462">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Bolt of Tzeentch" id="eb76-c2b1-969f-ad60" hidden="false" type="profile" targetId="4da7-2910-02cd-f2cc"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f79-fe56-7f37-4b75"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Breath of Chaos" hidden="false" id="05ca-6505-b557-995c">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Breath of Chaos" id="d584-2a62-1932-712b" hidden="false" type="profile" targetId="6852-1171-a8a5-4145"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4498-4d82-7be9-5229"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Chaos Icon" hidden="false" id="c015-0c87-def7-a4f0">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Chaos Icon" id="ec4d-2c34-2c1d-1eb3" hidden="false" type="profile" targetId="5b3f-9a8c-8210-491f"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a30-dbbb-604c-db6f"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Boon of Mutation" hidden="false" id="a2f6-0de2-c26f-f4d1">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Boon of Mutation" id="a9f7-03a8-7275-0c90" hidden="false" type="profile" targetId="e434-cb03-5e6d-2701"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ecc-4b41-4272-55e0"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="self" shared="true" id="032e-eeaf-e2a8-6b71"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Herald of Nurgle" hidden="false" id="128f-fc97-cff7-8720">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Herald of Nurgle" id="5416-fff1-8778-77a2" hidden="false" type="profile" targetId="ded6-40b1-d668-4de4"/>
+        <infoLink name="Plaguesword" id="ebb5-d009-1dac-b661" hidden="false" type="profile" targetId="c0b6-effa-11c6-dbbf"/>
+        <infoLink name="Feel No Pain" id="47cd-81eb-4d91-c5f4" hidden="false" type="profile" targetId="d22d-ca74-1014-8212"/>
+        <infoLink name="Independent Character" id="afdf-6dc5-a595-4f6a" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Slow and Purposeful" id="eeae-47e1-9b1e-f611" hidden="false" type="profile" targetId="4e36-f773-3571-6ed4"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="c70e-e129-2ec7-1774" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="May ride a Palanquin of Nurgle" hidden="false" id="ee5c-ba9b-dbd2-b969">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Palanquin of Nurgle" id="0aa1-ba0b-b41a-79d5" hidden="false" type="profile" targetId="366b-638c-8e2d-1dc5"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2648-d69c-7d3a-2497"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May have three of the following" id="726f-16f8-a04f-b64c" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Noxious Touch" hidden="false" id="b3b6-3df3-0dc7-2437">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Noxious Touch" id="eafb-e272-1f8d-0cbc" hidden="false" type="profile" targetId="b581-c7fc-5dad-d510"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83ad-811f-b8d1-5780"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Chaos Icon" hidden="false" id="bb9a-2241-5f84-58b6">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Chaos Icon" id="987a-64ae-32fd-67b9" hidden="false" type="profile" targetId="5b3f-9a8c-8210-491f"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58ec-19e4-6f30-d861"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Cloud of Flies" hidden="false" id="8d53-4cef-1666-3644">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Cloud of Flies" id="92c1-a54c-2de7-fc9a" hidden="false" type="profile" targetId="3d37-8d1d-12b2-bd73"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2580-97e3-53f8-31a1"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Aura of Decay" hidden="false" id="91b3-9e6c-9136-7ce2">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Aura of Decay" id="b467-c55c-90c6-08d9" hidden="false" type="profile" targetId="8077-ddb8-ea45-aaf5"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d60-e2c9-bb16-eced"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Breath of Chaos" hidden="false" id="479d-6597-f1a4-f3ea">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Breath of Chaos" id="a758-eee6-0c3a-4df7" hidden="false" type="profile" targetId="6852-1171-a8a5-4145"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04e7-901e-7577-88e2"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Unholy Might" hidden="false" id="5079-8d66-6a77-02ad">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Unholy Might" id="d70e-c07e-a0d9-e388" hidden="false" type="profile" targetId="b943-c06c-ae53-a4db"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2312-115e-0096-0864"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="self" shared="true" id="020c-9f7b-a2fd-98b9"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Herald of Slaanesh" hidden="false" id="9b4d-eddb-e4a2-2ed8">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Herald of Slaanesh" id="e1be-7fb2-3bb0-d11d" hidden="false" type="profile" targetId="afa8-6bbe-1fa9-5c54"/>
+        <infoLink name="Rending Claws" id="6a2e-d8ca-de84-a103" hidden="false" type="profile" targetId="4a9a-12db-e17e-04f1"/>
+        <infoLink name="Aura of Acquiescence" id="810a-7055-f59a-10f2" hidden="false" type="profile" targetId="b825-e78c-86af-dbd7"/>
+        <infoLink name="Fleet" id="2e90-4eb9-81df-9a2e" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Independent Character" id="0c62-91de-96f9-f3ce" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="79d5-5e00-ccc2-412e" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May have one of the following" id="bdca-448d-a477-1cb2" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Mount of Slaanesh" hidden="false" id="b76e-c602-4c84-3e94">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mount of Slaanesh" id="f243-a38d-489a-ba74" hidden="false" type="profile" targetId="a0f2-1f52-606c-4d0a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="80d8-16e5-599a-968d"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Chariot of Slaanesh" hidden="false" id="052a-c9ab-089a-4bf1">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Chariot of Slaanesh" id="aaba-2050-aaa3-b68f" hidden="false" type="profile" targetId="c12e-2ca6-a08c-57fe"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e96e-76b6-9c02-f38a"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c9ab-baf1-9a7d-8dbc"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May have three of the following" id="b787-00c4-393e-68b3" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Transfixing Gaze" hidden="false" id="ca36-325e-49cd-0dda">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Transfixing Gaze" id="b9e8-f5c1-4b19-4b21" hidden="false" type="profile" targetId="377d-0c12-fa30-5533"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f74-5072-f8de-0ea9"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Soporific Musk" hidden="false" id="a13f-a44c-ae15-a654">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Soporific Musk" id="232c-c815-d8e7-4997" hidden="false" type="profile" targetId="7ce2-21aa-1e70-95e5"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6963-4fa6-7414-a9a0"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Chaos Icon" hidden="false" id="5a29-7b5f-8db7-6fcd">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Chaos Icon" id="fb6a-d43e-daa9-31d9" hidden="false" type="profile" targetId="5b3f-9a8c-8210-491f"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c55-65b4-f621-f822"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Pavane of Slaanesh" hidden="false" id="7caa-2987-a04b-605d">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Pavane of Slaanesh" id="12f8-727c-90bb-5a48" hidden="false" type="profile" targetId="c617-8872-6a25-029a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf8f-7e6e-491a-ddba"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Daemonic Gaze" hidden="false" id="3913-62c2-ad35-e78e">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Daemonic Gaze" id="da48-d05b-631e-e5a9" hidden="false" type="profile" targetId="e21b-c4f1-b3ab-502c"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="750c-66cb-d602-2174"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Unholy Might" hidden="false" id="1b9d-813b-1dba-333a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Unholy Might" id="2e90-f8ff-b8e6-f4bd" hidden="false" type="profile" targetId="b943-c06c-ae53-a4db"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb20-da5a-e549-be81"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="self" shared="true" id="ee59-570a-698b-ddc2"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Daemonic Heralds" hidden="false" id="3529-4647-3cbf-d869">
+      <entryLinks>
+        <entryLink import="true" name="The Masque" hidden="false" id="b992-bbc0-2f8b-2789" type="selectionEntry" targetId="e02c-c263-1ffe-466e"/>
+        <entryLink import="true" name="Epidemius" hidden="false" id="eb4d-0beb-0e67-2b07" type="selectionEntry" targetId="7689-80cf-9db2-eca3"/>
+        <entryLink import="true" name="The Blue Scribes" hidden="false" id="d5c6-b514-4c4c-fc97" type="selectionEntry" targetId="c270-6b6c-f9b2-e072"/>
+        <entryLink import="true" name="Skulltaker" hidden="false" id="6c9c-2513-9dac-281d" type="selectionEntry" targetId="82d3-c778-d921-5a80"/>
+        <entryLink import="true" name="Herald of Khorne" hidden="false" id="1446-66bc-7bcc-cd91" type="selectionEntry" targetId="576d-19c4-69f5-1f82"/>
+        <entryLink import="true" name="Herald of Tzeentch" hidden="false" id="a66e-5da8-f1a2-1d36" type="selectionEntry" targetId="f217-dcf7-625c-d28f"/>
+        <entryLink import="true" name="Herald of Nurgle" hidden="false" id="c8fd-53b4-3f52-3e1d" type="selectionEntry" targetId="128f-fc97-cff7-8720"/>
+        <entryLink import="true" name="Herald of Slaanesh" hidden="false" id="4ee2-4c46-6bff-6b73" type="selectionEntry" targetId="9b4d-eddb-e4a2-2ed8"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="self" shared="true" id="bf4f-a1c9-83ee-56e9"/>
+        <constraint type="min" value="1" field="selections" scope="self" shared="true" id="1dbc-934b-ae00-54ec"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fiends of Slaanesh" hidden="false" id="f152-e958-6523-fd45">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Fiend" hidden="false" id="7f96-78e9-950c-a1fd">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Fiend of Slaanesh" id="9ce3-ad2f-985e-3c2a" hidden="false" type="profile" targetId="8276-1fc6-461f-923e"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5e3f-be20-4fcb-3179"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="5c29-e565-eeb7-5e78"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Gift one model with Unholy Might" hidden="false" id="df2f-a13a-c98d-9c3b">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Unholy Might" id="4396-2eed-4a0e-81a9" hidden="false" type="profile" targetId="b943-c06c-ae53-a4db"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb38-e3b5-66e5-3076"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Soporific Musk" id="ecb5-4432-a918-dbfe" hidden="false" type="profile" targetId="7ce2-21aa-1e70-95e5"/>
+        <infoLink name="Rending Claws" id="9607-8db3-740e-b4f6" hidden="false" type="profile" targetId="4a9a-12db-e17e-04f1"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="3f82-409f-9e90-4669" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Flamers of Tzeentch" hidden="false" id="9d56-9384-95f1-3ef7">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="60fa-bfd7-58f9-6112">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Flamer of Tzeentch" id="4d90-849d-cc87-e9cd" hidden="false" type="profile" targetId="e2e5-5850-01f7-70e5"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="6132-4df6-9d92-d539"/>
+            <constraint type="max" value="12" field="selections" scope="parent" shared="true" id="ee6d-47d9-da08-44fb"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Gift one model with Bolt of Tzeentch" hidden="false" id="bb76-6238-6bcc-86c2">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Bolt of Tzeentch" id="374f-acbb-b564-bcc4" hidden="false" type="profile" targetId="4da7-2910-02cd-f2cc"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9080-33fc-756e-f2c4"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Warpfire" id="1c86-e54a-d487-6385" hidden="false" type="profile" targetId="9d60-d031-d9f4-23d8"/>
+        <infoLink name="Breath of Chaos" id="1ed1-c874-f07a-6209" hidden="false" type="profile" targetId="6852-1171-a8a5-4145"/>
+        <infoLink name="Jump Infantry" id="3bf7-54de-4287-9862" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="5f12-15b3-5e05-47c7" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bloodcrushers of Khorne" hidden="false" id="9ff3-6c78-69c9-20a8">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Bloodcrusher" hidden="false" id="a3d5-7ae6-afea-0f1b">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Bloodcrusher of Khorne" id="f344-4553-b8db-4312" hidden="false" type="profile" targetId="f226-565e-c7ca-85b2"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7331-6540-aa07-fa3a"/>
+            <constraint type="max" value="8" field="selections" scope="parent" shared="true" id="1a76-c1d1-da1e-b20d"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Hellblade" id="92bf-6264-4e57-9334" hidden="false" type="profile" targetId="4463-ae7a-768d-3fa0"/>
+        <infoLink name="Iron Hide" id="bfd0-c756-76a2-591f" hidden="false" type="profile" targetId="08a8-6ead-e4d1-0726"/>
+        <infoLink name="Furious Charge" id="ed79-be01-1bf9-6859" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="ea54-08d5-6fa4-e2bd" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Gift a model with" id="19ad-7cb6-2ac8-6628" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Fury of Khorne" hidden="false" id="7877-6ed6-76ee-55f1">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Fury of Khorne" id="2c4b-2599-df69-eb90" hidden="false" type="profile" targetId="28b5-7807-5845-3e58"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb18-c68e-07e0-7262"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Chaos Icon" hidden="false" id="c520-c5d2-ec4a-92e8">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Chaos Icon" id="9199-4940-5956-edb7" hidden="false" type="profile" targetId="5b3f-9a8c-8210-491f"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="610f-7a94-49a0-ae11"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Instrument of Chaos" hidden="false" id="9b44-44ad-3627-af2a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Instrument of Chaos" id="4d4d-522a-20e4-61cc" hidden="false" type="profile" targetId="57e5-c398-bff7-2da4"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dae4-2a11-74d2-0ffd"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Beasts of Nurgle" hidden="false" id="2c91-d8fd-ba93-e634">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Beast" hidden="false" id="246e-7be8-8a1b-69d9">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Beast of Nurgle" id="c672-d1f4-b2da-ec2e" hidden="false" type="profile" targetId="4df3-011c-360d-4be8"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0075-8408-2651-4498"/>
+            <constraint type="max" value="7" field="selections" scope="parent" shared="true" id="cff1-4e74-0323-e9bb"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Gift one model with Noxious Touch" hidden="false" id="7fa0-b553-d531-0d4b">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Noxious Touch" id="3da7-1d95-5f19-1e62" hidden="false" type="profile" targetId="b581-c7fc-5dad-d510"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbdb-cbe0-734d-d9ee"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="b58d-5362-ae4e-271c" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Feel No Pain" id="a6ad-957c-9c7b-3823" hidden="false" type="profile" targetId="d22d-ca74-1014-8212"/>
+        <infoLink name="Slow and Purposeful" id="5c74-a806-3bfa-8bda" hidden="false" type="profile" targetId="4e36-f773-3571-6ed4"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Random Poisoned Attacks" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="a35b-54aa-3efb-6feb">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">In close combat each Beast has D6 Attacks - roll every time they are about to attack. These attacks are poisoned (4+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bloodletters of Khorne" hidden="false" id="3c0e-73e3-7b32-1dea">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Bloodletters" hidden="false" id="b2ee-1e77-7c33-9b7e">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="16"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Bloodletter of Khorne" id="f3e5-fa14-8467-3980" hidden="false" type="profile" targetId="4f61-bc0e-9008-306e"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="da59-4c33-e206-3828"/>
+            <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="b70c-dd09-3e3e-2796"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Hellblade" id="5b9b-4dc5-23c5-2538" hidden="false" type="profile" targetId="4463-ae7a-768d-3fa0"/>
+        <infoLink name="Furious Charge" id="adbf-78a0-a087-3e52" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="c64e-c5a3-5ec7-d3b0" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Gift a model with (must be a different model per gift)" id="2d65-8377-dd06-04df" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Fury of Khorne" hidden="false" id="5274-d6c3-a31b-908d">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Fury of Khorne" id="9a62-337f-2ff2-818a" hidden="false" type="profile" targetId="28b5-7807-5845-3e58"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1eb9-2447-2c1d-912d"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Chaos Icon" hidden="false" id="8cf1-e0d3-e852-06a7">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Chaos Icon" id="d4a1-79f4-7cde-5b44" hidden="false" type="profile" targetId="5b3f-9a8c-8210-491f"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="88c9-2e59-30ad-545f"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Instrument of Chaos" hidden="false" id="3592-0062-bbf5-1694">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Instrument of Chaos" id="c716-b3d7-d4f0-7056" hidden="false" type="profile" targetId="57e5-c398-bff7-2da4"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f3a3-2770-10ee-a0a0"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Daemonettes of Slaanesh" hidden="false" id="d0b7-b134-9bad-a60d">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Daemonettes" hidden="false" id="b8d6-4b08-59b2-4465">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="14"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Daemonette of Slaanesh" id="ea6f-a369-087d-8afc" hidden="false" type="profile" targetId="0bb5-6050-fb2c-48bc"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="ce3f-86ed-7b85-a60a"/>
+            <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="e583-6644-322b-8962"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Rending Claws" id="8cde-41d1-757d-66c3" hidden="false" type="profile" targetId="4a9a-12db-e17e-04f1"/>
+        <infoLink name="Aura of Acquiescence" id="d3c6-f2b1-7694-65ab" hidden="false" type="profile" targetId="b825-e78c-86af-dbd7"/>
+        <infoLink name="Fleet" id="5f73-d514-ae98-9d6a" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="bdb3-cf14-2a88-90a7" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Gift one model (must be a different model per gift)" id="d8a0-b9ce-077a-e4b0" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Transfixing Gaze" hidden="false" id="3f42-f2ef-9f64-a453">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Transfixing Gaze" id="5f5b-c3e1-5252-9e5d" hidden="false" type="profile" targetId="377d-0c12-fa30-5533"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d2f2-d69a-e974-afcb"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Chaos Icon" hidden="false" id="12ea-ef60-e4fd-1139">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Chaos Icon" id="a27f-2e9f-fb58-6c18" hidden="false" type="profile" targetId="5b3f-9a8c-8210-491f"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94f7-c808-d554-f79e"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Instrument of Chaos" hidden="false" id="0b9d-60a7-26d7-07ca">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Instrument of Chaos" id="c99e-238f-7d4e-7269" hidden="false" type="profile" targetId="57e5-c398-bff7-2da4"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plaguebearers of Nurgle" hidden="false" id="3eef-7c8c-2627-2961">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Plaguebearer" hidden="false" id="2200-7287-a3ee-d97a">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Plaguebearer of Nurgle" id="06eb-7816-ca70-be55" hidden="false" type="profile" targetId="36b7-8b53-cae1-cf7f"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="2863-1814-ec05-3000"/>
+            <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="9aec-8da6-077f-f758"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Plaguesword" id="c72e-2ae9-d2e1-d49e" hidden="false" type="profile" targetId="c0b6-effa-11c6-dbbf"/>
+        <infoLink name="Slow and Purposeful" id="3916-f8fa-ebc1-dd2f" hidden="false" type="profile" targetId="4e36-f773-3571-6ed4"/>
+        <infoLink name="Feel No Pain" id="ff3d-ec08-d5aa-cf7d" hidden="false" type="profile" targetId="d22d-ca74-1014-8212"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="b63f-a2db-340e-5380" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Gift one model (must be a different model per gift)" id="2b64-7eb8-d8d0-cbcd" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Noxious Touch" hidden="false" id="3107-f9a2-68d3-76ec">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Noxious Touch" id="b873-198c-9943-28d5" hidden="false" type="profile" targetId="b581-c7fc-5dad-d510"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e89-d25d-4403-40d0"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Chaos Icon" hidden="false" id="e520-181c-c4a3-237e">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Chaos Icon" id="9d34-a15e-13c9-45bf" hidden="false" type="profile" targetId="5b3f-9a8c-8210-491f"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d4a9-1664-e917-4e07"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Instrument of Chaos" hidden="false" id="7352-11ae-c4bb-80be">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Instrument of Chaos" id="4ce4-e1c1-2f4e-f674" hidden="false" type="profile" targetId="57e5-c398-bff7-2da4"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Pink Horrors of Tzeentch" hidden="false" id="d63f-550f-14d3-8d4d">
+      <infoLinks>
+        <infoLink name="Warpfire" id="96df-2cd8-cb76-60c4" hidden="false" type="profile" targetId="9d60-d031-d9f4-23d8"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="e163-7174-dd06-b4d4" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Gift one model (must be a different model per gift)" id="ef81-467f-48bf-1254" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bolt of Tzeentch" hidden="false" id="0640-4e4b-b54e-d498">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Bolt of Tzeentch" id="945e-ef4e-4713-9860" hidden="false" type="profile" targetId="4da7-2910-02cd-f2cc"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d74d-0a84-d067-63b9"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Chaos Icon" hidden="false" id="066a-8bc0-b542-9fc6">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Chaos Icon" id="8563-931a-6283-e3e2" hidden="false" type="profile" targetId="5b3f-9a8c-8210-491f"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8726-9a76-c261-d146"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Instrument of Chaos" hidden="false" id="9eab-73f5-e519-99c8">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Instrument of Chaos" id="94bb-7941-c79c-3568" hidden="false" type="profile" targetId="57e5-c398-bff7-2da4"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Squad" id="949b-8fba-e85b-d388" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Pink Horror" hidden="false" id="3866-7d3a-5eb1-1bf8" defaultAmount="5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="17"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Pink Horror of Tzeentch" id="1c79-c27a-8a1f-2aea" hidden="false" type="profile" targetId="95d1-a9f2-e07d-e6bf"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="The Changeling" hidden="false" id="4d36-f516-96d2-009a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="22"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="100d-9fa7-c21e-5f7f" includeChildSelections="true"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="The Changeling" id="0c4b-65d4-8296-c82c" hidden="false" type="profile" targetId="4e20-e97a-a16b-5d8d"/>
+                <infoLink name="Warpfire" id="81cf-006a-cfc0-8419" hidden="false" type="profile" targetId="9d60-d031-d9f4-23d8"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Glamour of Tzeentch" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="d52b-7a89-f3fb-3794">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This power can be used in the enemy Shooting phase. Pick any enemy unit visible to the Changeling and is about to fire. If the unit is found to be within 24&quot; of the Changeling, it is affected by his mind-altering mirage.
+
+
+The unit may choose to hold its fire, and just stand around confused in this Shooting phase without moving. It may instead choose to open fire anyway, trying to see through the Glamour. In this case, the unit must take a Leadership test (vehicles are affected too, but count as Ld 10). If the test is passed, the unit sees through the Glamour and may fire as normal. 
+
+
+If the test is failed, the unit must immediately fire all its weapons (no holding back!) against a friendly unit, chosen by the Changeling among any of the enemies he can see. If the Changeling cannot see a second enemy unit, the enemy which failed the test will simply stand around confused, as described above.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="3794-2514-b956-61fa"/>
+            <constraint type="max" value="20" field="selections" scope="self" shared="true" id="c5b7-2748-b9eb-8746"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Nurglings" hidden="false" id="4435-8c54-602e-a018">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Nurglings" hidden="false" id="81f9-4cda-0b22-4c97">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="13"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Nurglings" id="ac25-fa30-f988-3956" hidden="false" type="profile" targetId="8a02-d4e4-527b-f707"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="ef4e-a32f-9f7f-f7e6"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="c239-ca39-c137-b18f"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Swarm" id="d36a-328f-bd39-5ae4" hidden="false" type="rule" targetId="d74e-1928-0d91-b80a"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="1e95-c527-88be-adb0" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Flesh Hounds of Khorne" hidden="false" id="051d-75cb-8720-0ac4">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Gift one model with Fury of Khorne" hidden="false" id="383d-0237-560a-2048">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Fury of Khorne" id="45dd-f435-8dcb-eb1f" hidden="false" type="profile" targetId="28b5-7807-5845-3e58"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c59-7f13-d95f-1d65"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Unit" id="e7e7-090c-551b-7d28" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Flesh Hound" hidden="false" id="a24d-ac4a-8575-4f3c" defaultAmount="5">
+              <infoLinks>
+                <infoLink name="Flesh Hound of Khorne" id="dc21-db08-1188-dbd1" hidden="false" type="profile" targetId="a94f-1416-7e88-73e2"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Karanak, Hound of Vengeance" hidden="false" id="98a1-0cc6-418c-8c64">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a0fa-09b4-bb07-1b3d" includeChildSelections="true"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Karanak" id="63d1-776d-decc-1e0c" hidden="false" type="profile" targetId="419f-5b0d-5294-e7e9"/>
+                <infoLink name="Instrument of Chaos" id="3325-746c-4d80-7711" hidden="false" type="profile" targetId="57e5-c398-bff7-2da4"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Prey of the Blood God" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="6f2e-62b8-fb61-1f43">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">While Karanak is alive, the entire unit benefits from the Move Through Cover rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="f9ae-2154-8353-db2e"/>
+            <constraint type="max" value="20" field="selections" scope="self" shared="true" id="9938-13fc-e33e-12a5"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Blessing of the Blood God" id="49a3-100d-3a0e-d988" hidden="false" type="profile" targetId="2540-afd4-7bc8-b0f4"/>
+        <infoLink name="Furious Charge" id="5aec-9d5a-1d37-54c4" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="fbbc-0cbd-caf1-7012" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Seekers of Slaanesh" hidden="false" id="1c6b-f649-9d1b-b82a">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Seekers" hidden="false" id="e1ac-3b1d-007e-2e9d">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="17"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Seeker of Slaanesh" id="be50-de66-a769-151e" hidden="false" type="profile" targetId="0370-3644-6bb1-cde5"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="5972-5b58-0bd7-1b5b"/>
+            <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="0e45-5715-d7a4-104a"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Cavalry" id="8921-5714-8edc-f181" hidden="false" type="rule" targetId="924e-8c5b-f48b-a6da"/>
+        <infoLink name="Rending Claws" id="7174-ec76-f68a-807b" hidden="false" type="profile" targetId="4a9a-12db-e17e-04f1"/>
+        <infoLink name="Aura of Acquiescence" id="fc69-dced-e9bf-68b3" hidden="false" type="profile" targetId="b825-e78c-86af-dbd7"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="7439-dc08-0464-1765" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Gift one model (must be a different model per gift)" id="647a-8b1c-c781-f06b" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Transfixing Gaze" hidden="false" id="712b-c437-075f-60ad">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Transfixing Gaze" id="39a6-f4f6-1139-a3bd" hidden="false" type="profile" targetId="377d-0c12-fa30-5533"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c83b-5cf8-dc6c-b541"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Chaos Icon" hidden="false" id="7608-7750-fb64-2fcc">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Chaos Icon" id="3c79-5129-28e2-b52c" hidden="false" type="profile" targetId="5b3f-9a8c-8210-491f"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1399-c973-c259-980e"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Instrument of Chaos" hidden="false" id="9a1c-9df1-8fc6-6cbe">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Instrument of Chaos" id="7b66-c784-f087-78d0" hidden="false" type="profile" targetId="57e5-c398-bff7-2da4"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Screamers of Tzeentch" hidden="false" id="c106-db98-302a-747b">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Screamers" hidden="false" id="7d43-8471-b5c0-4533">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="16"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Screamer of Tzeentch" id="df01-7dd8-f339-d002" hidden="false" type="profile" targetId="959b-e6bd-0b35-5239"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="575c-ffd5-ef47-6ad2"/>
+            <constraint type="max" value="12" field="selections" scope="parent" shared="true" id="dbdd-fc62-a5fb-5fc0"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Gift one model with Unholy Might" hidden="false" id="ae08-cdca-495c-c428">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Unholy Might" id="a5ff-15bb-cb6a-198f" hidden="false" type="profile" targetId="b943-c06c-ae53-a4db"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0401-a362-3eae-82b3"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Jetbike" id="cece-89d8-0757-f0b1" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="ba24-5d23-1314-cc1e" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Warp Jaws" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="71e0-499a-6200-f1bd">
+          <characteristics>
+            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">Screamers count as equipped with Melta Bombs</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Furies of Chaos" hidden="false" id="eeb8-1bab-1973-8e15">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Fury" hidden="false" id="fd79-1c03-fd0c-665d">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="16"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Fury of Chaos" id="ae30-6b11-4b87-a7e2" hidden="false" type="profile" targetId="abe0-e81b-0e26-c82b"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="2366-85e6-1685-2fb8"/>
+            <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="89bc-ffeb-7086-eba6"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Jump Infantry" id="6961-7bf9-fef4-a1ad" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="fc6b-2eae-07dd-fb49" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Soul Grinder of Chaos" hidden="false" id="387c-9b21-a095-3062">
+      <infoLinks>
+        <infoLink name="Soul Grinder" id="3f34-f442-9fce-28d5" hidden="false" type="profile" targetId="025c-4591-78ec-76cd"/>
+        <infoLink name="Walker" id="0d42-aa7e-9761-0184" hidden="false" type="rule" targetId="fea1-2c4a-c33c-5600"/>
+        <infoLink name="Fleet" id="9f02-094e-d972-16f9" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Dreadnought Close Combat Weapon" id="bf40-8a4c-a3e9-8056" hidden="false" type="profile" targetId="72a1-7ddd-b4ae-b945"/>
+        <infoLink name="Dreadnought Close Combat Weapon" id="e42c-5fe5-b7a3-43c1" hidden="false" type="profile" targetId="72a1-7ddd-b4ae-b945"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="efe8-351a-e18c-3ddd" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="135"/>
+      </costs>
+      <profiles>
+        <profile name="Mawcannon (Vomit)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="7d54-bb67-9ccb-aea8">
+          <characteristics>
+            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+            <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+            <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+          </characteristics>
+        </profile>
+        <profile name="Harvester" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="7440-683a-6045-0695">
+          <characteristics>
+            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+            <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 6</characteristic>
+            <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Upgrade the Mawcannon to be able to use any of the following profiles" id="48b1-1f2a-64eb-d543" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Phlegm" hidden="false" id="7453-acaf-b3ca-f253">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <profiles>
+                <profile name="Mawcannon (Phlegm)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="db4b-40c4-c7fe-cabe">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Large Blast</characteristic>
+                    <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="079d-b82f-3823-e2f6"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Tongue" hidden="false" id="6f7e-d039-8779-3f6f">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <profiles>
+                <profile name="Mawcannon (Tongue)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="87c8-c341-1079-6494">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
+                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+                    <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c814-af89-be3b-6e86"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Daemon Prince of Chaos" hidden="false" id="5890-0cc9-1f81-961c">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="80"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Daemon Prince" id="cbe4-3365-c54f-eefa" hidden="false" type="profile" targetId="c119-66af-3195-2bd4"/>
+        <infoLink name="Monstrous Creature" id="fd60-0106-a24e-cb41" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Daemon" hidden="false" id="cdf8-2be9-0b7c-6e71" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May have any of the following" id="01af-e7e6-f0ab-4540" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Daemonic Flight" hidden="false" id="7404-5404-3601-16b5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="60"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Daemonic Flight" id="00c5-cad2-832c-0f9e" hidden="false" type="profile" targetId="3675-23c4-6f79-269e"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b67c-40ff-6918-7015"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Iron Hide" hidden="false" id="2818-0b4d-b6c2-ece0">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Iron Hide" id="f727-7b61-032f-ee83" hidden="false" type="profile" targetId="08a8-6ead-e4d1-0726"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f90-c00d-4440-1638"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Instrument of Chaos" hidden="false" id="470e-2110-32af-e82a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Instrument of Chaos" id="5461-df2e-59d9-86d7" hidden="false" type="profile" targetId="57e5-c398-bff7-2da4"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6fa8-8491-c556-93b2"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Unholy Might" hidden="false" id="cb3a-d623-6504-1301">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Unholy Might" id="24cb-3a7c-da9c-0658" hidden="false" type="profile" targetId="b943-c06c-ae53-a4db"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac1d-0a2e-850e-17d2"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May have one of the following" id="2a59-f78b-f4b1-9abb" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Mark of Khorne" hidden="false" id="6847-9db8-5be6-8997">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Khorne" id="59e8-71ff-2c49-8a9d" hidden="false" type="profile" targetId="225a-9ba7-663f-2226"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e78-e69d-4476-d0a8"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="May take any of the following" id="985e-d604-75e6-684c" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Blessing of the Blood God" hidden="false" id="d2c6-0a87-10da-d276">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Blessing of the Blood God" id="22aa-63b4-61e4-8315" hidden="false" type="profile" targetId="2540-afd4-7bc8-b0f4"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="441e-1ddb-bb47-e5d2"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Death Strike" hidden="false" id="b54e-ac23-1b41-ff88">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Death Strike" id="be83-a47f-13e7-7f4c" hidden="false" type="profile" targetId="ce74-46d2-83f5-47e3"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e61e-c339-c0d4-642a"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mark of Slaanesh" hidden="false" id="a8df-46aa-6aea-2bb1">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Slaanesh" id="305a-36e1-aa48-0fd0" hidden="false" type="profile" targetId="b554-1a0d-107e-a1ec"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b94-f079-267d-cd3e"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="May take any of the following" id="60e0-3b1f-b714-2782" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Aura of Acquiescence" hidden="false" id="df0e-aaff-db8c-026b">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Aura of Acquiescence" id="832d-6702-c0fb-0136" hidden="false" type="profile" targetId="b825-e78c-86af-dbd7"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2480-84f8-7d36-767b"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Soporific Musk" hidden="false" id="116a-1bb0-da99-b8ac">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Soporific Musk" id="2fd6-8da0-96bc-8e58" hidden="false" type="profile" targetId="7ce2-21aa-1e70-95e5"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="555b-217f-6ed5-69c7"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Transfixing Gaze" hidden="false" id="fb8e-4718-d59f-e770">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Transfixing Gaze" id="cf89-6507-fd19-26ac" hidden="false" type="profile" targetId="377d-0c12-fa30-5533"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e2f-531f-4269-863d"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Pavane of Slaanesh" hidden="false" id="e25c-29c5-ccef-9b85">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Pavane of Slaanesh" id="08f9-5faa-bd6f-5512" hidden="false" type="profile" targetId="c617-8872-6a25-029a"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29a8-42ba-d063-553e"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mark of Nurgle" hidden="false" id="7b66-23fd-f86e-b66f">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Nurgle" id="584b-4401-4f50-0b8f" hidden="false" type="profile" targetId="10fb-6c73-291d-478b"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a46a-cd8c-948f-2ada"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="May take any of the following" id="59b8-2409-cc29-44b3" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Cloud of Flies" hidden="false" id="3968-85ff-e605-42a7">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Cloud of Flies" id="affa-56a1-0ec1-f70f" hidden="false" type="profile" targetId="3d37-8d1d-12b2-bd73"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c8e-402b-501f-427a"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Noxious Touch" hidden="false" id="63a4-76a2-cde9-e115">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Noxious Touch" id="2dd2-a91f-314b-9043" hidden="false" type="profile" targetId="b581-c7fc-5dad-d510"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6cb0-3fd8-0af6-5894"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Aura of Decay" hidden="false" id="3b09-0862-b92b-df94">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Aura of Decay" id="6e80-1764-8168-c886" hidden="false" type="profile" targetId="8077-ddb8-ea45-aaf5"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c5bc-6f9b-7885-d0d4"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mark of Tzeentch" hidden="false" id="3da7-811a-60c2-c2b7">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mark of Tzeentch" id="0532-b621-bd29-99a3" hidden="false" type="profile" targetId="d8c5-fbf4-b3a5-4a28"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8968-0844-5358-e1b0"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="May take any of the following" id="3add-73ef-a076-04a4" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Master of Sorcery" hidden="false" id="8126-3281-c5bd-6430">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Master of Sorcery" id="36c4-548d-0b19-3f91" hidden="false" type="profile" targetId="e155-a1c9-9c1a-610b"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1efd-7f5b-cb67-96e8"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Soul Devourer" hidden="false" id="fdff-b21e-7d44-9887">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Soul Devourer" id="be48-e6f7-f634-5164" hidden="false" type="profile" targetId="4e82-dfef-e335-aca0"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a00-e6b2-ea65-2af6"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Bolt of Tzeentch" hidden="false" id="3a5a-3353-7ff8-4736">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Bolt of Tzeentch" id="49ed-2452-8352-241a" hidden="false" type="profile" targetId="4da7-2910-02cd-f2cc"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fabb-3ca4-ed13-c161"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="175d-9c50-8df3-7a77"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Models that do not have the Mark of Khorne may also have one of the following (models with the Mark of Tzeentch may have up to two)" id="0197-2e09-7a3c-4ee4" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Daemonic Gaze" hidden="false" id="bc3d-658a-c5f1-d5b2">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Daemonic Gaze" id="8517-d390-a224-78cc" hidden="false" type="profile" targetId="e21b-c4f1-b3ab-502c"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8768-3609-433f-56be"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Breath of Chaos" hidden="false" id="ea7a-5caa-a564-df7c">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Breath of Chaos" id="b678-1e48-3005-82f3" hidden="false" type="profile" targetId="6852-1171-a8a5-4145"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b43-b320-b3f4-abbd"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Boon of Mutation" hidden="false" id="1b77-3e1e-7b6d-fd8a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Boon of Mutation" id="801e-4c1b-3897-7cf5" hidden="false" type="profile" targetId="e434-cb03-5e6d-2701"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f4f-430c-ee32-cce1"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="9573-4420-6647-7092"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Ku&apos;gath, The Plaguefather" hidden="false" id="0866-b822-b179-67a8" type="selectionEntry" targetId="473f-098f-09ac-d246">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="1d8a-5cd1-5e2c-2e4a" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Fateweaver, Oracle of Tzeentch" hidden="false" id="513c-cddb-9f99-589b" type="selectionEntry" targetId="efc9-6d6a-bfd2-0336">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="4a5f-db1d-dbc1-470d" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Skarbrand, The Exiled One" hidden="false" id="1b72-90cf-a245-c568" type="selectionEntry" targetId="008d-c557-ade8-4acc">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="6f91-46f9-9850-ac26" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Keeper of Secrets" hidden="false" id="8a2a-fc43-7461-63a3" type="selectionEntry" targetId="0fb4-23c3-dd5c-ece6">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="8c57-6e4b-0ce9-ba09" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Great Unclean One" hidden="false" id="0698-5672-f548-6c4b" type="selectionEntry" targetId="2af2-be4b-fe2f-e6b5">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="a30e-aa9f-a822-5004" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Bloodthirster" hidden="false" id="067b-263c-c23e-fd2e" type="selectionEntry" targetId="3564-b4f1-0fb6-8e83">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="7c02-72b7-d829-359b" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Lord of Change" hidden="false" id="08fc-d9ba-7902-33c4" type="selectionEntry" targetId="b7b0-8dd2-1bdc-f3b7">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="1106-3b5a-6e34-7e0a" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Daemonic Heralds" hidden="false" id="b16c-b8a3-0a62-7117" type="selectionEntry" targetId="3529-4647-3cbf-d869">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="7d38-2de2-cd82-c786" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Fiends of Slaanesh" hidden="false" id="2f36-aa75-0002-3335" type="selectionEntry" targetId="f152-e958-6523-fd45">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="f5fb-89fd-62f8-24b5" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Flamers of Tzeentch" hidden="false" id="c934-31b1-0b10-25bc" type="selectionEntry" targetId="9d56-9384-95f1-3ef7">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="16a9-2e1f-061f-d48e" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Bloodcrushers of Khorne" hidden="false" id="ac73-d652-52b9-a6e4" type="selectionEntry" targetId="9ff3-6c78-69c9-20a8">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="8204-5970-0b73-0be8" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Beasts of Nurgle" hidden="false" id="d86e-3b27-f500-ff63" type="selectionEntry" targetId="2c91-d8fd-ba93-e634">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="03f6-437d-6d99-ebad" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Bloodletters of Khorne" hidden="false" id="7dff-8dd8-84f6-3231" type="selectionEntry" targetId="3c0e-73e3-7b32-1dea">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="c083-67f7-cc4f-7528" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Daemonettes of Slaanesh" hidden="false" id="5146-c6f8-bbb4-3eca" type="selectionEntry" targetId="d0b7-b134-9bad-a60d">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="aeb2-3989-dcc8-42d5" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Plaguebearers of Nurgle" hidden="false" id="bbe1-c799-4cf3-bfb8" type="selectionEntry" targetId="3eef-7c8c-2627-2961">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="09bd-14a9-87f8-b543" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Pink Horrors of Tzeentch" hidden="false" id="2d46-629f-4096-6029" type="selectionEntry" targetId="d63f-550f-14d3-8d4d">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="217d-0dfd-826f-c688" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Nurglings" hidden="false" id="5342-6d7a-868d-ab4b" type="selectionEntry" targetId="4435-8c54-602e-a018">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="bf4d-dd17-2498-57c1" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Flesh Hounds of Khorne" hidden="false" id="f6c0-a495-c760-0566" type="selectionEntry" targetId="051d-75cb-8720-0ac4">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="c60e-3c21-8907-f1c8" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Seekers of Slaanesh" hidden="false" id="c277-59b0-5faf-3752" type="selectionEntry" targetId="1c6b-f649-9d1b-b82a">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="c98c-b6cb-4184-7c1d" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Screamers of Tzeentch" hidden="false" id="8e10-e5cf-f6fa-db69" type="selectionEntry" targetId="c106-db98-302a-747b">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="db3c-377a-74ce-11b6" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Furies of Chaos" hidden="false" id="b42a-a76d-7d66-78af" type="selectionEntry" targetId="eeb8-1bab-1973-8e15">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="e95b-706d-1fb2-db6d" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Soul Grinder of Chaos" hidden="false" id="c89c-4d24-e713-75e7" type="selectionEntry" targetId="387c-9b21-a095-3062">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="6325-da4a-cb79-43c5" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Daemon Prince of Chaos" hidden="false" id="fa11-4163-9956-c93e" type="selectionEntry" targetId="5890-0cc9-1f81-961c">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="f45b-1051-719a-7071" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
 </catalogue>
