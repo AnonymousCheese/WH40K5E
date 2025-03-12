@@ -4330,18 +4330,10 @@ It is worth pointing out that some armies might use different versions of smoke
                 <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
               </characteristics>
             </profile>
-            <profile name="Earthshaker Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="1120-1386-e51b-c265">
-              <characteristics>
-                <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;-240&quot;</characteristic>
-                <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
-                <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
-                <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance Barrage 1, Large Blast</characteristic>
-                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
-              </characteristics>
-            </profile>
           </profiles>
           <infoLinks>
             <infoLink targetId="3475-46b4-28e6-8fb0" id="50ff-869b-ada9-a1eb" type="rule" name="Tank" hidden="false"/>
+            <infoLink targetId="1120-1386-e51b-c265" id="97a6-8099-98b2-438d" type="profile" name="Earthshaker Cannon" hidden="false"/>
             <infoLink targetId="21d9-2669-1dba-9fb2" id="5b3a-6b03-9b2d-3c49" type="rule" name="Open-topped" hidden="false"/>
             <infoLink name="Searchlight" id="5918-2dad-1362-bf48" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
             <infoLink name="Smoke Launchers" id="1517-b1fd-7116-9f52" hidden="false" type="profile" targetId="180e-ad4b-4df0-81ae"/>
@@ -5280,6 +5272,57 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <entryLink import="true" name="Chimera Dedicated Transport" hidden="false" id="9b5e-9bfe-81c0-4024" type="selectionEntry" targetId="d678-774b-9976-ed5e"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Earthshaker Platform" hidden="false" id="a739-792e-f0ce-2203">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="75"/>
+      </costs>
+      <profiles>
+        <profile name="Earthshaker Platform" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="5d3b-8c0b-6c5e-768f">
+          <characteristics>
+            <characteristic name="BS" typeId="b539-c71b-9239-8da0">3</characteristic>
+            <characteristic name="F" typeId="84f1-6495-b3c8-6025">10</characteristic>
+            <characteristic name="S" typeId="38b6-8429-f0fd-11cb">10</characteristic>
+            <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Immobile" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="aa8d-22cf-5ce3-f6c8">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Once deployed, an Eathshaker platform cannot be moved.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May take any of the following" id="9204-4798-f855-e1ee" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Camo Netting" hidden="false" id="067c-3d68-2e3b-7df2">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Camo Netting" id="af0d-7e6f-998c-e6e6" hidden="false" type="profile" targetId="6d53-02aa-4b3e-2123"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5ca4-8c73-acb6-a3cd"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Searchlight" hidden="false" id="219f-7f02-c545-d1bc">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Searchlight" id="1e73-ccac-afb6-d03f" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bfbe-973f-9999-ce32"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Earthshaker Cannon" id="150a-d7c9-13af-7b43" hidden="false" type="profile" targetId="1120-1386-e51b-c265"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Laspistol" id="3d23-3fcb-a692-ee14" hidden="false" defaultSelectionEntryId="9217-2f13-bbb3-505a">
@@ -5662,6 +5705,15 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Ability" typeId="2113-98a2-4376-a94c">Rough Riders use their hunting lances the first time they charge into close combat, after which they cannot be used again. When they charge into close combat, a unit armed with hunting lances counts as being armed with power weapons that strike at strength and initiative 5. Models using a hunting lance cannot gain an extra attack from having an additional close combat weapon.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Earthshaker Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="1120-1386-e51b-c265">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;-240&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance Barrage 1, Large Blast</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <entryLinks>
     <entryLink import="true" name="Infantry Platoon" hidden="false" id="174e-84fb-5481-2d03" type="selectionEntry" targetId="063f-f1bd-1acf-2096">
@@ -5856,6 +5908,11 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
       <categoryLinks>
         <categoryLink targetId="ac8d-efba-1884-d3ad" id="5c62-5508-8e5d-aa00" primary="true" name="HQ"/>
         <categoryLink targetId="1f0d-7d41-7ef9-ce4a" id="0ff3-b73a-c15c-bd7f" primary="false" name="Unique"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Earthshaker Platform" hidden="false" id="0eac-2218-43fb-646f" type="selectionEntry" targetId="a739-792e-f0ce-2203">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="552c-8f66-d5eb-7fb5" primary="true" name="Heavy Support"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
