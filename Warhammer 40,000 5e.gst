@@ -1303,13 +1303,22 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Tank hunters are especially skilled at finding and exploiting weaknesses in the armour of enemy vehicles. They add +1 to their armour penetration rolls whenever they hit a vehicle (both at range and in close combat). In addition, they automatically pass Morale checks caused by tank shock.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Laspistol" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e061-dada-0483-3fff">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Combi-weapon" hidden="false" id="d720-24d4-d7f1-df20" defaultAmount="0">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Combi-flamer" hidden="false" id="f589-6e69-8051-ff14">
           <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
           </costs>
           <infoLinks>
             <infoLink name="Combi-flamer (Flamer)" id="fe09-5f7f-45b6-a978" hidden="false" targetId="6895-2cfe-6f5b-8f88" type="profile"/>
@@ -1321,7 +1330,7 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Combi-melta" hidden="false" id="a087-a0ee-5221-681b">
           <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
           </costs>
           <infoLinks>
             <infoLink name="Combi-melta (Boltgun)" id="dd57-824a-b3cb-713e" hidden="false" targetId="aad5-fec1-bd21-2ae3" type="profile"/>
@@ -1333,7 +1342,7 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Combi-plasma" hidden="false" id="7de9-f8dd-de1f-4133">
           <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
           </costs>
           <profiles>
             <profile name="Combi-plasma (Boltgun)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="9f42-a486-0fe8-5f37">

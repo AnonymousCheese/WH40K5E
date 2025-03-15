@@ -1,0 +1,1566 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="4101-1aa1-07eb-3eab" name="Witch Hunters" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Inquisitor Lord" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="a418-af4b-3f07-fa89">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Inquisitor" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="6b25-5cb5-a63e-4c29">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Canoness" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="350d-8316-8814-861b">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Palatine" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="7540-7b4d-e20c-3bff">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Priest" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="c65d-b83d-b654-ea6b">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Celestian Superior" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="104d-e06e-9467-714b">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Celestian" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e581-24ee-aa6f-4e2d">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sister Superior" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="85c6-d450-c6bc-1ae4">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Battle Sister" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="3040-53bf-7490-0088">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Seraphim Superior" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="2aa3-1070-8b9b-0735">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Seraphim" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="ffa0-0778-7995-07ad">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Arco-flagellant" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="d8bf-09f4-ef7b-be1c">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">0</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1/D6</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mistress" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="ff30-9950-7ce6-49ac">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4(5)</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2(3)</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sister Repentia" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="1f84-be45-8599-0fc4">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3(6)</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">6</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Imperial Assassin" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="cceb-3c14-323a-9c4c">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Death Cult Assassin" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="60ef-0612-6048-278e">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Storm Trooper" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="dd25-f2d2-e811-21b1">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Veteran Storm Trooper" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="5f9c-ff48-9c30-9304">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Henchman" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="fd03-6d41-3bee-4cc1">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Warrior Henchman" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="0759-2d42-88e5-f17f">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Crusader" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="cc8f-eb9a-73c8-4037">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Combi-stake Crossbow" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="7e5f-a43d-7d41-0b97">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Wounds Psykers on 2+ with no save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Exorcist Missile" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="8bf8-ca7f-6e64-2977">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy D6</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Firearms" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="748b-c08c-4c00-64d3">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Gets Hot!</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Hellgun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="bc81-b3b5-2f8e-b6bb">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Hellpistol" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="6203-0b2c-76b5-d902">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Inferno Pistol" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="75d9-90dc-0e9d-254a">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">6&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol, Melta</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Lance Strike" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="d0cc-7406-2733-0508">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Unlimited</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Barrage, Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Melta Torpedo" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="9f72-837f-b290-d944">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Unlimited</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Barrage, Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">2D6 Armour Penetration</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psyk-out Warhead" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="722e-b1a2-4aaf-9957">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Unlimited</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff"/>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Immolator" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="54d4-1ebc-b49d-7c91">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">4</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">11</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">11</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Exorcist" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="430b-e034-7a40-40a2">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">4</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">13</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">11</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Penitent Engine" typeId="acd3-2539-3641-1250" typeName="Walker Vehicle" hidden="false" id="96de-bf98-055a-ddee">
+      <characteristics>
+        <characteristic name="WS" typeId="3d9c-8977-9b95-824b">4</characteristic>
+        <characteristic name="BS" typeId="ea47-07be-ab4a-6569">2</characteristic>
+        <characteristic name="STR" typeId="a630-c404-957f-a49f">5(10)</characteristic>
+        <characteristic name="F" typeId="3549-2d9e-3052-b396">11</characteristic>
+        <characteristic name="S" typeId="94fc-8af8-d4d4-7b1a">11</characteristic>
+        <characteristic name="R" typeId="4eca-6e3c-2053-e75a">10</characteristic>
+        <characteristic name="I" typeId="f706-f227-5d93-0fe3">3</characteristic>
+        <characteristic name="A" typeId="12be-9dd2-0dd7-b17a">D6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hand of the Emperor" typeId="478c-53c1-1a0a-66f7" typeName="Act of Faith" hidden="false" id="abba-8659-52b8-722e">
+      <characteristics>
+        <characteristic name="Test of Faith" typeId="4fa2-8777-26f1-f427">Roll equal to or under the current squad size (12 always fails).</characteristic>
+        <characteristic name="Act of Faith" typeId="643a-4506-84fa-61b8">Use in either player&apos;s Assault phase before rolling to hit. +2 Strength, strike at Initiative 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Divine Guidance" typeId="478c-53c1-1a0a-66f7" typeName="Act of Faith" hidden="false" id="af40-fbd6-5ebe-7cbc">
+      <characteristics>
+        <characteristic name="Test of Faith" typeId="4fa2-8777-26f1-f427">Roll equal to or under the current squad size (12 always fails).</characteristic>
+        <characteristic name="Act of Faith" typeId="643a-4506-84fa-61b8">Use in either player&apos;s Assault phase/own Shooting phase, before rolling to wound. If used in the Shooting phase, any to wound rolls of 6 count as AP1. If used in the Assault phase, any to wound rolls of 6 count as being made by a power weapon.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Spirit of the Martyr" typeId="478c-53c1-1a0a-66f7" typeName="Act of Faith" hidden="false" id="a93f-d894-169e-919a">
+      <characteristics>
+        <characteristic name="Test of Faith" typeId="4fa2-8777-26f1-f427">Roll equal to or over the current squad size.</characteristic>
+        <characteristic name="Act of Faith" typeId="643a-4506-84fa-61b8">Use at the beginning of the enemy Shooting phase, or at the beginning of either player&apos;s Assault phase. Unit&apos;s Armour save becomes Invulnerable for that phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Passion" typeId="478c-53c1-1a0a-66f7" typeName="Act of Faith" hidden="false" id="e528-c2fb-0f51-6018">
+      <characteristics>
+        <characteristic name="Test of Faith" typeId="4fa2-8777-26f1-f427">Roll equal to or over the current squad size.</characteristic>
+        <characteristic name="Act of Faith" typeId="643a-4506-84fa-61b8">Use at the beginning of either player&apos;s Assault phase. Unit gains +2 Initiative. May not be conbined with Hand of the Emperor. Does not override any weapons or wargear that change Initiative.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Light of the Emperor" typeId="478c-53c1-1a0a-66f7" typeName="Act of Faith" hidden="false" id="513f-8a7e-91d4-3db3">
+      <characteristics>
+        <characteristic name="Test of Faith" typeId="4fa2-8777-26f1-f427">Roll equal to or over the current squad size.</characteristic>
+        <characteristic name="Act of Faith" typeId="643a-4506-84fa-61b8">Use at the beginning of own Movement phase. Unit is Fearless until the beginning of its next Movement phase, and will automatically pass any Morale or Pinning tests. If the unit is falling back when it uses Light of the Emperor, it will also automatically regroup, regardless of normal restrictions.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Divine Pronouncement" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="f4c3-2e31-a3ba-9d64">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">Use in the Shooting phase instead of firing a weapon. One enemy unit within 18&quot; and not in close combat must make a Morale check, with its Ld modified by the difference between its Ld and the Inquisitor&apos;s if his is higher.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hammer of the Witches" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="4b62-8de5-fcbf-33b5">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">Use in the Shooting phase instead of firing a weapon. May be used even if engaged in an Assault, and does not require line of sight. D6 enemy psykers, starting with the closest, must pass a Ld test or suffer a Perils of the Warp attack.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hammerhand" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="824a-ba6b-40b7-afa4">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">Use at the beginning of any Assault phase. Doubles basic Strength of user until his next turn. Psyker counts as having an additional close combat weapon. Note this power does not affect Armour saves or striking order. Psyker may not use any weapons until the beginning of his next turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="His will Be Done" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="a275-6cff-d927-d974">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">Use in the Assault phase before making any any attacks. Each wound caused by the Inquisitor counts as two for the purpose of determining which side won the assault.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Purgatus" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="68fc-625b-99bc-cb14">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">Use in the Shooting phase instead of firing a weapon. Target any enemy Independent Character within 24&quot;. Both players roll D6 + model&apos;s Leadership. If the Inquisitor Lord scores higher, the enemy character&apos;s Leadership is reduced by 3 for the remainder of the game. May only be used successfully one per enemy character.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Scourging" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="dab6-d1ce-0990-1a00">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault D6</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Psychic shooting attack, Ignores Invulnerable saves.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Word of the Emperor" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="0e23-9631-a35b-b57f">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">Use at the beginning of the enemy Assault phase. Enemy units attempting to charge the psyker or his unit must pass a Leadership test. If they fail, they may not assault at all that turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Auspex" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="763f-2561-a62c-db73">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">If enemy infiltrators set up within 4D6&quot; of a model with an auspex, then that model is allowed to take a &apos;free&apos; shot at them (or sound the alarm in a Raid scenario). If the model is part of a unit then the whole unit may shoot. These shots are taken before the battle begins, and may cause the infiltrators to fall back. The normal shooting rules apply.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bionics" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="bc5f-2ed3-1f14-8611">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">If a model with Bionics is killed, instead of removing it, place the model on its side. Roll a D6 at the start of the next turn. On the roll of a 6 the model is stood back up with one wound remaining, but on any other result it is removed as a casualty.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blessed Weapon" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="e896-a632-06be-7d9c">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A blessed weapon is a Master Crafted power weapon that adds 2 to the bearer&apos;s Strength. One per army.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Book of St. Lucius" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="d983-cac6-dc24-0c83">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Any friendly unit with a model within 6&quot; may use the bearer&apos;s unmodified Leadership value for any Morale checks or Pinning tests it is required to take.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Brazier of Holy Fire" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="f6da-dcd5-b3d3-b775">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">The Brazier of Holy Fire counts as a close combat weapon. In addition, it may be used once per battle like a flamer. All of the normal rules for a flamer apply.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Carapace Armour" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="03c4-44a3-cca9-b8c7">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with carapace armour has a 4+ armour save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Cloak of St. Aspira" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="6125-5521-e0b7-03bf">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Cloak of St. Aspira adds 1 to the model&apos;s Armour save, so an Adepta Sororitas Heroine in power armour wearing the cloak will have an armour save of 2+.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Digital Weapons" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="c9d8-68ce-dbbf-327e">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with digital weapons may make a special attack in close combat at +2 to his Initiative in addition to his normal attacks, inflicting one Strength 4 hit on a D6 roll of 4+. Normal armour saves are allowed.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Eviscerator" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="c34d-7883-b48f-6778">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This two-handed weapon is treated as a Power Fist that rolls 2D6 for Armour Penetration</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Excruciators" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="989a-799d-47ce-9a04">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">If the bearer of Excruciators is alive at the end of the battle, each enemy Psyker killed or otherwise removed from the table is worth an additional D6x10 Victory Points. One per army.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hexagrammic Wards" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="186d-ca42-8c60-b5a1">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Enemy psykers within 24&quot; who attempt to use any psychic powers that would affect the Inquisitor or his retinue take their Psychic test at -1 to their Leadership. The effects are not cumulative.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Inquisitorial Mandate" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="be19-26cc-a684-0ae9">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model bearing an Inquisitorial Mandate may reveal it once per battle. This may be done at any time, as long as the model with the Mandate does not move in the turn it is revealed, all friendly models within 2D6&quot; receive a +1 Attack bonus for the rest of that turn as they fight to prove their devotion. Note that the Mandate may be revealed in an opposing player&apos;s turn if you wish. One per army.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Liber Heresius" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="db6f-c2e5-3cc8-cc00">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">In missions where there is a choice of table edge, the Inquisitor must take a Leadership test before the game and if this is passed he may choose the deployment zone for his army rather than rolling a dice for it. If he fails the Leadership test on a double 6, the enemy player may choose his deployment zone. On any other outcome, roll the dice as normal for deployment.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Litanies of Faith" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="44b5-d213-eedf-41d8">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Once per game, the character may use an Act of Faith, and without expending a Faith Point.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mancatcher" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="f080-fa1f-0888-ac7e">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">For each Acolyte carrying a mancatcher in base-to-base contact with an enemy model, that enemy model&apos;s attacks are reduced by 1 to a minimum of 1 attack. Each mancatcher may only affect one enemy model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mantle of Ophelia" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="4b2b-56bf-7e9e-bec1">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The first time the wearer takes a wound that would cause an &apos;instant death&apos; effect, only one wound is actually taken. The mantle may only be used once per battle. One per army</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Master-crafted weapon" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="a1c8-4380-cdbb-801d">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A Master-crafted weapon follows the normal rules for the converted weapon, except that it allows one failed roll to hit per turn to be re-rolled. Such a modified weapon is taken as an upgrade for the weapon already carried by a model and must be represented by a suitably ornate weapon on the model itself. A grenade cannot be Master crafted.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Neural Whip" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="f0cf-c139-1694-74d4">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A neural whip is a power weapon, and adds 1 to the bearer&apos;s Initiative.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Power Stake" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="9c65-71c0-515a-cb2c">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">The Power Stake counts as a power weapon but against targets that have psychic powers, it will always wound on a 2+.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Praesidium Protectiva" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="5d43-f1b3-68bb-4ed0">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model equipped with a Praesidium Protectiva may take a 4+ Invulnerable save in an assault instead of her normal armour save. The save may only be used against one opponent per turn (the defender chooses which one). Although not a weapon, a Praesidium Protectiva must be carried in one hand and therefore takes the place of one single-handed weapon.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psi-tracker" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="2182-a9a2-1f99-0091">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">If a model has a psy-tracker, one roll to hit made by any model in the Witch Hunters army may be re-rolled once per Shooting phase, so long as the target is a psyker, or a squad with a psyker attached to it. One per army.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psycannon Bolts" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="ca0d-f9d4-cecb-a094">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A bolt weapon with this upgrade counts as AP4. Only armour saves may be taken against Psycannon Bolts - Invulnerable saves may NOT be taken.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psychic Hood" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="4417-9402-83e0-ecf3">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Psychic hoods allow a Witch Hunter to nullify an opposing psyker&apos;s power. Declare that you&apos;ll use the Psychic hood after an opponent has successfully made a Psychic test, but before they have used the power. Each player then rolls a D6 and adds their model&apos;s Leadership value to the score. If the Witch Hunter beats the opposing model&apos;s score then the psychic power is nullified and may not be used that turn. If the opposing model&apos;s score is equal or higher, it may use its psychic power as normal. The psychic hood can be used each time an enemy model uses a psychic power.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psyocculum" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="8047-e161-9fbb-dd21">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model wearing these witch-finding eyepieces does not need to roll to determine how far it can see when using the Night Fighting rules, so long as the target is a psyker, or a squad joined by one.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Purity Seals" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="7ab1-85c4-59e1-0397">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">If a model wearing purity seals falls back, roll one extra D6 for its fall back distance, and then discard one D6 of your choice to determine the distance fallen back. If a model with purity seals is part of a unit then this ability applies to the whole unit, not just the model with the purity seals.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rosarius" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="ed20-581e-760f-756e">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with a Rosarius gets a 4+ Invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sacred Banner" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="567b-4d1d-be02-ecf6">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Any unit with the Adepta Sororitas rule with a model within 6&quot; of the standard adds +1 to its combat resolution score in an assault, ie, it counts as having inflicted one more casualty than it actually did.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sacred Banner of the Order Militant" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="4563-b5f0-79dd-0d7b">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Any Adepta Sororitas unit with a model within 12&quot; of the Sacred Banner of the Order Militant is counted as Fearless. One per army.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sarissa" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="b786-3876-d4a9-4575">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Sarissa may only be used by a model equipped with a standard bolter. In any Assault phase in which the model charges, her close combat hits to wound may be re-rolled. The Sarissa may not be combined with any other close combat weapon, although it may be used in conjunction with Acts of Faith. It does not caunt as an additional close combat weapon, so the model only ever gets to make her base number of Attacks, plus any bonus for charging.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Simulacrum Imperialis" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="ae54-5c70-f0ee-6b18">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The presence of the Simulacrum Imperialis allows a Faithful unit to roll one extra dice when making a Test of Faith and choose which two dice to use. This may be used once per player turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Targeter" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="5ec8-4ac7-6c00-4ead">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Models equipped with a targeter are allowed to pre-measure the range to a target before they decide who to shoot at in the Shooting phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blessed Ammunition" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="e10c-2185-aad7-3799">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Any Storm Bolter or Heavy Bolter shots fired by the vehicle ignore cover saves.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dozer Blade" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="4798-ac4e-9667-87e2">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Vehicles equipped with dozer blades can re-roll a failed Difficult Terrain test as long as they do not move more than 6&quot; that turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Holy Icon" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="0042-8843-3adb-90b7">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Any friendly unit with a model within 6&quot; of the vehicle adds 1 to its Leadership for the purposes of taking any Morale checks and Pinning tests, up to a maximum of 10. The effects of multiple holy icons are not cumulative.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Holy Promethium" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="adb7-5e5b-39da-56e5">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">An Immolator armed with twin Heavy Flamers and equipped with Holy Promethium will force a unit it causes a casualty upon to take a Morale check as if it has just suffered 25% or more casualties.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Laud Hailers" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="03d7-5f98-7750-1169">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Any unit tank shocked by a vehicle with Laud Hailers deducts 1 from its Leadership when taking the subsequent Morale check. The effects of multiple Laud Hailers are not cumulative.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Holy Rage" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="a51e-630e-c22f-999f">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Models affected by this rule who are not already engaged in close combat must move at their maximum Movement rate +D6&quot; towards the nearest enemy unit. This extra movement is not affected by difficult terrain. In addition they must always charge and make a Sweeping Advance if able to do so.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Power Armour" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="20b4-b738-addc-af21">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with Power Armour has a 3+ Armour Save.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <profileTypes>
+    <profileType name="Act of Faith" id="478c-53c1-1a0a-66f7" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Test of Faith" id="4fa2-8777-26f1-f427"/>
+        <characteristicType name="Act of Faith" id="643a-4506-84fa-61b8"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Ordo Hereticus Inquisitor Lord" hidden="false" id="5158-ba3d-641f-d1be">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Inquisitor Lord" id="c204-5c39-097a-7c7b" hidden="false" type="profile" targetId="a418-af4b-3f07-fa89"/>
+        <infoLink name="Independent Character" id="033a-970b-773c-4373" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Witch Hunter Armoury" hidden="false" id="bc7d-ff3a-f94a-020e" type="selectionEntryGroup" targetId="6f7c-f5a1-0f15-9651"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May take one of the following Psychic Powers" id="79c5-0a1b-9269-2ec9" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Divine Pronouncement" hidden="false" id="cfc3-99d6-7a8d-2764">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Divine Pronouncement" id="5968-a0ed-7d86-a7b9" hidden="false" type="profile" targetId="f4c3-2e31-a3ba-9d64"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c932-18af-e740-eb9e"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Hammer of the Witches" hidden="false" id="4ca3-718b-79f3-dd31">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Hammer of the Witches" id="ea34-b49c-560d-94ac" hidden="false" type="profile" targetId="4b62-8de5-fcbf-33b5"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b899-ff73-93b3-5e7e"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Hammerhand" hidden="false" id="c7bb-6660-7f7c-300e">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="523a-dfe0-ecd5-2795"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Hammerhand" id="794b-3d7c-7ca2-c22e" hidden="false" type="profile" targetId="824a-ba6b-40b7-afa4"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="His Will Be Done" hidden="false" id="ce5a-b5c6-3a2b-4303">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="63f0-382e-f964-c781"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="His will Be Done" id="0fa1-ea57-a2f3-d83c" hidden="false" type="profile" targetId="a275-6cff-d927-d974"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Purgatus" hidden="false" id="d0eb-0c8b-2ac7-a1e8">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3987-4912-cd92-1126"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Purgatus" id="30a0-89eb-f5f2-6c5e" hidden="false" type="profile" targetId="68fc-625b-99bc-cb14"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Scourging" hidden="false" id="48e2-7e1a-c413-07bd">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba72-f436-323a-1e34"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Scourging" id="69b1-aec0-18a7-6663" hidden="false" type="profile" targetId="dab6-d1ce-0990-1a00"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Word of the Emperor" hidden="false" id="f84e-777d-3a59-3b74">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="acfc-ea1a-b0e8-6f5c"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Word of the Emperor" id="5439-6ae5-219e-f55b" hidden="false" type="profile" targetId="0e23-9631-a35b-b57f"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Must be accompanied by a retinue of Henchmen" id="d60c-c144-0f4f-c725" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Henchmen" hidden="false" id="93fe-c91d-d8a3-2cba" type="selectionEntryGroup" targetId="6c14-8a62-3b8b-7079">
+              <constraints>
+                <constraint type="min" value="3" field="selections" scope="self" shared="true" id="c116-de84-6945-40c5"/>
+                <constraint type="max" value="12" field="selections" scope="self" shared="true" id="e00d-ea1b-d6cd-dc60"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="Iron Will" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="ad02-e5c0-a514-edbd">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">An Inquisitor Lord can choose whether to pass or fail any Morale check or Pinning test he is called upon to make. This ability is conveyed to any unit he joins. Even if failure is normally automatic, the Lord may still choose whether to pass or fail the test.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <rules>
+    <rule name="Acts of Faith" id="9324-5802-e5dc-d5f3" hidden="false">
+      <description>A Witch Hunter army that includes certain Sisters of Battle units has a number of Faith Points, which may be expended to attempt Acts of Faith. Certain characters and units are noted as being Faithful and contribute Faith Points to the army&apos;s total.
+
+
+Keey track of the Faith Point total as the game progresses. You might like to use a number of dice with the total Faith Points shown on their upper facings, or use some other form of counter or marker.
+
+
+Any unit with the Adepta Sororitas special rule, which is joined by or includes a character with the Faithful special rule, is counted as Faithful itself while the character is with the unit. The effects of any Acts of Faith apply to the entire unit.
+
+
+While an Adepta Sororitas unit is joined by a character without the Faithful special rule, it may not use any Acts of Faith. The only exception is if the unit is assigned a Priest, in which case he is counted towards the unit&apos;s size, and will benefit from any successful Acts.
+
+
+Should the Faithful character be removed as a casualty, the unit remains Faithful until the end of the phase in which the model was removed.</description>
+    </rule>
+    <rule name="Tests of Faith" id="da50-e680-e8df-6bb9" hidden="false">
+      <description>Each attempt costs one Faith Point.
+
+
+Roll 2D6 and compare the result to the current size of the unit - whether or not the attempt is successful depends upon the specific Act of Faith being attempted. If the test is failed the Act of Faith does not occur.
+
+
+A unit may not attempt to use the same Act of Faith more than once per phase; although it may use combinations of several different Acts.
+
+
+Acts of Faith are unaffected by special rules that work on or against psychic powers, and models using them are not counted as Psykers.
+
+
+Faithful Independent Characters may use Acts of Faith while operating independently or if they have joined a unit with the Adepta Sororitas special rule - they may not use them if they have joined any other type of unit. While part of a Faithful unit, use the normal rules for attempting Acts of Faith, counting the character towards the total squad size. While attempting to use an Act of Faith while operating independently, a Faithful Independent Character must pass an unmodified Leadership test to do so.</description>
+    </rule>
+    <rule name="Martyrdom" id="0100-915c-98a1-e7fe" hidden="false">
+      <description>Every time a Faithful character is removed as a casualty, or a Faithful unit loses its last model, the number of Faith Poiints originally contributed by the character or unit is added back to the Faith Point total. These acts of Martyrdom thus increase the total number of Faith Points available to the army as the game goes on. Faithful units or characters that leave the table as a result of falling back do not contribute Faith Points.</description>
+    </rule>
+  </rules>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="The Inquisitor Lord may take any of the following" id="6f7c-f5a1-0f15-9651" hidden="false">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="One-Handed Weapons" id="932a-f0f6-8b1a-670d" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="aea0-68c3-c76c-879d">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Bolt Pistol" id="fd88-140f-ecbe-cea5" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2941-629e-1aae-d0a5"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="f578-5f3d-351c-3334">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Close-Combat Weapon" id="d598-ce4d-8010-f1ac" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f85c-8a61-862c-40db"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="26ac-f9ee-ccb0-5d8c">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Plasma Pistol" id="256d-7548-35de-847c" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a4c0-5798-76f6-e088"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="0861-da49-0eb7-a677">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Power Weapon" id="d605-f536-7b97-004f" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a0d-6317-576d-26c0"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Brazier of Holy Fire" hidden="false" id="d8ab-e534-54f7-f504">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Brazier of Holy Fire" id="6e83-9169-3cf3-a371" hidden="false" type="profile" targetId="f6da-dcd5-b3d3-b775"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="938b-644f-a147-c1b7"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Inferno Pistol" hidden="false" id="5a70-c372-b420-b4a2">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Inferno Pistol" id="c16c-5689-c669-47fd" hidden="false" type="profile" targetId="75d9-90dc-0e9d-254a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a53-781f-1b1a-ea49"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Force Weapon" hidden="false" id="f06c-70e0-7db6-1ed0">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Force Weapon" id="22a8-463e-fc5e-4d85" hidden="false" type="profile" targetId="84e8-f828-c1c0-81c1"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4066-e94f-5507-c6d8"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Two-Handed Weapons" id="8a64-347d-9ecf-ba80" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bolter" hidden="false" id="0a1b-2453-f708-1d13">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Boltgun" id="e13b-907b-c26e-aa7b" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c4b7-b307-d2c7-934e"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Eviscerator" hidden="false" id="68a7-a319-092b-e0da">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Eviscerator" id="228a-48ad-7e1e-51b0" hidden="false" type="profile" targetId="c34d-7883-b48f-6778"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="19fc-a290-9898-0efe"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Power Stake" hidden="false" id="38d3-b0dd-e436-8680">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Power Stake" id="6152-9c64-cdf8-36a5" hidden="false" type="profile" targetId="9c65-71c0-515a-cb2c"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e52-df7c-1676-bbbe"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shotgun" hidden="false" id="face-9196-d755-7011">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Shotgun" id="197b-4bd6-e629-ff2a" hidden="false" type="profile" targetId="2ce3-d5a9-9590-6b9e"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1471-d756-2698-f134"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="0258-37e2-140e-75dc">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Storm Bolter" id="0ab4-c966-99a2-3d13" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6156-3c39-6ee4-30a3"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Combi-weapon" hidden="false" id="39ee-0b07-cce9-84fa" type="selectionEntry" targetId="d720-24d4-d7f1-df20">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+              </costs>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Bolter-Stake Crossbow" hidden="false" id="c072-54d1-1ed6-e4b3">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Combi-stake Crossbow" id="3b9a-c5b1-a9e3-4b65" hidden="false" type="profile" targetId="7e5f-a43d-7d41-0b97"/>
+                    <infoLink name="Boltgun" id="485f-b001-0a9e-cf8b" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Wargear " id="b5df-53cf-7332-9df5" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Auspex" hidden="false" id="9940-1764-68d5-9df3">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Auspex" id="2ce2-a86c-fef3-70f6" hidden="false" type="profile" targetId="763f-2561-a62c-db73"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1a6-bd8d-93c4-a9b9"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bionics" hidden="false" id="bc49-ce48-94c8-2aab">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Bionics" id="71fb-3b7b-f85b-b738" hidden="false" type="profile" targetId="bc5f-2ed3-1f14-8611"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="85ea-861c-4599-1f66"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Carapace Armour" hidden="false" id="e2a3-7779-d860-4719">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d55-da2a-68a9-7df4"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Carapace Armour" id="dbbf-7497-5ed3-f8ef" hidden="false" type="profile" targetId="03c4-44a3-cca9-b8c7"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Digital Weapons" hidden="false" id="faf1-eb55-4764-145f">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Digital Weapons" id="8e3b-eed3-fb0f-23af" hidden="false" type="profile" targetId="c9d8-68ce-dbbf-327e"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d90-3509-286e-db21"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Excruciators" hidden="false" id="071a-8161-8bfb-8d7c">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Excruciators" id="1bb2-57f7-f45d-9885" hidden="false" type="profile" targetId="989a-799d-47ce-9a04"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9ce3-a530-b409-bb01" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Frag Grenades" hidden="false" id="00b1-0641-9aff-f718">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Frag Grenades" id="60e0-d54a-3049-2e32" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c855-ce1c-6168-623e"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Hexagrammic Wards" hidden="false" id="38ad-671e-9005-2bca">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Hexagrammic Wards" id="cd38-7f57-c078-4ae1" hidden="false" type="profile" targetId="186d-ca42-8c60-b5a1"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e83-e6e5-2d71-e48d"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Inquisitorial Mandate" hidden="false" id="d2a6-f5a1-eeda-7f73">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Inquisitorial Mandate" id="9958-61a3-1dc0-02c5" hidden="false" type="profile" targetId="be19-26cc-a684-0ae9"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="14eb-e900-f097-4fc0" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Krak Grenades" hidden="false" id="a803-effd-4375-65eb">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Krak Grenades" id="e51a-0920-30c2-78c5" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb6c-3173-0dfa-88b7"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Liber Heresius" hidden="false" id="10c4-02f8-1069-53f1">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Liber Heresius" id="ab63-55ba-7027-3640" hidden="false" type="profile" targetId="db6f-c2e5-3cc8-cc00"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad38-0d06-3b46-0a6b"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Master Crafted Weapon" hidden="false" id="5a9a-b6fa-0e94-1b78">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Master-crafted weapon" id="ed4c-4842-51f5-9ea1" hidden="false" type="profile" targetId="a1c8-4380-cdbb-801d"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a128-1415-acdc-7994"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melta Bombs" hidden="false" id="4695-42bb-4ff2-1800">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Melta Bomb" id="4097-b91d-f0d5-88a8" hidden="false" type="profile" targetId="62b3-f972-0f32-e8d8"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de32-9da4-dcae-1cb6"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Power Armour" hidden="false" id="b59b-c76a-fd07-3ecf">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Power Armour" id="58f6-f8c9-1268-e8a2" hidden="false" type="profile" targetId="20b4-b738-addc-af21"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="89d1-fed7-e44a-3c60"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psi-tracker" hidden="false" id="3f04-9531-f8a2-0fb6">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Psi-tracker" id="4598-4fd4-b677-7d15" hidden="false" type="profile" targetId="2182-a9a2-1f99-0091"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="82a1-c0e7-9b6d-2cae"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psycannon Bolts" hidden="false" id="6003-8dfe-7c52-db3e">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Psycannon Bolts" id="8002-2b1e-05aa-18b9" hidden="false" type="profile" targetId="ca0d-f9d4-cecb-a094"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="27fb-41d9-6838-a3e4"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psychic Hood" hidden="false" id="4a12-6069-bf79-4db4">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Psychic Hood" id="9961-ca1f-c7d2-b24a" hidden="false" type="profile" targetId="4417-9402-83e0-ecf3"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b5b7-3ee3-3220-0fea"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psyocculum" hidden="false" id="cce5-1ab6-ed38-314b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Psyocculum" id="b50c-f9d6-589d-fb41" hidden="false" type="profile" targetId="8047-e161-9fbb-dd21"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bdac-a7c0-005e-cb16"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Purity Seals" hidden="false" id="e7b0-e1e0-62f1-406c">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Purity Seals" id="5927-a8b3-8938-3136" hidden="false" type="profile" targetId="7ab1-85c4-59e1-0397"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0774-4a6c-bb77-1e8c"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Rosarius" hidden="false" id="8386-1be4-16d2-54f2">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Rosarius" id="75b5-07fe-b0bf-8e12" hidden="false" type="profile" targetId="ed20-581e-760f-756e"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c031-c4ba-cb56-8e41"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="100" field="6f18-a8fc-2c5b-9517" scope="self" shared="true" id="7fe3-39e1-7f13-f024" includeChildSelections="true"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Henchmen" id="6c14-8a62-3b8b-7079" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="The Acolyte" hidden="false" id="fe8e-658a-0bb3-043d" collective="false">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Henchman" id="2688-4dd6-13c7-fcd4" hidden="false" type="profile" targetId="fd03-6d41-3bee-4cc1"/>
+          </infoLinks>
+          <profiles>
+            <profile name="The Acolyte" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="777e-8a71-1ef0-974f">
+              <characteristics>
+                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If an Inquisitor with an Acolyte Henchman suffers a wound, he may allocate the wound to the Acolyte, but he may only allocate one wound per Acolyte in any given phase. This must be done before any saving throws are attempted</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="The Acolyte may take up to 15pts of equipment" id="4907-f8b5-9670-4d88" hidden="false">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="One-Handed Weapons" id="7081-187b-87c7-e6c7" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="acb8-3b8b-3586-495d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Bolt Pistol" id="63d0-e616-d1b4-3fae" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cbe5-833d-7b1c-d606"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="4a12-bad1-59bb-da64">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Close-Combat Weapon" id="80bb-771d-99f7-61a2" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e66-925b-b77a-2ef6"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="166e-c5b7-1896-56d8">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Pistol" id="5ee5-5711-d800-8ba1" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c7ea-7c01-7f61-8511"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="aa6b-9a3c-7c02-f155">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Weapon" id="cade-2d1c-ff52-7834" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04e4-86bd-6ff4-8ead"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Brazier of Holy Fire" hidden="false" id="bd44-6071-d190-ff38">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Brazier of Holy Fire" id="5cb3-f9d4-0e55-23e1" hidden="false" type="profile" targetId="f6da-dcd5-b3d3-b775"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb9d-1319-bc0e-3bdb"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Two-Handed Weapons" id="2b5f-f49e-3b57-dff2" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Bolter" hidden="false" id="5647-12de-019d-7dcd">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Boltgun" id="b3bc-4dc6-8443-a507" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="43fc-45d9-9eeb-9eef"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Eviscerator" hidden="false" id="b698-0296-6368-96f4">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Eviscerator" id="6141-5022-5b6d-1312" hidden="false" type="profile" targetId="c34d-7883-b48f-6778"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f96-8008-87c1-33d8"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Shotgun" hidden="false" id="ce36-9f74-69b9-d772">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Shotgun" id="76db-264b-b9b0-1667" hidden="false" type="profile" targetId="2ce3-d5a9-9590-6b9e"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c72-94af-3210-5e3b"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="03f4-9f44-d08a-3aeb">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Storm Bolter" id="7c6c-4d10-4ac8-90eb" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e146-f03e-f429-038a"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <entryLinks>
+                    <entryLink import="true" name="Combi-weapon" hidden="false" id="4d20-8151-511f-8aa2" type="selectionEntry" targetId="d720-24d4-d7f1-df20">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+                      </costs>
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Bolter-Stake Crossbow" hidden="false" id="5a3b-94ed-239a-7f3d">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Combi-stake Crossbow" id="fd93-f7f9-594f-0b77" hidden="false" type="profile" targetId="7e5f-a43d-7d41-0b97"/>
+                            <infoLink name="Boltgun" id="14f4-deb0-74fc-d971" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                          </infoLinks>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Wargear " id="0afa-d1f8-7a75-651b" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Auspex" hidden="false" id="df55-a8de-e630-e08d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Auspex" id="e306-1e1b-39f5-5201" hidden="false" type="profile" targetId="763f-2561-a62c-db73"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e893-280d-7a04-0209"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Bionics" hidden="false" id="077a-afc3-953f-4a4a">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Bionics" id="c21e-33c1-38d5-f066" hidden="false" type="profile" targetId="bc5f-2ed3-1f14-8611"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f1fc-1e5e-bf97-4ad2"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Carapace Armour" hidden="false" id="32ae-b4b2-07fc-c595">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5171-daa2-bdc1-383a"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Carapace Armour" id="cf39-e49c-d0aa-b2d2" hidden="false" type="profile" targetId="03c4-44a3-cca9-b8c7"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Frag Grenades" hidden="false" id="2579-0da8-1cea-75f1">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Frag Grenades" id="927a-173d-d9bb-29a0" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7090-e9f2-9cd4-35dd"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Krak Grenades" hidden="false" id="86cd-337e-3cef-c234">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Krak Grenades" id="fdd0-3f3f-78a2-6a9a" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a710-1501-a791-9d4a"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Master Crafted Weapon" hidden="false" id="2133-40a5-39ee-9672">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Master-crafted weapon" id="4238-b2ba-0af9-2b41" hidden="false" type="profile" targetId="a1c8-4380-cdbb-801d"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9498-a421-c905-e6b2"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Melta Bombs" hidden="false" id="f109-e0db-1f2f-9943">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Melta Bomb" id="fd64-3ffd-afab-df5d" hidden="false" type="profile" targetId="62b3-f972-0f32-e8d8"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a0db-f995-058b-2cdf"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power Armour" hidden="false" id="c7ac-8786-6956-654a">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Armour" id="a3a9-53c9-a21b-c0ea" hidden="false" type="profile" targetId="20b4-b738-addc-af21"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f67b-f608-24e3-0662"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Purity Seals" hidden="false" id="4e66-a9c2-d147-cad6">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Purity Seals" id="69dc-411b-c8b2-fbe2" hidden="false" type="profile" targetId="7ab1-85c4-59e1-0397"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7e7f-3468-158c-e6ef"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Rosarius" hidden="false" id="19f1-2ca4-92a2-810e">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Rosarius" id="0521-1cea-1546-2e8f" hidden="false" type="profile" targetId="ed20-581e-760f-756e"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="786a-bb1b-a2cc-36dd"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="100" field="6f18-a8fc-2c5b-9517" scope="self" shared="true" id="c0ec-8199-ceb2-b3d8"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="15" field="6f18-a8fc-2c5b-9517" scope="self" shared="true" id="c680-1032-be5b-5e2f" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5ed3-6700-5fb4-48e3"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="The Sage" hidden="false" id="fb31-ffe8-aa26-d341">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Henchman" id="29d5-7ff8-66a5-a3d1" hidden="false" type="profile" targetId="fd03-6d41-3bee-4cc1"/>
+            <infoLink name="Laspistol" id="869b-d829-9b7b-1cc9" hidden="false" type="profile" targetId="e061-dada-0483-3fff"/>
+            <infoLink name="Close-Combat Weapon" id="eef0-5e33-845c-84ee" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+          </infoLinks>
+          <profiles>
+            <profile name="The Sage" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="86c0-bc04-2a56-814d">
+              <characteristics>
+                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If accompanied by a Sage, the Inquisitor benefits from +1 BS. If he has more than one Sage in his retinue, the Inquisitor or a member of his retinue may re-roll a failed roll to hit during the Shooting phase.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="42a1-1362-0456-83ea"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="The Warrior" hidden="false" id="3c1b-5de4-ad95-7431">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Warrior Henchman" id="b12a-25f4-7c3f-2f9c" hidden="false" type="profile" targetId="0759-2d42-88e5-f17f"/>
+            <infoLink name="Hellgun" id="af39-a900-8208-d97b" hidden="false" type="profile" targetId="bc81-b3b5-2f8e-b6bb"/>
+            <infoLink name="Targeter" id="e110-c3d2-2401-0040" hidden="false" type="profile" targetId="5ec8-4ac7-6c00-4ead"/>
+            <infoLink name="Frag Grenades" id="cdd7-3641-1e2d-3f2f" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+            <infoLink name="Krak Grenades" id="b421-e859-87b5-c76c" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+          </infoLinks>
+          <profiles>
+            <profile name="The Warrior" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="85e2-6802-97a5-5da7">
+              <characteristics>
+                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The Inquisitor gains +1 WS if he has any Warriors in his retinue.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="7b9d-3604-3ae8-5cb9"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="The Familiar" hidden="false" id="5e89-4d1a-85f2-23a4">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Henchman" id="5581-c82f-87b2-eded" hidden="false" type="profile" targetId="fd03-6d41-3bee-4cc1"/>
+            <infoLink name="Close-Combat Weapon" id="6c28-ed3b-5924-8721" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+          </infoLinks>
+          <profiles>
+            <profile name="The Familiar" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="4133-075a-357d-9012">
+              <characteristics>
+                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If an Inquisitor has one or more Familiars in his retinue, he benefits from +1 Initiative. For each Familiar the Inquisitor has in his retinue, he may purchase one more psychic power than normally allowed. However, he may only use one of these powers per turn. When the Inquisitor is removed from play, any Familiars he may have had are also removed. If the Familiar is removed, the Inquisitor&apos;s psychic power is unaffected</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="7cb5-4035-4d47-3fd5"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="The Penitent" hidden="false" id="0eea-83ec-481d-d1b6">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="7"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Henchman" id="cc93-4d55-0db5-3f74" hidden="false" type="profile" targetId="fd03-6d41-3bee-4cc1"/>
+            <infoLink name="Close-Combat Weapon" id="1675-8f2c-04f2-d998" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+          </infoLinks>
+          <profiles>
+            <profile name="The Penitent" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="7b83-c35f-793b-e9ef">
+              <characteristics>
+                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If an Inquisitor with a Penitent in his retinue comes under attack from a psychic power of any description, its energy may be dissipated through the Penitent. The Inquisitor and his retinue benefit from a 4+ save against the effects of any and every psychic power directed against them or including them in its area of effect. If the save is passed, the power has no effect. If an Inquisitor&apos;s retinue contains more than one Penitent, then this save rises to 2+. Note that if the Inquisitor is equipped with a psychic hood then he may use either his Penitents or the Psychic Hood to attempt to nullify the enemy power, but not both.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="95de-56f4-7529-61f5"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="The Chirurgeon" hidden="false" id="26d9-3db2-cfbf-cd60">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Henchman" id="5cef-ba4e-4897-32ce" hidden="false" type="profile" targetId="fd03-6d41-3bee-4cc1"/>
+            <infoLink name="Laspistol" id="2612-3d88-3661-64d0" hidden="false" type="profile" targetId="e061-dada-0483-3fff"/>
+            <infoLink name="Close-Combat Weapon" id="a3d0-08fd-fd30-7924" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+          </infoLinks>
+          <profiles>
+            <profile name="The Chirurgeon" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="0b06-2e54-330f-82a5">
+              <characteristics>
+                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If accompanied by a Chirurgeon, an Inquisitor may ignore the first wound he takes each turn so long as it was not caused by a shooting attack that causes Instant Death or a close combat attack that allows no Armour save. If he has more than one Chirurgeon in his retinue then he may ignore the first wound he takes each turn regardless of whether it causes Instant Death or was from a close combat weapon that allows no Armour.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="dc07-750d-a865-f0f0"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <entryLinks>
+    <entryLink import="true" name="Ordo Hereticus Inquisitor Lord" hidden="false" id="2241-27ff-aea2-0afd" type="selectionEntry" targetId="5158-ba3d-641f-d1be">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="b356-5f06-d6f0-4b32" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3799-83f7-47d4-5323"/>
+      </constraints>
+    </entryLink>
+  </entryLinks>
+</catalogue>
