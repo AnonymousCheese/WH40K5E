@@ -2720,7 +2720,7 @@ It is worth pointing out that some armies might use different versions of smoke
         </selectionEntryGroup>
         <selectionEntryGroup name="Unit" id="cce6-ebf5-4cd3-0d5b" hidden="false">
           <selectionEntries>
-            <selectionEntry type="unit" import="true" name="Rough Rider Sergeant" hidden="false" id="afd0-d2cf-bf99-6186" collective="true">
+            <selectionEntry type="model" import="true" name="Rough Rider Sergeant" hidden="false" id="afd0-d2cf-bf99-6186" collective="true">
               <profiles>
                 <profile name="Rough Rider Sergeant" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e3d7-c747-683c-d194">
                   <characteristics>
@@ -2797,7 +2797,7 @@ It is worth pointing out that some armies might use different versions of smoke
                 <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="630b-a292-4e4a-964c"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="unit" import="true" name="Rough Rider" hidden="false" id="7b1f-753d-48f0-976b" collective="true">
+            <selectionEntry type="model" import="true" name="Rough Rider" hidden="false" id="7b1f-753d-48f0-976b" collective="true">
               <constraints>
                 <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="5e09-478d-a05e-5fc2"/>
                 <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="f6a9-714e-0167-bd60"/>
