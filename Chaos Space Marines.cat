@@ -795,7 +795,7 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Fabius Bile" hidden="false" id="ec41-9309-8c97-5d45">
+    <selectionEntry type="unit" import="true" name="Fabius Bile" hidden="false" id="ec41-9309-8c97-5d45">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="160"/>
       </costs>
@@ -839,7 +839,7 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Huron Blackheart" hidden="false" id="f49a-dcbd-85e7-35b2">
+    <selectionEntry type="unit" import="true" name="Huron Blackheart" hidden="false" id="f49a-dcbd-85e7-35b2">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="170"/>
       </costs>
@@ -861,7 +861,7 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Typhus" hidden="false" id="8e8c-08ba-40da-013a">
+    <selectionEntry type="unit" import="true" name="Typhus" hidden="false" id="8e8c-08ba-40da-013a">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="225"/>
       </costs>
@@ -893,7 +893,7 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Kharn The Betrayer" hidden="false" id="79df-3f28-1d69-5977">
+    <selectionEntry type="unit" import="true" name="Kharn The Betrayer" hidden="false" id="79df-3f28-1d69-5977">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="165"/>
       </costs>
@@ -926,7 +926,7 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Ahriman" hidden="false" id="763a-7ff3-c597-a8e6">
+    <selectionEntry type="unit" import="true" name="Ahriman" hidden="false" id="763a-7ff3-c597-a8e6">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="250"/>
       </costs>
@@ -953,7 +953,7 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Lucius The Eternal" hidden="false" id="7fd7-e6d2-6430-8728">
+    <selectionEntry type="unit" import="true" name="Lucius The Eternal" hidden="false" id="7fd7-e6d2-6430-8728">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="160"/>
       </costs>
@@ -981,7 +981,7 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Daemon Prince" hidden="false" id="f9b4-228e-4a58-9ae0">
+    <selectionEntry type="unit" import="true" name="Daemon Prince" hidden="false" id="f9b4-228e-4a58-9ae0">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="110"/>
       </costs>
@@ -1132,7 +1132,7 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Chaos Lord" hidden="false" id="d7ce-a131-a838-02eb">
+    <selectionEntry type="unit" import="true" name="Chaos Lord" hidden="false" id="d7ce-a131-a838-02eb">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="90"/>
       </costs>
@@ -1427,7 +1427,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Chaos Lord in Terminator Armour" hidden="false" id="5b53-67d8-21da-5600">
+    <selectionEntry type="unit" import="true" name="Chaos Lord in Terminator Armour" hidden="false" id="5b53-67d8-21da-5600">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="120"/>
       </costs>
@@ -1589,7 +1589,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Chaos Sorcerer" hidden="false" id="8d6a-d8ee-6a04-b4b1">
+    <selectionEntry type="unit" import="true" name="Chaos Sorcerer" hidden="false" id="8d6a-d8ee-6a04-b4b1">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="100"/>
       </costs>
@@ -1834,7 +1834,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Chaos Sorcerer in Terminator Armour" hidden="false" id="a1df-2b2b-4b1d-2bd8">
+    <selectionEntry type="unit" import="true" name="Chaos Sorcerer in Terminator Armour" hidden="false" id="a1df-2b2b-4b1d-2bd8">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="115"/>
       </costs>
@@ -2015,7 +2015,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Chosen Chaos Space Marines" hidden="false" id="671f-1ebc-962e-cd2d">
+    <selectionEntry type="unit" import="true" name="Chosen Chaos Space Marines" hidden="false" id="671f-1ebc-962e-cd2d">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="97fa-3050-1307-0f13" hidden="false">
           <selectionEntries>
@@ -2271,7 +2271,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Chaos Rhino" hidden="false" id="cf1c-dbad-48f1-0ff7">
+    <selectionEntry type="unit" import="true" name="Chaos Rhino" hidden="false" id="cf1c-dbad-48f1-0ff7">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
       </costs>
@@ -2361,8 +2361,11 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="168b-a772-94f7-83f5" id="ef8f-810c-07e3-f288" primary="true" name="Dedicated Transport"/>
+      </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Chaos Terminator" hidden="false" id="47b5-bcde-f924-e909">
+    <selectionEntry type="unit" import="true" name="Chaos Terminator" hidden="false" id="47b5-bcde-f924-e909">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="fb44-e4d7-8223-ac4c" hidden="false">
           <selectionEntries>
@@ -2524,7 +2527,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Chaos Land Raider" hidden="false" id="a7cf-9bff-99d4-ce35">
+    <selectionEntry type="unit" import="true" name="Chaos Land Raider" hidden="false" id="a7cf-9bff-99d4-ce35">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="220"/>
       </costs>
@@ -2626,7 +2629,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Possessed Chaos Space Marines" hidden="false" id="690d-9646-0423-9a1f">
+    <selectionEntry type="unit" import="true" name="Possessed Chaos Space Marines" hidden="false" id="690d-9646-0423-9a1f">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="1db1-fc17-2866-a14a" hidden="false">
           <selectionEntries>
@@ -2715,7 +2718,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Chaos Dreadnought" hidden="false" id="9b5f-cc2f-e345-95ac">
+    <selectionEntry type="unit" import="true" name="Chaos Dreadnought" hidden="false" id="9b5f-cc2f-e345-95ac">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="90"/>
       </costs>
@@ -2847,7 +2850,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Chaos Space Marines" hidden="false" id="3c07-d0ce-3431-43fd">
+    <selectionEntry type="unit" import="true" name="Chaos Space Marines" hidden="false" id="3c07-d0ce-3431-43fd">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="207f-8a77-7dae-df6f" hidden="false">
           <selectionEntries>
@@ -3113,7 +3116,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Plague Marines" hidden="false" id="ec34-244d-1ecd-ded1">
+    <selectionEntry type="unit" import="true" name="Plague Marines" hidden="false" id="ec34-244d-1ecd-ded1">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="4e07-cc59-509f-340d" hidden="false">
           <selectionEntries>
@@ -3285,7 +3288,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Noise Marines" hidden="false" id="4315-9955-a2bf-b263">
+    <selectionEntry type="unit" import="true" name="Noise Marines" hidden="false" id="4315-9955-a2bf-b263">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="46bf-5c95-52b1-877b" hidden="false">
           <selectionEntries>
@@ -3416,7 +3419,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Khorne Berzerkers" hidden="false" id="0212-1691-6f7c-f853">
+    <selectionEntry type="unit" import="true" name="Khorne Berzerkers" hidden="false" id="0212-1691-6f7c-f853">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="26a9-6d47-7bc7-dbc9" hidden="false">
           <selectionEntries>
@@ -3538,7 +3541,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Thousand Sons" hidden="false" id="ea92-869e-1bdd-81b8">
+    <selectionEntry type="unit" import="true" name="Thousand Sons" hidden="false" id="ea92-869e-1bdd-81b8">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="02f6-a5df-000d-813e" hidden="false">
           <selectionEntries>
@@ -3667,7 +3670,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Chaos Bikers" hidden="false" id="145d-8cf9-c8b2-d2bf">
+    <selectionEntry type="unit" import="true" name="Chaos Bikers" hidden="false" id="145d-8cf9-c8b2-d2bf">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="0777-abf7-c647-01e5" hidden="false">
           <selectionEntries>
@@ -3833,7 +3836,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         <infoLink name="Bike" id="8ac2-9b4b-d02d-8a00" hidden="false" type="rule" targetId="3326-67e1-a5e9-b3e7"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Chaos Raptors" hidden="false" id="f518-485e-9cac-a493">
+    <selectionEntry type="unit" import="true" name="Chaos Raptors" hidden="false" id="f518-485e-9cac-a493">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="65f3-fe56-e39c-63d1" hidden="false">
           <selectionEntries>
@@ -4014,7 +4017,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         <infoLink name="Jump Infantry" id="581a-b5b7-be02-39ed" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Chaos Spawn" hidden="false" id="a43b-7e08-0dd6-328a">
+    <selectionEntry type="unit" import="true" name="Chaos Spawn" hidden="false" id="a43b-7e08-0dd6-328a">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Spawn" hidden="false" id="f211-0b9c-75b2-6ef0">
           <costs>
@@ -4042,7 +4045,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Chaos Havocs" hidden="false" id="3b84-4996-7cd2-8d8c">
+    <selectionEntry type="unit" import="true" name="Chaos Havocs" hidden="false" id="3b84-4996-7cd2-8d8c">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="d259-7cd0-ee48-2574" hidden="false">
           <selectionEntries>
@@ -4259,7 +4262,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         <infoLink name="Boltgun" id="c2e4-8d7b-c17e-af57" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Obliterator Cult" hidden="false" id="5af5-1b53-6c33-3b3f">
+    <selectionEntry type="unit" import="true" name="Obliterator Cult" hidden="false" id="5af5-1b53-6c33-3b3f">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Obliterator" hidden="false" id="ce47-c106-c58a-ed2c">
           <costs>
@@ -4288,7 +4291,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         <infoLink name="Deep Strike" id="3ec4-e62f-c890-ea15" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Chaos Predator" hidden="false" id="ac36-6f5a-6cd7-529e">
+    <selectionEntry type="unit" import="true" name="Chaos Predator" hidden="false" id="ac36-6f5a-6cd7-529e">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="70"/>
       </costs>
@@ -4425,7 +4428,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Chaos Vindicator" hidden="false" id="91ff-49b8-16a3-ba39">
+    <selectionEntry type="unit" import="true" name="Chaos Vindicator" hidden="false" id="91ff-49b8-16a3-ba39">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="125"/>
       </costs>
@@ -4507,7 +4510,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Chaos Defiler" hidden="false" id="6b8e-0a03-e7f6-1fb2">
+    <selectionEntry type="unit" import="true" name="Chaos Defiler" hidden="false" id="6b8e-0a03-e7f6-1fb2">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="150"/>
       </costs>
@@ -4590,7 +4593,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Summoned Greater Daemon" hidden="false" id="28b0-11f6-a631-a47e">
+    <selectionEntry type="unit" import="true" name="Summoned Greater Daemon" hidden="false" id="28b0-11f6-a631-a47e">
       <infoLinks>
         <infoLink name="Greater Daemon" id="35f1-2e8a-0e6e-79b8" hidden="false" type="profile" targetId="dd42-219d-3c46-7ffd"/>
         <infoLink name="Monstrous Creature" id="5a60-13b3-da28-b6c0" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
@@ -4613,7 +4616,7 @@ If the model that is possessed by the Greater Daemon is inside a transport, the 
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Summoned Lesser Daemons" hidden="false" id="a363-e38a-92bd-2596">
+    <selectionEntry type="unit" import="true" name="Summoned Lesser Daemons" hidden="false" id="a363-e38a-92bd-2596">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Daemons" hidden="false" id="f4bf-ddef-716a-075d">
           <costs>
