@@ -2646,94 +2646,6 @@ It is worth pointing out that some armies might use different versions of smoke
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="55"/>
       </costs>
-      <selectionEntries>
-        <selectionEntry type="unit" import="true" name="Rough Rider Sergeant" hidden="false" id="e623-7341-615b-0c20" collective="true">
-          <profiles>
-            <profile name="Rough Rider Sergeant" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="80d0-bd4d-4de7-add1">
-              <characteristics>
-                <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
-                <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
-                <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
-                <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
-                <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
-                <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
-                <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
-                <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
-                <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1656-d200-3004-2b71-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1656-d200-3004-2b71-max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Melta Bomb" hidden="false" id="9b6d-6c29-6875-5f87">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Melta Bomb" id="803f-eaf2-9087-494d" hidden="false" type="profile" targetId="62b3-f972-0f32-e8d8"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f67-f79f-b659-f66e"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Sergeant Upgrade" id="1dd5-ea65-22e1-068b" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="6e33-dc7f-50bf-0aac">
-                  <infoLinks>
-                    <infoLink name="Power Weapon" id="856d-2e5a-f2e9-fb55" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="43d3-acc2-27b3-4d1e">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Plasma Pistol" id="7e2e-0cc1-007a-ed1a" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="51c9-2677-8d88-5714"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-        </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Rough Rider" hidden="false" id="0686-1360-37a6-3dae" collective="true">
-          <constraints>
-            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="4af4-aeb1-b80e-8b9b-min"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="4af4-aeb1-b80e-8b9b-max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink targetId="4d30-9533-1b31-f26b" id="4f58-61f6-561b-eec2" type="profile" name="Rough Rider" hidden="false"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Additional Rough Riders" hidden="false" id="5c1c-d523-9728-7d8e" collective="true">
-          <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-          </costs>
-          <profiles>
-            <profile name="Hunting Lance" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="149f-0d26-745c-1a2e">
-              <characteristics>
-                <characteristic name="Ability" typeId="2113-98a2-4376-a94c">Rough Riders use their hunting lances the first time they charge into close combat, after which they cannot be used again. When they charge into close combat, a unit armed with hunting lances counts as being armed with power weapons that strike at strength and initiative 5. Models using a hunting lance cannot gain an extra attack from having an additional close combat weapon.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink name="Rough Rider" id="6db0-0655-53d8-388d" hidden="false" targetId="4d30-9533-1b31-f26b" type="profile"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="3cc7-c1f6-c26e-bb92"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="Sidearm" id="9528-a43f-05cc-8fea" hidden="false" defaultSelectionEntryId="4ddd-dc39-800c-9c1d">
           <selectionEntries>
@@ -2805,6 +2717,96 @@ It is worth pointing out that some armies might use different versions of smoke
             <constraint type="min" value="5" field="selections" scope="self" shared="true" id="9c80-195a-6fe6-4a44-min-min"/>
             <constraint type="max" value="5" field="selections" scope="self" shared="true" id="9c80-195a-6fe6-4a44-min-max"/>
           </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Unit" id="cce6-ebf5-4cd3-0d5b" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="unit" import="true" name="Rough Rider Sergeant" hidden="false" id="afd0-d2cf-bf99-6186" collective="true">
+              <profiles>
+                <profile name="Rough Rider Sergeant" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e3d7-c747-683c-d194">
+                  <characteristics>
+                    <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+                    <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+                    <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+                    <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+                    <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+                    <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+                    <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+                    <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+                    <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0c52-ddac-99c3-6d42"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f83-5fa6-37d1-92b3"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Melta Bomb" hidden="false" id="10b7-9ef4-2f7b-a44c">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Melta Bomb" id="a982-6aec-5f27-320b" hidden="false" type="profile" targetId="62b3-f972-0f32-e8d8"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6bfb-f62e-2a7e-f725"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Sergeant Upgrade" id="4605-8905-92ce-66a7" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="9d50-e65a-913d-6e1d">
+                      <infoLinks>
+                        <infoLink name="Power Weapon" id="d759-045f-a540-4ad0" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="d97b-8efe-fd63-2cde">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Pistol" id="e156-4a4b-7484-ab9e" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e59-83ec-4914-ee71"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Additional Rough Riders" hidden="false" id="99f4-abce-e6a4-19af" collective="true">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <profiles>
+                <profile name="Hunting Lance" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="0493-e806-6df0-745c">
+                  <characteristics>
+                    <characteristic name="Ability" typeId="2113-98a2-4376-a94c">Rough Riders use their hunting lances the first time they charge into close combat, after which they cannot be used again. When they charge into close combat, a unit armed with hunting lances counts as being armed with power weapons that strike at strength and initiative 5. Models using a hunting lance cannot gain an extra attack from having an additional close combat weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Rough Rider" id="6055-0167-1cbd-b7af" hidden="false" targetId="4d30-9533-1b31-f26b" type="profile"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="630b-a292-4e4a-964c"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="unit" import="true" name="Rough Rider" hidden="false" id="7b1f-753d-48f0-976b" collective="true">
+              <constraints>
+                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="5e09-478d-a05e-5fc2"/>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="f6a9-714e-0167-bd60"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Rough Rider" id="7aa4-9ea9-212e-bc68" hidden="false" targetId="4d30-9533-1b31-f26b" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
