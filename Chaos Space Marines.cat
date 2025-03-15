@@ -1346,7 +1346,6 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
               </selectionEntries>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="14e6-d50c-2701-db6a"/>
-                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="719e-1721-235a-d277-min"/>
                 <constraint type="max" value="1" field="selections" scope="self" shared="true" id="719e-1721-235a-d277-max"/>
               </constraints>
             </selectionEntry>
