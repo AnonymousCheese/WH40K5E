@@ -27,7 +27,6 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7841-55bc-c7d8-b8b8-max"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Frag Grenades" hidden="false" id="0b75-1c8f-aefc-0b4c" type="selectionEntry" targetId="ddac-6981-cd29-51be"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Melta Bomb" hidden="false" id="b4b4-1a2f-3860-71d6">
@@ -50,7 +49,6 @@
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Guardsman" hidden="false" id="3315-1295-8047-81af">
               <entryLinks>
-                <entryLink import="true" name="Frag Grenades" hidden="false" id="2186-8fe3-ddaa-8d46" type="selectionEntry" targetId="ddac-6981-cd29-51be"/>
                 <entryLink import="true" name="Lasgun" hidden="false" id="3083-8c0c-fe79-0ecd" type="selectionEntry" targetId="feda-214e-a7fc-ba2b"/>
               </entryLinks>
               <constraints>
@@ -95,8 +93,15 @@
           </entryLinks>
         </entryLink>
         <entryLink import="true" name="Chimera Dedicated Transport" hidden="false" id="bbd7-2ec8-65a1-cbe9" type="selectionEntry" targetId="d678-774b-9976-ed5e"/>
-        <entryLink import="true" name="Krak Grenades" hidden="false" id="5602-3d14-e1b1-1c19" type="selectionEntry" targetId="e182-b831-28de-7154" sortIndex="4"/>
+        <entryLink import="true" name="Krak Grenades" hidden="false" id="5602-3d14-e1b1-1c19" type="selectionEntry" targetId="e182-b831-28de-7154" sortIndex="4">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+          </costs>
+        </entryLink>
       </entryLinks>
+      <infoLinks>
+        <infoLink name="Frag Grenades" id="9365-e7c9-59b9-8564" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Frag Grenades" hidden="false" id="ddac-6981-cd29-51be" collective="true">
       <constraints>
@@ -362,6 +367,13 @@ The executed model is immediately removed as a casualty, regardless of the numbe
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Krak Grenades" hidden="false" id="ef5c-8903-6c93-40d8" type="selectionEntry" targetId="e182-b831-28de-7154">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Chimera Dedicated Transport" hidden="false" id="d678-774b-9976-ed5e">
       <costs>
@@ -2236,6 +2248,10 @@ The executed model is immediately removed as a casualty, regardless of the numbe
       <categoryLinks>
         <categoryLink targetId="default-category" id="e817-b07b-4f1e-5d0b" primary="true" name="Troops"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Frag Grenades" id="93e4-4261-113e-4522" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="2eaf-284f-15c6-490e" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Penal Legion Squad" hidden="false" id="f03b-fde8-1856-5bcc">
       <selectionEntries>
@@ -5198,7 +5214,7 @@ Any unit with this special rule is removed from play may be brought back into pl
             <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Pask&apos;s Leman Russ can use his Ballistic Skill of 4. 
 
 
-If the Leman Russ suggers a vehicle destroyed result, then Pask is slain.</characteristic>
+If the Leman Russ suffers a vehicle destroyed result, then Pask is slain.</characteristic>
           </characteristics>
         </profile>
         <profile name="Crack Shot" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="666c-a94d-215b-df7e">
