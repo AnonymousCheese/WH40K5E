@@ -946,7 +946,7 @@ Roll to hit and wound as normal, allowing any invulnerable saving throws the vi
     </profile>
     <profile name="Jump Pack" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="9fdf-bc3e-5c20-fe0c">
       <characteristics>
-        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Models equipped with jump packs are jump infantry. In addition, Space Marines wearing jump packs can be kept in reserve and arrive using the deep strike rules.</characteristic>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Models equipped with jump packs are jump infantry. In addition, models wearing jump packs can be kept in reserve and arrive using the deep strike rules.</characteristic>
       </characteristics>
     </profile>
     <profile name="Missile Launcher (Frag)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="5c9b-64b6-6546-fc94">
@@ -1310,6 +1310,32 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol</characteristic>
         <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+      </characteristics>
+    </profile>
+    <profile name="Chimera Armored Transport" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="6c7f-e0f5-f0d6-396d">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">3</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">12</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">10</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Multi-laser" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="5202-9bae-1ed3-47ca">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Multi-melta" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4ab3-9893-48a6-9e2a">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Melta, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
   </sharedProfiles>
