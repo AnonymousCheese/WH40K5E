@@ -3298,19 +3298,11 @@ It is worth pointing out that some armies might use different versions of smoke
                 <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Leman Russ that moved at combat speed or remained stationary can fire it&apos;s turret weapon in addition to any other weapons it is usually allowed to fire (even if the turret weapon is ordnance). However, the Leman Russ travelling at cruising speed can only move up to D6+6&quot; - roll every time it moves at this speed.</characteristic>
               </characteristics>
             </profile>
-            <profile name="Battle Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="681b-749e-e193-d646">
-              <characteristics>
-                <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72&quot;</characteristic>
-                <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
-                <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
-                <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Large Blast</characteristic>
-                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
-              </characteristics>
-            </profile>
           </profiles>
           <infoLinks>
             <infoLink name="Searchlight" id="1f55-7128-947e-6cf3" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
             <infoLink name="Smoke Launchers" id="a5fc-a4aa-2376-a288" hidden="false" type="profile" targetId="180e-ad4b-4df0-81ae"/>
+            <infoLink targetId="681b-749e-e193-d646" id="455d-6db0-948a-69a0" type="profile" name="Battle Cannon" hidden="false"/>
             <infoLink name="Tank" id="e479-15a1-7862-190b" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -3340,49 +3332,6 @@ It is worth pointing out that some armies might use different versions of smoke
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d17f-00e1-6bd2-16a1-max"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Sponsons" id="c5a3-0ae7-e997-40f3" hidden="false" collective="true">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Heavy Bolters" hidden="false" id="5b3b-dd35-a0f1-97dc">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Heavy Bolter" id="64cb-cae4-c097-d10a" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
-                    <infoLink name="Heavy Bolter" id="66d1-556b-a2bc-afcc" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy Flamers" hidden="false" id="27d8-302c-a22b-faa3">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Heavy Flamer" id="a4ea-f989-a89f-7fa1" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
-                    <infoLink name="Heavy Flamer" id="f737-9a9c-01a2-0f86" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Multi-meltas" hidden="false" id="d58a-5643-729f-2df8">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Multi-melta" id="2507-78c4-6b53-40c5" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
-                    <infoLink name="Multi-melta" id="de59-39d1-2c93-96e4" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Plasma Cannons" hidden="false" id="48c1-f53c-965e-b58f">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Plasma Cannon" id="879e-2187-8fe6-e48d" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
-                    <infoLink name="Plasma Cannon" id="3acf-552a-6787-ec78" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c8d-f326-9813-aa87"/>
-              </constraints>
-            </selectionEntryGroup>
             <selectionEntryGroup name="Upgrades" id="eff2-2653-3631-747b" hidden="false">
               <entryLinks>
                 <entryLink import="true" name="Dozer Blade" hidden="false" id="efe9-234a-3227-1b30" type="selectionEntry" targetId="fcbe-9030-750f-fbd6"/>
@@ -3390,6 +3339,61 @@ It is worth pointing out that some armies might use different versions of smoke
                 <entryLink import="true" name="Extra Armor" hidden="false" id="ae28-18cc-7ff0-5d84" type="selectionEntry" targetId="f1f7-d0bf-1ebe-10f6"/>
                 <entryLink import="true" name="Camo Netting" hidden="false" id="33a9-522f-8994-8518" type="selectionEntry" targetId="85df-b220-bf8a-f306"/>
               </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Sponsons" id="8af5-f736-636c-917e" hidden="false" collective="true">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Heavy Bolters" hidden="false" id="54bc-e961-28a3-ad82">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Heavy Bolter" id="3445-89a5-2f87-48ec" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                    <infoLink name="Heavy Bolter" id="e7e4-a4e9-3e68-192f" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="849d-d3c9-900b-ee4b"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Flamers" hidden="false" id="6f6d-c943-71a2-7ad6">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Heavy Flamer" id="ccfd-086d-52dc-304b" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
+                    <infoLink name="Heavy Flamer" id="16fc-3a07-600e-228c" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7161-5b2b-933a-bcc9"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Multi-meltas" hidden="false" id="7ad6-9875-370f-7524">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Multi-melta" id="bc39-9a4c-1e41-2966" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
+                    <infoLink name="Multi-melta" id="6e26-eeba-69d7-5f90" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3757-2d91-07cc-30a9"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Plasma Cannons" hidden="false" id="4014-d306-d4a8-0fe8">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Plasma Cannon" id="45ce-1b65-a7d7-face" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
+                    <infoLink name="Plasma Cannon" id="e416-35b3-d9ad-7743" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7e64-f9b5-1ea8-d55c"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="498c-82de-c657-5ee9"/>
+              </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
@@ -3456,49 +3460,6 @@ It is worth pointing out that some armies might use different versions of smoke
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df80-e1ce-59af-889c-max"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Sponsons" id="f104-842d-500b-8457" hidden="false" collective="true">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Heavy Bolters" hidden="false" id="3527-df22-522e-88b7">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Heavy Bolter" id="b481-d5e7-bcd8-099e" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
-                    <infoLink name="Heavy Bolter" id="41c9-d57e-0f6f-1224" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy Flamers" hidden="false" id="cb3c-011d-05c1-c0cc">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Heavy Flamer" id="b03e-3d62-6771-fccf" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
-                    <infoLink name="Heavy Flamer" id="0c3b-4496-2a61-34a4" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Multi-meltas" hidden="false" id="43f3-2e68-ee61-5365">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Multi-melta" id="c3a5-0842-56aa-6931" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
-                    <infoLink name="Multi-melta" id="67a8-b350-0aaf-21e0" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Plasma Cannons" hidden="false" id="6eee-3de4-4c75-7c5a">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Plasma Cannon" id="e459-8988-1aa2-5c52" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
-                    <infoLink name="Plasma Cannon" id="ebe6-f434-6a1d-f145" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6789-fc8e-30fc-36b1"/>
-              </constraints>
-            </selectionEntryGroup>
             <selectionEntryGroup name="Pintle-mount" id="6605-32c3-4eda-c37a" hidden="false">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe40-5334-4110-db86"/>
@@ -3530,6 +3491,61 @@ It is worth pointing out that some armies might use different versions of smoke
                 <entryLink import="true" name="Camo Netting" hidden="false" id="5ecd-e92d-0a2b-6db2" type="selectionEntry" targetId="85df-b220-bf8a-f306"/>
               </entryLinks>
             </selectionEntryGroup>
+            <selectionEntryGroup name="Sponsons" id="7411-9766-57dc-ac93" hidden="false" collective="true">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Heavy Bolters" hidden="false" id="4d0e-6108-7602-11c1">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Heavy Bolter" id="f89a-4b31-8830-023a" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                    <infoLink name="Heavy Bolter" id="d667-6564-a9ee-b0f7" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f3a2-f905-efb4-28a5"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Flamers" hidden="false" id="fd92-8a1a-08eb-a64c">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Heavy Flamer" id="4dac-93ba-bb66-0d45" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
+                    <infoLink name="Heavy Flamer" id="3cff-0c45-732e-f3c3" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="146a-f321-4c07-7d6d"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Multi-meltas" hidden="false" id="fd75-0806-1b82-7f9a">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Multi-melta" id="9152-d03e-d576-ef97" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
+                    <infoLink name="Multi-melta" id="36c7-aa14-954f-796c" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3469-131b-a836-6dd3"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Plasma Cannons" hidden="false" id="07f0-b3c6-d7d3-2b59">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Plasma Cannon" id="401c-6e25-daba-d942" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
+                    <infoLink name="Plasma Cannon" id="e830-dc02-71e7-0de7" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bba0-1239-bf5f-9aa0"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="df73-5f7d-f780-6e9f"/>
+              </constraints>
+            </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Leman Russ Vanquisher" hidden="false" id="f2c1-14ee-63b1-1101" collective="true">
@@ -3550,19 +3566,11 @@ It is worth pointing out that some armies might use different versions of smoke
                 <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Leman Russ that moved at combat speed or remained stationary can fire it&apos;s turret weapon in addition to any other weapons it is usually allowed to fire (even if the turret weapon is ordnance). However, the Leman Russ travelling at cruising speed can only move up to D6+6&quot; - roll every time it moves at this speed.</characteristic>
               </characteristics>
             </profile>
-            <profile name="Vanquisher Battle Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0888-73c5-4c5a-3b37">
-              <characteristics>
-                <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72&quot;</characteristic>
-                <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
-                <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
-                <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1 (Shots with a vindicator cannon roll and additional D6 when rolling for armour penetration)</characteristic>
-                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
-              </characteristics>
-            </profile>
           </profiles>
           <infoLinks>
             <infoLink name="Searchlight" id="e50a-40a8-96c1-efc6" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
             <infoLink name="Smoke Launchers" id="ec52-e976-cb8a-659c" hidden="false" type="profile" targetId="180e-ad4b-4df0-81ae"/>
+            <infoLink targetId="0888-73c5-4c5a-3b37" id="c0ba-dd11-3d62-e040" type="profile" name="Vanquisher Battle Cannon" hidden="false"/>
             <infoLink name="Tank" id="120e-f77d-699b-3988" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -3602,6 +3610,9 @@ It is worth pointing out that some armies might use different versions of smoke
                     <infoLink name="Heavy Bolter" id="5c06-df8d-b706-4370" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
                     <infoLink name="Heavy Bolter" id="7d1a-5547-0e99-85fe" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="397d-3070-1ce5-f4e4"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heavy Flamers" hidden="false" id="7947-a015-c2d3-2c3d">
                   <costs>
@@ -3611,6 +3622,9 @@ It is worth pointing out that some armies might use different versions of smoke
                     <infoLink name="Heavy Flamer" id="3111-8b56-0cc8-e5f7" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
                     <infoLink name="Heavy Flamer" id="05e1-cce8-6f3a-3008" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8fca-6007-b18e-99c3"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Multi-meltas" hidden="false" id="d9b1-8344-c595-47b7">
                   <costs>
@@ -3620,6 +3634,9 @@ It is worth pointing out that some armies might use different versions of smoke
                     <infoLink name="Multi-melta" id="085d-8690-6e3a-bcb6" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
                     <infoLink name="Multi-melta" id="d52d-02b1-3bcd-2254" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3fd8-cac2-4cc2-8f3a"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Plasma Cannons" hidden="false" id="26b3-0560-aee6-fc66">
                   <costs>
@@ -3629,10 +3646,13 @@ It is worth pointing out that some armies might use different versions of smoke
                     <infoLink name="Plasma Cannon" id="0861-3623-9859-402c" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
                     <infoLink name="Plasma Cannon" id="03dc-cafc-ba46-5021" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="78be-0f2d-dae9-e70a"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6759-ba93-b42b-6c07"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="6759-ba93-b42b-6c07"/>
               </constraints>
             </selectionEntryGroup>
             <selectionEntryGroup name="Pintle-mount" id="0a90-58ae-3454-f680" hidden="false">
@@ -3728,49 +3748,6 @@ It is worth pointing out that some armies might use different versions of smoke
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c734-619b-47e3-c293-max"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Sponsons" id="20a9-1468-8c6c-dac7" hidden="false" collective="true">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Heavy Bolters" hidden="false" id="dcac-d612-bfee-6d40">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Heavy Bolter" id="f552-c226-0592-3f8f" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
-                    <infoLink name="Heavy Bolter" id="8396-8b56-c162-8058" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy Flamers" hidden="false" id="19eb-c0c6-0cfd-3e95">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Heavy Flamer" id="3e60-7279-dd23-b833" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
-                    <infoLink name="Heavy Flamer" id="b457-5c31-4b40-592a" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Multi-meltas" hidden="false" id="f8e5-dfab-9149-b0ad">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Multi-melta" id="e56a-3532-0341-8472" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
-                    <infoLink name="Multi-melta" id="fba7-b681-a792-4855" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Plasma Cannons" hidden="false" id="b1b7-0b63-122f-d8d3">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Plasma Cannon" id="e8fe-dad6-e55a-86ce" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
-                    <infoLink name="Plasma Cannon" id="cea4-5841-e73a-edcb" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="81d5-6b70-ebb9-eb62"/>
-              </constraints>
-            </selectionEntryGroup>
             <selectionEntryGroup name="Pintle-mount" id="5356-7e21-6f28-9600" hidden="false">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b40e-9a2f-3745-c081"/>
@@ -3801,6 +3778,61 @@ It is worth pointing out that some armies might use different versions of smoke
                 <entryLink import="true" name="Extra Armor" hidden="false" id="fa20-9265-31a0-4448" type="selectionEntry" targetId="f1f7-d0bf-1ebe-10f6"/>
                 <entryLink import="true" name="Camo Netting" hidden="false" id="c6f4-4ca6-c93e-257b" type="selectionEntry" targetId="85df-b220-bf8a-f306"/>
               </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Sponsons" id="fdd8-97af-d0c7-205f" hidden="false" collective="true">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Heavy Bolters" hidden="false" id="8954-78a5-7702-fc4c">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Heavy Bolter" id="faa2-e792-71d4-f914" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                    <infoLink name="Heavy Bolter" id="1937-6f2b-98c9-ddd7" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a38c-f4eb-0e71-3961"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Flamers" hidden="false" id="ad2c-c3e4-a93c-7f41">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Heavy Flamer" id="3ab1-4c67-e2a8-a71d" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
+                    <infoLink name="Heavy Flamer" id="3040-df2f-7ed9-af05" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d7b6-c446-4a1e-9756"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Multi-meltas" hidden="false" id="5cb7-427c-3759-c8b4">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Multi-melta" id="4a37-58c8-734e-c0d4" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
+                    <infoLink name="Multi-melta" id="acbf-8221-6537-cf2e" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="37c6-b676-5304-0259"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Plasma Cannons" hidden="false" id="130f-f312-dd95-03da">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Plasma Cannon" id="da54-1c60-d9ba-dad5" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
+                    <infoLink name="Plasma Cannon" id="2c26-7e8f-fdb8-4aa1" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ecd1-a600-648b-6425"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="fe3b-8dc1-be12-ff62"/>
+              </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
@@ -3864,49 +3896,6 @@ It is worth pointing out that some armies might use different versions of smoke
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed1e-5b30-03bd-8edd-max"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Sponsons" id="821c-b9e8-b683-113d" hidden="false" collective="true">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Heavy Bolters" hidden="false" id="200e-0195-f592-4bbd">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Heavy Bolter" id="6aea-d64a-2f0e-c091" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
-                    <infoLink name="Heavy Bolter" id="5991-f12c-347e-ea4f" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy Flamers" hidden="false" id="c4be-5041-eab4-9395">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Heavy Flamer" id="4625-35bb-064a-8885" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
-                    <infoLink name="Heavy Flamer" id="ffdc-1421-add3-a6c1" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Multi-meltas" hidden="false" id="5863-9974-c668-cec5">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Multi-melta" id="9433-7857-e88a-cacf" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
-                    <infoLink name="Multi-melta" id="b8c8-0770-acbd-6951" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Plasma Cannons" hidden="false" id="b0f6-1102-7a46-1175">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Plasma Cannon" id="251e-c4fa-7f4f-af9d" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
-                    <infoLink name="Plasma Cannon" id="5354-9177-1f75-b6ad" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e16-36e3-1620-b1d1"/>
-              </constraints>
-            </selectionEntryGroup>
             <selectionEntryGroup name="Pintle-mount" id="7a0c-ead9-853f-4663" hidden="false">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c263-1554-b891-d549"/>
@@ -3937,6 +3926,61 @@ It is worth pointing out that some armies might use different versions of smoke
                 <entryLink import="true" name="Extra Armor" hidden="false" id="1ae3-fa28-612a-d67f" type="selectionEntry" targetId="f1f7-d0bf-1ebe-10f6"/>
                 <entryLink import="true" name="Camo Netting" hidden="false" id="4ac9-c198-9006-5136" type="selectionEntry" targetId="85df-b220-bf8a-f306"/>
               </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Sponsons" id="73a5-8cc5-bf36-3be3" hidden="false" collective="true">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Heavy Bolters" hidden="false" id="3f75-144b-70fb-17c7">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Heavy Bolter" id="a43e-c429-9113-1dc8" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                    <infoLink name="Heavy Bolter" id="efa7-b42e-cd74-07f3" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a8a9-2724-9e47-9d03"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Flamers" hidden="false" id="7639-4f8d-8045-448f">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Heavy Flamer" id="a557-dba9-981b-91f2" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
+                    <infoLink name="Heavy Flamer" id="1ef8-7420-ff8c-eecd" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="92c0-2a5d-19e8-f204"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Multi-meltas" hidden="false" id="2050-4e49-b0a7-3c96">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Multi-melta" id="97fb-07f0-cf2c-057d" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
+                    <infoLink name="Multi-melta" id="1b53-f9a8-38d9-a04f" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe89-bb11-d49a-a2c3"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Plasma Cannons" hidden="false" id="1a81-fc11-db0c-bb2b">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Plasma Cannon" id="5e71-af4a-3941-4a14" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
+                    <infoLink name="Plasma Cannon" id="2bda-206e-b9cb-003a" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b468-50a6-fb55-f45b"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4f96-3e98-d793-1185"/>
+              </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
@@ -4000,49 +4044,6 @@ It is worth pointing out that some armies might use different versions of smoke
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4ca-3d18-874c-77ca-max"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Sponsons" id="6cb8-ff80-cdf5-0b80" hidden="false" collective="true">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Heavy Bolters" hidden="false" id="bbeb-bb9f-e992-bf76">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Heavy Bolter" id="9402-78f8-0c82-cd0d" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
-                    <infoLink name="Heavy Bolter" id="573d-62c5-7cba-7fec" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy Flamers" hidden="false" id="3b2a-6ad9-8e26-433b">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Heavy Flamer" id="bcfc-32f2-9f6a-932f" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
-                    <infoLink name="Heavy Flamer" id="c9e9-a994-6817-8f54" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Multi-meltas" hidden="false" id="4c45-7b11-0cb5-c49b">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Multi-melta" id="a6e4-9482-2a0e-17f5" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
-                    <infoLink name="Multi-melta" id="2c5e-d4ba-8ab6-3418" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Plasma Cannons" hidden="false" id="11e3-b58f-811d-91c1">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Plasma Cannon" id="81d3-63d7-536b-7c70" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
-                    <infoLink name="Plasma Cannon" id="b72e-ed58-fb4c-a5d4" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b3a-c9bd-5e06-2989"/>
-              </constraints>
-            </selectionEntryGroup>
             <selectionEntryGroup name="Pintle-mount" id="b549-f41d-42d4-682a" hidden="false">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9aec-a1fb-4194-1aac"/>
@@ -4073,6 +4074,61 @@ It is worth pointing out that some armies might use different versions of smoke
                 <entryLink import="true" name="Extra Armor" hidden="false" id="9fc6-a213-0bec-a323" type="selectionEntry" targetId="f1f7-d0bf-1ebe-10f6"/>
                 <entryLink import="true" name="Camo Netting" hidden="false" id="5f83-e92f-877b-5183" type="selectionEntry" targetId="85df-b220-bf8a-f306"/>
               </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Sponsons" id="5107-5a61-9284-e18b" hidden="false" collective="true">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Heavy Bolters" hidden="false" id="58fe-7d89-37ad-4ce2">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Heavy Bolter" id="8aab-a4cd-c4e6-bbb4" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                    <infoLink name="Heavy Bolter" id="ecfe-a90f-636b-7e27" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b12-64bd-7832-f54d"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Flamers" hidden="false" id="182b-31e2-7b61-0f6f">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Heavy Flamer" id="b7aa-daae-cc8e-e6f9" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
+                    <infoLink name="Heavy Flamer" id="9f37-5973-656f-a572" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2b9-c849-6839-2447"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Multi-meltas" hidden="false" id="bf7d-da03-9149-b204">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Multi-melta" id="aa05-a212-4e85-5edf" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
+                    <infoLink name="Multi-melta" id="9cf4-33c5-bc1a-cc92" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6949-6fe5-f4b9-b2b2"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Plasma Cannons" hidden="false" id="38bf-b8c5-ddb7-6980">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Plasma Cannon" id="1aa7-dbdd-b34d-74d9" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
+                    <infoLink name="Plasma Cannon" id="a45f-75ce-23f8-377c" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3997-7093-6a2c-df73"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="055d-df87-131a-03d8"/>
+              </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
@@ -4136,49 +4192,6 @@ It is worth pointing out that some armies might use different versions of smoke
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="efe1-4c68-f5d2-1ec0-max"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Sponsons" id="8af1-0540-304e-491e" hidden="false" collective="true">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Heavy Bolters" hidden="false" id="6dcf-127f-f947-47c3">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Heavy Bolter" id="edfc-a5a3-92e0-3db2" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
-                    <infoLink name="Heavy Bolter" id="1a1b-1e92-e35e-26d0" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy Flamers" hidden="false" id="93cd-fc4c-c75a-6ed7">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Heavy Flamer" id="bad1-b38e-1e8c-3424" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
-                    <infoLink name="Heavy Flamer" id="3b13-1a67-b9a7-51a0" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Multi-meltas" hidden="false" id="55ae-d822-dfbf-9dd1">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Multi-melta" id="10c7-64a5-4730-10a5" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
-                    <infoLink name="Multi-melta" id="f250-3653-9d63-a4fd" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Plasma Cannons" hidden="false" id="0311-b700-52e8-afa5">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Plasma Cannon" id="954f-a6da-0c07-01f0" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
-                    <infoLink name="Plasma Cannon" id="76ef-d8a7-d7ce-06a4" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f1db-cf5e-7fdc-d061"/>
-              </constraints>
-            </selectionEntryGroup>
             <selectionEntryGroup name="Pintle-mount" id="483f-3849-d786-35b8" hidden="false">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1146-5800-3584-98d8"/>
@@ -4209,6 +4222,61 @@ It is worth pointing out that some armies might use different versions of smoke
                 <entryLink import="true" name="Extra Armor" hidden="false" id="1ede-453a-55ef-54dd" type="selectionEntry" targetId="f1f7-d0bf-1ebe-10f6"/>
                 <entryLink import="true" name="Camo Netting" hidden="false" id="f274-2949-4531-0892" type="selectionEntry" targetId="85df-b220-bf8a-f306"/>
               </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Sponsons" id="cd42-4bea-b35a-4dc8" hidden="false" collective="true">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Heavy Bolters" hidden="false" id="43e4-68ca-645b-2a12">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Heavy Bolter" id="ca1e-5e24-0f40-4423" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                    <infoLink name="Heavy Bolter" id="365e-f687-58b6-d13d" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c303-9d1b-c617-0340"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Flamers" hidden="false" id="d6cb-4433-5470-3dc4">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Heavy Flamer" id="9c41-214f-f53b-136b" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
+                    <infoLink name="Heavy Flamer" id="0894-b952-8982-f032" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4af3-9ef1-f0cf-dd4c"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Multi-meltas" hidden="false" id="d1a0-e06a-87b2-512b">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Multi-melta" id="bc1d-8b25-917f-5e39" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
+                    <infoLink name="Multi-melta" id="638d-3fbd-b74d-fef5" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eba6-0472-3991-9644"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Plasma Cannons" hidden="false" id="270e-558c-f1cc-6d57">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Plasma Cannon" id="86fe-bf54-60ab-9bd7" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
+                    <infoLink name="Plasma Cannon" id="00e6-427e-6602-abda" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2064-2ed0-de4e-0356"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="cc9f-9a66-4b9d-5ee3"/>
+              </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
@@ -5331,6 +5399,154 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <infoLink name="Earthshaker Cannon" id="150a-d7c9-13af-7b43" hidden="false" type="profile" targetId="1120-1386-e51b-c265"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Rogal Dorn Battle Tank" hidden="false" id="a3a4-b8f4-46a1-352e">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="235"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Rogal Dorn" id="fb72-5a78-709c-8b48" hidden="false" type="profile" targetId="8078-26a2-e0ee-6a72"/>
+        <infoLink name="Extra Armour" id="dc47-2491-6c05-df17" hidden="false" type="profile" targetId="ec58-94f7-12e5-a9b9"/>
+        <infoLink name="Smoke Launchers" id="fc7a-f93a-2362-1fe4" hidden="false" type="profile" targetId="180e-ad4b-4df0-81ae"/>
+        <infoLink name="Searchlight" id="f6aa-2910-2914-2c87" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
+        <infoLink name="Tank" id="613f-4596-6a30-c571" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Turret" id="8335-15c1-1207-6c25" hidden="false" defaultSelectionEntryId="3bc3-dabf-8a79-e7dc">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Battle Cannon" hidden="false" id="3bc3-dabf-8a79-e7dc">
+              <infoLinks>
+                <infoLink name="Twin-linked Battle Cannon" id="3112-62d2-4c9a-7703" hidden="false" type="profile" targetId="da2f-1d7e-29cb-2d9a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="976f-e170-fed7-723e"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Oppressor Cannon and Coaxial Autocannon" hidden="false" id="0802-7d58-1538-92f1">
+              <infoLinks>
+                <infoLink name="Oppressor Cannon" id="18f1-a432-3cd7-f835" hidden="false" type="profile" targetId="5ccc-92d2-d8a0-f551"/>
+                <infoLink name="Autocannon" id="828d-5e17-2554-31c6" hidden="false" type="profile" targetId="0439-7ae4-6bcf-50ac"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="51a4-5dd1-3321-a246"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="19d8-2470-cd7d-2c9a-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="19d8-2470-cd7d-2c9a-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Sponsons" id="7bb1-e70c-8709-e0e7" hidden="false" collective="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Heavy Bolters" hidden="false" id="4086-f0a6-3035-cf62">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Heavy Bolter" id="6afc-aed1-3162-cda6" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                <infoLink name="Heavy Bolter" id="7469-3386-29ee-ed1d" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9273-bc54-beed-dece"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Multi-meltas" hidden="false" id="2170-2677-88e3-f01c">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Multi-melta" id="86c6-3a48-ac87-6031" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
+                <infoLink name="Multi-melta" id="1c57-a6bc-258b-dcf3" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dea5-6791-5748-5379"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="6b66-8ad4-41ea-fc68"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May be equipped with one of the following" id="9d14-fe14-091e-6c60" hidden="false" defaultSelectionEntryId="b982-b62d-5e68-ed11">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Heavy Stubbers" hidden="false" id="b982-b62d-5e68-ed11">
+              <infoLinks>
+                <infoLink name="Twin-linked Heavy Stubber" id="3ee7-f977-eba4-0732" hidden="false" type="profile" targetId="d4f5-edb4-7c43-a125"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d5ea-b879-2969-d98a"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Meltaguns" hidden="false" id="41af-825a-5667-06e0">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Twin-linked Meltagun" id="061f-cfa2-54d6-b4aa" hidden="false" type="profile" targetId="7c32-08ab-de5f-9604"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8340-ce03-b678-ed33"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="32ad-e9ba-30f9-5dc9"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Hull Weapon" id="b603-cd4c-2d7c-24d9" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Castigator Gatling Cannon" hidden="false" id="ad42-2482-1338-db93">
+              <infoLinks>
+                <infoLink name="Castigator Gatling Cannon" id="0e05-8b54-0f90-1909" hidden="false" type="profile" targetId="9df4-217d-2533-3726"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7332-8313-48a3-45e4"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Pulveriser Cannon" hidden="false" id="d4ad-8af3-be2c-95c5">
+              <infoLinks>
+                <infoLink name="Pulveriser Cannon" id="de52-c823-d50e-e1ee" hidden="false" type="profile" targetId="5b4e-e3a4-3d89-bec7"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a175-66b4-1ad4-615b"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="May take a Heavy Stubber" hidden="false" id="ee3e-e1b0-cbc2-69e1">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Heavy Stubber" id="dac5-7adc-6915-63b0" hidden="false" type="profile" targetId="18dc-70dc-46bc-2834"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7229-70a4-9b9b-2905"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Camo Netting" hidden="false" id="992b-0cec-c9a6-64aa" type="selectionEntry" targetId="85df-b220-bf8a-f306"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Lumbering Behemoth" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="c9e4-8b49-743b-fdf2">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Rogal Dorn that moved at combat speed or remained stationary can fire it&apos;s turret weapon in addition to any other weapons it is usually allowed to fire (even if the turret weapon is ordnance). However, a Rogal Dorn travelling at cruising speed can only move up to D6+6&quot; - roll every time it moves at this speed.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Laspistol" id="3d23-3fcb-a692-ee14" hidden="false" defaultSelectionEntryId="9217-2f13-bbb3-505a">
@@ -5696,6 +5912,86 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
+    <profile name="Rogal Dorn" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="8078-26a2-e0ee-6a72">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">3</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">14</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">14</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">11</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Battle Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="681b-749e-e193-d646">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Large Blast</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Battle Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="da2f-1d7e-29cb-2d9a">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Large Blast, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Vanquisher Battle Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0888-73c5-4c5a-3b37">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1 (Shots with a vindicator cannon roll an additional D6 when rolling for armour penetration)</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Oppressor Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="5ccc-92d2-d8a0-f551">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1 (Shots with an oppressor cannon roll an additional D6 when rolling for armour penetration)</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Heavy Stubber" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="d4f5-edb4-7c43-a125">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Meltagun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="7c32-08ab-de5f-9604">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Melta, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Castigator Gatling Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="9df4-217d-2533-3726">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 12</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Pulveriser Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="5b4e-e3a4-3d89-bec7">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <entryLinks>
     <entryLink import="true" name="Infantry Platoon" hidden="false" id="174e-84fb-5481-2d03" type="selectionEntry" targetId="063f-f1bd-1acf-2096">
@@ -5895,6 +6191,11 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
     <entryLink import="true" name="Earthshaker Platform" hidden="false" id="0eac-2218-43fb-646f" type="selectionEntry" targetId="a739-792e-f0ce-2203">
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="552c-8f66-d5eb-7fb5" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Rogal Dorn Battle Tank" hidden="false" id="5475-c91a-f913-7afa" type="selectionEntry" targetId="a3a4-b8f4-46a1-352e">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="7dfc-72d8-4260-fb72" primary="true" name="Heavy Support"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
