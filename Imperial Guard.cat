@@ -1361,6 +1361,20 @@ The executed model is immediately removed as a casualty, regardless of the numbe
             <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Primaris Psyker suffers a Perils of the Warp attack whilst joined to the same unit as a Commissar (of any type) then the psyker is immediately executed and removed as a casualty.</characteristic>
           </characteristics>
         </profile>
+        <profile name="Lightning Arc" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="d01d-8835-09b8-3e72">
+          <characteristics>
+            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+            <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2D6</characteristic>
+            <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Psychic Shooting Attack</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Nightshroud" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="8d19-f4bc-7095-18f7">
+          <characteristics>
+            <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This power is used at the start of the psyker&apos;s Movement phase. If successful, any unit wishing to shoot at the psyker (or the unit he is with) must first pass a Leadership test or forego their Shooting phase (vehicles count as Leadership 10 for the purposes of Nightshroud) The effects of this power last until the beginning of the Primaris Psyker&apos;s next Movement phase.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Refractor Field" id="1a32-f3cd-7a56-73da" hidden="false" type="profile" targetId="5e1e-a718-cafb-512c"/>
@@ -1370,30 +1384,6 @@ The executed model is immediately removed as a casualty, regardless of the numbe
         <infoLink name="Force Weapon" id="36a2-67f1-e393-0438" hidden="false" type="profile" targetId="84e8-f828-c1c0-81c1"/>
         <infoLink name="Independent Character" id="b304-4c33-30ec-2b67" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
       </infoLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Psychic Powers" id="6450-fb81-af49-3822" hidden="false">
-          <profiles>
-            <profile name="Lightning Arc" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="d01d-8835-09b8-3e72">
-              <characteristics>
-                <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
-                <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
-                <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
-                <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2D6</characteristic>
-                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
-              </characteristics>
-            </profile>
-            <profile name="Nightshroud" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="8d19-f4bc-7095-18f7">
-              <characteristics>
-                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This power is used at the start of the psyker&apos;s Movement phase. If successful, any unit wishing to shoot at the psyker (or the unit he is with) must first pass a Leadership test or forego their Shooting phase (vehicles count as Leadership 10 for the purposes of Nightshroud) The effects of this power last until the beginning of the Primaris Psyker&apos;s next Movement phase.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="5e60-b174-ebb0-6a13-min"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5e60-b174-ebb0-6a13-max"/>
-          </constraints>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="70"/>
       </costs>
