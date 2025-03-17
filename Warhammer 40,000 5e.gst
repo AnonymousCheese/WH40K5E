@@ -34,8 +34,8 @@
   <forceEntries>
     <forceEntry name="Default Force" hidden="false" id="default-force">
       <categoryLinks>
-        <categoryLink name="Troops" hidden="false" id="default-force-category-link" targetId="default-category"/>
         <categoryLink name="HQ" hidden="false" id="79cd-b337-09f1-8e8b" targetId="ac8d-efba-1884-d3ad"/>
+        <categoryLink name="Troops" hidden="false" id="default-force-category-link" targetId="default-category"/>
         <categoryLink name="Elites" hidden="false" id="b932-bd98-317c-5dbd" targetId="978c-e18f-8aeb-f4c1"/>
         <categoryLink name="Fast Attack" hidden="false" id="cf6d-e1b9-b714-97f2" targetId="74fe-37c3-fbbf-849e"/>
         <categoryLink name="Heavy Support" hidden="false" id="877c-51b8-b64b-f539" targetId="9260-7d57-be5c-bd52"/>

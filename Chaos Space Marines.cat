@@ -1754,8 +1754,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               </selectionEntries>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f68a-7b7e-7f13-4a38"/>
-                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="6da8-64f4-9e16-e2b3-min"/>
-                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="6da8-64f4-9e16-e2b3-max"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4ad6-b8af-1e63-5cae"/>
               </constraints>
             </selectionEntry>
           </selectionEntries>

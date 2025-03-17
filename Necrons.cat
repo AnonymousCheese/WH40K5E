@@ -562,7 +562,7 @@
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, One use only</characteristic>
-        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">When firing the Staff of the Destroyer, nominate a direction. Then roll 2D6 and extend a straight line from Imotekh&apos;s base in the chosen direction, a distance equal to the total rolled. Any unit, friendly or enemy, under this line takes a number of hits equal to the number of models in the unit under the line.</characteristic>
       </characteristics>
     </profile>
     <profile name="Synaptic Disintegrator" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="fbf5-746b-854c-25c1">
@@ -791,6 +791,19 @@
         <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">At the start of the enemy Assault phase, roll a D3 and nominate an enemy unit. If the nominated unit attempts to assault the Cryptek, or his unit, reduce their assault move by the result of the D3 for that phase.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Ever-living" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="a0a5-03b1-4eee-efb8">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a model with this special rule is removed as a casualty, do not add a Reanimation Protocols counter to its unit. Instead place an Ever-living counter where the model was removed from play. At the end of the phase, roll for this counter, just as you would for a Reanimation Protocols counter.
+
+
+If the model had joined a unit when it was removed as a casualty, and the roll was passed, it must be returned to play with a single Wound, in coherency with that unit as explained in Reanimation Protocols. If the model had not joined a unit when it was removed as a casualty, it must be returned to play, with a single Wound, within 3&quot; of the counter. In either case, the model must be placed at least 1&quot; away from enemy models. If the model is placed in coherency with one or more friendly units that it is eligible to join, it automatically joins one of those units (your choice). If the model was  locked in close combat when it &apos;died&apos;, and the combat is ongoing, then it must immediately pile in. If the returning model cannot be placed, for whatever reason, it is lost and does not return. If the roll was failed, remove the counter from play.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Phaeron" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="48c0-23aa-c4a9-9607">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Phaeron, and any unit he is with, have the Relentless special rule.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Tesla" id="3720-e4a1-4ea0-087b" hidden="false">
@@ -817,5 +830,139 @@
     <rule name="Quake" id="419d-4f03-f11c-2732" hidden="false">
       <description>All enemy units hit by a weapon with the Quake type treat open ground as difficult terrain during their next Movement phase.</description>
     </rule>
+    <rule name="Reanimation Protocols" id="fb34-58b6-d306-faa2" hidden="false">
+      <description>If a unit with Reanimation Protocols takes one or more casualties, place counters or other suitable markers next to the unit to remind you how many casualties were taken. If the unit makes a fall back move, remove any counters from it.
+
+
+At the end of the phase, after any Morale checks have been taken and fall back moves have been made, roll a D6 for each Reanimation Protocols counter next to the unit. On a 1, 2, 3 or 4 the damage is too severe and no self-repair occurs - nothing happens. On a 5 or 6, a Necron reassembles itself and continues to fight - return one of the slain models to play with a single Wound, placed in coherency with a model from its unit that has not itself returned through Reanimation Protocols this phase. Models returning to play in this fashion must be placed at least 1&quot; from enemy models. If the model&apos;s unit is engaged in close combat, the model immediately piles in. Models that cannot be placed in this way do not return.
+
+
+Reanimation Protocols rolls cannot be attempted if the unit has been destroyed - once the last model has been removed as a casualty, remove all your counters. Note that characters do not count as part of the unit for the purposes of Reanimation Protocol - if a character is the only survivor of a unit, his presence is not sufficient to allow a Reanimation Protocols roll, so remove any remaining counters. Once all Reanimation Protocols rolls have been made for a unit (pass or failed) remove all your counters from the unit.</description>
+    </rule>
+    <rule name="Living Metal" id="2290-30ee-3a0d-005c" hidden="false">
+      <description>If a model with this special rule suffers a &apos;crew shaken&apos; result, roll a D6: on a roll of 1, the result is applied normally; on a roll of 2+, the result is ignored. If a model with this special rule suffers a &apos;crew stunned&apos; result, roll a D6: on a roll of 1-3 the result is applied normally; on a roll of 4+, the result is ignored.</description>
+    </rule>
   </sharedRules>
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Imotekh The Stormlord" hidden="false" id="f113-adfe-faf5-9b5d">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="225"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Imotekh the Stormlord" id="2c92-5fa5-1c5b-3f00" hidden="false" type="profile" targetId="b76f-28e1-e256-6114"/>
+        <infoLink name="Gauntlet of Fire" id="1712-121d-eae0-5147" hidden="false" type="profile" targetId="23f1-293e-92d9-56ce"/>
+        <infoLink name="Phase Shifter" id="46a0-c6af-536e-24bb" hidden="false" type="profile" targetId="40ab-5096-0f21-97e9"/>
+        <infoLink name="Phylactery" id="ea4f-c975-6add-e5bd" hidden="false" type="profile" targetId="663f-e1b4-6598-8a7a"/>
+        <infoLink name="Sempiternal Weave" id="bb61-92ca-26ba-5f09" hidden="false" type="profile" targetId="7649-d5f8-65c8-a881"/>
+        <infoLink name="Staff of the Destroyer" id="d00d-afd8-491c-7c62" hidden="false" type="profile" targetId="5cc2-c555-7b48-2f58"/>
+        <infoLink name="Ever-living" id="8dc8-3c80-440e-9add" hidden="false" type="profile" targetId="a0a5-03b1-4eee-efb8"/>
+        <infoLink name="Independent Character" id="f9c0-06a6-6caa-8832" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Reanimation Protocols" id="2273-e995-a156-8609" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+        <infoLink name="Phaeron" id="d6b2-25a3-9def-ecf4" hidden="false" type="profile" targetId="48c0-23aa-c4a9-9607"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Bloodswarm Nanoscarabs" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="b33e-39f6-3a23-e854">
+          <characteristics>
+            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">At the start of the first game turn, randomly choose one non-vehicle unit in the enemy army. This unit is infested with bloodswarm nanoscarabs - any Flayed One packs entering play via Deep Strike do not scatter if they aim to arrive within 6&quot; of this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Humiliating Defeat" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="3a9d-9755-cad6-9fe0">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Character loses its final Wound to Imotekh&apos;s close combat attacks, roll a D3. Imotekh counts as having scored this many extra wounds for the purposes of calculating assault results.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hyperlogical Strategy" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="a5b7-0c57-eac6-6380">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">An army that includes Imotekh the Stormlord siezes the initiative on a roll of 4+. However, greenskins always manage to confound his plans however, so an army that includes Imotekh can never attempt to seize the initiative against Orks</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lord of the Storm" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="fd26-5d38-47b0-4e35">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If your army includes Imotekh the Stormlord, the Night Fighting rules automatically apply during the first game turn. Furthermore, you can attempt to keep the Night Fighting rules in play in subsequent game turns by rolling a D6 at the start of the turn. If the result is greater than the turn number, the storm continues and the Night Fighting rules remain in play. If not, the Night Fighting rules cease to be in effect and are not used for the rest of the battle. 
+
+
+In addition, whilst the Night Fighting rules remain in play, roll a D6 for each unengaged enemy unit on the battlefield at the start of each Necron Shooting phase. On a roll of a 6, that unit is struck by a bolt of lighting and suffers D6 Strength 8, AP 5 hits (vehicles are hit on their side armour). Note that Night Fighting rules brought into play by a Solar Pulse do not generate lightning.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Catacomb Command Barge" hidden="false" id="350b-4e1b-a9ef-da1e" type="selectionEntry" targetId="f30f-c9a7-53b4-2bba">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8372-a7ee-64b8-7151"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Catacomb Command Barge" hidden="false" id="f30f-c9a7-53b4-2bba">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="80"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Catacomb Command Barge" id="6828-5a72-a9f7-092c" hidden="false" type="profile" targetId="e0af-253a-ccc7-4803"/>
+        <infoLink name="Fast" id="328a-ea4d-0e9d-c6c7" hidden="false" type="rule" targetId="4d59-8511-a8e5-1f62"/>
+        <infoLink name="Open-topped" id="7d0b-45f5-1c35-4737" hidden="false" type="rule" targetId="21d9-2669-1dba-9fb2"/>
+        <infoLink name="Skimmer" id="8701-fc08-5d87-10f2" hidden="false" type="rule" targetId="5768-8357-f0e3-1484"/>
+        <infoLink name="Quantum Shielding" id="5bb0-7941-f1fe-785b" hidden="false" type="profile" targetId="e4ed-9f4a-71e8-cd3a"/>
+        <infoLink name="Living Metal" id="466e-01a2-87b9-41df" hidden="false" type="rule" targetId="2290-30ee-3a0d-005c"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Loadout" id="0c07-13e6-237b-aab6" hidden="false" defaultSelectionEntryId="4620-944f-a7fe-7661">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Tesla Cannon" hidden="false" id="4620-944f-a7fe-7661">
+              <infoLinks>
+                <infoLink name="Tesla Cannon" id="0f1f-07bc-673e-ac52" hidden="false" type="profile" targetId="d01e-306f-88e9-1f3a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e37d-71c0-7131-4d8e"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Gauss Cannon" hidden="false" id="2a97-522a-38dc-714f">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="25c7-0c0c-0dd6-0ffc"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Gauss Cannon" id="9611-55dd-a743-7353" hidden="false" type="profile" targetId="d2ed-ca20-e2ce-9763"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="62dc-3839-fcc6-acb2-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="62dc-3839-fcc6-acb2-max"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="Catacomb Command Barge" typeId="9a37-e4d2-11fe-9e81" typeName="Transport" hidden="false" id="765b-de69-c75e-74a2">
+          <characteristics>
+            <characteristic name="Capacity" typeId="7cdf-4c80-a83d-200c">1 Independent Character</characteristic>
+            <characteristic name="Access Points" typeId="6e42-3bd5-70a6-724f"/>
+            <characteristic name="Fire Points" typeId="aa94-ae0c-98e7-5923"/>
+          </characteristics>
+        </profile>
+        <profile name="Sweep Attack" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="6e3f-d21a-8d61-4461">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Whilst a character remains embarked on a Catacomb Command Barge, he can make three special &apos;sweep&apos; attacks each turn. These attacks can be made in the Movement phase against one enemy unit that the Catacomb Command Barge moves over. All attacks must be resolved on the same unit.
+
+
+Roll To Hit and To Wound seperately for each Sweet Attack. If the Catacomb Command Barge moved at combat speed this turn, a Sweep attack hits on a 3+, otherwise it hits on a 4+. For each success, the unit suffers a hit at the character&apos;s Strength, plus any Strength bonuses and special abilities from his close combat weapon. Hits against vehicles are resolved against rear armour. On a Sweep Attack where the To Hit dice roll is a 6, you can choose which model the resulting Wound (if there is one) is allocated against. Cover saves are not permitted against Wounds caused by Sweep Attacks.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Symbiotic Repair" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="13f8-038c-4d26-e72d">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If the Catacomb Command Barge suffers an immobilised or weapon destroyed result, the embarked character can reduce his remaining Wounds by 1 to negate the result. This cannot be done if it would cause the character to be removed as a casualty.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Imotekh The Stormlord" hidden="false" id="946b-5347-db62-2bc3" type="selectionEntry" targetId="f113-adfe-faf5-9b5d">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="fbf3-c6e0-dcce-f163" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f329-c4cf-227a-bbfd"/>
+      </constraints>
+    </entryLink>
+  </entryLinks>
 </catalogue>
