@@ -5399,7 +5399,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <infoLink name="Earthshaker Cannon" id="150a-d7c9-13af-7b43" hidden="false" type="profile" targetId="1120-1386-e51b-c265"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Rogal Dorn Battle Tank" hidden="false" id="a3a4-b8f4-46a1-352e">
+    <selectionEntry type="unit" import="true" name="Rogal Dorn Battle Tank" hidden="false" id="a3a4-b8f4-46a1-352e">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="235"/>
       </costs>
