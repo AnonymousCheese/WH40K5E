@@ -152,7 +152,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd7c-fd2a-55cd-ed40"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Close-Combat Weapon" hidden="false" id="5bf2-adaa-ef52-8839" type="selectionEntryGroup" targetId="f1e6-b6ba-1058-f815">
+            <entryLink import="true" name="Combat Weapon" hidden="false" id="5bf2-adaa-ef52-8839" type="selectionEntryGroup" targetId="f1e6-b6ba-1058-f815">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a0fa-a220-97b6-08e5"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef98-0fa9-b4f4-2e6f"/>
@@ -1237,7 +1237,7 @@ Any unit with this special rule that is removed from play may be brought back in
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Company Commander" hidden="false" id="5d60-45cd-d116-96e3">
               <entryLinks>
-                <entryLink import="true" name="Close-Combat Weapon" hidden="false" id="5d09-73bc-8aec-0bf6" type="selectionEntryGroup" targetId="f1e6-b6ba-1058-f815">
+                <entryLink import="true" name="Combat Weapon" hidden="false" id="5d09-73bc-8aec-0bf6" type="selectionEntryGroup" targetId="f1e6-b6ba-1058-f815">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="self" shared="true" id="9ee2-f097-1b5e-d53d"/>
                     <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a7ea-3bed-1670-5de8"/>
@@ -1855,9 +1855,6 @@ The executed model is immediately removed as a casualty, regardless of the numbe
       </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Ogryn Squad" hidden="false" id="edb3-e204-657e-08ea">
-      <costs>
-        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="130"/>
-      </costs>
       <infoLinks>
         <infoLink targetId="1c0a-0c56-c294-9c52" id="e509-933d-e22f-4f25" type="profile" name="Bulky" hidden="false"/>
         <infoLink name="Stubborn" id="11ac-9745-4072-f37f" hidden="false" type="profile" targetId="5493-e844-f447-39ae"/>
@@ -2415,7 +2412,7 @@ The executed model is immediately removed as a casualty, regardless of the numbe
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8837-813c-7751-7cd1"/>
                       </constraints>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Lasgun" hidden="false" id="fcf5-24e6-4d0d-8ebc" collective="true" defaultAmount="9">
+                    <selectionEntry type="upgrade" import="true" name="Lasgun" hidden="false" id="fcf5-24e6-4d0d-8ebc" collective="true" defaultAmount="">
                       <infoLinks>
                         <infoLink name="Lasgun" id="f73b-d5d8-1329-1c27" hidden="false" type="profile" targetId="3d2e-5448-edbf-a00a"/>
                       </infoLinks>
@@ -2450,7 +2447,7 @@ The executed model is immediately removed as a casualty, regardless of the numbe
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="22e8-158c-5d9e-5355"/>
                       </constraints>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Lasgun" hidden="false" id="5bb4-f27a-66d5-ab1e" collective="true" defaultAmount="9">
+                    <selectionEntry type="upgrade" import="true" name="Lasgun" hidden="false" id="5bb4-f27a-66d5-ab1e" collective="true" defaultAmount="">
                       <infoLinks>
                         <infoLink name="Lasgun" id="e2cd-2415-5629-19a9" hidden="false" type="profile" targetId="3d2e-5448-edbf-a00a"/>
                       </infoLinks>
@@ -2943,9 +2940,6 @@ It is worth pointing out that some armies might use different versions of smoke
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Rough Rider Squad" hidden="false" id="fa87-bf03-0aaa-aa93" collective="true">
-      <costs>
-        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="55"/>
-      </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="Up to two Rough Riders may replace their Hunting Lance with" id="1bcd-101e-fad5-f02b" hidden="false">
           <selectionEntries>
@@ -3591,43 +3585,6 @@ It is worth pointing out that some armies might use different versions of smoke
                 <constraint type="min" value="1" field="selections" scope="self" shared="true" id="d17f-00e1-6bd2-16a1-min"/>
                 <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d17f-00e1-6bd2-16a1-max"/>
               </constraints>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Hull Weapon" id="c3e8-e571-ff6c-25cd" hidden="false" collective="true" defaultSelectionEntryId="ee7f-1000-aaf7-cf64">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Heavy Bolter" hidden="false" id="add6-c4b7-740f-1e41">
-                      <infoLinks>
-                        <infoLink name="Heavy Bolter" id="194b-6e70-2a81-37f2" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c0d1-0ab6-7d22-f92e"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Heavy Flamer" hidden="false" id="f4fb-fe22-4312-5e74">
-                      <infoLinks>
-                        <infoLink name="Heavy Flamer" id="5b73-f0ef-ed4f-73fe" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="041d-c004-dc49-6a8b"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Lascannon" hidden="false" id="0d8c-02d7-52fe-145e">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Lascannon" id="2947-7eff-34a6-209a" hidden="false" type="profile" targetId="2965-8d8c-d5b0-8aa1"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58d3-d3fa-3850-17da"/>
-                      </constraints>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="1af6-2a70-1d11-3879"/>
-                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="19ce-ac00-601b-4ffc"/>
-                  </constraints>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
             </selectionEntryGroup>
             <selectionEntryGroup name="Upgrades" id="eff2-2653-3631-747b" hidden="false">
               <entryLinks>
