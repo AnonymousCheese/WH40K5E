@@ -557,6 +557,27 @@ If none of the enemies involved in the combat against a fearless unit can actua
     <rule name="Heavy" id="347c-eae2-8f72-1ae9" hidden="false">
       <description>The vehicle cannot move faster than Combat Speed. When it shoots, it counts as having remained stationary.</description>
     </rule>
+    <rule name="Vehicle Squadron" id="9e05-992c-a147-f618" hidden="false">
+      <description>When a squadron moves, all of its vehicles move at the same speed (i.e. they all move at combat speed, at cruising speed, etc.). All of its vehicles have to maintain coherency, just like ordinary units, but vehicles in a squadron need only to remain within 4&quot; of each other to be in coherency, rather than within 2&quot;.
+
+
+When shooting, a squadron of vehicles fires all of its available weaponry at a single enemy unit. Like other units, vehicles in squadrons can see and shoot through members of their own unit, just as if they were not there. This represents the vehicles manoeuvring around each other in a well-practiced battle formation.
+
+
+When a squadron of vehicles is fired at, roll to hit and for armour penetration against the squadron’s common Armour Value (which is normally the same for all facings, and in most cases is 10). If the vehicles in the squadron have different Armour Values on different facings, use the Armour Value of the facing of the closest visible vehicle. 
+
+
+Once all of the armour penetration rolls have been made, the player controlling the squadron allocates the glancing and penetrating hits to squadron members as he would allocate wounds to members of a normal unit. Then he takes any cover saves available to the squadron – use the rules for vehicles to determine if each squadron member is in cover (ignoring other members of the squadron, as if they were not there), and then the rules for normal units to work out if the entire squadron is in cover or not. After cover saves are taken, make the damage rolls for any remaining glancing and penetrating hits. The effects of damage results on vehicle squadrons are slightly different than on normal vehicles, as described below.
+
+
+The mutual support of vehicles in squadrons makes them resilient to damage results affecting the crew. On the other hand, the crews are under strict orders to abandon immobilised vehicles and disable them, not to leave them as spoils of war for the enemy. To represent this, treat all immobilised results as destroyed (wrecked) and all stunned results as shaken. If a squadron consists of a single vehicle when an enemy unit fires at it, it reverts to the normal rules for vehicle damage results. 
+
+
+For example, a squad of Space Marine Devastators opens fire against a squadron of three Eldar Vypers, scores several hits, and rolls for armour penetration against the squadron’s Armour Value of 10. This results in three penetrating hits and three glancing hits. The Eldar player allocates two penetrating hits on one Vyper, two glancing hits on another and one penetrating and one glancing hit on the last Vyper. He then takes the cover saves for his Vypers (4+, for example), saving one of the glancing hits and one of the penetrating hits. Finally the opponent rolls for damage for the two glancing and two penetrating hits that are left, and the results are immediately applied on the Vypers that suffered them. 
+
+
+When engaged in close combat against a squadron, enemy models roll to hit and for armour penetration against the squadron as a whole. Damage results have the same effect as described above, and are allocated against the squadron at each Initiative value, in the same way as a normal combat. As usual for combats against vehicles, there is no defenders’ reaction, combat resolution, pile-in moves, consolidation, etc.</description>
+    </rule>
   </sharedRules>
   <publications>
     <publication name="Warhammer 40,000 5e Rulebook" id="ad9c-8597-0188-2ba0" hidden="false"/>
