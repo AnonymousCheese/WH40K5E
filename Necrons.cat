@@ -427,7 +427,7 @@
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">X</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Special</characteristic>
-        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">See Eternity Gate</characteristic>
       </characteristics>
     </profile>
     <profile name="Gauntlet of Fire" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="23f1-293e-92d9-56ce">
@@ -574,7 +574,7 @@
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
-    <profile name="Tachyon Arror" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="139d-bb6d-97d6-1882">
+    <profile name="Tachyon Arrow" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="139d-bb6d-97d6-1882">
       <characteristics>
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Infinite</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
@@ -804,6 +804,111 @@ If the model had joined a unit when it was removed as a casualty, and the roll w
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Phaeron, and any unit he is with, have the Relentless special rule.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Twin-linked Tesla Destructor" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="7b80-9ea2-4de8-b066">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 4, Tesla, Arc, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Dispersion Shield" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="d552-be64-5417-2bb1">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A Lychguard with a Dispersion Shield has a 4+ Invulnerable save. If this save is made against a shooting attack, choose an unengaged enemy unit within 6&quot; - that unit suffers a single hit with a Strength and AP equal to that of the initial shot. If there is no unengaged enemy unit within 6&quot;, then the Wound is still saved, but the shot is not redirected. This does not cause template or blast markers to be repositioned.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Entropic Touch" typeId="2a28-0f9d-db03-1682" typeName="Manifestation of Power" hidden="false" id="d08f-ed51-0609-4907">
+      <characteristics>
+        <characteristic name="Power" typeId="14a1-23f8-fc29-1538">The C&apos;tan Shard&apos;s close combat attacks have the Entropic Strike special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Gaze of Death" typeId="2a28-0f9d-db03-1682" typeName="Manifestation of Power" hidden="false" id="0b3b-f000-2331-bab1">
+      <characteristics>
+        <characteristic name="Power" typeId="14a1-23f8-fc29-1538">In the Assault phase, after all other blows in the C&apos;tan Shard&apos;s combat have been struck, centre the large blast marker on the C&apos;tan Shard. All other models beneath the marker (friend or foe) suffer a Strength 3 hit with no armour saves allowed. If the C&apos;tan Shard causes one or more unsaved Wounds in this manner, it regains on Wound lost earlier in the battle. These Wounds do not count towards combat resolution.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grand Illusion" typeId="2a28-0f9d-db03-1682" typeName="Manifestation of Power" hidden="false" id="8ce7-f42c-df5e-d6c4">
+      <characteristics>
+        <characteristic name="Power" typeId="14a1-23f8-fc29-1538">After all forces have been deployed and all Scout moves have been made, roll a D3. You can immediately redeploy this many friendly units, subject to the normal deployment rules for the mission. This power can be used to move units into, or out of, reserve.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lord of Fire" typeId="2a28-0f9d-db03-1682" typeName="Manifestation of Power" hidden="false" id="87a6-773a-34e8-3fd4">
+      <characteristics>
+        <characteristic name="Power" typeId="14a1-23f8-fc29-1538">All flamer weapons (as well as heat rays, burnas, skorchas, inferno cannons and any weapon described as using &apos;flame&apos; or &apos;fire&apos; as its effect or in its special rules) and weapons with the melta type fired within 12&quot; of the C&apos;tan Shard have a chance of exploding. Roll a D6 each time such a weapon is fired within range. On a roll of a 1, the weapon detonates. If carried by a non-vehicle model, the model is removed from play as a casualty. If mounted on a vehicle, it counts as a weapon destroyed result. In either case, the shot(s) are lost.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sentient Singularity" typeId="2a28-0f9d-db03-1682" typeName="Manifestation of Power" hidden="false" id="c7ba-692e-646a-0bb9">
+      <characteristics>
+        <characteristic name="Power" typeId="14a1-23f8-fc29-1538">All enemy vehicles within 6&quot; of the C&apos;tan Shard treat all terrain as dangerous (if a vehicle starts its movement more than 6&quot; away from the C&apos;tan Shard, test as soon as the vehicle moves to within 6&quot; of the C&apos;tan Shard). Additionally, Deep Striking enemy units attempting to arrive within 6&quot; of the C&apos;tan Shard automatically suffer a Deep Strike mishap if their scatter roll is a double (whether or not a hit was rolled).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Swarm of Spirit Dust" typeId="2a28-0f9d-db03-1682" typeName="Manifestation of Power" hidden="false" id="11be-74be-018e-a05f">
+      <characteristics>
+        <characteristic name="Power" typeId="14a1-23f8-fc29-1538">The C&apos;tan Shard is treated as having assault and defensive grenades. Furthermore it has the Stealth special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Time&apos;s Arrow" typeId="2a28-0f9d-db03-1682" typeName="Manifestation of Power" hidden="false" id="52a5-f0d2-0490-da29">
+      <characteristics>
+        <characteristic name="Power" typeId="14a1-23f8-fc29-1538">At the start of the Assault phase, after assault moves have been made but before blows are struck, nominate one enemy model in base contact with the C&apos;tan Shard (if there are any). That model must pass an Initiative test or be removed as a casualty with no saves of any kind allowed.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Writhing Worldscape" typeId="2a28-0f9d-db03-1682" typeName="Manifestation of Power" hidden="false" id="da7c-0367-68f3-bf0c">
+      <characteristics>
+        <characteristic name="Power" typeId="14a1-23f8-fc29-1538">Whilst the C&apos;tan Shard is on the battlefield, all difficult terrain is also dangerous for the enemy. If the terrain is already dangerous, the Dangerous Terrain test is failed on a 1 or 2.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Heavy Gauss Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="632c-aabe-ab42-1475">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Gauss, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Gauss Blaster" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="5d5d-3f1f-9afe-6a67">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Gauss, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Tesla Carbine" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4b4a-7735-06e2-cae8">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Tesla, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Gauss Flayer Arrays" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="689c-5adf-6101-5e2f">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The vehicle has two separate arrays of five Gauss Flayers - one along each flank - enabling it to &apos;broadside&apos; enemy units. The two arrays can shoot at different targets, although all guns in the same array must shoot at the same target.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Supersonic" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="9cef-a415-78d4-c5d2">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A vehicle that moves flat out may move up to 36&quot;</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Aerial Assault" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="17c6-045d-4a27-cd75">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A vehicle that moved at cruising speed can fire all of its weapons.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Particle Beamer" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="37e3-2882-04ee-79c9">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Tesla" id="3720-e4a1-4ea0-087b" hidden="false">
@@ -891,6 +996,7 @@ In addition, whilst the Night Fighting rules remain in play, roll a D6 for each 
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8372-a7ee-64b8-7151"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Royal Court" hidden="false" id="dbaf-2e85-f849-4743" type="selectionEntryGroup" targetId="c8b2-45b3-4924-7da0"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Catacomb Command Barge" hidden="false" id="f30f-c9a7-53b4-2bba">
@@ -954,6 +1060,1795 @@ Roll To Hit and To Wound seperately for each Sweet Attack. If the Catacomb Comma
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Nemesor Zahndrekh" hidden="false" id="20f0-3b61-2d65-0796">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="185"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Nemesor Zahndrekh" id="bfed-fef1-affe-c858" hidden="false" type="profile" targetId="327c-9da3-464e-8470"/>
+        <infoLink name="Phase Shifter" id="3552-533b-9235-896c" hidden="false" type="profile" targetId="40ab-5096-0f21-97e9"/>
+        <infoLink name="Resurrection Orb" id="2a86-3859-46d6-df06" hidden="false" type="profile" targetId="685e-545a-419f-ad43"/>
+        <infoLink name="Sempiternal Weave" id="8ad8-29f0-294f-a3be" hidden="false" type="profile" targetId="7649-d5f8-65c8-a881"/>
+        <infoLink name="Staff of Light" id="a246-4756-92a0-78ac" hidden="false" type="profile" targetId="41a3-28df-7544-359a"/>
+        <infoLink name="Ever-living" id="f5d7-638c-cb69-36d5" hidden="false" type="profile" targetId="a0a5-03b1-4eee-efb8"/>
+        <infoLink name="Independent Character" id="e4cc-3102-4998-4bb4" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Reanimation Protocols" id="2c25-4426-5125-f2f9" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Catacomb Command Barge" hidden="false" id="7389-bd98-749d-018f" type="selectionEntry" targetId="f30f-c9a7-53b4-2bba">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cce5-9c86-5838-328d"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Vanguard Obyron" hidden="false" id="209e-214c-0250-78ae" type="selectionEntry" targetId="b1c3-f8e7-45b2-7359"/>
+        <entryLink import="true" name="Royal Court" hidden="false" id="5012-9c8c-c52a-d352" type="selectionEntryGroup" targetId="c8b2-45b3-4924-7da0"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Adaptive Tactics" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="dc74-d92c-d968-4d57">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">At the start of each of your turns in which Zahndrekh is on the battlefield, choose one friendly unit, then choose one of the following special rules: Counter-attack, Furious Charge, Hit and Run, Night Vision/Acute Senses, Stealth and Tank Hunters. The chosen unit has the chosen special rule until the start of your next turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Counter Tactics" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="3cf9-90b1-b254-da81">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">At the start of each of your turns in which Zahndrekh is on the battlefield, choose one enemy unit within his line of sight. That unit loses the following special rules (if it has them), and cannot gain them, until the start of your next turn: Acute Senses, Counter-attack, Furious Charge, Hit and Run, Night Vision, Stealth and Tank Hunters.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Phased Reinforcements" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="078a-fb1f-7018-2400">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If Zahndrekh is on the battlefield, any number of units in reserve that are able to Deep Strike can choose to enter play in the enemy turn, via Deep Strike, immediately after any enemy unit has arrived from reserve, normally during the enemy&apos;s Movement phase.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Vanguard Obyron" hidden="false" id="b1c3-f8e7-45b2-7359">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="160"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Vangard Obyron" id="68c2-f9b7-0181-2405" hidden="false" type="profile" targetId="29ec-a01c-353b-e6b6"/>
+        <infoLink name="Sempiternal Weave" id="506a-c0e9-4fad-fd83" hidden="false" type="profile" targetId="7649-d5f8-65c8-a881"/>
+        <infoLink name="Warscythe" id="4c51-c3b8-daeb-3716" hidden="false" type="profile" targetId="18ec-40e1-be6a-2fd2"/>
+        <infoLink name="Ever-living" id="fc4a-2f48-bd8c-53a2" hidden="false" type="profile" targetId="a0a5-03b1-4eee-efb8"/>
+        <infoLink name="Independent Character" id="c3fa-d1b7-e1a5-e7a5" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Reanimation Protocols" id="8c73-a8f2-60ab-dc8a" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6f8d-e246-fd61-a74e" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Ghostwalk Mantle" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="7064-65ee-4652-2a98">
+          <characteristics>
+            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Obyron can use the Ghostwalk Mantle in his Movement phase instead of moving normally. If he does, Obyron and his unit are removed from the tabletop and replaced together anywhere on the board using the rules for Deep Strike. Unlike other veils of darkness, the Ghostwalk Mantle can even be used if Obyron or his unit are locked in combat. Any enemy units no longer locked in combat as a result of this move consolidate immediately.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Cleaving Counterblow" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="d612-5f78-2394-0e76">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">When enemies attampt to strike Obyron in close combat, keep a track of the number of Attacks that fail To Hit (misses that are successfully re-rolled do not count towards this total) before Obyron makes his own attacks. For each miss, Obyron makes a bonus Attack (up to a maximum of 6 bonus Attacks) when it is his turn to strike. Enemy misses that occur after Obyron has attacked do not generate bonus Attacks. Any bonus Attacks not used by the end of the Assault phase are lost.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="The Vanguard&apos;s Duty" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="6205-8e63-2728-1d7b">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If Obyron uses his Ghostwalk Mantly, he does not scatter providing that he aims to arrive within 6&quot; of Zahndrekh. Furthermore, if an enemy unit launches an assault on Zahndrekh&apos;s unit, Obyron immediately leaves his unit and must line in to that combat, regardless of how far from it he is - we assume he uses the Ghostwalk Mantle to reach his master&apos;s side. Any enemy units no longer locked in combat as a result of this pile in move immediately consolidates. If Obyron is embarked on a transport or in a building when this special rule is triggered, ignore the normal rules for disembarkation - Obyron is simply removed from his current location and &apos;piled in&apos; to Zahndrekh&apos;s combat.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Illuminor Szeras" hidden="false" id="6b80-5054-8052-1db2">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="100"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Illuminor Szeras" id="cfc7-8945-5471-212e" hidden="false" type="profile" targetId="b655-482e-c67e-368e"/>
+        <infoLink name="Ever-living" id="3e16-ab6b-5e1a-357b" hidden="false" type="profile" targetId="a0a5-03b1-4eee-efb8"/>
+        <infoLink name="Independent Character" id="feca-5944-2c6e-6366" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Reanimation Protocols" id="521b-6b95-9f13-d021" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+        <infoLink name="Eldritch Lance" id="9cc8-b0d4-ff9b-ade4" hidden="false" type="profile" targetId="dcb3-182c-4da4-8618"/>
+        <infoLink name="Gaze of Flame" id="bbfc-0396-4c31-b53d" hidden="false" type="profile" targetId="ecbc-d891-017a-5302"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Mechanical Augmentation" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="c38f-a818-0e65-aba8">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">At the start of the game, before forces have been deployed, nominate one unit of Necron Warriors or Immortals to be the recipient of Szeras&apos; upgrades. That unit receives one upgrade from the following list - roll a D6 to determine which:
+
+
+1-2 Hardened Carapace: The unit is Toughness 5 for the duration of the game.
+
+
+3-4 Improved Optics: The unit is Ballistic Skill 5 for the duration of the game.
+
+
+5-6 Enhanced Servomotors: The unit is Strength 5 for the duration of the game.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Orikan the Diviner" hidden="false" id="deb5-5858-ec16-7155">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="165"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Orikan the Diviner" id="ae57-e76a-c42a-5ee1" hidden="false" type="profile" targetId="e01b-30b5-a7a2-8c03"/>
+        <infoLink name="Orikan Empowered" id="9159-f368-2fc4-1a49" hidden="false" type="profile" targetId="9a00-e4a2-5645-6ce3"/>
+        <infoLink name="Phase Shifter" id="d8ed-63e8-81c0-a312" hidden="false" type="profile" targetId="40ab-5096-0f21-97e9"/>
+        <infoLink name="Transdimensional Beamer" id="0294-a267-357a-d066" hidden="false" type="profile" targetId="292d-6c70-e3ba-1f92"/>
+        <infoLink name="Ever-living" id="13a4-c888-632e-cbbc" hidden="false" type="profile" targetId="a0a5-03b1-4eee-efb8"/>
+        <infoLink name="Independent Character" id="bbe6-dd2f-916d-0d1f" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Reanimation Protocols" id="0641-1c1a-ec20-d5d6" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Staff of Tomorrow" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="bd57-98c7-cba1-da4b">
+          <characteristics>
+            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">Orikan re-rolls failed To Hit roll in close combat. Wounds caused by the Staff of Tomorrow ignore armour saves.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lord of Time" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="2455-fe83-ed7a-2c26">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This ability can be used once, at the start of one of your turns. For the remainder of that turn, any unsuccessful reserve rolls must be re-rolled.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="The Stars Are Right" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="b28e-bfb6-aa19-341b">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Orikan starts the game with his basic profile, as the game progresses, there is a chance that the stars will come into alignment and restore to him a portion of ancient power. Roll a D6 at the start of each of your turns. If the dice roll is less than or equal to the turn number, then the constellations have come into alignment and Orikan has unlocked a portion of celestial power. Orikan henceforth uses the &apos;Orikan Empowered&apos; profile (it&apos;s still the same model). Once Orikan powers up, continue to roll a D6 at the start of each of your turns; if the result is less than or equal to the turn number, the power recedes, Orikan returns to his initial profile and no further transformation rolls are made. Wounds suffered are carried over between incarnations (which can mean that Orikan is removed as a casualty if he transforms back to his weaker incarnation).</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Temporal Snares" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="e678-fc8e-344d-a027">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">During the first game turn, all enemy units that move count as moving through difficult terrain. If they are actually moving through difficult terrain, then a unit can only move the lowest D6 results of their difficult terrain test, rather than the highest.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Anrakyr The Traveller" hidden="false" id="9952-67f0-b6c7-64dc">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="165"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Anrakyr the Traveller" id="9b24-3559-f23b-308f" hidden="false" type="profile" targetId="ffd3-0fd4-8f13-7be2"/>
+        <infoLink name="Counter-Attack" id="33a5-7a73-e92b-505e" hidden="false" type="profile" targetId="98cd-d727-4827-db44"/>
+        <infoLink name="Ever-living" id="ec83-82bc-6187-a24a" hidden="false" type="profile" targetId="a0a5-03b1-4eee-efb8"/>
+        <infoLink name="Furious Charge" id="b094-618a-b15f-cc2a" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Independent Character" id="d266-bf49-beeb-807f" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Reanimation Protocols" id="8074-ae5e-4d3c-9e42" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+        <infoLink name="Tachyon Arrow" id="6f2d-756f-6e0e-e5b2" hidden="false" type="profile" targetId="139d-bb6d-97d6-1882"/>
+        <infoLink name="Warscythe" id="6cc9-bec2-7f56-2f80" hidden="false" type="profile" targetId="18ec-40e1-be6a-2fd2"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Catacomb Command Barge" hidden="false" id="54b8-a8f8-2558-096f" type="selectionEntry" targetId="f30f-c9a7-53b4-2bba">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2235-cf51-ec77-fc8e"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Royal Court" hidden="false" id="bef9-0473-edc9-5ce8" type="selectionEntryGroup" targetId="c8b2-45b3-4924-7da0"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Pyrrhian Eternals" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="468a-7e65-2b8d-0c3d">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If your army includes Anrakyr the Traveller, one unit of Immortals is automatically upgraded to Pyrrhian Eternals at no additional cost.
+
+
+These are treated exactly as Necron Immortals except they have the Furious Charge and Counter-attack special rules.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Mind in the Machine" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="04d2-8940-a652-4658">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">At the start of your Shooting phase, choose an enemy vehicle within 18&quot; and in Anrakyr&apos;s line of sight and roll a D6. On a roll of 3+, Anrakyr overrides the targeting systems in that vehicle - you can immediately shoot with it as if it were your unit. The vehicle cannot alter its facing, and fires as if it had not moved. For the purposes of this attack, ignore any &apos;crew stunned&apos; or &apos;crew shaken&apos; results the target is suffering from - but destroyed weapons cannot be fired. Once these shooting attacks have been resolved, the vehicle returns to your opponent&apos;s control.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Trazyn the Infinite" hidden="false" id="5f49-e772-96db-1839">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="175"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Trazyn the Infinite" id="9862-646d-5be5-2176" hidden="false" type="profile" targetId="3193-0959-8be1-205f"/>
+        <infoLink name="Mindshackle Scarabs" id="288b-d347-41df-fe91" hidden="false" type="profile" targetId="63b9-2df9-63ea-5c07"/>
+        <infoLink name="Ever-living" id="55ec-adcf-aa36-257d" hidden="false" type="profile" targetId="a0a5-03b1-4eee-efb8"/>
+        <infoLink name="Independent Character" id="dd0d-95a4-573a-9055" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Phaeron" id="e37c-42ca-a2bc-9982" hidden="false" type="profile" targetId="48c0-23aa-c4a9-9607"/>
+        <infoLink name="Reanimation Protocols" id="a90d-6677-f104-53b5" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Catacomb Command Barge" hidden="false" id="d44b-4cbe-8027-74f1" type="selectionEntry" targetId="f30f-c9a7-53b4-2bba">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ba0-d0a4-d7e3-a1db"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Royal Court" hidden="false" id="c1c9-0f4a-28fe-3855" type="selectionEntryGroup" targetId="c8b2-45b3-4924-7da0"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Empathic Obliterator" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="2bef-bf3d-30e7-d47a">
+          <characteristics>
+            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">If Trazyn kills one or more enemies in close combat, the Empathic Obliterator unleashes a psionic shockwave. This occurs after all blows have been struck, but before the Assault Results are determined.
+
+
+To resolve the psionic shockwave, roll a D6 for every model in the combat (friendly or enemy) with the same name on their characteristic profile as a model slain by Trazyn that phase. If the score is 4 or more, that model suffers a Wound (armour saves are taken as normal). For example, if Trazyn slew a Space Marine Sergeant, roll for all other Space Marine Sergeants in the combat; if Trazyn slew an Ork Boy, roll for all other Ork Boyz in combat.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="&apos;Excellent! Another Piece for the Collection&apos;" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="0d22-7c87-90ba-13a4">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Trazyn is a scoring unit and can claim objectives.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Surrogate Hosts" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="86bc-a1af-bb6a-7413">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If Trazyn is removed from play as a casualty, roll a D6. On a score of 1, remove Trazyn from play as normal. If the score is 2 or more, randomly choose another model from all the friendly Lychguards, Crypteks, Necron Lords and Overlords on the table (not counting special characters). Remove the nominated model from play as a casualty, and return Trazyn to play in its place - his remaining Wounds are now equal to the number of Wounds the removed model had remaining. Trazyn only awards kill points once he has been slain and does not return. Models removed because they have been replaced by Trazyn award kill points as normal.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Necron Overlord" hidden="false" id="c9ea-7492-396d-a0a9">
+      <infoLinks>
+        <infoLink name="Necron Overlord" id="c584-9110-757e-f1b3" hidden="false" type="profile" targetId="5a6e-cea6-53dd-1b7d"/>
+        <infoLink name="Ever-living" id="5c31-ef32-8396-04d4" hidden="false" type="profile" targetId="a0a5-03b1-4eee-efb8"/>
+        <infoLink name="Independent Character" id="7bcc-e2bb-ca3b-0402" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Reanimation Protocols" id="42d2-a916-f8c6-c3f9" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="90"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Catacomb Command Barge" hidden="false" id="db23-5fb7-6f44-3d46" type="selectionEntry" targetId="f30f-c9a7-53b4-2bba">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a53c-787f-124c-3f94"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Royal Court" hidden="false" id="24b4-a6e0-1019-29d7" type="selectionEntryGroup" targetId="c8b2-45b3-4924-7da0"/>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Upgrade to Phaeron" hidden="false" id="96c7-806f-423e-4489">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Phaeron" id="607e-ff18-c5e9-3ff2" hidden="false" type="profile" targetId="48c0-23aa-c4a9-9607"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f209-8df3-cfd9-3835"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Loadout" id="88b3-12dc-51c9-2706" hidden="false" defaultSelectionEntryId="4e8d-7198-0fcd-ae5f">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Staff of Light" hidden="false" id="4e8d-7198-0fcd-ae5f">
+              <infoLinks>
+                <infoLink name="Staff of Light" id="66d1-d0fa-8ae4-5233" hidden="false" type="profile" targetId="41a3-28df-7544-359a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d643-263b-5655-9234"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Hyperphase Sword" hidden="false" id="d46c-1b26-8099-4b98">
+              <infoLinks>
+                <infoLink name="Hyperphase Sword" id="574c-5ea8-edc6-ae13" hidden="false" type="profile" targetId="ee7e-67d8-f21e-e8fa"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8db3-9bd9-7030-10b4"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Gauntlet of Fire" hidden="false" id="8365-73de-e109-0009">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Gauntlet of Fire" id="ae5c-117c-e9b7-8d3e" hidden="false" type="profile" targetId="23f1-293e-92d9-56ce"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e347-8b65-0075-c2be"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Voidblade" hidden="false" id="7af2-8834-1c57-0f86">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Voidblade" id="a07d-70a4-819b-2be5" hidden="false" type="profile" targetId="3b19-d44a-0451-eafa"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="12b5-a0d5-4a95-ced4"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Warscythe" hidden="false" id="9fc7-4b75-d42f-33d4">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Warscythe" id="e8d4-c4a9-6893-3fda" hidden="false" type="profile" targetId="18ec-40e1-be6a-2fd2"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a9a3-cc4f-61fa-df80"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="5cd5-e5b0-5b61-b842-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5cd5-e5b0-5b61-b842-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take any of the following" id="aae8-88ac-bfbf-1ee6" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Phylactery" hidden="false" id="0a35-a0c5-ad71-3540">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Phylactery" id="7a35-37cf-c876-f06f" hidden="false" type="profile" targetId="663f-e1b4-6598-8a7a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="609d-534d-979f-eed3"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mindshackle Scarabs" hidden="false" id="fa2c-3b7d-1234-a6e7">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mindshackle Scarabs" id="7f18-119e-d83b-3767" hidden="false" type="profile" targetId="63b9-2df9-63ea-5c07"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb94-c1e2-9203-879c"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Sempiternal Weave" hidden="false" id="952d-a081-fec7-b232">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Sempiternal Weave" id="ded1-e89b-43f2-a0a1" hidden="false" type="profile" targetId="7649-d5f8-65c8-a881"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f3b-2913-cca7-85d2"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Tesseract Labyrinth" hidden="false" id="c93c-c5d1-113d-e17a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Tesseract Labyrinth" id="c9f1-a9d1-9790-c1b2" hidden="false" type="profile" targetId="b9a5-ff72-b654-68b9"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8749-fedf-6d1a-49b5"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Tachyon Arrow" hidden="false" id="235e-52d0-6a63-e53b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Tachyon Arrow" id="24f3-583b-9340-9e68" hidden="false" type="profile" targetId="139d-bb6d-97d6-1882"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dec6-2732-be5e-fe9e"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Resurrection Orb" hidden="false" id="f931-6612-2573-5102">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Resurrection Orb" id="a3e4-4f67-11b1-e4f7" hidden="false" type="profile" targetId="685e-545a-419f-ad43"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f824-7598-a967-7805"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Phase Shifter" hidden="false" id="d730-2aa8-1d95-6602">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Phase Shifter" id="4ad6-f22b-b4f9-ede4" hidden="false" type="profile" targetId="40ab-5096-0f21-97e9"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dcfc-5c09-5101-f111"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Destroyer Lord" hidden="false" id="f355-15e9-12a3-f5c2">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="125"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Destroyer Lord" id="cb69-84f6-6a8f-081b" hidden="false" type="profile" targetId="a648-0595-ca1d-d21c"/>
+        <infoLink name="Jump Infantry" id="c651-df49-8181-bd88" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+        <infoLink name="Ever-living" id="7b59-e05a-7fd2-6e4e" hidden="false" type="profile" targetId="a0a5-03b1-4eee-efb8"/>
+        <infoLink name="Independent Character" id="a707-7291-6826-a366" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Preferred Enemy" id="2730-eb29-05ae-7466" hidden="false" type="profile" targetId="1d62-9aab-05fd-0a35"/>
+        <infoLink name="Reanimation Protocols" id="20de-9383-893c-9713" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Loadout" id="d659-73d1-351d-2f22" hidden="false" defaultSelectionEntryId="1929-de0b-70b9-9618">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Warscythe" hidden="false" id="1929-de0b-70b9-9618">
+              <infoLinks>
+                <infoLink name="Warscythe" id="e8b8-eb3b-98c8-a8da" hidden="false" type="profile" targetId="18ec-40e1-be6a-2fd2"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a526-8884-1632-4ba2"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Gauntlet of Fire" hidden="false" id="f88f-d898-1f80-214a">
+              <infoLinks>
+                <infoLink name="Gauntlet of Fire" id="0cdf-f382-2ac6-c645" hidden="false" type="profile" targetId="23f1-293e-92d9-56ce"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8228-46a5-b9ae-397a"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Staff of Light" hidden="false" id="768a-8289-b957-6622">
+              <infoLinks>
+                <infoLink name="Staff of Light" id="5e85-cd48-40e2-73b2" hidden="false" type="profile" targetId="41a3-28df-7544-359a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba2a-a668-5c79-aa13"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Voidblade" hidden="false" id="5bb4-8b82-adc1-51fd">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Voidblade" id="2d44-615c-0981-dfe7" hidden="false" type="profile" targetId="3b19-d44a-0451-eafa"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e08-94af-56f5-2b48"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="11a7-9472-5493-0fc6-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="11a7-9472-5493-0fc6-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take any of the following" id="f0a1-57e6-85d1-9967" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Mindshackle Scarabs" hidden="false" id="0f12-ee8f-8fb3-8dc2">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mindshackle Scarabs" id="74c8-0cfc-938f-b721" hidden="false" type="profile" targetId="63b9-2df9-63ea-5c07"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d5d7-1b37-4c11-b19c"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Sempiternal Weave" hidden="false" id="641a-a2c3-8daf-99f1">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Sempiternal Weave" id="e337-32e4-e791-6331" hidden="false" type="profile" targetId="7649-d5f8-65c8-a881"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8aa1-da76-6ac8-e526"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Tachyon Arrow" hidden="false" id="df9f-3b50-d0f2-d8ca">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Tachyon Arrow" id="de21-3862-00e1-de2c" hidden="false" type="profile" targetId="139d-bb6d-97d6-1882"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e758-4131-8600-5ebb"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Resurrection Orb" hidden="false" id="9e72-985c-baa4-ee04">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Resurrection Orb" id="236d-fc7c-1a1a-32b9" hidden="false" type="profile" targetId="685e-545a-419f-ad43"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f91f-d1cf-b3c3-ae33"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Necron Lord" hidden="false" id="98a8-50a8-0256-0b68">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Necron Lord" id="b17a-f1b5-0bde-476e" hidden="false" type="profile" targetId="ea64-86cb-8273-5ab4"/>
+        <infoLink name="Ever-living" id="2e1f-ce5e-87f2-7c3e" hidden="false" type="profile" targetId="a0a5-03b1-4eee-efb8"/>
+        <infoLink name="Reanimation Protocols" id="0259-ba00-42a7-9d56" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Loadout" id="d02c-e63e-011d-1ac2" hidden="false" defaultSelectionEntryId="4e8d-7198-0fcd-ae5f">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Staff of Light" hidden="false" id="0347-2578-1f7c-8728">
+              <infoLinks>
+                <infoLink name="Staff of Light" id="7b37-66d3-49a7-00ea" hidden="false" type="profile" targetId="41a3-28df-7544-359a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6248-304d-5c7d-5cca"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Hyperphase Sword" hidden="false" id="050a-a9c2-f22d-85a8">
+              <infoLinks>
+                <infoLink name="Hyperphase Sword" id="f2a6-b863-5982-c780" hidden="false" type="profile" targetId="ee7e-67d8-f21e-e8fa"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f0c7-97f6-a0c6-3eee"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Gauntlet of Fire" hidden="false" id="0f34-718a-3bf4-adf6">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Gauntlet of Fire" id="fb7e-5bdb-2d75-700e" hidden="false" type="profile" targetId="23f1-293e-92d9-56ce"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="71ca-ef4c-900f-c7bd"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Voidblade" hidden="false" id="5441-dab5-93d4-35a6">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Voidblade" id="fa9f-9a88-cdf8-4756" hidden="false" type="profile" targetId="3b19-d44a-0451-eafa"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e3a2-ab6f-646d-4c54"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Warscythe" hidden="false" id="7291-a806-d907-e9c6">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Warscythe" id="53d3-8fe8-1a96-69e5" hidden="false" type="profile" targetId="18ec-40e1-be6a-2fd2"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="130c-3d55-9cb5-18ef"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="d0b7-b480-bc7a-d9da"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="552c-22c6-06b5-d856"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take any of the following" id="3eac-42a4-5948-759c" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Mindshackle Scarabs" hidden="false" id="7db6-c490-846a-7fde">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Mindshackle Scarabs" id="953e-6b70-ab21-5d17" hidden="false" type="profile" targetId="63b9-2df9-63ea-5c07"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d595-a5ec-adf7-52f3"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Sempiternal Weave" hidden="false" id="d8ab-13eb-737b-d818">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Sempiternal Weave" id="3bc5-eaaf-059a-4728" hidden="false" type="profile" targetId="7649-d5f8-65c8-a881"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c47c-aea8-7010-646b"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Tesseract Labyrinth" hidden="false" id="56e7-37df-d257-3aac">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Tesseract Labyrinth" id="fa4c-0cc9-c2d5-a315" hidden="false" type="profile" targetId="b9a5-ff72-b654-68b9"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0163-5587-22d5-bb00"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Resurrection Orb" hidden="false" id="fe08-11de-a4d0-2278">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Resurrection Orb" id="0dd6-3d9b-7f69-ff75" hidden="false" type="profile" targetId="685e-545a-419f-ad43"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4b8-daac-5936-5104"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Phase Shifter" hidden="false" id="976b-37e1-4b07-d19b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Phase Shifter" id="d7fb-5865-ea4d-b426" hidden="false" type="profile" targetId="40ab-5096-0f21-97e9"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="99f9-32f6-f94e-74e5"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cryptek" hidden="false" id="b006-cdd6-0443-1173">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Cryptek" id="cbd5-656d-967b-1c81" hidden="false" type="profile" targetId="e4d5-bae3-d4cd-fa6d"/>
+        <infoLink name="Ever-living" id="f473-efdf-74ed-0446" hidden="false" type="profile" targetId="a0a5-03b1-4eee-efb8"/>
+        <infoLink name="Reanimation Protocols" id="9c9e-8a2d-b39b-b5f0" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+        <infoLink name="Staff of Light" id="2d81-87d6-6b77-0755" hidden="false" type="profile" targetId="41a3-28df-7544-359a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cryptek (Harbringer of Despair)" hidden="false" id="6a1c-6e7d-019e-1427">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Cryptek" id="d941-9e0c-c8ff-c46a" hidden="false" type="profile" targetId="e4d5-bae3-d4cd-fa6d"/>
+        <infoLink name="Ever-living" id="0502-4852-a755-4b60" hidden="false" type="profile" targetId="a0a5-03b1-4eee-efb8"/>
+        <infoLink name="Reanimation Protocols" id="ff27-ce15-91f1-4762" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+        <infoLink name="Abyssal Staff" id="26f4-1fb5-8418-3a14" hidden="false" type="profile" targetId="06ce-1651-972d-de97"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May take any of the following" id="7c61-b13c-ce15-8be2" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Nightmare Shroud" hidden="false" id="141e-9093-1536-8413">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Nightmare Shroud" id="631c-7e2a-9768-ff29" hidden="false" type="profile" targetId="9fde-298f-ab6a-b393"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a35-f443-0252-71f4"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Veil of Darkness" hidden="false" id="f3b4-4291-9cc9-4f0f">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Veil of Darkness" id="5e55-33da-df1b-7b5d" hidden="false" type="profile" targetId="1702-d0d5-f1ce-f730"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49c2-2985-3b10-f605"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cryptek (Harbringer of Destruction)" hidden="false" id="ebaf-30c5-92bb-4dba">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Cryptek" id="665f-3356-ba40-1d37" hidden="false" type="profile" targetId="e4d5-bae3-d4cd-fa6d"/>
+        <infoLink name="Ever-living" id="b6fa-7704-146d-be3a" hidden="false" type="profile" targetId="a0a5-03b1-4eee-efb8"/>
+        <infoLink name="Reanimation Protocols" id="ef7a-7ad3-8be2-d334" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+        <infoLink name="Eldritch Lance" id="09d1-9d9c-3edc-6f4d" hidden="false" type="profile" targetId="dcb3-182c-4da4-8618"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May take any of the following" id="db9c-1a12-46d4-c461" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Gaze of Flame" hidden="false" id="4fd7-516c-8531-9420">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Gaze of Flame" id="349c-35d1-ecb3-6fb0" hidden="false" type="profile" targetId="ecbc-d891-017a-5302"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a48-da5e-bd56-21ee"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Solar Pulse" hidden="false" id="b7bf-b180-ab7f-aee7">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Solar Pulse" id="1fd3-df41-9fe9-2fa5" hidden="false" type="profile" targetId="9cd0-d242-8313-146f"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52d6-58df-575d-60be"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cryptek (Harbringer of Eternity)" hidden="false" id="38c0-3009-a5cf-907a">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Cryptek" id="7d81-5393-4653-fc46" hidden="false" type="profile" targetId="e4d5-bae3-d4cd-fa6d"/>
+        <infoLink name="Ever-living" id="5c90-a70a-b45c-0b19" hidden="false" type="profile" targetId="a0a5-03b1-4eee-efb8"/>
+        <infoLink name="Reanimation Protocols" id="bbae-fc8c-0679-d742" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+        <infoLink name="Aeonstave" id="ce4d-933b-ad53-a471" hidden="false" type="profile" targetId="dc74-10a5-425a-36b2"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May take any of the following" id="a5ff-2b6e-4075-a018" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Chronometron" hidden="false" id="bcaa-23e0-2bf6-225f">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Chronometron" id="e36c-14d6-ff5c-fb9e" hidden="false" type="profile" targetId="1acb-dc33-9168-fdae"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c06a-0dd3-3f00-720b"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Timesplinter Cloak" hidden="false" id="339d-e856-a262-96e0">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Timesplinter Cloak" id="df6f-1a11-37b4-844a" hidden="false" type="profile" targetId="24fe-ae31-22b1-9e2d"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae0e-3813-fc3f-48be"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cryptek (Harbringer of the Storm)" hidden="false" id="c13a-d79b-b039-36e5">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Cryptek" id="9fa7-75f8-8864-fcc1" hidden="false" type="profile" targetId="e4d5-bae3-d4cd-fa6d"/>
+        <infoLink name="Ever-living" id="9b57-934b-47bf-02e3" hidden="false" type="profile" targetId="a0a5-03b1-4eee-efb8"/>
+        <infoLink name="Reanimation Protocols" id="5f61-7027-66b9-9c3e" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+        <infoLink name="Voltaic Staff" id="c72c-2098-e3e8-9798" hidden="false" type="profile" targetId="22b3-1aa6-825f-62b1"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May take any of the following" id="3b8a-4eb5-f4e5-1f23" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Lightning Field" hidden="false" id="46fb-2a50-54d6-3798">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lightning Field" id="02f8-be3d-9ecc-d84a" hidden="false" type="profile" targetId="7fad-29cc-8b8c-7e98"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d790-6295-e2ca-1ea2"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ether Crystal" hidden="false" id="ae91-9720-0a68-9cff">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Ether Crystal" id="0740-0655-0720-1416" hidden="false" type="profile" targetId="a94c-6bf7-b05c-6e5c"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e1f-a7f2-fed5-7d08"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cryptek (Harbringer of Transmogrification)" hidden="false" id="6acb-002f-261d-a1a6">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Cryptek" id="b3cd-b9d1-fd3f-2e9e" hidden="false" type="profile" targetId="e4d5-bae3-d4cd-fa6d"/>
+        <infoLink name="Ever-living" id="44d4-c03d-6cba-301f" hidden="false" type="profile" targetId="a0a5-03b1-4eee-efb8"/>
+        <infoLink name="Reanimation Protocols" id="e981-26ce-5545-ad4f" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+        <infoLink name="Tremorstave" id="220d-a5cf-1f99-6362" hidden="false" type="profile" targetId="f589-8297-86df-0728"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May take any of the following" id="51d2-1681-d6dd-e49e" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Harp of Dissonance" hidden="false" id="b13d-24f4-449c-40bb">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Harp of Dissonance" id="ff2f-d855-8d8a-db52" hidden="false" type="profile" targetId="2917-54a0-8a05-af65"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e217-9eb6-87bf-fa29"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Seismic Crucible" hidden="false" id="44f6-87d1-e124-06ad">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Seismic Crucible" id="d657-5c60-4e96-2d7e" hidden="false" type="profile" targetId="5cef-f77c-bf0f-adb8"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d42-96f8-c17c-314c"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Necron Warriors" hidden="false" id="c872-29a0-23be-1c8b">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Warriors" hidden="false" id="4e77-a19e-cfc8-68b0">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="13"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Necron Warrior" id="f0eb-dde2-cca8-b663" hidden="false" type="profile" targetId="95d0-e835-9e47-5e9d"/>
+            <infoLink name="Gauss Blaster" id="fe33-002f-2dee-7e5a" hidden="false" type="profile" targetId="dae5-6f92-4507-9ceb"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="94a3-dd28-7714-13bc"/>
+            <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="a435-cf99-e0d9-81c1"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Reanimation Protocols" id="9b0b-e375-d5f1-2aab" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Dedicated Transport" id="519a-4b73-1b4a-3d53" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Ghost Ark" hidden="false" id="d5c0-55e9-0c05-cbbe" type="selectionEntry" targetId="e6c2-325b-2d0b-e1b7">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="23e7-cca9-8728-be9c"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Night Scythe" hidden="false" id="b137-3003-2a76-fc94" type="selectionEntry" targetId="ffe6-528a-fa3b-9bef">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="855a-08b7-cd13-6f8a"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="eeef-09ea-e0ec-2099"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ghost Ark" hidden="false" id="e6c2-325b-2d0b-e1b7">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="115"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Ghost Ark" id="a304-200a-c450-2a54" hidden="false" type="profile" targetId="f176-0371-aff9-9d2c"/>
+        <infoLink targetId="689c-5adf-6101-5e2f" id="f5fc-b7a7-579c-8e2a" type="profile" name="Gauss Flayer Arrays" hidden="false"/>
+        <infoLink name="Open-topped" id="c8f4-f145-9b5d-954b" hidden="false" type="rule" targetId="21d9-2669-1dba-9fb2"/>
+        <infoLink name="Skimmer" id="1f0e-a9db-bb9a-81ef" hidden="false" type="rule" targetId="5768-8357-f0e3-1484"/>
+        <infoLink name="Living Metal" id="4e33-60c9-8787-f794" hidden="false" type="rule" targetId="2290-30ee-3a0d-005c"/>
+        <infoLink name="Quantum Shielding" id="7341-b118-509f-9dee" hidden="false" type="profile" targetId="e4ed-9f4a-71e8-cd3a"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Ghost Ark" typeId="9a37-e4d2-11fe-9e81" typeName="Transport" hidden="false" id="5d39-0d0e-ecfc-d094">
+          <characteristics>
+            <characteristic name="Capacity" typeId="7cdf-4c80-a83d-200c">10 Models. It can only carry Necron Warriors, Necron Lords, Overlords, Crypteks and the Necron special characters.</characteristic>
+            <characteristic name="Access Points" typeId="6e42-3bd5-70a6-724f"/>
+            <characteristic name="Fire Points" typeId="aa94-ae0c-98e7-5923"/>
+          </characteristics>
+        </profile>
+        <profile name="Repair Barge" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="0f82-7cc8-ea9a-12a7">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">At the start of each Necron Movement phase, a Ghost Ark can expend energy to repair fallen Necrons. Nominate a unit of Necron Warriors within 6&quot; (or embarked on) the Ghost Ark and roll a D6. If the score is 2 or more, add D3 models to the unit - the models can move and act normally this turn. This cannot take the unit beyond its starting size. If a model cannot be placed for any reason, it is destroyed. On a roll of a 1, place the models as described above, however the Ghost Ark is drained and suffers a glancing hit with no saves allowed.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Night Scythe" hidden="false" id="ffe6-528a-fa3b-9bef">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="100"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Night Scythe" id="4a14-d272-29c3-9cfd" hidden="false" type="profile" targetId="5a0e-c661-08a3-442b"/>
+        <infoLink targetId="17c6-045d-4a27-cd75" id="6ac0-b6c1-a9b1-fdcd" type="profile" name="Aerial Assault" hidden="false"/>
+        <infoLink name="Twin-linked Tesla Destructor" id="ee30-8473-7b8d-e07d" hidden="false" type="profile" targetId="7b80-9ea2-4de8-b066"/>
+        <infoLink targetId="9cef-a415-78d4-c5d2" id="8b1c-6e87-43c8-869f" type="profile" name="Supersonic" hidden="false"/>
+        <infoLink name="Fast" id="79fc-db81-c47d-4235" hidden="false" type="rule" targetId="4d59-8511-a8e5-1f62"/>
+        <infoLink name="Skimmer" id="a327-962c-920a-a5cf" hidden="false" type="rule" targetId="5768-8357-f0e3-1484"/>
+        <infoLink name="Deep Strike" id="33ef-0011-bc26-8d60" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
+        <infoLink name="Living Metal" id="d7d8-e68e-6cad-e8b0" hidden="false" type="rule" targetId="2290-30ee-3a0d-005c"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Night Scythe" typeId="9a37-e4d2-11fe-9e81" typeName="Transport" hidden="false" id="79b2-1dce-8d2b-96e1">
+          <characteristics>
+            <characteristic name="Capacity" typeId="7cdf-4c80-a83d-200c">15 Models. It can carry jump infantry (each model takes up two points of transport capacity) and jetbikes (each model takes up three points of transport capacity). If the Night Scythe is destroyed, the embarked unit is not allowed to disembark, but instead enters reserve (when they arrive, they cannot deep strike).</characteristic>
+            <characteristic name="Access Points" typeId="6e42-3bd5-70a6-724f">Treat the wormhole gateway on the underside of the Night Scythe as its access point. For the purposes of embarking and disembarking from a Night Scythe, measure to and from the model&apos;s base. For example, models wishing to embark within a Night Scythe can do so if at the end of their movement, all models of the unit are within 2&quot; of the Night Scythe base.</characteristic>
+            <characteristic name="Fire Points" typeId="aa94-ae0c-98e7-5923">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Necron Immortals" hidden="false" id="fc97-40c5-7775-6a74">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Immortals" hidden="false" id="60b5-ffc7-5a1c-f8c1">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="17"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Necron Immortal" id="cab3-7677-0373-c552" hidden="false" type="profile" targetId="60f6-2ab2-a0fa-3010"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Loadout" id="d7a0-19a8-d898-e447" hidden="false" defaultSelectionEntryId="0826-a3c0-9c5f-da80">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Tesla Carbine" hidden="false" id="0826-a3c0-9c5f-da80">
+                  <infoLinks>
+                    <infoLink name="Tesla Carbine" id="1c50-e900-7618-e6f2" hidden="false" type="profile" targetId="da7c-fb89-658b-90bd"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff1b-94da-a8ff-e446"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Gauss Blaster" hidden="false" id="80c2-97c0-384e-c37d">
+                  <infoLinks>
+                    <infoLink name="Gauss Blaster" id="81ec-0947-b030-3aca" hidden="false" type="profile" targetId="dae5-6f92-4507-9ceb"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b95e-9420-406c-20f6"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="912a-73c6-7b5f-069b-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="912a-73c6-7b5f-069b-max"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="c3ca-7b36-35cd-561e"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="c78f-1abd-1da2-a829"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Reanimation Protocols" id="7a6e-a472-25af-1023" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Night Scythe" hidden="false" id="54c3-a2ff-5752-8f16" type="selectionEntry" targetId="ffe6-528a-fa3b-9bef">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2166-9018-bf9f-e82b"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Deathmarks" hidden="false" id="3f6d-50f3-3a6d-7ad3">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Deathmark" hidden="false" id="793b-32b2-81db-4cd0">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="19"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Deathmark" id="44ce-a1c6-9a95-b4d7" hidden="false" type="profile" targetId="60cc-ba81-41f8-f60d"/>
+            <infoLink name="Synaptic Disintegrator" id="b33e-6e17-0fb3-a853" hidden="false" type="profile" targetId="fbf5-746b-854c-25c1"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="655c-8b72-c4f4-d889"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="eab0-5536-81b1-1ce2"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="43b6-ca06-a24e-b183" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
+        <infoLink name="Reanimation Protocols" id="d51c-f314-1852-1800" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Night Scythe" hidden="false" id="7ea3-9e22-5e77-2d18" type="selectionEntry" targetId="ffe6-528a-fa3b-9bef">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="551e-1c2f-0e03-4782"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <profiles>
+        <profile name="Ethereal Interception" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="6491-a0c8-ff70-cf46">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Immediately after an enemy unit arrives from reserve, any Deathmark units in Deep Strike reserve that have not yet entered play can themselves choose to enter play via Deep Strike, usually in the enemy turn. Any Deathmark unit that choose not to enter play in this fashion make reserve rolls as normal in subsequent turns.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hunters from Hyperspace" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="02a9-f0ff-a31b-c1d8">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">When a Deathmark unit deploys, choose a non-vehicle enemy unit on the battlefield (even a unit in a transport) to be their prey - place a counter next to the chosen unit to serve as a reminder. Any Deathmark unit that shoots at, or strikes blows against, a unit marked in this fashion will score a Wound on a roll of 2+.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lychguards" hidden="false" id="d14b-dae2-cce2-6d17">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Lychguard" hidden="false" id="26ba-da65-213b-7637">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Lychguard" id="e4a6-23b3-924b-fdfa" hidden="false" type="profile" targetId="0adf-539e-bd75-c899"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="709d-da93-c2b0-2998"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="0d14-4bbe-f195-06e8"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Loadout (entire squad must take the same loadout)" id="1a1c-3b0d-b357-cb79" hidden="false" defaultSelectionEntryId="482b-f24f-5d4f-d81d">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Warscythe" hidden="false" id="482b-f24f-5d4f-d81d">
+                  <infoLinks>
+                    <infoLink name="Warscythe" id="dcbb-647a-7f92-163f" hidden="false" type="profile" targetId="18ec-40e1-be6a-2fd2"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e2a8-ca3a-166c-45d0"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Hyperphase Swords and Dispersion Shields" hidden="false" id="e5c5-ec5c-b5e5-937c">
+                  <infoLinks>
+                    <infoLink name="Hyperphase Sword" id="9dc4-dfc4-3bbd-0b27" hidden="false" type="profile" targetId="ee7e-67d8-f21e-e8fa"/>
+                    <infoLink name="Dispersion Shield" id="7aba-9576-26f2-542d" hidden="false" type="profile" targetId="d552-be64-5417-2bb1"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="200b-8a8d-cba5-7397"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Reanimation Protocols" id="2d44-4967-5428-4645" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Night Scythe" hidden="false" id="63bd-cade-8d2b-163c" type="selectionEntry" targetId="ffe6-528a-fa3b-9bef">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b1cc-0c17-18fd-2c48"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Triarch Praetorians" hidden="false" id="f0cc-722a-5c64-7fbd">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Praetorian" hidden="false" id="81d7-8427-83c5-d66d">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="bd9c-8aea-a1fc-1893"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="6064-1ada-0de3-1d92"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Triarch Praetorian" id="5491-09e3-a330-d6e4" hidden="false" type="profile" targetId="4d07-0302-40e9-5d89"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Loadout (entire squad must take the same loadout)" id="34ee-eeda-e1a0-a77e" hidden="false" defaultSelectionEntryId="482b-f24f-5d4f-d81d">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Rod of Covenant" hidden="false" id="cfda-a97b-ee45-3a2c">
+                  <infoLinks>
+                    <infoLink name="Rod of Covenant" id="3073-775d-6339-915c" hidden="false" type="profile" targetId="aca9-ff98-db5d-cf2d"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5204-0d94-2b5f-48c2"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Voidblades and Particle Casters" hidden="false" id="0c2e-aeda-1920-a8da">
+                  <infoLinks>
+                    <infoLink name="Particle Caster" id="079c-adc3-bce0-6126" hidden="false" type="profile" targetId="249c-1ff7-0cd5-a720"/>
+                    <infoLink name="Voidblade" id="f39c-dfbc-63c1-4338" hidden="false" type="profile" targetId="3b19-d44a-0451-eafa"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d39-e6ea-1aa1-3262"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Jump Infantry" id="37e9-4663-e46c-043b" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+        <infoLink name="Fearless" id="c742-12b9-9c37-4d53" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Reanimation Protocols" id="ed8b-501c-47b5-8bac" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="C&apos;tan Shard" hidden="false" id="5a73-8391-ea3e-a310">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="185"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="C&apos;tan Shard" id="f7d5-376c-b916-df13" hidden="false" type="profile" targetId="8dae-e961-bd64-a06d"/>
+        <infoLink name="Monstrous Creature" id="8cc3-2ad7-56d4-44bc" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Fearless" id="ac87-9c7f-3497-37db" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Eternal Warrior" id="a385-e5bb-940c-6be2" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Must take two of the following (only one of each per army)" id="dca8-f8b4-5e67-5ce7" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Entropic Touch" hidden="false" id="f75e-fa21-0ad1-d524">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Entropic Touch" id="e5f0-2a25-06b3-5334" hidden="false" type="profile" targetId="d08f-ed51-0609-4907"/>
+                <infoLink name="Entropic Strike" id="2039-12ac-6c7a-bee2" hidden="false" type="rule" targetId="88dd-202a-716c-bb3e"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e595-8eb9-b4f3-04a6" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lord of Fire" hidden="false" id="ec36-53af-505c-c9a8">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lord of Fire" id="441e-7faa-3bce-a0bb" hidden="false" type="profile" targetId="87a6-773a-34e8-3fd4"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2249-e253-cd3f-b5e5" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Pyreshards" hidden="false" id="2a86-d2a3-2885-1371">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Pyreshards" id="7414-17e0-dfdf-47b3" hidden="false" type="profile" targetId="81d6-5768-825d-404c"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5776-6085-1018-ab2b" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Swarm of Spirit Dust" hidden="false" id="8551-a277-e78c-b18b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Swarm of Spirit Dust" id="b69a-4933-3c5a-bd74" hidden="false" type="profile" targetId="11be-74be-018e-a05f"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0a5c-6075-542f-da6e" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Moulder of Worlds" hidden="false" id="5155-445e-cb82-30ab">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Moulder of Worlds" id="8da2-c05b-f0da-a2a3" hidden="false" type="profile" targetId="e1f3-2c04-90b6-96e6"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d66a-4d67-f5b9-e639" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Sentient Singularity" hidden="false" id="78c0-d515-541a-105b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Sentient Singularity" id="3440-cd54-2f4f-de94" hidden="false" type="profile" targetId="c7ba-692e-646a-0bb9"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7446-040f-7b7c-aa7a" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Writhing Worldscape" hidden="false" id="63b1-44e9-38c8-5977">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Writhing Worldscape" id="7e43-ed00-221f-c1fc" hidden="false" type="profile" targetId="da7c-0367-68f3-bf0c"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1489-051f-ab90-17af" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Grand Illusion" hidden="false" id="99ba-857f-fe4c-4cde">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Grand Illusion" id="7a86-7460-a0e7-14b3" hidden="false" type="profile" targetId="8ce7-f42c-df5e-d6c4"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b821-1d87-dc44-7ba2" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Time&apos;s Arrow" hidden="false" id="5c5d-6af5-29ec-d77b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Time&apos;s Arrow" id="177c-5eb3-fb31-0adb" hidden="false" type="profile" targetId="52a5-f0d2-0490-da29"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="02b4-17cc-48ee-4ab1" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Transdimensional Thunderbolt" hidden="false" id="d123-6670-d38e-559a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Transdimensional Thunderbolt" id="d35f-e5e1-4c6c-280d" hidden="false" type="profile" targetId="a914-15db-e8f0-dc00"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1c24-cd48-a9ac-ed77" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Gaze of Death" hidden="false" id="9ee4-cdf1-be9f-c4f9">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Gaze of Death" id="dc4e-c139-a2c0-b166" hidden="false" type="profile" targetId="0b3b-f000-2331-bab1"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a0df-b293-c372-809b" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="self" shared="true" id="f79d-bb06-e733-ce28-min"/>
+            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="f79d-bb06-e733-ce28-max"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="Necrodermis" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="7a78-87da-0ebc-25b7">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">C&apos;tan Shards have a 4+ Invulnerable save. If the C&apos;tan Shard loses its last Wound, models within D6&quot; of the C&apos;tan Shard suffer a Strength 4, AP 1 hit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Immune to Natural Law" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="2111-1e48-2a46-9886">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">C&apos;tan Shards ignore the effects of Difficult and Dangerous Terrain while moving.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Flayed One Pack" hidden="false" id="8c7a-a344-7026-ade2">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Flayed One" hidden="false" id="3c32-f12a-3fa3-7d10">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="13"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Flayed One" id="3400-04af-c4dc-7e66" hidden="false" type="profile" targetId="1e36-3082-8cde-62e2"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="19c9-a2a2-1737-2ebf"/>
+            <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="db46-169f-34a2-10df"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Deep Strike" id="f0aa-b46d-11e7-3a13" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
+        <infoLink name="Infiltrate" id="f6fe-7326-a254-7b0a" hidden="false" type="profile" targetId="db64-5b1f-d306-b354"/>
+        <infoLink name="Reanimation Protocols" id="608e-ca7c-00c5-8db2" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Triarch Stalker" hidden="false" id="a98c-b1cb-21d6-1c03">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="150"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Triarch Stalker" id="490e-91c3-eb36-0a58" hidden="false" type="profile" targetId="c5e2-a0d8-8dc9-5f32"/>
+        <infoLink name="Open-topped" id="47f5-bbfa-d161-3271" hidden="false" type="rule" targetId="21d9-2669-1dba-9fb2"/>
+        <infoLink name="Walker" id="ffbc-46c0-0a35-7351" hidden="false" type="rule" targetId="fea1-2c4a-c33c-5600"/>
+        <infoLink name="Quantum Shielding" id="9dde-1cad-c6e4-7fcf" hidden="false" type="profile" targetId="e4ed-9f4a-71e8-cd3a"/>
+        <infoLink name="Living Metal" id="1d48-ece3-faec-2733" hidden="false" type="rule" targetId="2290-30ee-3a0d-005c"/>
+        <infoLink name="Move Through Cover" id="7248-7205-01fe-afe8" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Loadout" id="c5f8-c7d8-ea97-f02e" hidden="false" defaultSelectionEntryId="d697-4a3a-4f84-2bc5">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Heat Ray" hidden="false" id="d697-4a3a-4f84-2bc5">
+              <infoLinks>
+                <infoLink name="Heat Ray (Dispersed)" id="5733-c730-cbdd-febd" hidden="false" type="profile" targetId="0755-8bbd-11ca-4a21"/>
+                <infoLink name="Heat Ray (Focussed)" id="6487-0fe4-6f13-0dbe" hidden="false" type="profile" targetId="4285-6c83-11f7-ffa3"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf97-8784-e264-985b"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Particle Shredder" hidden="false" id="6a89-3143-41b6-9088">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Particle Shredder" id="d70a-645c-5451-0e9a" hidden="false" type="profile" targetId="a033-05b1-860d-a57d"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1cda-92d9-84a4-f503"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Heavy Gauss Cannon" hidden="false" id="3826-1462-4ad3-407f">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Twin-linked Heavy Gauss Cannon" id="bbbd-ab32-5907-bf0c" hidden="false" type="profile" targetId="632c-aabe-ab42-1475"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad96-7bf4-71ae-d415"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="1a06-6010-01fe-70ca-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1a06-6010-01fe-70ca-max"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="Targeting Relay" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="7b26-3b4d-005e-2a15">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Triarch Stalker shoots at an enemy unit and manages at least one hit, place a counter or coin next to the target. All other friendly units that shoot at the same target later in the same Shooting phase count their weapons as Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Canoptek Wraiths" hidden="false" id="0616-738d-2071-df1a">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Wraith" hidden="false" id="46dd-cfed-1a18-d132">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Canoptek Wraith" id="f53b-0225-1e4e-5ce8" hidden="false" type="profile" targetId="1920-5f99-3b9b-2317"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="71e9-8c97-e1ad-236c"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="7457-e309-f8ae-b9b5"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="May take one of the following" id="6cb6-6856-1ff2-c5d3" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Particle Caster" hidden="false" id="c483-e4ee-ff39-c76f">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Particle Caster" id="8e3a-3da5-a6dd-4a82" hidden="false" type="profile" targetId="249c-1ff7-0cd5-a720"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="393d-d329-6b98-00ef"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Whip Coils" hidden="false" id="aed6-27a7-3490-8e42">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d035-de32-6337-9043"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Whip Coils" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="cea0-a41a-cbfe-06dc">
+                      <characteristics>
+                        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">Whilst any model is in base contact with a model with whip coils they count their Initiative value as 1, regardless of their actual Initiative value.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Transdimensional Beamer" hidden="false" id="bbef-beba-d97b-769b">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Transdimensional Beamer" id="c7d4-d77c-1da8-715c" hidden="false" type="profile" targetId="292d-6c70-e3ba-1f92"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac99-02e9-d456-256b"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="f33d-7105-4087-d5c0"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Phase Shifter" id="b3e5-76f6-6e9c-76d7" hidden="false" type="profile" targetId="40ab-5096-0f21-97e9"/>
+        <infoLink name="Fearless" id="d49b-de00-0064-b736" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Jump Infantry" id="9c2a-1965-6f3d-9a97" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Phase Attacks" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="b59b-ef8c-c759-0667">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Close combat attacks made by Canoptek Wraiths have the Rending special rule.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Wraithflight" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="d412-b019-6c46-7f8c">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Canoptek Wraiths are never slowed by Difficult Terrain, and automatically pass Dangerous Terrain tests.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Canoptek Scarabs" hidden="false" id="a65a-ab2c-c775-2d34">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Scarabs" hidden="false" id="3642-f438-8279-17b8">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Canoptek Scarabs" id="b37a-3b18-f317-8567" hidden="false" type="profile" targetId="d2fa-2641-e1de-c36a"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="fc1a-a9e0-4163-f186"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="43b7-a6ec-c35d-d87b"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Beast" id="a85e-0964-aea4-9ba8" hidden="false" type="rule" targetId="0b22-19ae-f545-c0ba"/>
+        <infoLink name="Fearless" id="9483-1e32-8667-7327" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Entropic Strike" id="8bc2-8fea-85cb-31fd" hidden="false" type="rule" targetId="88dd-202a-716c-bb3e"/>
+        <infoLink name="Swarm" id="9e88-7ab7-2efc-3818" hidden="false" type="rule" targetId="d74e-1928-0d91-b80a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Tomb Blades" hidden="false" id="a016-0796-7fb7-410a">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Tomb Blade" hidden="false" id="7e2c-5da6-f284-139f">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Tomb Blade" id="a7c4-2fc8-a111-cdd7" hidden="false" type="profile" targetId="7c4a-cc80-58ec-0b53"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3497-bbe5-2832-1a85"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="b29c-81c5-1615-0f59"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Loadout (entire unit must take the same loadout)" id="fab1-102b-8641-8e62" hidden="false" defaultSelectionEntryId="5b6d-c8dd-5753-5618">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Twin-linked Tesla Carbines" hidden="false" id="5b6d-c8dd-5753-5618">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aab3-94f9-8992-104d"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Twin-linked Tesla Carbine" id="7af0-d761-b394-ced9" hidden="false" type="profile" targetId="4b4a-7735-06e2-cae8"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Twin-linked Gauss Blasters" hidden="false" id="3a28-a724-716d-4967">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="25c2-59be-30c4-a8c5"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Twin-linked Gauss Blaster" id="9127-5170-c431-2b68" hidden="false" type="profile" targetId="5d5d-3f1f-9afe-6a67"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Particle Beamers" hidden="false" id="1fef-8d82-aa2d-1f7d">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Particle Beamer" id="8bab-4e09-5abb-484c" hidden="false" type="profile" targetId="64eb-3191-7486-f344"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e73-4d31-49c9-521d"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="0d4a-1a92-ae49-4558-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0d4a-1a92-ae49-4558-max"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="The entire unit may take any of the following" id="bf0e-d6e0-e687-7e89" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Neuloscopes" hidden="false" id="83fd-04d3-d1dc-c3c5">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Nebuloscopes" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="504c-3c63-84ee-06f9">
+                      <characteristics>
+                        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with a Nebuloscope has a Ballistic Skill of 5.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d94-d2ac-223a-250a"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Shadowlooms" hidden="false" id="91d0-1af0-1e5e-632c">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a1dc-89fb-df41-bc88"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Shadowlooms" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="5418-69d3-e2bc-0a8d">
+                      <characteristics>
+                        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with a Shadowloom has the Stealth special rule.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Shield Vanes" hidden="false" id="bffa-7b3c-b323-78ef">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="edb5-8d30-fb66-6649"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Shield Vanes" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="4ed2-5983-2fe9-6660">
+                      <characteristics>
+                        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with Shield Vanes has an armour save of 3+.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Jetbike" id="b29e-15ef-1d32-3423" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
+        <infoLink name="Reanimation Protocols" id="0abb-0b92-3a0b-47d6" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Necron Destroyers" hidden="false" id="0ba3-b4c0-09d8-efdd">
+      <infoLinks>
+        <infoLink name="Jump Infantry" id="4851-1ebc-4473-c36e" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+        <infoLink name="Preferred Enemy" id="ef98-c2e0-f337-3b91" hidden="false" type="profile" targetId="1d62-9aab-05fd-0a35"/>
+        <infoLink name="Reanimation Protocols" id="60ab-33d4-16fc-ee7f" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Unit" id="bbf5-0d72-59e8-b1a5" hidden="false" defaultSelectionEntryId="27d9-e9da-eba5-a624">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Destroyers" hidden="false" id="27d9-e9da-eba5-a624">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="289b-8565-5645-30b7"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Necron Destroyer" id="1ea7-976a-1f1e-567a" hidden="false" type="profile" targetId="f68b-dcf3-0ad3-da5c"/>
+                <infoLink name="Gauss Cannon" id="1331-fd9d-7e55-4e06" hidden="false" type="profile" targetId="d2ed-ca20-e2ce-9763"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Heavy Destroyer" hidden="false" id="d84d-5594-6941-f86b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="60"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Heavy Destroyer" id="f24a-fb0c-f20d-4a96" hidden="false" type="profile" targetId="6e75-f45d-9ed3-7979"/>
+                <infoLink name="Heavy Gauss Cannon" id="cbfa-0ab8-397a-3bc5" hidden="false" type="profile" targetId="9781-00fd-f871-6cb8"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1ceb-4e7a-2937-a018"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="5" field="selections" scope="self" shared="true" id="5f9d-9739-9e35-33a5"/>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="0bd5-8f1d-b259-67ad"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Doomsday Ark" hidden="false" id="e268-4d70-21ab-7f61">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="175"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Doomsday Ark" id="6023-6c4f-4db8-46be" hidden="false" type="profile" targetId="b4ad-a836-0f0e-5776"/>
+        <infoLink name="Open-topped" id="369d-0878-bf0a-50b0" hidden="false" type="rule" targetId="21d9-2669-1dba-9fb2"/>
+        <infoLink name="Skimmer" id="b716-38bc-5e96-6078" hidden="false" type="rule" targetId="5768-8357-f0e3-1484"/>
+        <infoLink name="Living Metal" id="1772-1586-b67b-78d4" hidden="false" type="rule" targetId="2290-30ee-3a0d-005c"/>
+        <infoLink name="Doomsday Cannon (Combat Speed)" id="06d5-d0d6-e22d-c513" hidden="false" type="profile" targetId="0bd7-ee89-0bd5-ada2"/>
+        <infoLink name="Doomsday Cannon (Stationary)" id="0aae-1a2f-d426-86c0" hidden="false" type="profile" targetId="7dad-50b0-3927-931c"/>
+        <infoLink name="Gauss Flayer Arrays" id="1fbb-e0b9-1e8c-9756" hidden="false" type="profile" targetId="689c-5adf-6101-5e2f"/>
+        <infoLink name="Quantum Shielding" id="ef0e-5121-7076-0c44" hidden="false" type="profile" targetId="e4ed-9f4a-71e8-cd3a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Annihilation Barge" hidden="false" id="6c2f-77e6-539c-f880">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="90"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Annihilation Barge" id="75e2-3ad8-776a-be10" hidden="false" type="profile" targetId="012d-8aef-7d0b-bfb6"/>
+        <infoLink name="Skimmer" id="dab9-3f96-9631-1a71" hidden="false" type="rule" targetId="5768-8357-f0e3-1484"/>
+        <infoLink name="Open-topped" id="0b9a-1a5a-7407-375a" hidden="false" type="rule" targetId="21d9-2669-1dba-9fb2"/>
+        <infoLink name="Quantum Shielding" id="4458-aed3-b898-005d" hidden="false" type="profile" targetId="e4ed-9f4a-71e8-cd3a"/>
+        <infoLink name="Twin-linked Tesla Destructor" id="6949-ac63-3f67-c750" hidden="false" type="profile" targetId="7b80-9ea2-4de8-b066"/>
+        <infoLink name="Living Metal" id="6011-fcfa-b070-a748" hidden="false" type="rule" targetId="2290-30ee-3a0d-005c"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Loadout" id="68f9-ce66-8174-eb63" hidden="false" defaultSelectionEntryId="a30c-d457-f4ee-d609">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Tesla Cannon" hidden="false" id="a30c-d457-f4ee-d609">
+              <infoLinks>
+                <infoLink name="Tesla Cannon" id="0a60-06c5-cb81-44bb" hidden="false" type="profile" targetId="d01e-306f-88e9-1f3a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ce6-637f-dbc7-a907"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Gauss Cannon" hidden="false" id="0216-9015-b102-6ef6">
+              <infoLinks>
+                <infoLink name="Gauss Cannon" id="81db-bce4-3554-a7ed" hidden="false" type="profile" targetId="d2ed-ca20-e2ce-9763"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f62b-9238-43bd-02a0"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="6af9-faf7-5d4d-381d-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="6af9-faf7-5d4d-381d-max"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Necron Monolith" hidden="false" id="6195-cf41-c6e1-367a">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="200"/>
+      </costs>
+      <infoLinks>
+        <infoLink targetId="347c-eae2-8f72-1ae9" id="1279-177d-7cfa-e658" type="rule" name="Heavy" hidden="false"/>
+        <infoLink name="Necron Monolith" id="e58b-ea9c-eec3-03b5" hidden="false" type="profile" targetId="1732-5a5e-895a-7976"/>
+        <infoLink name="Tank" id="59d4-196b-0a05-46f6" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
+        <infoLink name="Skimmer" id="64b4-a27a-83ff-8462" hidden="false" type="rule" targetId="5768-8357-f0e3-1484"/>
+        <infoLink name="Gauss Flux Arc" id="954f-a5a6-effa-1903" hidden="false" type="profile" targetId="0f3e-20e1-402d-1304"/>
+        <infoLink name="Gauss Flux Arc" id="a091-1698-246f-90d2" hidden="false" type="profile" targetId="0f3e-20e1-402d-1304"/>
+        <infoLink name="Gauss Flux Arc" id="522c-2d86-c0c1-5805" hidden="false" type="profile" targetId="0f3e-20e1-402d-1304"/>
+        <infoLink name="Gauss Flux Arc" id="cf93-3a55-1fb5-2723" hidden="false" type="profile" targetId="0f3e-20e1-402d-1304"/>
+        <infoLink name="Particle Whip" id="5020-f55f-ee41-6f96" hidden="false" type="profile" targetId="c74a-9967-0fc9-a025"/>
+        <infoLink name="Living Metal" id="19ee-8ab9-3e18-a289" hidden="false" type="rule" targetId="2290-30ee-3a0d-005c"/>
+        <infoLink name="Eternity Gate Portal of Exile" id="3664-b6fa-92f4-ba37" hidden="false" type="profile" targetId="ec6a-b2b1-fff4-bcc0"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Eternity Gate" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="ff71-6bad-7887-9ca7">
+          <characteristics>
+            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Eternity gate can be used in one of two ways in each of your turns, as a dimensional cooridor or a portal of exile. The eternity gate cannot be destroyed separately from the Monolith: 
+
+
+•Dimensional Corridor
+
+
+•Portal of Exile</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Eternity Gate (Dimensional Corridor)" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="324d-7839-3d86-7168">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">At the start of the Movement phase, choose one friendly unengaged non-vehicle Necron unit on the battlefield or in reserve. That unit immediately phases out from its current position and &apos;disembarks&apos; from the Monolith&apos;s portal. Any models that cannot be placed are removed as casualties, but the move is otherwise trated exactly as disembarking from a vehicle that has moved at combat speed</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Monolith Deep Strike" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="f42e-9421-984c-00bd">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Monolith is held in reserve, it must arrive by Deep Strike.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Doom Scythe" hidden="false" id="3db4-8a49-abae-927a">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="175"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Doom Scythe" id="5743-7e75-d8d5-6cc8" hidden="false" type="profile" targetId="0a66-e4a0-3449-23fc"/>
+        <infoLink name="Fast" id="427d-5ba7-5b49-fb9a" hidden="false" type="rule" targetId="4d59-8511-a8e5-1f62"/>
+        <infoLink name="Skimmer" id="a630-4dfa-3b66-6d82" hidden="false" type="rule" targetId="5768-8357-f0e3-1484"/>
+        <infoLink name="Death Ray" id="0a5b-ccb0-c55f-80bd" hidden="false" type="profile" targetId="84a6-9652-fb97-0419"/>
+        <infoLink name="Twin-linked Tesla Destructor" id="8572-78ba-2211-f555" hidden="false" type="profile" targetId="7b80-9ea2-4de8-b066"/>
+        <infoLink name="Deep Strike" id="dd0e-0abf-17bf-4e31" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
+        <infoLink name="Supersonic" id="8e75-d2c8-f259-d32d" hidden="false" type="profile" targetId="9cef-a415-78d4-c5d2"/>
+        <infoLink name="Aerial Assault" id="3254-ab2b-f517-5dc2" hidden="false" type="profile" targetId="17c6-045d-4a27-cd75"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Canoptek Spyder" hidden="false" id="9e86-7865-d938-e140">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Spyder" hidden="false" id="7a7c-ecc5-0b72-0d1a">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Canoptek Spyder" id="fe49-f276-6432-19b9" hidden="false" type="profile" targetId="c7b3-b9d1-971f-03b7"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eef7-2b2f-4b8e-9707"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="11ff-f244-5bcd-fdf8"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Any Canoptek Spyder may take" id="099e-b804-a0d1-cea0" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Fabricator Claw Array" hidden="false" id="9ddc-9715-ab0f-aa2f">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8772-135a-ccea-0cc6"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Fabricator Claw Array" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="c5ba-f3b7-f15c-f8ef">
+                      <characteristics>
+                        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Fabricator claw is a close combat weapon. In addition, if a Canoptek Spyder with Fabricator Claws is in base contact with a damaged vehicle during the Shooting phase, it can attempt to repair one vehicle instead of making a shooting attack.
+
+
+Roll a D6. If the result is 4 or more, then either a Weapon Destroyed result or Immobilised result (owning player&apos;s choice) is repaired. If a Weapon Destroyed result is repaired, that weapon can be fired in the Shooting phase of its next turn. The Canoptek Spyder cannot repair if it has gone to ground.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Gloom Prism" hidden="false" id="8a44-b94e-893b-3883">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fedc-c41b-dbef-1f68"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Gloom Prism" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="446a-8479-6ed4-d102">
+                      <characteristics>
+                        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Each time an enemy unit attempts to target the Canoptek Spyder, or a friendly unit within 3&quot;, with a psychic power, roll a D6 if the Psychic test is passed. On a 4+, the power is nullified and has no effect.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Twin-linked Particle Beamer" hidden="false" id="9822-55e1-d3a9-d712">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Twin-linked Particle Beamer" id="5b3e-8751-767d-06bb" hidden="false" type="profile" targetId="37e3-2882-04ee-79c9"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ee9-d505-e9e8-a976"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Monstrous Creature" id="f0d1-678e-f3fe-2717" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Fearless" id="d5fd-c246-1e18-85f5" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Scarab Hive" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="05fa-c120-dd2d-2229">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">At the start of each Necron Movement phase, a Canoptek Spyder that is not locked in close combat can expend energy to create a Canoptek Scarab Swarm.
+
+
+Nominate a Canoptek Scarab unit within 6&quot; and roll a D6. On a roll of 2-6, add one base to the Canoptek Scarab unit - the base can move and act normally this turn. This can take the unit beyond its starting size. On a roll of a 1, the Scarab base is still placed, however, the Canoptek Spyder is drained by the energy expenditure and suffers a Wound with no armour or cover save allowed. If the Scarab base cannot be placed for any reason, it is destroyed.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Imotekh The Stormlord" hidden="false" id="946b-5347-db62-2bc3" type="selectionEntry" targetId="f113-adfe-faf5-9b5d">
@@ -964,5 +2859,201 @@ Roll To Hit and To Wound seperately for each Sweet Attack. If the Catacomb Comma
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f329-c4cf-227a-bbfd"/>
       </constraints>
     </entryLink>
+    <entryLink import="true" name="Nemesor Zahndrekh" hidden="false" id="a598-1054-71ab-7d29" type="selectionEntry" targetId="20f0-3b61-2d65-0796">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="d0da-c3a2-190b-8d63" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="318a-3ba8-9dc1-3114"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Vanguard Obyron" hidden="false" id="0a3c-4168-358a-4ce2" type="selectionEntry" targetId="b1c3-f8e7-45b2-7359">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="a24d-bba1-a19f-cf92" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Illuminor Szeras" hidden="false" id="87a1-951a-31ca-da62" type="selectionEntry" targetId="6b80-5054-8052-1db2">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="6363-72e5-d315-3c6e" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a4d8-6e41-63d8-d5be"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Orikan the Diviner" hidden="false" id="5679-8f5d-142a-167f" type="selectionEntry" targetId="deb5-5858-ec16-7155">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="0101-487b-5e8d-eda8" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c5f-8307-e7c6-5eff"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Anrakyr The Traveller" hidden="false" id="a31a-eb4c-562b-2ee0" type="selectionEntry" targetId="9952-67f0-b6c7-64dc">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="fb55-e339-3cea-3baf" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ce7-ece5-745c-0c53"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Trazyn the Infinite" hidden="false" id="e845-05bd-460e-fd32" type="selectionEntry" targetId="5f49-e772-96db-1839">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="e601-740a-b49c-08fd" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f26d-916b-9af0-d08d"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Necron Overlord" hidden="false" id="2be3-746f-be34-b3db" type="selectionEntry" targetId="c9ea-7492-396d-a0a9">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="b1ac-4e5f-dd29-b98e" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Destroyer Lord" hidden="false" id="7cc3-f14e-cfcc-952a" type="selectionEntry" targetId="f355-15e9-12a3-f5c2">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="fecb-7634-425d-9ac1" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Necron Warriors" hidden="false" id="d1ad-75e9-c822-da15" type="selectionEntry" targetId="c872-29a0-23be-1c8b">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="40cf-4e66-d3c5-0593" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Necron Immortals" hidden="false" id="097d-4760-3892-f9e9" type="selectionEntry" targetId="fc97-40c5-7775-6a74">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="02ff-5d6f-4c98-73c5" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Deathmarks" hidden="false" id="bb24-7561-e5b2-f221" type="selectionEntry" targetId="3f6d-50f3-3a6d-7ad3">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="26a2-e36e-f0bf-5eae" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Lychguards" hidden="false" id="66fd-a890-cf93-ed05" type="selectionEntry" targetId="d14b-dae2-cce2-6d17">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="7033-6b2f-c43d-e637" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Triarch Praetorians" hidden="false" id="15b1-2b5e-facf-3348" type="selectionEntry" targetId="f0cc-722a-5c64-7fbd"/>
+    <entryLink import="true" name="C&apos;tan Shard" hidden="false" id="fd03-3481-1d6c-46e2" type="selectionEntry" targetId="5a73-8391-ea3e-a310">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="5289-27b7-09cd-f79b" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Flayed One Pack" hidden="false" id="f7ac-d55c-61b0-b58d" type="selectionEntry" targetId="8c7a-a344-7026-ade2">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="ab43-a0d5-3d9c-8afd" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Triarch Stalker" hidden="false" id="6a11-35c8-1acc-c8b5" type="selectionEntry" targetId="a98c-b1cb-21d6-1c03">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="3419-72a5-1537-871b" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Canoptek Wraiths" hidden="false" id="8de5-4a33-03e9-02d3" type="selectionEntry" targetId="0616-738d-2071-df1a">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="ae0b-87d8-e9bf-f249" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Canoptek Scarabs" hidden="false" id="d61e-9bb7-b1fe-0b9b" type="selectionEntry" targetId="a65a-ab2c-c775-2d34">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="cfa9-74f1-eeda-f1db" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tomb Blades" hidden="false" id="be71-8fcf-66b8-e818" type="selectionEntry" targetId="a016-0796-7fb7-410a">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="c2a1-2d3e-09ba-cf18" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Necron Destroyers" hidden="false" id="30ad-88b1-7239-07b8" type="selectionEntry" targetId="0ba3-b4c0-09d8-efdd">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="2634-f20f-e9bb-30c5" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Doomsday Ark" hidden="false" id="600f-1217-5875-3bf6" type="selectionEntry" targetId="e268-4d70-21ab-7f61">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="f7fc-e42d-3d9b-7ac8" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Annihilation Barge" hidden="false" id="9629-d5b4-f32a-6fa8" type="selectionEntry" targetId="6c2f-77e6-539c-f880">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="f0a5-4d34-cbaa-51fc" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Necron Monolith" hidden="false" id="7ea2-5aad-1bed-7f89" type="selectionEntry" targetId="6195-cf41-c6e1-367a">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="ceb3-63c9-03ce-5e0c" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Doom Scythe" hidden="false" id="2c78-48df-5ae5-aa24" type="selectionEntry" targetId="3db4-8a49-abae-927a">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="1884-f1ee-b7f0-782b" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Canoptek Spyder" hidden="false" id="bcf5-e1f5-9790-f3ed" type="selectionEntry" targetId="9e86-7865-d938-e140">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="69a8-3ffd-4752-cdf8" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Royal Court" id="c8b2-45b3-4924-7da0" hidden="false">
+      <profiles>
+        <profile name="Royal Court" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="3e1e-2cc9-611b-7188">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Before the battle, each member of the Royal Court has the option of being split off from his unit and assigned to lead a different unit from the following list: Necron Warriors, Necron Immortals, Lychguard or Deathmarks. Only one member of the Royal Court can join each unit in this manner. Otherwise, they remain part of the Royal Court.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Necron Lord" hidden="false" id="4c59-3e44-031c-29f9" type="selectionEntry" targetId="98a8-50a8-0256-0b68">
+          <constraints>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="f1fd-def8-46f6-b296"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Cryptek" id="1b37-6416-af6e-f9a6" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Cryptek" hidden="false" id="2b97-42a7-5237-fd59" type="selectionEntry" targetId="b006-cdd6-0443-1173"/>
+            <entryLink import="true" name="Cryptek (Harbringer of Despair)" hidden="false" id="52d0-bafa-f757-a887" type="selectionEntry" targetId="6a1c-6e7d-019e-1427">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f634-a086-e3da-fb08"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Cryptek (Harbringer of Destruction)" hidden="false" id="eafe-d0c8-75f3-74b5" type="selectionEntry" targetId="ebaf-30c5-92bb-4dba">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="846d-0d11-d1ac-c7ab"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Cryptek (Harbringer of Eternity)" hidden="false" id="8327-f6f6-a59d-385a" type="selectionEntry" targetId="38c0-3009-a5cf-907a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e0c-dc74-f7c1-3361"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Cryptek (Harbringer of the Storm)" hidden="false" id="0297-1028-8a47-9b11" type="selectionEntry" targetId="c13a-d79b-b039-36e5">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1fd3-4ef8-390e-4ec0"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Cryptek (Harbringer of Transmogrification)" hidden="false" id="f076-da29-c473-3bf0" type="selectionEntry" targetId="6acb-002f-261d-a1a6">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a753-f05e-1bfa-26a5"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="5" field="selections" scope="self" shared="true" id="46eb-618c-2dbf-f9e3"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <profileTypes>
+    <profileType name="Manifestation of Power" id="2a28-0f9d-db03-1682" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="Power" id="14a1-23f8-fc29-1538"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
 </catalogue>

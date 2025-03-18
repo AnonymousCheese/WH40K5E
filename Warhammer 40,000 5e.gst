@@ -554,6 +554,9 @@ These units do not take Morale checks and will never fall back. Instead, these 
 
 If none of the enemies involved in the combat against a fearless unit can actually hurt it, the unit does not suffer any wounds if its side is defeated in combat, and simply continues to fight.</description>
     </rule>
+    <rule name="Heavy" id="347c-eae2-8f72-1ae9" hidden="false">
+      <description>The vehicle cannot move faster than Combat Speed. When it shoots, it counts as having remained stationary.</description>
+    </rule>
   </sharedRules>
   <publications>
     <publication name="Warhammer 40,000 5e Rulebook" id="ad9c-8597-0188-2ba0" hidden="false"/>

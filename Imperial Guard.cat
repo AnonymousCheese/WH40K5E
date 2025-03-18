@@ -2802,6 +2802,7 @@ It is worth pointing out that some armies might use different versions of smoke
       <infoLinks>
         <infoLink name="Frag Grenades" id="5f2b-e848-531d-2c4a" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
         <infoLink name="Krak Grenades" id="1401-e1ff-bef6-16a3" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Cavalry" id="1904-cb5b-4bbf-c9e2" hidden="false" type="rule" targetId="924e-8c5b-f48b-a6da"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Hellhound Squadron" hidden="false" id="7be9-dc0e-194b-7399" subType="unit-group">
