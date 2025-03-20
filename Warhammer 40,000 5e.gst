@@ -1362,6 +1362,16 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
+    <profile name="Plasma Grenades" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="f199-6b5f-7b3d-f011">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Models equipped with assault grenades don’t suffer the penalty to their Initiative for assaulting enemies through cover, but fight as normal.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Night Vision" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="2c92-8245-2e67-3bd5">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">When the Night Fighting mission special rule is in use, such models may choose to re-roll the test to determine how far they can see, but must abide by the new result. Characters with this rule confer it onto any unit they join, as long as they are part of the unit. Units with this rule confer it onto any characters joining them, as long as they are part of the unit.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Combi-weapon" hidden="false" id="d720-24d4-d7f1-df20" defaultAmount="0">
