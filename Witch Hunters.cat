@@ -2142,6 +2142,9 @@ Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfor
                       </selectionEntryGroups>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="803e-92f3-2d7f-abd0"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
@@ -2411,6 +2414,9 @@ Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfor
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="673f-8208-323e-2d01"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -4486,6 +4492,9 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                       </selectionEntryGroups>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5843-8304-4830-b941"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
@@ -5196,6 +5205,9 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                       </selectionEntryGroups>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e5e-a210-b9e6-9456"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Melta Bombs" hidden="false" id="8534-3495-f52a-85ef">
                   <costs>
@@ -5639,6 +5651,9 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                       </selectionEntryGroups>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d592-a037-d3af-0abf"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Melta Bombs" hidden="false" id="6128-573f-1adf-8b31">
                   <costs>
@@ -6105,6 +6120,9 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                       </selectionEntryGroups>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1569-908a-61b8-17a6"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>

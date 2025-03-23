@@ -1372,6 +1372,11 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">When the Night Fighting mission special rule is in use, such models may choose to re-roll the test to determine how far they can see, but must abide by the new result. Characters with this rule confer it onto any unit they join, as long as they are part of the unit. Units with this rule confer it onto any characters joining them, as long as they are part of the unit.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Supersonic" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="8ce7-2992-3e44-1a11">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A vehicle with the Supersonic rule that moves flat out may move up to 36&quot;.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Combi-weapon" hidden="false" id="d720-24d4-d7f1-df20" defaultAmount="0">
