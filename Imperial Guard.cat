@@ -493,6 +493,9 @@ The executed model is immediately removed as a casualty, regardless of the numbe
       </costs>
       <infoLinks>
         <infoLink name="Chimera Armored Transport" id="7fa5-a846-9555-bb28" hidden="false" type="profile" targetId="6c7f-e0f5-f0d6-396d"/>
+        <infoLink name="Searchlight" id="eb19-dabc-ad6f-5f10" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
+        <infoLink name="Smoke Launchers" id="0307-abc7-7f51-2eb8" hidden="false" type="profile" targetId="180e-ad4b-4df0-81ae"/>
+        <infoLink name="Tank" id="3ac3-ff2c-ae4f-ebda" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Turret" id="c6a7-732e-b553-68bf" hidden="false" defaultSelectionEntryId="3a55-35da-2168-0acf">
@@ -523,8 +526,8 @@ The executed model is immediately removed as a casualty, regardless of the numbe
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c1fe-f625-e354-ad45-min-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1fe-f625-e354-ad45-min-max"/>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="c1fe-f625-e354-ad45-min-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c1fe-f625-e354-ad45-min-max"/>
           </constraints>
         </selectionEntryGroup>
         <selectionEntryGroup name="Hull Weapon" id="42bd-3d80-db56-b941" hidden="false">
@@ -547,8 +550,8 @@ The executed model is immediately removed as a casualty, regardless of the numbe
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f0d7-564b-2a54-0ac7-max-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f0d7-564b-2a54-0ac7-max-max"/>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="f0d7-564b-2a54-0ac7-max-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="f0d7-564b-2a54-0ac7-max-max"/>
           </constraints>
         </selectionEntryGroup>
         <selectionEntryGroup name="Upgrades" id="a3f0-e6cb-18e9-090e" hidden="false">
@@ -597,7 +600,7 @@ The executed model is immediately removed as a casualty, regardless of the numbe
           <characteristics>
             <characteristic name="Capacity" typeId="7cdf-4c80-a83d-200c">12</characteristic>
             <characteristic name="Access Points" typeId="6e42-3bd5-70a6-724f">Rear</characteristic>
-            <characteristic typeId="aa94-ae0c-98e7-5923" name="Fire Points"/>
+            <characteristic name="Fire Points" typeId="aa94-ae0c-98e7-5923">Two models may fire from the top hatch.</characteristic>
           </characteristics>
         </profile>
         <profile name="Mobile Command Vehicle" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="96b8-4379-a0a0-af25">
@@ -2412,7 +2415,7 @@ The executed model is immediately removed as a casualty, regardless of the numbe
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8837-813c-7751-7cd1"/>
                       </constraints>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Lasgun" hidden="false" id="fcf5-24e6-4d0d-8ebc" collective="true" defaultAmount="">
+                    <selectionEntry type="upgrade" import="true" name="Lasgun" hidden="false" id="fcf5-24e6-4d0d-8ebc" collective="true">
                       <infoLinks>
                         <infoLink name="Lasgun" id="f73b-d5d8-1329-1c27" hidden="false" type="profile" targetId="3d2e-5448-edbf-a00a"/>
                       </infoLinks>
@@ -2447,7 +2450,7 @@ The executed model is immediately removed as a casualty, regardless of the numbe
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="22e8-158c-5d9e-5355"/>
                       </constraints>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Lasgun" hidden="false" id="5bb4-f27a-66d5-ab1e" collective="true" defaultAmount="">
+                    <selectionEntry type="upgrade" import="true" name="Lasgun" hidden="false" id="5bb4-f27a-66d5-ab1e" collective="true">
                       <infoLinks>
                         <infoLink name="Lasgun" id="e2cd-2415-5629-19a9" hidden="false" type="profile" targetId="3d2e-5448-edbf-a00a"/>
                       </infoLinks>
@@ -3672,19 +3675,11 @@ It is worth pointing out that some armies might use different versions of smoke
                 <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Leman Russ that moved at combat speed or remained stationary can fire it&apos;s turret weapon in addition to any other weapons it is usually allowed to fire (even if the turret weapon is ordnance). However, the Leman Russ travelling at cruising speed can only move up to D6+6&quot; - roll every time it moves at this speed.</characteristic>
               </characteristics>
             </profile>
-            <profile name="Exterminator Autocannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="63c5-1b88-6c04-51f9">
-              <characteristics>
-                <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
-                <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
-                <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
-                <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 4, Twin-linked</characteristic>
-                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
-              </characteristics>
-            </profile>
           </profiles>
           <infoLinks>
             <infoLink name="Searchlight" id="854e-480b-e3b1-3599" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
             <infoLink name="Smoke Launchers" id="19fe-de64-8710-248e" hidden="false" type="profile" targetId="180e-ad4b-4df0-81ae"/>
+            <infoLink targetId="63c5-1b88-6c04-51f9" id="b844-94ba-422b-73ba" type="profile" name="Exterminator Autocannon" hidden="false"/>
             <infoLink name="Tank" id="6587-1acc-1b07-eb69" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -3978,19 +3973,11 @@ It is worth pointing out that some armies might use different versions of smoke
                 <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Leman Russ that moved at combat speed or remained stationary can fire it&apos;s turret weapon in addition to any other weapons it is usually allowed to fire (even if the turret weapon is ordnance). However, the Leman Russ travelling at cruising speed can only move up to D6+6&quot; - roll every time it moves at this speed.</characteristic>
               </characteristics>
             </profile>
-            <profile name="Eradicator Nova Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="509c-ef81-c7b7-352d">
-              <characteristics>
-                <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
-                <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
-                <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
-                <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Large Blast (Cover saves may not be taken against wounds caused by an Eradicator nova cannon)</characteristic>
-                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
-              </characteristics>
-            </profile>
           </profiles>
           <infoLinks>
             <infoLink name="Searchlight" id="5157-953b-88de-de7c" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
             <infoLink name="Smoke Launchers" id="fc53-4bea-2dfc-2aaf" hidden="false" type="profile" targetId="180e-ad4b-4df0-81ae"/>
+            <infoLink targetId="509c-ef81-c7b7-352d" id="3f47-23dd-b57c-6d14" type="profile" name="Eradicator Nova Cannon" hidden="false"/>
             <infoLink name="Tank" id="d61a-f16d-a971-93ae" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -4135,19 +4122,11 @@ It is worth pointing out that some armies might use different versions of smoke
                 <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Leman Russ that moved at combat speed or remained stationary can fire it&apos;s turret weapon in addition to any other weapons it is usually allowed to fire (even if the turret weapon is ordnance). However, the Leman Russ travelling at cruising speed can only move up to D6+6&quot; - roll every time it moves at this speed.</characteristic>
               </characteristics>
             </profile>
-            <profile name="Demolisher Siege Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="89e8-d621-834c-b6c1">
-              <characteristics>
-                <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
-                <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
-                <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
-                <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Large Blast</characteristic>
-                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
-              </characteristics>
-            </profile>
           </profiles>
           <infoLinks>
             <infoLink name="Searchlight" id="2a1c-b54a-aa53-537c" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
             <infoLink name="Smoke Launchers" id="9de7-9388-0cd2-4196" hidden="false" type="profile" targetId="180e-ad4b-4df0-81ae"/>
+            <infoLink targetId="89e8-d621-834c-b6c1" id="41ec-a9d3-1a9f-f631" type="profile" name="Demolisher Siege Cannon" hidden="false"/>
             <infoLink name="Tank" id="7267-95ea-bfa6-1701" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -4292,19 +4271,11 @@ It is worth pointing out that some armies might use different versions of smoke
                 <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Leman Russ that moved at combat speed or remained stationary can fire it&apos;s turret weapon in addition to any other weapons it is usually allowed to fire (even if the turret weapon is ordnance). However, the Leman Russ travelling at cruising speed can only move up to D6+6&quot; - roll every time it moves at this speed.</characteristic>
               </characteristics>
             </profile>
-            <profile name="Punisher Gatling Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="dd7c-5e41-f30e-79d0">
-              <characteristics>
-                <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
-                <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
-                <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
-                <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 20</characteristic>
-                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
-              </characteristics>
-            </profile>
           </profiles>
           <infoLinks>
             <infoLink name="Searchlight" id="47c2-63d7-eb9f-5228" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
             <infoLink name="Smoke Launchers" id="8213-4060-f809-9974" hidden="false" type="profile" targetId="180e-ad4b-4df0-81ae"/>
+            <infoLink targetId="dd7c-5e41-f30e-79d0" id="4686-31b7-c2c3-8a44" type="profile" name="Punisher Gatling Cannon" hidden="false"/>
             <infoLink name="Tank" id="0795-1a12-6f1a-fc8e" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -4449,19 +4420,11 @@ It is worth pointing out that some armies might use different versions of smoke
                 <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Leman Russ that moved at combat speed or remained stationary can fire it&apos;s turret weapon in addition to any other weapons it is usually allowed to fire (even if the turret weapon is ordnance). However, the Leman Russ travelling at cruising speed can only move up to D6+6&quot; - roll every time it moves at this speed.</characteristic>
               </characteristics>
             </profile>
-            <profile name="Executioner Plasma Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e449-c81e-2b15-9ece">
-              <characteristics>
-                <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
-                <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
-                <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
-                <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3, Blast</characteristic>
-                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
-              </characteristics>
-            </profile>
           </profiles>
           <infoLinks>
             <infoLink name="Searchlight" id="8b85-9ec6-5519-f622" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
             <infoLink name="Smoke Launchers" id="abc3-4ab2-7832-595d" hidden="false" type="profile" targetId="180e-ad4b-4df0-81ae"/>
+            <infoLink targetId="e449-c81e-2b15-9ece" id="68d3-066d-244d-b88b" type="profile" name="Executioner Plasma Cannon" hidden="false"/>
             <infoLink name="Tank" id="df03-5c0d-f444-b562" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
           </infoLinks>
           <selectionEntryGroups>
@@ -4695,6 +4658,7 @@ It is worth pointing out that some armies might use different versions of smoke
             <infoLink name="Searchlight" id="2511-9746-4432-f30f" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
             <infoLink name="Smoke Launchers" id="d55f-f971-1ff3-b24c" hidden="false" type="profile" targetId="180e-ad4b-4df0-81ae"/>
             <infoLink targetId="c013-3537-c793-9012" id="d13b-b081-137c-2180" type="profile" name="Hydra" hidden="false"/>
+            <infoLink name="Tank" id="7134-010f-1afa-9305" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
           </infoLinks>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2d4a-763b-59e7-cb60"/>
@@ -6049,15 +6013,6 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
-    <profile name="Lasgun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="3d2e-5448-edbf-a00a">
-      <characteristics>
-        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
-        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
-        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
-        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
-      </characteristics>
-    </profile>
     <profile name="Guardsman" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="b2de-546d-01f6-63e5">
       <characteristics>
         <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
@@ -6074,24 +6029,6 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
     <profile name="Vox-caster" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="ca21-e406-d657-93b9">
       <characteristics>
         <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">If an officer is attempting to issue an order to a friendly unit and both the officer&apos;s Command Squad and the chosen unit contain a model with a vox-caster, the Leadership test to see if the order has been understood can be re-rolled if failed.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Mortar" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="f2c6-50ba-e87d-bd29">
-      <characteristics>
-        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
-        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
-        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
-        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast, Barrage</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
-      </characteristics>
-    </profile>
-    <profile name="Heavy Stubber" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="18dc-70dc-46bc-2834">
-      <characteristics>
-        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
-        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
-        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
-        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="First Rank, FIRE! Second Rank, FIRE!" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="edf8-122b-c682-0873">
@@ -6145,15 +6082,6 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
         <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Hot-shot Lasgun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="f28e-7823-c8a6-457f">
-      <characteristics>
-        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
-        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
-        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
-        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
     <profile name="Carapace Armour" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="39a4-9761-14b0-f80f">
@@ -6238,15 +6166,6 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
       </characteristics>
     </profile>
-    <profile name="Hot-shot Laspistol" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="d57f-df99-38fa-f6ab">
-      <characteristics>
-        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">6&quot;</characteristic>
-        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
-        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
-        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
-      </characteristics>
-    </profile>
     <profile name="For the Honour of Cadia!" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="7e34-8f18-ea16-d83e">
       <characteristics>
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If the order is successfully issued, the ordered unit is inspired and immediately charges into the fray with little thought for its own safety. Until the end of the turn, the ordered unit has the Fearless and Furious Charge special rules - place a counter or other suitable marker next to the unit to show this.</characteristic>
@@ -6318,15 +6237,6 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Large Blast, Twin-linked</characteristic>
-        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
-      </characteristics>
-    </profile>
-    <profile name="Vanquisher Battle Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0888-73c5-4c5a-3b37">
-      <characteristics>
-        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72&quot;</characteristic>
-        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
-        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
-        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1 (Shots with a vindicator cannon roll an additional D6 when rolling for armour penetration)</characteristic>
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>

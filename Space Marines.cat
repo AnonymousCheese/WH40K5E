@@ -8275,20 +8275,12 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
           </constraints>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Smite" hidden="false" id="8eb1-1d8c-c08a-548c">
-              <profiles>
-                <profile name="Smite" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="f029-5ef1-4850-abd5">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
-                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
-                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
-                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 4</characteristic>
-                    <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
-                  </characteristics>
-                </profile>
-              </profiles>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a0fc-dbb7-c9d2-c548"/>
               </constraints>
+              <infoLinks>
+                <infoLink targetId="f029-5ef1-4850-abd5" id="f929-8ebd-afc3-857e" type="profile" name="Smite" hidden="false"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Force Dome" hidden="false" id="26e8-8b86-2fbb-2731">
               <constraints>
@@ -8334,13 +8326,9 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="42bd-2048-694c-d1c5"/>
               </constraints>
-              <profiles>
-                <profile name="Quickening" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="c1e3-925b-f9e3-2f87">
-                  <characteristics>
-                    <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This power is used at the start of the Librarian&apos;s Assault phase. If successful, the Librarian has the fleet special rule and Initiative 10 for the duration of that Assault phase.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink targetId="c1e3-925b-f9e3-2f87" id="ee2e-8397-d996-2d68" type="profile" name="Quickening" hidden="false"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Null Zone" hidden="false" id="20de-45cb-a4f6-e6a1">
               <constraints>
@@ -8944,7 +8932,7 @@ If the result is 5 or more, then either a Weapon Destroyed result or Immobilised
         <categoryLink targetId="978c-e18f-8aeb-f4c1" id="ee4e-a3d0-388c-0091" primary="true" name="Elites"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Assault Squad" hidden="false" id="b002-a5ef-598a-740d" type="selectionEntry" targetId="ba0c-0526-ca37-abb1">
+    <entryLink import="true" name="Jump Assault Squad" hidden="false" id="b002-a5ef-598a-740d" type="selectionEntry" targetId="ba0c-0526-ca37-abb1">
       <categoryLinks>
         <categoryLink targetId="74fe-37c3-fbbf-849e" id="89f3-bc60-d6ea-abf4" primary="true" name="Fast Attack"/>
       </categoryLinks>

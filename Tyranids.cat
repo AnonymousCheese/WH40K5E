@@ -838,19 +838,9 @@ A unit that Feeds is subject to Rage. In addition, the unit may not fire any wea
         <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This is a psychic shooting attack that automatically hits a single non-vehicle enemy unit within 12&quot;. That unit must immediately take a Morale check or fall back. This has no effect on enemy units that have the Fearless special rule.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Leech Essence" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="45fb-4a21-aada-c51d">
-      <characteristics>
-        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This is a Psychic shooting attack that automatically hits a single non-vehicle enemy unit within 12&quot;. The target immediately suffers D3, Strength 3, AP2 hits. The Hive Tyrant recovers a single lost Wound for each wound inflicted using this power, up to its starting number of Wounds.</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Paroxysm" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="8591-bb24-f8f4-acc0">
       <characteristics>
         <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This is a psychic shooting attack that automatically hits a single non-vehicle enemy unit within 12&quot;. That unit must reduce its Weapon Skill and Ballistic Skill to 1 until the beginning of the Hive Tyrant&apos;s next turn.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Psychic Scream" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="1f20-ad5f-1a3a-b262">
-      <characteristics>
-        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This is a Psychic shooting attack that automatically hits all non-vehicle enemy units within 2D6&quot; of the Hive Tyrant. All units must immediately take a Leadership test. If they fail the test they suffer a single wound for each point they filed by, with no armour saves allowed.</characteristic>
       </characteristics>
     </profile>
     <profile name="Catalyst" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="43ea-65e8-f738-419f">
@@ -871,11 +861,6 @@ A unit that Feeds is subject to Rage. In addition, the unit may not fire any wea
     <profile name="Aura of Despair" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="09d1-235b-654e-001c">
       <characteristics>
         <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This psychic power is used at the beginning of your Assault phase. If successful, ell enemy units within 12&quot; of the Broodlord suffer a -1 penalty to their Leadership until the end of the following player turn. If an enemy unit is within range of several Broodlords using this power, the modifiers are cumulative.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Hypnotic Gaze" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="9d31-77ef-ddac-9a12">
-      <characteristics>
-        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This psychic power is used during your Assault phase, after any assault moves have been made, but before any attacks are made. If successful, select one model in base contact with the Broodlord. Both players roll a D6 and add the Leadership of their respective models. If the Broodlord rolls equal to or higher than the target&apos;s score, that model may not attack in the ensuing close combat. This power cannot affect models that do not have a Leadership value.</characteristic>
       </characteristics>
     </profile>
     <profile name="Warp Blast" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="03e2-2b5f-2690-f68e">

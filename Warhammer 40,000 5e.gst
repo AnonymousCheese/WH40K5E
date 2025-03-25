@@ -1377,6 +1377,188 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A vehicle with the Supersonic rule that moves flat out may move up to 36&quot;.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Demolisher Siege Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="89e8-d621-834c-b6c1">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Large Blast</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+      </characteristics>
+    </profile>
+    <profile name="Eradicator Nova Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="509c-ef81-c7b7-352d">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Large Blast (Cover saves may not be taken against wounds caused by an Eradicator nova cannon)</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+      </characteristics>
+    </profile>
+    <profile name="Executioner Plasma Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e449-c81e-2b15-9ece">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3, Blast</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+      </characteristics>
+    </profile>
+    <profile name="Exterminator Autocannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="63c5-1b88-6c04-51f9">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 4, Twin-linked</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+      </characteristics>
+    </profile>
+    <profile name="Punisher Gatling Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="dd7c-5e41-f30e-79d0">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 20</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+      </characteristics>
+    </profile>
+    <profile name="Enfeeble" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="3934-397d-9d2f-2590">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This is a Psychic shooting attack. Target an enemy unit within 24&quot;. If successful, until the beginning of your next turn, the target unit suffers a -1 penalty to both Strength and Toughness, and treats all terrain (even open ground) as difficult terrain.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Iron Arm" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="3417-2ba2-87b6-3c5c">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This power is manifested at the beginning of the movement phase. If successful, the Psyker has +3 to his Strength and Toughness and gains the Smash special ability</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Endurance" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="3892-31ab-3ad2-eae8">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This power is manifested at the beginning of the Movement phase. If successful, target a friendly unit within 24&quot;. Until the beginning of your next turn, all models in the target unit gain the Eternal Warrior, Feel No Pain and Relentless special rules.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Haemorrhage" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="7c10-dd86-648e-84bc">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This is a Psychic shooting attack. Pick an enemy model within 18&quot;. The target must pass two separate Toughness tests or suffer a Wound with no armour or cover saves allowed for each test that was failed. If the target is remove as a casualty, randomly select another model (friend or foe) within 2&quot; of him. That model must pass a single Toughness test or suffer a Wound with no armour or cover saves allowed. If that model is removed as a casualty, continue the process of selecting another model and taking a single Toughness test until either a model survives or there are no more suitable targets within range.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psychic Scream" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="1f20-ad5f-1a3a-b262">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This is a Psychic shooting attack that automatically hits all non-vehicle enemy units within 2D6&quot; of the Hive Tyrant. All units must immediately take a Leadership test. If they fail the test they suffer a single wound for each point they filed by, with no armour saves allowed.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Leech Essence" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="45fb-4a21-aada-c51d">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This is a Psychic shooting attack that automatically hits a single non-vehicle enemy unit within 12&quot;. The target immediately suffers D3, Strength 3, AP2 hits. The Hive Tyrant recovers a single lost Wound for each wound inflicted using this power, up to its starting number of Wounds.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hypnotic Gaze" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="9d31-77ef-ddac-9a12">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This psychic power is used during your Assault phase, after any assault moves have been made, but before any attacks are made. If successful, select one model in base contact with the Broodlord. Both players roll a D6 and add the Leadership of their respective models. If the Broodlord rolls equal to or higher than the target&apos;s score, that model may not attack in the ensuing close combat. This power cannot affect models that do not have a Leadership value.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Smite" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="f029-5ef1-4850-abd5">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 4</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Psychic Shooting Attack</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Quickening" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="c1e3-925b-f9e3-2f87">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This power is used at the start of the Librarian&apos;s Assault phase. If successful, the Librarian has the fleet special rule and Initiative 10 for the duration of that Assault phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dominate" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="53ec-8043-ab2c-cda7">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This power is manifested at the beginning of your Movement phase. If successful, target one enemy unit within 24&quot;. Until the beginning of your next turn, the target unit must pass a Leadership test each time it attempts to move, manifest a psychic power, shoot, Run or declare a charge – if the test is failed, the action is forfeit and the unit can do nothing else that phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mental Fortitude" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="802c-f969-f45a-6f88">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This power is manifested during your Movement phase. If successful, target a friendly unit within 24&quot;. If the target is falling back, it immediately regroups. In addition, until the beginning of your next turn, the target gains the Fearless special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Terrify" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="1ede-dc25-64f4-6ba0">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This is a Psychic shooting attack. Target an enemy unit within 24&quot;. Until the beginning of your next turn, the target has a -1 penalty to their Leadership and treats all enemy units as having the Fear special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shrouding" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="110a-94bc-a1cb-1f85">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This power is manifested at the start of your Movement phase. If successful, until the beginning of your next turn, all friendly units within 6&quot; of the Psyker improve their cover save by +1. This will mean that a unit with no cover will gain a 6+ cover save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hallucination" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="b6da-0659-8026-a0c4">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This is a psychic shooting attack. If successful, target an enemy unit within 24&quot;. Roll a D6 and consult the chart below
+
+
+1-2 - Bugs! I Hate Bugs!: The unit must take a Pinning test.
+
+
+3-4 - It&apos;s So Beautiful! Whilst the power is in effect, all models in the unit suffer a -1 penalty to their Weapon Skill, Ballistic Skill, Initiative and Attacks (to a minimum of 1). 
+
+
+5-6 - You! You&apos;re a Traitor!: Randomly select one model in the target unit from among those with the highest Leadership. That model suffers a single Strength 3 hit for every other model in the target unit. Cover saves cannot be taken against these hits, and they can never be allocated to another model. If there is only one model in the unit, treat this result as It’s So Beautiful! instead.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Stubber" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="18dc-70dc-46bc-2834">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+      </characteristics>
+    </profile>
+    <profile name="Lasgun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="3d2e-5448-edbf-a00a">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+      </characteristics>
+    </profile>
+    <profile name="Mortar" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="f2c6-50ba-e87d-bd29">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast, Barrage</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+      </characteristics>
+    </profile>
+    <profile name="Hot-shot Lasgun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="f28e-7823-c8a6-457f">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+      </characteristics>
+    </profile>
+    <profile name="Hot-shot Laspistol" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="d57f-df99-38fa-f6ab">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">6&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+      </characteristics>
+    </profile>
+    <profile name="Vanquisher Battle Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0888-73c5-4c5a-3b37">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1 (Shots with a vindicator cannon roll an additional D6 when rolling for armour penetration)</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Combi-weapon" hidden="false" id="d720-24d4-d7f1-df20" defaultAmount="0">
