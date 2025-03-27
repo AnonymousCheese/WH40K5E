@@ -8523,11 +8523,6 @@ Terminators count as two models for the purposes of transport capacity and canno
         <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Relic blade counts as a power weapon whose hits are resolved at Strength 6. A model wielding a relic blade cannot get an extra attack for an additional close combat weapon.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Digital Weapons" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="ee5b-ba52-7418-5482">
-      <characteristics>
-        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A model armed with digital weapons can re-roll a single failed roll to wound in each Assault phase.</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Hellfire Rounds" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0194-29d7-8075-98d7">
       <characteristics>
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>

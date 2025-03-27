@@ -1559,6 +1559,11 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
+    <profile name="Digital Weapons" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="ee5b-ba52-7418-5482">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model armed with digital weapons can re-roll a single failed roll to wound in each Assault phase.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Combi-weapon" hidden="false" id="d720-24d4-d7f1-df20" defaultAmount="0">

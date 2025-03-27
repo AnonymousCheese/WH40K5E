@@ -135,6 +135,13 @@
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fac1-b4fd-8bff-690f"/>
               </constraints>
+              <modifiers>
+                <modifier type="set" value="1" field="fac1-b4fd-8bff-690f">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </entryLink>
           </entryLinks>
           <constraints>
