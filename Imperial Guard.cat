@@ -135,19 +135,24 @@
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fac1-b4fd-8bff-690f"/>
               </constraints>
-              <modifiers>
-                <modifier type="set" value="1" field="fac1-b4fd-8bff-690f">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true" includeChildSelections="false"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
             </entryLink>
           </entryLinks>
           <constraints>
             <constraint type="min" value="10" field="selections" scope="self" shared="true" id="5afa-949e-f466-6b9f-min"/>
             <constraint type="max" value="10" field="selections" scope="self" shared="true" id="5afa-949e-f466-6b9f-max"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="9" field="5afa-949e-f466-6b9f-max">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="fd75-c1f5-7c38-6ab1" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="9" field="5afa-949e-f466-6b9f-min">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="fd75-c1f5-7c38-6ab1" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -948,6 +953,18 @@ The executed model is immediately removed as a casualty, regardless of the numbe
             <constraint type="min" value="5" field="selections" scope="self" shared="true" id="fd03-5029-1c46-57a6-min"/>
             <constraint type="max" value="5" field="selections" scope="self" shared="true" id="fd03-5029-1c46-57a6-max"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="4" field="fd03-5029-1c46-57a6-max">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="self" childId="d9fb-1463-0734-5057" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="4" field="fd03-5029-1c46-57a6-min">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="self" childId="d9fb-1463-0734-5057" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -1599,87 +1616,6 @@ Any unit with this special rule that is removed from play may be brought back in
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e93-10b7-5112-0267"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Heavy Weapon Team" hidden="false" id="6914-590b-f86c-0ffe">
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Loadout" id="4769-55b7-840f-e47c" hidden="false" defaultSelectionEntryId="a272-6ad2-82e0-a28f">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Heavy Bolter" hidden="false" id="9960-bd7f-50bc-beb1">
-                      <infoLinks>
-                        <infoLink name="Heavy Bolter" id="b75a-bf82-9b4e-5b51" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7425-e873-ae07-3b36"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Mortar" hidden="false" id="a272-6ad2-82e0-a28f">
-                      <infoLinks>
-                        <infoLink name="Mortar" id="e2c2-d53a-0b53-e57b" hidden="false" type="profile" targetId="f2c6-50ba-e87d-bd29"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="09e8-d29d-c8ee-892d"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Autocannon" hidden="false" id="fe4a-a58f-a991-6e57">
-                      <infoLinks>
-                        <infoLink name="Autocannon" id="4a4b-1b5e-8abc-ebcc" hidden="false" type="profile" targetId="0439-7ae4-6bcf-50ac"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bda9-9586-b8c5-fea3"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="7a50-52e4-dee4-11ca">
-                      <infoLinks>
-                        <infoLink name="Missile Launcher (Frag)" id="d7b1-2799-c47f-fe22" hidden="false" type="profile" targetId="5c9b-64b6-6546-fc94"/>
-                        <infoLink name="Missile Launcher (Krak)" id="0a33-aa4a-dfbf-a941" hidden="false" type="profile" targetId="c290-fc2b-c332-8290"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b548-159f-5265-7806"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Lascannon" hidden="false" id="ea9c-a0ec-ff67-b3b8">
-                      <infoLinks>
-                        <infoLink name="Lascannon" id="0dcd-4d7b-a1d6-1e03" hidden="false" type="profile" targetId="2965-8d8c-d5b0-8aa1"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="82bc-4c77-590a-89cc"/>
-                      </constraints>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9b94-e3e1-7496-804f"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c419-8d57-369f-6415"/>
-                  </constraints>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <infoLinks>
-                <infoLink name="Veteran Heavy Weapon Team" id="9d38-56e0-5969-1e43" hidden="false" targetId="7307-68d2-748c-397e" type="profile"/>
-              </infoLinks>
-              <modifiers>
-                <modifier type="set" value="1" field="0c99-0e64-9f86-bd20">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true" includeChildSelections="false"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c99-0e64-9f86-bd20"/>
-              </constraints>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Medic" hidden="false" id="bbb7-2151-d487-94e9">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
@@ -1711,6 +1647,21 @@ Any unit with this special rule that is removed from play may be brought back in
             <constraint type="min" value="5" field="selections" scope="self" shared="true" id="9cbe-3032-3626-4ca6-min"/>
             <constraint type="max" value="5" field="selections" scope="self" shared="true" id="9cbe-3032-3626-4ca6-max"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="4" field="9cbe-3032-3626-4ca6-max">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="self" childId="1d8c-cdda-96bd-83a0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="4" field="9cbe-3032-3626-4ca6-min">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="self" childId="1d8c-cdda-96bd-83a0" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink targetId="6914-590b-f86c-0ffe" id="1d8c-cdda-96bd-83a0" type="selectionEntry" name="Veteran Heavy Weapon Team" hidden="false"/>
+          </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="The entire unit may take" id="1ed5-f946-9c35-b75d" hidden="false">
           <entryLinks>
@@ -2597,81 +2548,6 @@ The executed model is immediately removed as a casualty, regardless of the numbe
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5308-e916-97a6-c6dc"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Veteran Heavy Weapon Team (replaces two models)" hidden="false" id="b93e-b6f6-7682-5bdf">
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Loadout" id="f2a5-075f-2ab8-66ce" hidden="false" defaultSelectionEntryId="aeb6-e468-1a3f-148b">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Heavy Bolter" hidden="false" id="ae5a-0f32-433f-dcd0">
-                      <infoLinks>
-                        <infoLink name="Heavy Bolter" id="579d-68a0-6a11-8bd3" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1faf-bace-6618-8d09"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Mortar" hidden="false" id="aeb6-e468-1a3f-148b">
-                      <infoLinks>
-                        <infoLink name="Mortar" id="6f22-13b3-3d14-52dc" hidden="false" type="profile" targetId="f2c6-50ba-e87d-bd29"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c70f-6649-d886-b8e6"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Autocannon" hidden="false" id="0df7-2aa3-2b72-bc28">
-                      <infoLinks>
-                        <infoLink name="Autocannon" id="2739-70b0-d829-79c4" hidden="false" type="profile" targetId="0439-7ae4-6bcf-50ac"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b666-3095-b337-9700"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="7645-63c3-5adf-6146">
-                      <infoLinks>
-                        <infoLink name="Missile Launcher (Frag)" id="7f53-1144-b1fb-ae65" hidden="false" type="profile" targetId="5c9b-64b6-6546-fc94"/>
-                        <infoLink name="Missile Launcher (Krak)" id="e241-5315-906d-8161" hidden="false" type="profile" targetId="c290-fc2b-c332-8290"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3422-96ac-d827-6d57"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Lascannon" hidden="false" id="8d4c-766b-dc35-ce28">
-                      <infoLinks>
-                        <infoLink name="Lascannon" id="73be-2138-c16b-e2f9" hidden="false" type="profile" targetId="2965-8d8c-d5b0-8aa1"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7899-aa4f-9bd8-cc7f"/>
-                      </constraints>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7aa1-619d-2172-e76c"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5659-0ae9-9418-e64c"/>
-                  </constraints>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e762-0576-b757-0ae7"/>
-              </constraints>
-              <infoLinks>
-                <infoLink targetId="7307-68d2-748c-397e" id="cd7e-c3fb-5473-6415" type="profile" name="Veteran Heavy Weapon Team" hidden="false"/>
-                <infoLink name="Close-Combat Weapon" id="baaf-6cad-e923-858b" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
-              </infoLinks>
-            </selectionEntry>
             <selectionEntry type="unit" import="true" name="Veteran Commsman" hidden="false" id="17eb-047e-8f64-a1ae">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e58-245c-94ec-aeef"/>
@@ -2761,6 +2637,21 @@ The executed model is immediately removed as a casualty, regardless of the numbe
             <constraint type="min" value="10" field="selections" scope="self" shared="true" id="e1f2-0433-381c-e051-min"/>
             <constraint type="max" value="10" field="selections" scope="self" shared="true" id="e1f2-0433-381c-e051-max"/>
           </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Veteran Heavy Weapon Team" hidden="false" id="1e32-469f-0952-5646" type="selectionEntry" targetId="6914-590b-f86c-0ffe"/>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="9" field="e1f2-0433-381c-e051-min">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="1e32-469f-0952-5646" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="9" field="e1f2-0433-381c-e051-max">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="1e32-469f-0952-5646" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntryGroup>
         <selectionEntryGroup name="May select a Doctrine" id="8189-3733-2796-ff6d" hidden="false">
           <selectionEntries>
@@ -6158,6 +6049,87 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Veteran Heavy Weapon Team" hidden="false" id="6914-590b-f86c-0ffe">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Loadout" id="4769-55b7-840f-e47c" hidden="false" defaultSelectionEntryId="a272-6ad2-82e0-a28f">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Heavy Bolter" hidden="false" id="9960-bd7f-50bc-beb1">
+              <infoLinks>
+                <infoLink name="Heavy Bolter" id="b75a-bf82-9b4e-5b51" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7425-e873-ae07-3b36"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mortar" hidden="false" id="a272-6ad2-82e0-a28f">
+              <infoLinks>
+                <infoLink name="Mortar" id="e2c2-d53a-0b53-e57b" hidden="false" type="profile" targetId="f2c6-50ba-e87d-bd29"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="09e8-d29d-c8ee-892d"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Autocannon" hidden="false" id="fe4a-a58f-a991-6e57">
+              <infoLinks>
+                <infoLink name="Autocannon" id="4a4b-1b5e-8abc-ebcc" hidden="false" type="profile" targetId="0439-7ae4-6bcf-50ac"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bda9-9586-b8c5-fea3"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="7a50-52e4-dee4-11ca">
+              <infoLinks>
+                <infoLink name="Missile Launcher (Frag)" id="d7b1-2799-c47f-fe22" hidden="false" type="profile" targetId="5c9b-64b6-6546-fc94"/>
+                <infoLink name="Missile Launcher (Krak)" id="0a33-aa4a-dfbf-a941" hidden="false" type="profile" targetId="c290-fc2b-c332-8290"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b548-159f-5265-7806"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lascannon" hidden="false" id="ea9c-a0ec-ff67-b3b8">
+              <infoLinks>
+                <infoLink name="Lascannon" id="0dcd-4d7b-a1d6-1e03" hidden="false" type="profile" targetId="2965-8d8c-d5b0-8aa1"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="82bc-4c77-590a-89cc"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9b94-e3e1-7496-804f"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c419-8d57-369f-6415"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Veteran Heavy Weapon Team" id="9d38-56e0-5969-1e43" hidden="false" targetId="7307-68d2-748c-397e" type="profile"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="1" field="0c99-0e64-9f86-bd20">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c99-0e64-9f86-bd20"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
