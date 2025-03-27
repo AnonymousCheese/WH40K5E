@@ -1186,13 +1186,6 @@ The Crouchling model is purely decorative and is ignored for game purposes.</cha
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d78-d984-046e-0b00"/>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8978-6de5-9188-7991"/>
               </constraints>
-              <modifiers>
-                <modifier type="set" value="1" field="1d78-d984-046e-0b00">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="7561-87d2-d31e-bfec" shared="true" includeChildSelections="false" includeChildForces="false"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Heavy Mining Weapon" id="e9ed-6854-5211-d85a" hidden="false" defaultSelectionEntryId="4587-25b6-98a0-639d">
                   <selectionEntries>
@@ -1298,6 +1291,13 @@ The Crouchling model is purely decorative and is ignored for game purposes.</cha
             <constraint type="min" value="10" field="selections" scope="self" shared="true" id="f6af-1ab1-ca08-f62c"/>
             <constraint type="max" value="20" field="selections" scope="self" shared="true" id="74b4-3508-fa17-4ad0"/>
           </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="74b4-3508-fa17-4ad0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="7561-87d2-d31e-bfec" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntryGroup>
         <selectionEntryGroup name="Dedicated Transport" id="3d4f-f9c0-10f7-d28f" hidden="false">
           <entryLinks>
@@ -2111,7 +2111,7 @@ It is worth pointing out that some armies might use different versions of smoke
             </profile>
             <profile name="Goliath Rockgrinder" typeId="9a37-e4d2-11fe-9e81" typeName="Transport" hidden="false" id="01aa-c72f-9170-7ffa">
               <characteristics>
-                <characteristic name="Capacity" typeId="7cdf-4c80-a83d-200c">Six models. </characteristic>
+                <characteristic name="Capacity" typeId="7cdf-4c80-a83d-200c">Six models.</characteristic>
                 <characteristic name="Access Points" typeId="6e42-3bd5-70a6-724f">The vehicle&apos;s rear platform is one large Access Point.</characteristic>
                 <characteristic name="Fire Points" typeId="aa94-ae0c-98e7-5923">Up to six models can fire from its rear platform.</characteristic>
               </characteristics>
