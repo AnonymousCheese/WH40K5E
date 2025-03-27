@@ -641,7 +641,7 @@ The executed model is immediately removed as a casualty, regardless of the numbe
       <selectionEntryGroups>
         <selectionEntryGroup name="Unit" id="ec27-0cd9-53cd-363a" hidden="false">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Platoon Commander" hidden="false" id="029b-441d-5943-f72e">
+            <selectionEntry type="model" import="true" name="Platoon Commander" hidden="false" id="029b-441d-5943-f72e" defaultAmount="1">
               <profiles>
                 <profile name="Platoon Commander" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="d2bd-db08-926d-c243">
                   <characteristics>
@@ -727,71 +727,17 @@ The executed model is immediately removed as a casualty, regardless of the numbe
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Guardsmen" hidden="false" id="f342-c9aa-d5f7-c1c4">
-              <infoLinks>
-                <infoLink name="Guardsman" id="3fa9-9e80-07fd-806e" hidden="false" type="profile" targetId="b2de-546d-01f6-63e5"/>
-                <infoLink name="Guardsman" id="019a-83c2-4e73-0fe1" hidden="false" type="profile" targetId="b2de-546d-01f6-63e5"/>
-                <infoLink name="Guardsman" id="9aa3-f174-5be4-2e5f" hidden="false" type="profile" targetId="b2de-546d-01f6-63e5"/>
-                <infoLink name="Guardsman" id="3d1a-e98b-5b1d-4074" hidden="false" type="profile" targetId="b2de-546d-01f6-63e5"/>
-                <infoLink name="Close-Combat Weapon" id="b939-557b-f679-7abc" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
-                <infoLink name="Close-Combat Weapon" id="1762-46c1-974c-3bf5" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
-                <infoLink name="Close-Combat Weapon" id="01f7-eba7-78d2-786a" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
-                <infoLink name="Close-Combat Weapon" id="76e8-7785-4a05-5278" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
-              </infoLinks>
+            <selectionEntry type="model" import="true" name="Guardsmen" hidden="false" id="f342-c9aa-d5f7-c1c4" defaultAmount="4">
               <selectionEntryGroups>
-                <selectionEntryGroup name="May take any of the following" id="11fa-452a-e111-46d8" hidden="false">
+                <selectionEntryGroup name="Loadout" id="11fa-452a-e111-46d8" hidden="false" defaultSelectionEntryId="508c-37a5-e7ab-2a51">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Any veteran may replace his Lasgun with a Laspistol" hidden="false" id="ce07-4535-ccb5-1e75">
+                    <selectionEntry type="upgrade" import="true" name="Laspistol" hidden="false" id="ce07-4535-ccb5-1e75">
                       <infoLinks>
                         <infoLink name="Laspistol" id="aa55-699d-1206-9c02" hidden="false" type="profile" targetId="e061-dada-0483-3fff"/>
                       </infoLinks>
                       <constraints>
-                        <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="2e8e-b81a-7cd7-5f8e"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e8e-b81a-7cd7-5f8e"/>
                       </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Medi-pack" hidden="false" id="bd06-f903-13c4-d1ca">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Medi-pack" id="e166-4bff-7901-fad9" hidden="false" type="profile" targetId="a470-bd2b-e511-fc14"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b063-9bb0-66de-e078"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Platoon Standard" hidden="false" id="08b5-be3f-c1de-406e">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Platoon Standard" id="d3ee-3a55-80b3-3004" hidden="false" type="profile" targetId="f546-da42-6cae-6802"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="efa8-bc1a-6629-1b30"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Vox-caster" hidden="false" id="df20-89ca-5d3c-1177">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Vox-caster" id="0087-4181-c3de-6347" hidden="false" type="profile" targetId="ca21-e406-d657-93b9"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4dba-dad2-41ea-acda"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Heavy Flamer" hidden="false" id="3aa1-2cf1-8fbc-e9b1">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2f2-c060-0efe-f5ea"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink name="Heavy Flamer" id="9fbf-435c-1536-ab99" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
-                      </infoLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="0ebe-3b07-c506-eac3">
                       <costs>
@@ -811,6 +757,9 @@ The executed model is immediately removed as a casualty, regardless of the numbe
                       <infoLinks>
                         <infoLink name="Meltagun" id="ed47-0e17-747a-60ca" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1edf-1583-4d27-bba2"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Grenade Launcher" hidden="false" id="b4f2-eb35-1b03-8314">
                       <costs>
@@ -820,6 +769,9 @@ The executed model is immediately removed as a casualty, regardless of the numbe
                         <infoLink name="Grenade Launcher (Frag)" id="bb2d-9544-0226-2c6c" hidden="false" type="profile" targetId="10bd-71f6-7fac-18b8"/>
                         <infoLink name="Grenade Launcher (Krak)" id="d2c5-f27f-a21b-7624" hidden="false" type="profile" targetId="52d0-c270-ad06-6656"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fcd7-5fb2-8be2-cbd6"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Sniper Rifle" hidden="false" id="1d72-57ec-310c-71bf">
                       <costs>
@@ -828,6 +780,9 @@ The executed model is immediately removed as a casualty, regardless of the numbe
                       <infoLinks>
                         <infoLink name="Sniper Rifle" id="5dcb-b55b-0253-859c" hidden="false" type="profile" targetId="e691-3702-5252-d630"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5904-59ac-590a-58d7"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="38db-0902-4682-7c32">
                       <costs>
@@ -836,26 +791,163 @@ The executed model is immediately removed as a casualty, regardless of the numbe
                       <infoLinks>
                         <infoLink name="Plasma Gun" id="ff76-4453-9467-4034" hidden="false" type="profile" targetId="29c3-2b26-b62c-779c"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="57d8-387d-650b-fdcd"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Lasgun" hidden="false" id="508c-37a5-e7ab-2a51">
+                      <infoLinks>
+                        <infoLink name="Lasgun" id="87b9-67d0-a620-6013" hidden="false" type="profile" targetId="3d2e-5448-edbf-a00a"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b571-65a0-c218-99ee"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
-                  <entryLinks>
-                    <entryLink import="true" name="Heavy Weapon Team" hidden="false" id="94be-1b36-6b83-01ea" type="selectionEntry" targetId="73f8-1868-7fb9-bbb1">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="580c-e0b5-d2e0-a6a0"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
                   <constraints>
-                    <constraint type="max" value="4" field="selections" scope="self" shared="true" id="5231-784f-f7a4-6ef5"/>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="5231-784f-f7a4-6ef5-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5231-784f-f7a4-6ef5-max"/>
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Commsman" hidden="false" id="8377-edd3-cc4e-703d">
+              <infoLinks>
+                <infoLink name="Vox-caster" id="d859-46d3-2690-4b2d" hidden="false" type="profile" targetId="ca21-e406-d657-93b9"/>
+                <infoLink name="Guardsman" id="9dca-920b-7d04-1be0" hidden="false" type="profile" targetId="b2de-546d-01f6-63e5"/>
+                <infoLink name="Lasgun" id="6a9a-3f35-3a2f-5b69" hidden="false" type="profile" targetId="3d2e-5448-edbf-a00a"/>
+              </infoLinks>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c849-01d9-63d0-b352-min"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c849-01d9-63d0-b352-max"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c24-0889-0a78-1b81"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Standard Bearer" hidden="false" id="8585-c708-c694-94e6">
+              <infoLinks>
+                <infoLink name="Guardsman" id="27aa-8095-e58f-041a" hidden="false" type="profile" targetId="b2de-546d-01f6-63e5"/>
+                <infoLink name="Lasgun" id="cd92-b329-834f-aa6f" hidden="false" type="profile" targetId="3d2e-5448-edbf-a00a"/>
+                <infoLink name="Platoon Standard" id="9612-7e4d-aeb6-cce5" hidden="false" type="profile" targetId="f546-da42-6cae-6802"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95cb-f326-f752-67f9"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Heavy Flamer Guardsman" hidden="false" id="21aa-fba2-9906-5ca6">
+              <infoLinks>
+                <infoLink name="Guardsman" id="f0ec-2fa5-7dd1-39f3" hidden="false" type="profile" targetId="b2de-546d-01f6-63e5"/>
+                <infoLink name="Heavy Flamer" id="1841-7e9c-375c-da43" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aab6-ab18-f373-dead"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Medic" hidden="false" id="4ab8-5577-f5a1-f0af">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Guardsman" id="2a41-8abc-aff9-d239" hidden="false" type="profile" targetId="b2de-546d-01f6-63e5"/>
+                <infoLink name="Medi-pack" id="6cfb-e6ef-1b7e-68d8" hidden="false" type="profile" targetId="a470-bd2b-e511-fc14"/>
+                <infoLink name="Lasgun" id="5262-779d-1dfe-bce0" hidden="false" type="profile" targetId="3d2e-5448-edbf-a00a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e5f-f9b8-78ba-8da2"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Heavy Weapon Team" hidden="false" id="d9fb-1463-0734-5057">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="1e3c-13f1-ee1c-1b1c" hidden="false" defaultSelectionEntryId="e678-3c00-ffa4-646a">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Heavy Bolter" hidden="false" id="5f65-99ed-8a72-898d">
+                      <infoLinks>
+                        <infoLink name="Heavy Bolter" id="f8be-d74e-5d1b-e0b8" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a5c2-d63e-8427-7709"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Mortar" hidden="false" id="2ae6-4f64-b6dc-06db">
+                      <infoLinks>
+                        <infoLink name="Mortar" id="7e75-5bf2-c11f-6492" hidden="false" type="profile" targetId="f2c6-50ba-e87d-bd29"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4509-05d7-e0ae-956d"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Autocannon" hidden="false" id="fe47-6fd2-9c97-3358">
+                      <infoLinks>
+                        <infoLink name="Autocannon" id="7eb9-cc5d-7675-7dbb" hidden="false" type="profile" targetId="0439-7ae4-6bcf-50ac"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be95-5785-b3a5-db6d"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="f9e1-230f-d885-78b9">
+                      <infoLinks>
+                        <infoLink name="Missile Launcher (Frag)" id="40ed-1fe6-fa68-7d51" hidden="false" type="profile" targetId="5c9b-64b6-6546-fc94"/>
+                        <infoLink name="Missile Launcher (Krak)" id="b7c0-6824-529f-c139" hidden="false" type="profile" targetId="c290-fc2b-c332-8290"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e514-0b7d-acea-1301"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Lascannon" hidden="false" id="e0db-52cb-fc74-847e">
+                      <infoLinks>
+                        <infoLink name="Lascannon" id="9225-4f0c-0d78-6187" hidden="false" type="profile" targetId="2965-8d8c-d5b0-8aa1"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e4a-b8a2-df68-c99b"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="261d-076a-daa5-c8e8"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="418f-95e1-abba-ef74"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <infoLinks>
+                <infoLink name="Heavy Weapon Team" id="452c-019e-04f1-187f" hidden="false" targetId="d257-05c6-b29e-8562" type="profile"/>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" value="1" field="5bc1-c6f8-3ee1-4c35">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5bc1-c6f8-3ee1-4c35"/>
               </constraints>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="fd03-5029-1c46-57a6-min"/>
+            <constraint type="max" value="5" field="selections" scope="self" shared="true" id="fd03-5029-1c46-57a6-max"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -874,6 +966,9 @@ The executed model is immediately removed as a casualty, regardless of the numbe
         </entryLink>
         <entryLink import="true" name="Krak Grenades" hidden="false" id="b0b2-9e76-7553-549c" type="selectionEntry" targetId="e182-b831-28de-7154" sortIndex="4"/>
       </entryLinks>
+      <infoLinks>
+        <infoLink name="Frag Grenades" id="826b-3784-6f44-a973" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Heavy Weapon Squad" hidden="false" id="1cf0-9ca6-2823-7b30">
       <costs>
@@ -1235,17 +1330,93 @@ Any unit with this special rule that is removed from play may be brought back in
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink name="Laspistol" id="9463-daf1-34a8-7758" hidden="false" type="profile" targetId="e061-dada-0483-3fff"/>
-                <infoLink name="Close-Combat Weapon" id="b226-be80-0b5a-6181" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
                 <infoLink name="Frag Grenades" id="4e1b-6b9f-0341-8929" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
                 <infoLink name="Look Out - Arghh!" id="b840-1931-6ada-a0f1" hidden="false" type="rule" targetId="c50b-ca51-2909-c0d7"/>
               </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Melee Weapon" id="26ab-e152-a9c1-7c27" hidden="false" defaultSelectionEntryId="c412-9c9e-d63c-1b1b">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="c412-9c9e-d63c-1b1b">
+                      <infoLinks>
+                        <infoLink name="Close-Combat Weapon" id="24d0-48fd-3de7-05ab" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="03a9-d472-881b-4bcb"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="0496-7e19-3338-863e">
+                      <infoLinks>
+                        <infoLink name="Power Weapon" id="cbb9-b5bc-2e64-d726" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="229f-0280-0f26-22e7"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="f7d2-57fe-dfac-c73d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Fist" id="7fd6-7583-1a4c-9821" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="157c-14e0-89c0-1106"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="6d9b-7f26-a020-308a-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="6d9b-7f26-a020-308a-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Weapon" id="0c54-253b-5759-b488" hidden="false" defaultSelectionEntryId="7407-09b3-3d3c-fb84">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Laspistol" hidden="false" id="7407-09b3-3d3c-fb84">
+                      <infoLinks>
+                        <infoLink name="Laspistol" id="7a70-1873-af54-2ba1" hidden="false" type="profile" targetId="e061-dada-0483-3fff"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="243f-0c19-6fc4-45ca" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="9aa9-3aed-e672-e775">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Bolt Pistol" id="ff60-c644-7b96-b8b5" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c69-8ecd-e125-e229" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="ba2d-1d04-d15f-b420">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Pistol" id="8347-6200-7161-f605" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="daf3-e548-a780-b1ce" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="d225-412e-15fe-687e-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d225-412e-15fe-687e-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup name="Unit" id="78f1-e10a-9434-415c" hidden="false">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Company Commander" hidden="false" id="5d60-45cd-d116-96e3">
+            <selectionEntry type="model" import="true" name="Company Commander" hidden="false" id="5d60-45cd-d116-96e3" defaultAmount="1">
               <entryLinks>
                 <entryLink import="true" name="Combat Weapon" hidden="false" id="5d09-73bc-8aec-0bf6" type="selectionEntryGroup" targetId="f1e6-b6ba-1058-f815">
                   <constraints>
@@ -1316,131 +1487,230 @@ Any unit with this special rule that is removed from play may be brought back in
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Veterans" hidden="false" id="b566-d174-c2ec-4782">
+            <selectionEntry type="model" import="true" name="Commsman" hidden="false" id="acd9-8cdf-0d38-27c3">
               <infoLinks>
-                <infoLink name="Veterans" id="fb75-c70a-4f94-33d2" hidden="false" type="profile" targetId="955b-4caa-612e-525c"/>
-                <infoLink name="Veterans" id="c6fc-f59c-abe8-ad86" hidden="false" type="profile" targetId="955b-4caa-612e-525c"/>
-                <infoLink name="Veterans" id="2772-e8f0-1364-6488" hidden="false" type="profile" targetId="955b-4caa-612e-525c"/>
-                <infoLink name="Veterans" id="01e3-58e6-c761-f605" hidden="false" type="profile" targetId="955b-4caa-612e-525c"/>
+                <infoLink name="Vox-caster" id="6d65-6bdc-2778-e542" hidden="false" type="profile" targetId="ca21-e406-d657-93b9"/>
+                <infoLink name="Veterans" id="2875-0973-f18e-1b1c" hidden="false" type="profile" targetId="955b-4caa-612e-525c"/>
+                <infoLink name="Lasgun" id="6074-1d52-2967-2e73" hidden="false" type="profile" targetId="3d2e-5448-edbf-a00a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c1c-528f-7a79-33b6"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Veteran" hidden="false" id="1579-c939-7e46-0ef4" defaultAmount="4">
+              <infoLinks>
+                <infoLink name="Veterans" id="5242-a77a-5f87-8d29" hidden="false" type="profile" targetId="955b-4caa-612e-525c"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="May take any of the following" id="8abd-7526-f92a-ce3c" hidden="false">
+                <selectionEntryGroup name="Loadout" id="ee6a-77c3-88ae-80f4" hidden="false" defaultSelectionEntryId="508c-37a5-e7ab-2a51">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Any veteran may replace his Lasgun with a Laspistol" hidden="false" id="74e1-1cdc-510a-e51f">
+                    <selectionEntry type="upgrade" import="true" name="Laspistol" hidden="false" id="fc09-14d4-ce61-38b2">
                       <infoLinks>
-                        <infoLink name="Laspistol" id="a20d-994f-6469-f0a3" hidden="false" type="profile" targetId="e061-dada-0483-3fff"/>
+                        <infoLink name="Laspistol" id="d498-7425-1d9b-eb73" hidden="false" type="profile" targetId="e061-dada-0483-3fff"/>
                       </infoLinks>
                       <constraints>
-                        <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="b05b-4069-ce97-ce03"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f43-dd14-5e0f-95af"/>
                       </constraints>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Medi-pack" hidden="false" id="e1ed-cad3-061f-c8be">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Medi-pack" id="90cf-19ba-fa7d-8cde" hidden="false" type="profile" targetId="a470-bd2b-e511-fc14"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2bfd-9dab-37ab-350c"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Regimental Standard" hidden="false" id="20a5-7aca-d7af-8035">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Regimental Standard" id="b1aa-ee9a-e48e-dd9a" hidden="false" type="profile" targetId="3851-10de-8c5a-b346"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40de-07b0-6024-6528"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Vox-caster" hidden="false" id="c4f3-4ac2-7bf7-bc60">
+                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="607b-083e-e192-092c">
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
                       </costs>
                       <infoLinks>
-                        <infoLink name="Vox-caster" id="190b-e16e-f1a7-8e98" hidden="false" type="profile" targetId="ca21-e406-d657-93b9"/>
+                        <infoLink name="Flamer" id="2812-d005-a31c-eda7" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
                       </infoLinks>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1be-67fe-5a57-c441"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3439-dacd-e3e5-3fb8"/>
                       </constraints>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Heavy Flamer" hidden="false" id="111c-c72b-7ad2-43fe">
+                    <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="c4f2-275d-1cc7-bc3f">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Meltagun" id="360e-6984-23e7-e754" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4cbd-e35e-8cea-d09e"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Grenade Launcher" hidden="false" id="d43c-0cde-6f84-b887">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Grenade Launcher (Frag)" id="4414-bba7-fafe-f0b0" hidden="false" type="profile" targetId="10bd-71f6-7fac-18b8"/>
+                        <infoLink name="Grenade Launcher (Krak)" id="67b3-23d3-8d08-150a" hidden="false" type="profile" targetId="52d0-c270-ad06-6656"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f3b-da39-ace8-508b"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Sniper Rifle" hidden="false" id="fa42-58fc-43f7-fc50">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Sniper Rifle" id="77c1-2464-fc83-4d50" hidden="false" type="profile" targetId="e691-3702-5252-d630"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9664-0a51-a806-6ca1"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="bd05-4e34-c817-6af4">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Gun" id="6981-69fb-f7ad-f56a" hidden="false" type="profile" targetId="29c3-2b26-b62c-779c"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f88f-21a3-64c3-9bcd"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Lasgun" hidden="false" id="045d-942c-9c96-6902">
+                      <infoLinks>
+                        <infoLink name="Lasgun" id="6da3-d5a3-4843-c29d" hidden="false" type="profile" targetId="3d2e-5448-edbf-a00a"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c68b-6e79-bf85-b6df"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="8e8e-d927-f3c2-f867-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8e8e-d927-f3c2-f867-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Heavy Flamer Veteran" hidden="false" id="322c-0937-499a-7a1d">
+              <infoLinks>
+                <infoLink name="Veterans" id="27d6-cb20-2245-1ece" hidden="false" type="profile" targetId="955b-4caa-612e-525c"/>
+                <infoLink name="Heavy Flamer" id="9bd4-204d-ad94-7942" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e93-10b7-5112-0267"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Heavy Weapon Team" hidden="false" id="6914-590b-f86c-0ffe">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="4769-55b7-840f-e47c" hidden="false" defaultSelectionEntryId="a272-6ad2-82e0-a28f">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Heavy Bolter" hidden="false" id="9960-bd7f-50bc-beb1">
+                      <infoLinks>
+                        <infoLink name="Heavy Bolter" id="b75a-bf82-9b4e-5b51" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7425-e873-ae07-3b36"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Mortar" hidden="false" id="a272-6ad2-82e0-a28f">
+                      <infoLinks>
+                        <infoLink name="Mortar" id="e2c2-d53a-0b53-e57b" hidden="false" type="profile" targetId="f2c6-50ba-e87d-bd29"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="09e8-d29d-c8ee-892d"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Autocannon" hidden="false" id="fe4a-a58f-a991-6e57">
+                      <infoLinks>
+                        <infoLink name="Autocannon" id="4a4b-1b5e-8abc-ebcc" hidden="false" type="profile" targetId="0439-7ae4-6bcf-50ac"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bda9-9586-b8c5-fea3"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="7a50-52e4-dee4-11ca">
+                      <infoLinks>
+                        <infoLink name="Missile Launcher (Frag)" id="d7b1-2799-c47f-fe22" hidden="false" type="profile" targetId="5c9b-64b6-6546-fc94"/>
+                        <infoLink name="Missile Launcher (Krak)" id="0a33-aa4a-dfbf-a941" hidden="false" type="profile" targetId="c290-fc2b-c332-8290"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b548-159f-5265-7806"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Lascannon" hidden="false" id="ea9c-a0ec-ff67-b3b8">
+                      <infoLinks>
+                        <infoLink name="Lascannon" id="0dcd-4d7b-a1d6-1e03" hidden="false" type="profile" targetId="2965-8d8c-d5b0-8aa1"/>
+                      </infoLinks>
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
                       </costs>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e829-722d-d123-5e79"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="82bc-4c77-590a-89cc"/>
                       </constraints>
-                      <infoLinks>
-                        <infoLink name="Heavy Flamer" id="a254-a5e3-f9f1-8b6e" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="18e5-8991-e025-5c05">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Flamer" id="13e7-ae99-45ce-daae" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9253-280e-68ac-e0b2"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="4429-4046-9c15-e43c">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Meltagun" id="5b32-3649-a120-f4c6" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Grenade Launcher" hidden="false" id="0e08-1a48-fe24-c774">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Grenade Launcher (Frag)" id="5bc5-cd5b-ac27-b408" hidden="false" type="profile" targetId="10bd-71f6-7fac-18b8"/>
-                        <infoLink name="Grenade Launcher (Krak)" id="0efd-c24d-b27d-42cd" hidden="false" type="profile" targetId="52d0-c270-ad06-6656"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Sniper Rifle" hidden="false" id="f91b-ce1b-1ff1-3830">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Sniper Rifle" id="3b14-e1ca-471d-5a5d" hidden="false" type="profile" targetId="e691-3702-5252-d630"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="b76f-1bb5-9ae2-769f">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Plasma Gun" id="8f31-0353-add3-e530" hidden="false" type="profile" targetId="29c3-2b26-b62c-779c"/>
-                      </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
-                  <entryLinks>
-                    <entryLink import="true" name="Heavy Weapon Team" hidden="false" id="a2e1-149a-0533-fd55" type="selectionEntry" targetId="73f8-1868-7fb9-bbb1">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ee6-90a3-a824-7da1"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
                   <constraints>
-                    <constraint type="max" value="4" field="selections" scope="self" shared="true" id="0ff4-bea6-d454-7592"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9b94-e3e1-7496-804f"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c419-8d57-369f-6415"/>
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <infoLinks>
+                <infoLink name="Veteran Heavy Weapon Team" id="9d38-56e0-5969-1e43" hidden="false" targetId="7307-68d2-748c-397e" type="profile"/>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" value="1" field="0c99-0e64-9f86-bd20">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="any" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e079-e289-108c-79c1-min"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e079-e289-108c-79c1-max"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c99-0e64-9f86-bd20"/>
               </constraints>
             </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Medic" hidden="false" id="bbb7-2151-d487-94e9">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Veterans" id="518a-c248-5149-9482" hidden="false" type="profile" targetId="955b-4caa-612e-525c"/>
+                <infoLink name="Medi-pack" id="8bf2-98f1-4267-bfdb" hidden="false" type="profile" targetId="a470-bd2b-e511-fc14"/>
+                <infoLink name="Lasgun" id="43b2-559b-92cd-3623" hidden="false" type="profile" targetId="3d2e-5448-edbf-a00a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a02-ff53-905f-bb94"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Standard Bearer" hidden="false" id="02a8-aded-1a28-702b">
+              <infoLinks>
+                <infoLink name="Veterans" id="1fa7-bc8b-02a7-daf2" hidden="false" type="profile" targetId="955b-4caa-612e-525c"/>
+                <infoLink name="Lasgun" id="3822-2d06-eb6d-c3de" hidden="false" type="profile" targetId="3d2e-5448-edbf-a00a"/>
+                <infoLink name="Regimental Standard" id="532c-b04e-5801-8ff4" hidden="false" type="profile" targetId="3851-10de-8c5a-b346"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac29-ffbd-5f0a-2610"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="9cbe-3032-3626-4ca6-min"/>
+            <constraint type="max" value="5" field="selections" scope="self" shared="true" id="9cbe-3032-3626-4ca6-max"/>
+          </constraints>
         </selectionEntryGroup>
         <selectionEntryGroup name="The entire unit may take" id="1ed5-f946-9c35-b75d" hidden="false">
           <entryLinks>
@@ -6910,7 +7180,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
       <description>The behind enemy lines mission grants the squad infiltrate special rule and their weapons count as Pinning the first time the squad fires.</description>
     </rule>
     <rule name="Look Out - Arghh!" id="c50b-ca51-2909-c0d7" hidden="false">
-      <description>Whilst a Bodyguard is alive, each time the Command Squad is wounded by the enemy, up to two wounds allocated to the COmpany Commander are instead resolved against the Bodyguard(s).</description>
+      <description>Whilst a Bodyguard is alive, each time the Command Squad is wounded by the enemy, up to two wounds allocated to the Company Commander are instead resolved against the Bodyguard(s).</description>
     </rule>
     <rule name="Unique Senior Officer" id="e3eb-5eda-1ba9-14d6" hidden="false">
       <description>One Company Command Squad in your army may replace it&apos;s Company Commander with this model</description>
