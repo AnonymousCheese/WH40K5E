@@ -1564,6 +1564,15 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model armed with digital weapons can re-roll a single failed roll to wound in each Assault phase.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Autogun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="1c32-6493-8a2c-6778">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Combi-weapon" hidden="false" id="d720-24d4-d7f1-df20" defaultAmount="0">
