@@ -1184,7 +1184,6 @@ The Crouchling model is purely decorative and is ignored for game purposes.</cha
               </infoLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d78-d984-046e-0b00"/>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8978-6de5-9188-7991"/>
               </constraints>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Heavy Mining Weapon" id="e9ed-6854-5211-d85a" hidden="false" defaultSelectionEntryId="4587-25b6-98a0-639d">
@@ -1292,9 +1291,9 @@ The Crouchling model is purely decorative and is ignored for game purposes.</cha
             <constraint type="max" value="20" field="selections" scope="self" shared="true" id="74b4-3508-fa17-4ad0"/>
           </constraints>
           <modifiers>
-            <modifier type="decrement" value="1" field="74b4-3508-fa17-4ad0">
+            <modifier type="set" value="19" field="74b4-3508-fa17-4ad0">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="7561-87d2-d31e-bfec" shared="true" includeChildSelections="false"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="7561-87d2-d31e-bfec" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
