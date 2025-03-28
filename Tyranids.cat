@@ -840,7 +840,7 @@ A unit that Feeds is subject to Rage. In addition, the unit may not fire any wea
     </profile>
     <profile name="Paroxysm" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="8591-bb24-f8f4-acc0">
       <characteristics>
-        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This is a psychic shooting attack that automatically hits a single non-vehicle enemy unit within 12&quot;. That unit must reduce its Weapon Skill and Ballistic Skill to 1 until the beginning of the Hive Tyrant&apos;s next turn.</characteristic>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This is a psychic shooting attack that automatically hits a single non-vehicle enemy unit within 12&quot;. That unit must reduce its Weapon Skill and Ballistic Skill to 1 until the beginning of the Bearer&apos;s next turn.</characteristic>
       </characteristics>
     </profile>
     <profile name="Catalyst" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="43ea-65e8-f738-419f">
@@ -926,6 +926,130 @@ If a Spore Mine suffers a wound, touches an enemy model, impassable terrain, or 
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Carnifex gains +2 Initiative during a turn in which it launched an assault.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Norn Assimilator" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="1066-3349-9e22-15da">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">7</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">6</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">6</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Toxinjector Harpoons" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="b528-0acf-251c-f647">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Toxinjector Harpoons" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="f055-278d-fd46-e775">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">If a vehicle in base contact with this model attempts to move, roll a D6. On a 2+ the model does not move.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Massive Rending Claws" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="fbec-19cb-9f29-de3a">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">The bearer does an additional D3 attacks in combat. Roll each time this model attacks.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Norn Emmisary" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="d06d-0afe-f084-46ce">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">7</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">6</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+ (4+ Invulnerable)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Exocrine" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="d5c8-6f6b-0e83-6086">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">1</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">6</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bio-plasmic Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="c15f-7e45-709d-e58c">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12-36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Barrage, Large Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Ravenous Maw and Crushing Claws" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="fd47-43a8-290e-fcd3">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">The bearer gains an additional D6 attacks. Roll every time the bearer attacks.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Haruspex" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="a1fc-b2a6-90ed-ac63">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">6</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Maleceptor" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="4298-8fcc-e07b-80f3">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+ (4+ Invulnerable)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Neurolictor" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="3f18-2bdc-c3d7-f8f3">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">-</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+ Invulnerable</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Neurotyrant" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="afc8-3f1d-9f25-1ff3">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+ (4+ Invulnerable)</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Hive Tyrant" hidden="false" id="b7df-e825-5bd8-ed62">
@@ -942,7 +1066,7 @@ If a Spore Mine suffers a wound, touches an enemy model, impassable terrain, or 
       <selectionEntryGroups>
         <selectionEntryGroup name="Loadout" id="6ef9-55c3-0d71-dd43" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="48e5-8444-54d9-13f2" defaultAmount="1">
+            <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="48e5-8444-54d9-13f2" defaultAmount="2">
               <infoLinks>
                 <infoLink name="Scything Talons" id="97ea-96dd-9191-1dc0" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
               </infoLinks>
@@ -994,6 +1118,9 @@ If a Spore Mine suffers a wound, touches an enemy model, impassable terrain, or 
                   <infoLinks>
                     <infoLink name="Heavy Venom Cannon" id="5d31-1064-bbfa-d2a0" hidden="false" type="profile" targetId="c008-395f-3bd0-8b72"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef23-78d7-be31-3b65"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -1003,6 +1130,7 @@ If a Spore Mine suffers a wound, touches an enemy model, impassable terrain, or 
           </selectionEntryGroups>
           <constraints>
             <constraint type="max" value="2" field="selections" scope="self" shared="true" id="039e-5b58-e613-dbe4" includeChildSelections="true"/>
+            <constraint type="min" value="2" field="selections" scope="self" shared="true" id="54ed-2f7f-a179-41bd" includeChildSelections="true"/>
           </constraints>
         </selectionEntryGroup>
         <selectionEntryGroup name="Take any of the following abilities" id="1f5c-52b4-2a04-fa21" hidden="false">
@@ -1133,6 +1261,9 @@ If a Spore Mine suffers a wound, touches an enemy model, impassable terrain, or 
               <infoLinks>
                 <infoLink name="Thorax Swarm (Electroshock Grubs)" id="c59b-0245-ffe6-4534" hidden="false" type="profile" targetId="6d68-3102-357f-54a6"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db9b-3471-64eb-7203"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Thorax swarm with Desiccator Larvae" hidden="false" id="22a6-1df7-6cff-4b6b">
               <costs>
@@ -1141,6 +1272,9 @@ If a Spore Mine suffers a wound, touches an enemy model, impassable terrain, or 
               <infoLinks>
                 <infoLink name="Thorax Swarm (Desiccator Larvae)" id="6aa8-253b-ef22-47da" hidden="false" type="profile" targetId="4c04-81db-6eb3-090b"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0539-a880-4797-63b4"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Thorax swarm with Shreddershard Beetles" hidden="false" id="c06b-1bc7-a5ce-815a">
               <costs>
@@ -1149,6 +1283,10 @@ If a Spore Mine suffers a wound, touches an enemy model, impassable terrain, or 
               <infoLinks>
                 <infoLink name="Thorax Swarm (Shreddershard Beetles)" id="32ea-8cb0-21cf-f358" hidden="false" type="profile" targetId="4753-5245-8609-61f9"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bcb8-2e2f-449d-d38b"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3a2f-a1fd-b059-b32b"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Armoured Shell" hidden="false" id="55c4-7d78-a798-8372">
               <costs>
@@ -1157,6 +1295,9 @@ If a Spore Mine suffers a wound, touches an enemy model, impassable terrain, or 
               <infoLinks>
                 <infoLink name="Armoured Shell" id="b6e2-82ec-44e5-9878" hidden="false" type="profile" targetId="2209-b050-a79c-fa7f"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="60ec-388c-bd4e-e574"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Wings" hidden="false" id="0e63-f5dd-648f-19d7">
               <costs>
@@ -1166,6 +1307,9 @@ If a Spore Mine suffers a wound, touches an enemy model, impassable terrain, or 
                 <infoLink name="Wings" id="cb7b-6280-3c9b-3cf1" hidden="false" type="profile" targetId="4b5c-7fa6-cbb6-81a9"/>
                 <infoLink name="Jump Infantry" id="b347-e322-bc43-6811" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b306-f4ef-f094-8c38"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1243,6 +1387,9 @@ If a Spore Mine suffers a wound, touches an enemy model, impassable terrain, or 
                       <infoLinks>
                         <infoLink name="Scything Talons" id="48bd-1cda-78c5-aadf" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6bf8-cc47-4580-f578"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Lash Whip" hidden="false" id="348d-8dcb-98b0-9bc9">
                       <costs>
@@ -1251,6 +1398,9 @@ If a Spore Mine suffers a wound, touches an enemy model, impassable terrain, or 
                       <infoLinks>
                         <infoLink name="Lash Whip" id="f017-7638-8a0e-9b45" hidden="false" type="profile" targetId="03cb-0385-2167-e4be"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4bde-95bb-6a9e-b324"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Bonesword" hidden="false" id="c52d-f36e-6b8d-0a11">
                       <costs>
@@ -1259,6 +1409,9 @@ If a Spore Mine suffers a wound, touches an enemy model, impassable terrain, or 
                       <infoLinks>
                         <infoLink name="Bonesword" id="50a5-757a-6f74-e0c5" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c549-43b8-5cd2-e574"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -1408,11 +1561,17 @@ If a Spore Mine suffers a wound, touches an enemy model, impassable terrain, or 
               <infoLinks>
                 <infoLink name="Stinger Salvo" id="7b9d-40f0-2c6e-bc69" hidden="false" type="profile" targetId="624c-10a6-80bd-fd9f"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c3cd-d188-5d1e-809a"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Cluster Spines" hidden="false" id="d7db-9a52-d4ee-7b89">
               <infoLinks>
                 <infoLink name="Cluster Spines" id="6cca-646b-e079-e65c" hidden="false" type="profile" targetId="45f6-a36b-9494-e369"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c23-3d5e-29a7-bc48"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1429,6 +1588,9 @@ If a Spore Mine suffers a wound, touches an enemy model, impassable terrain, or 
               <infoLinks>
                 <infoLink name="Scything Talons" id="050e-1c94-4b5c-60c4" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c189-02a9-0faf-adcc"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Crushing Claws" hidden="false" id="2747-8bb9-175d-a0a4">
               <costs>
@@ -1437,6 +1599,9 @@ If a Spore Mine suffers a wound, touches an enemy model, impassable terrain, or 
               <infoLinks>
                 <infoLink name="Crushing Claws" id="6df7-9bfb-eb3f-3377" hidden="false" type="profile" targetId="2d7b-ae8e-20dd-559d"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="15ae-b593-ca16-0c1d"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1578,12 +1743,15 @@ Should a Tervigon be slain, every Termagant brood, spawned or otherwise, within 
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="First Weapon" id="52a7-dc3d-9919-fb9d" hidden="false" defaultSelectionEntryId="2057-e692-a5ce-d370">
+        <selectionEntryGroup name="First Arms" id="52a7-dc3d-9919-fb9d" hidden="false" defaultSelectionEntryId="2057-e692-a5ce-d370">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="2057-e692-a5ce-d370">
               <infoLinks>
                 <infoLink name="Scything Talons" id="34aa-1581-dba0-46da" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d5c3-7cd7-16f2-0beb"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Rending Claws" hidden="false" id="1246-f884-a451-6cd6">
               <costs>
@@ -1592,6 +1760,9 @@ Should a Tervigon be slain, every Termagant brood, spawned or otherwise, within 
               <infoLinks>
                 <infoLink name="Rending Claws" id="4ee9-724a-6e9c-ce2d" hidden="false" type="profile" targetId="b14f-e98f-bb94-e63f"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9dc5-a2b0-e590-2838"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="A pair of Boneswords" hidden="false" id="f2f2-b6bc-63c3-1a03">
               <costs>
@@ -1601,6 +1772,9 @@ Should a Tervigon be slain, every Termagant brood, spawned or otherwise, within 
                 <infoLink name="Bonesword" id="def6-8ca0-1965-7a5c" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
                 <infoLink name="Bonesword" id="e3e8-fcab-2eee-d430" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a75a-7e65-c3ed-9cb2"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Lash Whip and Bonesword" hidden="false" id="7c95-77b9-41d7-bd28">
               <costs>
@@ -1610,6 +1784,9 @@ Should a Tervigon be slain, every Termagant brood, spawned or otherwise, within 
                 <infoLink name="Lash Whip" id="e10a-f3f4-56f3-031e" hidden="false" type="profile" targetId="03cb-0385-2167-e4be"/>
                 <infoLink name="Bonesword" id="9bec-bf72-7956-2900" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7fed-1131-46da-7cc2"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1617,22 +1794,31 @@ Should a Tervigon be slain, every Termagant brood, spawned or otherwise, within 
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9c80-2c50-1f31-2e43-max"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Second Weapon" id="c082-827e-6f5b-8997" hidden="false" defaultSelectionEntryId="2834-e6a5-fe87-6e92">
+        <selectionEntryGroup name="Second Arms" id="c082-827e-6f5b-8997" hidden="false" defaultSelectionEntryId="2834-e6a5-fe87-6e92">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Devourer" hidden="false" id="2834-e6a5-fe87-6e92">
               <infoLinks>
                 <infoLink name="Devourer" id="fafa-e8f5-7470-95b6" hidden="false" type="profile" targetId="d150-d6bc-04ca-634b"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c04d-8417-dcb7-d28e"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Rending Claws" hidden="false" id="595e-0a59-25d5-eca7">
               <infoLinks>
                 <infoLink name="Rending Claws" id="d3af-61c9-e640-4819" hidden="false" type="profile" targetId="b14f-e98f-bb94-e63f"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a82b-cad5-85bc-a743"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Spinefists" hidden="false" id="768b-607e-37c2-052c">
               <infoLinks>
                 <infoLink name="Spinefists" id="8fd3-be3b-5bde-2db5" hidden="false" type="profile" targetId="527c-ef0c-0fc4-a542"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a6d-55d6-337e-03a1"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Deathspitter" hidden="false" id="4f04-37e5-d2ee-5d1b">
               <costs>
@@ -1641,11 +1827,26 @@ Should a Tervigon be slain, every Termagant brood, spawned or otherwise, within 
               <infoLinks>
                 <infoLink name="Deathspitter" id="dc66-6044-5b78-7b2c" hidden="false" type="profile" targetId="7fef-72a3-7feb-5273"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3bb1-a7af-656e-073b"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="2bc9-bb63-f206-abfa">
               <infoLinks>
                 <infoLink name="Scything Talons" id="1789-bfe5-449d-c6c0" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6838-e34f-d85b-9543"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Wings" hidden="false" id="6782-7924-45cb-43ab">
+              <infoLinks>
+                <infoLink name="Wings" id="7e5a-6900-a3b3-5275" hidden="false" type="profile" targetId="4b5c-7fa6-cbb6-81a9"/>
+                <infoLink name="Jump Infantry" id="1d6d-6219-53b5-20b5" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2832-ef02-bc6d-54e7"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1769,7 +1970,7 @@ Should a Tervigon be slain, every Termagant brood, spawned or otherwise, within 
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Lictor Brood" hidden="false" id="69da-685f-c2f7-4be7">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Lictor" hidden="false" id="35ff-55c4-5bb0-223d">
+        <selectionEntry type="model" import="true" name="Lictor" hidden="false" id="35ff-55c4-5bb0-223d">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="65"/>
           </costs>
@@ -2141,6 +2342,9 @@ Protective Carapace: +1 to Toughness</characteristic>
                   <infoLinks>
                     <infoLink name="Scything Talons" id="1e50-7ee0-a188-8e5e" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1e0-a989-34ea-7b74"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Rending Claws" hidden="false" id="467a-9fcf-9d6c-8302">
                   <costs>
@@ -2149,6 +2353,9 @@ Protective Carapace: +1 to Toughness</characteristic>
                   <infoLinks>
                     <infoLink name="Rending Claws" id="d2a3-f8c0-de41-612f" hidden="false" type="profile" targetId="b14f-e98f-bb94-e63f"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="42f3-935f-3355-b838"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="A Pair of Boneswords" hidden="false" id="b344-44ae-bc41-0d70">
                   <costs>
@@ -2158,6 +2365,9 @@ Protective Carapace: +1 to Toughness</characteristic>
                     <infoLink name="Bonesword" id="5f5c-9764-f3a8-69a6" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
                     <infoLink name="Bonesword" id="a1f7-0180-b463-26d4" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc39-3ee1-249c-e71b"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Lash-whip and Bonesword" hidden="false" id="5a1b-663c-5e85-2999">
                   <costs>
@@ -2167,6 +2377,10 @@ Protective Carapace: +1 to Toughness</characteristic>
                     <infoLink name="Lash Whip" id="b262-4ae4-7144-ada6" hidden="false" type="profile" targetId="03cb-0385-2167-e4be"/>
                     <infoLink name="Bonesword" id="24b4-4a9a-2613-7984" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b2a-69de-51ef-4f27"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8814-3801-0185-05d3"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -2180,16 +2394,25 @@ Protective Carapace: +1 to Toughness</characteristic>
                   <infoLinks>
                     <infoLink name="Devourer" id="060d-45e8-ab08-cd74" hidden="false" type="profile" targetId="d150-d6bc-04ca-634b"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a775-2a9e-6d02-ba27"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Rending Claws" hidden="false" id="3437-12ab-b1da-3275">
                   <infoLinks>
                     <infoLink name="Rending Claws" id="02bb-c73b-13cb-98a3" hidden="false" type="profile" targetId="b14f-e98f-bb94-e63f"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac5c-5e31-80ae-fa40"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Spinefists" hidden="false" id="2d4c-8f2b-19e0-fe4a">
                   <infoLinks>
                     <infoLink name="Spinefists" id="17af-c7bc-cb3c-9614" hidden="false" type="profile" targetId="527c-ef0c-0fc4-a542"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7034-1261-5ff8-73d2"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Deathspitter" hidden="false" id="8ad7-0b0e-7d58-b5a4">
                   <costs>
@@ -2198,11 +2421,17 @@ Protective Carapace: +1 to Toughness</characteristic>
                   <infoLinks>
                     <infoLink name="Deathspitter" id="6ddf-ffa3-09c2-5805" hidden="false" type="profile" targetId="7fef-72a3-7feb-5273"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e789-3ed3-32a7-2b4e"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="a3cd-7532-fed4-5feb">
                   <infoLinks>
                     <infoLink name="Scything Talons" id="9797-ab42-6bc0-d1d0" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c797-d2a1-2cee-5c56"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -2219,6 +2448,9 @@ Protective Carapace: +1 to Toughness</characteristic>
                   <infoLinks>
                     <infoLink name="Barbed Strangler" id="e9b9-97f0-8d60-638a" hidden="false" type="profile" targetId="d3b6-6b49-23b8-30fd"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c811-c8f5-a223-c4c4"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Venom Cannon" hidden="false" id="ee6e-6881-48ca-5fe3">
                   <costs>
@@ -2227,6 +2459,9 @@ Protective Carapace: +1 to Toughness</characteristic>
                   <infoLinks>
                     <infoLink name="Venom Cannon" id="40a1-98be-ea4b-406d" hidden="false" type="profile" targetId="ceb3-7424-1f03-0ca7"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3af4-20bf-3a7f-e698"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -2443,6 +2678,9 @@ Protective Carapace: +1 to Toughness</characteristic>
                   <infoLinks>
                     <infoLink name="Fleshborer" id="070f-f948-942a-ed9c" hidden="false" type="profile" targetId="92e8-4499-60cc-d8f0"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="550b-e552-59e2-0c17"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Spinefists" hidden="false" id="a673-8eba-1ad4-e6ad">
                   <costs>
@@ -2451,6 +2689,9 @@ Protective Carapace: +1 to Toughness</characteristic>
                   <infoLinks>
                     <infoLink name="Spinefists" id="e943-352c-3e50-7959" hidden="false" type="profile" targetId="527c-ef0c-0fc4-a542"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c70d-e3c2-d8ee-8491"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Spike Rifle" hidden="false" id="2b27-4c19-f080-2956">
                   <costs>
@@ -2459,6 +2700,9 @@ Protective Carapace: +1 to Toughness</characteristic>
                   <infoLinks>
                     <infoLink name="Spike Rifle" id="a749-55a7-348c-bfdd" hidden="false" type="profile" targetId="c1ad-8cb3-666e-ac6a"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0ea-5bcb-bbed-8158"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Devourer" hidden="false" id="e096-48d9-acfc-8514">
                   <costs>
@@ -2467,6 +2711,9 @@ Protective Carapace: +1 to Toughness</characteristic>
                   <infoLinks>
                     <infoLink name="Devourer" id="4d52-e9c9-3ba6-5d9a" hidden="false" type="profile" targetId="d150-d6bc-04ca-634b"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="34eb-40d9-8b73-cde6"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -2692,11 +2939,17 @@ Protective Carapace: +1 to Toughness</characteristic>
                   <infoLinks>
                     <infoLink name="Devourer" id="0876-db0e-9cac-022d" hidden="false" type="profile" targetId="d150-d6bc-04ca-634b"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ba6-de69-2678-1e52"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Spinefists" hidden="false" id="5e36-0e02-db0d-6116">
                   <infoLinks>
                     <infoLink name="Spinefists" id="89b2-0194-ff46-e4bb" hidden="false" type="profile" targetId="527c-ef0c-0fc4-a542"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="357a-2e27-8402-d64d"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Deathspitter" hidden="false" id="876e-9128-8937-a5a5">
                   <costs>
@@ -2705,11 +2958,17 @@ Protective Carapace: +1 to Toughness</characteristic>
                   <infoLinks>
                     <infoLink name="Deathspitter" id="923c-527e-851f-2c75" hidden="false" type="profile" targetId="7fef-72a3-7feb-5273"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3978-bdad-65ba-2abf"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="38bc-58fa-ef34-d4af">
                   <infoLinks>
                     <infoLink name="Scything Talons" id="cbfd-d020-4a01-d87e" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="76c8-3362-2768-e494"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Lash-whip and Bonesword" hidden="false" id="be46-adc0-6450-f0a6">
                   <costs>
@@ -2719,6 +2978,9 @@ Protective Carapace: +1 to Toughness</characteristic>
                     <infoLink name="Lash Whip" id="66b9-e50d-2fbe-b611" hidden="false" type="profile" targetId="03cb-0385-2167-e4be"/>
                     <infoLink name="Bonesword" id="2f0b-9e2c-100b-52fc" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e32a-e7d2-2257-4b2b"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="A Pair of Boneswords" hidden="false" id="cbaa-f262-be87-28e1">
                   <costs>
@@ -2728,6 +2990,9 @@ Protective Carapace: +1 to Toughness</characteristic>
                     <infoLink name="Bonesword" id="bdc9-2957-0743-4fab" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
                     <infoLink name="Bonesword" id="009f-7c67-aa4e-0427" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7524-38a2-05a1-ee45"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -2741,6 +3006,9 @@ Protective Carapace: +1 to Toughness</characteristic>
                   <infoLinks>
                     <infoLink name="Scything Talons" id="ee7c-9316-5b2d-bea7" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9383-a4c0-a367-c443"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Rending Claws" hidden="false" id="eeac-557d-c70e-4ce2">
                   <costs>
@@ -2749,6 +3017,9 @@ Protective Carapace: +1 to Toughness</characteristic>
                   <infoLinks>
                     <infoLink name="Rending Claws" id="4576-7998-a819-2ac9" hidden="false" type="profile" targetId="b14f-e98f-bb94-e63f"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="898e-3d7e-44a6-fa55"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -2804,6 +3075,9 @@ Protective Carapace: +1 to Toughness</characteristic>
               <infoLinks>
                 <infoLink name="Barbed Strangler" id="5431-7e2e-ce2b-11a8" hidden="false" type="profile" targetId="d3b6-6b49-23b8-30fd"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0573-ec50-2266-dea4"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Venom Cannon" hidden="false" id="6556-c195-9b6a-da73">
               <costs>
@@ -2812,6 +3086,9 @@ Protective Carapace: +1 to Toughness</characteristic>
               <infoLinks>
                 <infoLink name="Venom Cannon" id="a1e0-64f9-7e8f-aab9" hidden="false" type="profile" targetId="ceb3-7424-1f03-0ca7"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4352-00fb-a15c-9464"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -2837,6 +3114,9 @@ Protective Carapace: +1 to Toughness</characteristic>
                   <infoLinks>
                     <infoLink name="Scything Talons" id="8a46-4a72-ec18-ab4b" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3bc0-ebb1-f2c4-0f83"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Rending Claws" hidden="false" id="2df4-5dba-b3ca-b0e5">
                   <costs>
@@ -2845,6 +3125,9 @@ Protective Carapace: +1 to Toughness</characteristic>
                   <infoLinks>
                     <infoLink name="Rending Claws" id="1cd2-ab8d-def8-2f98" hidden="false" type="profile" targetId="b14f-e98f-bb94-e63f"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ac3-fdc4-bca5-7a35"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -2861,6 +3144,9 @@ Protective Carapace: +1 to Toughness</characteristic>
                   <infoLinks>
                     <infoLink name="Spinefists" id="24f5-0aa3-1c77-0eeb" hidden="false" type="profile" targetId="527c-ef0c-0fc4-a542"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5ed3-120e-f74e-579e"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Devourers" hidden="false" id="f848-1323-60c0-a9a7">
                   <costs>
@@ -2869,6 +3155,10 @@ Protective Carapace: +1 to Toughness</characteristic>
                   <infoLinks>
                     <infoLink name="Devourer" id="730c-55a9-348f-eac9" hidden="false" type="profile" targetId="d150-d6bc-04ca-634b"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="51bc-b7a7-9010-b50c"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b54-7f6d-e859-74ad"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Deathspitters" hidden="false" id="9166-94f2-9cb2-2ba9">
                   <costs>
@@ -2877,6 +3167,9 @@ Protective Carapace: +1 to Toughness</characteristic>
                   <infoLinks>
                     <infoLink name="Deathspitter" id="824d-9ec4-8ed4-7afb" hidden="false" type="profile" targetId="7fef-72a3-7feb-5273"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1599-c795-8257-f98d"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -3046,6 +3339,10 @@ Protective Carapace: +1 to Toughness</characteristic>
               <infoLinks>
                 <infoLink name="Twin-linked Stranglethorn Cannon" id="9043-34ac-3121-5f81" hidden="false" type="profile" targetId="6578-a80d-0865-64e7"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95ea-7eca-aabf-24ec"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7eaf-9c7a-b5b4-06a3"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Twin-linked Heavy Venom Cannon" hidden="false" id="967f-df56-f219-6da5">
               <costs>
@@ -3054,6 +3351,9 @@ Protective Carapace: +1 to Toughness</characteristic>
               <infoLinks>
                 <infoLink name="Twin-linked Heavy Venom Cannon" id="e56d-622b-7dda-13f0" hidden="false" type="profile" targetId="1713-4155-f08d-d8ef"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2723-91da-90ef-8846"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -3067,11 +3367,17 @@ Protective Carapace: +1 to Toughness</characteristic>
               <infoLinks>
                 <infoLink name="Stinger Salvo" id="bdcd-a5f2-62dd-6eea" hidden="false" type="profile" targetId="624c-10a6-80bd-fd9f"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7894-22ef-0fbd-657e"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Cluster Spines" hidden="false" id="c3e0-3c46-a901-74dd">
               <infoLinks>
                 <infoLink name="Cluster Spines" id="7e01-ccba-25b0-974e" hidden="false" type="profile" targetId="45f6-a36b-9494-e369"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="26d6-335b-07d5-8f39"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -3164,74 +3470,14 @@ Protective Carapace: +1 to Toughness</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Carnifex" hidden="false" id="7589-0b93-e6ea-3000">
+        <selectionEntry type="model" import="true" name="Carnifex" hidden="false" id="7589-0b93-e6ea-3000">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="160"/>
           </costs>
           <infoLinks>
             <infoLink name="Carnifex" id="ae6f-3085-44ff-6c05" hidden="false" type="profile" targetId="99c4-13fe-7a43-7de6"/>
-            <infoLink name="Scything Talons" id="ec7a-51e8-f8c4-fc82" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
-            <infoLink name="Scything Talons" id="5992-a52c-01e3-98cc" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Replace one set of Scything Talons with" id="0c80-e930-9142-c3d4" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Crushing Claws" hidden="false" id="2f48-080e-9e35-fdd5">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Crushing Claws" id="ed17-ce17-32d8-79d2" hidden="false" type="profile" targetId="2d7b-ae8e-20dd-559d"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="23d0-81a8-9642-5a24"/>
-                  </constraints>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Replace any set of Scything Talons with" id="7e9a-e23d-1e6b-d1f4" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Twin-linked Deathspitters" hidden="false" id="9175-f2f1-e95b-2ac7">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Twin-linked Deathspitters" id="5a24-de24-14db-d58e" hidden="false" type="profile" targetId="00e2-7771-a8dd-5bf8"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Twin-linked Devourers with Brainleech Worms" hidden="false" id="8704-2a6d-70e2-5687">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Twin-linked Devourers with Brainleech Worms" id="d8a5-5a61-f5cf-1d27" hidden="false" type="profile" targetId="c2c8-8387-5e85-1269"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Take one of the following, replacing a set of Scything talons" id="da95-4fea-04b5-07aa" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Stranglethorn Cannon" hidden="false" id="6140-d1b2-145b-8ecc">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Stranglethorn Cannon" id="2132-e63f-05c2-81bd" hidden="false" type="profile" targetId="b1f6-94cd-91f8-1517"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy Venom Cannons" hidden="false" id="1afc-49d2-db7b-6d6d">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Heavy Venom Cannon" id="19a0-863e-9941-4918" hidden="false" type="profile" targetId="c008-395f-3bd0-8b72"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b305-a7d1-6b86-b3b6"/>
-              </constraints>
-            </selectionEntryGroup>
             <selectionEntryGroup name="Take any of the following" id="bbd0-4ca0-8eaa-2a7a" hidden="false">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Frag Spines" hidden="false" id="8971-b037-aeba-9d2f">
@@ -3290,6 +3536,77 @@ Protective Carapace: +1 to Toughness</characteristic>
                   </constraints>
                 </selectionEntry>
               </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Loadout" id="a026-784d-d1e4-30df" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="4bb5-656e-2d08-9d53" defaultAmount="2">
+                  <infoLinks>
+                    <infoLink name="Scything Talons" id="86cc-9246-d061-498a" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Twin-linked Deathspitters" hidden="false" id="3387-3448-f38d-e11c">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Twin-linked Deathspitters" id="e63c-be43-4d42-b69e" hidden="false" type="profile" targetId="00e2-7771-a8dd-5bf8"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Twin-linked Devourers with Brainleech Worms" hidden="false" id="21ab-4cf0-e813-08b1">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Twin-linked Devourers with Brainleech Worms" id="1ac3-25e8-cabf-045d" hidden="false" type="profile" targetId="c2c8-8387-5e85-1269"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Crushing Claws" hidden="false" id="8b75-bf23-b663-7fb3">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Crushing Claws" id="db0b-8853-b5f9-5350" hidden="false" type="profile" targetId="2d7b-ae8e-20dd-559d"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c68d-a64d-d6de-257b"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="self" shared="true" id="2b01-8bf7-1fa6-0f6c-min" includeChildSelections="true"/>
+                <constraint type="max" value="2" field="selections" scope="self" shared="true" id="2b01-8bf7-1fa6-0f6c-max" includeChildSelections="true"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="One of the following" id="6345-8e3b-8033-da6e" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Stranglethorn Cannon" hidden="false" id="539d-da04-f009-727b">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Stranglethorn Cannon" id="59d6-25b5-20f3-7081" hidden="false" type="profile" targetId="b1f6-94cd-91f8-1517"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2aa4-669d-4296-63c0"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Heavy Venom Cannons" hidden="false" id="6905-813f-10f4-8dee">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Heavy Venom Cannon" id="334b-3f44-5d15-761c" hidden="false" type="profile" targetId="c008-395f-3bd0-8b72"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f47d-2021-e1ab-e9e2"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="35ba-8cff-2854-4d6d"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
@@ -3371,6 +3688,9 @@ Protective Carapace: +1 to Toughness</characteristic>
                 <infoLink name="Trygon" id="1468-0fb6-536c-b279" hidden="false" type="profile" targetId="7cb5-8c62-8d6e-90ba"/>
                 <infoLink name="Instinctive Behaviour - Feed" id="22e6-20c0-b724-e2a4" hidden="false" type="profile" targetId="033b-00cf-e0e1-c66c"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5283-b2b7-08fb-f285"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Trygon Prime" hidden="false" id="dca3-c410-acdf-da93">
               <costs>
@@ -3382,6 +3702,9 @@ Protective Carapace: +1 to Toughness</characteristic>
                 <infoLink name="Synapse Creature" id="29d0-42fb-5fcf-7918" hidden="false" type="profile" targetId="c532-63f6-20dd-0d6f"/>
                 <infoLink name="Shadow in the Warp" id="97fd-aada-2023-a69b" hidden="false" type="profile" targetId="90e3-72fc-385a-b619"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="165b-5494-89fa-4a06"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -3533,6 +3856,9 @@ Place the Large blast template directly over the spot the Mawloc is emerging fro
               <infoLinks>
                 <infoLink name="Acid Spray" id="cd6d-ea1c-c4e6-9ab2" hidden="false" type="profile" targetId="22d1-385f-56f0-8466"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e56-1d99-37ef-49c3"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Fleshborer Hive" hidden="false" id="d4cf-2589-a54e-25a0">
               <costs>
@@ -3541,6 +3867,9 @@ Place the Large blast template directly over the spot the Mawloc is emerging fro
               <infoLinks>
                 <infoLink name="Fleshborer Hive" id="3df7-4206-d764-d7b6" hidden="false" type="profile" targetId="c30d-59ea-4eb1-ee27"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="445e-36dd-ca4b-d8da"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Rupture Cannon" hidden="false" id="91dc-ebaa-8807-12ed">
               <costs>
@@ -3549,6 +3878,9 @@ Place the Large blast template directly over the spot the Mawloc is emerging fro
               <infoLinks>
                 <infoLink name="Rupture Cannon" id="fe37-00d7-e834-38f5" hidden="false" type="profile" targetId="95da-185c-8c2a-797c"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a89-59a1-2ad8-9423"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -3562,11 +3894,17 @@ Place the Large blast template directly over the spot the Mawloc is emerging fro
               <infoLinks>
                 <infoLink name="Stinger Salvo" id="e954-7e1d-87b4-9431" hidden="false" type="profile" targetId="624c-10a6-80bd-fd9f"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0985-be8f-aa96-d0e0"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Cluster Spines" hidden="false" id="0fa5-365d-a673-796f">
               <infoLinks>
                 <infoLink name="Cluster Spines" id="ca45-c139-6bd4-4591" hidden="false" type="profile" targetId="45f6-a36b-9494-e369"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de80-be14-cb3b-4ac9"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -3580,16 +3918,25 @@ Place the Large blast template directly over the spot the Mawloc is emerging fro
               <infoLinks>
                 <infoLink name="Thorax Swarm (Electroshock Grubs)" id="8f6f-f3c9-d4da-a488" hidden="false" type="profile" targetId="6d68-3102-357f-54a6"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d6f4-6d1b-bce7-35c8"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Desiccator Larvae" hidden="false" id="d682-95ea-ed06-90cc">
               <infoLinks>
                 <infoLink name="Thorax Swarm (Desiccator Larvae)" id="ad39-79ae-1dbb-b337" hidden="false" type="profile" targetId="4c04-81db-6eb3-090b"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ea1-6790-6a65-8c08"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Shreddershard Beetles" hidden="false" id="55eb-c188-9b08-b6c5">
               <infoLinks>
                 <infoLink name="Thorax Swarm (Shreddershard Beetles)" id="b861-c87c-f692-29b4" hidden="false" type="profile" targetId="4753-5245-8609-61f9"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ac6-c2d4-f469-86a4"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -3635,6 +3982,695 @@ Place the Large blast template directly over the spot the Mawloc is emerging fro
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Norn Emmisary" hidden="false" id="4e5a-e0a5-11b7-6098">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="210"/>
+      </costs>
+      <infoLinks>
+        <infoLink targetId="d06d-0afe-f084-46ce" id="5fe0-3580-4a09-11fa" type="profile" name="Norn Emmisary" hidden="false"/>
+        <infoLink name="Warp Lance" id="73bf-7c90-484e-20b2" hidden="false" type="profile" targetId="516b-72ea-d906-7389"/>
+        <infoLink targetId="fbec-19cb-9f29-de3a" id="b357-f3aa-972f-1417" type="profile" name="Massive Rending Claws" hidden="false"/>
+        <infoLink name="Warp Blast" id="fa39-1f0c-54e5-6e6b" hidden="false" type="profile" targetId="03e2-2b5f-2690-f68e"/>
+        <infoLink name="Scything Talons" id="849e-2e26-6e7d-a370" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+        <infoLink name="Monstrous Creature" id="2dfd-e9f3-414b-1a9c" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Synapse Creature" id="0cd3-09f0-e875-521e" hidden="false" type="profile" targetId="c532-63f6-20dd-0d6f"/>
+        <infoLink name="Shadow in the Warp" id="2e33-403c-b1aa-fc82" hidden="false" type="profile" targetId="90e3-72fc-385a-b619"/>
+        <infoLink name="Psyker" id="7c85-8409-4915-12f5" hidden="false" type="profile" targetId="d241-1e73-a625-ec7d"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Armoured Shell" hidden="false" id="5ef9-5e16-0166-ce93">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Armoured Shell" id="e677-6c62-4ce2-0f43" hidden="false" type="profile" targetId="2209-b050-a79c-fa7f"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5ac4-1d4d-1919-d170"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="A Norn Emmisary has one of the following powers" id="4029-c0af-3b1e-091e" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="The Horror" hidden="false" id="8992-2bf4-fa12-047e">
+              <infoLinks>
+                <infoLink name="The Horror" id="a147-66d9-4440-10c6" hidden="false" type="profile" targetId="f456-0120-d5ef-c6ac"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6959-b4de-f357-5917"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Leech Essence" hidden="false" id="a7e0-9caf-3699-ac0e">
+              <infoLinks>
+                <infoLink name="Leech Essence" id="7b45-c7a2-90f4-3d4f" hidden="false" type="profile" targetId="45fb-4a21-aada-c51d"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9490-38a6-42f7-1e9e"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Paroxysm" hidden="false" id="e57e-a32d-9874-064e">
+              <infoLinks>
+                <infoLink name="Paroxysm" id="f0f9-4675-46d1-4cb5" hidden="false" type="profile" targetId="8591-bb24-f8f4-acc0"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="38b8-49a6-46e2-f12f"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psychic Scream" hidden="false" id="1d77-c250-6fc8-293b">
+              <infoLinks>
+                <infoLink name="Psychic Scream" id="4f83-4572-d9b8-83e8" hidden="false" type="profile" targetId="1f20-ad5f-1a3a-b262"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="511e-16b4-2ec5-58b1"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="9603-50cb-aa6d-b0b5"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="6f2b-e51c-efc6-63ab"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Norn Assimilator" hidden="false" id="e028-0196-a332-1a08">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="250"/>
+      </costs>
+      <infoLinks>
+        <infoLink targetId="f055-278d-fd46-e775" id="d02c-5f04-bb2f-65b0" type="profile" name="Toxinjector Harpoons" hidden="false"/>
+        <infoLink targetId="b528-0acf-251c-f647" id="9510-03dd-2832-5cc3" type="profile" name="Toxinjector Harpoons" hidden="false"/>
+        <infoLink targetId="1066-3349-9e22-15da" id="3936-bf7a-b1e5-782e" type="profile" name="Norn Assimilator" hidden="false"/>
+        <infoLink name="Scything Talons" id="2e59-7aec-66b2-df64" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+        <infoLink name="Monstrous Creature" id="5bd9-6f56-b7d0-e920" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Synapse Creature" id="06e4-13e2-d346-ebc6" hidden="false" type="profile" targetId="c532-63f6-20dd-0d6f"/>
+        <infoLink name="Shadow in the Warp" id="19f2-ddec-bb9d-d5f1" hidden="false" type="profile" targetId="90e3-72fc-385a-b619"/>
+        <infoLink name="Flesh Hooks" id="38d7-1064-99c4-7004" hidden="false" type="profile" targetId="29d2-7727-8aaa-e025"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Barbgaunt Brood" hidden="false" id="35ce-75e3-12a8-f579">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Brood" id="5400-b34e-9274-e519" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Barbgaunt" hidden="false" id="b253-becc-faf6-9cad">
+              <profiles>
+                <profile name="Barbgaunt" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="5699-629f-2724-dd56">
+                  <characteristics>
+                    <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+                    <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+                    <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+                    <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+                    <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+                    <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+                    <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+                    <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">6</characteristic>
+                    <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Barblauncher" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="2cb2-5b28-24c1-5a6a">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3</characteristic>
+                    <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="fd51-c139-113d-907b"/>
+                <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="fe99-058d-0513-e2c3"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="The entire brood may take" id="3c51-8ce1-650d-d812" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="7e2e-5bf4-701b-8f31">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Adrenal Glands" id="5ccb-84fa-e8e4-061a" hidden="false" type="profile" targetId="ba15-539b-8427-fa0b"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4475-4b11-32a1-899c"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="2b2e-8c6c-82fd-5f7f">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Toxin Sacs" id="8a7d-2644-3584-48cf" hidden="false" type="profile" targetId="bf9b-5f6f-7099-c9e8"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a7d4-d39b-2cc3-8fa0"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Instinctive Behaviour - Lurk" id="d10e-a47f-9c09-2a3b" hidden="false" type="profile" targetId="b0d0-ba0f-5b54-513e"/>
+        <infoLink name="Claws and Teeth" id="659f-b3f4-8065-0cb3" hidden="false" type="profile" targetId="7c9d-9e0a-cc00-defb"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Exocrine Brood" hidden="false" id="2cce-e1b5-d622-af70">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Exocrine" hidden="false" id="42e7-4f51-cf8b-25f1">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="180"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b05a-d373-0f30-90ba"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a259-7354-080b-5dcf"/>
+          </constraints>
+          <infoLinks>
+            <infoLink targetId="c15f-7e45-709d-e58c" id="09e6-be1b-74df-5320" type="profile" name="Bio-plasmic Cannon" hidden="false"/>
+            <infoLink name="Exocrine" id="47b2-09c4-42fe-0908" hidden="false" targetId="d5c8-6f6b-0e83-6086" type="profile"/>
+            <infoLink name="Scything Talons" id="e37f-4af1-c6d8-d214" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Instinctive Behaviour - Lurk" id="c3ef-524e-7c6a-8b3a" hidden="false" type="profile" targetId="b0d0-ba0f-5b54-513e"/>
+        <infoLink name="Monstrous Creature" id="908a-4ce4-15f9-b1eb" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Haruspex Brood" hidden="false" id="6fa3-901c-ff96-9d70">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Haruspex" hidden="false" id="334b-997d-eb76-495e">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="170"/>
+          </costs>
+          <infoLinks>
+            <infoLink targetId="a1fc-b2a6-90ed-ac63" id="b98f-5152-d038-87b7" type="profile" name="Haruspex" hidden="false"/>
+            <infoLink targetId="fd47-43a8-290e-fcd3" id="a0d4-dcf5-f76f-18de" type="profile" name="Ravenous Maw and Crushing Claws" hidden="false"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b475-2529-dd66-0834"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="067c-7864-c67f-8aeb"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Monstrous Creature" id="6560-bbfb-ee14-c817" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Instinctive Behaviour - Feed" id="7e5f-a4dc-b650-8794" hidden="false" type="profile" targetId="033b-00cf-e0e1-c66c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Maleceptor Brood" hidden="false" id="c402-878a-7ff1-ce46">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Maleceptor" hidden="false" id="5f63-9869-c62d-b8c0">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="180"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="94f2-e2e2-4fa2-219c"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5f9d-3dc2-c02b-93bd"/>
+          </constraints>
+          <infoLinks>
+            <infoLink targetId="4298-8fcc-e07b-80f3" id="3db8-71ff-8813-98b0" type="profile" name="Maleceptor" hidden="false"/>
+            <infoLink name="Scything Talons" id="e4bf-eda6-2a53-61b7" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+            <infoLink name="Warp Blast" id="2428-37e9-67ce-cd1d" hidden="false" type="profile" targetId="03e2-2b5f-2690-f68e"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Synapse Creature" id="b467-21d2-ea7a-d787" hidden="false" type="profile" targetId="c532-63f6-20dd-0d6f"/>
+        <infoLink name="Shadow in the Warp" id="1c9c-d654-76ea-b4ff" hidden="false" type="profile" targetId="90e3-72fc-385a-b619"/>
+        <infoLink name="Monstrous Creature" id="2596-30d0-6c1a-e211" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Neurogaunt Brood" hidden="false" id="c944-e22d-1fd0-37ef">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Brood" id="9523-98d6-0a56-6d5f" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Neurogaunt" hidden="false" id="a45b-6e97-51d6-0d85">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="873e-04f8-35f8-19d7"/>
+                <constraint type="max" value="30" field="selections" scope="parent" shared="true" id="30db-4fbf-1668-4355"/>
+              </constraints>
+              <profiles>
+                <profile name="Neurogaunt" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="1c05-f46f-fc3d-7c34">
+                  <characteristics>
+                    <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">2</characteristic>
+                    <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+                    <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+                    <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+                    <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+                    <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+                    <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+                    <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">6</characteristic>
+                    <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Claws and Teeth" id="2541-69fe-5dc9-4b24" hidden="false" type="profile" targetId="7c9d-9e0a-cc00-defb"/>
+                <infoLink name="Instinctive Behaviour - Lurk" id="8259-dfe2-c732-41cb" hidden="false" type="profile" targetId="b0d0-ba0f-5b54-513e"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Neurogaunt Nodebeast" hidden="false" id="0bf0-9301-4d39-08ae">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1eee-2f11-57a2-739f"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="cb0d-b0b1-d250-c308"/>
+              </constraints>
+              <profiles>
+                <profile name="Neurogaunt Nodebeast" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="d042-0483-307b-3318">
+                  <characteristics>
+                    <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">2</characteristic>
+                    <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+                    <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+                    <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+                    <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+                    <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+                    <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+                    <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+                    <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">6+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Synapse Creature" id="22b1-1cdd-7899-1040" hidden="false" type="profile" targetId="c532-63f6-20dd-0d6f"/>
+                <infoLink name="Shadow in the Warp" id="80d1-d968-327e-da3e" hidden="false" type="profile" targetId="90e3-72fc-385a-b619"/>
+                <infoLink name="Claws and Teeth" id="8e80-2cf7-a677-1810" hidden="false" type="profile" targetId="7c9d-9e0a-cc00-defb"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="Neurocytes" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="2458-fedc-c1e7-c22e">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">While this unit contains at least one Neurogaunt Nodebeast, the entire unit gains the Synapse Creature special rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Move Through Cover" id="f72f-b2e1-02ee-0615" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Neurolictor Brood" hidden="false" id="4a3c-e287-30dc-755b">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Neurolictor" hidden="false" id="1676-4563-ce8a-aec4">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="65"/>
+          </costs>
+          <infoLinks>
+            <infoLink targetId="3f18-2bdc-c3d7-f8f3" id="c1ed-2c7a-713f-19d9" type="profile" name="Neurolictor" hidden="false"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cd45-5dfd-9c1c-110f"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="8785-2fb4-f4e2-0521"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Chameleonic Skin" id="d161-3a09-40d7-fec8" hidden="false" type="profile" targetId="59fd-1cf3-9413-7912"/>
+        <infoLink name="Rending Claws" id="a868-8843-a497-c054" hidden="false" type="profile" targetId="b14f-e98f-bb94-e63f"/>
+        <infoLink name="Scything Talons" id="01da-73cc-1aff-ee1f" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+        <infoLink name="Fleet" id="b0c0-e070-24fc-5955" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Hit and Run" id="1b75-ab6f-1832-337b" hidden="false" type="profile" targetId="17a2-9db7-3461-361c"/>
+        <infoLink name="Move Through Cover" id="ab97-3f78-0e8a-60f1" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
+        <infoLink name="Stealth" id="f316-23d6-79c8-8a1e" hidden="false" type="profile" targetId="8dc7-2ec3-1248-9d84"/>
+        <infoLink name="Synapse Creature" id="0836-96e7-531c-d7d4" hidden="false" type="profile" targetId="c532-63f6-20dd-0d6f"/>
+        <infoLink name="Shadow in the Warp" id="4118-9f90-3e22-9bbc" hidden="false" type="profile" targetId="90e3-72fc-385a-b619"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Neurotyrant" hidden="false" id="5cca-d39e-cecd-f232">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="170"/>
+      </costs>
+      <infoLinks>
+        <infoLink targetId="afc8-3f1d-9f25-1ff3" id="559b-3aa0-428b-c9aa" type="profile" name="Neurotyrant" hidden="false"/>
+        <infoLink name="Monstrous Creature" id="3ceb-c75a-1590-7f86" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Synapse Creature" id="bdc5-9d25-2ae8-84a2" hidden="false" type="profile" targetId="c532-63f6-20dd-0d6f"/>
+        <infoLink name="Shadow in the Warp" id="e8a9-fa13-a99e-c05b" hidden="false" type="profile" targetId="90e3-72fc-385a-b619"/>
+        <infoLink name="Psyker" id="0111-4423-3fba-8961" hidden="false" type="profile" targetId="d241-1e73-a625-ec7d"/>
+        <infoLink name="Warp Blast" id="98d5-bdd9-fe43-5b8b" hidden="false" type="profile" targetId="03e2-2b5f-2690-f68e"/>
+        <infoLink name="Warp Lance" id="e842-d0de-0ec3-dfc3" hidden="false" type="profile" targetId="516b-72ea-d906-7389"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Take any of the following abilities" id="1f19-9ddd-8ba1-609d" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Hive Commander" hidden="false" id="7ca0-a3ed-310f-4283">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <profiles>
+                <profile name="Hive Commander" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="69d5-42fa-e58c-75a2">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a model has the Hive Commander upgrade, a single unit of Troops may outflank. In addition, whilst the model is alive, you may add +1 to your reserve rolls.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c38e-78fc-554a-8067"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Indescribable Horror" hidden="false" id="99ba-3b33-d7c0-c15c">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <profiles>
+                <profile name="Indescribable Horror" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="0763-f227-201d-a028">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Units wishing to assault a model with the Indescribable Horror upgrade, or the unit it is with, must first pass a Leadership test. If the test is passed then the unit may assault as normal. If the test is failed then the squad falters and may not launch an assault that turn. This has no effect on enemy units that have the Fearless special rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a60-a91d-3c11-7d82"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Old Adversary" hidden="false" id="d5b9-1eaa-8471-6a38">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <profiles>
+                <profile name="Old Adversary" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="fdbb-b259-410f-8fd4">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">All Tyranid units within 6&quot; of a model with the Old Adversary upgrade benefit from the Preferred Enemy special rule. This includes the bearer itself.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="59ae-41f6-d7cf-afde"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Take any of the following" id="dc40-d7b1-d72b-2060" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Toxin Sacs" hidden="false" id="2d3b-49af-f614-d425">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Toxin Sacs" id="ca40-2950-fbe3-db5a" hidden="false" type="profile" targetId="bf9b-5f6f-7099-c9e8"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b9c-76b2-04d2-7b4e"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Acid Blood" hidden="false" id="c2a6-9e59-7539-5939">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Acid Blood" id="bb60-7a3f-dd2f-477a" hidden="false" type="profile" targetId="932f-f50f-f25b-029b"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="491f-fe92-3d5c-1476"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Regeneration" hidden="false" id="e42f-53f4-b9a4-8224">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Regeneration" id="4443-15c1-b4fd-0926" hidden="false" type="profile" targetId="e8d9-c24c-0ada-0f4a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4744-4e48-2f1a-57f6"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="A Neurotyrant has any two of the following powers" id="720f-b98e-715d-a4fe" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="The Horror" hidden="false" id="2968-38ec-acc2-5e40">
+              <infoLinks>
+                <infoLink name="The Horror" id="99a1-0ec9-8a7a-21e5" hidden="false" type="profile" targetId="f456-0120-d5ef-c6ac"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e9ad-ac3c-e71a-e91a"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Leech Essence" hidden="false" id="6362-13c6-8fea-5b95">
+              <infoLinks>
+                <infoLink name="Leech Essence" id="61ba-2e53-c72f-538f" hidden="false" type="profile" targetId="45fb-4a21-aada-c51d"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49e0-e20c-17ed-60fa"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Paroxysm" hidden="false" id="a663-9eec-bfb4-d600">
+              <infoLinks>
+                <infoLink name="Paroxysm" id="7b7f-0e9c-dfb2-3858" hidden="false" type="profile" targetId="8591-bb24-f8f4-acc0"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="45bb-b0c5-6fed-353f"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psychic Scream" hidden="false" id="4fd2-07a5-60de-9962">
+              <infoLinks>
+                <infoLink name="Psychic Scream" id="6e0a-dad5-6063-a9d1" hidden="false" type="profile" targetId="1f20-ad5f-1a3a-b262"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a2fb-0712-a7e7-7499"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="self" shared="true" id="64ff-23dc-eb7c-3ff1"/>
+            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="ce2a-aa45-fb7d-c25d"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="unit" import="true" name="Tyrant Guard Brood" hidden="false" id="6184-1df1-aa82-5820">
+          <infoLinks>
+            <infoLink name="Instinctive Behaviour - Feed" id="75d4-c8cb-656b-f6ae" hidden="false" type="profile" targetId="033b-00cf-e0e1-c66c"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Blind Rampage" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="5244-8a12-48f4-f468">
+              <characteristics>
+                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Hive Tyrant is killed whilst part of a unit of Tyrant Guard, the surviving Tyrant Guard immediately gain the Furious Charge and Rage special rules. These abilities last for the remainder of the battle.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Shieldwall" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="7290-085f-034a-154e">
+              <characteristics>
+                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A single Hive Tyrant (including the Swarmlord) may join a unit of Tyrant Guard exactly as if it were an independent character. If a Hive Tyrant (or the Swarmlord) has joined a unit of Tyrant Guard, the unit cannot go to ground, voluntarily or otherwise.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Tyrant Guard" hidden="false" id="0ce5-da73-9882-c865">
+              <infoLinks>
+                <infoLink name="Tyrant Guard" id="2692-f3a1-f976-732b" hidden="false" type="profile" targetId="bbc9-f26d-d296-4a2d"/>
+                <infoLink name="Rending Claws" id="f73b-7690-ccc4-cd75" hidden="false" type="profile" targetId="b14f-e98f-bb94-e63f"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="2f84-8f97-8bdc-ebc0" hidden="false" defaultSelectionEntryId="7772-f58f-a2d5-7154">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Scything Talons" hidden="false" id="4e8d-c7c9-97e9-223e">
+                      <infoLinks>
+                        <infoLink name="Scything Talons" id="fe33-72b5-a374-8558" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd7d-06d6-a52c-330b"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Lash Whip" hidden="false" id="4d95-a24d-fcdf-6750">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Lash Whip" id="1302-7cb9-7063-03be" hidden="false" type="profile" targetId="03cb-0385-2167-e4be"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e13-47b3-f3de-f1ab"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Bonesword" hidden="false" id="81c6-98b6-6c03-18ec">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Bonesword" id="b27b-7654-0cb2-b620" hidden="false" type="profile" targetId="6c07-f05d-c18a-ee85"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1eb3-56f5-5cad-d094"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="4bd7-0836-96e1-1d66"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="00ce-2e28-0789-3473"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="05f6-5796-48fd-ffc5"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="fecf-897d-a77f-6aed"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="60"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94d0-c615-95bf-42b8"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Armoured Shell" hidden="false" id="e492-5521-b796-fafe">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Armoured Shell" id="5ca4-aa6d-0668-4c7e" hidden="false" type="profile" targetId="2209-b050-a79c-fa7f"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6442-b2ed-f5e1-3aba"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Psychic Terror" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="bd64-5ccc-5bcf-5436">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This unit may use two Psychic powers per turn instead of one.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Psychophage Brood" hidden="false" id="9ba9-0692-ac2c-bb78">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Psychophage" hidden="false" id="6633-e1b2-380f-9edd">
+          <profiles>
+            <profile name="Psychophage" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e6f3-dafd-92c8-24c2">
+              <characteristics>
+                <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+                <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+                <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+                <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+                <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+                <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+                <characteristic name="A" typeId="a535-0722-3bc1-4d3c">D6</characteristic>
+                <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">6+</characteristic>
+                <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Psychoclastic Torrent" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="bb74-149f-d70c-74cf">
+              <characteristics>
+                <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+                <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+                <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+                <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+                <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">This ability counts as a Psychic shooting attack, but the bearer does not need to cast it.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="120"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d721-590b-b41c-03b4"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="b050-b304-1a01-3013"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Scything Talons" id="90ef-924f-f026-5783" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Monstrous Creature" id="46a5-6963-e7a7-72a6" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Feel No Pain" id="e72d-5944-5ddc-2a27" hidden="false" type="profile" targetId="d22d-ca74-1014-8212"/>
+        <infoLink name="Instinctive Behaviour - Feed" id="e362-8d50-5fde-7fde" hidden="false" type="profile" targetId="033b-00cf-e0e1-c66c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Toxicrene Brood" hidden="false" id="3874-46da-2f62-2da3">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Toxicrene" hidden="false" id="2bff-5e4c-6b88-ac06">
+          <profiles>
+            <profile name="Toxicrene" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="13b7-b72c-1dc0-7ea4">
+              <characteristics>
+                <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+                <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+                <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+                <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+                <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+                <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+                <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+                <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">6</characteristic>
+                <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="99e8-b57c-9cbf-bb28"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6919-a68f-5e8c-635e"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="160"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Massive Toxin Lashes" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="57c5-2e42-0aa1-09c9">
+          <characteristics>
+            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">These are Lash Whips with Poisoned (2+). Additionally, when targeting a non-vehicle unit, the bearer gains D6 additional attacks.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Monstrous Creature" id="e255-c7fb-4de1-412c" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
+        <infoLink name="Instinctive Behaviour - Feed" id="870c-8558-6a7c-006c" hidden="false" type="profile" targetId="033b-00cf-e0e1-c66c"/>
+        <infoLink name="Toxic Miasma" id="4370-5403-675b-1783" hidden="false" type="profile" targetId="f0af-7b7b-bae0-b9fe"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Von Ryan&apos;s Leaper Brood" hidden="false" id="982e-3f63-f7ac-a50e">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Leaper" hidden="false" id="1198-4312-f80d-06c8">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+          </costs>
+          <profiles>
+            <profile name="Von Ryan&apos;s Leaper" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="4af2-413b-b06d-5394">
+              <characteristics>
+                <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+                <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">-</characteristic>
+                <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+                <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+                <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+                <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+                <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+                <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+                <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="b869-0430-ff4b-4e1f"/>
+            <constraint type="max" value="12" field="selections" scope="parent" shared="true" id="3f88-59d8-8faa-86d4"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Scything Talons" id="79d7-c7ea-fc5e-3343" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+            <infoLink name="Scything Talons" id="74bf-be43-e6a7-46d7" hidden="false" type="profile" targetId="4142-8bec-e73c-f7b7"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Infiltrate" id="dd98-ff01-e3dd-852a" hidden="false" type="profile" targetId="db64-5b1f-d306-b354"/>
+        <infoLink name="Fleet" id="0622-3244-9242-9fb0" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Instinctive Behaviour - Lurk" id="4f5a-af30-30bb-c706" hidden="false" type="profile" targetId="b0d0-ba0f-5b54-513e"/>
+        <infoLink name="Hit and Run" id="b94d-64d2-131b-6648" hidden="false" type="profile" targetId="17a2-9db7-3461-361c"/>
+        <infoLink name="Move Through Cover" id="aecf-c7e5-cf59-c640" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
+        <infoLink name="Stealth" id="c9f3-6d68-40fb-8a4d" hidden="false" type="profile" targetId="8dc7-2ec3-1248-9d84"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
@@ -3812,6 +4848,66 @@ Place the Large blast template directly over the spot the Mawloc is emerging fro
     <entryLink import="true" name="Tyrannofex" hidden="false" id="08f0-5fd3-6e34-1f91" type="selectionEntry" targetId="47b8-e3a1-9068-de42">
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="8230-8706-a996-8f7c" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Norn Emmisary" hidden="false" id="7dcf-b463-4695-d6e4" type="selectionEntry" targetId="4e5a-e0a5-11b7-6098">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="8efb-9751-1053-a53c" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Norn Assimilator" hidden="false" id="2159-af89-7bb9-25ad" type="selectionEntry" targetId="e028-0196-a332-1a08">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="d6e6-bb22-cdbc-82a5" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Barbgaunt Brood" hidden="false" id="7430-12f4-00be-a539" type="selectionEntry" targetId="35ce-75e3-12a8-f579">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="728e-5fce-e61f-57b0" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Exocrine Brood" hidden="false" id="cf71-3955-bbe2-a94c" type="selectionEntry" targetId="2cce-e1b5-d622-af70">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="9477-eecd-3044-5545" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Haruspex Brood" hidden="false" id="ff3f-2e5a-0fd3-ebaf" type="selectionEntry" targetId="6fa3-901c-ff96-9d70">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="45dc-bbe9-df69-aa45" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Maleceptor Brood" hidden="false" id="2ba2-7d20-7f0e-91b3" type="selectionEntry" targetId="c402-878a-7ff1-ce46">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="7dbb-6224-662b-c3a5" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Neurogaunt Brood" hidden="false" id="1ea6-89f2-03ba-6a5f" type="selectionEntry" targetId="c944-e22d-1fd0-37ef">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="9056-39ea-554f-7e0e" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Neurolictor Brood" hidden="false" id="b8c2-aeaf-36a5-99fe" type="selectionEntry" targetId="4a3c-e287-30dc-755b">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="ecf0-a7cb-c7bc-d6ef" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Neurotyrant" hidden="false" id="cf41-e3cd-26d7-6d92" type="selectionEntry" targetId="5cca-d39e-cecd-f232">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="d036-1816-b46d-5fbb" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Psychophage Brood" hidden="false" id="6340-6f19-d7a0-2f80" type="selectionEntry" targetId="9ba9-0692-ac2c-bb78">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="8588-00cb-de48-5c63" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Toxicrene Brood" hidden="false" id="3917-31fc-25d9-398a" type="selectionEntry" targetId="3874-46da-2f62-2da3">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="85f5-3657-0f80-9639" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Von Ryan&apos;s Leaper Brood" hidden="false" id="a656-8a36-af80-5741" type="selectionEntry" targetId="982e-3f63-f7ac-a50e">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="6bac-444e-781f-c378" primary="true" name="Elites"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

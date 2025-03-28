@@ -1444,12 +1444,12 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
     </profile>
     <profile name="Psychic Scream" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="1f20-ad5f-1a3a-b262">
       <characteristics>
-        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This is a Psychic shooting attack that automatically hits all non-vehicle enemy units within 2D6&quot; of the Hive Tyrant. All units must immediately take a Leadership test. If they fail the test they suffer a single wound for each point they filed by, with no armour saves allowed.</characteristic>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This is a Psychic shooting attack that automatically hits all non-vehicle enemy units within 2D6&quot; of the Bearer. All units must immediately take a Leadership test. If they fail the test they suffer a single wound for each point they failed by, with no armour saves allowed.</characteristic>
       </characteristics>
     </profile>
     <profile name="Leech Essence" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="45fb-4a21-aada-c51d">
       <characteristics>
-        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This is a Psychic shooting attack that automatically hits a single non-vehicle enemy unit within 12&quot;. The target immediately suffers D3, Strength 3, AP2 hits. The Hive Tyrant recovers a single lost Wound for each wound inflicted using this power, up to its starting number of Wounds.</characteristic>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This is a Psychic shooting attack that automatically hits a single non-vehicle enemy unit within 12&quot;. The target immediately suffers D3, Strength 3, AP2 hits. The Bearer recovers a single lost Wound for each wound inflicted using this power, up to its starting number of Wounds.</characteristic>
       </characteristics>
     </profile>
     <profile name="Hypnotic Gaze" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="9d31-77ef-ddac-9a12">
