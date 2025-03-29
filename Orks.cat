@@ -942,7 +942,7 @@ Weirdboys must take a Psychic test before determining the power they use. If the
     </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Ghazghkull Thraka" hidden="false" id="6abe-ecc3-945d-68ee">
+    <selectionEntry type="unit" import="true" name="Ghazghkull Thraka" hidden="false" id="6abe-ecc3-945d-68ee">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="225"/>
       </costs>
@@ -992,7 +992,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Mad Dok Grotsnik" hidden="false" id="a209-10ec-9860-7ac7">
+    <selectionEntry type="unit" import="true" name="Mad Dok Grotsnik" hidden="false" id="a209-10ec-9860-7ac7">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="160"/>
       </costs>
@@ -1016,7 +1016,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Wazdakka Gutsmek" hidden="false" id="9051-10d0-f999-0e20">
+    <selectionEntry type="unit" import="true" name="Wazdakka Gutsmek" hidden="false" id="9051-10d0-f999-0e20">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="180"/>
       </costs>
@@ -1051,7 +1051,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Old Zogwort" hidden="false" id="af2e-abbe-0ad6-80f6">
+    <selectionEntry type="unit" import="true" name="Old Zogwort" hidden="false" id="af2e-abbe-0ad6-80f6">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="145"/>
       </costs>
@@ -1090,7 +1090,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Warboss" hidden="false" id="46ab-d737-8369-46c1">
+    <selectionEntry type="unit" import="true" name="Warboss" hidden="false" id="46ab-d737-8369-46c1">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="60"/>
       </costs>
@@ -1109,11 +1109,17 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Slugga" id="5851-c04c-924d-1223" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa30-2f53-6fde-5479" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Shoota" hidden="false" id="b17d-9bee-2396-9bac">
               <infoLinks>
                 <infoLink name="Shoota" id="61d7-e051-e3bd-e016" hidden="false" type="profile" targetId="d829-45f3-6722-9c6f"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d33-010c-29f4-2fe4" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Twin-linked Shoota" hidden="false" id="4596-6aa8-9335-3e5a">
               <costs>
@@ -1122,6 +1128,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Twin-linked Shoota" id="6eba-ac92-aca7-fcab" hidden="false" type="profile" targetId="7017-2bdb-0dd4-58f8"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7458-3086-0db7-edd8" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1129,6 +1138,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
               </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e476-da76-e0e1-ab5d" includeChildSelections="false"/>
+              </constraints>
             </entryLink>
           </entryLinks>
           <constraints>
@@ -1142,6 +1154,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Choppa" id="1e56-fd6f-5e75-a055" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b2a-4dbb-0765-b07d" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Big Choppa" hidden="false" id="841d-a0d1-ad08-9876">
               <costs>
@@ -1150,6 +1165,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Big Choppa" id="af16-693d-7604-4be9" hidden="false" type="profile" targetId="cf9b-b3be-00d9-802c"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="82a6-88d3-4e1b-e514" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="1116-ad10-7d77-11db">
               <costs>
@@ -1158,6 +1176,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Power Klaw" id="09b3-c292-15c3-0daa" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de7c-496b-7cd1-13cd" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1188,7 +1209,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 <infoLink name="Ammo Runt" id="edf3-c4a0-c472-9148" hidden="false" type="profile" targetId="0569-d662-c6dd-c21a"/>
               </infoLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4087-33da-4554-8e26"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5eef-1271-2b30-792c" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Attack Squig" hidden="false" id="5805-06da-9c0e-9714">
@@ -1199,7 +1220,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 <infoLink name="Attack Squig" id="5ad5-9155-f028-eeed" hidden="false" type="profile" targetId="a9d0-764b-8aec-749a"/>
               </infoLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="19f3-99f3-c445-f99a"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="25d2-fea8-e203-07b5" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Cybork Body" hidden="false" id="01a6-62e5-9a75-f159">
@@ -1209,6 +1230,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Cybork Body" id="1fd9-d99a-c07e-8781" hidden="false" type="profile" targetId="db0c-7be3-0871-ec2d"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="14d4-4ba8-d9de-0d18" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Bosspole" hidden="false" id="3502-d7f2-33c5-4784">
               <costs>
@@ -1217,6 +1241,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Bosspole" id="7629-44c2-72ef-843c" hidden="false" type="profile" targetId="e01c-2614-7a86-cde2"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="73c9-9efd-6b39-2588" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="&apos;Eavy Armour" hidden="false" id="a7c0-c1bc-8149-d058">
               <costs>
@@ -1225,6 +1252,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="&apos;Eavy Armour" id="66e8-c38d-04ce-b43e" hidden="false" type="profile" targetId="de7a-2ad5-747f-0e00"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca17-569c-d14e-8407" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1251,7 +1281,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0a8c-ddc5-9671-15c6-max"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Warboss in Mega-Armour" hidden="false" id="4f2a-e31e-1dbc-7ae8">
+    <selectionEntry type="unit" import="true" name="Warboss in Mega-Armour" hidden="false" id="4f2a-e31e-1dbc-7ae8">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="100"/>
       </costs>
@@ -1298,6 +1328,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Cybork Body" id="79b8-ba8b-9541-7fc5" hidden="false" type="profile" targetId="db0c-7be3-0871-ec2d"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f54c-8e01-ce5c-3826" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Bosspole" hidden="false" id="2289-5723-403e-b061">
               <costs>
@@ -1306,6 +1339,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Bosspole" id="8283-01dd-9e69-8b56" hidden="false" type="profile" targetId="e01c-2614-7a86-cde2"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fc03-5bf1-dfb9-e4ef" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="&apos;Eavy Armour" hidden="false" id="086a-5655-f8e7-5432">
               <costs>
@@ -1314,12 +1350,15 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="&apos;Eavy Armour" id="72f6-f81a-7608-f7d0" hidden="false" type="profile" targetId="de7a-2ad5-747f-0e00"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="80c6-b672-1dff-dc5a" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Big Mek" hidden="false" id="cb0d-250a-b8f4-e940">
+    <selectionEntry type="unit" import="true" name="Big Mek" hidden="false" id="cb0d-250a-b8f4-e940">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
       </costs>
@@ -1338,11 +1377,17 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Slugga" id="6c2e-096d-3819-5cf9" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3db2-f242-146b-25a4" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Shoota" hidden="false" id="f5c0-5f04-e278-b80c">
               <infoLinks>
                 <infoLink name="Shoota" id="e6b7-b54a-bdd0-8775" hidden="false" type="profile" targetId="d829-45f3-6722-9c6f"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="45c4-eb8f-4660-2db8" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Kustom mega-blasta" hidden="false" id="2bf1-e1ed-6ff5-8be5">
               <costs>
@@ -1351,6 +1396,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Kustom Mega-blasta" id="ec6b-0f40-db96-518b" hidden="false" type="profile" targetId="6cc4-37a2-1053-bc7b"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6655-67f5-6cac-6472" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Mega-armour" hidden="false" id="febb-063e-8b06-b709">
               <costs>
@@ -1362,6 +1410,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 <infoLink name="Twin-linked Shoota" id="2633-6f74-d75f-6164" hidden="false" type="profile" targetId="7017-2bdb-0dd4-58f8"/>
                 <infoLink name="Power Klaw" id="0908-95f1-d7de-cfa9" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bbc8-f446-6db8-6c7b" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Shokk Attack Gun" hidden="false" id="0ced-0947-bdbe-359b">
               <costs>
@@ -1370,6 +1421,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Shokk Attack Gun" id="0340-130d-0261-a7fe" hidden="false" type="profile" targetId="8323-712f-a42c-d113"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95b7-e290-9995-c29e" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Kustom Force Field" hidden="false" id="9aae-60ef-c4e0-d253">
               <costs>
@@ -1378,6 +1432,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Kustom Force Field" id="f5a2-9a40-85ba-2489" hidden="false" type="profile" targetId="08fd-7ff9-1a41-dd7c"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d94-3da2-a33f-f840" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Warbike" hidden="false" id="54b0-75a2-cb0e-cc63">
               <costs>
@@ -1388,6 +1445,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 <infoLink name="Bike" id="76b2-8425-6749-cbd1" hidden="false" type="rule" targetId="3326-67e1-a5e9-b3e7"/>
                 <infoLink name="Twin-linked Shoota" id="6f58-50cd-783b-5045" hidden="false" type="profile" targetId="7017-2bdb-0dd4-58f8"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e90-1072-141d-7626" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1408,6 +1468,10 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Choppa" id="609a-afcd-b797-d00e" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="32f9-0e4d-a234-d4c7" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a314-552a-5e49-bc67" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="6586-b021-7740-22ae">
               <costs>
@@ -1416,6 +1480,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Power Klaw" id="487b-67da-fcbe-2775" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e0b-8684-590c-598b" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Burna" hidden="false" id="8477-8279-d125-0526">
               <costs>
@@ -1424,6 +1491,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Burnas" id="ab31-945d-97b1-91a2" hidden="false" type="profile" targetId="bf3f-e3cb-ceca-2958"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17a7-c64b-4259-c2bf" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1441,7 +1511,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 <infoLink name="Ammo Runt" id="2220-b2bf-916c-6645" hidden="false" type="profile" targetId="0569-d662-c6dd-c21a"/>
               </infoLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c553-5f17-cbf6-3af6"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="560d-1182-271f-dbda" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Attack Squig" hidden="false" id="9fd1-bce9-b169-2a20">
@@ -1452,7 +1522,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 <infoLink name="Attack Squig" id="8eb2-9338-9579-a2fd" hidden="false" type="profile" targetId="a9d0-764b-8aec-749a"/>
               </infoLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1bd1-1b23-9577-968c"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7034-1e96-df89-78e6" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Cybork Body" hidden="false" id="8e94-89c4-8ee8-583b">
@@ -1462,6 +1532,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Cybork Body" id="e7b9-263d-4080-df79" hidden="false" type="profile" targetId="db0c-7be3-0871-ec2d"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9483-1676-e916-a4eb" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Bosspole" hidden="false" id="079f-547b-ce62-505a">
               <costs>
@@ -1470,6 +1543,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Bosspole" id="c6a0-51e3-d2e8-c118" hidden="false" type="profile" targetId="e01c-2614-7a86-cde2"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="13c4-6616-cc5b-8b01" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="&apos;Eavy Armour" hidden="false" id="80e7-d049-5aec-6f91">
               <costs>
@@ -1478,6 +1554,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="&apos;Eavy Armour" id="f63d-9789-3233-a487" hidden="false" type="profile" targetId="de7a-2ad5-747f-0e00"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0e6-4f10-e877-8944" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1496,7 +1575,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Weirdboy" hidden="false" id="925e-c084-20d4-e745">
+    <selectionEntry type="unit" import="true" name="Weirdboy" hidden="false" id="925e-c084-20d4-e745">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="55"/>
       </costs>
@@ -1527,11 +1606,11 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Nobz" hidden="false" id="bdf3-6247-488d-f20a">
+    <selectionEntry type="unit" import="true" name="Nobz" hidden="false" id="bdf3-6247-488d-f20a">
       <selectionEntryGroups>
         <selectionEntryGroup name="Mob" id="85fc-3a2f-5122-cb88" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Nob" hidden="false" id="2743-af08-abdb-4965">
+            <selectionEntry type="model" import="true" name="Nob" hidden="false" id="2743-af08-abdb-4965">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
               </costs>
@@ -1545,6 +1624,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                       <infoLinks>
                         <infoLink name="Slugga" id="77d3-e4a2-8855-7f14" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3191-f0a2-4688-b3e2" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Twin-linked Shoota" hidden="false" id="ebe1-e8f9-a17e-fc2b">
                       <costs>
@@ -1553,6 +1635,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                       <infoLinks>
                         <infoLink name="Twin-linked Shoota" id="54f5-45cb-c191-0086" hidden="false" type="profile" targetId="7017-2bdb-0dd4-58f8"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f9a-c9ee-0320-2e0b" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
@@ -1560,6 +1645,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
                       </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3573-1539-3727-c5d3" includeChildSelections="false"/>
+                      </constraints>
                     </entryLink>
                   </entryLinks>
                   <constraints>
@@ -1573,6 +1661,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                       <infoLinks>
                         <infoLink name="Choppa" id="45ea-2f4b-e9b6-59e4" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9108-f0f1-eeee-70f6" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Big Choppa" hidden="false" id="ab01-691a-bb18-eb7e">
                       <costs>
@@ -1581,6 +1672,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                       <infoLinks>
                         <infoLink name="Big Choppa" id="4fcf-befb-f987-2a53" hidden="false" type="profile" targetId="cf9b-b3be-00d9-802c"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="06f9-11c8-d298-5de6" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="cef9-3285-a64c-b20b">
                       <costs>
@@ -1589,6 +1683,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                       <infoLinks>
                         <infoLink name="Power Klaw" id="395a-d9c6-0f1b-324e" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="75d5-e695-e256-4c74" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -1661,7 +1758,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Painboy" hidden="false" id="57af-8a2d-7f5b-d06a">
+            <selectionEntry type="model" import="true" name="Painboy" hidden="false" id="57af-8a2d-7f5b-d06a">
               <infoLinks>
                 <infoLink name="Painboy" id="5a7a-9ca1-9415-2811" hidden="false" type="profile" targetId="dc54-0a5a-b0bf-127c"/>
                 <infoLink name="Dok&apos;s Tools" id="2846-4098-fc17-dc76" hidden="false" type="profile" targetId="89d6-38bc-7c40-b836"/>
@@ -1709,8 +1806,16 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         </selectionEntryGroup>
         <selectionEntryGroup name="May take a Trukk or Battlewagon as a dedicated transport, though it may not have the Killkannon upgrade." id="2594-5283-2c33-29ac" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Trukk" hidden="false" id="c14d-991e-c8d8-0e80" type="selectionEntry" targetId="f15f-cf9a-ff59-228f"/>
-            <entryLink import="true" name="Battlewagon" hidden="false" id="e59d-8cd0-16a4-efd8" type="selectionEntry" targetId="43ac-0ac9-44bb-185c"/>
+            <entryLink import="true" name="Trukk" hidden="false" id="c14d-991e-c8d8-0e80" type="selectionEntry" targetId="f15f-cf9a-ff59-228f">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a3a3-001b-4d22-eb1c" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Battlewagon" hidden="false" id="e59d-8cd0-16a4-efd8" type="selectionEntry" targetId="43ac-0ac9-44bb-185c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="906a-77f5-27c4-0a7c" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="cc2a-9bf9-597c-e31c"/>
@@ -1723,7 +1828,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         <infoLink name="Waaagh!" id="bff2-cb94-ee9e-8ac9" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Trukk" hidden="false" id="f15f-cf9a-ff59-228f">
+    <selectionEntry type="unit" import="true" name="Trukk" hidden="false" id="f15f-cf9a-ff59-228f">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
       </costs>
@@ -1762,6 +1867,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Big Shoota" id="acb2-78ae-1afb-de64" hidden="false" type="profile" targetId="dd74-99d0-eda5-7f44"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ed6-13a3-8e85-d248" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="1d49-554f-92a9-e709">
               <costs>
@@ -1770,6 +1878,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Rokkit Launcha" id="ae13-aa4d-4c47-9fbf" hidden="false" type="profile" targetId="21ca-215a-88b3-e23c"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0bde-c6c8-c97b-9a6b" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1860,7 +1971,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Battlewagon" hidden="false" id="43ac-0ac9-44bb-185c">
+    <selectionEntry type="unit" import="true" name="Battlewagon" hidden="false" id="43ac-0ac9-44bb-185c">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="90"/>
       </costs>
@@ -2014,6 +2125,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 <infoLink name="Kannon (Frag)" id="46a2-9a49-3d7a-24d5" hidden="false" type="profile" targetId="a508-fd47-9789-f683"/>
                 <infoLink name="Kannon (Shell)" id="9366-4a47-4ac8-c570" hidden="false" type="profile" targetId="69ea-02af-bd76-b124"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="faa7-9d01-f911-9602" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Lobba" hidden="false" id="299c-eed6-32a3-4dc5">
               <costs>
@@ -2022,6 +2136,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Lobba" id="e73c-eb7a-96ef-a601" hidden="false" type="profile" targetId="4556-c4b4-eb6e-8ce2"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c44e-f0b4-18a5-c83c" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Zzap Gun" hidden="false" id="c163-929d-ef5d-afcb">
               <costs>
@@ -2030,6 +2147,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Zzap Gun" id="0e5a-423e-cb04-f961" hidden="false" type="profile" targetId="b23c-729e-e0d2-0ab4"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a01a-d7c9-2896-4f56" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -2070,9 +2190,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Meganobz" hidden="false" id="167d-785f-dab8-db03">
+    <selectionEntry type="unit" import="true" name="Meganobz" hidden="false" id="167d-785f-dab8-db03">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Meganob" hidden="false" id="67f7-1e5d-7509-c82b">
+        <selectionEntry type="model" import="true" name="Meganob" hidden="false" id="67f7-1e5d-7509-c82b">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
           </costs>
@@ -2091,6 +2211,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                   <infoLinks>
                     <infoLink name="Twin-linked Shoota" id="bd5f-b60a-6915-ce5f" hidden="false" type="profile" targetId="7017-2bdb-0dd4-58f8"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3a60-d734-5b0a-43b0" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
@@ -2098,6 +2221,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                   <costs>
                     <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
                   </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d5a7-3bff-3c81-ef37" includeChildSelections="false"/>
+                  </constraints>
                 </entryLink>
               </entryLinks>
               <constraints>
@@ -2118,8 +2244,16 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
       <selectionEntryGroups>
         <selectionEntryGroup name="May take a Battlewagon dedicated transport vehicle (may not have the killkannon upgrade), or a Trukk if the mob has six or fewer models." id="3adb-265c-b961-bab6" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Battlewagon" hidden="false" id="489d-2059-f939-f1e4" type="selectionEntry" targetId="43ac-0ac9-44bb-185c"/>
-            <entryLink import="true" name="Trukk" hidden="false" id="3c35-561f-3c2c-3d95" type="selectionEntry" targetId="f15f-cf9a-ff59-228f"/>
+            <entryLink import="true" name="Battlewagon" hidden="false" id="489d-2059-f939-f1e4" type="selectionEntry" targetId="43ac-0ac9-44bb-185c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3acc-d6ea-4796-9f17" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Trukk" hidden="false" id="3c35-561f-3c2c-3d95" type="selectionEntry" targetId="f15f-cf9a-ff59-228f">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea47-a380-059c-37e8" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3fcb-c955-7790-8d05"/>
@@ -2127,11 +2261,11 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Burna Boyz" hidden="false" id="d4c9-5e90-70fc-e5fa">
+    <selectionEntry type="unit" import="true" name="Burna Boyz" hidden="false" id="d4c9-5e90-70fc-e5fa">
       <selectionEntryGroups>
         <selectionEntryGroup name="Mob" id="efa1-7322-d7ed-fda6" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Burna Boy" hidden="false" id="ada8-ea0a-47e4-f404" defaultAmount="5">
+            <selectionEntry type="model" import="true" name="Burna Boy" hidden="false" id="ada8-ea0a-47e4-f404" defaultAmount="5">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
               </costs>
@@ -2140,7 +2274,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 <infoLink name="Burnas" id="668b-6a91-cb30-acb8" hidden="false" type="profile" targetId="bf3f-e3cb-ceca-2958"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Mek" hidden="false" id="5109-93a9-09d8-fea2">
+            <selectionEntry type="model" import="true" name="Mek" hidden="false" id="5109-93a9-09d8-fea2">
               <infoLinks>
                 <infoLink name="Mek" id="4247-b629-024d-e5f6" hidden="false" type="profile" targetId="4953-1d44-13a4-8a30"/>
                 <infoLink name="Mek&apos;s Tools" id="e9dd-a050-63ee-2ca7" hidden="false" type="profile" targetId="74a7-584a-a26b-eece"/>
@@ -2158,17 +2292,26 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                       <infoLinks>
                         <infoLink name="Kustom Mega-blasta" id="6a07-f21d-8744-9fc2" hidden="false" type="profile" targetId="6cc4-37a2-1053-bc7b"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e639-1c5e-e9a2-811e" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Slugga and Choppa" hidden="false" id="943f-2a54-9496-31b8">
                       <infoLinks>
                         <infoLink name="Slugga" id="633f-c662-d6cb-3852" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
                         <infoLink name="Choppa" id="5ca9-2d67-c166-3679" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c739-d139-277f-ab25" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="b796-9278-ea8b-8c9b">
                       <infoLinks>
                         <infoLink name="Big Shoota" id="72e0-2192-86bd-c8ce" hidden="false" type="profile" targetId="dd74-99d0-eda5-7f44"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa1a-e0ec-10e7-0ce1" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="7952-7678-a444-bcf9">
                       <costs>
@@ -2177,6 +2320,11 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                       <infoLinks>
                         <infoLink name="Rokkit Launcha" id="2577-d4f3-cc3e-82ea" hidden="false" type="profile" targetId="21ca-215a-88b3-e23c"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="991f-49a6-a0d8-140e" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea4b-4e53-32ab-577a" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6567-a4de-0756-0433" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -2212,11 +2360,11 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         <infoLink name="Waaagh!" id="89f6-2dc4-6835-6ac7" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Tankbustas" hidden="false" id="6578-eb4d-e60d-377f">
+    <selectionEntry type="unit" import="true" name="Tankbustas" hidden="false" id="6578-eb4d-e60d-377f">
       <selectionEntryGroups>
         <selectionEntryGroup name="Mob" id="b767-cdef-b2e0-ec5c" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Tankbusta" hidden="false" id="4e74-14f6-236f-2b89">
+            <selectionEntry type="model" import="true" name="Tankbusta" hidden="false" id="4e74-14f6-236f-2b89">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
               </costs>
@@ -2226,7 +2374,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 <infoLink name="Tankbusta Bombs" id="9368-7d37-c3f9-f6f4" hidden="false" type="profile" targetId="70fb-44c8-f239-f39e"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Nob" hidden="false" id="628a-06c0-da46-f010">
+            <selectionEntry type="model" import="true" name="Nob" hidden="false" id="628a-06c0-da46-f010">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
               </costs>
@@ -2237,12 +2385,15 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cce0-1e1a-3263-70b6"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Weapon" id="297a-5395-9b45-d6ec" hidden="false" defaultSelectionEntryId="e2ce-dfa9-ea94-3f0a">
+                <selectionEntryGroup name="Weapon" id="297a-5395-9b45-d6ec" hidden="false" defaultSelectionEntryId="849e-6010-0e0b-c6fb">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="849e-6010-0e0b-c6fb">
                       <infoLinks>
                         <infoLink name="Rokkit Launcha" id="c8d7-eaf9-8ceb-bf85" hidden="false" type="profile" targetId="21ca-215a-88b3-e23c"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e98-67f9-566b-2e46" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="3d62-5971-61d0-d6f9">
                       <costs>
@@ -2251,6 +2402,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                       <infoLinks>
                         <infoLink name="Power Klaw" id="e653-1c5e-642e-b736" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f39-65b5-81fd-4524" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -2286,27 +2440,28 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
+            <selectionEntry type="model" import="true" name="Hammerbusta " hidden="false" id="88f3-c65a-30e6-bbed">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Tankbusta" id="6f39-50a6-5a67-8095" hidden="false" type="profile" targetId="b19f-1e01-401c-f1f3"/>
+                <infoLink name="Tankbusta Bombs" id="84d5-adcb-1a5d-ecb2" hidden="false" type="profile" targetId="70fb-44c8-f239-f39e"/>
+                <infoLink name="Tankhammer" id="0011-4d37-96d8-e464" hidden="false" type="profile" targetId="c938-5594-247c-fd07"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="acc7-126b-56dd-6900"/>
+              </constraints>
+            </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="min" value="5" field="selections" scope="self" shared="true" id="9e78-6b5c-4152-935a"/>
             <constraint type="max" value="15" field="selections" scope="self" shared="true" id="1396-a3df-d515-f12a"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Up to two Tankbustas may replace their Rokkit Launchas with" id="56d9-03f6-9666-7f82" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Tankhammer" hidden="false" id="f25d-2299-b9f4-1577">
-              <infoLinks>
-                <infoLink name="Tankhammer" id="5d36-bb54-9fe1-88e3" hidden="false" type="profile" targetId="c938-5594-247c-fd07"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e4b1-de22-db46-6339"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
         <selectionEntryGroup name="The mob may include up to three" id="a2b6-59d5-74d8-4cb7" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Bomb-squig" hidden="false" id="369a-6b1f-852d-ef02">
+            <selectionEntry type="model" import="true" name="Bomb-squig" hidden="false" id="369a-6b1f-852d-ef02">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
               </costs>
@@ -2333,11 +2488,11 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Lootas" hidden="false" id="891b-80fa-7a66-3f6a">
+    <selectionEntry type="unit" import="true" name="Lootas" hidden="false" id="891b-80fa-7a66-3f6a">
       <selectionEntryGroups>
         <selectionEntryGroup name="Mob" id="5f7c-a5b9-6e54-f75e" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Loota" hidden="false" id="187a-cad8-8a73-d060" defaultAmount="5">
+            <selectionEntry type="model" import="true" name="Loota" hidden="false" id="187a-cad8-8a73-d060" defaultAmount="5">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
               </costs>
@@ -2346,7 +2501,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 <infoLink name="Deffguns" id="4dd2-8a69-1e0f-77a2" hidden="false" type="profile" targetId="c3fe-a1a9-1292-05d3"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Mek" hidden="false" id="d896-9418-6960-f589">
+            <selectionEntry type="model" import="true" name="Mek" hidden="false" id="d896-9418-6960-f589">
               <infoLinks>
                 <infoLink name="Mek" id="9dab-658b-26ca-34ae" hidden="false" type="profile" targetId="4953-1d44-13a4-8a30"/>
                 <infoLink name="Mek&apos;s Tools" id="b7fc-766e-41e3-f113" hidden="false" type="profile" targetId="74a7-584a-a26b-eece"/>
@@ -2364,17 +2519,26 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                       <infoLinks>
                         <infoLink name="Kustom Mega-blasta" id="2df3-bada-10f4-2b48" hidden="false" type="profile" targetId="6cc4-37a2-1053-bc7b"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17aa-dc46-8ae5-8a40" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Slugga and Choppa" hidden="false" id="5f37-909e-40b7-3b47">
                       <infoLinks>
                         <infoLink name="Slugga" id="60d3-3952-f4f3-85b7" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
                         <infoLink name="Choppa" id="64b3-47ab-02a2-2cb3" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f5a-fe01-c414-d29c" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="a393-38f7-7e23-1c55">
                       <infoLinks>
                         <infoLink name="Big Shoota" id="4fad-df23-709f-62d8" hidden="false" type="profile" targetId="dd74-99d0-eda5-7f44"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f21-fabc-27a6-021a" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="dc55-8770-c9e0-0181">
                       <costs>
@@ -2383,6 +2547,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                       <infoLinks>
                         <infoLink name="Rokkit Launcha" id="6f75-d1c5-b643-95b0" hidden="false" type="profile" targetId="21ca-215a-88b3-e23c"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e44-a056-84c1-4e20" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -2418,11 +2585,11 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         <infoLink name="Waaagh!" id="2ea8-0e06-75da-1212" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Kommandos" hidden="false" id="627a-40d7-c5c0-d5d7">
+    <selectionEntry type="unit" import="true" name="Kommandos" hidden="false" id="627a-40d7-c5c0-d5d7">
       <selectionEntryGroups>
         <selectionEntryGroup name="Mob" id="ab4f-b726-6bea-179a" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Kommando" hidden="false" id="dae7-7fc5-cea1-ef21">
+            <selectionEntry type="model" import="true" name="Kommando" hidden="false" id="dae7-7fc5-cea1-ef21">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
@@ -2433,7 +2600,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 <infoLink name="Stikkbomb" id="2106-ffbc-7a7b-91c8" hidden="false" type="profile" targetId="9e56-a965-6c2e-f383"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Boss Snikrot (Cannot take Nob)" hidden="false" id="d713-772a-eb2e-7354">
+            <selectionEntry type="model" import="true" name="Boss Snikrot (Cannot take Nob)" hidden="false" id="d713-772a-eb2e-7354">
               <infoLinks>
                 <infoLink name="Snikrot" id="34a7-ac0d-3d1b-c2b4" hidden="false" type="profile" targetId="ef66-92c8-3639-f737"/>
                 <infoLink name="Stikkbomb" id="470b-5a65-595b-1aad" hidden="false" type="profile" targetId="9e56-a965-6c2e-f383"/>
@@ -2462,7 +2629,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Nob" hidden="false" id="ece5-2b1b-e33b-fdc5">
+            <selectionEntry type="model" import="true" name="Nob" hidden="false" id="ece5-2b1b-e33b-fdc5">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
               </costs>
@@ -2483,11 +2650,17 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                       <infoLinks>
                         <infoLink name="Power Klaw" id="f623-2009-6b2c-1999" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="664c-e298-edac-9547" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Choppa" hidden="false" id="4595-6539-3d2a-0884">
                       <infoLinks>
                         <infoLink name="Choppa" id="8d2f-8cdf-b0d2-c403" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c1e-b201-5e77-5cc7" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Big Choppa" hidden="false" id="a934-82d4-60a3-f200">
                       <costs>
@@ -2496,6 +2669,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                       <infoLinks>
                         <infoLink name="Big Choppa" id="e14c-a07f-643e-219e" hidden="false" type="profile" targetId="cf9b-b3be-00d9-802c"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b708-37a2-4af1-c4b9" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -2546,7 +2722,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         <infoLink name="Waaagh!" id="4078-c357-ac76-d55d" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Nob" hidden="false" id="df5d-a456-052f-b22e">
+    <selectionEntry type="model" import="true" name="Nob" hidden="false" id="df5d-a456-052f-b22e">
       <infoLinks>
         <infoLink name="Nob" id="1a57-3385-429c-9c3c" hidden="false" type="profile" targetId="2170-7dfa-4d28-aa46"/>
       </infoLinks>
@@ -2560,6 +2736,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Rokkit Launcha" id="d04e-9146-00d2-7496" hidden="false" type="profile" targetId="21ca-215a-88b3-e23c"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e05-7fc9-7892-ac61" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="2570-bb48-4995-6bd8">
               <costs>
@@ -2568,6 +2747,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Power Klaw" id="004c-a1fc-4613-461e" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="794a-6450-7e52-fe5a" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -2603,11 +2785,11 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Ork Boyz" hidden="false" id="3908-2593-d77a-7e00">
+    <selectionEntry type="unit" import="true" name="Ork Boyz" hidden="false" id="3908-2593-d77a-7e00">
       <selectionEntryGroups>
         <selectionEntryGroup name="Mob" id="2bbe-1397-efdc-bff6" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Boy" hidden="false" id="c802-5342-19a4-6d36">
+            <selectionEntry type="model" import="true" name="Boy" hidden="false" id="c802-5342-19a4-6d36">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
               </costs>
@@ -2627,8 +2809,35 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                   </constraints>
                 </selectionEntry>
               </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="eacf-8b5e-b6d8-333c" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Sluggas and Choppas" hidden="false" id="da46-3912-de82-9706">
+                      <infoLinks>
+                        <infoLink name="Slugga" id="7467-eb0d-b026-ff1b" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
+                        <infoLink name="Choppa" id="f236-29e7-6dbd-8196" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61ae-7fe2-5690-5077"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Shootas" hidden="false" id="3a6d-393c-3c0b-2e65">
+                      <infoLinks>
+                        <infoLink name="Shoota" id="bdea-f0b9-4ee7-52ef" hidden="false" type="profile" targetId="d829-45f3-6722-9c6f"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b7e-8985-9aef-7280"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="2e3b-dfa6-a1e7-f8b7-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2e3b-dfa6-a1e7-f8b7-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Nob" hidden="false" id="05fd-cc8a-cfa3-f132">
+            <selectionEntry type="model" import="true" name="Nob" hidden="false" id="05fd-cc8a-cfa3-f132">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
               </costs>
@@ -2649,11 +2858,17 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                       <infoLinks>
                         <infoLink name="Power Klaw" id="9b3f-d6d7-6952-4b39" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a169-701c-9f5e-9b50" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Choppa" hidden="false" id="7d54-94e3-ad0b-fb0a">
                       <infoLinks>
                         <infoLink name="Choppa" id="54aa-ad5e-a105-2967" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dec1-5a04-9241-e9f8" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Big Choppa" hidden="false" id="72d1-1f86-a3f9-778c">
                       <costs>
@@ -2662,6 +2877,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                       <infoLinks>
                         <infoLink name="Big Choppa" id="0bbc-f6e5-3841-7bda" hidden="false" type="profile" targetId="cf9b-b3be-00d9-802c"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6cda-b473-3a18-d4cd" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -2697,56 +2915,67 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
+            <selectionEntry type="model" import="true" name="Boy Gunner" hidden="false" id="4841-ce44-3cec-1679">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Ork Boy" id="bf16-ca36-2b45-21c1" hidden="false" type="profile" targetId="616f-0467-bef9-3819"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Stikkbombs" hidden="false" id="4cce-92e7-a363-4b62">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Stikkbomb" id="e80a-9a21-92b2-8dfb" hidden="false" type="profile" targetId="9e56-a965-6c2e-f383"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d12-b9df-bccc-788c"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="2c83-9530-69a3-539f" hidden="false" defaultSelectionEntryId="e054-3a87-e52e-9966">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="e054-3a87-e52e-9966">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Big Shoota" id="c4f3-52b0-d9fa-77f1" hidden="false" type="profile" targetId="dd74-99d0-eda5-7f44"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e8c-2614-aa35-c546" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="d6b5-99e2-20f4-40f9">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Rokkit Launcha" id="a47f-32ad-d0c9-1c91" hidden="false" type="profile" targetId="21ca-215a-88b3-e23c"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d69a-42ad-4fb2-7ec9" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="3ac9-ac63-fd79-f1e7-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3ac9-ac63-fd79-f1e7-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="84cf-e0f3-d3d0-7eb9"/>
+              </constraints>
+            </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="min" value="10" field="selections" scope="self" shared="true" id="e0f6-ceac-e540-d9dc"/>
             <constraint type="max" value="30" field="selections" scope="self" shared="true" id="9452-591f-b2e1-80bf"/>
           </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Loadout" id="eacf-8b5e-b6d8-333c" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Sluggas and Choppas" hidden="false" id="da46-3912-de82-9706">
-              <infoLinks>
-                <infoLink name="Slugga" id="7467-eb0d-b026-ff1b" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
-                <infoLink name="Choppa" id="f236-29e7-6dbd-8196" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61ae-7fe2-5690-5077"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Shootas" hidden="false" id="3a6d-393c-3c0b-2e65">
-              <infoLinks>
-                <infoLink name="Shoota" id="bdea-f0b9-4ee7-52ef" hidden="false" type="profile" targetId="d829-45f3-6722-9c6f"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b7e-8985-9aef-7280"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="2e3b-dfa6-a1e7-f8b7-min"/>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2e3b-dfa6-a1e7-f8b7-max"/>
-          </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="For every ten Orks in the mob, one Ork may exchange his slugga or shoota for" id="2c83-9530-69a3-539f" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="e054-3a87-e52e-9966">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Big Shoota" id="c4f3-52b0-d9fa-77f1" hidden="false" type="profile" targetId="dd74-99d0-eda5-7f44"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="d6b5-99e2-20f4-40f9">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Rokkit Launcha" id="a47f-32ad-d0c9-1c91" hidden="false" type="profile" targetId="21ca-215a-88b3-e23c"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup name="Mobs of 12 or fewer models may take a Trukk" id="0679-4916-83dc-6961" hidden="false">
           <entryLinks>
@@ -2764,11 +2993,11 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         <infoLink name="Waaagh!" id="0e77-2cf5-7aa7-8b8b" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Ork &apos;Ard Boyz" hidden="false" id="ca6a-1c00-8d66-4ce5">
+    <selectionEntry type="unit" import="true" name="Ork &apos;Ard Boyz" hidden="false" id="ca6a-1c00-8d66-4ce5">
       <selectionEntryGroups>
         <selectionEntryGroup name="Mob" id="24de-ceef-c1bc-e6c5" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="&apos;Ard Boy" hidden="false" id="fe16-7fd1-755c-e691">
+            <selectionEntry type="model" import="true" name="&apos;Ard Boy" hidden="false" id="fe16-7fd1-755c-e691">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
@@ -2788,8 +3017,35 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                   </constraints>
                 </selectionEntry>
               </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="62e5-ef67-c538-b0aa" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Sluggas and Choppas" hidden="false" id="31ae-6c83-38eb-0889">
+                      <infoLinks>
+                        <infoLink name="Slugga" id="1ee2-765d-a763-c999" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
+                        <infoLink name="Choppa" id="f2fa-5c85-1f54-f8f8" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7fe7-15b3-9892-21c6"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Shootas" hidden="false" id="81bf-904b-3d2f-0e03">
+                      <infoLinks>
+                        <infoLink name="Shoota" id="5612-8e7b-f06e-e32c" hidden="false" type="profile" targetId="d829-45f3-6722-9c6f"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9bc-4e46-1ea6-de89"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="de3e-7ed1-63d2-60ba-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="de3e-7ed1-63d2-60ba-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="&apos;Ard Boy Nob" hidden="false" id="0674-8ec7-9215-0271">
+            <selectionEntry type="model" import="true" name="&apos;Ard Boy Nob" hidden="false" id="0674-8ec7-9215-0271">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="24"/>
               </costs>
@@ -2847,56 +3103,67 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
+            <selectionEntry type="model" import="true" name="&apos;Ard Boy Gunner" hidden="false" id="2856-02fd-9814-8a81">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="&apos;Ard Boy" id="adfd-bcc7-75c9-1534" hidden="false" type="profile" targetId="1f76-d1e7-0cb9-09d0"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Stikkbombs" hidden="false" id="175d-27c0-08ce-1239">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Stikkbomb" id="b86f-8d5e-ca73-2605" hidden="false" type="profile" targetId="9e56-a965-6c2e-f383"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3cc1-431e-99de-7676"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="b21e-962e-9a73-e1a5" hidden="false" defaultSelectionEntryId="acca-153a-41f3-6407">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="acca-153a-41f3-6407">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Big Shoota" id="ad4c-555a-e8cf-4768" hidden="false" type="profile" targetId="dd74-99d0-eda5-7f44"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="543b-bc59-354f-6d55" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="a722-9880-276f-821b">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Rokkit Launcha" id="7608-f6b7-1dc9-0fe9" hidden="false" type="profile" targetId="21ca-215a-88b3-e23c"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d606-cbeb-d9c9-3a3e" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="e0a8-1c74-9bf5-04e8-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e0a8-1c74-9bf5-04e8-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6ef5-29f3-1ca4-bbed"/>
+              </constraints>
+            </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="min" value="10" field="selections" scope="self" shared="true" id="ea70-15a1-8c4d-6b99"/>
             <constraint type="max" value="30" field="selections" scope="self" shared="true" id="149e-c9b4-6f07-22b9"/>
           </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Loadout" id="62e5-ef67-c538-b0aa" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Sluggas and Choppas" hidden="false" id="31ae-6c83-38eb-0889">
-              <infoLinks>
-                <infoLink name="Slugga" id="1ee2-765d-a763-c999" hidden="false" type="profile" targetId="6af5-d755-49e5-700d"/>
-                <infoLink name="Choppa" id="f2fa-5c85-1f54-f8f8" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7fe7-15b3-9892-21c6"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Shootas" hidden="false" id="81bf-904b-3d2f-0e03">
-              <infoLinks>
-                <infoLink name="Shoota" id="5612-8e7b-f06e-e32c" hidden="false" type="profile" targetId="d829-45f3-6722-9c6f"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9bc-4e46-1ea6-de89"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="de3e-7ed1-63d2-60ba-min"/>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="de3e-7ed1-63d2-60ba-max"/>
-          </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="For every ten Orks in the mob, one Ork may exchange his slugga or shoota for" id="b21e-962e-9a73-e1a5" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="acca-153a-41f3-6407">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Big Shoota" id="ad4c-555a-e8cf-4768" hidden="false" type="profile" targetId="dd74-99d0-eda5-7f44"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="a722-9880-276f-821b">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Rokkit Launcha" id="7608-f6b7-1dc9-0fe9" hidden="false" type="profile" targetId="21ca-215a-88b3-e23c"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup name="Mobs of 12 or fewer models may take a Trukk" id="eb25-9b52-6d57-b742" hidden="false">
           <entryLinks>
@@ -2914,11 +3181,11 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         <infoLink name="Waaagh!" id="1f37-1dd6-e907-d878" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Gretchin" hidden="false" id="d9d6-974f-8a89-d1a7">
+    <selectionEntry type="unit" import="true" name="Gretchin" hidden="false" id="d9d6-974f-8a89-d1a7">
       <selectionEntryGroups>
         <selectionEntryGroup name="Mob" id="5b85-cb23-9470-02cf" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Gretchin" hidden="false" id="97be-0365-3da5-fa72">
+            <selectionEntry type="model" import="true" name="Gretchin" hidden="false" id="97be-0365-3da5-fa72">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
               </costs>
@@ -2931,7 +3198,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 <constraint type="max" value="30" field="selections" scope="parent" shared="true" id="110f-02e7-1d58-c43c"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Runtherd (for every 10 Gretchin)" hidden="false" id="defd-1aa0-0933-d511">
+            <selectionEntry type="model" import="true" name="Runtherd (for every 10 Gretchin)" hidden="false" id="defd-1aa0-0933-d511">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
@@ -2954,6 +3221,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                       <infoLinks>
                         <infoLink name="Grabba Stikk" id="d0ca-4274-5b62-4217" hidden="false" type="profile" targetId="d5a0-bbbe-d646-5dd9"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ce4-517b-2f70-53f4" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Grot-prod" hidden="false" id="7495-268b-7eea-7312">
                       <costs>
@@ -2962,6 +3232,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                       <infoLinks>
                         <infoLink name="Grot-prod" id="d414-c3e4-796a-d904" hidden="false" type="profile" targetId="18f1-5125-fd25-4c38"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2254-5f16-32cd-64ce" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -2982,11 +3255,11 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Stormboyz" hidden="false" id="921d-59f6-1373-3a97">
+    <selectionEntry type="unit" import="true" name="Stormboyz" hidden="false" id="921d-59f6-1373-3a97">
       <selectionEntryGroups>
         <selectionEntryGroup name="Mob" id="5fdd-f3a4-bb5d-e12f" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Stormboy" hidden="false" id="05dd-7886-8e78-2e91">
+            <selectionEntry type="model" import="true" name="Stormboy" hidden="false" id="05dd-7886-8e78-2e91">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
               </costs>
@@ -2997,7 +3270,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 <infoLink name="Stikkbomb" id="a631-6c3e-765d-a933" hidden="false" type="profile" targetId="9e56-a965-6c2e-f383"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Nob" hidden="false" id="999d-d221-5f09-0613">
+            <selectionEntry type="model" import="true" name="Nob" hidden="false" id="999d-d221-5f09-0613">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="22"/>
               </costs>
@@ -3019,6 +3292,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
                       </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c4a4-43dc-6d66-b45d" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="5fdf-d464-c8c3-547c">
                       <costs>
@@ -3027,11 +3303,18 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                       <infoLinks>
                         <infoLink name="Power Klaw" id="0638-34e0-b2b3-73c4" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d19b-22c3-8628-d360" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Choppa" hidden="false" id="58bc-4e9a-4c75-6e63">
                       <infoLinks>
                         <infoLink name="Choppa" id="a0f7-8e27-4405-3b92" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="90df-1f3e-b4de-8372" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d83a-1e1d-d913-a766" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -3067,7 +3350,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Boss Zagstruk" hidden="false" id="d640-bb70-1f7b-eea8">
+            <selectionEntry type="model" import="true" name="Boss Zagstruk" hidden="false" id="d640-bb70-1f7b-eea8">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="85"/>
               </costs>
@@ -3114,9 +3397,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         <infoLink name="Mob Rule!" id="eb65-eb68-6bdd-1ed8" hidden="false" type="profile" targetId="ae62-4a3e-a956-b78d"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Warbuggies" hidden="false" id="a634-68aa-bd9e-e759">
+    <selectionEntry type="unit" import="true" name="Warbuggies" hidden="false" id="a634-68aa-bd9e-e759">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Warbuggy" hidden="false" id="4f47-7ed6-0937-439d">
+        <selectionEntry type="model" import="true" name="Warbuggy" hidden="false" id="4f47-7ed6-0937-439d">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
           </costs>
@@ -3134,6 +3417,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                   <infoLinks>
                     <infoLink name="Twin-linked Big Shoota" id="9aa0-9e1d-a5c4-b988" hidden="false" type="profile" targetId="6f29-5051-9504-9814"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a1e-f09f-14c8-f059" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Skorcha" hidden="false" id="528d-29ab-f546-523b">
                   <costs>
@@ -3149,6 +3435,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                       </characteristics>
                     </profile>
                   </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b949-cc35-92e2-0994" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Twin-linked Rokkit Launcha" hidden="false" id="5af2-0bb7-1ad0-8a69">
                   <costs>
@@ -3157,6 +3446,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                   <infoLinks>
                     <infoLink name="Twin-linked Rokkit Launcha" id="40a2-56bd-ac46-b794" hidden="false" type="profile" targetId="0421-ef70-10b3-55c3"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e5db-556f-13a2-cfb5" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -3224,11 +3516,11 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         <infoLink name="Open-topped" id="aeaa-fecc-2fb0-acc7" hidden="false" type="rule" targetId="21d9-2669-1dba-9fb2"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Warbikes" hidden="false" id="2469-a334-374d-3c73">
+    <selectionEntry type="unit" import="true" name="Warbikes" hidden="false" id="2469-a334-374d-3c73">
       <selectionEntryGroups>
         <selectionEntryGroup name="Mob" id="acc9-e598-1841-070d" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Warbiker" hidden="false" id="d48a-1bef-648f-749d">
+            <selectionEntry type="model" import="true" name="Warbiker" hidden="false" id="d48a-1bef-648f-749d">
               <infoLinks>
                 <infoLink name="Warbiker" id="9f58-8a5d-38df-dca7" hidden="false" type="profile" targetId="01e4-1027-1d8d-880e"/>
                 <infoLink name="Choppa" id="c406-d8d4-31ef-b3f7" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
@@ -3236,7 +3528,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 <infoLink name="Dakkaguns" id="2358-eea5-d7fb-3d95" hidden="false" type="profile" targetId="3a03-309c-19a5-9b1f"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Nob" hidden="false" id="41be-0a21-ab57-de6a">
+            <selectionEntry type="model" import="true" name="Nob" hidden="false" id="41be-0a21-ab57-de6a">
               <infoLinks>
                 <infoLink name="Nob on Warbike" id="a2f0-1a14-e106-1957" hidden="false" type="profile" targetId="66ac-c034-7df9-8ab7"/>
               </infoLinks>
@@ -3253,6 +3545,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
                       </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e39d-dbbd-c014-2f0a" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="d672-7d74-11b0-27c7">
                       <costs>
@@ -3261,11 +3556,17 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                       <infoLinks>
                         <infoLink name="Power Klaw" id="c938-2137-8980-d133" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d0c-9786-8f3c-70ab" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Choppa" hidden="false" id="cdb1-fc04-6ca8-5562">
                       <infoLinks>
                         <infoLink name="Choppa" id="9fd1-0f15-04d4-3f3a" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="903d-39f6-0b67-1132" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -3311,9 +3612,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Deffkoptas" hidden="false" id="b5da-d503-9ccf-512c">
+    <selectionEntry type="unit" import="true" name="Deffkoptas" hidden="false" id="b5da-d503-9ccf-512c">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Deffkopta" hidden="false" id="884b-7d05-a3ed-1cb7">
+        <selectionEntry type="model" import="true" name="Deffkopta" hidden="false" id="884b-7d05-a3ed-1cb7">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
           </costs>
@@ -3332,6 +3633,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                   <infoLinks>
                     <infoLink name="Twin-linked Big Shoota" id="77d4-195c-2136-f5ee" hidden="false" type="profile" targetId="6f29-5051-9504-9814"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="41c9-df06-b248-4cca" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Twin-linked Rokkit Launcha" hidden="false" id="67c9-54b3-6957-00a1">
                   <costs>
@@ -3340,6 +3644,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                   <infoLinks>
                     <infoLink name="Twin-linked Rokkit Launcha" id="3c68-d1fd-fa0b-9fcc" hidden="false" type="profile" targetId="0421-ef70-10b3-55c3"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c2cb-1859-0a19-1c3b" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Kustom Mega-blasta" hidden="false" id="7a98-b294-dcf1-3f74">
                   <costs>
@@ -3348,6 +3655,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                   <infoLinks>
                     <infoLink name="Kustom Mega-blasta" id="96cb-7f5b-a0d2-3f12" hidden="false" type="profile" targetId="6cc4-37a2-1053-bc7b"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b6b6-4053-b3b9-d9ad" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -3400,7 +3710,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         <infoLink name="Hit and Run" id="be11-8c1b-79f4-ae70" hidden="false" type="profile" targetId="17a2-9db7-3461-361c"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Deff Dread" hidden="false" id="59ba-03b6-7dc2-6369">
+    <selectionEntry type="unit" import="true" name="Deff Dread" hidden="false" id="59ba-03b6-7dc2-6369">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="75"/>
       </costs>
@@ -3487,9 +3797,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Killa Kans" hidden="false" id="fbdd-cc21-6eba-4a71">
+    <selectionEntry type="unit" import="true" name="Killa Kans" hidden="false" id="fbdd-cc21-6eba-4a71">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Killa Kan" hidden="false" id="c62a-259b-00c3-6a4e">
+        <selectionEntry type="model" import="true" name="Killa Kan" hidden="false" id="c62a-259b-00c3-6a4e">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
           </costs>
@@ -3511,6 +3821,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                   <infoLinks>
                     <infoLink name="Big Shoota" id="f8dd-7cbe-cc5f-5e55" hidden="false" type="profile" targetId="dd74-99d0-eda5-7f44"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="91e9-aa5f-1f2d-25a7" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Rokkit Launcha" hidden="false" id="f7f6-f2fd-9053-159f">
                   <costs>
@@ -3519,6 +3832,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                   <infoLinks>
                     <infoLink name="Rokkit Launcha" id="e9ed-ea74-83b4-b126" hidden="false" type="profile" targetId="21ca-215a-88b3-e23c"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e54e-eee8-9d7a-b0b7" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Kustom Mega-blasta" hidden="false" id="6c9a-ad6e-6bf9-5f1a">
                   <costs>
@@ -3527,6 +3843,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                   <infoLinks>
                     <infoLink name="Kustom Mega-blasta" id="e172-a6c4-e3ce-39a5" hidden="false" type="profile" targetId="6cc4-37a2-1053-bc7b"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5b53-abb7-da6a-154e" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Skorcha" hidden="false" id="8e7c-f012-b9e0-160b">
                   <costs>
@@ -3535,6 +3854,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                   <infoLinks>
                     <infoLink name="Skorcha" id="6196-2976-7d1b-7f3e" hidden="false" type="profile" targetId="78a3-0775-367f-aec7"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f4aa-e8af-d047-4807" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Grotzooka" hidden="false" id="2c25-39dd-a06d-368b">
                   <costs>
@@ -3543,6 +3865,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                   <infoLinks>
                     <infoLink name="Grotzooka" id="5ceb-7467-32c3-ba68" hidden="false" type="profile" targetId="6b9c-e986-55e7-8ce6"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f834-dd85-8487-0e57" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -3580,11 +3905,11 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Flash Gitz" hidden="false" id="e18b-6c8a-6f82-70ca">
+    <selectionEntry type="unit" import="true" name="Flash Gitz" hidden="false" id="e18b-6c8a-6f82-70ca">
       <selectionEntryGroups>
         <selectionEntryGroup name="Mob" id="af7a-fdf6-9907-63cc" hidden="false" defaultSelectionEntryId="7705-04b8-bddb-4604">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Flash Git" hidden="false" id="7705-04b8-bddb-4604">
+            <selectionEntry type="model" import="true" name="Flash Git" hidden="false" id="7705-04b8-bddb-4604">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
               </costs>
@@ -3644,7 +3969,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Painboy" hidden="false" id="1cce-e27e-089a-a507">
+            <selectionEntry type="model" import="true" name="Painboy" hidden="false" id="1cce-e27e-089a-a507">
               <infoLinks>
                 <infoLink name="Painboy" id="90cc-61ec-0ae7-e9f0" hidden="false" type="profile" targetId="dc54-0a5a-b0bf-127c"/>
                 <infoLink name="Dok&apos;s Tools" id="3217-1e77-7e41-6797" hidden="false" type="profile" targetId="89d6-38bc-7c40-b836"/>
@@ -3703,7 +4028,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5dfb-a148-ea2e-595b"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="unit" import="true" name="One Flashgitz mob may be led by Kaptin Badrukk" hidden="false" id="fe32-6e48-03db-692b">
+        <selectionEntry type="model" import="true" name="One Flashgitz mob may be led by Kaptin Badrukk" hidden="false" id="fe32-6e48-03db-692b">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="135"/>
           </costs>
@@ -3747,7 +4072,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         <infoLink name="Waaagh!" id="2f0c-2768-7ae0-0585" hidden="false" type="profile" targetId="7b0a-52ae-ae3a-4538"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Big Gunz" hidden="false" id="6bae-4c44-d281-4757">
+    <selectionEntry type="unit" import="true" name="Big Gunz" hidden="false" id="6bae-4c44-d281-4757">
       <selectionEntryGroups>
         <selectionEntryGroup name="The battery may include any of the following" id="0287-33f1-8dcd-a9a2" hidden="false">
           <selectionEntries>
@@ -3777,7 +4102,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         </selectionEntryGroup>
       </selectionEntryGroups>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Big Gun" hidden="false" id="b464-14cb-4347-0d51" collective="true">
+        <selectionEntry type="upgrade" import="true" name="Big Gun" hidden="false" id="b464-14cb-4347-0d51" collective="false">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
           </costs>
@@ -3798,6 +4123,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                     <infoLink name="Kannon (Frag)" id="d23f-59a9-2e8a-9e22" hidden="false" type="profile" targetId="a508-fd47-9789-f683"/>
                     <infoLink name="Kannon (Shell)" id="b021-3d25-8025-79eb" hidden="false" type="profile" targetId="69ea-02af-bd76-b124"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5b90-5231-7a55-563f" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Lobbas" hidden="false" id="e4f2-eaa8-47d0-1bdc">
                   <costs>
@@ -3806,6 +4134,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                   <infoLinks>
                     <infoLink name="Lobba" id="3528-a849-7a78-bd68" hidden="false" type="profile" targetId="4556-c4b4-eb6e-8ce2"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="14c6-44f0-4ea6-dd41" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Zzap Gun" hidden="false" id="bbf4-1406-6079-9764">
                   <costs>
@@ -3814,6 +4145,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                   <infoLinks>
                     <infoLink name="Zzap Gun" id="76d8-9041-ed72-5a03" hidden="false" type="profile" targetId="b23c-729e-e0d2-0ab4"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d4b-8805-531f-96bf" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -3840,6 +4174,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                   <infoLinks>
                     <infoLink name="Grabba Stikk" id="69b9-8a36-cf1d-af78" hidden="false" type="profile" targetId="d5a0-bbbe-d646-5dd9"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1f3-1020-abc5-49b3" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Grot Prod" hidden="false" id="a96b-ce77-971a-e86b">
                   <costs>
@@ -3848,6 +4185,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                   <infoLinks>
                     <infoLink name="Grot-prod" id="6fee-888e-dc09-fe5c" hidden="false" type="profile" targetId="18f1-5125-fd25-4c38"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d7d5-b409-ae67-ca61" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -3865,7 +4205,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
         <infoLink name="Artillery" id="15d2-06be-2d23-1e8c" hidden="false" type="rule" targetId="d466-164a-2f8e-6e4a"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Looted Wagon" hidden="false" id="8814-6340-dc3b-3609">
+    <selectionEntry type="unit" import="true" name="Looted Wagon" hidden="false" id="8814-6340-dc3b-3609">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
       </costs>
@@ -3898,6 +4238,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Boomgun" id="520e-0e93-f0ab-a541" hidden="false" type="profile" targetId="24ca-6eba-51e7-7e4c"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e37-30f6-d606-382f" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Skorcha" hidden="false" id="890c-77a7-84bf-3690">
               <costs>
@@ -3906,6 +4249,9 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
               <infoLinks>
                 <infoLink name="Skorcha" id="708b-35a4-7a8e-f4d8" hidden="false" type="profile" targetId="78a3-0775-367f-aec7"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a91b-ef03-90da-4556" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>

@@ -2639,6 +2639,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
               <infoLinks>
                 <infoLink name="Bonding Knife" id="7c71-2197-8643-417e" hidden="false" type="profile" targetId="8917-b687-41df-907b"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2929-4b2b-dcae-4c1f"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="EMP Grenades" hidden="false" id="8b43-2b5f-b91f-3138">
               <costs>
@@ -2647,6 +2650,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
               <infoLinks>
                 <infoLink name="EMP Grenades" id="49eb-4b0b-aec9-42fb" hidden="false" type="profile" targetId="3d70-3805-5ae7-8c36"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b88f-27f8-bf22-1b99"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Honour Blade (Ethereal Only)" hidden="false" id="16d2-ffad-f91f-97c4">
               <costs>
@@ -2655,6 +2661,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
               <infoLinks>
                 <infoLink name="Honour Blade" id="0d0a-81f4-3dd8-f23d" hidden="false" type="profile" targetId="1688-3488-96d6-ecc0"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1e9-7e1e-4088-3f84"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Hard-wired Blacksun filter" hidden="false" id="e510-750a-226a-e300">
               <costs>
@@ -2663,11 +2672,17 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
               <infoLinks>
                 <infoLink name="Blacksun Filter" id="705a-a477-a771-acf7" hidden="false" type="profile" targetId="f235-7880-f61b-f7d2"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d601-ac71-e221-537b"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Hard-wired Drone Controller" hidden="false" id="9316-402d-85b5-dc0c">
               <infoLinks>
                 <infoLink name="Drone Controller" id="bbca-526e-11b2-1f89" hidden="false" type="profile" targetId="6a48-ae3b-b476-9d71"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a41d-2831-b0a9-d429"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Hard-wired Multi-tracker" hidden="false" id="fcb2-5441-ae8d-9dc5">
               <costs>
@@ -2676,6 +2691,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
               <infoLinks>
                 <infoLink name="Multi-tracker" id="2ccf-b438-5b19-6aaf" hidden="false" type="profile" targetId="f2d8-73a2-483f-7625"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="983d-8e12-a39d-358b"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Hard-wired Target Lock" hidden="false" id="77ce-ffeb-68a5-513c">
               <costs>
@@ -2684,6 +2702,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
               <infoLinks>
                 <infoLink name="Target Lock" id="1cbd-21d7-84b3-d276" hidden="false" type="profile" targetId="acc9-9396-2894-6426"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e8e-7871-b9de-faef"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Marker Drone" hidden="false" id="6130-f69f-2f60-a965">
               <costs>
@@ -2693,6 +2714,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                 <infoLink name="Marker Drone" id="0beb-4776-7508-e1ab" hidden="false" type="profile" targetId="06eb-39a9-634c-c821"/>
                 <infoLink name="Networked Markerlight" id="c355-c709-1078-0beb" hidden="false" type="profile" targetId="ebf0-1674-f193-5618"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c586-b9b5-d1bc-f1d2"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Gun Drone" hidden="false" id="5968-fb47-3966-1c47">
               <costs>
@@ -2703,6 +2727,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                 <infoLink name="Twin-linked Pulse Carbine" id="4c01-347c-e2f6-cb6d" hidden="false" type="profile" targetId="38bc-4e53-be82-6233"/>
                 <infoLink name="Jump Infantry" id="3582-b704-2090-1acd" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c5dd-1415-3c3a-e663"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Shield Drone" hidden="false" id="7c71-2956-9304-0f25">
               <costs>
@@ -2723,6 +2750,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   </characteristics>
                 </profile>
               </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="59c1-df38-d444-2e07"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -2750,15 +2780,65 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
           <selectionEntryGroups>
             <selectionEntryGroup name="Squad" id="b47b-1791-5b7d-4fce" hidden="false">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Shas&apos;la" hidden="false" id="47f7-ae4b-1f9f-6be9" defaultAmount="6">
+                <selectionEntry type="model" import="true" name="Shas&apos;la" hidden="false" id="47f7-ae4b-1f9f-6be9" defaultAmount="6">
                   <costs>
                     <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
                   </costs>
                   <infoLinks>
                     <infoLink name="Honour Guard Shas&apos;la" id="92a9-b5a2-86e8-02ec" hidden="false" type="profile" targetId="a5a6-65b2-033e-0f52"/>
                   </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="EMP Grenades" hidden="false" id="0815-6668-06f0-ae18">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="EMP Grenades" id="7392-ce8d-cbbc-53f9" hidden="false" type="profile" targetId="3d70-3805-5ae7-8c36"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="28a1-b6d2-ff2c-95e7"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Photon Grenades" hidden="false" id="7880-8e9b-992a-2f3d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Photon Grenades" id="b954-4eba-2d2f-ac82" hidden="false" type="profile" targetId="7ace-3a5d-d7a5-765a"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a86-7704-f06b-8926"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Loadout" id="6417-f7d8-3d65-04a8" hidden="false" defaultSelectionEntryId="8f85-f1fb-1d97-2206">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Pulse Rifle" hidden="false" id="04c3-fed8-07eb-6203">
+                          <infoLinks>
+                            <infoLink name="Pulse Rifle" id="ac54-fe68-ab7f-7169" hidden="false" type="profile" targetId="bfa2-1a38-dfbd-3023"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ea9-2dfe-525c-701c" includeChildSelections="false"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Pulse Carbine" hidden="false" id="a453-0a15-9468-6823">
+                          <infoLinks>
+                            <infoLink name="Pulse Carbine" id="5dfe-a35f-9005-feba" hidden="false" type="profile" targetId="04ef-d8fa-968c-dbe1"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6791-fe15-1c15-5bfd" includeChildSelections="false"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="self" shared="true" id="9d70-c86c-b34a-ea4f-min"/>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9d70-c86c-b34a-ea4f-max"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Shas&apos;ui" hidden="false" id="1b2e-61da-e167-0bca" defaultAmount="0">
+                <selectionEntry type="model" import="true" name="Shas&apos;ui" hidden="false" id="1b2e-61da-e167-0bca" defaultAmount="0">
                   <costs>
                     <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="22"/>
                   </costs>
@@ -2780,6 +2860,28 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f25-b30f-62ed-135c"/>
                       </constraints>
                     </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="EMP Grenades" hidden="false" id="0aff-53a0-f3ca-268e">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="EMP Grenades" id="cf57-becf-1ecc-f984" hidden="false" type="profile" targetId="3d70-3805-5ae7-8c36"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7e18-e70f-3cfb-f658"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Photon Grenades" hidden="false" id="2d92-f450-1ce6-9f08">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Photon Grenades" id="51a4-837a-46d7-2784" hidden="false" type="profile" targetId="7ace-3a5d-d7a5-765a"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="113d-e3a5-6acc-fe06"/>
+                      </constraints>
+                    </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups>
                     <selectionEntryGroup name="The Shas&apos;ui may select infantry wargear." id="b54f-460b-8e0a-a315" hidden="false">
@@ -2791,14 +2893,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                           <infoLinks>
                             <infoLink name="Bonding Knife" id="3541-afa3-d0e8-5930" hidden="false" type="profile" targetId="8917-b687-41df-907b"/>
                           </infoLinks>
-                        </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="EMP Grenades" hidden="false" id="951e-d751-2818-2aa4">
-                          <costs>
-                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
-                          </costs>
-                          <infoLinks>
-                            <infoLink name="EMP Grenades" id="3e3f-28c0-2937-6045" hidden="false" type="profile" targetId="3d70-3805-5ae7-8c36"/>
-                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="276d-9421-839d-bf36" includeChildSelections="false"/>
+                          </constraints>
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Hard-wired Blacksun filter" hidden="false" id="4050-6b2e-a587-037d">
                           <costs>
@@ -2807,11 +2904,17 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                           <infoLinks>
                             <infoLink name="Blacksun Filter" id="3e4f-9f4d-d1d9-71a5" hidden="false" type="profile" targetId="f235-7880-f61b-f7d2"/>
                           </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad33-863f-1ed3-3d51" includeChildSelections="false"/>
+                          </constraints>
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Hard-wired Drone Controller" hidden="false" id="d087-cf2d-b0ed-aa97">
                           <infoLinks>
                             <infoLink name="Drone Controller" id="5a82-c2f7-5651-108a" hidden="false" type="profile" targetId="6a48-ae3b-b476-9d71"/>
                           </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="90ba-c4a0-a796-c908" includeChildSelections="false"/>
+                          </constraints>
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Hard-wired Multi-tracker" hidden="false" id="3512-738e-fea0-568e">
                           <costs>
@@ -2820,6 +2923,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                           <infoLinks>
                             <infoLink name="Multi-tracker" id="0b4e-a086-ce2c-14c2" hidden="false" type="profile" targetId="f2d8-73a2-483f-7625"/>
                           </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d8f-ec43-a58f-b73d" includeChildSelections="false"/>
+                          </constraints>
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Hard-wired Target Lock" hidden="false" id="07d7-532e-90bb-0dd9">
                           <costs>
@@ -2828,6 +2934,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                           <infoLinks>
                             <infoLink name="Target Lock" id="c888-5833-b439-2fe0" hidden="false" type="profile" targetId="acc9-9396-2894-6426"/>
                           </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a765-d2ec-c386-5948" includeChildSelections="false"/>
+                          </constraints>
                         </selectionEntry>
                         <selectionEntry type="model" import="true" name="Marker Drone" hidden="false" id="2daa-92d3-ddfa-ead0">
                           <costs>
@@ -2837,6 +2946,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                             <infoLink name="Marker Drone" id="2f9f-f4ae-178b-be99" hidden="false" type="profile" targetId="06eb-39a9-634c-c821"/>
                             <infoLink name="Networked Markerlight" id="4378-1748-3cab-a9e5" hidden="false" type="profile" targetId="ebf0-1674-f193-5618"/>
                           </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f057-39ac-3d7e-c26b" includeChildSelections="false"/>
+                          </constraints>
                         </selectionEntry>
                         <selectionEntry type="model" import="true" name="Gun Drone" hidden="false" id="b42c-08b7-11cf-83a6">
                           <costs>
@@ -2847,6 +2959,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                             <infoLink name="Twin-linked Pulse Carbine" id="654a-8857-8905-c64a" hidden="false" type="profile" targetId="38bc-4e53-be82-6233"/>
                             <infoLink name="Jump Infantry" id="b8e1-2a8e-439a-00ea" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
                           </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a911-4e54-764b-473b" includeChildSelections="false"/>
+                          </constraints>
                         </selectionEntry>
                         <selectionEntry type="model" import="true" name="Shield Drone" hidden="false" id="8c46-dbec-ec12-ff66">
                           <costs>
@@ -2867,50 +2982,53 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                               </characteristics>
                             </profile>
                           </profiles>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ac6-1312-8ba4-778b" includeChildSelections="false"/>
+                          </constraints>
                         </selectionEntry>
                       </selectionEntries>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Loadout" id="9435-f1b5-b6bf-eb9a" hidden="false" defaultSelectionEntryId="8f85-f1fb-1d97-2206">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Pulse Rifle" hidden="false" id="384f-508b-5178-e1fb">
+                          <infoLinks>
+                            <infoLink name="Pulse Rifle" id="1ecb-1e0b-1940-fd39" hidden="false" type="profile" targetId="bfa2-1a38-dfbd-3023"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b389-4b32-a909-5ade" includeChildSelections="false"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Pulse Carbine" hidden="false" id="363b-d839-3fa9-1304">
+                          <infoLinks>
+                            <infoLink name="Pulse Carbine" id="1bd4-3277-d899-82a9" hidden="false" type="profile" targetId="04ef-d8fa-968c-dbe1"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d03d-33cf-76c3-200b" includeChildSelections="false"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="self" shared="true" id="9f1f-c613-f6cd-d5a9-min"/>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9f1f-c613-f6cd-d5a9-max"/>
+                      </constraints>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
                 <constraint type="min" value="6" field="selections" scope="self" shared="true" id="baa1-8b52-2b20-23fe"/>
-                <constraint type="max" value="12" field="selections" scope="parent" shared="true" id="d6c9-06f1-2ee9-1b43"/>
+                <constraint type="max" value="12" field="selections" scope="self" shared="true" id="d6c9-06f1-2ee9-1b43"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="The team may carry photon grenades and EMP grenades (if equipped, every model must have one)" id="637b-bf6e-0e73-bc2a" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Photon Grenades" hidden="false" id="baf0-6795-6078-be21">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Photon Grenades" id="8a21-52d8-effc-23f2" hidden="false" type="profile" targetId="7ace-3a5d-d7a5-765a"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="EMP Grenades" hidden="false" id="3793-b612-8c4a-1a1d">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="EMP Grenades" id="e97b-334e-9a7b-9e53" hidden="false" type="profile" targetId="3d70-3805-5ae7-8c36"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
           </selectionEntryGroups>
-          <infoLinks>
-            <infoLink name="Pulse Rifle" id="d1b2-b961-384f-9673" hidden="false" type="profile" targetId="bfa2-1a38-dfbd-3023"/>
-          </infoLinks>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Any number of fire warriors may exchange their pulse rifle for a pulse carbine." hidden="false" id="a219-9917-ed2f-8de2">
-              <infoLinks>
-                <infoLink name="Pulse Carbine" id="f09e-6479-30b9-94a1" hidden="false" type="profile" targetId="04ef-d8fa-968c-dbe1"/>
-              </infoLinks>
-            </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Dedicated Transport" hidden="false" id="6ff1-9ae9-7da3-d79e">
               <entryLinks>
-                <entryLink import="true" name="Devilfish Troop Carrier" hidden="false" id="d349-a321-5e44-644a" type="selectionEntry" targetId="3978-d4f8-0bb2-1213"/>
+                <entryLink import="true" name="Devilfish Troop Carrier" hidden="false" id="d349-a321-5e44-644a" type="selectionEntry" targetId="3978-d4f8-0bb2-1213">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8619-afcf-a4e2-cdbe" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="self" shared="true" id="896e-938f-421c-6b41"/>
@@ -2927,15 +3045,65 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="2923-594c-00c0-91b9" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Shas&apos;la" hidden="false" id="2981-8a65-1208-6c59" defaultAmount="6">
+            <selectionEntry type="model" import="true" name="Shas&apos;la" hidden="false" id="2981-8a65-1208-6c59" defaultAmount="6">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
               <infoLinks>
                 <infoLink name="Fire Warrior Shas&apos;la" id="d43b-dc00-aa95-bd46" hidden="false" type="profile" targetId="ad8b-1917-d779-b85e"/>
               </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="d7af-8ba4-0b00-9d1f" hidden="false" defaultSelectionEntryId="8f85-f1fb-1d97-2206">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Pulse Rifle" hidden="false" id="8f85-f1fb-1d97-2206">
+                      <infoLinks>
+                        <infoLink name="Pulse Rifle" id="ca5f-55d3-5a12-1dcb" hidden="false" type="profile" targetId="bfa2-1a38-dfbd-3023"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f957-02bf-519d-e8d8" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Pulse Carbine" hidden="false" id="e798-15c2-ddd7-a585">
+                      <infoLinks>
+                        <infoLink name="Pulse Carbine" id="f747-e4ce-8113-bb59" hidden="false" type="profile" targetId="04ef-d8fa-968c-dbe1"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fadc-7527-3184-d7b9" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="2225-e435-4d9a-5755-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2225-e435-4d9a-5755-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="EMP Grenades" hidden="false" id="f921-5d4e-24c2-fc9b">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="EMP Grenades" id="e07d-72b8-3f20-178d" hidden="false" type="profile" targetId="3d70-3805-5ae7-8c36"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1312-90bc-32d6-6e7a" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Photon Grenades" hidden="false" id="7b3a-0f09-9f03-0ac6">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Photon Grenades" id="1d21-f6e4-fa73-d660" hidden="false" type="profile" targetId="7ace-3a5d-d7a5-765a"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cdac-cf2d-0a50-2c53" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Shas&apos;ui" hidden="false" id="0bbb-f6b6-4d7d-5ecb" defaultAmount="0">
+            <selectionEntry type="model" import="true" name="Shas&apos;ui" hidden="false" id="0bbb-f6b6-4d7d-5ecb" defaultAmount="0">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
               </costs>
@@ -2957,6 +3125,28 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="19c0-3c24-e371-38e6"/>
                   </constraints>
                 </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="EMP Grenades" hidden="false" id="2ad1-d176-0c29-137a">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="EMP Grenades" id="6084-0af0-eb14-b78a" hidden="false" type="profile" targetId="3d70-3805-5ae7-8c36"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="28ae-cd5f-2d41-fa47" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Photon Grenades" hidden="false" id="f99c-d163-cb5c-478a">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Photon Grenades" id="7064-0f71-70a0-54e2" hidden="false" type="profile" targetId="7ace-3a5d-d7a5-765a"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad6a-257a-425d-8a87" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
                 <selectionEntryGroup name="The Shas&apos;ui may select infantry wargear." id="3272-4094-24f7-2982" hidden="false">
@@ -2968,14 +3158,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                       <infoLinks>
                         <infoLink name="Bonding Knife" id="a509-e846-7d3b-f583" hidden="false" type="profile" targetId="8917-b687-41df-907b"/>
                       </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="EMP Grenades" hidden="false" id="759d-32c8-9fda-c0bc">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="EMP Grenades" id="ea8a-4088-5f53-e472" hidden="false" type="profile" targetId="3d70-3805-5ae7-8c36"/>
-                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f0b2-247d-f76b-67fa" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Hard-wired Blacksun filter" hidden="false" id="37a4-f420-4966-bb5a">
                       <costs>
@@ -2984,11 +3169,17 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                       <infoLinks>
                         <infoLink name="Blacksun Filter" id="ea31-8cea-48b5-a084" hidden="false" type="profile" targetId="f235-7880-f61b-f7d2"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4274-fdf9-4d68-de96" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Hard-wired Drone Controller" hidden="false" id="4eee-eb43-9d46-a97d">
                       <infoLinks>
                         <infoLink name="Drone Controller" id="df77-fbe1-1f1e-3cf6" hidden="false" type="profile" targetId="6a48-ae3b-b476-9d71"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c49-8473-f762-8970" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Hard-wired Multi-tracker" hidden="false" id="4e7d-11ac-b9b8-7739">
                       <costs>
@@ -2997,6 +3188,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                       <infoLinks>
                         <infoLink name="Multi-tracker" id="4d84-4ff1-df7d-d2e5" hidden="false" type="profile" targetId="f2d8-73a2-483f-7625"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="81f9-c936-eba5-d218" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Hard-wired Target Lock" hidden="false" id="7fd5-99b4-4e5e-52cb">
                       <costs>
@@ -3005,6 +3199,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                       <infoLinks>
                         <infoLink name="Target Lock" id="da8d-db6b-2e65-5b5b" hidden="false" type="profile" targetId="acc9-9396-2894-6426"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7bad-d4c8-c3b8-7845" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="model" import="true" name="Marker Drone" hidden="false" id="a420-3518-291f-9a85">
                       <costs>
@@ -3014,6 +3211,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                         <infoLink name="Marker Drone" id="951b-3c5b-4b47-639a" hidden="false" type="profile" targetId="06eb-39a9-634c-c821"/>
                         <infoLink name="Networked Markerlight" id="5a93-66ca-3ee2-28be" hidden="false" type="profile" targetId="ebf0-1674-f193-5618"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="16c1-6716-a5ce-6c5a" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="model" import="true" name="Gun Drone" hidden="false" id="8235-d3a2-021a-3e44">
                       <costs>
@@ -3024,6 +3224,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                         <infoLink name="Twin-linked Pulse Carbine" id="69b9-cded-e40e-2af8" hidden="false" type="profile" targetId="38bc-4e53-be82-6233"/>
                         <infoLink name="Jump Infantry" id="5fdc-7e84-3adc-df40" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9726-7a6d-0bbe-db47" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="model" import="true" name="Shield Drone" hidden="false" id="6a96-1a1e-7af0-ca35">
                       <costs>
@@ -3044,8 +3247,35 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                           </characteristics>
                         </profile>
                       </profiles>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="346a-e431-0058-17dd" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Loadout" id="5067-9a58-cc55-8826" hidden="false" defaultSelectionEntryId="52e5-4e64-6668-3e3f">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Pulse Rifle" hidden="false" id="52e5-4e64-6668-3e3f">
+                      <infoLinks>
+                        <infoLink name="Pulse Rifle" id="a4ab-a24f-0927-d4cf" hidden="false" type="profile" targetId="bfa2-1a38-dfbd-3023"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e2f8-e6e7-9c60-b181" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Pulse Carbine" hidden="false" id="7975-a683-2260-ef6b">
+                      <infoLinks>
+                        <infoLink name="Pulse Carbine" id="9e98-96a4-0071-2eb2" hidden="false" type="profile" targetId="04ef-d8fa-968c-dbe1"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f9b8-444a-400c-9bcc" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="459a-2a9b-9f2e-0fbd-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="459a-2a9b-9f2e-0fbd-max"/>
+                  </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
@@ -3055,39 +3285,15 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
             <constraint type="max" value="12" field="selections" scope="parent" shared="true" id="f18e-8116-b88f-e865"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="The team may carry photon grenades and EMP grenades (if equipped, every model must have one)" id="8a4f-4d70-9362-ce50" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Photon Grenades" hidden="false" id="f99c-d163-cb5c-478a">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Photon Grenades" id="7064-0f71-70a0-54e2" hidden="false" type="profile" targetId="7ace-3a5d-d7a5-765a"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="EMP Grenades" hidden="false" id="2ad1-d176-0c29-137a">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="EMP Grenades" id="6084-0af0-eb14-b78a" hidden="false" type="profile" targetId="3d70-3805-5ae7-8c36"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
       </selectionEntryGroups>
-      <infoLinks>
-        <infoLink name="Pulse Rifle" id="ca5f-55d3-5a12-1dcb" hidden="false" type="profile" targetId="bfa2-1a38-dfbd-3023"/>
-      </infoLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Any number of fire warriors may exchange their pulse rifle for a pulse carbine." hidden="false" id="e798-15c2-ddd7-a585">
-          <infoLinks>
-            <infoLink name="Pulse Carbine" id="f747-e4ce-8113-bb59" hidden="false" type="profile" targetId="04ef-d8fa-968c-dbe1"/>
-          </infoLinks>
-        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Dedicated Transport" hidden="false" id="55f3-5673-9471-25b8">
           <entryLinks>
-            <entryLink import="true" name="Devilfish Troop Carrier" hidden="false" id="74a0-94d0-aa38-547e" type="selectionEntry" targetId="3978-d4f8-0bb2-1213"/>
+            <entryLink import="true" name="Devilfish Troop Carrier" hidden="false" id="74a0-94d0-aa38-547e" type="selectionEntry" targetId="3978-d4f8-0bb2-1213">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49a6-4935-f8a1-ebcd"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8094-3ca3-c176-229c"/>
@@ -3153,6 +3359,167 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
               <infoLinks>
                 <infoLink name="Crisis Shas&apos;ui" id="50ec-6386-e8f0-d279" hidden="false" type="profile" targetId="53e2-eedf-c30a-4bdd"/>
               </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Each battlesuit must select three battlesuit weapon systems or support systems" id="ad58-eaf9-6e1a-58df" hidden="false">
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Battlesuit Weapon Systems" id="1d8e-329d-c131-3a42" hidden="false">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Burst Cannon" hidden="false" id="ca70-7f1d-51d2-3d96">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Burst Cannon" id="6eb5-7323-d18b-5485" hidden="false" type="profile" targetId="f287-d7e7-db30-4fb4"/>
+                          </infoLinks>
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Twin-linked (Counts as a second weapon choice)" hidden="false" id="cc6a-c761-b0a5-5d02">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+                              </costs>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c61e-cde0-5436-df21"/>
+                              </constraints>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="835e-723c-be58-c809">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Flamer" id="f19e-7828-9c56-3fdc" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
+                          </infoLinks>
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Twin-linked (Counts as a second weapon choice)" hidden="false" id="6aea-af61-cf68-ece6">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                              </costs>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="417d-9e6a-335b-f4f2"/>
+                              </constraints>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Fusion Blaster" hidden="false" id="d8c9-bbf9-3f09-5e26">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Fusion Blaster" id="1da8-f79a-e367-17a9" hidden="false" type="profile" targetId="239f-9f31-4ce4-fe6a"/>
+                          </infoLinks>
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Twin-linked (Counts as a second weapon choice)" hidden="false" id="0471-43b3-b490-b9a5">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+                              </costs>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9605-0081-b3db-f8f3"/>
+                              </constraints>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Missile Pod" hidden="false" id="5eec-a417-ff91-74db">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Missile Pod" id="0bb8-b1b2-2a91-9231" hidden="false" type="profile" targetId="ad81-e1d9-7cf6-84ea"/>
+                          </infoLinks>
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Twin-linked (Counts as a second weapon choice)" hidden="false" id="73eb-540d-4a28-1567">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+                              </costs>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="958d-5f5a-a563-2e93"/>
+                              </constraints>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Plasma Rifle" hidden="false" id="72c6-53e3-506d-1916">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Plasma Rifle" id="b445-181c-f656-2eb6" hidden="false" type="profile" targetId="92fe-29f5-2729-f7d0"/>
+                          </infoLinks>
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Twin-linked (Counts as a second weapon choice)" hidden="false" id="13ca-fa90-d980-d0e6">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                              </costs>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb3e-08cd-ce3f-83e2"/>
+                              </constraints>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Battlesuit Support Systems" id="f8d4-fc35-f8e1-7e2c" hidden="false">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Advanced Stabilisation System" hidden="false" id="5635-6ef9-6e48-45ab">
+                          <infoLinks>
+                            <infoLink name="Advanced Stabilisation System" id="f66d-1416-7626-e12d" hidden="false" type="profile" targetId="b65a-f5a5-5a41-daf6"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Blacksun Filter" hidden="false" id="4859-7177-a20f-9010">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Blacksun Filter" id="2b26-1201-9a00-70df" hidden="false" type="profile" targetId="f235-7880-f61b-f7d2"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Drone Controller" hidden="false" id="34b0-163e-1bc5-c36b">
+                          <infoLinks>
+                            <infoLink name="Drone Controller" id="5ca8-1616-49a2-0da5" hidden="false" type="profile" targetId="6a48-ae3b-b476-9d71"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Multi-tracker" hidden="false" id="4561-6193-44c7-a07b">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Multi-tracker" id="3de4-9243-0d69-5198" hidden="false" type="profile" targetId="f2d8-73a2-483f-7625"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Shield Generator" hidden="false" id="d0d5-d2c0-9a49-fda4">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Shield Generator" id="31ee-0024-8ddd-a414" hidden="false" type="profile" targetId="aed5-b40c-b40b-dfb4"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Target Lock" hidden="false" id="a036-9491-e46c-4dd5">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Target Lock" id="ffb4-27fc-af92-5f4f" hidden="false" type="profile" targetId="acc9-9396-2894-6426"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Targeting Array" hidden="false" id="a83c-5b73-6cce-01a6">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Targeting Array" id="5140-4d39-650f-1f01" hidden="false" type="profile" targetId="3c84-bbba-a8c2-fdc0"/>
+                          </infoLinks>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <constraints>
+                    <constraint type="min" value="3" field="selections" scope="self" shared="true" id="65ec-7029-fbb1-6dc0-min" includeChildSelections="true"/>
+                    <constraint type="max" value="3" field="selections" scope="self" shared="true" id="65ec-7029-fbb1-6dc0-max" includeChildSelections="true"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Shas&apos;vre" hidden="false" id="5e0d-bfaf-a5c7-4ebb">
               <costs>
@@ -3164,222 +3531,228 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="41ad-4003-6946-dcdf"/>
               </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Each battlesuit must select three battlesuit weapon systems or support systems" id="d8b9-9a49-536f-8301" hidden="false">
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Battlesuit Weapon Systems" id="74bf-3fed-0f8c-d8c3" hidden="false">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Airbursting Fragmentation Projector (Special Issue)" hidden="false" id="a92a-0dcb-deb1-c9c3">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Airburst Fragmentation Projector" id="8dfd-f526-8c80-79be" hidden="false" type="profile" targetId="7496-b7e9-e1e3-e157"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1882-2f0c-b8e4-f22f" includeChildSelections="true" includeChildForces="true"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Burst Cannon" hidden="false" id="804d-3cdd-6b4f-dd1a">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Burst Cannon" id="ab74-905c-bfe2-2bf5" hidden="false" type="profile" targetId="f287-d7e7-db30-4fb4"/>
+                          </infoLinks>
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Twin-linked (Counts as a second weapon choice)" hidden="false" id="1dc1-2f66-f28c-eeb6">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+                              </costs>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2220-69a1-a95a-76de"/>
+                              </constraints>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Cyclic Ion Blaster (Special Issue)" hidden="false" id="41d9-d387-0a77-9d74">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Cyclic Ion Blaster" id="ca2e-632f-a07d-6e41" hidden="false" type="profile" targetId="026c-b961-ed6d-f146"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="feba-9a33-7f7b-c6fa" includeChildSelections="true" includeChildForces="true"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="6dc3-0644-73da-795f">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Flamer" id="6bf5-c33d-e501-358a" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
+                          </infoLinks>
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Twin-linked (Counts as a second weapon choice)" hidden="false" id="a60e-640c-d302-32b5">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                              </costs>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b85-d8ae-87e4-d320"/>
+                              </constraints>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Fusion Blaster" hidden="false" id="d6f1-24dc-df98-312a">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Fusion Blaster" id="7895-b652-8372-5d8a" hidden="false" type="profile" targetId="239f-9f31-4ce4-fe6a"/>
+                          </infoLinks>
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Twin-linked (Counts as a second weapon choice)" hidden="false" id="ff35-4916-ad5b-5b48">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+                              </costs>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd1a-0995-cf5e-88cb"/>
+                              </constraints>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Missile Pod" hidden="false" id="e4cd-78da-336c-f5f6">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Missile Pod" id="8651-cf6c-e3f4-b807" hidden="false" type="profile" targetId="ad81-e1d9-7cf6-84ea"/>
+                          </infoLinks>
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Twin-linked (Counts as a second weapon choice)" hidden="false" id="0b7b-3117-f27f-8da8">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+                              </costs>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10a0-cc29-95e8-57f9"/>
+                              </constraints>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Plasma Rifle" hidden="false" id="7a2f-add6-6017-a665">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Plasma Rifle" id="a2b5-2122-9d69-9e33" hidden="false" type="profile" targetId="92fe-29f5-2729-f7d0"/>
+                          </infoLinks>
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Twin-linked (Counts as a second weapon choice)" hidden="false" id="15ed-01b0-81a0-3c5e">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                              </costs>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="039c-bf58-3fe6-11ed"/>
+                              </constraints>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Battlesuit Support Systems" id="7cd2-2969-0772-05bb" hidden="false">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Advanced Stabilisation System" hidden="false" id="9109-26aa-1e57-edb8">
+                          <infoLinks>
+                            <infoLink name="Advanced Stabilisation System" id="6d2f-6170-160b-1828" hidden="false" type="profile" targetId="b65a-f5a5-5a41-daf6"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Blacksun Filter" hidden="false" id="c0c2-58e1-ef67-93d8">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Blacksun Filter" id="6dbd-aa5d-4711-6ed8" hidden="false" type="profile" targetId="f235-7880-f61b-f7d2"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Command and Control Node (Special Issue)" hidden="false" id="dbfc-2c99-8833-b192">
+                          <infoLinks>
+                            <infoLink name="Command and Control Node" id="fd9d-2472-956f-f63a" hidden="false" type="profile" targetId="7d09-1c37-fac3-3e7e"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ad59-d6cb-8cc2-a64b" includeChildSelections="true" includeChildForces="true"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Drone Controller" hidden="false" id="f3c1-1780-c1ff-cb6a">
+                          <infoLinks>
+                            <infoLink name="Drone Controller" id="753f-e526-8fea-aa14" hidden="false" type="profile" targetId="6a48-ae3b-b476-9d71"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Multi-tracker" hidden="false" id="f8e0-f020-10e7-9c43">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Multi-tracker" id="3ff4-c1d8-1443-4b18" hidden="false" type="profile" targetId="f2d8-73a2-483f-7625"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Positional Relay (Special Issue)" hidden="false" id="580a-0db0-0312-6489">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Positional Relay" id="8de8-4a2b-2e3a-fc84" hidden="false" type="profile" targetId="7faf-215a-ae41-d28e"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ba38-f557-9454-4551" includeChildSelections="true" includeChildForces="true"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Shield Generator" hidden="false" id="fd81-0ce8-950b-fed3">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Shield Generator" id="10ab-1134-2f62-f79a" hidden="false" type="profile" targetId="aed5-b40c-b40b-dfb4"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Target Lock" hidden="false" id="f02f-dd5c-076f-81ea">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Target Lock" id="b084-a181-97b2-34e9" hidden="false" type="profile" targetId="acc9-9396-2894-6426"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Targeting Array" hidden="false" id="7ac5-833f-4bbd-6c8b">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Targeting Array" id="436d-f0f0-2d4b-dde6" hidden="false" type="profile" targetId="3c84-bbba-a8c2-fdc0"/>
+                          </infoLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Vectored Retro-Thrusters (Special Issue)" hidden="false" id="b046-b6d7-b995-8e1b">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Vectored retro-thrusters" id="7384-c653-91eb-e11b" hidden="false" type="profile" targetId="ba1a-533b-aa8b-c276"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b61e-11ce-8b40-3184" includeChildSelections="true" includeChildForces="true"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <constraints>
+                    <constraint type="min" value="3" field="selections" scope="self" shared="true" id="0cda-d164-5e06-fb71-min" includeChildSelections="true"/>
+                    <constraint type="max" value="3" field="selections" scope="self" shared="true" id="0cda-d164-5e06-fb71-max" includeChildSelections="true"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="max" value="3" field="selections" scope="self" shared="true" id="8b88-3281-5d10-e878"/>
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="1264-1a15-4300-7c74"/>
           </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Each battlesuit must select three battlesuit weapon systems or support systems (only Shas&apos;vre may select special issue equipment)" id="ad58-eaf9-6e1a-58df" hidden="false">
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Battlesuit Weapon Systems" id="1d8e-329d-c131-3a42" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Airbursting Fragmentation Projector (Special Issue)" hidden="false" id="009b-007b-fb8d-0471">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Airburst Fragmentation Projector" id="0f99-ce7a-a75a-b0ca" hidden="false" type="profile" targetId="7496-b7e9-e1e3-e157"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ac35-e8cc-266c-ab45" includeChildSelections="true" includeChildForces="true"/>
-                  </constraints>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Burst Cannon" hidden="false" id="ca70-7f1d-51d2-3d96">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Burst Cannon" id="6eb5-7323-d18b-5485" hidden="false" type="profile" targetId="f287-d7e7-db30-4fb4"/>
-                  </infoLinks>
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Twin-linked (Counts as a second weapon choice)" hidden="false" id="cc6a-c761-b0a5-5d02">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c61e-cde0-5436-df21"/>
-                      </constraints>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Cyclic Ion Blaster (Special Issue)" hidden="false" id="45f4-f62e-3257-8f6a">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Cyclic Ion Blaster" id="6ddb-8ada-1bb8-e952" hidden="false" type="profile" targetId="026c-b961-ed6d-f146"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b605-9ef3-6231-172e" includeChildSelections="true" includeChildForces="true"/>
-                  </constraints>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="835e-723c-be58-c809">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Flamer" id="f19e-7828-9c56-3fdc" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
-                  </infoLinks>
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Twin-linked (Counts as a second weapon choice)" hidden="false" id="6aea-af61-cf68-ece6">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="417d-9e6a-335b-f4f2"/>
-                      </constraints>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Fusion Blaster" hidden="false" id="d8c9-bbf9-3f09-5e26">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Fusion Blaster" id="1da8-f79a-e367-17a9" hidden="false" type="profile" targetId="239f-9f31-4ce4-fe6a"/>
-                  </infoLinks>
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Twin-linked (Counts as a second weapon choice)" hidden="false" id="0471-43b3-b490-b9a5">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9605-0081-b3db-f8f3"/>
-                      </constraints>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Missile Pod" hidden="false" id="5eec-a417-ff91-74db">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Missile Pod" id="0bb8-b1b2-2a91-9231" hidden="false" type="profile" targetId="ad81-e1d9-7cf6-84ea"/>
-                  </infoLinks>
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Twin-linked (Counts as a second weapon choice)" hidden="false" id="73eb-540d-4a28-1567">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="958d-5f5a-a563-2e93"/>
-                      </constraints>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Plasma Rifle" hidden="false" id="72c6-53e3-506d-1916">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Plasma Rifle" id="b445-181c-f656-2eb6" hidden="false" type="profile" targetId="92fe-29f5-2729-f7d0"/>
-                  </infoLinks>
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Twin-linked (Counts as a second weapon choice)" hidden="false" id="13ca-fa90-d980-d0e6">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb3e-08cd-ce3f-83e2"/>
-                      </constraints>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Battlesuit Support Systems" id="f8d4-fc35-f8e1-7e2c" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Advanced Stabilisation System" hidden="false" id="5635-6ef9-6e48-45ab">
-                  <infoLinks>
-                    <infoLink name="Advanced Stabilisation System" id="f66d-1416-7626-e12d" hidden="false" type="profile" targetId="b65a-f5a5-5a41-daf6"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Blacksun Filter" hidden="false" id="4859-7177-a20f-9010">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Blacksun Filter" id="2b26-1201-9a00-70df" hidden="false" type="profile" targetId="f235-7880-f61b-f7d2"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Command and Control Node (Special Issue)" hidden="false" id="ee15-ceed-23b0-1c62">
-                  <infoLinks>
-                    <infoLink name="Command and Control Node" id="39af-d742-475a-81ac" hidden="false" type="profile" targetId="7d09-1c37-fac3-3e7e"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                  </costs>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="449b-fb95-dc5a-99d5" includeChildSelections="true" includeChildForces="true"/>
-                  </constraints>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Drone Controller" hidden="false" id="34b0-163e-1bc5-c36b">
-                  <infoLinks>
-                    <infoLink name="Drone Controller" id="5ca8-1616-49a2-0da5" hidden="false" type="profile" targetId="6a48-ae3b-b476-9d71"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Multi-tracker" hidden="false" id="4561-6193-44c7-a07b">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Multi-tracker" id="3de4-9243-0d69-5198" hidden="false" type="profile" targetId="f2d8-73a2-483f-7625"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Positional Relay (Special Issue)" hidden="false" id="28c5-de1c-cbc7-7d69">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Positional Relay" id="de5b-7502-d4d6-6ab7" hidden="false" type="profile" targetId="7faf-215a-ae41-d28e"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fc1f-b0e8-4685-00c8" includeChildSelections="true" includeChildForces="true"/>
-                  </constraints>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Shield Generator" hidden="false" id="d0d5-d2c0-9a49-fda4">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Shield Generator" id="31ee-0024-8ddd-a414" hidden="false" type="profile" targetId="aed5-b40c-b40b-dfb4"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Target Lock" hidden="false" id="a036-9491-e46c-4dd5">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Target Lock" id="ffb4-27fc-af92-5f4f" hidden="false" type="profile" targetId="acc9-9396-2894-6426"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Targeting Array" hidden="false" id="a83c-5b73-6cce-01a6">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Targeting Array" id="5140-4d39-650f-1f01" hidden="false" type="profile" targetId="3c84-bbba-a8c2-fdc0"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Vectored Retro-Thrusters (Special Issue)" hidden="false" id="5d0a-0159-f559-eb5c">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Vectored retro-thrusters" id="c0e5-12c0-36fa-8318" hidden="false" type="profile" targetId="ba1a-533b-aa8b-c276"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ee69-25c4-c674-5f84" includeChildSelections="true" includeChildForces="true"/>
-                  </constraints>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <selectionEntries>
@@ -3400,6 +3773,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   <infoLinks>
                     <infoLink name="Bonding Knife" id="3d56-b8a0-c0ae-cbec" hidden="false" type="profile" targetId="8917-b687-41df-907b"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b531-5493-ae29-5007" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Ejection System (Special Issue)" hidden="false" id="506f-db80-f132-2d59">
                   <costs>
@@ -3410,6 +3786,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   </infoLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1420-7d35-d13f-1063" includeChildSelections="true" includeChildForces="true"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3354-d05a-a906-d6ed" includeChildSelections="false"/>
                   </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Failsafe Detonator (Special Issue)" hidden="false" id="c403-2c55-8bab-dd79">
@@ -3421,6 +3798,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   </infoLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d2b7-9c2e-13f5-ac23" includeChildSelections="true" includeChildForces="true"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="530d-3ba4-47f0-212d" includeChildSelections="false"/>
                   </constraints>
                 </selectionEntry>
                 <selectionEntry type="model" import="true" name="Gun Drone" hidden="false" id="9f68-f55b-f5c6-2144">
@@ -3432,6 +3810,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                     <infoLink name="Twin-linked Pulse Carbine" id="ac85-7550-4f88-74ad" hidden="false" type="profile" targetId="38bc-4e53-be82-6233"/>
                     <infoLink name="Jump Infantry" id="4594-942e-2c62-aea5" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ccb0-48e6-e001-a30b" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Iridium Armour (Special Issue)" hidden="false" id="0402-50f4-f739-8d66">
                   <costs>
@@ -3442,6 +3823,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   </infoLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d198-df3e-975d-289e" includeChildSelections="true" includeChildForces="true"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c4f0-90c9-99bf-9d3c" includeChildSelections="false"/>
                   </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Hard-wired Drone Controller" hidden="false" id="f884-cd23-abfa-8a0b">
@@ -3451,6 +3833,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   <infoLinks>
                     <infoLink name="Drone Controller" id="ea1d-d9a8-231b-1004" hidden="false" type="profile" targetId="6a48-ae3b-b476-9d71"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="41b5-0b85-7bfa-3f62" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Hard-wired Blacksun Filter" hidden="false" id="858d-4a50-5677-eaeb">
                   <costs>
@@ -3459,6 +3844,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   <infoLinks>
                     <infoLink name="Blacksun Filter" id="9d07-12b3-b875-750c" hidden="false" type="profile" targetId="f235-7880-f61b-f7d2"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e49-a6a5-c35f-5c4a" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Hard-wired Target Lock" hidden="false" id="d07b-286b-5c94-c5f5">
                   <costs>
@@ -3467,6 +3855,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   <infoLinks>
                     <infoLink name="Target Lock" id="b001-8a99-aed2-c561" hidden="false" type="profile" targetId="acc9-9396-2894-6426"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="768d-6c63-b5a6-93b2" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Hard-wired Multi-tracker" hidden="false" id="dda9-b083-e61d-5a81">
                   <costs>
@@ -3475,6 +3866,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   <infoLinks>
                     <infoLink name="Multi-tracker" id="9a77-6fa4-11f8-3dc3" hidden="false" type="profile" targetId="f2d8-73a2-483f-7625"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dbd7-4a66-b1c4-3f5e" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="model" import="true" name="Marker Drone" hidden="false" id="fea7-c692-d35f-1b8d">
                   <costs>
@@ -3484,6 +3878,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                     <infoLink name="Marker Drone" id="53a3-9fb5-ba02-7931" hidden="false" type="profile" targetId="06eb-39a9-634c-c821"/>
                     <infoLink name="Networked Markerlight" id="54d9-11dd-8562-2852" hidden="false" type="profile" targetId="ebf0-1674-f193-5618"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe97-8974-3af2-e3a8" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="model" import="true" name="Shield Drone" hidden="false" id="6c68-46a0-a85e-4b0d">
                   <costs>
@@ -3504,6 +3901,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                       </characteristics>
                     </profile>
                   </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf40-7cae-600d-7348" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Stimulant Injector (Special Issue)" hidden="false" id="2b8c-98f4-8611-1b00">
                   <costs>
@@ -3530,24 +3930,38 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="7518-b8e7-5aa0-40fd" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Shas&apos;ui" hidden="false" id="2421-8374-f92a-fc99">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Stealth Shas&apos;ui" id="ba18-bc03-7628-ac2f" hidden="false" type="profile" targetId="8460-4525-b1d4-57f6"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Shas&apos;vre" hidden="false" id="f6d1-1dce-8e8b-b9e3">
+            <selectionEntry type="model" import="true" name="Shas&apos;vre" hidden="false" id="f6d1-1dce-8e8b-b9e3">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
               </costs>
               <infoLinks>
                 <infoLink name="Stealth Shas&apos;vre" id="6c6c-a257-d65e-5deb" hidden="false" type="profile" targetId="35e7-28e1-6a27-b576"/>
+                <infoLink name="Burst Cannon" id="cc37-179c-142a-5ad7" hidden="false" type="profile" targetId="f287-d7e7-db30-4fb4"/>
               </infoLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d77d-54ca-d8fd-0110"/>
               </constraints>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Shas&apos;ui Gunner" hidden="false" id="8c68-aeb8-1497-5839">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Stealth Shas&apos;ui" id="b8e6-68c9-7d26-06d0" hidden="false" type="profile" targetId="8460-4525-b1d4-57f6"/>
+                <infoLink name="Fusion Blaster" id="528d-9ceb-c499-8248" hidden="false" type="profile" targetId="239f-9f31-4ce4-fe6a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8aa2-8643-cac9-0d54" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Shas&apos;ui" hidden="false" id="38d4-44ad-ef65-9253">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Stealth Shas&apos;ui" id="1164-2b80-5a81-e7fb" hidden="false" type="profile" targetId="8460-4525-b1d4-57f6"/>
+                <infoLink name="Burst Cannon" id="1d35-1c6e-c63e-1512" hidden="false" type="profile" targetId="f287-d7e7-db30-4fb4"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -3559,7 +3973,6 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
       <infoLinks>
         <infoLink name="Jump Infantry" id="828a-3435-6043-6fa5" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
         <infoLink name="Jump Pack" id="9d51-3779-d203-6c58" hidden="false" type="profile" targetId="9fdf-bc3e-5c20-fe0c"/>
-        <infoLink name="Burst Cannon" id="1d35-1c6e-c63e-1512" hidden="false" type="profile" targetId="f287-d7e7-db30-4fb4"/>
         <infoLink name="Stealth Field Generator" id="01f5-eb48-1c48-6f2a" hidden="false" type="profile" targetId="4140-e781-09d4-8186"/>
         <infoLink name="Infiltrate" id="d8de-58dc-19be-1aae" hidden="false" type="profile" targetId="db64-5b1f-d306-b354"/>
         <infoLink name="Acute Senses" id="5544-ae17-1da0-846a" hidden="false" type="profile" targetId="253f-bb05-f8fd-fffd"/>
@@ -3630,17 +4043,6 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae29-41e6-7513-1a04"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="One in three models may replace their burst cannon with a fushion blaster" hidden="false" id="31f0-b6ce-0fe9-90fd">
-          <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0d36-d6d5-9fb8-24c9"/>
-          </constraints>
-          <infoLinks>
-            <infoLink name="Fusion Blaster" id="528d-9ceb-c499-8248" hidden="false" type="profile" targetId="239f-9f31-4ce4-fe6a"/>
-          </infoLinks>
-        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="One Shas&apos;ui may be designated team leader and select items from the Battlesuit wargear list" hidden="false" id="9a32-0477-2559-5795">
           <selectionEntryGroups>
             <selectionEntryGroup name="Battlesuit Wargear" id="afe9-4b3f-b31c-e6dd" hidden="false">
@@ -3652,6 +4054,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   <infoLinks>
                     <infoLink name="Bonding Knife" id="af3d-7c4a-9050-bf98" hidden="false" type="profile" targetId="8917-b687-41df-907b"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="989b-43e7-0603-b86b" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Ejection System (Special Issue)" hidden="false" id="2831-53ad-5205-e871">
                   <costs>
@@ -3662,6 +4067,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   </infoLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cd6f-6854-68de-da05" includeChildSelections="true" includeChildForces="true"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e43f-a59d-9d51-8cec" includeChildSelections="false"/>
                   </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Failsafe Detonator (Special Issue)" hidden="false" id="db12-cbeb-96d4-0c29">
@@ -3673,6 +4079,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   </infoLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c7c0-f320-edef-5c55" includeChildSelections="true" includeChildForces="true"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="91b5-ae4c-c874-5807" includeChildSelections="false"/>
                   </constraints>
                 </selectionEntry>
                 <selectionEntry type="model" import="true" name="Gun Drone" hidden="false" id="1f87-aa48-b4c3-36bc">
@@ -3684,6 +4091,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                     <infoLink name="Twin-linked Pulse Carbine" id="33d9-bb33-066a-1d3b" hidden="false" type="profile" targetId="38bc-4e53-be82-6233"/>
                     <infoLink name="Jump Infantry" id="ac0a-cc92-7ae1-1ba6" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9f04-69b6-fbd2-8655" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Iridium Armour (Special Issue)" hidden="false" id="d3a7-699f-30ec-05ca">
                   <costs>
@@ -3694,6 +4104,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   </infoLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4fc6-6a15-0cad-ad73" includeChildSelections="true" includeChildForces="true"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d22f-8da8-40ee-1d56" includeChildSelections="false"/>
                   </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Hard-wired Drone Controller" hidden="false" id="e3ca-3513-641c-4a4d">
@@ -3703,6 +4114,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   <infoLinks>
                     <infoLink name="Drone Controller" id="8a73-718d-eeff-5826" hidden="false" type="profile" targetId="6a48-ae3b-b476-9d71"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a7ee-a988-df3b-ebd0" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Hard-wired Blacksun Filter" hidden="false" id="9287-613f-ad74-ef5f">
                   <costs>
@@ -3711,6 +4125,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   <infoLinks>
                     <infoLink name="Blacksun Filter" id="8e6f-fee7-5554-b81f" hidden="false" type="profile" targetId="f235-7880-f61b-f7d2"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3915-a08e-27b6-3b82" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Hard-wired Target Lock" hidden="false" id="d737-e4b9-5a30-e05e">
                   <costs>
@@ -3719,6 +4136,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   <infoLinks>
                     <infoLink name="Target Lock" id="5bec-e323-37aa-14e3" hidden="false" type="profile" targetId="acc9-9396-2894-6426"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c405-903f-6341-3813" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Hard-wired Multi-tracker" hidden="false" id="bc38-dcc7-e1cd-4820">
                   <costs>
@@ -3727,6 +4147,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   <infoLinks>
                     <infoLink name="Multi-tracker" id="a436-cf11-8474-6d15" hidden="false" type="profile" targetId="f2d8-73a2-483f-7625"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb87-63c0-e348-599f" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="model" import="true" name="Marker Drone" hidden="false" id="5bca-5ab6-790c-5699">
                   <costs>
@@ -3736,6 +4159,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                     <infoLink name="Marker Drone" id="9e44-a308-c129-6120" hidden="false" type="profile" targetId="06eb-39a9-634c-c821"/>
                     <infoLink name="Networked Markerlight" id="f820-9418-6ebb-ed6c" hidden="false" type="profile" targetId="ebf0-1674-f193-5618"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="11e0-3dac-cd3f-e9d4" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="model" import="true" name="Shield Drone" hidden="false" id="0216-cae2-0c9a-b09e">
                   <costs>
@@ -3756,6 +4182,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                       </characteristics>
                     </profile>
                   </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84c2-2c50-d7f0-84ce" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Stimulant Injector (Special Issue)" hidden="false" id="0ee2-14de-e2f3-9a46">
                   <costs>
@@ -3766,6 +4195,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   </infoLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="db3a-5960-478f-a207" includeChildSelections="true" includeChildForces="true"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d61b-d08e-0e5e-84f0" includeChildSelections="false"/>
                   </constraints>
                 </selectionEntry>
               </selectionEntries>
@@ -3791,11 +4221,11 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Kroot Carnivore Squad" hidden="false" id="d2bd-5811-8c85-6079">
+    <selectionEntry type="unit" import="true" name="Kroot Carnivore Squad" hidden="false" id="d2bd-5811-8c85-6079">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Squad" id="f137-87f3-db6a-d456" hidden="false" collective="true">
+        <selectionEntryGroup name="Squad" id="f137-87f3-db6a-d456" hidden="false" collective="false">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Kroot" hidden="false" id="d8de-9a62-10a5-e081" defaultAmount="10" collective="true">
+            <selectionEntry type="model" import="true" name="Kroot" hidden="false" id="d8de-9a62-10a5-e081" defaultAmount="10" collective="false">
               <infoLinks>
                 <infoLink name="Kroot" id="3b66-ab9b-52a0-9847" hidden="false" type="profile" targetId="8c94-aa63-3fe5-5e76"/>
                 <infoLink name="Kroot Rifle" id="fdc4-6ac0-03f9-5fec" hidden="false" type="profile" targetId="0b20-adf3-1c14-da78"/>
@@ -3808,7 +4238,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                 <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="eee8-368b-e652-bb76"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Kroot Hounds" hidden="false" id="a121-71ef-9ba7-34fb" defaultAmount="0" collective="true">
+            <selectionEntry type="model" import="true" name="Kroot Hounds" hidden="false" id="a121-71ef-9ba7-34fb" defaultAmount="0" collective="false">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
               </costs>
@@ -3819,7 +4249,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                 <infoLink name="Kroot Hound" id="f0a7-4a1b-92bb-b239" hidden="false" type="profile" targetId="42ac-848b-a767-1766"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Krootox Riders" hidden="false" id="6889-d3ad-2917-aa9f" defaultAmount="0" collective="true">
+            <selectionEntry type="model" import="true" name="Krootox Riders" hidden="false" id="6889-d3ad-2917-aa9f" defaultAmount="0" collective="false">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
               </costs>
@@ -3831,7 +4261,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                 <infoLink name="Kroot Gun" id="7fa2-455f-ae91-eae3" hidden="false" type="profile" targetId="1e3b-5b14-d27d-60d7"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Shaper" hidden="false" id="aff9-90c2-61e5-cd6d" defaultAmount="0" collective="true">
+            <selectionEntry type="model" import="true" name="Shaper" hidden="false" id="aff9-90c2-61e5-cd6d" defaultAmount="0" collective="false">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="28"/>
               </costs>
@@ -3846,6 +4276,16 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   <costs>
                     <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
                   </costs>
+                  <profiles>
+                    <profile name="Shaper Armour" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="ed6e-14c9-aca4-193e">
+                      <characteristics>
+                        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The entire unit has a 6+ Armour Save</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c16a-adbb-4d6d-4986" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
@@ -3855,6 +4295,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                       <infoLinks>
                         <infoLink name="Kroot Rifle" id="e100-6188-7e71-b2c6" hidden="false" type="profile" targetId="0b20-adf3-1c14-da78"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6e1-5102-7f2a-70f3" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Pulse Rifle" hidden="false" id="7938-c663-0831-5022">
                       <costs>
@@ -3863,6 +4306,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                       <infoLinks>
                         <infoLink name="Pulse Rifle" id="14e6-c42f-5487-287d" hidden="false" type="profile" targetId="bfa2-1a38-dfbd-3023"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="93e6-fdb9-390c-e926" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Pulse Carbine" hidden="false" id="9fc1-c92e-b1f9-1af7">
                       <costs>
@@ -3871,6 +4317,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                       <infoLinks>
                         <infoLink name="Pulse Carbine" id="0538-9e3c-9da1-1e51" hidden="false" type="profile" targetId="04ef-d8fa-968c-dbe1"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="88c6-0ba7-b94a-c75b" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -3900,7 +4349,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Gun Drone Squadron" hidden="false" id="21a4-c405-58c9-86d3">
+    <selectionEntry type="unit" import="true" name="Gun Drone Squadron" hidden="false" id="21a4-c405-58c9-86d3">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Gun Drone" hidden="false" id="0487-bff5-2137-6c31">
           <costs>
@@ -3922,24 +4371,42 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
         <infoLink name="Deep Strike" id="c843-9d41-9bbd-7908" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Pathfinder Team" hidden="false" id="767c-47d6-8c42-e4a9">
+    <selectionEntry type="unit" import="true" name="Pathfinder Team" hidden="false" id="767c-47d6-8c42-e4a9">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="0670-1956-276c-febf" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Shas&apos;la" hidden="false" id="d754-71fd-d81d-198e" collective="true">
+            <selectionEntry type="model" import="true" name="Shas&apos;la Marksman" hidden="false" id="d754-71fd-d81d-198e" collective="false">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="22"/>
               </costs>
               <infoLinks>
                 <infoLink name="Fire Warrior Shas&apos;la" id="cb45-4f73-a329-c50f" hidden="false" type="profile" targetId="ad8b-1917-d779-b85e"/>
-                <infoLink name="Pulse Carbine" id="d7e1-f0a4-34e5-2248" hidden="false" type="profile" targetId="04ef-d8fa-968c-dbe1"/>
-                <infoLink name="Markerlight" id="ccab-42b7-2cab-2900" hidden="false" type="profile" targetId="b97e-6810-4cc5-f2d9"/>
+                <infoLink name="Rail Rifle" id="f46f-5e8f-dcdd-5644" hidden="false" type="profile" targetId="738e-571c-c7fa-b9c4"/>
+                <infoLink name="Target Lock" id="4d95-75ae-1222-de30" hidden="false" type="profile" targetId="acc9-9396-2894-6426"/>
               </infoLinks>
               <constraints>
-                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="b1c7-9931-5215-1c2e"/>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="7611-f019-c8e9-f4f0" includeChildSelections="false"/>
               </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="EMP Grenades" hidden="false" id="00d3-54a9-13aa-5b5b">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="EMP Grenades" id="be11-0946-2b19-a102" hidden="false" type="profile" targetId="3d70-3805-5ae7-8c36"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Photon Grenades" hidden="false" id="b8c8-17cd-7f1b-7281">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Photon Grenades" id="00d3-39a1-8629-5716" hidden="false" type="profile" targetId="7ace-3a5d-d7a5-765a"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Shas&apos;ui" hidden="false" id="91e2-571e-3bc5-f386" collective="true">
+            <selectionEntry type="model" import="true" name="Shas&apos;ui" hidden="false" id="91e2-571e-3bc5-f386" collective="false">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="22"/>
               </costs>
@@ -3961,14 +4428,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                       <infoLinks>
                         <infoLink name="Bonding Knife" id="341d-b293-4492-2d9e" hidden="false" type="profile" targetId="8917-b687-41df-907b"/>
                       </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="EMP Grenades" hidden="false" id="cdc2-9aca-4e5e-b35d">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="EMP Grenades" id="6931-01d0-0bec-9e34" hidden="false" type="profile" targetId="3d70-3805-5ae7-8c36"/>
-                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="baaf-5062-0310-7c3c" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Hard-wired Blacksun filter" hidden="false" id="c2b4-8cb9-398e-2037">
                       <costs>
@@ -3977,11 +4439,17 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                       <infoLinks>
                         <infoLink name="Blacksun Filter" id="da46-d0f7-e8cb-af27" hidden="false" type="profile" targetId="f235-7880-f61b-f7d2"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc58-d1d5-f16c-c705" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Hard-wired Drone Controller" hidden="false" id="349b-63ec-aaeb-c4f7">
                       <infoLinks>
                         <infoLink name="Drone Controller" id="b44f-7669-9c2b-afb2" hidden="false" type="profile" targetId="6a48-ae3b-b476-9d71"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d1f-38a8-5e71-d7f4" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Hard-wired Multi-tracker" hidden="false" id="1c1e-a575-12e3-41a3">
                       <costs>
@@ -3990,6 +4458,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                       <infoLinks>
                         <infoLink name="Multi-tracker" id="5d4f-fa1d-9c20-e62c" hidden="false" type="profile" targetId="f2d8-73a2-483f-7625"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2165-1c84-e9fb-0f2b" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Hard-wired Target Lock" hidden="false" id="1cad-d610-5d01-503a">
                       <costs>
@@ -3998,6 +4469,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                       <infoLinks>
                         <infoLink name="Target Lock" id="07bb-9fb2-8147-96e0" hidden="false" type="profile" targetId="acc9-9396-2894-6426"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="964b-016c-4136-7e96" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="model" import="true" name="Marker Drone" hidden="false" id="4538-ef4b-0e19-2c61">
                       <costs>
@@ -4007,6 +4481,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                         <infoLink name="Marker Drone" id="b30d-34f2-197f-1e88" hidden="false" type="profile" targetId="06eb-39a9-634c-c821"/>
                         <infoLink name="Networked Markerlight" id="740c-e820-2414-820b" hidden="false" type="profile" targetId="ebf0-1674-f193-5618"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1019-750e-1215-2a09" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="model" import="true" name="Gun Drone" hidden="false" id="20c6-3af9-8293-6a84">
                       <costs>
@@ -4017,6 +4494,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                         <infoLink name="Twin-linked Pulse Carbine" id="a4dd-ccf7-d53d-468a" hidden="false" type="profile" targetId="38bc-4e53-be82-6233"/>
                         <infoLink name="Jump Infantry" id="eff2-afe9-2a33-b449" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a998-edd7-6407-831a" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="model" import="true" name="Shield Drone" hidden="false" id="77d9-b297-9b30-d078">
                       <costs>
@@ -4037,10 +4517,59 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                           </characteristics>
                         </profile>
                       </profiles>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a14-1492-50e3-96ff" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="EMP Grenades" hidden="false" id="07b3-ae57-b687-2457">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="EMP Grenades" id="173b-5617-e34a-41f6" hidden="false" type="profile" targetId="3d70-3805-5ae7-8c36"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Photon Grenades" hidden="false" id="6bec-ec50-d816-4ba2">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Photon Grenades" id="7782-cbc0-d365-b324" hidden="false" type="profile" targetId="7ace-3a5d-d7a5-765a"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Shas&apos;la" hidden="false" id="50c3-beb4-4f4f-0b5f" collective="false">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Fire Warrior Shas&apos;la" id="a0ca-96f6-4769-495e" hidden="false" type="profile" targetId="ad8b-1917-d779-b85e"/>
+                <infoLink name="Pulse Carbine" id="8fd8-ee17-8e14-a62e" hidden="false" type="profile" targetId="04ef-d8fa-968c-dbe1"/>
+                <infoLink name="Markerlight" id="9305-153a-6534-af00" hidden="false" type="profile" targetId="b97e-6810-4cc5-f2d9"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="EMP Grenades" hidden="false" id="8c61-e936-ac9a-0a5c">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="EMP Grenades" id="4bb3-5085-d91a-d0bd" hidden="false" type="profile" targetId="3d70-3805-5ae7-8c36"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Photon Grenades" hidden="false" id="20ff-8851-b8b9-a4b0">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Photon Grenades" id="6fba-7a69-2e93-51a4" hidden="false" type="profile" targetId="7ace-3a5d-d7a5-765a"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -4048,41 +4577,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
             <constraint type="max" value="8" field="selections" scope="self" shared="true" id="70b3-f40a-c858-c435"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="The team may carry photon grenades and EMP grenades (if equipped, every model must have one)" id="8b5e-4140-9851-7e35" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Photon Grenades" hidden="false" id="2410-ea3f-cc89-f537">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Photon Grenades" id="0f52-6b18-d6ee-b2b2" hidden="false" type="profile" targetId="7ace-3a5d-d7a5-765a"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="EMP Grenades" hidden="false" id="146a-47b9-d97d-1e2b">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="EMP Grenades" id="e13d-4df2-cd58-eb83" hidden="false" type="profile" targetId="3d70-3805-5ae7-8c36"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Up to three pathfinders (but not the team leader or Shas&apos;ui) may replace their pulse carbine and markerlight with a rail rifle and target lock." hidden="false" id="9905-1262-c648-7839">
-          <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Rail Rifle" id="f46f-5e8f-dcdd-5644" hidden="false" type="profile" targetId="738e-571c-c7fa-b9c4"/>
-            <infoLink name="Target Lock" id="4d95-75ae-1222-de30" hidden="false" type="profile" targetId="acc9-9396-2894-6426"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="4506-1cae-a437-b463"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Devilfish Troop Carrier" hidden="false" id="571b-cca8-9991-62e7" type="selectionEntry" targetId="3978-d4f8-0bb2-1213">
           <constraints>
@@ -4123,6 +4618,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   <infoLinks>
                     <infoLink name="Burst Cannon" id="e017-2915-8597-3acf" hidden="false" type="profile" targetId="f287-d7e7-db30-4fb4"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a99-ee72-dcb1-31c2" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Fushion Blaster" hidden="false" id="3f4a-9a33-df24-c219">
                   <costs>
@@ -4131,6 +4629,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   <infoLinks>
                     <infoLink name="Fusion Blaster" id="c3f1-26a7-c091-5461" hidden="false" type="profile" targetId="239f-9f31-4ce4-fe6a"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8953-846f-aee4-93ab" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -4147,6 +4648,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   <infoLinks>
                     <infoLink name="Sensor Spines" id="cae1-edfc-09d8-57ea" hidden="false" type="profile" targetId="b56a-b649-de8c-8eac"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="53a5-8878-da93-aa06" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Targeting Array" hidden="false" id="f856-e004-3216-3827">
                   <costs>
@@ -4155,6 +4659,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   <infoLinks>
                     <infoLink name="Targeting Array" id="53cf-fdfd-f6fd-7220" hidden="false" type="profile" targetId="3c84-bbba-a8c2-fdc0"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee90-c7c8-111f-3497" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Blacksun Filter" hidden="false" id="c9f3-e9e9-af10-89c9">
                   <costs>
@@ -4163,6 +4670,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   <infoLinks>
                     <infoLink name="Blacksun Filter" id="1ea5-9042-88bd-db54" hidden="false" type="profile" targetId="f235-7880-f61b-f7d2"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1637-1715-2127-ce29" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Target Lock" hidden="false" id="481c-96de-2df5-7261">
                   <costs>
@@ -4171,6 +4681,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   <infoLinks>
                     <infoLink name="Vehicle-mounted Target Lock" id="302c-020a-ae02-ef06" hidden="false" type="profile" targetId="58a3-e56f-4a63-2553"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f228-172f-1ab0-c008" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Flechette Discharger" hidden="false" id="0626-1b2a-ced5-81e9">
                   <costs>
@@ -4179,6 +4692,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   <infoLinks>
                     <infoLink name="Flechette Discharger" id="0cab-9e21-89fc-4bf4" hidden="false" type="profile" targetId="5980-b148-b086-932e"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e91-0075-8784-faab" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Disruption Pod" hidden="false" id="6c47-cb53-963c-2776">
                   <costs>
@@ -4187,6 +4703,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   <infoLinks>
                     <infoLink name="Disruption pod" id="3856-e10e-b10b-1cf4" hidden="false" type="profile" targetId="4a46-c486-93e8-22cd"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1882-a6c6-0650-8bb6" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Decoy Launchers" hidden="false" id="dd05-30d8-96d4-4a1d">
                   <costs>
@@ -4195,6 +4714,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   <infoLinks>
                     <infoLink name="Decoy launchers" id="6ebf-bc0d-eae5-d3a7" hidden="false" type="profile" targetId="b563-0d07-491d-9e02"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7119-c1df-0766-2579" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Seeker Missile (Maximum 2 per Vehicle)" hidden="false" id="455b-24b7-03fe-670d">
                   <costs>
@@ -4203,6 +4725,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   <infoLinks>
                     <infoLink name="Seeker Missile" id="3c91-08ee-671b-6ab5" hidden="false" type="profile" targetId="3f3a-1c2a-5f36-7a6f"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c209-d261-61ec-3daf" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -4229,11 +4754,11 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
         <infoLink name="Jump Pack" id="bf2a-1d7a-544e-6ee7" hidden="false" type="profile" targetId="9fdf-bc3e-5c20-fe0c"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Vespid Stingwings" hidden="false" id="d42f-d1f2-6dee-1082">
+    <selectionEntry type="unit" import="true" name="Vespid Stingwings" hidden="false" id="d42f-d1f2-6dee-1082">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="d8d9-a5c1-7d31-2f29" hidden="false">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Stingwing" hidden="false" id="1790-3407-4cea-283c" collective="true">
+            <selectionEntry type="model" import="true" name="Stingwing" hidden="false" id="1790-3407-4cea-283c" collective="false">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="16"/>
               </costs>
@@ -4246,7 +4771,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                 <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="6b14-11c9-3a53-ff55"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Strain Leader" hidden="false" id="52e5-a76f-8419-8941" collective="true">
+            <selectionEntry type="model" import="true" name="Strain Leader" hidden="false" id="52e5-a76f-8419-8941" collective="false">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="22"/>
               </costs>
@@ -4274,11 +4799,11 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="XV88 Broadside Battlesuit Team" hidden="false" id="b1f3-6fd3-a351-cc37">
+    <selectionEntry type="unit" import="true" name="XV88 Broadside Battlesuit Team" hidden="false" id="b1f3-6fd3-a351-cc37">
       <selectionEntryGroups>
         <selectionEntryGroup name="Team" id="82d5-6f13-7a29-585b" hidden="false" defaultSelectionEntryId="fcfd-9d42-51b2-11d2">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Shas&apos;ui" hidden="false" id="fcfd-9d42-51b2-11d2" defaultAmount="1" collective="true">
+            <selectionEntry type="model" import="true" name="Shas&apos;ui" hidden="false" id="fcfd-9d42-51b2-11d2" defaultAmount="1" collective="false">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="70"/>
               </costs>
@@ -4290,12 +4815,15 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                 <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="e580-c4f4-47b9-4a32"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Loadout" id="fb60-f414-feb3-6250" hidden="false" defaultSelectionEntryId="77a2-4856-cdaa-437a" collective="true">
+                <selectionEntryGroup name="Loadout" id="fb60-f414-feb3-6250" hidden="false" defaultSelectionEntryId="77a2-4856-cdaa-437a" collective="false">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Smart Missile System" hidden="false" id="77a2-4856-cdaa-437a">
                       <infoLinks>
                         <infoLink name="Smart Missile System" id="58fa-5564-9d50-ab30" hidden="false" type="profile" targetId="ba60-ad67-c9a7-ef0a"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5614-41a0-ff48-336f" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Twin-linked Plasma Rifle" hidden="false" id="74a5-3fd9-80fc-aa82">
                       <costs>
@@ -4304,6 +4832,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                       <infoLinks>
                         <infoLink name="Plasma Rifle" id="4dee-81b9-18d1-ef18" hidden="false" type="profile" targetId="92fe-29f5-2729-f7d0"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5401-2860-40c7-b7cc" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -4313,7 +4844,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Shas&apos;vre" hidden="false" id="af94-fe2d-4681-afef" collective="true">
+            <selectionEntry type="model" import="true" name="Shas&apos;vre" hidden="false" id="af94-fe2d-4681-afef" collective="false">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="80"/>
               </costs>
@@ -4325,12 +4856,15 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5aa9-4783-8ed2-a4e1"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Loadout" id="7af6-0d11-ec25-71bd" hidden="false" defaultSelectionEntryId="77a2-4856-cdaa-437a" collective="true">
+                <selectionEntryGroup name="Loadout" id="7af6-0d11-ec25-71bd" hidden="false" defaultSelectionEntryId="77a2-4856-cdaa-437a" collective="false">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Smart Missile System" hidden="false" id="c506-2eef-6c31-f10f">
                       <infoLinks>
                         <infoLink name="Smart Missile System" id="5153-13af-95be-6475" hidden="false" type="profile" targetId="ba60-ad67-c9a7-ef0a"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d69e-426b-3f68-6591" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Twin-linked Plasma Rifle" hidden="false" id="9684-8367-008f-b0e5">
                       <costs>
@@ -4339,6 +4873,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                       <infoLinks>
                         <infoLink name="Plasma Rifle" id="7a12-c235-3085-6d54" hidden="false" type="profile" targetId="92fe-29f5-2729-f7d0"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f76c-15ea-dc9b-c6c2" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -4355,6 +4892,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                       <infoLinks>
                         <infoLink name="Bonding Knife" id="e750-9372-2d66-bd51" hidden="false" type="profile" targetId="8917-b687-41df-907b"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84b2-b533-1406-64c3" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Hard-wired Drone Controller" hidden="false" id="c480-9d86-6534-95f5">
                       <costs>
@@ -4363,6 +4903,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                       <infoLinks>
                         <infoLink name="Drone Controller" id="fcae-f886-7126-0bca" hidden="false" type="profile" targetId="6a48-ae3b-b476-9d71"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="01b8-87b6-4a1b-b807" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Hard-wired Blacksun Filter" hidden="false" id="5fdf-27dc-135b-32d9">
                       <costs>
@@ -4371,6 +4914,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                       <infoLinks>
                         <infoLink name="Blacksun Filter" id="ad18-9a43-4f20-6a1e" hidden="false" type="profile" targetId="f235-7880-f61b-f7d2"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f95-b1ac-3495-8ac2" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Hard-wired Target Lock" hidden="false" id="a3b4-48e7-adde-ddfb">
                       <costs>
@@ -4379,6 +4925,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                       <infoLinks>
                         <infoLink name="Target Lock" id="1cb9-d048-ec0b-7166" hidden="false" type="profile" targetId="acc9-9396-2894-6426"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ce0-92c7-8b7e-9b31" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Hard-wired Multi-tracker" hidden="false" id="1973-dfca-5811-e805">
                       <costs>
@@ -4387,6 +4936,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                       <infoLinks>
                         <infoLink name="Multi-tracker" id="78f0-0cb6-0b3e-a768" hidden="false" type="profile" targetId="f2d8-73a2-483f-7625"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a0b2-b2e1-bb5a-5225" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="model" import="true" name="Marker Drone" hidden="false" id="a188-0319-6fc6-1557">
                       <costs>
@@ -4396,6 +4948,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                         <infoLink name="Marker Drone" id="d785-32c1-699a-0c08" hidden="false" type="profile" targetId="06eb-39a9-634c-c821"/>
                         <infoLink name="Networked Markerlight" id="5d12-0d1d-2c7c-7dbb" hidden="false" type="profile" targetId="ebf0-1674-f193-5618"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a3ce-49cf-1690-b2dd" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="model" import="true" name="Shield Drone" hidden="false" id="6b8c-33b7-0cbe-4ce0">
                       <costs>
@@ -4416,10 +4971,17 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                           </characteristics>
                         </profile>
                       </profiles>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e801-3551-0473-423e" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
-                    <entryLink import="true" name="Gun Drone" hidden="false" id="734a-cf3d-9ffa-88be" targetId="96a3-15dd-b58e-fd63" type="selectionEntry"/>
+                    <entryLink import="true" name="Gun Drone" hidden="false" id="734a-cf3d-9ffa-88be" targetId="96a3-15dd-b58e-fd63" type="selectionEntry">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="57ef-282e-304e-406d" includeChildSelections="false"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -4435,7 +4997,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
         <infoLink name="Acute Senses" id="7ae4-032d-546f-a5ed" hidden="false" type="profile" targetId="253f-bb05-f8fd-fffd"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Sniper Drone Teams" hidden="false" id="0395-9a14-610f-3ba1">
+    <selectionEntry type="unit" import="true" name="Sniper Drone Teams" hidden="false" id="0395-9a14-610f-3ba1">
       <selectionEntryGroups>
         <selectionEntryGroup name="Up to three teams can be taken as a single Heavy Support Choice" id="0391-f14f-eda2-e472" hidden="false">
           <selectionEntries>
@@ -4511,7 +5073,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Hammerhead Gunship" hidden="false" id="21e1-8599-9e5e-5189">
+    <selectionEntry type="unit" import="true" name="Hammerhead Gunship" hidden="false" id="21e1-8599-9e5e-5189">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="90"/>
       </costs>
@@ -4532,6 +5094,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
               <infoLinks>
                 <infoLink name="Ion Cannon" id="b15e-77ee-19bc-e68a" hidden="false" type="profile" targetId="ff89-d19b-9322-0a8a"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2692-abcd-6d3b-9c69" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Railgun" hidden="false" id="5f98-f6d8-594e-344f">
               <costs>
@@ -4541,6 +5106,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                 <infoLink name="Railgun (Solid Shot)" id="6fb4-c0e9-b347-0d6a" hidden="false" type="profile" targetId="082b-7c71-bb05-2c50"/>
                 <infoLink name="Railgun (Submunition)" id="c8d7-a45d-9eec-1119" hidden="false" type="profile" targetId="8ac7-7547-f834-4bd5"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c735-66a5-c300-4da5" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -4550,7 +5118,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
         </selectionEntryGroup>
         <selectionEntryGroup name="Secondary Weapon System" id="963e-7ec6-a032-9877" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Two Burst Cannons" hidden="false" id="df8f-922b-3a35-7e16" collective="true">
+            <selectionEntry type="upgrade" import="true" name="Two Burst Cannons" hidden="false" id="df8f-922b-3a35-7e16" collective="false">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
@@ -4558,6 +5126,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                 <infoLink name="Burst Cannon" id="54e5-f97c-851b-f50a" hidden="false" type="profile" targetId="f287-d7e7-db30-4fb4"/>
                 <infoLink name="Burst Cannon" id="7c7e-90d4-e056-c5aa" hidden="false" type="profile" targetId="f287-d7e7-db30-4fb4"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d6bd-c265-0cb0-37bf" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Two Gun Drones" hidden="false" id="63cb-1fa0-3bd7-68bd">
               <costs>
@@ -4675,7 +5246,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Skyray Missile Gunship" hidden="false" id="be2c-d2c2-7510-55d4" collective="true">
+    <selectionEntry type="unit" import="true" name="Skyray Missile Gunship" hidden="false" id="be2c-d2c2-7510-55d4" collective="false">
       <infoLinks>
         <infoLink name="Sky Ray Missile Defense Gunship" id="7a0a-2238-cda6-c6dd" hidden="false" type="profile" targetId="7907-06b3-0927-fced"/>
         <infoLink name="Landing Gear" id="cdd5-9600-5ab4-6b35" hidden="false" type="profile" targetId="8c9b-75cc-c314-355b"/>
@@ -4690,9 +5261,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
         <infoLink name="Vehicle-mounted Target Lock" id="2d2e-12de-1010-f6f6" hidden="false" type="profile" targetId="58a3-e56f-4a63-2553"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Secondary Weapon System" id="4a69-010c-168e-56c1" hidden="false">
+        <selectionEntryGroup name="Secondary Weapon System" id="4a69-010c-168e-56c1" hidden="false" defaultSelectionEntryId="cbed-6c5a-d2ed-6a1e">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Two Burst Cannons" hidden="false" id="cbed-6c5a-d2ed-6a1e" collective="true">
+            <selectionEntry type="upgrade" import="true" name="Two Burst Cannons" hidden="false" id="cbed-6c5a-d2ed-6a1e" collective="false">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
@@ -4700,6 +5271,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                 <infoLink name="Burst Cannon" id="dde5-52ec-a1ff-8bde" hidden="false" type="profile" targetId="f287-d7e7-db30-4fb4"/>
                 <infoLink name="Burst Cannon" id="1228-7d4b-0c4d-a169" hidden="false" type="profile" targetId="f287-d7e7-db30-4fb4"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="506c-428d-a6f1-8f0e" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Two Gun Drones" hidden="false" id="0199-d307-f2e8-cfef">
               <costs>
@@ -4710,11 +5284,14 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                   <costs>
                     <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
                   </costs>
+                  <constraints>
+                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="63f5-6634-f3c5-a39e-min"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="63f5-6634-f3c5-a39e-max"/>
+                  </constraints>
                 </entryLink>
               </entryLinks>
               <constraints>
-                <constraint type="min" value="2" field="selections" scope="self" shared="true" id="fb70-a38b-2d52-b0ae-min"/>
-                <constraint type="max" value="2" field="selections" scope="self" shared="true" id="fb70-a38b-2d52-b0ae-max"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1240-74eb-a172-1305" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Smart Missile System" hidden="false" id="5485-8063-1680-c9f4">
@@ -4724,6 +5301,9 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
               </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="898e-317b-686e-277b" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -4817,7 +5397,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="125"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Aun&apos;Va and Honour Guard" hidden="false" id="84fc-0a0c-b091-e728">
+    <selectionEntry type="unit" import="true" name="Aun&apos;Va and Honour Guard" hidden="false" id="84fc-0a0c-b091-e728">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Honour Guard" hidden="false" id="c4c6-aa94-3f7a-40e4">
           <profiles>
@@ -5283,7 +5863,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="O&apos;Shaserra - Commander Shadowsun" hidden="false" id="1048-8fbd-2e6b-49da">
+    <selectionEntry type="unit" import="true" name="O&apos;Shaserra - Commander Shadowsun" hidden="false" id="1048-8fbd-2e6b-49da">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="175"/>
       </costs>

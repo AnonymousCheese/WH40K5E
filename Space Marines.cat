@@ -1958,7 +1958,7 @@ If you decide to split the unit into combat squads, then each combat squad is tr
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Tactical Squad" hidden="false" id="0180-a652-58ea-adec">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Squad" id="e6c9-7aa7-ec21-5deb" hidden="false" collective="true">
+        <selectionEntryGroup name="Squad" id="e6c9-7aa7-ec21-5deb" hidden="false" collective="false">
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Space Marine" hidden="false" id="cc96-1e09-5719-52ef" collective="false" defaultAmount="4">
               <profiles>
@@ -2819,7 +2819,7 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="f71c-b243-c7b0-b487" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Terminator" hidden="false" id="54ac-55d7-e121-1211" collective="false" defaultAmount="4">
+            <selectionEntry type="model" import="true" name="Terminator" hidden="false" id="54ac-55d7-e121-1211" collective="false" defaultAmount="4">
               <selectionEntryGroups>
                 <selectionEntryGroup name="Melee Weapon" id="cb2e-2e8f-9ef6-521e" hidden="false" defaultSelectionEntryId="8894-e1a6-4085-7464">
                   <selectionEntries>
@@ -2857,7 +2857,7 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
                 <infoLink name="Storm Bolter" id="c4f2-cdeb-a085-8dac" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Terminator Sergeant" hidden="false" id="a73e-4c76-cca3-0674" defaultAmount="1">
+            <selectionEntry type="model" import="true" name="Terminator Sergeant" hidden="false" id="a73e-4c76-cca3-0674" defaultAmount="1">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4cc6-4e60-3cd2-f3d9-min"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4cc6-4e60-3cd2-f3d9-max"/>
@@ -2898,7 +2898,7 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
                 <infoLink targetId="984f-d67e-15c0-d3a4" id="0494-c138-8361-98b4" type="profile" name="Terminator Sergeant" hidden="false"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Terminator Gunner (one for every five models)" hidden="false" id="59e2-3aec-3120-5254">
+            <selectionEntry type="model" import="true" name="Terminator Gunner (one for every five models)" hidden="false" id="59e2-3aec-3120-5254">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
               </costs>
@@ -3338,7 +3338,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="0b3a-a845-7e8f-304e" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Terminator" hidden="false" id="849e-4bc6-0979-4ff5" collective="false" defaultAmount="4">
+            <selectionEntry type="model" import="true" name="Terminator" hidden="false" id="849e-4bc6-0979-4ff5" collective="false" defaultAmount="4">
               <profiles>
                 <profile name="Terminator" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="afd6-6497-b02e-88bd">
                   <characteristics>
@@ -3385,7 +3385,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Terminator Sergeant" hidden="false" id="b25c-832b-1caf-e607" collective="false" defaultAmount="1">
+            <selectionEntry type="model" import="true" name="Terminator Sergeant" hidden="false" id="b25c-832b-1caf-e607" collective="false" defaultAmount="1">
               <profiles>
                 <profile name="Terminator Sergeant" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="bdd6-3301-cd82-3bf2">
                   <characteristics>
@@ -4593,7 +4593,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Legion of the Damned Squad" hidden="false" id="0009-80b1-a7b1-c24e">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Squad" id="8215-1f2c-00f7-d37c" hidden="false" collective="true">
+        <selectionEntryGroup name="Squad" id="8215-1f2c-00f7-d37c" hidden="false" collective="false">
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Damned Sergeant" hidden="false" id="1788-385a-76d1-331d" collective="false" defaultAmount="1">
               <constraints>
@@ -4849,9 +4849,9 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Jump Assault Squad" hidden="false" id="ba0c-0526-ca37-abb1">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Squad" id="faac-1933-7889-252c" hidden="false" collective="true">
+        <selectionEntryGroup name="Squad" id="faac-1933-7889-252c" hidden="false" collective="false">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Space Marine" hidden="false" id="cfe9-3b5f-7c61-0af8" collective="true" defaultAmount="4">
+            <selectionEntry type="model" import="true" name="Space Marine" hidden="false" id="cfe9-3b5f-7c61-0af8" collective="false" defaultAmount="4">
               <profiles>
                 <profile name="Space Marine" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="be9e-ac68-d5b5-2629">
                   <characteristics>
@@ -4871,7 +4871,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="18"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Space Marine Sergeant" hidden="false" id="3d23-1065-a921-48e4" collective="true" defaultAmount="1">
+            <selectionEntry type="model" import="true" name="Space Marine Sergeant" hidden="false" id="3d23-1065-a921-48e4" collective="false" defaultAmount="1">
               <profiles>
                 <profile name="Space Marine Sergeant" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="f9c4-a885-5967-4efc">
                   <characteristics>
@@ -5053,7 +5053,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Vanguard Veteran Squad" hidden="false" id="8360-5418-fe70-0259">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Squad" id="de3c-7874-9425-4c6b" hidden="false" collective="true">
+        <selectionEntryGroup name="Squad" id="de3c-7874-9425-4c6b" hidden="false" collective="false">
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Veteran" hidden="false" id="3c61-b579-f396-b495" collective="false" defaultAmount="4">
               <profiles>
@@ -5380,7 +5380,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="5d0c-7cea-f0f0-9318" hidden="false">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Biker Sergeant" hidden="false" id="bee2-3631-b308-fa43" collective="true">
+            <selectionEntry type="model" import="true" name="Biker Sergeant" hidden="false" id="bee2-3631-b308-fa43" collective="false">
               <profiles>
                 <profile name="Space marine Biker" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="0fd8-fca9-360d-f4c6">
                   <characteristics>
@@ -5472,7 +5472,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                 <infoLink name="Twin-linked Bolter" id="38a5-3ac4-004e-fe29" hidden="false" type="profile" targetId="3250-0314-9ec7-9777"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Attack Bike" hidden="false" id="0ab7-924a-d2ba-14cb" collective="true">
+            <selectionEntry type="model" import="true" name="Attack Bike" hidden="false" id="0ab7-924a-d2ba-14cb" collective="false">
               <profiles>
                 <profile name="Space marine Biker" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="063e-4a15-6fee-5ab6">
                   <characteristics>
@@ -5528,7 +5528,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
           <selectionEntryGroups>
             <selectionEntryGroup name="Bikers" id="ff0c-e4b4-1336-c365" hidden="false">
               <selectionEntries>
-                <selectionEntry type="model" import="true" name="Space Marine Biker" hidden="false" id="e4d1-755b-aa0e-4973" collective="true">
+                <selectionEntry type="model" import="true" name="Space Marine Biker" hidden="false" id="e4d1-755b-aa0e-4973" collective="false">
                   <costs>
                     <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
                   </costs>
@@ -5538,7 +5538,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                     <infoLink name="Twin-linked Bolter" id="f68d-99f0-4514-0fc1" hidden="false" type="profile" targetId="3250-0314-9ec7-9777"/>
                   </infoLinks>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Biker Gunner" hidden="false" id="ac1c-1c9c-5abc-0123">
+                <selectionEntry type="model" import="true" name="Biker Gunner" hidden="false" id="ac1c-1c9c-5abc-0123">
                   <costs>
                     <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
                   </costs>
@@ -6301,7 +6301,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
         <infoLink name="Tank" id="8354-eb71-4624-b2ea" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Whirlwind" hidden="false" id="b31b-afe0-7c98-d3e1">
+    <selectionEntry type="unit" import="true" name="Whirlwind" hidden="false" id="b31b-afe0-7c98-d3e1">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="85"/>
       </costs>
@@ -6389,7 +6389,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Vindicator" hidden="false" id="5dd4-383b-f834-e831">
+    <selectionEntry type="unit" import="true" name="Vindicator" hidden="false" id="5dd4-383b-f834-e831">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="115"/>
       </costs>
@@ -6863,7 +6863,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
         <infoLink name="Eternal Warrior" id="69c9-4879-74f4-5573" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Shadow Captain Kayvaan Shrike" hidden="false" id="b3b0-cc67-4de7-37d2">
+    <selectionEntry type="unit" import="true" name="Shadow Captain Kayvaan Shrike" hidden="false" id="b3b0-cc67-4de7-37d2">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="195"/>
       </costs>
@@ -6975,7 +6975,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
         <infoLink name="Independent Character" id="906d-dac4-75e3-5538" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Kor&apos;sarro Khan" hidden="false" id="9e9b-a462-26a9-8fca">
+    <selectionEntry type="unit" import="true" name="Kor&apos;sarro Khan" hidden="false" id="9e9b-a462-26a9-8fca">
       <profiles>
         <profile name="Kor&apos;sarro Khan" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="a49b-f02e-6873-1a09">
           <characteristics>
@@ -7038,7 +7038,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="160"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Sergeant Telion" hidden="false" id="4af8-8ae3-f7c9-4550">
+    <selectionEntry type="model" import="true" name="Sergeant Telion" hidden="false" id="4af8-8ae3-f7c9-4550">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
       </costs>
@@ -7082,7 +7082,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
         <infoLink name="Stealth" id="b34f-fc6f-212e-5046" hidden="false" type="profile" targetId="8dc7-2ec3-1248-9d84"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Brother-Sergeant Chronus" hidden="false" id="3267-00fa-12ba-327e">
+    <selectionEntry type="model" import="true" name="Brother-Sergeant Chronus" hidden="false" id="3267-00fa-12ba-327e">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="70"/>
       </costs>
@@ -7794,7 +7794,7 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
           <selectionEntryGroups>
             <selectionEntryGroup name="Squad" id="ceda-ef84-1859-348c" hidden="false">
               <selectionEntries>
-                <selectionEntry type="model" import="true" name="Veteran" hidden="false" id="64e7-0a2a-b9ce-5f4d" collective="true" defaultAmount="4">
+                <selectionEntry type="model" import="true" name="Veteran" hidden="false" id="64e7-0a2a-b9ce-5f4d" collective="false" defaultAmount="4">
                   <profiles>
                     <profile name="Veteran" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="715b-95f0-63c9-8d2d">
                       <characteristics>
@@ -8004,7 +8004,7 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntry>
-                <selectionEntry type="model" import="true" name="Company Champion" hidden="false" id="9790-5375-f810-15b1" collective="true" defaultAmount="0">
+                <selectionEntry type="model" import="true" name="Company Champion" hidden="false" id="9790-5375-f810-15b1" collective="false" defaultAmount="0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6caa-8c3d-b28e-7473"/>
                   </constraints>
@@ -8035,7 +8035,7 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
                     <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Apothecary" hidden="false" id="2ccb-5938-2ed1-5a02" defaultAmount="1">
+                <selectionEntry type="model" import="true" name="Apothecary" hidden="false" id="2ccb-5938-2ed1-5a02" defaultAmount="1">
                   <profiles>
                     <profile name="Apothecary" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="cb88-7fc9-c5f3-9d23">
                       <characteristics>

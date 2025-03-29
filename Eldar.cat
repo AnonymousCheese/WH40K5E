@@ -885,7 +885,7 @@
     </profile>
     <profile name="Mirrorswords" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="a87f-9c82-c302-1a26">
       <characteristics>
-        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A model with mirrorswords counts as having an extra hand weapon that grants +2 A instead of the usual +1 A. Mirrorswords ignore armour saves.</characteristic>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A model with mirrorswords counts as having an extra hand weapon that grants +2 A instead of the usual +1 A. Mirrorswords ignore armour saves. Uses both hands</characteristic>
       </characteristics>
     </profile>
     <profile name="Scorpion&apos;s Claw" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="e895-bcf0-d9d5-6c2e">
@@ -1099,6 +1099,9 @@
               <infoLinks>
                 <infoLink name="Jump Infantry" id="2e6b-4c38-b7d3-0e92" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a9cc-f417-5bd5-154a" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Warp Jump Generator" hidden="false" id="27d6-a5ac-cdc8-662a">
               <costs>
@@ -1108,6 +1111,9 @@
                 <infoLink targetId="0ce7-0a3b-08e1-a0d6" id="d07c-5b60-fd65-29bc" type="profile" name="Warp Jump Generator" hidden="false"/>
                 <infoLink name="Jump Infantry" id="49bc-5c53-abe2-3f7a" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="478a-18c4-38d0-bfa9" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Eldar Jetbike" hidden="false" id="14ea-243f-9426-056a">
               <costs>
@@ -1116,6 +1122,9 @@
               <infoLinks>
                 <infoLink name="Jetbike" id="5044-f816-828d-b3b7" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="21fd-76c8-a022-be4d" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1131,6 +1140,9 @@
               <infoLinks>
                 <infoLink targetId="e08f-bb4c-89f8-496a" id="d142-d30f-403d-9f6b" type="profile" name="Banshee mask" hidden="false"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="148b-82b3-c40a-4296" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Mandiblasters" hidden="false" id="6c40-f249-1d25-5ad9">
               <costs>
@@ -1139,6 +1151,9 @@
               <infoLinks>
                 <infoLink targetId="1219-1c68-6a82-b394" id="9f90-76ef-2367-8300" type="profile" name="Mandiblasters" hidden="false"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2cfb-675e-2dcc-5520" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1154,6 +1169,9 @@
               <infoLinks>
                 <infoLink name="Power Weapon" id="4b45-b2a1-4a8b-b8ce" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84cc-2050-6d3a-d888" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Scorpion Chainsword" hidden="false" id="4b5b-86ac-7d80-3c0b">
               <costs>
@@ -1166,6 +1184,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3efb-85bb-71a6-ccd5" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Laser Lance (only on jetbike)" hidden="false" id="fe23-075b-de6c-b871">
               <costs>
@@ -1174,6 +1195,9 @@
               <infoLinks>
                 <infoLink name="Laser Lance" id="6145-7cb5-c24d-3062" hidden="false" type="profile" targetId="4ddc-3656-e72c-087d"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3578-8971-54dd-ba04" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1189,6 +1213,9 @@
               <infoLinks>
                 <infoLink name="Avenger Shuriken Catapult" id="9f54-97f0-410c-73a7" hidden="false" type="profile" targetId="d272-054a-af72-4f94"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dac7-f9c5-846f-d15b" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Death Spinner" hidden="false" id="dbf5-f093-ccd6-f254">
               <costs>
@@ -1197,6 +1224,9 @@
               <infoLinks>
                 <infoLink name="Death Spinner" id="3e0e-ccd9-0e70-0e09" hidden="false" type="profile" targetId="ca11-e91e-fabd-caec"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d9e-8d14-52c6-4304" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Fusion Gun" hidden="false" id="865f-2c50-5d69-bd7d">
               <costs>
@@ -1205,6 +1235,9 @@
               <infoLinks>
                 <infoLink name="Fusion Gun" id="0042-64ed-3c1d-5b32" hidden="false" type="profile" targetId="408b-d81f-b690-6638"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b39d-d108-ff22-2ba1" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Lasblaster" hidden="false" id="5506-6b8a-d6fb-581e">
               <costs>
@@ -1213,6 +1246,9 @@
               <infoLinks>
                 <infoLink name="Lasblaster" id="0b8b-7cc7-af62-483a" hidden="false" type="profile" targetId="b561-cd7e-edfd-59f7"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="69ad-01cc-7587-3796" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Reaper Launcher" hidden="false" id="8b4f-646e-1db8-8b8a">
               <costs>
@@ -1221,6 +1257,9 @@
               <infoLinks>
                 <infoLink name="Reaper Launcher" id="0166-6bc7-1faa-9772" hidden="false" type="profile" targetId="a5d6-2485-f9a2-8a8e"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="316e-73f6-0069-41a9" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1247,100 +1286,122 @@
         <infoLink name="Fleet" id="f112-8aa0-43fa-c11f" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry type="unit" import="true" name="Warlock Bodyguard" hidden="false" id="5c79-148d-ed54-112b" collective="true">
+        <selectionEntry type="unit" import="true" name="Warlock Bodyguard" hidden="false" id="d4ec-a5eb-2b54-a6d2" collective="false">
           <infoLinks>
-            <infoLink name="Warlock Power" id="6c8e-607d-ac4a-b631" hidden="false" targetId="6622-8fbf-6aa8-2e1e" type="rule"/>
+            <infoLink name="Warlock Power" id="8e27-c524-c554-cd64" hidden="false" targetId="6622-8fbf-6aa8-2e1e" type="rule"/>
           </infoLinks>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e4b-9a97-8704-89dd"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4126-06f3-baea-5ab0"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Warlocks" hidden="false" id="2b7d-eb26-d1a7-8b03" collective="true">
+            <selectionEntry type="model" import="true" name="Warlock" hidden="false" id="c7e8-7e2f-1536-1e89" collective="false">
               <infoLinks>
-                <infoLink name="Warlock" id="12ee-78aa-a3c9-ba99" hidden="false" type="profile" targetId="b454-b372-499d-fc15"/>
-                <infoLink name="Rune Armour" id="4d5a-610c-7d26-889f" hidden="false" type="profile" targetId="6d20-f315-c90f-8850"/>
-                <infoLink name="Shuriken Pistol" id="6923-6ec7-de8e-af2c" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
-                <infoLink name="Witchblade" id="2f8d-9f6d-d68d-ea24" hidden="false" type="profile" targetId="d9ba-84db-8924-20a3"/>
-                <infoLink name="Fleet" id="7d59-20dc-a5c3-9634" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+                <infoLink name="Warlock" id="b5a7-b2d2-d1c8-996f" hidden="false" type="profile" targetId="b454-b372-499d-fc15"/>
+                <infoLink name="Rune Armour" id="a5b4-a1d5-0142-4a3d" hidden="false" type="profile" targetId="6d20-f315-c90f-8850"/>
+                <infoLink name="Shuriken Pistol" id="918e-3110-c81c-7ee4" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+                <infoLink name="Witchblade" id="1672-9923-51a7-393a" hidden="false" type="profile" targetId="d9ba-84db-8924-20a3"/>
+                <infoLink name="Fleet" id="4d7e-cabf-d712-d886" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
               </infoLinks>
               <constraints>
-                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="7cf1-9a68-c85b-bf1d"/>
-                <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="cd63-5806-95f0-18f4"/>
+                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="f48e-7fc7-7bbe-c20b"/>
+                <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="7701-a802-c104-a53d"/>
               </constraints>
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
               </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Warlock Psychic power" id="cff5-ba1b-2e75-6337" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Conceal" hidden="false" id="5c40-f1a7-d85e-a4f1">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Conceal" id="1be9-9f89-9ad7-5274" hidden="false" targetId="0e7f-1bf2-7bf4-f188" type="profile"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="054b-9aa0-f092-9f51" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Destructor" hidden="false" id="2c17-2f3b-8020-ab2f">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Destructor" id="9286-0ad1-8cff-8c9f" hidden="false" targetId="5a25-42f8-99b9-744c" type="profile"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c333-307e-6aea-cde8" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Embolden" hidden="false" id="142f-fc7d-8bb7-8d5c">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Embolden" id="edcc-0528-681d-e998" hidden="false" targetId="9231-7d9c-5717-f72d" type="profile"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8bbc-5b70-049c-db97" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Enhance" hidden="false" id="0806-4649-ccc9-0dd6">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Enhance" id="ba1c-89dc-5e36-0818" hidden="false" targetId="d7ae-b2cd-f69b-41e3" type="profile"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cfe7-ee0c-8d8c-0118" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="232a-32ba-0ca4-80d8" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c81d-073f-2423-f0bf"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="All Warlocks may choose from the following:" id="7e5e-3846-ed72-c14a" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade to Spiritseet" hidden="false" id="7cd6-f174-6e60-3b85">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Spiritseet" id="1852-e5fe-e15c-df3a" hidden="false" targetId="4eba-d802-81e0-644e" type="profile"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="55bd-e18b-342f-3bc7" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Witchblade to Singing Spear" hidden="false" id="dfaa-7411-2770-f794">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Singing Spear" id="a8b1-d073-a01e-8832" hidden="false" type="profile" targetId="270c-bcfc-0b28-1be2"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="21e0-701b-78cf-8f82" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Eldar jetbikes" hidden="false" id="6ab0-9cff-0d76-ad32">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Jetbike" id="6f70-a710-81e7-a6f6" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5558-6e47-a52d-c02f" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="All Warlocks may buy one Warlock Psychic power" id="250d-b445-ef95-b0c5" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Conceal" hidden="false" id="39b1-fa57-f554-274e">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Conceal" id="890a-497b-d49b-c537" hidden="false" targetId="0e7f-1bf2-7bf4-f188" type="profile"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Destructor" hidden="false" id="92b7-de47-fcd2-bbcd">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Destructor" id="4903-3db3-a309-08cd" hidden="false" targetId="5a25-42f8-99b9-744c" type="profile"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Embolden" hidden="false" id="c579-0581-f518-7d41">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Embolden" id="fcb1-c7cf-2c7b-5baa" hidden="false" targetId="9231-7d9c-5717-f72d" type="profile"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Enhance" hidden="false" id="66c9-47d9-2377-a4be">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Enhance" id="8cc5-5177-1f3c-abf7" hidden="false" targetId="d7ae-b2cd-f69b-41e3" type="profile"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8952-7d47-fc80-1d41"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="All Warlocks may choose from the following:" id="9989-aa87-8420-b3fc" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Upgrade to Spiritseet" hidden="false" id="efa3-57d5-a855-2de8">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Spiritseet" id="ea4f-157a-400c-a9f1" hidden="false" targetId="4eba-d802-81e0-644e" type="profile"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Upgrade Witchblade to Singing Spear" hidden="false" id="6e4c-040f-b4f7-95c6">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Singing Spear" id="b2fe-e01f-1030-792f" hidden="false" type="profile" targetId="270c-bcfc-0b28-1be2"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Mount all Warlocks in the unit on Eldar jetbikes (Set to number of models)" hidden="false" id="bdd3-1cf2-6e72-307b">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Jetbike" id="da64-788b-2c01-17be" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1464,7 +1525,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Avatar of Khaine" hidden="false" id="7145-e874-4b23-3180">
+    <selectionEntry type="unit" import="true" name="Avatar of Khaine" hidden="false" id="7145-e874-4b23-3180">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="155"/>
       </costs>
@@ -1496,7 +1557,7 @@
         <infoLink name="Fearless" id="a39c-9a3e-36fb-6e15" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Prince Yriel of Iyanden" hidden="false" id="fd06-d26f-01b0-0dcc">
+    <selectionEntry type="unit" import="true" name="Prince Yriel of Iyanden" hidden="false" id="fd06-d26f-01b0-0dcc">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="155"/>
       </costs>
@@ -1526,7 +1587,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Eldrad Ulthran" hidden="false" id="3a1d-2234-82ac-f7d7">
+    <selectionEntry type="unit" import="true" name="Eldrad Ulthran" hidden="false" id="3a1d-2234-82ac-f7d7">
       <infoLinks>
         <infoLink name="Eldrad Ulthran" id="f7ad-e84a-ffd3-03b9" hidden="false" type="profile" targetId="c707-cf8a-b5b3-1b7e"/>
         <infoLink name="Shuriken Pistol" id="f3a7-ad53-9bfd-be86" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
@@ -1564,7 +1625,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="unit" import="true" name="Warlock Bodyguard" hidden="false" id="37ef-df73-f7ab-9156" collective="true">
+        <selectionEntry type="unit" import="true" name="Warlock Bodyguard" hidden="false" id="37ef-df73-f7ab-9156" collective="false">
           <infoLinks>
             <infoLink name="Warlock Power" id="3c60-9158-770c-20c3" hidden="false" targetId="6622-8fbf-6aa8-2e1e" type="rule"/>
           </infoLinks>
@@ -1572,7 +1633,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d4c-0e0e-dbd6-b61e"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Warlocks" hidden="false" id="fcb1-c1c7-78e7-cec5" collective="true">
+            <selectionEntry type="model" import="true" name="Warlock" hidden="false" id="fcb1-c1c7-78e7-cec5" collective="false">
               <infoLinks>
                 <infoLink name="Warlock" id="1a11-84a7-4003-2d01" hidden="false" type="profile" targetId="b454-b372-499d-fc15"/>
                 <infoLink name="Rune Armour" id="e819-5a65-9903-f84d" hidden="false" type="profile" targetId="6d20-f315-c90f-8850"/>
@@ -1587,81 +1648,103 @@
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
               </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Warlock Psychic power" id="b9be-1b3a-ee0f-faf6" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Conceal" hidden="false" id="46b2-389e-6017-db9b">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Conceal" id="d4ed-cce8-5eef-10c1" hidden="false" targetId="0e7f-1bf2-7bf4-f188" type="profile"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="853a-3132-ee72-1865" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Destructor" hidden="false" id="1612-07ef-ab45-89de">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Destructor" id="ca37-8cf6-513c-e6ad" hidden="false" targetId="5a25-42f8-99b9-744c" type="profile"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="853c-f7d2-22f9-e6d1" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Embolden" hidden="false" id="1200-28c7-0abb-82e9">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Embolden" id="4424-1106-f9e5-e18d" hidden="false" targetId="9231-7d9c-5717-f72d" type="profile"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db96-6daf-af65-4c61" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Enhance" hidden="false" id="c345-d333-4be2-a68f">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Enhance" id="1b31-83ba-921c-c76e" hidden="false" targetId="d7ae-b2cd-f69b-41e3" type="profile"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a98-0f49-86fe-25c1" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d17f-a098-82c8-d060" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="24ef-45a6-5d26-dd33"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="All Warlocks may choose from the following:" id="5996-d02e-eed1-f667" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade to Spiritseet" hidden="false" id="2d30-80db-09e2-827c">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Spiritseet" id="78b6-dca0-69f0-6773" hidden="false" targetId="4eba-d802-81e0-644e" type="profile"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b5c2-e2df-0012-72f0" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Upgrade Witchblade to Singing Spear" hidden="false" id="aba0-bc5c-354b-9300">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Singing Spear" id="b315-4352-833c-56e5" hidden="false" type="profile" targetId="270c-bcfc-0b28-1be2"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d817-506c-b6f8-fb64" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Eldar jetbikes" hidden="false" id="172b-9ac4-67b8-ff08">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Jetbike" id="8046-7a53-15de-26d8" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de55-6e88-090d-4e34" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="All Warlocks may buy one Warlock Psychic power" id="b9be-1b3a-ee0f-faf6" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Conceal" hidden="false" id="46b2-389e-6017-db9b">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Conceal" id="d4ed-cce8-5eef-10c1" hidden="false" targetId="0e7f-1bf2-7bf4-f188" type="profile"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Destructor" hidden="false" id="1612-07ef-ab45-89de">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Destructor" id="ca37-8cf6-513c-e6ad" hidden="false" targetId="5a25-42f8-99b9-744c" type="profile"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Embolden" hidden="false" id="1200-28c7-0abb-82e9">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Embolden" id="4424-1106-f9e5-e18d" hidden="false" targetId="9231-7d9c-5717-f72d" type="profile"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Enhance" hidden="false" id="c345-d333-4be2-a68f">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Enhance" id="1b31-83ba-921c-c76e" hidden="false" targetId="d7ae-b2cd-f69b-41e3" type="profile"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="24ef-45a6-5d26-dd33"/>
-              </constraints>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="All Warlocks may choose from the following:" id="5996-d02e-eed1-f667" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Upgrade to Spiritseet" hidden="false" id="2d30-80db-09e2-827c">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Spiritseet" id="78b6-dca0-69f0-6773" hidden="false" targetId="4eba-d802-81e0-644e" type="profile"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Upgrade Witchblade to Singing Spear" hidden="false" id="aba0-bc5c-354b-9300">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Singing Spear" id="b315-4352-833c-56e5" hidden="false" type="profile" targetId="270c-bcfc-0b28-1be2"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Mount all Warlocks in the unit on Eldar jetbikes (Set to number of models)" hidden="false" id="172b-9ac4-67b8-ff08">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Jetbike" id="8046-7a53-15de-26d8" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Asurmen" hidden="false" id="c8e5-e2d1-c8d2-a9e5">
+    <selectionEntry type="unit" import="true" name="Asurmen" hidden="false" id="c8e5-e2d1-c8d2-a9e5">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="230"/>
       </costs>
@@ -1691,7 +1774,7 @@
         <entryLink targetId="bde0-bf0a-44b9-d62d" id="2acf-77f6-3e70-c299" type="selectionEntryGroup" name="Phoenix Lord" hidden="false"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Jain Zar" hidden="false" id="b996-6673-68c0-abda">
+    <selectionEntry type="unit" import="true" name="Jain Zar" hidden="false" id="b996-6673-68c0-abda">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="190"/>
       </costs>
@@ -1714,7 +1797,7 @@
         <entryLink import="true" name="Phoenix Lord" hidden="false" id="6f8f-d1f9-14f7-30df" targetId="bde0-bf0a-44b9-d62d" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Baharroth" hidden="false" id="21de-b843-ff6b-1cdb">
+    <selectionEntry type="unit" import="true" name="Baharroth" hidden="false" id="21de-b843-ff6b-1cdb">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="200"/>
       </costs>
@@ -1740,7 +1823,7 @@
         <entryLink import="true" name="Phoenix Lord" hidden="false" id="667e-8a86-c71e-5579" targetId="bde0-bf0a-44b9-d62d" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Karandras" hidden="false" id="92c8-f497-4675-395b">
+    <selectionEntry type="unit" import="true" name="Karandras" hidden="false" id="92c8-f497-4675-395b">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="215"/>
       </costs>
@@ -1764,7 +1847,7 @@
         <entryLink import="true" name="Phoenix Lord" hidden="false" id="0408-d2d7-12e5-d061" targetId="bde0-bf0a-44b9-d62d" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Fuegan" hidden="false" id="730f-88de-e870-5d44">
+    <selectionEntry type="unit" import="true" name="Fuegan" hidden="false" id="730f-88de-e870-5d44">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="205"/>
       </costs>
@@ -1787,7 +1870,7 @@
         <entryLink import="true" name="Phoenix Lord" hidden="false" id="22bb-c607-2cc3-22b9" targetId="bde0-bf0a-44b9-d62d" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Maugan Ra" hidden="false" id="f5c1-2026-9a09-1996">
+    <selectionEntry type="unit" import="true" name="Maugan Ra" hidden="false" id="f5c1-2026-9a09-1996">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="195"/>
       </costs>
@@ -1812,26 +1895,31 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="304f-15a4-dafe-2aed" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Striking Scorpions" hidden="false" id="f5fc-6d71-3d87-f914">
+            <selectionEntry type="model" import="true" name="Striking Scorpions" hidden="false" id="f5fc-6d71-3d87-f914" defaultAmount="5">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="16"/>
               </costs>
               <infoLinks>
                 <infoLink name="Striking Scorpion" id="4f62-2f02-7e47-6c9d" hidden="false" type="profile" targetId="3fed-50df-cb14-aedf"/>
+                <infoLink name="Scorpion Chainsword" id="c9a4-dc1f-9347-ac23" hidden="false" type="profile" targetId="a2c5-4bc2-47b4-0a53"/>
+                <infoLink name="Shuriken Pistol" id="a203-b0fc-6528-6fa1" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+                <infoLink name="Mandiblasters" id="a41f-4c2f-1f73-aef6" hidden="false" type="profile" targetId="1219-1c68-6a82-b394"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Exarch" hidden="false" id="0493-2915-8d85-b5d0">
+            <selectionEntry type="model" import="true" name="Exarch" hidden="false" id="0493-2915-8d85-b5d0">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="28"/>
               </costs>
               <infoLinks>
                 <infoLink name="Exarch" id="2d05-62b2-b1b9-d649" hidden="false" type="profile" targetId="4846-9fbc-e26a-0635"/>
+                <infoLink name="Mandiblasters" id="c570-9b75-107e-9df5" hidden="false" type="profile" targetId="1219-1c68-6a82-b394"/>
+                <infoLink name="Shuriken Pistol" id="74e2-7b0e-910e-69ff" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
               </infoLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fff7-e673-0d83-ae95"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup name="The Exarch may replace his shuriken pistol with a scorpion claw, replace hs chainsword with a biting blade or both with chainsabres." id="8505-ca97-e668-2d81" hidden="false">
+                <selectionEntryGroup name="Combat Weapon" id="8505-ca97-e668-2d81" hidden="false" defaultSelectionEntryId="b2dc-139c-a995-f551">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Scorpion&apos;s Claw" hidden="false" id="e237-d1c4-58af-15d9">
                       <costs>
@@ -1866,7 +1954,19 @@
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1850-6a1d-1e3a-070a"/>
                       </constraints>
                     </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Scorpion Chainsword" hidden="false" id="b2dc-139c-a995-f551">
+                      <infoLinks>
+                        <infoLink name="Scorpion Chainsword" id="89b4-7b17-85b8-d0c4" hidden="false" type="profile" targetId="a2c5-4bc2-47b4-0a53"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e998-dfd2-3d50-78f4" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
                   </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="b484-b5b6-d1a9-77bf-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b484-b5b6-d1a9-77bf-max"/>
+                  </constraints>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="The Exarch may be given the following warrior powers" id="1af4-4614-8150-e5f4" hidden="false">
                   <selectionEntries>
@@ -1904,10 +2004,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Mandiblasters" id="a41f-4c2f-1f73-aef6" hidden="false" type="profile" targetId="1219-1c68-6a82-b394"/>
-        <infoLink name="Shuriken Pistol" id="a203-b0fc-6528-6fa1" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
         <infoLink name="Plasma Grenades" id="eff7-5a42-4923-c95c" hidden="false" type="profile" targetId="f199-6b5f-7b3d-f011"/>
-        <infoLink name="Scorpion Chainsword" id="c9a4-dc1f-9347-ac23" hidden="false" type="profile" targetId="a2c5-4bc2-47b4-0a53"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Wave Serpent" hidden="false" id="87a7-64c4-a186-c332" type="selectionEntry" targetId="c756-f51c-36b3-ff68">
@@ -1948,6 +2045,9 @@
               <infoLinks>
                 <infoLink name="Twin-linked Shuriken Catapults" id="ee41-e75e-0b30-beda" hidden="false" targetId="0af5-7e80-fa6a-d979" type="profile"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84ba-1b3e-b8a1-92c8" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Shuriken Cannon" hidden="false" id="207e-2770-4a44-6602">
               <costs>
@@ -1956,6 +2056,9 @@
               <infoLinks>
                 <infoLink name="Shuriker Cannon" id="3934-82fa-e9be-fba3" hidden="false" type="profile" targetId="db20-c0b9-7553-8719"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="50ca-53f2-b1a5-abfa" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1972,6 +2075,9 @@
               <infoLinks>
                 <infoLink targetId="9ba2-53e1-c3aa-81e8" id="209b-4cb4-0e2b-4249" type="profile" name="Twin-linked Shuriken Cannons" hidden="false"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5ac0-45bf-bf37-dda4" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Twin-linked Scatter Lasers" hidden="false" id="35b2-8485-4edd-5775">
               <costs>
@@ -1980,6 +2086,9 @@
               <infoLinks>
                 <infoLink targetId="659c-9c7d-25e3-feea" id="83b0-c5b5-bee7-51ba" type="profile" name="Twin-linked Scatter Lasers" hidden="false"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a276-2fbb-6ef8-84a9" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Twin-linked Eldar Missile Launchers" hidden="false" id="0d8d-5bc3-82fc-916e">
               <costs>
@@ -1989,6 +2098,9 @@
                 <infoLink targetId="85e9-0e3b-9e9f-ac9a" id="8d56-f6db-a62b-b455" type="profile" name="Twin-linked Eldar Missile Launchers (Plasma)" hidden="false"/>
                 <infoLink targetId="ec8b-03d2-93d4-76fb" id="2685-7daa-6178-f87e" type="profile" name="Twin-linked Eldar Missile Launchers (Krak)" hidden="false"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="26ab-9d47-6897-2714" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Twin-linked Starcannons" hidden="false" id="ca0c-343c-5b35-f568">
               <costs>
@@ -1997,6 +2109,9 @@
               <infoLinks>
                 <infoLink targetId="73a2-b0f3-b031-6ec7" id="bb7e-3fcb-8261-102d" type="profile" name="Twin-linked Starcannons" hidden="false"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5017-9deb-db9a-93d9" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Twin-linked Bright Lances" hidden="false" id="c40c-b058-efa3-b64a">
               <infoLinks>
@@ -2005,6 +2120,9 @@
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
               </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4bcb-d324-b777-8081" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -2051,19 +2169,20 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Fire Dragons" hidden="false" id="f83d-52d4-a336-229d">
+    <selectionEntry type="unit" import="true" name="Fire Dragons" hidden="false" id="f83d-52d4-a336-229d">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="c369-ee25-4e65-b2fa" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Fire Dragons" hidden="false" id="0b7e-26f8-24ae-43a1">
+            <selectionEntry type="model" import="true" name="Fire Dragons" hidden="false" id="0b7e-26f8-24ae-43a1" defaultAmount="5">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="16"/>
               </costs>
               <infoLinks>
                 <infoLink name="Fire Dragon" id="1410-96ce-349f-f7ee" hidden="false" type="profile" targetId="d8be-1b35-f1f5-efb4"/>
+                <infoLink name="Fusion Gun" id="8341-08c4-1c79-2808" hidden="false" type="profile" targetId="408b-d81f-b690-6638"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Exarch" hidden="false" id="65ef-081c-088d-d63b">
+            <selectionEntry type="model" import="true" name="Exarch" hidden="false" id="65ef-081c-088d-d63b">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="28"/>
               </costs>
@@ -2074,7 +2193,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0689-8ba4-fced-7b9f"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup name="The Exarch may exchange his fusion gun for a Firepike or a Dragon&apos;s Breath flamer" id="6926-b114-faa6-9cbf" hidden="false">
+                <selectionEntryGroup name="Loadout" id="6926-b114-faa6-9cbf" hidden="false" defaultSelectionEntryId="0575-9ded-f970-957b">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Firepike" hidden="false" id="4691-9166-8c09-6c72">
                       <infoLinks>
@@ -2083,15 +2202,30 @@
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
                       </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f2d5-3aa1-0788-469d" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Dragon&apos;s Breath Flamer" hidden="false" id="f577-692a-d1c8-1df2">
                       <infoLinks>
                         <infoLink name="Dragon&apos;s Breath Flamer" id="695b-8e57-7eb6-70a9" hidden="false" type="profile" targetId="4a11-8642-716c-3d68"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a5e5-86cb-f606-53eb" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Fusion Gun" hidden="false" id="0575-9ded-f970-957b">
+                      <infoLinks>
+                        <infoLink name="Fusion Gun" id="dc98-71c4-7284-c662" hidden="false" type="profile" targetId="408b-d81f-b690-6638"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5243-b608-08de-87f5" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2654-8f60-806b-04aa"/>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="2654-8f60-806b-04aa-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2654-8f60-806b-04aa-max"/>
                   </constraints>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="The Exarch may be given the following warrior powers" id="51b3-bfc1-31c5-b6d0" hidden="false">
@@ -2130,57 +2264,52 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Fusion Gun" id="8341-08c4-1c79-2808" hidden="false" type="profile" targetId="408b-d81f-b690-6638"/>
         <infoLink name="Melta Bomb" id="8bf4-d6b1-8c56-83ee" hidden="false" type="profile" targetId="62b3-f972-0f32-e8d8"/>
         <infoLink name="Fleet" id="dca9-59be-9e42-3792" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
       </infoLinks>
       <entryLinks>
-        <entryLink import="true" name="Wave Serpent" hidden="false" id="747f-90b2-f9e1-198b" type="selectionEntry" targetId="c756-f51c-36b3-ff68"/>
+        <entryLink import="true" name="Wave Serpent" hidden="false" id="747f-90b2-f9e1-198b" type="selectionEntry" targetId="c756-f51c-36b3-ff68">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f3b-0458-6fb2-b162"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Wraithguard" hidden="false" id="736f-81c2-3353-c5c6">
+    <selectionEntry type="unit" import="true" name="Wraithguard" hidden="false" id="736f-81c2-3353-c5c6">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="006b-4ee2-97ef-ab50" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Wraithguard" hidden="false" id="0218-57ee-a3bf-cdf1" collective="true">
+            <selectionEntry type="model" import="true" name="Wraithguard" hidden="false" id="0218-57ee-a3bf-cdf1" collective="false">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
               </costs>
               <infoLinks>
                 <infoLink name="Wraithguard" id="b48d-fbaf-e604-7207" hidden="false" type="profile" targetId="e177-3d41-99e2-419d"/>
+                <infoLink name="Wraithcannon" id="cdc7-53e0-b71f-3435" hidden="false" type="profile" targetId="2e4a-759a-78fe-ad85"/>
+                <infoLink name="Wraithsight" id="8f3c-d1b3-a876-ac96" hidden="false" targetId="21df-e06e-c5f5-5a33" type="profile"/>
               </infoLinks>
               <constraints>
                 <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="75f2-d09e-af4b-b7fa"/>
                 <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="3d42-87b2-cc7a-4629"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="unit" import="true" name="Warlock" hidden="false" id="aaf7-8eb7-414c-63c1" collective="true">
+            <selectionEntry type="model" import="true" name="Warlock" hidden="false" id="5fe1-d829-3c24-90c2" collective="false">
               <infoLinks>
+                <infoLink name="Warlock" id="2cf0-079c-83aa-934c" hidden="false" type="profile" targetId="b454-b372-499d-fc15"/>
+                <infoLink name="Rune Armour" id="2e6d-9079-6970-f310" hidden="false" type="profile" targetId="6d20-f315-c90f-8850"/>
+                <infoLink name="Shuriken Pistol" id="f76a-5992-139e-8933" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+                <infoLink name="Witchblade" id="1b67-90c4-d8d0-561e" hidden="false" type="profile" targetId="d9ba-84db-8924-20a3"/>
+                <infoLink name="Fleet" id="378a-986a-c8a4-30ea" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
                 <infoLink name="Warlock Power" id="6e0d-5672-c8c2-d191" hidden="false" targetId="6622-8fbf-6aa8-2e1e" type="rule"/>
               </infoLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7882-ab4f-1254-3a21"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb32-8063-be65-bf37" includeChildSelections="false"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry type="model" import="true" name="Warlocks" hidden="false" id="5fe1-d829-3c24-90c2" collective="true">
-                  <infoLinks>
-                    <infoLink name="Warlock" id="2cf0-079c-83aa-934c" hidden="false" type="profile" targetId="b454-b372-499d-fc15"/>
-                    <infoLink name="Rune Armour" id="2e6d-9079-6970-f310" hidden="false" type="profile" targetId="6d20-f315-c90f-8850"/>
-                    <infoLink name="Shuriken Pistol" id="f76a-5992-139e-8933" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
-                    <infoLink name="Witchblade" id="1b67-90c4-d8d0-561e" hidden="false" type="profile" targetId="d9ba-84db-8924-20a3"/>
-                    <infoLink name="Fleet" id="378a-986a-c8a4-30ea" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f375-93e9-8bcd-b7c1-min"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f375-93e9-8bcd-b7c1-max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
               <selectionEntryGroups>
-                <selectionEntryGroup name="The Warlocks may buy one Warlock Psychic power" id="3e09-c89f-37d9-c3e2" hidden="false">
+                <selectionEntryGroup name="The Warlock may buy one Warlock Psychic power" id="3e09-c89f-37d9-c3e2" hidden="false">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Conceal" hidden="false" id="8f41-8e6d-49a3-279b">
                       <costs>
@@ -2189,6 +2318,9 @@
                       <infoLinks>
                         <infoLink name="Conceal" id="c018-3d0f-2d5e-ead7" hidden="false" targetId="0e7f-1bf2-7bf4-f188" type="profile"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61b9-05f1-b9fc-156a" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Destructor" hidden="false" id="0418-a2e7-ce70-be5f">
                       <costs>
@@ -2197,6 +2329,10 @@
                       <infoLinks>
                         <infoLink name="Destructor" id="5ba5-b2ee-8025-02e5" hidden="false" targetId="5a25-42f8-99b9-744c" type="profile"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f80-6470-8087-533c" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad64-eaa5-8640-0dbc" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Embolden" hidden="false" id="2603-2237-7116-6019">
                       <costs>
@@ -2205,6 +2341,9 @@
                       <infoLinks>
                         <infoLink name="Embolden" id="a45c-e427-ab61-f052" hidden="false" targetId="9231-7d9c-5717-f72d" type="profile"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ebf-04d7-2712-269f" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Enhance" hidden="false" id="9df1-51ed-15eb-ccc2">
                       <costs>
@@ -2213,13 +2352,16 @@
                       <infoLinks>
                         <infoLink name="Enhance" id="ff7f-d1ef-bbaa-331b" hidden="false" targetId="d7ae-b2cd-f69b-41e3" type="profile"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e79-b246-0650-5fc5" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2141-24b6-98d7-0f10"/>
                   </constraints>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="The Warlocks may choose from the following:" id="8d90-9b35-7bcd-5639" hidden="false">
+                <selectionEntryGroup name="The Warlock may choose from the following:" id="8d90-9b35-7bcd-5639" hidden="false">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Upgrade to Spiritseet" hidden="false" id="532a-2db1-d2cf-a1bd">
                       <costs>
@@ -2228,6 +2370,9 @@
                       <infoLinks>
                         <infoLink name="Spiritseet" id="d172-929a-ed0d-fa55" hidden="false" targetId="4eba-d802-81e0-644e" type="profile"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b986-bc3c-9f4f-5733" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Upgrade Witchblade to Singing Spear" hidden="false" id="18f9-ee45-f691-fc6f">
                       <costs>
@@ -2236,21 +2381,24 @@
                       <infoLinks>
                         <infoLink name="Singing Spear" id="e059-2b6f-d7a0-c983" hidden="false" type="profile" targetId="270c-bcfc-0b28-1be2"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a61-a9aa-2543-51d6" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Mount all Warlocks in the unit on Eldar jetbikes (Set to number of models)" hidden="false" id="2d43-ff63-5fe2-60cb">
+                    <selectionEntry type="upgrade" import="true" name="Eldar Jetbikes" hidden="false" id="2d43-ff63-5fe2-60cb">
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
                       </costs>
                       <infoLinks>
                         <infoLink name="Jetbike" id="99e3-640d-4a1b-07b7" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b687-6ff6-d2af-19eb" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
-              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -2265,12 +2413,10 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink targetId="21df-e06e-c5f5-5a33" id="8f3c-d1b3-a876-ac96" type="profile" name="Wraithsight" hidden="false"/>
-        <infoLink name="Wraithcannon" id="cdc7-53e0-b71f-3435" hidden="false" type="profile" targetId="2e4a-759a-78fe-ad85"/>
         <infoLink name="Fearless" id="4864-1aa7-f46b-0039" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Warlocks" hidden="false" id="792b-f657-8f7a-3ec5" collective="true">
+    <selectionEntry type="unit" import="true" name="Warlocks" hidden="false" id="792b-f657-8f7a-3ec5" collective="false">
       <infoLinks>
         <infoLink name="Warlock Power" id="4ef4-faf9-7dc3-eeb0" hidden="false" targetId="6622-8fbf-6aa8-2e1e" type="rule"/>
       </infoLinks>
@@ -2278,7 +2424,7 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed24-4c00-efe5-5ec6"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Warlocks" hidden="false" id="3e8d-adcc-63a0-f4ff" collective="true">
+        <selectionEntry type="model" import="true" name="Warlocks" hidden="false" id="3e8d-adcc-63a0-f4ff" collective="false">
           <infoLinks>
             <infoLink name="Warlock" id="6f3b-8cd6-9050-4d7b" hidden="false" type="profile" targetId="b454-b372-499d-fc15"/>
             <infoLink name="Rune Armour" id="3201-9287-382d-8d89" hidden="false" type="profile" targetId="6d20-f315-c90f-8850"/>
@@ -2293,102 +2439,126 @@
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
           </costs>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Warlock Psychic power" id="e237-21d1-8616-a23e" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Conceal" hidden="false" id="36dc-a04c-cd21-77e3">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Conceal" id="5796-7e0e-8e4d-02ca" hidden="false" targetId="0e7f-1bf2-7bf4-f188" type="profile"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="07a3-12b5-d89b-c815" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Destructor" hidden="false" id="6c1f-d7ea-2506-4079">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Destructor" id="b54e-e33b-00dc-b7a8" hidden="false" targetId="5a25-42f8-99b9-744c" type="profile"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e58-d765-5633-0330" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Embolden" hidden="false" id="749f-0535-92c9-efed">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Embolden" id="8256-7109-c154-1a58" hidden="false" targetId="9231-7d9c-5717-f72d" type="profile"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c9a-ccf8-603d-e826" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Enhance" hidden="false" id="be13-2d91-5151-6dcb">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Enhance" id="7ad0-91df-eb5b-1d97" hidden="false" targetId="d7ae-b2cd-f69b-41e3" type="profile"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a00-eefd-662d-6056" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8778-f268-e1b8-7245"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="All Warlocks may choose from the following:" id="f8b9-3a2c-9f27-339c" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Upgrade to Spiritseet" hidden="false" id="4cf2-ee98-daaf-3731">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Spiritseet" id="636d-eb3b-ce8a-1833" hidden="false" targetId="4eba-d802-81e0-644e" type="profile"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="41dd-03a8-a1f4-ada7" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Upgrade Witchblade to Singing Spear" hidden="false" id="3542-6902-1173-2b4c">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Singing Spear" id="b637-b9a9-eade-4bf6" hidden="false" type="profile" targetId="270c-bcfc-0b28-1be2"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4002-d77c-33b0-45e5" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Eldar Jetbikes" hidden="false" id="af7a-50c8-5848-e92c">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Jetbike" id="fcdf-5d04-4946-3ce0" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ad3-d240-9fe2-9025" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="All Warlocks may buy one Warlock Psychic power" id="e237-21d1-8616-a23e" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Conceal" hidden="false" id="36dc-a04c-cd21-77e3">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Conceal" id="5796-7e0e-8e4d-02ca" hidden="false" targetId="0e7f-1bf2-7bf4-f188" type="profile"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Destructor" hidden="false" id="6c1f-d7ea-2506-4079">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Destructor" id="b54e-e33b-00dc-b7a8" hidden="false" targetId="5a25-42f8-99b9-744c" type="profile"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Embolden" hidden="false" id="749f-0535-92c9-efed">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Embolden" id="8256-7109-c154-1a58" hidden="false" targetId="9231-7d9c-5717-f72d" type="profile"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Enhance" hidden="false" id="be13-2d91-5151-6dcb">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Enhance" id="7ad0-91df-eb5b-1d97" hidden="false" targetId="d7ae-b2cd-f69b-41e3" type="profile"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8778-f268-e1b8-7245"/>
-          </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="All Warlocks may choose from the following:" id="f8b9-3a2c-9f27-339c" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Upgrade to Spiritseet" hidden="false" id="4cf2-ee98-daaf-3731">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Spiritseet" id="636d-eb3b-ce8a-1833" hidden="false" targetId="4eba-d802-81e0-644e" type="profile"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Upgrade Witchblade to Singing Spear" hidden="false" id="3542-6902-1173-2b4c">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Singing Spear" id="b637-b9a9-eade-4bf6" hidden="false" type="profile" targetId="270c-bcfc-0b28-1be2"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Mount all Warlocks in the unit on Eldar jetbikes (Set to number of models)" hidden="false" id="af7a-50c8-5848-e92c">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Jetbike" id="fcdf-5d04-4946-3ce0" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Howling Banshees" hidden="false" id="e8cb-b99b-c600-c1e5">
+    <selectionEntry type="unit" import="true" name="Howling Banshees" hidden="false" id="e8cb-b99b-c600-c1e5">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="0fc7-5316-5ca5-9e70" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Howling Banshee" hidden="false" id="8c07-0e04-b1a7-121f">
+            <selectionEntry type="model" import="true" name="Howling Banshee" hidden="false" id="8c07-0e04-b1a7-121f" defaultAmount="5">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="16"/>
               </costs>
               <infoLinks>
                 <infoLink name="Howling Banshee" id="5a2d-2091-71e6-3690" hidden="false" type="profile" targetId="c813-a94e-08e6-c4a9"/>
+                <infoLink name="Shuriken Pistol" id="3814-0bf8-7943-8ffb" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+                <infoLink name="Power Weapon" id="eef6-cdd0-9de0-f4c1" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Exarch" hidden="false" id="3a0d-1dac-9cf4-c767">
+            <selectionEntry type="model" import="true" name="Exarch" hidden="false" id="3a0d-1dac-9cf4-c767">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="28"/>
               </costs>
               <infoLinks>
                 <infoLink name="Exarch" id="131b-4f12-6afc-706a" hidden="false" type="profile" targetId="4846-9fbc-e26a-0635"/>
+                <infoLink name="Shuriken Pistol" id="6552-e702-7be7-f8fd" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
               </infoLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff28-0573-2e4f-83e3"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup name="The Exarch may replace her power weapon with an executioner or a triskele. Alternatively she may replace her power weapon and shuriken pistol with mirrors" id="e016-41db-59f7-cebb" hidden="false">
+                <selectionEntryGroup name="Combat Weapon" id="e016-41db-59f7-cebb" hidden="false">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Executioner" hidden="false" id="8b0c-0503-fce8-d190">
                       <costs>
@@ -2421,6 +2591,14 @@
                       </infoLinks>
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ed9-9aa9-e60a-4f4a"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="3d9f-94a6-ea0c-3b24">
+                      <infoLinks>
+                        <infoLink name="Power Weapon" id="e5be-f01c-6e61-0773" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36c6-e71b-246e-aac6" includeChildSelections="false"/>
                       </constraints>
                     </selectionEntry>
                   </selectionEntries>
@@ -2456,14 +2634,12 @@
           </selectionEntries>
           <constraints>
             <constraint type="max" value="10" field="selections" scope="self" shared="true" id="a34c-95bf-8ddd-4e62"/>
-            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="d25c-111e-fb47-c00c"/>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="d25c-111e-fb47-c00c"/>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
         <infoLink name="Banshee mask" id="1d4e-d3c1-eebc-e071" hidden="false" type="profile" targetId="e08f-bb4c-89f8-496a"/>
-        <infoLink name="Shuriken Pistol" id="3814-0bf8-7943-8ffb" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
-        <infoLink name="Power Weapon" id="eef6-cdd0-9de0-f4c1" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
         <infoLink name="Fleet" id="e85b-52f0-c9a5-ef93" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
       </infoLinks>
       <entryLinks>
@@ -2474,19 +2650,49 @@
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Harlequin Troupe" hidden="false" id="cac8-479b-9339-2781">
+    <selectionEntry type="unit" import="true" name="Harlequin Troupe" hidden="false" id="cac8-479b-9339-2781">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="04d6-2a38-94cd-3a03" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Harlequin" hidden="false" id="9679-adef-56bf-8be4">
+            <selectionEntry type="model" import="true" name="Harlequin" hidden="false" id="9679-adef-56bf-8be4" defaultAmount="5">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="18"/>
               </costs>
               <infoLinks>
                 <infoLink name="Harlequin" id="de0e-eda4-314f-9be1" hidden="false" type="profile" targetId="7460-f0eb-ae03-d278"/>
+                <infoLink name="Shuriken Pistol" id="52eb-6ee6-9748-2b52" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
               </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Combat Weapon" id="e4cb-d175-c27a-5ebe" hidden="false" defaultSelectionEntryId="f4d2-bc12-cb76-4995">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Harlequin&apos;s Kiss" hidden="false" id="330a-ebe2-f1b3-f701">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Harlequin&apos;s Kiss" id="644a-fca1-9aef-691e" hidden="false" type="profile" targetId="58c0-2817-9fac-1e65"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b440-0bd3-2070-026a" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="f4d2-bc12-cb76-4995">
+                      <infoLinks>
+                        <infoLink name="Close-Combat Weapon" id="a80a-add5-e416-e591" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7110-4eff-d9c6-c704" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="e8c1-4041-1276-c71c-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e8c1-4041-1276-c71c-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Troupe Master" hidden="false" id="3824-a975-6b60-7d79">
+            <selectionEntry type="model" import="true" name="Troupe Master" hidden="false" id="3824-a975-6b60-7d79">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="38"/>
               </costs>
@@ -2497,7 +2703,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ff5-0293-4e70-183f"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Melee Weapon" id="fc7a-7a59-64d7-d31b" hidden="false">
+                <selectionEntryGroup name="Melee Weapon" id="fc7a-7a59-64d7-d31b" hidden="false" defaultSelectionEntryId="5409-670d-4d62-2217">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="5409-670d-4d62-2217">
                       <infoLinks>
@@ -2511,12 +2717,12 @@
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b26-b7d6-622d-2456"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2b26-b7d6-622d-2456"/>
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Death Jester" hidden="false" id="93ca-1383-2fbb-42af">
+            <selectionEntry type="model" import="true" name="Death Jester" hidden="false" id="93ca-1383-2fbb-42af">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="28"/>
               </costs>
@@ -2527,8 +2733,37 @@
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c3c-2726-345d-131e"/>
               </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Combat Weapon" id="f5da-19c6-2680-5020" hidden="false" defaultSelectionEntryId="f4d2-bc12-cb76-4995">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Harlequin&apos;s Kiss" hidden="false" id="e1fd-9217-df62-d33c">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Harlequin&apos;s Kiss" id="379e-7b53-2088-80a0" hidden="false" type="profile" targetId="58c0-2817-9fac-1e65"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="80a9-5dc7-7e7b-32ef" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="16c8-b174-1d4f-d36a">
+                      <infoLinks>
+                        <infoLink name="Close-Combat Weapon" id="3ce3-98dd-6228-8620" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29b6-0027-bfc2-261a" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="352b-0832-8dfd-4ad5-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="352b-0832-8dfd-4ad5-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Shadowseer" hidden="false" id="ef8f-9319-922d-1bb2">
+            <selectionEntry type="model" import="true" name="Shadowseer" hidden="false" id="ef8f-9319-922d-1bb2">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="48"/>
               </costs>
@@ -2551,35 +2786,82 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Combat Weapon" id="a25d-e29a-a620-e01e" hidden="false" defaultSelectionEntryId="f4d2-bc12-cb76-4995">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Harlequin&apos;s Kiss" hidden="false" id="3849-ce51-2bba-e756">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Harlequin&apos;s Kiss" id="adc9-8ee8-d725-b7c7" hidden="false" type="profile" targetId="58c0-2817-9fac-1e65"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b06-e752-e8c6-7ceb" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="ede5-4f2c-db65-3729">
+                      <infoLinks>
+                        <infoLink name="Close-Combat Weapon" id="8511-cb85-b7a9-30c2" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f8f-5691-4ee3-c06d" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="f745-a469-bbe6-159d-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="f745-a469-bbe6-159d-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Harlequin Gunner" hidden="false" id="b054-06e8-39a5-b8cb">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="28"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Harlequin" id="d2b6-f38f-f3d2-769c" hidden="false" type="profile" targetId="7460-f0eb-ae03-d278"/>
+                <infoLink name="Fusion Pistol" id="ece6-d798-f860-12b3" hidden="false" type="profile" targetId="c66e-c5fe-f566-bb37"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8edb-24fe-d994-ffd0"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Combat Weapon" id="3466-0be4-21c0-45b1" hidden="false" defaultSelectionEntryId="f4d2-bc12-cb76-4995">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Harlequin&apos;s Kiss" hidden="false" id="48f6-4b77-958c-b962">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Harlequin&apos;s Kiss" id="c73a-b11e-af7b-9401" hidden="false" type="profile" targetId="58c0-2817-9fac-1e65"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5f42-d8e5-1493-e0a6" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="dc1f-361e-1131-8468">
+                      <infoLinks>
+                        <infoLink name="Close-Combat Weapon" id="c875-e2e4-09da-225c" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b7f0-e8d3-9c71-f36e" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="7ac3-d0ae-7df7-b333-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7ac3-d0ae-7df7-b333-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="min" value="5" field="selections" scope="self" shared="true" id="1ec9-4214-7076-9edd"/>
             <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="4238-0076-6faf-2265"/>
           </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Any Harlequin may exchange their close combat weapon for a Harlequin&apos;s Kiss. Up to two models may exchange their Shuriken pistol for a fusion pistol" id="6307-eb9d-e60c-d5e1" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Harlequin&apos;s Kiss" hidden="false" id="2808-dd89-a873-fb9a">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Harlequin&apos;s Kiss" id="e3a8-41d8-1d98-4f81" hidden="false" type="profile" targetId="58c0-2817-9fac-1e65"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Fusion Pistol" hidden="false" id="909e-47ad-0c97-59e1">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Fusion Pistol" id="8138-d4be-9c29-824b" hidden="false" type="profile" targetId="c66e-c5fe-f566-bb37"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7175-a23a-56e0-fde6"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <profiles>
@@ -2598,15 +2880,13 @@
         <infoLink name="Fleet" id="a509-6390-56f9-16d4" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
         <infoLink name="Furious Charge" id="95e2-2fd7-9998-7fb3" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
         <infoLink name="Hit and Run" id="a2ad-0e9a-c62c-126c" hidden="false" type="profile" targetId="17a2-9db7-3461-361c"/>
-        <infoLink name="Shuriken Pistol" id="d46e-c2ab-4a3f-a5d0" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
-        <infoLink name="Close-Combat Weapon" id="f2c3-bfb3-d998-a019" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Dire Avengers" hidden="false" id="1f51-c98b-3fab-ecf3">
+    <selectionEntry type="unit" import="true" name="Dire Avengers" hidden="false" id="1f51-c98b-3fab-ecf3">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="f2e3-2b8e-7dab-9f5a" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Dire Avenger" hidden="false" id="1a93-0d2e-d2d8-d9cc">
+            <selectionEntry type="model" import="true" name="Dire Avenger" hidden="false" id="1a93-0d2e-d2d8-d9cc">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
               </costs>
@@ -2615,7 +2895,7 @@
                 <infoLink name="Avenger Shuriken Catapult" id="8297-771f-0b86-2ad4" hidden="false" type="profile" targetId="d272-054a-af72-4f94"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Exarch" hidden="false" id="887f-348a-99df-0c86">
+            <selectionEntry type="model" import="true" name="Exarch" hidden="false" id="887f-348a-99df-0c86">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="24"/>
               </costs>
@@ -2632,6 +2912,9 @@
                       <infoLinks>
                         <infoLink name="Avenger Shuriken Catapult" id="9223-d38b-4ec7-1ffd" hidden="false" type="profile" targetId="d272-054a-af72-4f94"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef47-e21f-8355-d4b7" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Duel Shuriken Catapults" hidden="false" id="4979-0bbf-4e7f-51f4">
                       <costs>
@@ -2648,6 +2931,9 @@
                           </characteristics>
                         </profile>
                       </profiles>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c2ff-ce65-9f42-7e4a" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Diresword and Shuriken Pistol" hidden="false" id="e7fd-993f-cefc-50c6">
                       <costs>
@@ -2657,6 +2943,10 @@
                         <infoLink name="Diresword" id="a94a-13c7-7099-d2ad" hidden="false" type="profile" targetId="3a02-77ac-d2ac-9459"/>
                         <infoLink name="Shuriken Pistol" id="872e-4994-cd14-4cfe" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7356-4faf-d0c4-2112" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8de8-2ea5-ceb1-4854" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Power weapon and Shimmershield" hidden="false" id="d30d-bed4-4118-045e">
                       <costs>
@@ -2666,6 +2956,9 @@
                         <infoLink name="Power Weapon" id="272f-7b51-4175-93c5" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
                         <infoLink name="Shimmershield" id="8eb7-b9ca-c60e-eab1" hidden="false" type="profile" targetId="cbfa-0ca4-202a-a591"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fdb8-e1f8-963e-a129" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -2716,9 +3009,9 @@
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Rangers" hidden="false" id="ef32-30c7-89c1-13e7">
+    <selectionEntry type="unit" import="true" name="Rangers" hidden="false" id="ef32-30c7-89c1-13e7">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Rangers" hidden="false" id="8e20-40fe-7f67-f0d7">
+        <selectionEntry type="model" import="true" name="Rangers" hidden="false" id="8e20-40fe-7f67-f0d7">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="19"/>
           </costs>
@@ -2731,21 +3024,26 @@
             <infoLink name="Ranger Long Rifle" id="010e-bd7c-f697-dd0f" hidden="false" type="profile" targetId="0de6-35b5-b77e-45fb"/>
             <infoLink name="Shuriken Pistol" id="19c5-31e9-7afa-cd29" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
           </infoLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Rangers may be upgraded to Pathfinders at a cost of +5 points per model" hidden="false" id="f20b-3ead-6e26-ab33">
-          <infoLinks>
-            <infoLink name="Scouts" id="5ae8-399a-4260-74fc" hidden="false" type="profile" targetId="e289-1576-b63b-c142"/>
-          </infoLinks>
-          <profiles>
-            <profile name="Pathfinders" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="a53c-7247-945e-16eb">
-              <characteristics>
-                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Pathfinders ignore difficult terrain and any cover save they use is improved by +2 instead of the usual +1 conferred by the Stealth rule.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-          </costs>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Pathfinders" hidden="false" id="f20b-3ead-6e26-ab33">
+              <infoLinks>
+                <infoLink name="Scouts" id="5ae8-399a-4260-74fc" hidden="false" type="profile" targetId="e289-1576-b63b-c142"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Pathfinders" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="a53c-7247-945e-16eb">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Pathfinders ignore difficult terrain and any cover save they use is improved by +2 instead of the usual +1 conferred by the Stealth rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="82cb-1589-fc00-376c" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -2755,80 +3053,88 @@
         <infoLink name="Stealth" id="32f4-29be-28e6-bfeb" hidden="false" type="profile" targetId="8dc7-2ec3-1248-9d84"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Guardians" hidden="false" id="c3e6-0231-0505-5d0a">
+    <selectionEntry type="unit" import="true" name="Guardians" hidden="false" id="c3e6-0231-0505-5d0a">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="0313-db0d-e723-9692" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Guardian" hidden="false" id="ee53-e985-86e1-11a5">
+            <selectionEntry type="model" import="true" name="Guardian" hidden="false" id="ee53-e985-86e1-11a5" defaultAmount="8">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
               </costs>
               <infoLinks>
                 <infoLink name="Guardian" id="4e09-cd41-72b9-24de" hidden="false" type="profile" targetId="7644-7bd2-1464-8c8b"/>
+                <infoLink name="Shuriken Catapult" id="39a6-b1f4-2cb8-9a4e" hidden="false" type="profile" targetId="4ffa-aab7-f0b3-0b34"/>
               </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Weapon Team" hidden="false" id="0ad1-e7ac-d635-d674">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="c488-0bd4-7c99-b4b4" hidden="false" defaultSelectionEntryId="7a3d-f6ce-251c-c6d2">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Bright Lance" hidden="false" id="1748-3aab-0e1b-9f53">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Bright Lance" id="f9a2-161c-eca8-daf6" hidden="false" type="profile" targetId="bfd9-6ef3-6072-c0ba"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Eldar Missile Launcher" hidden="false" id="8b89-2f51-da1d-05e7">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Eldar Missile Launcher (Krak)" id="4645-3712-d043-a3ef" hidden="false" type="profile" targetId="87ed-f72d-1883-564a"/>
+                        <infoLink name="Eldar Missile Launcher (Plasma)" id="7555-0ce5-afb2-1a29" hidden="false" type="profile" targetId="c8a4-edd8-ca09-6a37"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Scatter Laser" hidden="false" id="e040-b2cd-1fbf-9bab">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Scatter Laser" id="3abf-e478-9e42-1672" hidden="false" type="profile" targetId="4a05-4111-e207-f688"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Shuriken Cannon" hidden="false" id="7a3d-f6ce-251c-c6d2">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Shuriker Cannon" id="6362-8087-328b-8842" hidden="false" type="profile" targetId="db20-c0b9-7553-8719"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Starcannon" hidden="false" id="4e76-af88-b8cb-7371">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Starcannon" id="6421-a3d1-174b-880c" hidden="false" type="profile" targetId="eec3-78b8-1100-fed9"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="6599-fa59-a785-734b-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="6599-fa59-a785-734b-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <constraints>
-                <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="00d5-1807-65ea-f0a0"/>
-                <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="6dab-81cf-c3ec-5e9f"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f3a5-1b87-8307-88d9-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f3a5-1b87-8307-88d9-max" includeChildSelections="false"/>
               </constraints>
-            </selectionEntry>
-          </selectionEntries>
-          <entryLinks>
-            <entryLink targetId="9a0c-4c7c-e376-4f1f" id="8d1c-e362-c12e-1a55" type="selectionEntry" name="Warlock" hidden="false" collective="true"/>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Two Guardians must be upgraded to a weapon team with a heavy weapon platform, chosen from the following:" id="c488-0bd4-7c99-b4b4" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Bright Lance" hidden="false" id="1748-3aab-0e1b-9f53">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="16"/>
               </costs>
-              <infoLinks>
-                <infoLink name="Bright Lance" id="f9a2-161c-eca8-daf6" hidden="false" type="profile" targetId="bfd9-6ef3-6072-c0ba"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Eldar Missile Launcher" hidden="false" id="8b89-2f51-da1d-05e7">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Eldar Missile Launcher (Krak)" id="4645-3712-d043-a3ef" hidden="false" type="profile" targetId="87ed-f72d-1883-564a"/>
-                <infoLink name="Eldar Missile Launcher (Plasma)" id="7555-0ce5-afb2-1a29" hidden="false" type="profile" targetId="c8a4-edd8-ca09-6a37"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Scatter Laser" hidden="false" id="e040-b2cd-1fbf-9bab">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Scatter Laser" id="3abf-e478-9e42-1672" hidden="false" type="profile" targetId="4a05-4111-e207-f688"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Shuriken Cannon" hidden="false" id="7a3d-f6ce-251c-c6d2">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Shuriker Cannon" id="6362-8087-328b-8842" hidden="false" type="profile" targetId="db20-c0b9-7553-8719"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Starcannon" hidden="false" id="4e76-af88-b8cb-7371">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Starcannon" id="6421-a3d1-174b-880c" hidden="false" type="profile" targetId="eec3-78b8-1100-fed9"/>
-              </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="6599-fa59-a785-734b-min"/>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="6599-fa59-a785-734b-max"/>
+            <constraint type="min" value="9" field="selections" scope="self" shared="true" id="0ae9-4376-2e5e-96c2"/>
+            <constraint type="max" value="19" field="selections" scope="self" shared="true" id="a051-a8cf-ccda-0b5d"/>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
         <infoLink name="Fleet" id="d614-d4d6-8e59-46ef" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
-        <infoLink name="Shuriken Catapult" id="39a6-b1f4-2cb8-9a4e" hidden="false" type="profile" targetId="4ffa-aab7-f0b3-0b34"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Wave Serpent" hidden="false" id="52de-535e-8bc3-0c48" type="selectionEntry" targetId="c756-f51c-36b3-ff68">
@@ -2836,149 +3142,76 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc1a-7f43-13fd-cf58"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Warlock" hidden="false" id="8d1c-e362-c12e-1a55" targetId="9a0c-4c7c-e376-4f1f" type="selectionEntry" collective="false"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Storm Guardians" hidden="false" id="df33-844a-1c44-a426">
+    <selectionEntry type="unit" import="true" name="Storm Guardians" hidden="false" id="df33-844a-1c44-a426">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="d2e2-6d29-4743-d7e2" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Storm Guardian" hidden="false" id="6ab3-ccb0-e914-bb40">
+            <selectionEntry type="model" import="true" name="Storm Guardian" hidden="false" id="6ab3-ccb0-e914-bb40">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
               </costs>
               <infoLinks>
                 <infoLink name="Guardian" id="3c7f-d92e-ad75-67c4" hidden="false" type="profile" targetId="7644-7bd2-1464-8c8b"/>
+                <infoLink name="Shuriken Pistol" id="fe7f-da38-b222-607d" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+                <infoLink name="Close-Combat Weapon" id="b33e-7cdf-e138-1e0c" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
               </infoLinks>
-              <constraints>
-                <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="b92c-7ed0-b79b-6c41"/>
-                <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="a752-a749-f581-36c5"/>
-              </constraints>
             </selectionEntry>
-            <selectionEntry type="unit" import="true" name="Warlock" hidden="false" id="2340-fe8b-16bb-34ed" collective="true">
+            <selectionEntry type="model" import="true" name="Storm Guardian Gunner" hidden="false" id="9e96-bdf6-d730-1f2a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
+              </costs>
               <infoLinks>
-                <infoLink name="Warlock Power" id="916b-8d43-b6ce-4a89" hidden="false" targetId="6622-8fbf-6aa8-2e1e" type="rule"/>
+                <infoLink name="Guardian" id="ddcb-3b88-44b9-d143" hidden="false" type="profile" targetId="7644-7bd2-1464-8c8b"/>
+                <infoLink name="Close-Combat Weapon" id="c3cd-ac5a-b7cd-bf53" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
               </infoLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5869-d426-6b06-d70f"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="02f9-bfc8-83bc-80c5"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry type="model" import="true" name="Warlocks" hidden="false" id="1ab2-938e-3742-11a7" collective="true">
-                  <infoLinks>
-                    <infoLink name="Warlock" id="3c80-fd00-5218-23f4" hidden="false" type="profile" targetId="b454-b372-499d-fc15"/>
-                    <infoLink name="Rune Armour" id="f5b8-af07-cc1d-968f" hidden="false" type="profile" targetId="6d20-f315-c90f-8850"/>
-                    <infoLink name="Shuriken Pistol" id="c95c-3843-7aae-9b2d" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
-                    <infoLink name="Witchblade" id="3333-0ec7-fbea-54b6" hidden="false" type="profile" targetId="d9ba-84db-8924-20a3"/>
-                    <infoLink name="Fleet" id="6347-fa58-8ee7-7b50" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="212d-f97a-3d18-065f-min"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="212d-f97a-3d18-065f-max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
               <selectionEntryGroups>
-                <selectionEntryGroup name="The Warlock may buy one Warlock Psychic power" id="d9f0-c8ad-104b-b54b" hidden="false">
+                <selectionEntryGroup name="Loadout" id="8a30-2297-0e52-d729" hidden="false" defaultSelectionEntryId="260a-a092-1ac2-a073">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Conceal" hidden="false" id="11b8-4905-dae4-8abc">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Conceal" id="ea16-1d0f-6704-4f8c" hidden="false" targetId="0e7f-1bf2-7bf4-f188" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Destructor" hidden="false" id="f522-080c-0ae1-6ecf">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Destructor" id="89bf-72d9-97f5-0f64" hidden="false" targetId="5a25-42f8-99b9-744c" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Embolden" hidden="false" id="8d7b-f1c9-7d28-6742">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Embolden" id="e889-a4d3-1144-a2a7" hidden="false" targetId="9231-7d9c-5717-f72d" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Enhance" hidden="false" id="0f51-8030-ce32-caf1">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Enhance" id="998b-381e-bb4e-32cd" hidden="false" targetId="d7ae-b2cd-f69b-41e3" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="fc23-78d9-e0c5-b1f7"/>
-                  </constraints>
-                </selectionEntryGroup>
-                <selectionEntryGroup name="The Warlock may choose from the following:" id="d234-65f4-432a-108b" hidden="false">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Upgrade to Spiritseet" hidden="false" id="7e2c-1b80-27a7-776d">
+                    <selectionEntry type="upgrade" import="true" name="Fusion Gun" hidden="false" id="be64-b37a-543c-4ae9">
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
                       </costs>
                       <infoLinks>
-                        <infoLink name="Spiritseet" id="eb6b-dd5e-5148-644c" hidden="false" targetId="4eba-d802-81e0-644e" type="profile"/>
+                        <infoLink name="Fusion Gun" id="664a-b4b5-5943-ce62" hidden="false" type="profile" targetId="408b-d81f-b690-6638"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1710-2565-ee1f-0284" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Upgrade Witchblade to Singing Spear" hidden="false" id="a700-7490-0435-049d">
+                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="260a-a092-1ac2-a073">
                       <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
                       </costs>
                       <infoLinks>
-                        <infoLink name="Singing Spear" id="4b3a-a843-dad9-37c7" hidden="false" type="profile" targetId="270c-bcfc-0b28-1be2"/>
+                        <infoLink name="Flamer" id="fb13-1d02-9e32-19e3" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
                       </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Eldar jetbike " hidden="false" id="a5dd-ba91-3e42-541e">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Jetbike" id="90df-a03a-79ce-2164" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
-                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c0e8-37ab-3cc5-1e24" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="b99a-f810-ed22-b285-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b99a-f810-ed22-b285-max"/>
+                  </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Two Storm guardians may exchange their weapons for the following:" id="8a30-2297-0e52-d729" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Fusion Gun" hidden="false" id="be64-b37a-543c-4ae9">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Fusion Gun" id="664a-b4b5-5943-ce62" hidden="false" type="profile" targetId="408b-d81f-b690-6638"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="260a-a092-1ac2-a073">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Flamer" id="fb13-1d02-9e32-19e3" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
           <constraints>
-            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="b99a-f810-ed22-b285"/>
+            <constraint type="min" value="10" field="selections" scope="self" shared="true" id="0c0a-dbbd-6f6a-72b7"/>
+            <constraint type="max" value="20" field="selections" scope="self" shared="true" id="2804-5bbe-fc70-c5cf"/>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
         <infoLink name="Fleet" id="d13b-ba95-4c3e-81ab" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
-        <infoLink name="Shuriken Pistol" id="fe7f-da38-b222-607d" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
-        <infoLink name="Close-Combat Weapon" id="b33e-7cdf-e138-1e0c" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Wave Serpent" hidden="false" id="53de-8abd-3a3f-0572" type="selectionEntry" targetId="c756-f51c-36b3-ff68">
@@ -2986,13 +3219,14 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d5b-6148-5d3c-90b4"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Warlock" hidden="false" id="a60b-4369-2453-dd8a" type="selectionEntry" targetId="9a0c-4c7c-e376-4f1f"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Guardian Jetbike Squadron" hidden="false" id="7357-fb6c-f147-c490">
+    <selectionEntry type="unit" import="true" name="Guardian Jetbike Squadron" hidden="false" id="7357-fb6c-f147-c490">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="c641-e717-cd9b-0faa" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Guardian Jetbike" hidden="false" id="e729-3c67-dd24-c94d">
+            <selectionEntry type="model" import="true" name="Guardian Jetbike" hidden="false" id="e729-3c67-dd24-c94d">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
               </costs>
@@ -3000,12 +3234,8 @@
                 <infoLink name="Guardian Jetbike" id="0ce5-addb-9af8-070a" hidden="false" type="profile" targetId="3a0c-d7d6-b338-040b"/>
                 <infoLink name="Twin-linked Shuriken Catapults" id="fae2-2593-8e1c-b7e9" hidden="false" type="profile" targetId="0af5-7e80-fa6a-d979"/>
               </infoLinks>
-              <constraints>
-                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="350f-8f26-5e5f-6208"/>
-                <constraint type="max" value="12" field="selections" scope="parent" shared="true" id="92bb-8323-9e4d-3687"/>
-              </constraints>
             </selectionEntry>
-            <selectionEntry type="unit" import="true" name="Warlock on Jetbike" hidden="false" id="b587-63db-70a9-1169" collective="true">
+            <selectionEntry type="model" import="true" name="Warlock on Jetbike" hidden="false" id="b587-63db-70a9-1169" collective="true">
               <infoLinks>
                 <infoLink name="Warlock Power" id="6044-7389-0610-86a3" hidden="false" targetId="6622-8fbf-6aa8-2e1e" type="rule"/>
                 <infoLink name="Jetbike" id="3e5c-7f5e-3c87-f56a" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
@@ -3096,35 +3326,44 @@
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
               </costs>
             </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Every third Guardian Jetbike may replace its shuriken catapult with a single Shuriken Cannon" id="ff22-ccf8-5738-bc69" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Shuriken Cannon" hidden="false" id="10c3-ff7c-e0d0-44c8">
+            <selectionEntry type="model" import="true" name="Jetbike Gunner" hidden="false" id="2a7d-4799-b883-a2ac">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="55"/>
               </costs>
               <infoLinks>
-                <infoLink name="Shuriker Cannon" id="cf58-c9a1-f2b2-ce15" hidden="false" type="profile" targetId="db20-c0b9-7553-8719"/>
+                <infoLink name="Guardian Jetbike" id="bf7a-5d39-782d-9f16" hidden="false" type="profile" targetId="3a0c-d7d6-b338-040b"/>
+                <infoLink name="Shuriker Cannon" id="6134-29fc-e710-b5c3" hidden="false" type="profile" targetId="db20-c0b9-7553-8719"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="b1e4-791c-9432-cc6d" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="self" shared="true" id="ad49-7c3b-bdb6-843f"/>
+            <constraint type="min" value="12" field="selections" scope="self" shared="true" id="e26d-7567-83b1-eaad"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Jetbike" id="9246-6322-e5ea-5355" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
+      </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Shining Spears" hidden="false" id="0ee0-18b5-b41c-de44">
+    <selectionEntry type="unit" import="true" name="Shining Spears" hidden="false" id="0ee0-18b5-b41c-de44">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="01fa-f515-16e3-fd56" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Shining Spear" hidden="false" id="a839-9f1e-3a93-1324">
+            <selectionEntry type="model" import="true" name="Shining Spear" hidden="false" id="a839-9f1e-3a93-1324" defaultAmount="3">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
               </costs>
               <infoLinks>
                 <infoLink name="Shining Spear" id="294d-7125-b687-cbd7" hidden="false" type="profile" targetId="a935-0c9d-2b55-9100"/>
+                <infoLink name="Laser Lance" id="00ef-b04e-9601-1054" hidden="false" type="profile" targetId="4ddc-3656-e72c-087d"/>
+                <infoLink name="Twin-linked Shuriken Catapults" id="a58a-dfbe-0325-33f1" hidden="false" type="profile" targetId="0af5-7e80-fa6a-d979"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Exarch" hidden="false" id="e9d9-a512-809c-707f">
+            <selectionEntry type="model" import="true" name="Exarch" hidden="false" id="e9d9-a512-809c-707f">
               <infoLinks>
                 <infoLink name="Exarch" id="cb21-1cbe-6e4a-b647" hidden="false" type="profile" targetId="4846-9fbc-e26a-0635"/>
               </infoLinks>
@@ -3132,12 +3371,15 @@
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="47"/>
               </costs>
               <selectionEntryGroups>
-                <selectionEntryGroup name="The Exarch may replace his laser lance with the following" id="aac1-a21d-bf7c-ea93" hidden="false">
+                <selectionEntryGroup name="Combat Weapon" id="aac1-a21d-bf7c-ea93" hidden="false" defaultSelectionEntryId="4f00-2867-0420-18ed">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="3540-0427-50a9-c55f">
                       <infoLinks>
                         <infoLink name="Power Weapon" id="d229-2d20-39ac-de64" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="169f-c456-07bf-16b0" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Star Lance" hidden="false" id="fde6-0591-a46e-de91">
                       <costs>
@@ -3146,10 +3388,22 @@
                       <infoLinks>
                         <infoLink name="Star Lance" id="3b91-d91f-87e4-c458" hidden="false" type="profile" targetId="0b55-27fa-718a-2b31"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f6a0-fcf7-cf67-0fe3" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Laser Lance" hidden="false" id="4f00-2867-0420-18ed">
+                      <infoLinks>
+                        <infoLink name="Laser Lance" id="b155-30ca-fc0b-a39a" hidden="false" type="profile" targetId="4ddc-3656-e72c-087d"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d4db-eaa2-b025-5a0e" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="99e3-654e-e494-9f05"/>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="99e3-654e-e494-9f05-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="99e3-654e-e494-9f05-max"/>
                   </constraints>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="The Exarch may be given the following Exarch Powers" id="bfef-9886-ff8b-fd38" hidden="false">
@@ -3178,32 +3432,48 @@
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-              </selectionEntryGroups>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="The Exarch may replace his twin-linked Shuriken Catapult with a Shuriken Cannon" hidden="false" id="cfa7-10f9-5707-ba05">
-                  <infoLinks>
-                    <infoLink name="Shuriker Cannon" id="22e9-98e5-a259-9aa1" hidden="false" type="profile" targetId="db20-c0b9-7553-8719"/>
-                  </infoLinks>
+                <selectionEntryGroup name="Jetbike Weapon" id="9922-1866-aa22-9012" hidden="false" defaultSelectionEntryId="c339-8804-963b-87c6">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Shuriken Cannon" hidden="false" id="cfa7-10f9-5707-ba05">
+                      <infoLinks>
+                        <infoLink name="Shuriker Cannon" id="22e9-98e5-a259-9aa1" hidden="false" type="profile" targetId="db20-c0b9-7553-8719"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="78ce-49dd-d4cb-408a"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin-linked Shuriken Catapults" hidden="false" id="c339-8804-963b-87c6">
+                      <infoLinks>
+                        <infoLink name="Twin-linked Shuriken Catapults" id="f32b-3ae3-5406-e8d2" hidden="false" type="profile" targetId="0af5-7e80-fa6a-d979"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2117-490e-9c3f-48cc" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="78ce-49dd-d4cb-408a"/>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="21dc-1848-1dc2-0d18-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="21dc-1848-1dc2-0d18-max"/>
                   </constraints>
-                </selectionEntry>
-              </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="self" shared="true" id="e24a-39be-648b-a342"/>
+            <constraint type="max" value="5" field="selections" scope="self" shared="true" id="8b61-b59e-8cfa-4591"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Twin-linked Shuriken Catapults" id="e5a1-3789-7035-b3fb" hidden="false" type="profile" targetId="0af5-7e80-fa6a-d979"/>
-        <infoLink name="Laser Lance" id="3c37-33d5-6c5b-179a" hidden="false" type="profile" targetId="4ddc-3656-e72c-087d"/>
         <infoLink name="Jetbike" id="2caa-9b73-be3e-603b" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Warp Spider" hidden="false" id="c09c-c5b0-6839-efb3">
+    <selectionEntry type="unit" import="true" name="Warp Spider" hidden="false" id="c09c-c5b0-6839-efb3">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="7445-3ec7-c131-c9cd" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Warp Spider" hidden="false" id="1dc0-6f78-773f-d2c6">
+            <selectionEntry type="model" import="true" name="Warp Spider" hidden="false" id="1dc0-6f78-773f-d2c6" defaultAmount="5">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="22"/>
               </costs>
@@ -3212,7 +3482,7 @@
                 <infoLink name="Death Spinner" id="467f-fbf1-e3b1-f2b0" hidden="false" type="profile" targetId="ca11-e91e-fabd-caec"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Exarch" hidden="false" id="e8b3-0dff-587f-7424">
+            <selectionEntry type="model" import="true" name="Exarch" hidden="false" id="e8b3-0dff-587f-7424">
               <infoLinks>
                 <infoLink name="Exarch" id="04de-999a-b489-99ec" hidden="false" type="profile" targetId="4846-9fbc-e26a-0635"/>
               </infoLinks>
@@ -3226,6 +3496,9 @@
                       <infoLinks>
                         <infoLink name="Death Spinner" id="2418-09c1-884b-4bdc" hidden="false" type="profile" targetId="ca11-e91e-fabd-caec"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4647-3cfd-f3aa-701a" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Duel Deathspinners" hidden="false" id="056d-d85b-26f8-4c9c">
                       <infoLinks>
@@ -3234,6 +3507,9 @@
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
                       </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1bd9-9d63-1ae5-a316" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Spinneret Rifle" hidden="false" id="a6cc-fd14-637d-68bd">
                       <infoLinks>
@@ -3242,11 +3518,14 @@
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
                       </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e78-82ed-0ed7-b510" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0f8b-a9f2-df29-abd1-min"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f8b-a9f2-df29-abd1-max"/>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="0f8b-a9f2-df29-abd1-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0f8b-a9f2-df29-abd1-max"/>
                   </constraints>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="The Exarch may have the following warrior powers" id="75b6-1fac-bbf6-34cd" hidden="false">
@@ -3304,11 +3583,11 @@
         <infoLink name="Warp Jump Generator" id="13e5-0dd2-5d90-d66f" hidden="false" type="profile" targetId="0ce7-0a3b-08e1-a0d6"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Swooping Hawks" hidden="false" id="2fd5-b8ed-9c87-4bed">
+    <selectionEntry type="unit" import="true" name="Swooping Hawks" hidden="false" id="2fd5-b8ed-9c87-4bed">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="5fa5-fbe7-44e6-bdd7" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Swooping Hawk" hidden="false" id="4241-edb2-13e8-4ed2">
+            <selectionEntry type="model" import="true" name="Swooping Hawk" hidden="false" id="4241-edb2-13e8-4ed2" defaultAmount="5">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="21"/>
               </costs>
@@ -3320,7 +3599,7 @@
                 <infoLink name="Swooping Hawk Grenade Pack" id="88f3-1918-811c-e70e" hidden="false" type="profile" targetId="dbc3-0720-b3e9-7840"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Exarch" hidden="false" id="3f2f-7ddc-0dc5-9713">
+            <selectionEntry type="model" import="true" name="Exarch" hidden="false" id="3f2f-7ddc-0dc5-9713">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="33"/>
               </costs>
@@ -3337,6 +3616,9 @@
                       <infoLinks>
                         <infoLink name="Lasblaster" id="bd05-2972-a7e7-cc5c" hidden="false" type="profile" targetId="b561-cd7e-edfd-59f7"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e8a4-50f2-3bcf-f12c"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Hawk&apos;s Talon" hidden="false" id="b0f6-dd38-4dba-7a07">
                       <costs>
@@ -3345,6 +3627,9 @@
                       <infoLinks>
                         <infoLink name="Hawk&apos;s Talon" id="2db6-447a-9726-5e56" hidden="false" type="profile" targetId="7268-2538-d0f3-01e2"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="92cb-3c76-6018-6f27"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Sunrifle" hidden="false" id="f7d3-689a-acc8-0a50">
                       <costs>
@@ -3353,6 +3638,9 @@
                       <infoLinks>
                         <infoLink name="Sunrifle" id="f731-640b-43da-fedb" hidden="false" type="profile" targetId="50ed-f656-a2d3-3b26"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6340-0314-747a-864c"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -3400,7 +3688,7 @@
         <infoLink name="Jump Infantry" id="102e-7870-4cb5-3425" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Vyper Squadron" hidden="false" id="ab04-160a-37cb-d575">
+    <selectionEntry type="unit" import="true" name="Vyper Squadron" hidden="false" id="ab04-160a-37cb-d575">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Vyper" hidden="false" id="019b-e553-d7a9-0212">
           <costs>
@@ -3410,12 +3698,15 @@
             <infoLink name="Vyper" id="36de-8fb6-2867-3afc" hidden="false" type="profile" targetId="6605-2c0b-296a-10fd"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Hull-weapon" id="c1ac-a348-a82b-b92b" hidden="false">
+            <selectionEntryGroup name="Hull-weapon" id="c1ac-a348-a82b-b92b" hidden="false" defaultSelectionEntryId="ff87-326c-5783-8e4a">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Twin-linked Shuriken Catapults" hidden="false" id="ff87-326c-5783-8e4a">
                   <infoLinks>
                     <infoLink name="Twin-linked Shuriken Catapults" id="60e8-9508-6184-2c8c" hidden="false" type="profile" targetId="0af5-7e80-fa6a-d979"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9652-bb9b-88e1-65b6"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Shuriken Cannon" hidden="false" id="d186-eb9f-b22a-b80a">
                   <costs>
@@ -3424,6 +3715,9 @@
                   <infoLinks>
                     <infoLink name="Shuriker Cannon" id="a9ca-13f7-8853-7605" hidden="false" type="profile" targetId="db20-c0b9-7553-8719"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f2a7-850b-20d8-e42d"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -3431,7 +3725,7 @@
                 <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a234-fb60-6dbe-7c10-max"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Turret" id="6796-01e1-7d3a-2d82" hidden="false">
+            <selectionEntryGroup name="Turret" id="6796-01e1-7d3a-2d82" hidden="false" defaultSelectionEntryId="ec84-fffb-5540-3a7d">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Eldar Missile Launcher" hidden="false" id="6418-0a0a-137b-0a0c">
                   <costs>
@@ -3441,6 +3735,9 @@
                     <infoLink name="Eldar Missile Launcher (Krak)" id="9378-047b-6b10-b34a" hidden="false" type="profile" targetId="87ed-f72d-1883-564a"/>
                     <infoLink name="Eldar Missile Launcher (Plasma)" id="cc2d-76f6-a96a-32f5" hidden="false" type="profile" targetId="c8a4-edd8-ca09-6a37"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="12fc-2b12-14ed-a9ba"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Scatter Laser" hidden="false" id="ec84-fffb-5540-3a7d">
                   <costs>
@@ -3449,6 +3746,10 @@
                   <infoLinks>
                     <infoLink name="Scatter Laser" id="619e-aad1-9dc4-3407" hidden="false" type="profile" targetId="4a05-4111-e207-f688"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ec0-37ca-573f-1338"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="776f-d25c-c85e-e6ad"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Starcannon" hidden="false" id="5865-f9bd-17f3-0b7b">
                   <costs>
@@ -3457,6 +3758,9 @@
                   <infoLinks>
                     <infoLink name="Starcannon" id="0228-63a6-ef17-7fcd" hidden="false" type="profile" targetId="eec3-78b8-1100-fed9"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c4a-d0b4-1cd4-2a8c"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Bright Lance" hidden="false" id="cb3e-b12e-a9a0-f8d8">
                   <costs>
@@ -3465,6 +3769,9 @@
                   <infoLinks>
                     <infoLink name="Bright Lance" id="87cd-28c1-66ff-e1aa" hidden="false" type="profile" targetId="bfd9-6ef3-6072-c0ba"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="175a-1a72-b28e-519a"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -3533,48 +3840,62 @@
         <infoLink name="Fast" id="df4b-feef-7f18-5f56" hidden="false" type="rule" targetId="4d59-8511-a8e5-1f62"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Support Weapon Battery" hidden="false" id="83b0-3654-be53-3db1">
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Loadout (Select equal to number of batteries, entire unit must be armed with the same weapon)" id="0b05-4ca7-809a-72b0" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="D-Cannon" hidden="false" id="cda3-67e3-fcfa-544e">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="D-Cannon" id="1e53-bf94-f3c5-5463" hidden="false" type="profile" targetId="cbaf-c822-680a-c030"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Vibro Cannon" hidden="false" id="eae6-f70e-9e58-7bb3">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Vibro Cannon" id="d502-1ba1-f2b3-c725" hidden="false" type="profile" targetId="42b5-3fa8-fd69-06e5"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Shadow Weaver" hidden="false" id="817a-276f-d10c-fac0">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Shadow Weaver" id="d9a4-cefd-dee5-45d0" hidden="false" type="profile" targetId="97c7-fdb1-31d2-df62"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+    <selectionEntry type="unit" import="true" name="Support Weapon Battery" hidden="false" id="83b0-3654-be53-3db1">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Support Weapon (including two Guardian crew per weapon)" hidden="false" id="e497-ac99-a00c-0e04">
-          <infoLinks>
-            <infoLink name="Guardian" id="fa17-ae6e-abda-bc18" hidden="false" type="profile" targetId="7644-7bd2-1464-8c8b"/>
-            <infoLink name="Guardian" id="6ded-7a5e-eb5a-ad20" hidden="false" type="profile" targetId="7644-7bd2-1464-8c8b"/>
-            <infoLink name="Shuriken Catapult" id="433e-3d19-fe0a-5e7a" hidden="false" type="profile" targetId="4ffa-aab7-f0b3-0b34"/>
-            <infoLink name="Shuriken Catapult" id="7e9d-5bee-3055-1993" hidden="false" type="profile" targetId="4ffa-aab7-f0b3-0b34"/>
-          </infoLinks>
+        <selectionEntry type="model" import="true" name="Support Weapon " hidden="false" id="e497-ac99-a00c-0e04">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
           </costs>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Loadout" id="0b05-4ca7-809a-72b0" hidden="false" defaultSelectionEntryId="817a-276f-d10c-fac0">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="D-Cannon" hidden="false" id="cda3-67e3-fcfa-544e">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="D-Cannon" id="1e53-bf94-f3c5-5463" hidden="false" type="profile" targetId="cbaf-c822-680a-c030"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Vibro Cannon" hidden="false" id="eae6-f70e-9e58-7bb3">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Vibro Cannon" id="d502-1ba1-f2b3-c725" hidden="false" type="profile" targetId="42b5-3fa8-fd69-06e5"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Shadow Weaver" hidden="false" id="817a-276f-d10c-fac0">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Shadow Weaver" id="d9a4-cefd-dee5-45d0" hidden="false" type="profile" targetId="97c7-fdb1-31d2-df62"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="dd9e-104f-92ac-0651-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="dd9e-104f-92ac-0651-max"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Guardian Crew" hidden="false" id="dcc7-db9b-47e6-d2d0" defaultAmount="2">
+              <infoLinks>
+                <infoLink name="Guardian" id="6ded-7a5e-eb5a-ad20" hidden="false" type="profile" targetId="7644-7bd2-1464-8c8b"/>
+                <infoLink name="Shuriken Catapult" id="433e-3d19-fe0a-5e7a" hidden="false" type="profile" targetId="4ffa-aab7-f0b3-0b34"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="a191-8f52-a0a3-035d-min"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a191-8f52-a0a3-035d-max"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f6a0-855f-b530-1bca"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6e1d-9111-2d54-e148"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -3620,6 +3941,9 @@
               <infoLinks>
                 <infoLink name="Conceal" id="e385-d242-8e3a-bb47" hidden="false" targetId="0e7f-1bf2-7bf4-f188" type="profile"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d7b6-bbbb-d908-1cb0" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Destructor" hidden="false" id="2a9b-36a5-972d-e730">
               <costs>
@@ -3628,6 +3952,9 @@
               <infoLinks>
                 <infoLink name="Destructor" id="8d9d-f91d-7eaa-0bf1" hidden="false" targetId="5a25-42f8-99b9-744c" type="profile"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="13d5-47e4-83aa-d5ce" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Embolden" hidden="false" id="56cb-214f-959e-abfb">
               <costs>
@@ -3636,6 +3963,9 @@
               <infoLinks>
                 <infoLink name="Embolden" id="9d5e-84bc-83d4-d461" hidden="false" targetId="9231-7d9c-5717-f72d" type="profile"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a0fb-b080-015a-e079" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Enhance" hidden="false" id="5a05-f5d1-debc-1bd7">
               <costs>
@@ -3644,6 +3974,9 @@
               <infoLinks>
                 <infoLink name="Enhance" id="c27b-d87c-09b2-21ff" hidden="false" targetId="d7ae-b2cd-f69b-41e3" type="profile"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a072-b381-3aca-d04e" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -3659,6 +3992,9 @@
               <infoLinks>
                 <infoLink name="Spiritseet" id="c3e2-728d-2a58-9448" hidden="false" targetId="4eba-d802-81e0-644e" type="profile"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f7f3-3a85-b491-c701" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Upgrade Witchblade to Singing Spear" hidden="false" id="1040-2984-6930-e5a5">
               <costs>
@@ -3667,6 +4003,9 @@
               <infoLinks>
                 <infoLink name="Singing Spear" id="8794-8201-e469-a79f" hidden="false" type="profile" targetId="270c-bcfc-0b28-1be2"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3294-070a-f886-7a78" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Eldar jetbike " hidden="false" id="689e-c88f-7fb0-ceec">
               <costs>
@@ -3675,16 +4014,19 @@
               <infoLinks>
                 <infoLink name="Jetbike" id="1f7f-a4ae-4731-9d41" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="482c-2f48-615d-0e90" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Dark Reapers" hidden="false" id="24ad-3cda-3c7a-c95a">
+    <selectionEntry type="unit" import="true" name="Dark Reapers" hidden="false" id="24ad-3cda-3c7a-c95a">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="7c7d-3b24-67fd-3476" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Dark Reaper" hidden="false" id="1434-956c-4562-024d">
+            <selectionEntry type="model" import="true" name="Dark Reaper" hidden="false" id="1434-956c-4562-024d" defaultAmount="3">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
               </costs>
@@ -3693,7 +4035,7 @@
                 <infoLink name="Reaper Launcher" id="9d4e-7ced-fdaf-408b" hidden="false" type="profile" targetId="a5d6-2485-f9a2-8a8e"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Exarch" hidden="false" id="65b9-deaf-fb28-5432">
+            <selectionEntry type="model" import="true" name="Exarch" hidden="false" id="65b9-deaf-fb28-5432">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="47"/>
               </costs>
@@ -3710,11 +4052,17 @@
                       <infoLinks>
                         <infoLink name="Reaper Launcher" id="85c5-922e-58e6-4c69" hidden="false" type="profile" targetId="a5d6-2485-f9a2-8a8e"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9cda-3f1f-ffee-fe01" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Shuriken Cannon" hidden="false" id="d133-c58c-2353-9d0f">
                       <infoLinks>
                         <infoLink name="Shuriker Cannon" id="bd1f-aa02-5ea5-188f" hidden="false" type="profile" targetId="db20-c0b9-7553-8719"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dcec-b83a-5ced-9035" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Eldar Missile Launcher" hidden="false" id="a1c0-56ff-73da-28ea">
                       <costs>
@@ -3724,6 +4072,9 @@
                         <infoLink name="Eldar Missile Launcher (Krak)" id="c1d4-7c8b-1578-f1d4" hidden="false" type="profile" targetId="87ed-f72d-1883-564a"/>
                         <infoLink name="Eldar Missile Launcher (Plasma)" id="a03c-55aa-45ca-6382" hidden="false" type="profile" targetId="c8a4-edd8-ca09-6a37"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70f2-eee9-dad2-0d4b" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Tempest Launcher" hidden="false" id="89bd-9c77-6c7b-08a4">
                       <costs>
@@ -3732,6 +4083,9 @@
                       <infoLinks>
                         <infoLink name="Tempest Launcher" id="87a7-d164-f9c2-ed8e" hidden="false" type="profile" targetId="d7cd-6da1-dcf2-33aa"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f79-23b7-71a4-eb8a" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -3749,7 +4103,7 @@
                         <infoLink name="Fast Shot" id="1fed-0bc5-415d-74e9" hidden="false" type="profile" targetId="1e50-f4b0-d60a-6158"/>
                       </infoLinks>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9edf-759b-80e5-8c84"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ab6-1ef5-cf6d-c0d8" includeChildSelections="false"/>
                       </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Crack Shot" hidden="false" id="9de2-b145-f9f0-b6c4">
@@ -3782,7 +4136,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Wraithlord" hidden="false" id="4b93-3a46-eaf1-565b">
+    <selectionEntry type="unit" import="true" name="Wraithlord" hidden="false" id="4b93-3a46-eaf1-565b">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="90"/>
       </costs>
@@ -3793,7 +4147,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Arm Weapons (If a duplicate is chosen, they count as a single twin-linked weapon)" id="bf03-fd19-d4d1-f4e7" hidden="false" defaultSelectionEntryId="6c61-05a6-e93e-ea10">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Shuriken Catapult" hidden="false" id="6c61-05a6-e93e-ea10">
+            <selectionEntry type="upgrade" import="true" name="Shuriken Catapult" hidden="false" id="6c61-05a6-e93e-ea10" defaultAmount="2">
               <infoLinks>
                 <infoLink name="Shuriken Catapult" id="32a7-ab52-0730-6c4b" hidden="false" type="profile" targetId="4ffa-aab7-f0b3-0b34"/>
               </infoLinks>
@@ -3809,7 +4163,7 @@
             <constraint type="max" value="2" field="selections" scope="self" shared="true" id="b6b5-0fdb-e04f-a109-max"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Shoulder Cannons (if a duplicate is chosen, it counts as a single twin-linked weapon)" id="9589-e4fc-93d4-f8d6" hidden="false">
+        <selectionEntryGroup name="Shoulder Cannons (if a duplicate is chosen, it counts as a single twin-linked weapon)" id="9589-e4fc-93d4-f8d6" hidden="false" defaultSelectionEntryId="e082-04e7-5618-394d">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Starcannon" hidden="false" id="162c-9be8-a872-4d32">
               <costs>
@@ -3935,14 +4289,19 @@
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="The Entire Squadron can be upgraded with Spirit Stones (select per model)" hidden="false" id="8e71-b9b0-3b7d-6040">
-          <infoLinks>
-            <infoLink name="Spirit Stones (Vehicle)" id="76ec-0d81-a0bd-3c59" hidden="false" type="profile" targetId="3933-2c64-aa15-2cbd"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6a18-ed4a-80a7-6ed5"/>
-          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Spirit Stones" hidden="false" id="c017-96b1-cd40-64e4">
+              <infoLinks>
+                <infoLink name="Spirit Stones (Vehicle)" id="aa11-13fa-3d46-696a" hidden="false" type="profile" targetId="3933-2c64-aa15-2cbd"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3830-2b63-dea2-c43c"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -3950,7 +4309,7 @@
         <infoLink name="Scouts" id="8f47-96db-dd2d-a907" hidden="false" type="profile" targetId="e289-1576-b63b-c142"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Falcon" hidden="false" id="6169-c675-6c0b-f321">
+    <selectionEntry type="unit" import="true" name="Falcon" hidden="false" id="6169-c675-6c0b-f321">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="115"/>
       </costs>
@@ -3968,6 +4327,10 @@
               <infoLinks>
                 <infoLink name="Twin-linked Shuriken Catapults" id="4959-0947-41ab-53f9" hidden="false" type="profile" targetId="0af5-7e80-fa6a-d979"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c603-e21a-a6e3-4c25" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e898-f221-a2c3-f103" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Shuriken Cannon" hidden="false" id="7271-0e73-b02e-b58e">
               <infoLinks>
@@ -3976,6 +4339,9 @@
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="390d-a9c6-2696-aefc" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -3992,6 +4358,9 @@
               <infoLinks>
                 <infoLink name="Shuriker Cannon" id="4186-b08f-d10a-9103" hidden="false" type="profile" targetId="db20-c0b9-7553-8719"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="55dc-0e9c-34e8-ed9d" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Scatter Laser" hidden="false" id="f325-a3df-dbf7-6cdf">
               <costs>
@@ -4000,6 +4369,9 @@
               <infoLinks>
                 <infoLink name="Scatter Laser" id="0a6a-509e-a6a8-e21c" hidden="false" type="profile" targetId="4a05-4111-e207-f688"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef52-338d-3a3b-66a0" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Eldar Missile Launcher" hidden="false" id="d20e-1508-c280-1ce2">
               <costs>
@@ -4009,6 +4381,10 @@
                 <infoLink name="Eldar Missile Launcher (Krak)" id="10b9-315d-4a4a-ca89" hidden="false" type="profile" targetId="87ed-f72d-1883-564a"/>
                 <infoLink name="Eldar Missile Launcher (Plasma)" id="9f66-b1e6-9f59-b025" hidden="false" type="profile" targetId="c8a4-edd8-ca09-6a37"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a92-3b5b-f54b-16b3" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6e0-8b0f-a14e-72a8" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Starcannon" hidden="false" id="2f81-1e01-511d-4c43">
               <costs>
@@ -4017,6 +4393,9 @@
               <infoLinks>
                 <infoLink name="Starcannon" id="fd32-f858-fd48-2828" hidden="false" type="profile" targetId="eec3-78b8-1100-fed9"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b62-0c24-36ba-ebcd" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Bright Lance" hidden="false" id="eb98-33bd-34a5-7259">
               <costs>
@@ -4025,6 +4404,9 @@
               <infoLinks>
                 <infoLink name="Bright Lance" id="ee77-f12e-c349-a158" hidden="false" type="profile" targetId="bfd9-6ef3-6072-c0ba"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e35f-c351-9e92-94db" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -4046,7 +4428,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Fire Prism" hidden="false" id="5dea-c7ec-51fb-cde3">
+    <selectionEntry type="unit" import="true" name="Fire Prism" hidden="false" id="5dea-c7ec-51fb-cde3">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="115"/>
       </costs>
@@ -4057,6 +4439,9 @@
               <infoLinks>
                 <infoLink name="Twin-linked Shuriken Catapults" id="1f5f-60f5-5288-7805" hidden="false" type="profile" targetId="0af5-7e80-fa6a-d979"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="85c9-4c05-1dd0-0929"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Shuriken Cannon" hidden="false" id="d5fa-49de-aa67-4b0b">
               <infoLinks>
@@ -4065,6 +4450,9 @@
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="168e-fa17-1830-f669"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>

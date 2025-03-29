@@ -11,7 +11,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">D6</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Bloodletter of Khorne" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="4f61-bc0e-9008-306e">
@@ -24,7 +24,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Bloodcrusher of Khorne" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="f226-565e-c7ca-85b2">
@@ -37,7 +37,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Bloodthirster" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="2309-46ce-2284-0421">
@@ -50,7 +50,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">5</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="The Blue Scribes" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="9068-1656-dcc0-59b8">
@@ -63,7 +63,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="The Changeling" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="4e20-e97a-a16b-5d8d">
@@ -76,7 +76,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Daemon Prince" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="c119-66af-3195-2bd4">
@@ -89,7 +89,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Daemonette of Slaanesh" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="0bb5-6050-fb2c-48bc">
@@ -102,7 +102,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Epidemius" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e7aa-dbdf-d3b7-5f57">
@@ -115,7 +115,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Fateweaver" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="2087-f9c8-44e5-7a3b">
@@ -128,7 +128,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Fiend of Slaanesh" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="8276-1fc6-461f-923e">
@@ -141,7 +141,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">5</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Flamer of Tzeentch" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e2e5-5850-01f7-70e5">
@@ -154,7 +154,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Flesh Hound of Khorne" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="a94f-1416-7e88-73e2">
@@ -167,7 +167,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Fury of Chaos" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="abe0-e81b-0e26-c82b">
@@ -180,7 +180,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Great Unclean One" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="0379-b928-b905-7d11">
@@ -193,7 +193,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Herald of Khorne" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="daf5-0027-6b1b-b4ff">
@@ -206,7 +206,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Herald of Nurgle" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="ded6-40b1-d668-4de4">
@@ -219,7 +219,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Herald of Slaanesh" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="afa8-6bbe-1fa9-5c54">
@@ -232,7 +232,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">7</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Herald of Tzeentch" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="2e85-ad7d-efd2-b472">
@@ -245,7 +245,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Karanak" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="419f-5b0d-5294-e7e9">
@@ -258,7 +258,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Keeper of Secrets" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="3739-b485-413d-fbb1">
@@ -271,7 +271,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">10</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">6</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Ku&apos;gath" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="35e0-3c9d-085b-43a5">
@@ -284,7 +284,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">5</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Lord of Change" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="5302-23ba-69f8-86c4">
@@ -297,7 +297,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="The Masque" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e5d6-733c-fcae-52a2">
@@ -310,7 +310,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">7</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Nurglings" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="8a02-d4e4-527b-f707">
@@ -323,7 +323,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Pink Horror of Tzeentch" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="95d1-a9f2-e07d-e6bf">
@@ -336,7 +336,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Plaguebearer of Nurgle" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="36b7-8b53-cae1-cf7f">
@@ -349,7 +349,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">2</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Screamer of Tzeentch" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="959b-e6bd-0b35-5239">
@@ -362,7 +362,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Seeker of Slaanesh" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="0370-3644-6bb1-cde5">
@@ -375,7 +375,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Skarbrand" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="0d7e-efe7-4e26-541d">
@@ -388,7 +388,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">6</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Skulltaker" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="94d6-56ff-ef0e-d9d8">
@@ -401,7 +401,7 @@
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+*</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+ Invulnerable</characteristic>
       </characteristics>
     </profile>
     <profile name="Soul Grinder" typeId="acd3-2539-3641-1250" typeName="Walker Vehicle" hidden="false" id="025c-4591-78ec-76cd">
@@ -663,7 +663,7 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
     </profileType>
   </profileTypes>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Ku&apos;gath, The Plaguefather" hidden="false" id="473f-098f-09ac-d246">
+    <selectionEntry type="unit" import="true" name="Ku&apos;gath, The Plaguefather" hidden="false" id="473f-098f-09ac-d246">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="300"/>
       </costs>
@@ -700,7 +700,7 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="645e-376b-38b5-3ea6" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Fateweaver, Oracle of Tzeentch" hidden="false" id="efc9-6d6a-bfd2-0336">
+    <selectionEntry type="unit" import="true" name="Fateweaver, Oracle of Tzeentch" hidden="false" id="efc9-6d6a-bfd2-0336">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="333"/>
       </costs>
@@ -731,7 +731,7 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a9cb-ed71-e87a-fa70" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Skarbrand, The Exiled One" hidden="false" id="008d-c557-ade8-4acc">
+    <selectionEntry type="unit" import="true" name="Skarbrand, The Exiled One" hidden="false" id="008d-c557-ade8-4acc">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="300"/>
       </costs>
@@ -758,7 +758,7 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1c19-d9db-7117-4e79" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Keeper of Secrets" hidden="false" id="0fb4-23c3-dd5c-ece6">
+    <selectionEntry type="unit" import="true" name="Keeper of Secrets" hidden="false" id="0fb4-23c3-dd5c-ece6">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="200"/>
       </costs>
@@ -844,7 +844,7 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Great Unclean One" hidden="false" id="2af2-be4b-fe2f-e6b5">
+    <selectionEntry type="unit" import="true" name="Great Unclean One" hidden="false" id="2af2-be4b-fe2f-e6b5">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="160"/>
       </costs>
@@ -920,7 +920,7 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Bloodthirster" hidden="false" id="3564-b4f1-0fb6-8e83">
+    <selectionEntry type="unit" import="true" name="Bloodthirster" hidden="false" id="3564-b4f1-0fb6-8e83">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="250"/>
       </costs>
@@ -985,7 +985,7 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Lord of Change" hidden="false" id="b7b0-8dd2-1bdc-f3b7">
+    <selectionEntry type="unit" import="true" name="Lord of Change" hidden="false" id="b7b0-8dd2-1bdc-f3b7">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="250"/>
       </costs>
@@ -1062,7 +1062,7 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="The Masque" hidden="false" id="e02c-c263-1ffe-466e">
+    <selectionEntry type="unit" import="true" name="The Masque" hidden="false" id="e02c-c263-1ffe-466e">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="100"/>
       </costs>
@@ -1090,7 +1090,7 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Epidemius" hidden="false" id="7689-80cf-9db2-eca3">
+    <selectionEntry type="unit" import="true" name="Epidemius" hidden="false" id="7689-80cf-9db2-eca3">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="110"/>
       </costs>
@@ -1132,7 +1132,7 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3784-bd8e-3f99-91e4" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="The Blue Scribes" hidden="false" id="c270-6b6c-f9b2-e072">
+    <selectionEntry type="unit" import="true" name="The Blue Scribes" hidden="false" id="c270-6b6c-f9b2-e072">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="130"/>
       </costs>
@@ -1163,7 +1163,7 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="f51a-6ae1-cdd9-8c25" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Skulltaker" hidden="false" id="82d3-c778-d921-5a80">
+    <selectionEntry type="unit" import="true" name="Skulltaker" hidden="false" id="82d3-c778-d921-5a80">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="140"/>
       </costs>
@@ -1215,7 +1215,7 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="26e4-d1be-d1a4-c6b6" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Herald of Khorne" hidden="false" id="576d-19c4-69f5-1f82">
+    <selectionEntry type="unit" import="true" name="Herald of Khorne" hidden="false" id="576d-19c4-69f5-1f82">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="70"/>
       </costs>
@@ -1333,7 +1333,7 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Herald of Tzeentch" hidden="false" id="f217-dcf7-625c-d28f">
+    <selectionEntry type="unit" import="true" name="Herald of Tzeentch" hidden="false" id="f217-dcf7-625c-d28f">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
       </costs>
@@ -1461,7 +1461,7 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Herald of Nurgle" hidden="false" id="128f-fc97-cff7-8720">
+    <selectionEntry type="unit" import="true" name="Herald of Nurgle" hidden="false" id="128f-fc97-cff7-8720">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
       </costs>
@@ -1564,7 +1564,7 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Herald of Slaanesh" hidden="false" id="9b4d-eddb-e4a2-2ed8">
+    <selectionEntry type="unit" import="true" name="Herald of Slaanesh" hidden="false" id="9b4d-eddb-e4a2-2ed8">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
       </costs>
@@ -1699,9 +1699,9 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
         <constraint type="min" value="1" field="selections" scope="self" shared="true" id="1dbc-934b-ae00-54ec"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Fiends of Slaanesh" hidden="false" id="f152-e958-6523-fd45">
+    <selectionEntry type="unit" import="true" name="Fiends of Slaanesh" hidden="false" id="f152-e958-6523-fd45">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Fiend" hidden="false" id="7f96-78e9-950c-a1fd">
+        <selectionEntry type="unit" import="true" name="Fiend" hidden="false" id="7f96-78e9-950c-a1fd">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
           </costs>
@@ -1733,9 +1733,9 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
         <entryLink import="true" name="Daemon" hidden="false" id="3f82-409f-9e90-4669" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Flamers of Tzeentch" hidden="false" id="9d56-9384-95f1-3ef7">
+    <selectionEntry type="unit" import="true" name="Flamers of Tzeentch" hidden="false" id="9d56-9384-95f1-3ef7">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="60fa-bfd7-58f9-6112">
+        <selectionEntry type="model" import="true" name="Flamer" hidden="false" id="60fa-bfd7-58f9-6112">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
           </costs>
@@ -1768,7 +1768,7 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
         <entryLink import="true" name="Daemon" hidden="false" id="5f12-15b3-5e05-47c7" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Bloodcrushers of Khorne" hidden="false" id="9ff3-6c78-69c9-20a8">
+    <selectionEntry type="unit" import="true" name="Bloodcrushers of Khorne" hidden="false" id="9ff3-6c78-69c9-20a8">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Bloodcrusher" hidden="false" id="a3d5-7ae6-afea-0f1b">
           <costs>
@@ -1831,7 +1831,7 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Beasts of Nurgle" hidden="false" id="2c91-d8fd-ba93-e634">
+    <selectionEntry type="unit" import="true" name="Beasts of Nurgle" hidden="false" id="2c91-d8fd-ba93-e634">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Beast" hidden="false" id="246e-7be8-8a1b-69d9">
           <costs>
@@ -1872,9 +1872,9 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Bloodletters of Khorne" hidden="false" id="3c0e-73e3-7b32-1dea">
+    <selectionEntry type="unit" import="true" name="Bloodletters of Khorne" hidden="false" id="3c0e-73e3-7b32-1dea">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Bloodletters" hidden="false" id="b2ee-1e77-7c33-9b7e">
+        <selectionEntry type="model" import="true" name="Bloodletters" hidden="false" id="b2ee-1e77-7c33-9b7e">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="16"/>
           </costs>
@@ -1934,9 +1934,9 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Daemonettes of Slaanesh" hidden="false" id="d0b7-b134-9bad-a60d">
+    <selectionEntry type="unit" import="true" name="Daemonettes of Slaanesh" hidden="false" id="d0b7-b134-9bad-a60d">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Daemonettes" hidden="false" id="b8d6-4b08-59b2-4465">
+        <selectionEntry type="model" import="true" name="Daemonettes" hidden="false" id="b8d6-4b08-59b2-4465">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="14"/>
           </costs>
@@ -1994,9 +1994,9 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Plaguebearers of Nurgle" hidden="false" id="3eef-7c8c-2627-2961">
+    <selectionEntry type="unit" import="true" name="Plaguebearers of Nurgle" hidden="false" id="3eef-7c8c-2627-2961">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Plaguebearer" hidden="false" id="2200-7287-a3ee-d97a">
+        <selectionEntry type="model" import="true" name="Plaguebearer" hidden="false" id="2200-7287-a3ee-d97a">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
           </costs>
@@ -2054,7 +2054,7 @@ If the Daemon is an Independent Character and joins a unit, it can choose differ
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Pink Horrors of Tzeentch" hidden="false" id="d63f-550f-14d3-8d4d">
+    <selectionEntry type="unit" import="true" name="Pink Horrors of Tzeentch" hidden="false" id="d63f-550f-14d3-8d4d">
       <infoLinks>
         <infoLink name="Warpfire" id="96df-2cd8-cb76-60c4" hidden="false" type="profile" targetId="9d60-d031-d9f4-23d8"/>
       </infoLinks>
@@ -2139,7 +2139,7 @@ If the test is failed, the unit must immediately fire all its weapons (no holdin
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Nurglings" hidden="false" id="4435-8c54-602e-a018">
+    <selectionEntry type="unit" import="true" name="Nurglings" hidden="false" id="4435-8c54-602e-a018">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Nurglings" hidden="false" id="81f9-4cda-0b22-4c97">
           <costs>
@@ -2161,7 +2161,7 @@ If the test is failed, the unit must immediately fire all its weapons (no holdin
         <entryLink import="true" name="Daemon" hidden="false" id="1e95-c527-88be-adb0" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Flesh Hounds of Khorne" hidden="false" id="051d-75cb-8720-0ac4">
+    <selectionEntry type="unit" import="true" name="Flesh Hounds of Khorne" hidden="false" id="051d-75cb-8720-0ac4">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Gift one model with Fury of Khorne" hidden="false" id="383d-0237-560a-2048">
           <costs>
@@ -2186,7 +2186,7 @@ If the test is failed, the unit must immediately fire all its weapons (no holdin
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Karanak, Hound of Vengeance" hidden="false" id="98a1-0cc6-418c-8c64">
+            <selectionEntry type="model" import="true" name="Karanak, Hound of Vengeance" hidden="false" id="98a1-0cc6-418c-8c64">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
               </costs>
@@ -2220,9 +2220,9 @@ If the test is failed, the unit must immediately fire all its weapons (no holdin
         <entryLink import="true" name="Daemon" hidden="false" id="fbbc-0cbd-caf1-7012" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Seekers of Slaanesh" hidden="false" id="1c6b-f649-9d1b-b82a">
+    <selectionEntry type="unit" import="true" name="Seekers of Slaanesh" hidden="false" id="1c6b-f649-9d1b-b82a">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Seekers" hidden="false" id="e1ac-3b1d-007e-2e9d">
+        <selectionEntry type="model" import="true" name="Seekers" hidden="false" id="e1ac-3b1d-007e-2e9d">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="17"/>
           </costs>
@@ -2280,9 +2280,9 @@ If the test is failed, the unit must immediately fire all its weapons (no holdin
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Screamers of Tzeentch" hidden="false" id="c106-db98-302a-747b">
+    <selectionEntry type="unit" import="true" name="Screamers of Tzeentch" hidden="false" id="c106-db98-302a-747b">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Screamers" hidden="false" id="7d43-8471-b5c0-4533">
+        <selectionEntry type="model" import="true" name="Screamers" hidden="false" id="7d43-8471-b5c0-4533">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="16"/>
           </costs>
@@ -2320,9 +2320,9 @@ If the test is failed, the unit must immediately fire all its weapons (no holdin
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Furies of Chaos" hidden="false" id="eeb8-1bab-1973-8e15">
+    <selectionEntry type="unit" import="true" name="Furies of Chaos" hidden="false" id="eeb8-1bab-1973-8e15">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Fury" hidden="false" id="fd79-1c03-fd0c-665d">
+        <selectionEntry type="model" import="true" name="Fury" hidden="false" id="fd79-1c03-fd0c-665d">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="16"/>
           </costs>
@@ -2342,7 +2342,7 @@ If the test is failed, the unit must immediately fire all its weapons (no holdin
         <entryLink import="true" name="Daemon" hidden="false" id="fc6b-2eae-07dd-fb49" type="selectionEntryGroup" targetId="0adb-8c2e-bb6b-0b48"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Soul Grinder of Chaos" hidden="false" id="387c-9b21-a095-3062">
+    <selectionEntry type="unit" import="true" name="Soul Grinder of Chaos" hidden="false" id="387c-9b21-a095-3062">
       <infoLinks>
         <infoLink name="Soul Grinder" id="3f34-f442-9fce-28d5" hidden="false" type="profile" targetId="025c-4591-78ec-76cd"/>
         <infoLink name="Walker" id="0d42-aa7e-9761-0184" hidden="false" type="rule" targetId="fea1-2c4a-c33c-5600"/>
@@ -2421,7 +2421,7 @@ If the test is failed, the unit must immediately fire all its weapons (no holdin
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Daemon Prince of Chaos" hidden="false" id="5890-0cc9-1f81-961c">
+    <selectionEntry type="unit" import="true" name="Daemon Prince of Chaos" hidden="false" id="5890-0cc9-1f81-961c">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="80"/>
       </costs>

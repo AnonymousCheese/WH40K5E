@@ -827,7 +827,7 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Abaddon the Despoiler" hidden="false" id="71cf-98df-61ce-bfe0">
+    <selectionEntry type="unit" import="true" name="Abaddon the Despoiler" hidden="false" id="71cf-98df-61ce-bfe0">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="275"/>
       </costs>
@@ -1072,6 +1072,9 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
               <infoLinks>
                 <infoLink name="Mark of Khorne" id="764a-0390-1ac5-36bd" hidden="false" type="profile" targetId="54e8-b1c8-2d9c-b264"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="97e6-c06e-14ad-6de2" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Mark of Slaanesh" hidden="false" id="e36b-5a00-b61b-7711">
               <costs>
@@ -1080,6 +1083,10 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
               <infoLinks>
                 <infoLink name="Mark of Slaanesh" id="8278-4374-956d-9854" hidden="false" type="profile" targetId="0682-af00-f4b4-e49c"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="25ec-1679-5a14-b1dd" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8aac-0e10-c352-ae7b" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Mark of Nurgle" hidden="false" id="7f8b-de4f-2cb8-e879">
               <costs>
@@ -1088,6 +1095,9 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
               <infoLinks>
                 <infoLink name="Mark of Nurgle" id="e233-d1ff-0a61-7607" hidden="false" type="profile" targetId="5920-fd24-ceda-39ee"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1cea-9b73-0d3a-5993" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Mark of Tzeentch" hidden="false" id="acb3-a7bc-1bc9-060b">
               <costs>
@@ -1096,6 +1106,9 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
               <infoLinks>
                 <infoLink name="Mark of Tzeentch" id="015e-52f0-1305-7c27" hidden="false" type="profile" targetId="d2e7-0507-e479-a0c6"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f072-1152-b2bc-7287" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1409,7 +1422,7 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Daemon Weapon" hidden="false" id="47cc-6cf7-39d2-838e">
+    <selectionEntry type="unit" import="true" name="Daemon Weapon" hidden="false" id="47cc-6cf7-39d2-838e">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
       </costs>
@@ -1424,6 +1437,9 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
                   </characteristics>
                 </profile>
               </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f483-84a1-7ae9-8b26" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Bloodfeeder (Mark of Khorne)" hidden="false" id="fc41-fcab-d622-cb2e">
               <profiles>
@@ -1433,6 +1449,9 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
                   </characteristics>
                 </profile>
               </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a1ab-df9f-faea-4813" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Plaguebringer (Mark of Nurgle)" hidden="false" id="3eaf-808b-a4b5-86cb">
               <profiles>
@@ -1442,6 +1461,9 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
                   </characteristics>
                 </profile>
               </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c093-3c16-0cca-0d9d" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Deathscreamer (Mark of Tzeentch)" hidden="false" id="84bd-de7e-a54e-9c75">
               <profiles>
@@ -1455,6 +1477,9 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
                   </characteristics>
                 </profile>
               </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da0f-e6ab-45c0-b71e" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Blissgiver (Mark of Slaanesh)" hidden="false" id="7b4e-2041-7574-bea3">
               <profiles>
@@ -1464,6 +1489,9 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
                   </characteristics>
                 </profile>
               </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd8f-25a2-f634-55a1" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1663,6 +1691,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Bolt Pistol" id="a4ed-2082-12aa-f75b" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f984-daf7-c39a-97e0" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="dfe7-1ad5-70fe-64a7">
               <costs>
@@ -1671,6 +1702,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Plasma Pistol" id="107e-6163-6799-e70a" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b73c-cfe2-1271-0911" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1773,6 +1807,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                 <infoLink name="Jump Infantry" id="8aba-16aa-6d2b-28bc" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
                 <infoLink name="Deep Strike" id="6048-3c5b-23aa-79ec" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b8ce-d525-9a9d-ade8" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Bike" hidden="false" id="fea8-a580-5d8a-f496">
               <costs>
@@ -1781,6 +1818,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Bike" id="d64e-317e-cd4d-fac9" hidden="false" targetId="3326-67e1-a5e9-b3e7" type="rule"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab09-48b8-d922-95ac" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Demonic Steed" hidden="false" id="f2c5-b494-e234-5732">
               <costs>
@@ -1791,21 +1831,33 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                   <infoLinks>
                     <infoLink name="Disc of Tzeentch" id="1a72-3d6a-4b70-c031" hidden="false" type="profile" targetId="9f73-e7ed-37c0-9531"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="50c2-fb24-86d1-287f" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Mount of Slaanesh" hidden="false" id="e65b-375c-92b4-5e42">
                   <infoLinks>
                     <infoLink name="Mount of Slaanesh" id="f977-2227-1e30-9725" hidden="false" type="profile" targetId="8935-d9d6-00bf-d2cc"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="53a0-c2c1-ddd5-9d77" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Juggernaut of Khorne" hidden="false" id="e8cd-a378-2ac7-1b29">
                   <infoLinks>
                     <infoLink name="Juggernaut of Khorne" id="8dca-9d1d-2eb4-2bbc" hidden="false" type="profile" targetId="b81c-d049-8385-dbb2"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c6b-1ce3-acde-b67e" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Palanquin of Nurgle" hidden="false" id="0cfb-1d47-6dab-eb94">
                   <infoLinks>
                     <infoLink name="Palanquin of Nurgle" id="e295-2e95-bfdf-9aa6" hidden="false" type="profile" targetId="23b6-cf6b-d5a0-ed40"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f4d5-5a56-6775-14d5" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -1865,6 +1917,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Mark of Slaanesh" id="d02b-a699-ead8-33b1" hidden="false" type="profile" targetId="0682-af00-f4b4-e49c"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0230-1dc8-05dc-6997" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Mark of Nurgle" hidden="false" id="e898-55e1-f70d-2ea6">
               <costs>
@@ -1873,6 +1928,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Mark of Nurgle" id="a1c7-568e-8c5c-7653" hidden="false" type="profile" targetId="5920-fd24-ceda-39ee"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a9d-69da-5d1c-e5aa" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Mark of Tzeentch" hidden="false" id="13a2-6194-c2eb-fc94">
               <costs>
@@ -1881,6 +1939,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Mark of Tzeentch" id="d971-808f-8094-d935" hidden="false" type="profile" targetId="d2e7-0507-e479-a0c6"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="588b-a464-e2fa-b5c5" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -2075,7 +2136,6 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                 <infoLink name="Mark of Tzeentch" id="05c3-f9f7-c8e4-b931" hidden="false" type="profile" targetId="d2e7-0507-e479-a0c6"/>
               </infoLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84ae-a4a6-0fba-0634"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b16-4a4f-81cb-76d9"/>
               </constraints>
             </selectionEntry>
@@ -2090,14 +2150,13 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="97fa-3050-1307-0f13" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Chosen" hidden="false" id="f66c-eabe-131f-a4ea" defaultAmount="5">
+            <selectionEntry type="model" import="true" name="Chosen" hidden="false" id="f66c-eabe-131f-a4ea" defaultAmount="5">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="18"/>
               </costs>
               <infoLinks>
                 <infoLink name="Chosen" id="5b34-efd8-ffdf-5aa0" hidden="false" type="profile" targetId="3f62-1dc8-61ef-3f99"/>
                 <infoLink name="Bolt Pistol" id="296a-2b5c-9385-3ece" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
-                <infoLink name="Bolt Pistol" id="2fad-7dea-399d-f79b" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
                 <infoLink name="Boltgun" id="252b-2d43-7875-8531" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
                 <infoLink name="Close-Combat Weapon" id="0ff7-4a05-b891-e8d0" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
               </infoLinks>
@@ -2115,7 +2174,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Aspiring Champion" hidden="false" id="bc3d-9af9-7977-79d7">
+            <selectionEntry type="model" import="true" name="Aspiring Champion" hidden="false" id="bc3d-9af9-7977-79d7">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="28"/>
               </costs>
@@ -2580,6 +2639,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Twin-linked Bolter" id="b88f-fcd9-c2ba-6897" hidden="false" type="profile" targetId="0f1a-e452-e74a-284a"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8eb4-dc93-5c15-7d55" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Havoc Launcher" hidden="false" id="19d6-bfcc-63a3-41e7">
               <costs>
@@ -2588,6 +2650,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Havoc Launcher" id="1c5a-bc7a-c152-28c3" hidden="false" type="profile" targetId="71c2-459a-7168-82f6"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd28-aae4-5634-1864" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -2595,6 +2660,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9766-b5f1-6cab-fd1f" includeChildSelections="false"/>
+              </constraints>
             </entryLink>
           </entryLinks>
           <constraints>
@@ -2933,6 +3001,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Daemonic Possession" id="4e36-4eb6-e093-0c29" hidden="false" type="profile" targetId="c1cd-1ebd-4c99-023e"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3213-4197-37ce-bcc0" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Dirge Caster" hidden="false" id="a14c-fe6a-bd88-584f">
               <costs>
@@ -2956,6 +3027,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                   <infoLinks>
                     <infoLink name="Twin-linked Bolter" id="06dc-8931-deb9-d97c" hidden="false" type="profile" targetId="0f1a-e452-e74a-284a"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dfe7-71ff-0d3b-895f" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Havoc Launcher" hidden="false" id="d194-9cc6-7bca-0132">
                   <costs>
@@ -2964,6 +3038,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                   <infoLinks>
                     <infoLink name="Havoc Launcher" id="50c5-5696-1f74-2b2a" hidden="false" type="profile" targetId="71c2-459a-7168-82f6"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70a0-89e5-59f2-2f6f" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
@@ -2971,6 +3048,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                   <costs>
                     <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
                   </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="87f0-4a85-0e4f-784e" includeChildSelections="false"/>
+                  </constraints>
                 </entryLink>
               </entryLinks>
               <constraints>
@@ -2985,7 +3065,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="1db1-fc17-2866-a14a" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Possessed" hidden="false" id="36f9-a5ca-62cb-dce8">
+            <selectionEntry type="model" import="true" name="Possessed" hidden="false" id="36f9-a5ca-62cb-dce8" defaultAmount="5">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="26"/>
               </costs>
@@ -2993,7 +3073,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                 <infoLink targetId="8acc-be14-61df-dd08" id="3836-763e-2f61-5ff1" type="profile" name="Possessed" hidden="false"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Possessed Champion" hidden="false" id="fd3b-38df-9866-69f5">
+            <selectionEntry type="model" import="true" name="Possessed Champion" hidden="false" id="fd3b-38df-9866-69f5">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="36"/>
               </costs>
@@ -3019,6 +3099,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Icon of Chaos Glory" id="5a0c-5f35-fb48-0791" hidden="false" type="profile" targetId="f270-0328-367a-29cf"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9156-976f-7ea5-2174" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Slaanesh" hidden="false" id="2853-e914-9abb-8a74">
               <costs>
@@ -3027,6 +3110,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Icon of Slaanesh" id="b80c-2f46-b394-052c" hidden="false" type="profile" targetId="c7de-2c6d-4bb9-fae9"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e71b-184d-707a-86fa" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Khorne" hidden="false" id="e6e3-762b-a577-0304">
               <costs>
@@ -3035,6 +3121,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Icon of Khorne" id="5b4b-ea51-1802-0435" hidden="false" type="profile" targetId="643c-3bbb-41b1-1685"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7bea-961e-e2dc-f265" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Nurgle" hidden="false" id="607e-cb9e-eabf-0ef3">
               <costs>
@@ -3043,6 +3132,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Icon of Nurgle" id="60ae-5ab2-4ebd-1956" hidden="false" type="profile" targetId="6554-6525-0fd2-9551"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ca6-4594-b6eb-4cb9" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Tzeentch" hidden="false" id="2d57-8056-15a2-cfff">
               <costs>
@@ -3051,6 +3143,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Icon of Tzeentch" id="2cb0-6562-6d0f-8b93" hidden="false" type="profile" targetId="7429-8181-fdc2-3e0f"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b441-9977-21aa-772b" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -3080,7 +3175,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         <infoLink name="Searchlight" id="632c-9b62-b078-099d" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="The second arm must be armed with one of the following" id="d379-d42a-7745-3d30" hidden="false">
+        <selectionEntryGroup name="Second Arm" id="d379-d42a-7745-3d30" hidden="false" defaultSelectionEntryId="722f-f5bc-d579-412d">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Twin-linked Autocannon" hidden="false" id="02e1-492f-7422-87dd">
               <costs>
@@ -3089,6 +3184,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Twin-linked Autocannon" id="d164-8690-b801-64cd" hidden="false" type="profile" targetId="11aa-86cf-4281-eae2"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef2a-6f5c-0617-67b0"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Twin-linked Lascannon" hidden="false" id="d1da-60ad-7abb-b864">
               <costs>
@@ -3097,6 +3195,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Twin-linked Lascannons" id="55cf-50aa-0f84-d617" hidden="false" type="profile" targetId="0652-8647-3961-0d47"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="64a0-ae2f-403c-e041"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Twin-linked Heavy Bolter" hidden="false" id="540a-7453-b2db-49c0">
               <costs>
@@ -3105,6 +3206,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Twin-linked Heavy Bolter" id="98ac-b000-c09c-e22a" hidden="false" type="profile" targetId="684d-431d-f854-d4fd"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5315-3cd7-01cf-b0cb"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Multi-melta" hidden="false" id="3730-102b-7a73-e70f">
               <costs>
@@ -3113,6 +3217,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Multi-melta" id="ec4c-70a4-6ace-c56e" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d5b7-2b77-6508-eba7"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Plasma Cannon" hidden="false" id="dea0-ec6d-fca6-5717">
               <costs>
@@ -3121,6 +3228,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Plasma Cannon" id="6bd8-a9c6-38e4-9622" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cd5e-7b8d-a725-09b4"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="An additional Dreadnought close combat weapon with twin-linked bolter" hidden="false" id="722f-f5bc-d579-412d">
               <infoLinks>
@@ -3130,6 +3240,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c6f3-3e58-aa0c-39f9"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -3137,7 +3250,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="ef8a-afbe-c98f-6e61-max"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Primary Arm" id="b8c3-8994-1fa0-3c26" hidden="false">
+        <selectionEntryGroup name="Primary Arm" id="b8c3-8994-1fa0-3c26" hidden="false" defaultSelectionEntryId="09ce-3d8b-6403-5cfe">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Dreadnought Close Combat Weapon" hidden="false" id="09ce-3d8b-6403-5cfe">
               <infoLinks>
@@ -3150,6 +3263,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                       <infoLinks>
                         <infoLink name="Twin-linked Bolter" id="bcd1-03b3-3a5d-6eff" hidden="false" type="profile" targetId="0f1a-e452-e74a-284a"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="181b-af16-d0e8-b53b"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Heavy Flamer" hidden="false" id="fc35-d0d3-8928-6dee">
                       <costs>
@@ -3158,6 +3274,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                       <infoLinks>
                         <infoLink name="Heavy Flamer" id="631a-5b5c-9b2a-fe5f" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b458-6027-db44-3e31"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -3166,12 +3285,18 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5f28-f713-d575-491b"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="5e9e-2f74-b14c-b1cc">
               <infoLinks>
                 <infoLink name="Missile Launcher (Frag)" id="1c1f-c5cf-126f-4c3e" hidden="false" type="profile" targetId="5c9b-64b6-6546-fc94"/>
                 <infoLink name="Missile Launcher (Krak)" id="7ab0-611c-d893-83ad" hidden="false" type="profile" targetId="c290-fc2b-c332-8290"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65ac-aefd-33d7-d869"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -3206,101 +3331,187 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="207f-8a77-7dae-df6f" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Chaos Space Marine" hidden="false" id="4933-3d02-85ef-4e67">
+            <selectionEntry type="model" import="true" name="Chaos Space Marine" hidden="false" id="4933-3d02-85ef-4e67" defaultAmount="5">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
               </costs>
               <infoLinks>
                 <infoLink name="Chaos Space Marine" id="7e42-b7d1-5d17-3f80" hidden="false" type="profile" targetId="164e-e619-daa2-31ea"/>
+                <infoLink name="Boltgun" id="54e4-b16e-6e08-42c7" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                <infoLink name="Bolt Pistol" id="4f66-07af-1efd-0f87" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                <infoLink name="Close-Combat Weapon" id="1210-e6a3-fa4b-4f50" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Aspiring Champion" hidden="false" id="0964-34b0-90ba-1ba6">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
-              </costs>
+            <selectionEntry type="model" import="true" name="Chaos Gunner" hidden="false" id="5da9-a0c6-39f2-4be1">
               <infoLinks>
-                <infoLink name="Aspiring Champion" id="2620-a1b4-32a5-40aa" hidden="false" type="profile" targetId="f893-cd6d-f3e5-0547"/>
+                <infoLink name="Chaos Space Marine" id="e50d-f90a-5bcc-4201" hidden="false" type="profile" targetId="164e-e619-daa2-31ea"/>
+                <infoLink name="Close-Combat Weapon" id="d30f-4953-6176-bc2e" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
               </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6fee-95a9-2d50-f5bb"/>
-              </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup name="This model may replace his bolter with one of the following" id="33ab-ffa9-065d-0d47" hidden="false">
+                <selectionEntryGroup name="Loadout" id="d9f7-785f-90f0-e8f3" hidden="false" defaultSelectionEntryId="9d72-ecce-2812-d1c2">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Twin-linked Bolter" hidden="false" id="7793-4b64-c08c-d7b5">
-                      <infoLinks>
-                        <infoLink name="Twin-linked Bolter" id="5916-2d5b-3734-eda0" hidden="false" type="profile" targetId="0f1a-e452-e74a-284a"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <entryLinks>
-                    <entryLink import="true" name="Combi-weapon" hidden="false" id="c834-22c1-b709-444c" type="selectionEntry" targetId="d720-24d4-d7f1-df20">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                      </costs>
-                    </entryLink>
-                  </entryLinks>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="92b5-a673-905b-3bea"/>
-                  </constraints>
-                </selectionEntryGroup>
-                <selectionEntryGroup name="This model may replace his close combat weapon with" id="cc1b-1bdd-87f9-d7a2" hidden="false">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="c722-0976-b35d-94a2">
+                    <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="6d3f-56d8-2111-d701">
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
                       </costs>
                       <infoLinks>
-                        <infoLink name="Power Weapon" id="f7b7-a705-ade4-90a9" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+                        <infoLink name="Plasma Pistol" id="fb38-2140-0ede-76c2" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8bc4-b4ba-3abe-f1f5"/>
+                      </constraints>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="73c1-e42d-a351-1a94">
+                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="9d72-ecce-2812-d1c2">
                       <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
                       </costs>
                       <infoLinks>
-                        <infoLink name="Power Fist" id="1cc5-c6f7-8ac7-1b78" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
+                        <infoLink name="Flamer" id="6d87-710e-7ad2-37de" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6fcc-4419-d9b3-14dd"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="cef3-e7d7-c2cc-8123">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Meltagun" id="aa02-703e-c958-ea4a" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8093-2fe7-3538-816b"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="f7c7-a02b-6459-8a0e">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Gun" id="fe13-c65b-3aa2-9db0" hidden="false" type="profile" targetId="29c3-2b26-b62c-779c"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a77-0c05-4f11-a91e"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2431-f3d3-99b3-aebe"/>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="d716-61fc-fd33-234c-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d716-61fc-fd33-234c-max"/>
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="a297-39fa-1ab7-f8b4">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Plasma Pistol" id="49b2-c102-8ead-7f58" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
-                  </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b72-cfad-e034-a294" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Chaos Heavy Gunner" hidden="false" id="bc94-7070-7951-fa13">
+              <infoLinks>
+                <infoLink name="Chaos Space Marine" id="78c2-daa6-c072-d8f0" hidden="false" type="profile" targetId="164e-e619-daa2-31ea"/>
+                <infoLink name="Bolt Pistol" id="3ef8-83a3-3973-62e9" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                <infoLink name="Close-Combat Weapon" id="9d98-e774-da67-197f" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="4cd3-9833-53e0-87f1" hidden="false" defaultSelectionEntryId="1aa7-d703-5bd4-0fed">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="2f28-de83-6271-8b6c">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Missile Launcher (Frag)" id="7af0-db57-7faf-5c76" hidden="false" type="profile" targetId="5c9b-64b6-6546-fc94"/>
+                        <infoLink name="Missile Launcher (Krak)" id="f6c0-adb1-2406-025e" hidden="false" type="profile" targetId="c290-fc2b-c332-8290"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="27d6-1e6d-a44a-ab51"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Autocannon" hidden="false" id="5da6-f027-cd61-9ad3">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Autocannon" id="1a08-3c97-ee8d-4687" hidden="false" type="profile" targetId="0439-7ae4-6bcf-50ac"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84ea-c26e-abcb-3dbb"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Heavy Bolter" hidden="false" id="74ac-ba6a-f36c-7fae">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Heavy Bolter" id="9d22-4b7d-f1c5-57e2" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7411-4c0d-b160-e87b"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Lascannon" hidden="false" id="0757-d4e0-f910-ab4f">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Lascannon" id="c1fb-0558-8185-70b3" hidden="false" type="profile" targetId="2965-8d8c-d5b0-8aa1"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83ce-fef8-2104-e374"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="8728-612c-82e3-032e">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Gun" id="0869-ef89-615d-c044" hidden="false" type="profile" targetId="29c3-2b26-b62c-779c"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4d8-6b92-c8ae-d5d2"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="c5e3-4ff7-276e-8638">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Meltagun" id="4f2b-52ed-5ef6-c78b" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2cab-cd8a-2bda-5233"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="1aa7-d703-5bd4-0fed">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Flamer" id="c3d6-2a40-5414-0d2a" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be87-5bd7-e7db-e0ab"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca60-fec6-c6f6-cc02"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d523-bfcc-8991-e9c0"/>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="875d-ae74-751d-8fc9-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="875d-ae74-751d-8fc9-max"/>
                   </constraints>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Meltabomb" hidden="false" id="91ff-5fe7-2e86-ad48">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Melta Bomb" id="a059-2c06-4e55-6ffc" hidden="false" type="profile" targetId="62b3-f972-0f32-e8d8"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7320-0a8e-04bd-b7ba"/>
-                  </constraints>
-                </selectionEntry>
-              </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f3d-d992-7ecb-cd7c"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="min" value="5" field="selections" scope="self" shared="true" id="c416-19d0-5ea8-77ac"/>
             <constraint type="max" value="20" field="selections" scope="self" shared="true" id="3da5-a1ed-f219-38b3"/>
           </constraints>
+          <entryLinks>
+            <entryLink targetId="0964-34b0-90ba-1ba6" id="8215-ed9e-2d9e-ecdc" type="selectionEntry" name="Aspiring Champion" hidden="false"/>
+          </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="One model may be given one of the following icons" id="12b9-fba8-2ee6-26a5" hidden="false">
           <selectionEntries>
@@ -3364,154 +3575,10 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a1a2-0e1f-6d69-ba53"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="One Marine may replace" id="8527-a23f-9f83-64a8" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="His Bolt Pistol with a Plasma Pistol" hidden="false" id="eff5-54b3-7ae3-cd9e">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Plasma Pistol" id="cc94-1f7b-9af3-ca98" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b93-447f-9a63-b413"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="His bolter with a Flamer" hidden="false" id="dd7b-f880-fade-1b46">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Flamer" id="c1b7-76b3-09cc-ab3e" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58eb-5702-07e9-4cdd"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="His bolter with a Meltagun" hidden="false" id="b23b-c33f-1f5a-da48">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Meltagun" id="5099-bf86-6813-d48f" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba37-3202-9c17-f690"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8dda-b9d8-dd26-2dbe"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="His bolter with a Plasma Gun" hidden="false" id="aa20-82a3-e460-e2a2">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Plasma Gun" id="7024-0d9c-30dc-e075" hidden="false" type="profile" targetId="29c3-2b26-b62c-779c"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="54e6-dd09-8bd8-eeaa"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abe0-6700-b23d-19b7"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4672-988b-8b76-8acb"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9aea-b6cf-4e0b-a1d3"/>
-          </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="If the squad numbers ten or more, a marine may replace his bolter with" id="4cd3-9833-53e0-87f1" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="2f28-de83-6271-8b6c">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Missile Launcher (Frag)" id="7af0-db57-7faf-5c76" hidden="false" type="profile" targetId="5c9b-64b6-6546-fc94"/>
-                <infoLink name="Missile Launcher (Krak)" id="f6c0-adb1-2406-025e" hidden="false" type="profile" targetId="c290-fc2b-c332-8290"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="27d6-1e6d-a44a-ab51"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Autocannon" hidden="false" id="5da6-f027-cd61-9ad3">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Autocannon" id="1a08-3c97-ee8d-4687" hidden="false" type="profile" targetId="0439-7ae4-6bcf-50ac"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84ea-c26e-abcb-3dbb"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Heavy Bolter" hidden="false" id="74ac-ba6a-f36c-7fae">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Heavy Bolter" id="9d22-4b7d-f1c5-57e2" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7411-4c0d-b160-e87b"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Lascannon" hidden="false" id="0757-d4e0-f910-ab4f">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Lascannon" id="c1fb-0558-8185-70b3" hidden="false" type="profile" targetId="2965-8d8c-d5b0-8aa1"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83ce-fef8-2104-e374"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="8728-612c-82e3-032e">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Plasma Gun" id="0869-ef89-615d-c044" hidden="false" type="profile" targetId="29c3-2b26-b62c-779c"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="16de-5d31-f803-982f"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4d8-6b92-c8ae-d5d2"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="c5e3-4ff7-276e-8638">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Meltagun" id="4f2b-52ed-5ef6-c78b" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2cab-cd8a-2bda-5233"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="1aa7-d703-5bd4-0fed">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Flamer" id="c3d6-2a40-5414-0d2a" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be87-5bd7-e7db-e0ab"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca60-fec6-c6f6-cc02"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="875d-ae74-751d-8fc9"/>
-          </constraints>
-        </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Bolt Pistol" id="050c-4c44-a549-7041" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
         <infoLink name="Frag Grenades" id="18a3-19a8-7e9a-9835" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
         <infoLink name="Krak Grenades" id="67c3-0a6a-dfc7-0245" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
-        <infoLink name="Close-Combat Weapon" id="2357-34da-0463-e389" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
-        <infoLink name="Boltgun" id="29b6-edf9-d70b-fe36" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Chaos Rhino" hidden="false" id="025b-1225-6a23-4bbe" type="selectionEntry" targetId="cf1c-dbad-48f1-0ff7">
@@ -3525,15 +3592,61 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="4e07-cc59-509f-340d" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Plague Marine" hidden="false" id="d6a6-1ebd-299c-7f25">
+            <selectionEntry type="model" import="true" name="Plague Marine Gunner" hidden="false" id="d6a6-1ebd-299c-7f25">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="23"/>
               </costs>
               <infoLinks>
                 <infoLink name="Plague Marine" id="cadc-a56a-9cbb-9a84" hidden="false" type="profile" targetId="9cf9-ff76-12c4-648e"/>
+                <infoLink name="Close-Combat Weapon" id="6d51-1772-ba1f-ea58" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
               </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="8c5e-53c3-7776-8348" hidden="false" defaultSelectionEntryId="83c6-157f-c7f3-a8aa">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="6ad3-d199-dfa3-4b18">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Pistol" id="8466-2c26-8166-6422" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="83c6-157f-c7f3-a8aa">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Flamer" id="f16f-5efd-679b-8648" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="7e9b-a4f5-3616-c624">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Meltagun" id="a910-bda8-0175-a94e" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="f5a7-8cde-27aa-4bba">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Gun" id="50b9-ceab-1d9b-9332" hidden="false" type="profile" targetId="29c3-2b26-b62c-779c"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="3609-d1ca-05e6-2005-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3609-d1ca-05e6-2005-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="67a7-b6dc-e02e-8a3b" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Plague Champion" hidden="false" id="2d8e-9ab6-3e63-3e4f">
+            <selectionEntry type="model" import="true" name="Plague Champion" hidden="false" id="2d8e-9ab6-3e63-3e4f">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="38"/>
               </costs>
@@ -3544,7 +3657,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fae1-f881-aa5c-62da"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup name="The Champion may replace his close combat weapon with" id="086d-b6d3-ab94-cefc" hidden="false">
+                <selectionEntryGroup name="Combat Weapon" id="086d-b6d3-ab94-cefc" hidden="false" defaultSelectionEntryId="6e5e-b2e3-9ca5-f052">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="afd4-d861-f549-2b45">
                       <costs>
@@ -3553,6 +3666,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                       <infoLinks>
                         <infoLink name="Power Weapon" id="67a6-82ab-fc9c-79bf" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8dca-f60d-6b8a-1dc7" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="025f-8af9-d322-e904">
                       <costs>
@@ -3561,13 +3677,25 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                       <infoLinks>
                         <infoLink name="Power Fist" id="fa52-d99d-c794-4787" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4fb0-c769-d80b-5c3e" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="6e5e-b2e3-9ca5-f052">
+                      <infoLinks>
+                        <infoLink name="Close-Combat Weapon" id="d547-3d43-e3f7-39f8" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="403d-529c-c048-a67d" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5f44-a376-e597-814e"/>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="5f44-a376-e597-814e-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5f44-a376-e597-814e-max"/>
                   </constraints>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="The Champion may replace his bolter with" id="a7c6-4ff1-ed54-938f" hidden="false">
+                <selectionEntryGroup name="Weapon" id="a7c6-4ff1-ed54-938f" hidden="false" defaultSelectionEntryId="e88c-6c88-da34-2785">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Twin-linked Bolter" hidden="false" id="b07e-e8a4-cd29-1861">
                       <costs>
@@ -3576,6 +3704,14 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                       <infoLinks>
                         <infoLink name="Twin-linked Bolter" id="b3a9-c3a0-393a-b743" hidden="false" type="profile" targetId="0f1a-e452-e74a-284a"/>
                       </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="e88c-6c88-da34-2785">
+                      <infoLinks>
+                        <infoLink name="Boltgun" id="e311-c11a-ad99-bcfb" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6870-04b1-a230-16c8" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
@@ -3586,22 +3722,39 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                     </entryLink>
                   </entryLinks>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2c0f-3400-0812-fbff"/>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="2c0f-3400-0812-fbff-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2c0f-3400-0812-fbff-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Pistol" id="8a49-1ea4-27d7-24bc" hidden="false" defaultSelectionEntryId="3e71-9467-251f-ef67">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="0640-b18e-5a4b-028c">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Pistol" id="3673-447d-52c7-cc62" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc7d-9eed-2228-f7ef"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="3e71-9467-251f-ef67">
+                      <infoLinks>
+                        <infoLink name="Bolt Pistol" id="5c10-c5cd-fadf-a06b" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7791-c7b5-257c-b0fe" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="5b38-3dc6-d3db-eae9-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5b38-3dc6-d3db-eae9-max"/>
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="The Campion may replace his Bolt Pistol with a Plasma Pistol" hidden="false" id="0640-b18e-5a4b-028c">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Plasma Pistol" id="3673-447d-52c7-cc62" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc7d-9eed-2228-f7ef"/>
-                  </constraints>
-                </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Meltabombs" hidden="false" id="9738-6a46-38a7-2c53">
                   <costs>
                     <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
@@ -3615,59 +3768,28 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
+            <selectionEntry type="model" import="true" name="Plague Marine" hidden="false" id="77ab-9ca5-2608-3d97" defaultAmount="5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="23"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Plague Marine" id="cde3-e9cc-c243-dca9" hidden="false" type="profile" targetId="9cf9-ff76-12c4-648e"/>
+                <infoLink name="Close-Combat Weapon" id="d11c-26b2-c6a0-4d10" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                <infoLink name="Boltgun" id="e0b4-52e8-17f4-981f" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                <infoLink name="Bolt Pistol" id="88f0-7421-dbf4-76b0" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+              </infoLinks>
+            </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="min" value="5" field="selections" scope="self" shared="true" id="5dfc-6406-df7a-7a9b"/>
             <constraint type="max" value="20" field="selections" scope="self" shared="true" id="ffc1-0624-b009-afe4"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Up to two Plague Marines may replace" id="8c5e-53c3-7776-8348" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Their Bolt Pistol for a Plasma Pistol" hidden="false" id="6ad3-d199-dfa3-4b18">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Plasma Pistol" id="8466-2c26-8166-6422" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Their Boltgun with a Flamer" hidden="false" id="83c6-157f-c7f3-a8aa">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Flamer" id="f16f-5efd-679b-8648" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Their Boltgun with a Meltagun" hidden="false" id="7e9b-a4f5-3616-c624">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Meltagun" id="a910-bda8-0175-a94e" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Their Boltgun with a Plasma Gun" hidden="false" id="f5a7-8cde-27aa-4bba">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Plasma Gun" id="50b9-ceab-1d9b-9332" hidden="false" type="profile" targetId="29c3-2b26-b62c-779c"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="3609-d1ca-05e6-2005"/>
-          </constraints>
-        </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Boltgun" id="e0b4-52e8-17f4-981f" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
         <infoLink name="Blight Grenades" id="c143-0254-56f3-a51a" hidden="false" type="profile" targetId="fdc5-3720-0b02-76f6"/>
         <infoLink name="Frag Grenades" id="d612-6f09-f62f-b211" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
         <infoLink name="Krak Grenades" id="9da0-e4d7-c0e4-cd3c" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
-        <infoLink name="Close-Combat Weapon" id="40a4-d29d-9b84-6665" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
-        <infoLink name="Bolt Pistol" id="88f0-7421-dbf4-76b0" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
         <infoLink name="Mark of Nurgle" id="bd25-0a2b-ca61-134d" hidden="false" type="profile" targetId="5920-fd24-ceda-39ee"/>
         <infoLink name="Fearless" id="b0ea-f59e-d0c2-874e" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
         <infoLink name="Feel No Pain" id="f0f6-64d8-e0ee-b260" hidden="false" type="profile" targetId="d22d-ca74-1014-8212"/>
@@ -3697,26 +3819,59 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="46bf-5c95-52b1-877b" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Noise Marine" hidden="false" id="6e05-d495-9e66-1c63">
+            <selectionEntry type="model" import="true" name="Noise Marine" hidden="false" id="6e05-d495-9e66-1c63" defaultAmount="5">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
               </costs>
               <infoLinks>
                 <infoLink name="Noise Marine" id="f031-b131-8aba-32c6" hidden="false" type="profile" targetId="16aa-5d0b-526f-2ced"/>
+                <infoLink name="Bolt Pistol" id="16dd-38a8-ef2c-b852" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                <infoLink name="Close-Combat Weapon" id="0e85-76d1-4d77-1a5d" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
               </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="a740-7563-7df0-065c" hidden="false" defaultSelectionEntryId="7fd9-919e-e523-b73b">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="7fd9-919e-e523-b73b">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a70-fe04-e97a-ee0f" includeChildSelections="false"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Boltgun" id="b723-fd91-1c71-e4e5" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Sonic Blaster" hidden="false" id="9f75-8700-1799-efba">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Sonic Blaster" id="c6f4-986f-08f7-e797" hidden="false" type="profile" targetId="eb25-7261-42fe-2264"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0127-9a6c-3a42-6c7e" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="3b86-b1f4-1e66-fe70-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3b86-b1f4-1e66-fe70-max" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Noise Champion" hidden="false" id="de49-b434-233b-da2f">
+            <selectionEntry type="model" import="true" name="Noise Champion" hidden="false" id="de49-b434-233b-da2f">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
               </costs>
               <infoLinks>
                 <infoLink name="Noise Champion" id="0d51-ff9b-eb43-48fe" hidden="false" type="profile" targetId="38bd-c0b8-1e77-111c"/>
+                <infoLink name="Boltgun" id="26bc-82bd-825a-692b" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                <infoLink name="Bolt Pistol" id="8668-7cd7-99e6-8e26" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
               </infoLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5115-1e20-6be2-808d"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup name="The Champion may replace his close combat weapon with" id="57a1-b153-5d00-39e5" hidden="false">
+                <selectionEntryGroup name="Combat Weapon" id="57a1-b153-5d00-39e5" hidden="false" defaultSelectionEntryId="41e6-ace1-945d-6165">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="d1bf-0833-49c0-0dba">
                       <costs>
@@ -3734,9 +3889,18 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                         <infoLink name="Power Fist" id="85d8-67ae-cf6c-4430" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
                       </infoLinks>
                     </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="41e6-ace1-945d-6165">
+                      <infoLinks>
+                        <infoLink name="Close-Combat Weapon" id="261f-0482-fa76-a7cf" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17dc-99e2-cb7a-777f" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
                   </selectionEntries>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3d69-fb90-17fd-4e6c"/>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="3d69-fb90-17fd-4e6c-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3d69-fb90-17fd-4e6c-max"/>
                   </constraints>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="He may take any of the following" id="6329-dd97-e3f7-a672" hidden="false">
@@ -3767,6 +3931,21 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
+            <selectionEntry type="model" import="true" name="Blastmaster Marine" hidden="false" id="8aef-d8e0-920d-b3bd">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="60"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Noise Marine" id="4295-c285-2e9a-957b" hidden="false" type="profile" targetId="16aa-5d0b-526f-2ced"/>
+                <infoLink name="Blastmaster (Single Frequency)" id="8340-e940-f29e-018e" hidden="false" type="profile" targetId="98df-a6d7-c5df-8491"/>
+                <infoLink name="Blastmaster (Varied Frequency)" id="45ba-2445-bd7d-9027" hidden="false" type="profile" targetId="dcd6-0d66-bd21-4489"/>
+                <infoLink name="Bolt Pistol" id="98b8-2412-5ed3-9fec" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                <infoLink name="Close-Combat Weapon" id="4bec-8562-4286-ab03" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e5a-efc3-4044-5bba" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="min" value="5" field="selections" scope="self" shared="true" id="c7ff-fdc3-dd04-95a1"/>
@@ -3775,11 +3954,8 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Bolt Pistol" id="0828-76a4-fe35-ec93" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
         <infoLink name="Frag Grenades" id="3031-8bb1-8021-2222" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
         <infoLink name="Krak Grenades" id="66c2-4be0-f13d-f144" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
-        <infoLink name="Close-Combat Weapon" id="f53d-9929-0f55-e028" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
-        <infoLink name="Boltgun" id="7bad-96a2-1ec3-6347" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
         <infoLink name="Mark of Slaanesh" id="34b0-92d2-f295-ada3" hidden="false" type="profile" targetId="0682-af00-f4b4-e49c"/>
         <infoLink name="Fearless" id="6c70-9f5b-a795-7693" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
       </infoLinks>
@@ -3795,26 +3971,6 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9f29-7c4c-0ee0-7e81"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Any model may replace his bolter with a sonic blaster" hidden="false" id="2d39-c409-c0ed-6c91">
-          <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Sonic Blaster" id="2281-53f3-fd01-584b" hidden="false" type="profile" targetId="eb25-7261-42fe-2264"/>
-          </infoLinks>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="One Noise Marine may replace his bolter with a Blastmaster" hidden="false" id="541a-7766-8a75-5131">
-          <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Blastmaster (Single Frequency)" id="b4fd-fe5c-1768-fdbc" hidden="false" type="profile" targetId="98df-a6d7-c5df-8491"/>
-            <infoLink name="Blastmaster (Varied Frequency)" id="614a-d36f-ebef-93ca" hidden="false" type="profile" targetId="dcd6-0d66-bd21-4489"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="71a8-ad10-dd3d-4b03"/>
-          </constraints>
-        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Chaos Rhino" hidden="false" id="d88f-b4aa-9927-cb04" type="selectionEntry" targetId="cf1c-dbad-48f1-0ff7">
@@ -3828,15 +3984,17 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="26a9-6d47-7bc7-dbc9" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Berzerker" hidden="false" id="7871-db3b-30eb-7abf">
+            <selectionEntry type="model" import="true" name="Berzerker" hidden="false" id="7871-db3b-30eb-7abf">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="21"/>
               </costs>
               <infoLinks>
                 <infoLink name="Berzerker" id="4b61-8c3f-9e6f-16e9" hidden="false" type="profile" targetId="a9c4-f803-547e-ccea"/>
+                <infoLink name="Bolt Pistol" id="6132-1948-19b6-26c8" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                <infoLink name="Close-Combat Weapon" id="21e0-924c-e64a-7c38" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Skull Champion" hidden="false" id="7567-f2c3-6a7a-066c">
+            <selectionEntry type="model" import="true" name="Skull Champion" hidden="false" id="7567-f2c3-6a7a-066c">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="36"/>
               </costs>
@@ -3847,7 +4005,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0922-5f1e-3ea9-99fb"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup name="He may replace his close combat weapon with" id="b6d2-724d-ea2c-6ac6" hidden="false">
+                <selectionEntryGroup name="Combat Weapon" id="b6d2-724d-ea2c-6ac6" hidden="false" defaultSelectionEntryId="7c12-6e58-9f99-9ad2">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="e9d3-4554-fc3f-fad9">
                       <costs>
@@ -3856,6 +4014,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                       <infoLinks>
                         <infoLink name="Power Weapon" id="c1c3-9a3b-a1e5-9228" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5cc9-64f4-071a-cdcc" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="f051-904f-2c0c-32a7">
                       <costs>
@@ -3864,25 +4025,53 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                       <infoLinks>
                         <infoLink name="Power Fist" id="d014-dd4c-49aa-d272" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="35d4-7df4-6ca5-b3ef" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="7c12-6e58-9f99-9ad2">
+                      <infoLinks>
+                        <infoLink name="Close-Combat Weapon" id="f67d-5b08-7654-b3af" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e02e-0bef-2179-6406" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5244-c1f5-9bac-2816"/>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="5244-c1f5-9bac-2816-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5244-c1f5-9bac-2816-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Pistol" id="1691-5ae7-0ecb-2e55" hidden="false" defaultSelectionEntryId="303f-4d0d-2071-62da">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="a70d-59de-dfdc-2e5a">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Pistol" id="5e23-cd0f-4f33-0023" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f927-5dd4-c78f-9cbd"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="303f-4d0d-2071-62da">
+                      <infoLinks>
+                        <infoLink name="Bolt Pistol" id="8d1d-1c66-b9a3-4d3d" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b5c-ea44-eb5f-16de" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="92a8-e17e-4ad2-d248-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="92a8-e17e-4ad2-d248-max"/>
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Replace Bolt pistol with Plasma Pistol" hidden="false" id="a70d-59de-dfdc-2e5a">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Plasma Pistol" id="5e23-cd0f-4f33-0023" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f927-5dd4-c78f-9cbd"/>
-                  </constraints>
-                </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Meltabomb" hidden="false" id="33b3-1190-a03f-b3b2">
                   <costs>
                     <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
@@ -3895,6 +4084,19 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                   </constraints>
                 </selectionEntry>
               </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Berzerker Gunner" hidden="false" id="7371-432a-fd93-b5dd">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="36"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Berzerker" id="aab3-d45e-deff-0ce0" hidden="false" type="profile" targetId="a9c4-f803-547e-ccea"/>
+                <infoLink name="Plasma Pistol" id="b82c-1189-f876-8398" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+                <infoLink name="Close-Combat Weapon" id="ed02-db41-cefb-00db" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3a9d-9b76-8225-6be2"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -3913,10 +4115,8 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Bolt Pistol" id="d136-ac2e-ce05-ab2f" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
         <infoLink name="Frag Grenades" id="c218-3d0a-aebc-562c" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
         <infoLink name="Krak Grenades" id="d38d-5bd4-6101-98e0" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
-        <infoLink name="Close-Combat Weapon" id="1273-f519-8ea4-a75f" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
         <infoLink name="Mark of Khorne" id="7ec4-80f9-cf88-77c1" hidden="false" type="profile" targetId="54e8-b1c8-2d9c-b264"/>
         <infoLink name="Fearless" id="1a06-9792-f87f-72b3" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
         <infoLink name="Furious Charge" id="c7df-2b50-eef0-2363" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
@@ -3933,24 +4133,13 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fcac-7021-4b6e-9c49"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Up to two Berzerkers may replace their Bolt Pistol with a Plasma Pistol" hidden="false" id="175e-b987-0351-8439">
-          <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Plasma Pistol" id="9fbc-5fea-b0bf-11b3" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7fd4-6be5-3b36-d567"/>
-          </constraints>
-        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Thousand Sons" hidden="false" id="ea92-869e-1bdd-81b8">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="02f6-a5df-000d-813e" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Thousand Son" hidden="false" id="c1c3-cfc2-c899-f8f0">
+            <selectionEntry type="model" import="true" name="Thousand Son" hidden="false" id="c1c3-cfc2-c899-f8f0">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="23"/>
               </costs>
@@ -3963,7 +4152,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                 <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="b542-bbe5-a805-71d3"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Aspiring Sorcerer" hidden="false" id="692d-5017-fdbf-e26e">
+            <selectionEntry type="model" import="true" name="Aspiring Sorcerer" hidden="false" id="692d-5017-fdbf-e26e">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="60"/>
               </costs>
@@ -3977,7 +4166,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                 <infoLink name="Force Weapon" id="6856-02cf-80da-7a21" hidden="false" type="profile" targetId="84e8-f828-c1c0-81c1"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="The Aspiring Sorcerer must be given one Psychic power" id="440a-4bab-e1ad-f9f8" hidden="false">
+                <selectionEntryGroup name="The Aspiring Sorcerer must be given one Psychic power" id="440a-4bab-e1ad-f9f8" hidden="false" defaultSelectionEntryId="e13d-efa5-c038-df33">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Doombolt" hidden="false" id="e13d-efa5-c038-df33">
                       <costs>
@@ -3986,6 +4175,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                       <infoLinks>
                         <infoLink name="Doombolt" id="ff57-49b3-6463-e7b7" hidden="false" type="profile" targetId="31a8-068a-9d61-47ee"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="adf6-c555-587e-2e5a" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Warptime" hidden="false" id="0338-6b85-505a-27a7">
                       <costs>
@@ -3994,6 +4186,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                       <infoLinks>
                         <infoLink name="Warptime" id="a7ae-0974-a0bf-3920" hidden="false" type="profile" targetId="3513-243e-c4dc-b9a7"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d256-5fc0-f235-46e7" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Wind of Chaos" hidden="false" id="dfdf-fe3d-e7aa-e0db">
                       <costs>
@@ -4002,6 +4197,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                       <infoLinks>
                         <infoLink name="Wind of Chaos" id="6e71-5aa0-106e-7236" hidden="false" type="profile" targetId="d649-665c-8fb6-c97e"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="54a9-0eff-09fc-6a9f" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Gift of Chaos" hidden="false" id="f4a0-57c3-ede4-9f52">
                       <costs>
@@ -4010,6 +4208,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                       <infoLinks>
                         <infoLink name="Gift of Chaos" id="ea86-1568-b2b1-cd73" hidden="false" type="profile" targetId="c5a5-df47-f56e-8723"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="210f-789a-c227-3445" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Bolt of Change" hidden="false" id="0d29-1315-fcc2-ac57">
                       <costs>
@@ -4018,6 +4219,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                       <infoLinks>
                         <infoLink name="Bolt of Change (Tzeentch only)" id="f625-064a-89f9-4911" hidden="false" type="profile" targetId="6e68-6f58-024f-b1ba"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="efd3-8c42-c4eb-35c5" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
@@ -4079,23 +4283,63 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="0777-abf7-c647-01e5" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Chaos Biker" hidden="false" id="fa43-0e19-c4f7-2413">
+            <selectionEntry type="model" import="true" name="Biker Gunner" hidden="false" id="fa43-0e19-c4f7-2413">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="33"/>
               </costs>
               <infoLinks>
                 <infoLink name="Chaos Biker" id="44a0-28e1-5074-0684" hidden="false" type="profile" targetId="e32b-a5e8-c586-a3bd"/>
+                <infoLink name="Close-Combat Weapon" id="674a-2bc4-5a3d-d5d3" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                <infoLink name="Twin-linked Bolter" id="6b50-9dde-7100-b9c0" hidden="false" type="profile" targetId="0f1a-e452-e74a-284a"/>
               </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="edd8-b234-fea1-190d" hidden="false" defaultSelectionEntryId="a5f0-9dbc-940a-3680">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="fc80-14c8-680b-155c">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Gun" id="d994-c2bf-b63d-93b6" hidden="false" type="profile" targetId="29c3-2b26-b62c-779c"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="8820-282d-3cb5-834c">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Meltagun" id="7546-571b-3b51-d846" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="a5f0-9dbc-940a-3680">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Flamer" id="fa60-6989-a5d2-5613" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="1aa1-09ef-2130-2481-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1aa1-09ef-2130-2481-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1d9b-6f93-dd47-ec20"/>
+              </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Biker Champion" hidden="false" id="9e96-5e05-f58a-2595">
+            <selectionEntry type="model" import="true" name="Biker Champion" hidden="false" id="9e96-5e05-f58a-2595" defaultAmount="">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="48"/>
               </costs>
               <infoLinks>
                 <infoLink name="Biker Champion" id="fb3a-4274-8a1c-d00e" hidden="false" type="profile" targetId="aa02-a5f5-7cab-780f"/>
+                <infoLink name="Twin-linked Bolter" id="3a6d-c0f8-e3ae-6027" hidden="false" type="profile" targetId="0f1a-e452-e74a-284a"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="The Champion may replace his close combat weapon with" id="2fb0-82ae-a114-71c6" hidden="false">
+                <selectionEntryGroup name="Combat Weapon" id="2fb0-82ae-a114-71c6" hidden="false" defaultSelectionEntryId="793e-9ad3-aa80-80ff">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="2f63-59bb-3299-4a97">
                       <costs>
@@ -4113,24 +4357,45 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                         <infoLink name="Power Fist" id="fa44-2405-32bb-2921" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
                       </infoLinks>
                     </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="793e-9ad3-aa80-80ff">
+                      <infoLinks>
+                        <infoLink name="Close-Combat Weapon" id="fb6a-51c7-3d6d-9d23" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="192a-b0fc-307d-06c6" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
                   </selectionEntries>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d328-822b-c39b-2b6d"/>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="d328-822b-c39b-2b6d-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d328-822b-c39b-2b6d-max"/>
                   </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Pistol" id="a155-e587-1ed6-333e" hidden="false" defaultSelectionEntryId="0685-c99e-f81b-8c33">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="0b9c-37d8-fb89-af36">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Pistol" id="92be-3fe0-6056-d7a2" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7be4-18ce-d519-daec"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="0685-c99e-f81b-8c33">
+                      <infoLinks>
+                        <infoLink name="Bolt Pistol" id="b6d7-5a4b-ef2d-9b6f" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a3be-3ad8-9df5-4499" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Replace his Bolt Pistol with a Plasma Pistol" hidden="false" id="0b9c-37d8-fb89-af36">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Plasma Pistol" id="92be-3fe0-6056-d7a2" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7be4-18ce-d519-daec"/>
-                  </constraints>
-                </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Meltabomb" hidden="false" id="72b6-78e9-0383-a175">
                   <costs>
                     <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
@@ -4144,8 +4409,20 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                 </selectionEntry>
               </selectionEntries>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="09a4-22c4-f671-d74f"/>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="09a4-22c4-f671-d74f-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="09a4-22c4-f671-d74f-max"/>
               </constraints>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Chaos Biker" hidden="false" id="ac29-4bed-10ca-6ae1" defaultAmount="3">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="33"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Chaos Biker" id="119c-9bad-6328-669f" hidden="false" type="profile" targetId="e32b-a5e8-c586-a3bd"/>
+                <infoLink name="Bolt Pistol" id="2bff-730a-7000-6dbc" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                <infoLink name="Close-Combat Weapon" id="9131-3f17-17fe-3d5d" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                <infoLink name="Twin-linked Bolter" id="5711-ae44-3bf6-3a38" hidden="false" type="profile" targetId="0f1a-e452-e74a-284a"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -4162,6 +4439,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Icon of Chaos Glory" id="623b-28a8-0e25-3bfd" hidden="false" type="profile" targetId="f270-0328-367a-29cf"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a93a-a5e3-0717-cd7f" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Slaanesh" hidden="false" id="9774-0096-0a73-3f7c">
               <costs>
@@ -4170,6 +4450,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Icon of Slaanesh" id="d3ab-e8c5-bcb3-4a28" hidden="false" type="profile" targetId="c7de-2c6d-4bb9-fae9"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b1ba-46b2-7ce3-4372" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Khorne" hidden="false" id="b5d3-fcb8-0bd5-43ec">
               <costs>
@@ -4178,6 +4461,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Icon of Khorne" id="5757-9725-8249-e6a0" hidden="false" type="profile" targetId="643c-3bbb-41b1-1685"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b75-6665-ae76-5a41" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Nurgle" hidden="false" id="d1c4-54d3-3f5e-da1b">
               <costs>
@@ -4186,6 +4472,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Icon of Nurgle" id="1ed4-f98d-51ff-7d2b" hidden="false" type="profile" targetId="6554-6525-0fd2-9551"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b8fa-5f89-6468-ac3c" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Tzeentch" hidden="false" id="aa1a-32a1-86e8-43e7">
               <costs>
@@ -4194,50 +4483,19 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Icon of Tzeentch" id="f4ee-c7c8-2c82-4079" hidden="false" type="profile" targetId="7429-8181-fdc2-3e0f"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f438-143d-9b09-f6e5" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1b62-742f-0e49-cd5a"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Up to two bikers may replace their close combat weapon with" id="7fe0-8ade-0c4c-88a6" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="28d1-e148-b5d1-8188">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Plasma Gun" id="3a33-9077-c609-5f7f" hidden="false" type="profile" targetId="29c3-2b26-b62c-779c"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="c0ef-bb41-19e2-61fe">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Meltagun" id="9033-2391-d87b-ba39" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="761b-bd60-f6fa-618b">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Flamer" id="8820-9949-2896-534d" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="018a-aa0b-bb4f-b6d0"/>
-          </constraints>
-        </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Bolt Pistol" id="df98-fd13-1da7-6ce1" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
         <infoLink name="Frag Grenades" id="a15e-896e-ec2d-5869" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
         <infoLink name="Krak Grenades" id="99a7-ca4e-d418-a1da" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
-        <infoLink name="Close-Combat Weapon" id="0d01-a939-8faa-3b71" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
-        <infoLink name="Twin-linked Bolter" id="2278-bf9a-8e13-e36c" hidden="false" type="profile" targetId="0f1a-e452-e74a-284a"/>
         <infoLink name="Bike" id="8ac2-9b4b-d02d-8a00" hidden="false" type="rule" targetId="3326-67e1-a5e9-b3e7"/>
       </infoLinks>
     </selectionEntry>
@@ -4245,15 +4503,17 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="65f3-fe56-e39c-63d1" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Raptor" hidden="false" id="679d-e7fc-4173-d6fe">
+            <selectionEntry type="model" import="true" name="Raptor" hidden="false" id="679d-e7fc-4173-d6fe" defaultAmount="5">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
               </costs>
               <infoLinks>
                 <infoLink name="Raptor" id="357f-bd52-3507-e48a" hidden="false" type="profile" targetId="b991-2612-d49a-0f56"/>
+                <infoLink name="Close-Combat Weapon" id="8300-07a9-4c9b-e2dd" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                <infoLink name="Bolt Pistol" id="6f77-9641-7030-2d40" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Aspiring Champion" hidden="false" id="66aa-c066-143f-e203">
+            <selectionEntry type="model" import="true" name="Aspiring Champion" hidden="false" id="66aa-c066-143f-e203">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
               </costs>
@@ -4264,17 +4524,6 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b6d7-f13f-2b88-9f96"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Replace his Bolt Pistol with a Plasma Pistol" hidden="false" id="831f-15ef-7a99-3cf4">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Plasma Pistol" id="93e1-8360-5d0b-e545" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f081-2aeb-98d6-c2e2"/>
-                  </constraints>
-                </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Meltabomb" hidden="false" id="d40a-c61d-6bdb-f7da">
                   <costs>
                     <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
@@ -4288,7 +4537,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
-                <selectionEntryGroup name="The Champion may replace his close combat weapon with" id="3358-fff1-09f8-fbd7" hidden="false">
+                <selectionEntryGroup name="Combat Weapon" id="3358-fff1-09f8-fbd7" hidden="false" defaultSelectionEntryId="64f2-2802-1722-74a1">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="db53-d34b-9806-9b12">
                       <costs>
@@ -4297,6 +4546,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                       <infoLinks>
                         <infoLink name="Power Weapon" id="177b-6da4-b793-db52" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="454a-0b61-2a25-7c3d" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="a33a-d466-0888-f6d5">
                       <costs>
@@ -4305,6 +4557,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                       <infoLinks>
                         <infoLink name="Power Fist" id="57b1-331f-6ce9-902d" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ac0-f275-e25f-8608" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Pair of Lightning Claws" hidden="false" id="c07c-06b4-9e21-d0e1">
                       <costs>
@@ -4313,13 +4568,118 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                       <infoLinks>
                         <infoLink name="Lightning Claws" id="e6c2-3bde-ce44-b6ae" hidden="false" type="profile" targetId="5f25-fc3f-2fbd-1d75"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="67b2-09ef-4e24-3670" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="64f2-2802-1722-74a1">
+                      <infoLinks>
+                        <infoLink name="Close-Combat Weapon" id="110d-0aee-756f-120f" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dcee-08dc-b285-1fc8" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5f76-8e06-3d74-7691"/>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="5f76-8e06-3d74-7691-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5f76-8e06-3d74-7691-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Pistol" id="df3f-de0a-8cf7-07a1" hidden="false" defaultSelectionEntryId="00f7-7b16-7a5b-1406">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="831f-15ef-7a99-3cf4">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Pistol" id="93e1-8360-5d0b-e545" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f081-2aeb-98d6-c2e2"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="00f7-7b16-7a5b-1406">
+                      <infoLinks>
+                        <infoLink name="Bolt Pistol" id="86d5-5326-7267-15f0" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f8c-16c9-b4a5-bcb7" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="fc1c-04f8-132c-689d-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="fc1c-04f8-132c-689d-max"/>
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Raptor Gunner" hidden="false" id="894d-84ea-f57e-7807">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="410e-79ff-0731-eb37" hidden="false" defaultSelectionEntryId="1760-9927-beed-9b9d">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="7282-21d3-0bec-4971">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Gun" id="e9bf-ab59-c881-6c8b" hidden="false" type="profile" targetId="29c3-2b26-b62c-779c"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b154-0f9d-9e40-2248" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="45a3-c4c0-3529-17e0">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Meltagun" id="6769-31e1-2a50-9455" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c0c9-21a6-cdd5-1f28" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="1760-9927-beed-9b9d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Flamer" id="7c39-0e81-56e6-b539" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="64b0-0473-5ded-82e9" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="10ff-34d5-ec51-a887">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Pistol" id="e518-58b2-ad01-8cc1" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a9a-0baf-1585-ca65" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="23c6-eba8-4f31-aeb1-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="23c6-eba8-4f31-aeb1-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <infoLinks>
+                <infoLink name="Raptor" id="5a78-00b3-6d9d-415e" hidden="false" type="profile" targetId="b991-2612-d49a-0f56"/>
+                <infoLink name="Close-Combat Weapon" id="2641-4f91-23ec-0ec1" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9c65-5a30-072d-96a3"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -4336,6 +4696,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Icon of Chaos Glory" id="0a1b-ddbd-b2fd-4e21" hidden="false" type="profile" targetId="f270-0328-367a-29cf"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c78-5e6c-b504-33f7" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Slaanesh" hidden="false" id="ed1e-d650-41a0-c06e">
               <costs>
@@ -4344,6 +4707,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Icon of Slaanesh" id="4fd3-6180-d711-d3df" hidden="false" type="profile" targetId="c7de-2c6d-4bb9-fae9"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f8b7-072d-5240-d55a" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Khorne" hidden="false" id="d91f-6a9b-d62e-ec55">
               <costs>
@@ -4352,6 +4718,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Icon of Khorne" id="5a47-b4fd-f20e-2207" hidden="false" type="profile" targetId="643c-3bbb-41b1-1685"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5153-3f78-c684-45e1" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Nurgle" hidden="false" id="1501-0450-4e8e-6229">
               <costs>
@@ -4360,6 +4729,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Icon of Nurgle" id="edc5-ea78-5ef5-ba54" hidden="false" type="profile" targetId="6554-6525-0fd2-9551"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1a6-3a0e-933a-f361" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Tzeentch" hidden="false" id="4743-6cc1-67f6-5564">
               <costs>
@@ -4368,57 +4740,19 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Icon of Tzeentch" id="386b-d3fa-ebb1-ddae" hidden="false" type="profile" targetId="7429-8181-fdc2-3e0f"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5268-af9c-2f01-e488" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7bbd-5605-3557-4c12"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Up to two Raptors may replace their bolt pistol with" id="7f4e-10ed-6a36-e2b9" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="b106-bfab-a09a-60c1">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Plasma Gun" id="5032-fe52-e1a5-c778" hidden="false" type="profile" targetId="29c3-2b26-b62c-779c"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="3971-de0c-e29f-0b75">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Meltagun" id="4da9-dd6e-086d-b234" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="fe3c-55f5-a473-b85a">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Flamer" id="5af0-101d-ca56-32c0" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="28d7-cd40-341c-d505">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Plasma Pistol" id="1d5b-1375-5bdd-43ca" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="49ea-c292-949e-0935"/>
-          </constraints>
-        </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Bolt Pistol" id="680b-e255-6ed6-37b0" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
         <infoLink name="Frag Grenades" id="f8a1-df90-651f-978b" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
         <infoLink name="Krak Grenades" id="4946-5e02-1d71-2a47" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
-        <infoLink name="Close-Combat Weapon" id="542c-2164-eecb-05ef" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
         <infoLink name="Jump Infantry" id="581a-b5b7-be02-39ed" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
       </infoLinks>
     </selectionEntry>
@@ -4454,15 +4788,18 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="d259-7cd0-ee48-2574" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Havocs" hidden="false" id="a12b-ec78-948e-c7fc">
+            <selectionEntry type="model" import="true" name="Havocs" hidden="false" id="a12b-ec78-948e-c7fc" defaultAmount="5">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
               </costs>
               <infoLinks>
                 <infoLink targetId="633d-12dc-ff73-6f78" id="748e-5b57-f4ee-f58b" type="profile" name="Chaos Havocs" hidden="false"/>
+                <infoLink name="Bolt Pistol" id="bc4e-1c2d-7eed-ca69" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                <infoLink name="Boltgun" id="c2e4-8d7b-c17e-af57" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                <infoLink name="Close-Combat Weapon" id="fb8e-b253-e58c-a8c6" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Aspiring Champion" hidden="false" id="a9bc-989c-ee4b-c4be">
+            <selectionEntry type="model" import="true" name="Aspiring Champion" hidden="false" id="a9bc-989c-ee4b-c4be">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
               </costs>
@@ -4470,10 +4807,10 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                 <infoLink name="Aspiring Champion" id="b687-b361-e836-2581" hidden="false" type="profile" targetId="f893-cd6d-f3e5-0547"/>
               </infoLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3b9b-5fe6-d07f-d63e"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b9b-5fe6-d07f-d63e"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup name="This model may replace his bolter with one of the following" id="0539-6d03-f0ff-66e7" hidden="false">
+                <selectionEntryGroup name="Weapon" id="0539-6d03-f0ff-66e7" hidden="false" defaultSelectionEntryId="2c4b-46d3-6c34-c065">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Twin-linked Bolter" hidden="false" id="580e-b7e3-63c0-e8d6">
                       <infoLinks>
@@ -4482,6 +4819,17 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
                       </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7e36-2daf-804e-fa07" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Bolter" hidden="false" id="2c4b-46d3-6c34-c065">
+                      <infoLinks>
+                        <infoLink name="Boltgun" id="cb2f-5565-3a6e-ae80" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2cc9-0cb3-5eb7-509c" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
@@ -4489,13 +4837,17 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
                       </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10b9-bc06-64e0-6967" includeChildSelections="false"/>
+                      </constraints>
                     </entryLink>
                   </entryLinks>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a4f0-ac93-bf91-7924"/>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="a4f0-ac93-bf91-7924-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a4f0-ac93-bf91-7924-max"/>
                   </constraints>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="This model may replace his close combat weapon with" id="59f3-96ab-d4a9-4be0" hidden="false">
+                <selectionEntryGroup name="Combat Weapon" id="59f3-96ab-d4a9-4be0" hidden="false" defaultSelectionEntryId="8d91-e72f-7f60-7823">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="0c70-f55c-8619-f9dc">
                       <costs>
@@ -4504,6 +4856,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                       <infoLinks>
                         <infoLink name="Power Weapon" id="9e8d-3106-f1c5-4c06" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0bb2-f1e6-0d22-da82" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="56c4-cc0d-8b67-c7c5">
                       <costs>
@@ -4512,22 +4867,53 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                       <infoLinks>
                         <infoLink name="Power Fist" id="4ade-cb5c-0c02-05f9" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f9c8-4ca0-3b4d-6dd3" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="8d91-e72f-7f60-7823">
+                      <infoLinks>
+                        <infoLink name="Close-Combat Weapon" id="a4ce-4e9a-6a06-460e" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95e8-41cf-779a-c524" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="49c6-7761-f226-5da2-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="49c6-7761-f226-5da2-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Pistol" id="4cd8-1d32-68b8-ca3b" hidden="false" defaultSelectionEntryId="2716-f50d-bedb-d3b1">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="bcaf-0484-9d17-7280">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Pistol" id="1620-93b2-7bd0-810f" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ea3-49fe-f09e-3c32" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="2716-f50d-bedb-d3b1">
+                      <infoLinks>
+                        <infoLink name="Bolt Pistol" id="6cf2-6dba-d8b7-0ba1" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f4f-2be1-3e08-fe93" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="aedd-b99f-83bc-c7e3-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="aedd-b99f-83bc-c7e3-max"/>
+                  </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="bcaf-0484-9d17-7280">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Plasma Pistol" id="1620-93b2-7bd0-810f" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b57-eb8e-18dc-9b3e"/>
-                  </constraints>
-                </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Meltabomb" hidden="false" id="af53-6b33-c5bb-a40f">
                   <costs>
                     <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
@@ -4540,6 +4926,113 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                   </constraints>
                 </selectionEntry>
               </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Havoc Heavy Gunner" hidden="false" id="281d-c654-4eba-a5b9">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Chaos Havocs" id="68bb-2557-310f-3ca8" hidden="false" targetId="633d-12dc-ff73-6f78" type="profile"/>
+                <infoLink name="Bolt Pistol" id="d9ff-0fcf-24d4-7465" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                <infoLink name="Close-Combat Weapon" id="dec4-4b96-7dd6-594e" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="d33f-474f-f247-71cb" hidden="false" defaultSelectionEntryId="987f-8ea1-0207-2795">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Lascannon" hidden="false" id="15fc-c264-67ed-23fd">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Lascannon" id="067e-ed1f-af53-56cc" hidden="false" type="profile" targetId="2965-8d8c-d5b0-8aa1"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3036-626a-2dbb-b3c2" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="e51a-4471-453c-bf61">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Missile Launcher (Frag)" id="8511-e68c-2083-1d09" hidden="false" type="profile" targetId="5c9b-64b6-6546-fc94"/>
+                        <infoLink name="Missile Launcher (Krak)" id="931f-ec7f-503d-7f82" hidden="false" type="profile" targetId="c290-fc2b-c332-8290"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ab5-980e-890f-0514" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5562-b13e-2377-cdcc" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca1c-cb86-6836-05d8" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Autocannon" hidden="false" id="9493-b1ee-124c-8bcc">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Autocannon" id="56be-cc93-e436-8438" hidden="false" type="profile" targetId="0439-7ae4-6bcf-50ac"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="210e-fb21-c868-d7da" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Heavy Bolter" hidden="false" id="e409-81fb-6db8-a935">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Heavy Bolter" id="4e00-d1a1-3776-2bd8" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="34d7-a7c8-5b6f-5edd" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="87a7-bf4f-e4bd-860e" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="28a0-a790-1e6a-274a" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="f08d-722a-7d36-d7ab">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Gun" id="6bde-0b6f-2628-c8d0" hidden="false" type="profile" targetId="29c3-2b26-b62c-779c"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="310e-a3f9-68fa-f592" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="cd57-4366-1b37-ee61">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Meltagun" id="8639-a63a-036f-3c73" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e9d-043e-d127-97e2" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="97a7-8e49-0168-1572" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="987f-8ea1-0207-2795">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Flamer" id="ebb2-717d-6c96-5b72" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a9c9-cc7b-be26-e77f" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b9e9-33ba-b59d-ab0d" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="a9bc-05c6-7308-6063-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a9bc-05c6-7308-6063-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="8c33-839c-467b-5e39"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -4556,6 +5049,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Icon of Chaos Glory" id="ac6c-4867-0e41-5313" hidden="false" type="profile" targetId="f270-0328-367a-29cf"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5add-d254-ed8a-be63" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Slaanesh" hidden="false" id="3825-3a18-28a4-9835">
               <costs>
@@ -4564,6 +5060,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Icon of Slaanesh" id="9bb4-0203-e0bc-9e82" hidden="false" type="profile" targetId="c7de-2c6d-4bb9-fae9"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a137-f063-cfd9-6849" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Khorne" hidden="false" id="1d6a-d219-5a1f-7190">
               <costs>
@@ -4572,6 +5071,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Icon of Khorne" id="3405-9da2-9044-bd4c" hidden="false" type="profile" targetId="643c-3bbb-41b1-1685"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8508-13b2-1b8a-23df" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Nurgle" hidden="false" id="eadd-87ca-a9ef-c9a5">
               <costs>
@@ -4580,6 +5082,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Icon of Nurgle" id="687c-6d91-b006-6b6e" hidden="false" type="profile" targetId="6554-6525-0fd2-9551"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3fc0-1d88-2619-699f" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Tzeentch" hidden="false" id="ba01-8ec6-5528-1463">
               <costs>
@@ -4588,88 +5093,24 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Icon of Tzeentch" id="971f-4f54-d847-bb47" hidden="false" type="profile" targetId="7429-8181-fdc2-3e0f"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="459a-076f-ccda-a1c1" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="ed77-db2b-26ce-6df7"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Up to four Havocs may replace their boltgun with" id="84f7-e63c-e068-4a43" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Lascannon" hidden="false" id="525f-a9b8-cc3b-86a2">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Lascannon" id="4350-2915-841a-1f0a" hidden="false" type="profile" targetId="2965-8d8c-d5b0-8aa1"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="1103-55c2-9daf-186a">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Missile Launcher (Frag)" id="1a07-ae6b-e195-f7c5" hidden="false" type="profile" targetId="5c9b-64b6-6546-fc94"/>
-                <infoLink name="Missile Launcher (Krak)" id="c194-7435-d2bc-dad2" hidden="false" type="profile" targetId="c290-fc2b-c332-8290"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Autocannon" hidden="false" id="7200-bc87-2ddf-33ce">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Autocannon" id="14f8-f923-96ea-7d36" hidden="false" type="profile" targetId="0439-7ae4-6bcf-50ac"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Heavy Bolter" hidden="false" id="eebf-d00d-d487-5ac1">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Heavy Bolter" id="bb39-c465-8872-66d5" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="91e6-fed1-5bdf-09dd">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Plasma Gun" id="1d6a-e018-1790-8bed" hidden="false" type="profile" targetId="29c3-2b26-b62c-779c"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="3dc5-f28f-6c88-8f64">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Meltagun" id="ce89-9cae-d9ff-16a7" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="9047-5eac-e711-055b">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Flamer" id="49ac-ded4-c235-e7d6" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="4" field="selections" scope="self" shared="true" id="ae54-2811-40b8-f292"/>
-          </constraints>
-        </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Bolt Pistol" id="bc4e-1c2d-7eed-ca69" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
         <infoLink name="Frag Grenades" id="b959-2259-c839-827e" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
         <infoLink name="Krak Grenades" id="b704-0b74-a1a4-a20d" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
-        <infoLink name="Close-Combat Weapon" id="fb8e-b253-e58c-a8c6" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
-        <infoLink name="Boltgun" id="c2e4-8d7b-c17e-af57" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Obliterator Cult" hidden="false" id="5af5-1b53-6c33-3b3f">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Obliterator" hidden="false" id="ce47-c106-c58a-ed2c">
+        <selectionEntry type="model" import="true" name="Obliterator" hidden="false" id="ce47-c106-c58a-ed2c">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="75"/>
           </costs>
@@ -4940,12 +5381,15 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         <infoLink name="Fleet" id="2b44-5c77-7a94-dc37" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Arm 1" id="ad10-88d4-272f-a553" hidden="false" defaultSelectionEntryId="9588-3044-a60e-e3cc">
+        <selectionEntryGroup name="First Arm" id="ad10-88d4-272f-a553" hidden="false" defaultSelectionEntryId="9588-3044-a60e-e3cc">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Twin-linked Heavy Flamer" hidden="false" id="9588-3044-a60e-e3cc">
               <infoLinks>
                 <infoLink name="Twin-linked Heavy Flamer" id="69e8-11c2-b96f-f41a" hidden="false" type="profile" targetId="ac52-5bdd-8a29-3bb1"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b00e-95be-cec4-7c8f" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Close Combat Arm" hidden="false" id="040e-c731-15bb-0e6e">
               <profiles>
@@ -4955,6 +5399,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                   </characteristics>
                 </profile>
               </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9299-b64b-9dd2-cedf" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Havoc Launcher" hidden="false" id="e1d6-a5ef-21f0-e6be">
               <costs>
@@ -4963,6 +5410,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Havoc Launcher" id="f244-694b-86ec-7681" hidden="false" type="profile" targetId="71c2-459a-7168-82f6"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ecf9-cbd2-025f-5d6e" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -4970,12 +5420,15 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9be6-5d62-c5ed-78f8-max"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Arm 2" id="57d1-d50b-25ee-b236" hidden="false">
+        <selectionEntryGroup name="Second Arm" id="57d1-d50b-25ee-b236" hidden="false">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Reaper Autocannon" hidden="false" id="ab6c-9da9-b2ce-10e1">
               <infoLinks>
                 <infoLink name="Reaper Autocannon" id="a333-fce5-eb0f-2d56" hidden="false" type="profile" targetId="014c-57ed-c0b2-f020"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c0d3-3036-4228-defe" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Close Combat Arm" hidden="false" id="fc6a-ae57-eebb-02b9">
               <profiles>
@@ -4985,11 +5438,17 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                   </characteristics>
                 </profile>
               </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d8a-e316-551e-4799" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Twin-linked Heavy Bolter" hidden="false" id="d31f-eb85-4f10-131d">
               <infoLinks>
                 <infoLink name="Twin-linked Heavy Bolter" id="f3c2-ddc0-b476-98df" hidden="false" type="profile" targetId="684d-431d-f854-d4fd"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c30-c6ab-fb39-007f" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Twin-linked Lascannon" hidden="false" id="1140-8149-11ad-8e86">
               <costs>
@@ -4998,6 +5457,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Twin-linked Lascannons" id="86c4-028a-b090-1528" hidden="false" type="profile" targetId="0652-8647-3961-0d47"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="961c-46a3-903e-bc7c" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -5032,7 +5494,7 @@ If the model that is possessed by the Greater Daemon is inside a transport, the 
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Summoned Lesser Daemons" hidden="false" id="a363-e38a-92bd-2596">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Daemons" hidden="false" id="f4bf-ddef-716a-075d">
+        <selectionEntry type="model" import="true" name="Daemons" hidden="false" id="f4bf-ddef-716a-075d">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="13"/>
           </costs>
@@ -5056,7 +5518,7 @@ If the model that is possessed by the Greater Daemon is inside a transport, the 
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Cultist Mob" hidden="false" id="6cc9-07f1-82ff-462c">
+    <selectionEntry type="unit" import="true" name="Cultist Mob" hidden="false" id="6cc9-07f1-82ff-462c">
       <selectionEntryGroups>
         <selectionEntryGroup name="Mob" id="eb35-8b4e-0eee-202d" hidden="false">
           <selectionEntries>
@@ -5246,7 +5708,7 @@ If the model that is possessed by the Greater Daemon is inside a transport, the 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Maulerfiend" hidden="false" id="f151-acf9-59b4-698a">
+    <selectionEntry type="unit" import="true" name="Maulerfiend" hidden="false" id="f151-acf9-59b4-698a">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="125"/>
       </costs>
@@ -5311,7 +5773,7 @@ If the model that is possessed by the Greater Daemon is inside a transport, the 
         <infoLink name="Move Through Cover" id="bc72-b121-4564-c4b5" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Forgefiend" hidden="false" id="74d1-c6ef-3a30-1579">
+    <selectionEntry type="unit" import="true" name="Forgefiend" hidden="false" id="74d1-c6ef-3a30-1579">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="175"/>
       </costs>
@@ -5363,7 +5825,7 @@ If the model that is possessed by the Greater Daemon is inside a transport, the 
         <infoLink name="Daemon" id="f919-c281-4233-6766" hidden="false" type="profile" targetId="f85c-0fbe-ac30-71e4"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Venomcrawler" hidden="false" id="0666-2920-f070-09c8">
+    <selectionEntry type="unit" import="true" name="Venomcrawler" hidden="false" id="0666-2920-f070-09c8">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="180"/>
       </costs>
@@ -5400,6 +5862,134 @@ If the model that is possessed by the Greater Daemon is inside a transport, the 
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Aspiring Champion" hidden="false" id="0964-34b0-90ba-1ba6">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Aspiring Champion" id="2620-a1b4-32a5-40aa" hidden="false" type="profile" targetId="f893-cd6d-f3e5-0547"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6fee-95a9-2d50-f5bb"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Combat Weapon" id="d890-e53b-36d4-d041" hidden="false" defaultSelectionEntryId="8d91-e72f-7f60-7823">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="4235-69da-20fe-0968">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Power Weapon" id="a01e-68e8-d97b-c432" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4938-63e0-4cc9-7bc3" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="4b23-1649-0147-6261">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Power Fist" id="0e26-0f5e-a04d-5369" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="26ef-0abc-9337-a800" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="2621-5808-dd51-60e7">
+              <infoLinks>
+                <infoLink name="Close-Combat Weapon" id="8f26-f8af-72e9-2bc7" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="004a-94c5-2f03-4487" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="8d44-0edb-5d59-c876-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8d44-0edb-5d59-c876-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Pistol" id="e630-dbfa-55e8-3e56" hidden="false" defaultSelectionEntryId="2716-f50d-bedb-d3b1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="00b8-4f2c-3f7f-4320">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Plasma Pistol" id="3d67-1b1a-d409-8622" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d008-4828-68d2-4e4e" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="d931-53dd-04b0-6410">
+              <infoLinks>
+                <infoLink name="Bolt Pistol" id="e629-ac86-0209-0310" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2842-865e-208d-ae2a" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="ef75-19e6-4887-c604-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="ef75-19e6-4887-c604-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapon" id="5c79-6dc2-62bd-204d" hidden="false" defaultSelectionEntryId="2c4b-46d3-6c34-c065">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Bolter" hidden="false" id="a268-d83e-2ef4-b5ef">
+              <infoLinks>
+                <infoLink name="Twin-linked Bolter" id="d631-388a-2cc3-d4a5" hidden="false" type="profile" targetId="0f1a-e452-e74a-284a"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f225-030b-b4bb-706e" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bolter" hidden="false" id="1ece-ce44-8bdb-9053">
+              <infoLinks>
+                <infoLink name="Boltgun" id="b1d5-a179-1d2c-77df" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e61-6b05-b318-87ff" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Combi-weapon" hidden="false" id="88f8-4097-5971-35ed" type="selectionEntry" targetId="d720-24d4-d7f1-df20">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a74-895e-353d-ca63" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="6787-d7fc-bef3-cc82-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="6787-d7fc-bef3-cc82-max"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Meltabomb" hidden="false" id="d010-3cb1-3825-bc78">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Melta Bomb" id="6b98-1ac9-5e3b-4dba" hidden="false" type="profile" targetId="62b3-f972-0f32-e8d8"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6900-517d-9060-ec2f"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>

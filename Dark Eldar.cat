@@ -1334,7 +1334,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
     </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Asdrubael Vect" hidden="false" id="586d-932e-90f6-ed16">
+    <selectionEntry type="unit" import="true" name="Asdrubael Vect" hidden="false" id="586d-932e-90f6-ed16">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="240"/>
       </costs>
@@ -1560,7 +1560,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Lady Malys" hidden="false" id="4f8e-1865-6201-6fc8">
+    <selectionEntry type="unit" import="true" name="Lady Malys" hidden="false" id="4f8e-1865-6201-6fc8">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="130"/>
       </costs>
@@ -1591,7 +1591,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Drazhar, Master of Blades" hidden="false" id="82dd-438d-c828-85de">
+    <selectionEntry type="unit" import="true" name="Drazhar, Master of Blades" hidden="false" id="82dd-438d-c828-85de">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="230"/>
       </costs>
@@ -1623,7 +1623,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Lelith Hasperax" hidden="false" id="851f-8334-aa53-7a21">
+    <selectionEntry type="unit" import="true" name="Lelith Hasperax" hidden="false" id="851f-8334-aa53-7a21">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="175"/>
       </costs>
@@ -1654,7 +1654,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Urien Rakarth" hidden="false" id="032c-4f5e-d141-0f82">
+    <selectionEntry type="unit" import="true" name="Urien Rakarth" hidden="false" id="032c-4f5e-d141-0f82">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="190"/>
       </costs>
@@ -1690,7 +1690,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Duke Sliscus the Serpent" hidden="false" id="7e5f-e287-9b08-c869">
+    <selectionEntry type="unit" import="true" name="Duke Sliscus the Serpent" hidden="false" id="7e5f-e287-9b08-c869">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="150"/>
       </costs>
@@ -1729,7 +1729,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Kheradruakh, the Decapitator" hidden="false" id="6330-898b-9f6b-e483">
+    <selectionEntry type="unit" import="true" name="Kheradruakh, the Decapitator" hidden="false" id="6330-898b-9f6b-e483">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="140"/>
       </costs>
@@ -1761,7 +1761,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Baron Sathonyx" hidden="false" id="9619-8374-9fae-3d2a">
+    <selectionEntry type="unit" import="true" name="Baron Sathonyx" hidden="false" id="9619-8374-9fae-3d2a">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="105"/>
       </costs>
@@ -2024,7 +2024,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Court of the Archon" hidden="false" id="bad0-9e56-83c1-6e64">
+    <selectionEntry type="unit" import="true" name="Court of the Archon" hidden="false" id="bad0-9e56-83c1-6e64">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Medusae" hidden="false" id="e234-1a8c-200f-18cc">
           <costs>
@@ -2236,7 +2236,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Succubus" hidden="false" id="a72d-82c8-61c1-4455">
+    <selectionEntry type="unit" import="true" name="Succubus" hidden="false" id="a72d-82c8-61c1-4455">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="65"/>
       </costs>
@@ -2386,12 +2386,12 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Haemonculus" hidden="false" id="51db-3ac5-de8a-bd3d">
+    <selectionEntry type="unit" import="true" name="Haemonculus" hidden="false" id="51db-3ac5-de8a-bd3d">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="80"/>
       </costs>
       <selectionEntryGroups>
-        <selectionEntryGroup name="You may include up to three Haemonculus in one HQ choice" id="23ab-9a15-c7a0-c52a" hidden="false">
+        <selectionEntryGroup name="You may include up to three Haemonculus in one HQ choice" id="23ab-9a15-c7a0-c52a" hidden="false" defaultSelectionEntryId="116e-4b4e-eaac-cfb1">
           <selectionEntries>
             <selectionEntry type="unit" import="true" name="Haemonculus" hidden="false" id="116e-4b4e-eaac-cfb1" defaultAmount="1">
               <costs>
@@ -2804,7 +2804,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         <infoLink name="Power from Pain" id="4d7f-99b2-8fd8-67b4" hidden="false" type="profile" targetId="1dd1-ffaa-9d8f-ee0f"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Grotesques" hidden="false" id="e01e-f933-32fb-be08">
+    <selectionEntry type="unit" import="true" name="Grotesques" hidden="false" id="e01e-f933-32fb-be08">
       <selectionEntryGroups>
         <selectionEntryGroup name="Unit" id="4cde-912e-6ad4-83fb" hidden="false">
           <selectionEntries>
@@ -2881,6 +2881,18 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
+            <selectionEntry type="model" import="true" name="Grotesque Gunner" hidden="false" id="8f82-2d8e-1a2f-df14" defaultAmount="3">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Grotesque" id="3e30-ecd9-c53f-a9fd" hidden="false" type="profile" targetId="72ea-f9f7-b6ab-5997"/>
+                <infoLink name="Liquifier Gun" id="0b00-05e2-7bda-2a17" hidden="false" type="profile" targetId="0086-0354-d6e1-8d3a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9931-b43c-5d8e-b75e"/>
+              </constraints>
+            </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="min" value="3" field="selections" scope="self" shared="true" id="b4f9-d20c-9be4-19c5"/>
@@ -2910,19 +2922,6 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         <infoLink name="Power from Pain" id="98ac-f98a-2593-8137" hidden="false" type="profile" targetId="1dd1-ffaa-9d8f-ee0f"/>
         <infoLink name="Altered Physique" id="f74a-0429-0077-c249" hidden="false" type="profile" targetId="40e0-edd4-8a94-523e"/>
       </infoLinks>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="One Grotesque may exchange his Close Combat Weapon for a Liquifier Gun" hidden="false" id="ffb8-28f2-d937-728c">
-          <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Liquifier Gun" id="0b00-05e2-7bda-2a17" hidden="false" type="profile" targetId="0086-0354-d6e1-8d3a"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="690b-9ff1-51e6-ff4f"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <profiles>
         <profile name="Berserk Rampage" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="97f1-6990-7962-2d0b">
           <characteristics>
@@ -3070,26 +3069,23 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
+            <selectionEntry type="model" import="true" name="Wrack Gunner" hidden="false" id="fb33-ebf5-9512-4e33" defaultAmount="3">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Wrack" id="cb3c-9f7a-3c77-df82" hidden="false" type="profile" targetId="3c44-6574-5439-e4ca"/>
+                <infoLink name="Liquifier Gun" id="d959-abfb-b3d1-74d7" hidden="false" type="profile" targetId="0086-0354-d6e1-8d3a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e8b4-04ae-d6bc-b671"/>
+              </constraints>
+            </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="min" value="3" field="selections" scope="self" shared="true" id="f580-af63-b06a-da9c"/>
             <constraint type="max" value="10" field="selections" scope="self" shared="true" id="53ce-9a41-0426-b8aa"/>
           </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="For every five models in the squad, one Wrack may replace a poisoned weapon with" id="47dd-2b09-c634-1a66" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Liquifier Gun" hidden="false" id="8d4b-b99d-84ee-2d3c">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Liquifier Gun" id="d959-abfb-b3d1-74d7" hidden="false" type="profile" targetId="0086-0354-d6e1-8d3a"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7025-71bd-fe80-1af9"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup name="May take a Dedicated Transport" id="4027-1efa-fbad-c802" hidden="false">
           <entryLinks>
@@ -3115,7 +3111,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         <infoLink name="Altered Physique" id="7414-ebe1-4ec2-c5fe" hidden="false" type="profile" targetId="40e0-edd4-8a94-523e"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Mandrakes" hidden="false" id="39f1-2a12-9645-d1f8">
+    <selectionEntry type="unit" import="true" name="Mandrakes" hidden="false" id="39f1-2a12-9645-d1f8">
       <selectionEntryGroups>
         <selectionEntryGroup name="Unit" id="29fc-ac0d-8060-8160" hidden="false">
           <selectionEntries>
@@ -3157,17 +3153,14 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         <infoLink name="Baleblast" id="5198-37e4-953a-09dd" hidden="false" type="profile" targetId="f411-30a9-03b5-4bb1"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Harlequins" hidden="false" id="514e-c85a-786b-6794">
+    <selectionEntry type="unit" import="true" name="Harlequins" hidden="false" id="514e-c85a-786b-6794">
       <selectionEntryGroups>
         <selectionEntryGroup name="Unit" id="b62e-9eb7-5a65-4bf7" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Harlequin" hidden="false" id="cffa-99e1-34ef-7563">
+            <selectionEntry type="model" import="true" name="Harlequin" hidden="false" id="cffa-99e1-34ef-7563" defaultAmount="5">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="18"/>
               </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="217c-7885-3a00-2f04"/>
-              </constraints>
               <infoLinks>
                 <infoLink name="Harlequin" id="0da4-b92d-d00b-f8e8" hidden="false" type="profile" targetId="82aa-1641-dc44-b7d0"/>
                 <infoLink name="Shuriken Pistol" id="1d09-01b0-879a-9471" hidden="false" type="profile" targetId="910c-afcf-db72-8224"/>
@@ -3202,7 +3195,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Death Jester" hidden="false" id="ba3c-1f56-9761-73ed">
+            <selectionEntry type="model" import="true" name="Death Jester" hidden="false" id="ba3c-1f56-9761-73ed">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="28"/>
               </costs>
@@ -3243,7 +3236,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Shadowseer" hidden="false" id="3027-f8f1-1292-f331">
+            <selectionEntry type="model" import="true" name="Shadowseer" hidden="false" id="3027-f8f1-1292-f331">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="48"/>
               </costs>
@@ -3285,7 +3278,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Troupe Master" hidden="false" id="1d71-b396-997e-1d04">
+            <selectionEntry type="model" import="true" name="Troupe Master" hidden="false" id="1d71-b396-997e-1d04">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="38"/>
               </costs>
@@ -3323,22 +3316,52 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Up to two models may replace their Shuriken Pistol with" id="1ac9-e16d-f0c8-d7b2" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Fusion Pistol" hidden="false" id="4ffa-6d76-d494-37b9">
+            <selectionEntry type="model" import="true" name="Harlequin Gunner" hidden="false" id="40de-7792-03c6-7988">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="28"/>
               </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="fe51-4dd9-fbf0-25ea"/>
+              </constraints>
               <infoLinks>
+                <infoLink name="Harlequin" id="99d3-7c0f-eed2-c8cb" hidden="false" type="profile" targetId="82aa-1641-dc44-b7d0"/>
                 <infoLink name="Fusion Pistol" id="8fd3-3efb-7c90-8e0a" hidden="false" type="profile" targetId="93a1-11a9-9f8c-c6c0"/>
               </infoLinks>
-              <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a8cd-7cd5-3b05-4ca6"/>
-              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="720d-3944-dec8-4f68" hidden="false" defaultSelectionEntryId="6e23-ef2d-2f80-9efd">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="6e23-ef2d-2f80-9efd">
+                      <infoLinks>
+                        <infoLink name="Close-Combat Weapon" id="64bc-2bd0-1e9b-2dc8" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2901-2b20-ad90-6c63"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Harlequin&apos;s Kiss" hidden="false" id="0f7f-732c-ae1b-903f">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Harlequin&apos;s Kiss" id="27fa-0b08-0200-fab3" hidden="false" type="profile" targetId="68a3-605a-f948-07f8"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc2b-f585-ab49-02eb"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="a5b6-84cb-e56a-483c"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4553-f724-320f-65f7"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="9d84-2e83-99bd-f81d"/>
+            <constraint type="max" value="10" field="selections" scope="self" shared="true" id="bb20-c21b-7072-f79f"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
@@ -3427,7 +3450,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Dracon" hidden="false" id="351e-c672-437f-c8d0" defaultAmount="">
+            <selectionEntry type="model" import="true" name="Dracon" hidden="false" id="351e-c672-437f-c8d0">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="17"/>
               </costs>
@@ -3475,7 +3498,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c17f-f233-ab8d-0c16"/>
                       </constraints>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Phantasm Grenade Launcher" hidden="false" id="9637-a46d-d7a7-7c11" sortIndex="">
+                    <selectionEntry type="upgrade" import="true" name="Phantasm Grenade Launcher" hidden="false" id="9637-a46d-d7a7-7c11">
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
                       </costs>
@@ -3727,7 +3750,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         <infoLink name="Power from Pain" id="e327-80f5-77c6-051b" hidden="false" type="profile" targetId="1dd1-ffaa-9d8f-ee0f"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Hekatrix Bloodbrides" hidden="false" id="8535-13ba-bbdf-95e8">
+    <selectionEntry type="unit" import="true" name="Hekatrix Bloodbrides" hidden="false" id="8535-13ba-bbdf-95e8">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="5fdf-1432-7c00-8ef0" hidden="false">
           <selectionEntries>
@@ -3737,6 +3760,8 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
               </costs>
               <infoLinks>
                 <infoLink name="Hekatrix Bloodbride" id="b4e9-6739-0b60-aa71" hidden="false" type="profile" targetId="850c-7b64-a473-ddf1"/>
+                <infoLink name="Splinter Pistol" id="9615-467a-a987-5099" hidden="false" type="profile" targetId="961e-187b-b03d-183b"/>
+                <infoLink name="Close-Combat Weapon" id="ca16-9119-015d-29d5" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Haywire Grenades" hidden="false" id="89eb-3d1f-10d7-8e19">
@@ -3776,7 +3801,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Syren may take" id="9e2b-e84b-d0c2-bd19" hidden="false">
+                <selectionEntryGroup name="Pistol" id="9e2b-e84b-d0c2-bd19" hidden="false" defaultSelectionEntryId="5f56-c06c-a00d-72e0">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Blast Pistol" hidden="false" id="257e-e35c-47c7-44e1">
                       <costs>
@@ -3800,9 +3825,17 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c5d2-6040-b2a7-8036"/>
                       </constraints>
                     </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Splinter Pistol" hidden="false" id="5f56-c06c-a00d-72e0">
+                      <infoLinks>
+                        <infoLink name="Splinter Pistol" id="f4d9-20de-9496-a1eb" hidden="false" type="profile" targetId="961e-187b-b03d-183b"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="69e7-1f99-94f6-450c" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="May replace her close combat weapon with" id="3311-e212-b715-bab6" hidden="false">
+                <selectionEntryGroup name="Combat Weapon" id="3311-e212-b715-bab6" hidden="false" defaultSelectionEntryId="93fa-d844-71fa-8458">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Venom Blade" hidden="false" id="8f31-14e0-2ebd-70a2">
                       <costs>
@@ -3837,12 +3870,87 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="82e5-587f-a2d6-43c8"/>
                       </constraints>
                     </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="93fa-d844-71fa-8458">
+                      <infoLinks>
+                        <infoLink name="Close-Combat Weapon" id="3212-ca37-0a15-71f8" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a10-e60b-5c0a-41a0" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
                   </selectionEntries>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e92d-258f-6bcc-76d2"/>
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Hekatrix Bloodbride Combat Master" hidden="false" id="35b3-80eb-4005-e963">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="13"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Hekatrix Bloodbride" id="7e07-4ebc-6947-cb13" hidden="false" type="profile" targetId="850c-7b64-a473-ddf1"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Haywire Grenades" hidden="false" id="a872-f415-1ec9-6b37">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1482-462f-0699-dbed"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Haywire Grenades" id="a1d6-c7ee-56cc-fe3c" hidden="false" type="profile" targetId="5580-d55d-3f59-8831"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="c5bd-2a51-547d-fec5" hidden="false" defaultSelectionEntryId="2009-bc4a-0493-91e2">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Razorflails" hidden="false" id="2009-bc4a-0493-91e2">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Razorflails" id="d308-8568-486a-fcae" hidden="false" type="profile" targetId="f18d-bebb-fe06-14b6"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d7b-8cf2-566e-288f"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Hydra Gauntlets" hidden="false" id="f458-bad7-e4c1-b609">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5346-007e-4dbc-be91"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Hydra gauntlets" id="f383-eb68-833d-db43" hidden="false" type="profile" targetId="eeac-de21-cae5-a620"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Shardnet and Impaler" hidden="false" id="8414-3a04-e597-ca1d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Shardnet and Impaler" id="7126-a59b-9f66-8713" hidden="false" type="profile" targetId="9f42-6785-16f8-9a31"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="93cc-6d40-b63d-e567"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="5f6f-a439-faf5-f309-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5f6f-a439-faf5-f309-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="be9f-e539-0b5e-2948"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -3867,59 +3975,17 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="31e2-66a5-75d6-937b"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="For every three models in the squad, one may replace her Splinter Pistol and Close Combat Weapon with" id="c5bd-2a51-547d-fec5" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Razorflails" hidden="false" id="2009-bc4a-0493-91e2">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Razorflails" id="d308-8568-486a-fcae" hidden="false" type="profile" targetId="f18d-bebb-fe06-14b6"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d7b-8cf2-566e-288f"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Hydra Gauntlets" hidden="false" id="f458-bad7-e4c1-b609">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5346-007e-4dbc-be91"/>
-              </constraints>
-              <infoLinks>
-                <infoLink name="Hydra gauntlets" id="f383-eb68-833d-db43" hidden="false" type="profile" targetId="eeac-de21-cae5-a620"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Shardnet and Impaler" hidden="false" id="8414-3a04-e597-ca1d">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Shardnet and Impaler" id="7126-a59b-9f66-8713" hidden="false" type="profile" targetId="9f42-6785-16f8-9a31"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="93cc-6d40-b63d-e567"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="3" field="selections" scope="self" shared="true" id="5f6f-a439-faf5-f309"/>
-          </constraints>
-        </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
         <infoLink name="Combat Drugs" id="c000-5d19-735f-90ed" hidden="false" type="profile" targetId="1d3c-77f4-2b5c-3785"/>
         <infoLink name="Plasma Grenades" id="abea-1bb4-5178-3795" hidden="false" type="profile" targetId="f199-6b5f-7b3d-f011"/>
-        <infoLink name="Close-Combat Weapon" id="ca16-9119-015d-29d5" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
-        <infoLink name="Splinter Pistol" id="9615-467a-a987-5099" hidden="false" type="profile" targetId="961e-187b-b03d-183b"/>
         <infoLink name="Fleet" id="97ce-fca8-786a-1d46" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
         <infoLink name="Night Vision" id="ff38-3aa8-a796-8ce0" hidden="false" type="profile" targetId="2c92-8245-2e67-3bd5"/>
         <infoLink name="Power from Pain" id="b814-8408-a9bc-dfd1" hidden="false" type="profile" targetId="1dd1-ffaa-9d8f-ee0f"/>
         <infoLink name="Dodge" id="a603-24a5-3f8b-c1a3" hidden="false" type="profile" targetId="a3d9-9545-e497-019e"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Kabalite Warrior" hidden="false" id="da24-fb6b-a4ba-09ce">
+    <selectionEntry type="unit" import="true" name="Kabalite Warrior" hidden="false" id="da24-fb6b-a4ba-09ce">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="5b96-36b5-70c9-eded" hidden="false">
           <selectionEntries>
@@ -4096,33 +4162,47 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cbf4-38d3-231b-ef6e"/>
               </constraints>
             </selectionEntry>
+            <selectionEntry type="model" import="true" name="Kabalite Heavy Gunner" hidden="false" id="1ded-ed78-8732-c985">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="9"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Kabalite Warrior" id="1f2d-2bb0-32b0-53a6" hidden="false" type="profile" targetId="e5d0-c99d-fd4b-2a20"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="6fb8-edc6-8ab8-a486" hidden="false" defaultSelectionEntryId="82a5-9969-bcca-5e0b">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Dark Lance" hidden="false" id="3658-227c-43f5-8d74">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Dark Lance" id="65c4-98f0-2967-ad51" hidden="false" type="profile" targetId="d8af-a924-76f1-6e34"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Splinter Cannon" hidden="false" id="82a5-9969-bcca-5e0b">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Splinter Cannon" id="a095-5474-bb1a-5ac2" hidden="false" type="profile" targetId="6c89-fd88-ada8-a1ca"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="1cc8-e69d-325d-413e"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="055c-fc77-8d3a-0e80"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="efe0-86de-93ba-8af4"/>
+              </constraints>
+            </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="min" value="5" field="selections" scope="self" shared="true" id="4b67-fdb7-af87-4399"/>
             <constraint type="max" value="20" field="selections" scope="self" shared="true" id="dd81-0cda-315f-bb35"/>
-          </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="For every ten models in the squad, one Kabalite Warrior may replace his Splinter Rifle With" id="aa18-ba46-01db-f2ec" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Splinter Cannon" hidden="false" id="82a5-9969-bcca-5e0b">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Splinter Cannon" id="a095-5474-bb1a-5ac2" hidden="false" type="profile" targetId="6c89-fd88-ada8-a1ca"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Dark Lance" hidden="false" id="3658-227c-43f5-8d74">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Dark Lance" id="65c4-98f0-2967-ad51" hidden="false" type="profile" targetId="d8af-a924-76f1-6e34"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="1a78-08d2-90b3-ad38"/>
           </constraints>
         </selectionEntryGroup>
         <selectionEntryGroup name="Dedicated Transport" id="0617-e05c-48a8-cfc8" hidden="false">
@@ -4160,6 +4240,8 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
               </costs>
               <infoLinks>
                 <infoLink name="Wych" id="84f4-51b0-9390-a1d0" hidden="false" type="profile" targetId="35c4-b6de-f344-b194"/>
+                <infoLink name="Splinter Pistol" id="3fa5-2090-f5fe-29c5" hidden="false" type="profile" targetId="961e-187b-b03d-183b"/>
+                <infoLink name="Close-Combat Weapon" id="b09f-c736-fc08-158f" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Haywire Grenades" hidden="false" id="4b3a-a22e-21fb-b5e9">
@@ -4291,41 +4373,79 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
+            <selectionEntry type="model" import="true" name="Wych Combat Expert" hidden="false" id="b595-e501-5366-b2e6" defaultAmount="5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Wych" id="e42d-0375-e864-7568" hidden="false" type="profile" targetId="35c4-b6de-f344-b194"/>
+                <infoLink name="Splinter Pistol" id="febc-114b-c418-41f7" hidden="false" type="profile" targetId="961e-187b-b03d-183b"/>
+                <infoLink name="Close-Combat Weapon" id="3da3-9cdc-b3e1-49bc" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Haywire Grenades" hidden="false" id="eecb-2222-13d5-abca">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Haywire Grenades" id="a8d2-3f62-47f3-881d" hidden="false" type="profile" targetId="5580-d55d-3f59-8831"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e6f-7e1e-fc87-d0d9"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="5af4-a143-7c56-9a9c" hidden="false" defaultSelectionEntryId="1f6d-b688-ac87-1ee7">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Razorflails" hidden="false" id="1f6d-b688-ac87-1ee7">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Razorflails" id="2c96-9ae2-907e-5154" hidden="false" type="profile" targetId="f18d-bebb-fe06-14b6"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a792-3545-eacb-cd54" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Hydra Gauntlets" hidden="false" id="643c-ba1f-d767-7048">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Hydra gauntlets" id="c17a-26cf-3746-412c" hidden="false" type="profile" targetId="eeac-de21-cae5-a620"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="207a-694b-9025-3ddd" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Shardnet and Impaler" hidden="false" id="700e-5c30-b6b4-858a">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Shardnet and Impaler" id="fdfc-ed63-fe2a-1211" hidden="false" type="profile" targetId="9f42-6785-16f8-9a31"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c64-0f78-c6b4-e0c0" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="3202-174f-2ddc-645f-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3202-174f-2ddc-645f-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="8d38-afb7-6023-381f"/>
+              </constraints>
+            </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="min" value="5" field="selections" scope="self" shared="true" id="05a6-2fb9-dbe4-977b"/>
             <constraint type="max" value="15" field="selections" scope="self" shared="true" id="e0a9-c477-68ab-e006"/>
-          </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="For every five models in the squad, one may replace her splinter pistol and close combat weapon with" id="0685-3309-9c0f-2fce" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Razorflails" hidden="false" id="ed6a-9462-e46a-2272">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Razorflails" id="c1de-09ae-da04-46e3" hidden="false" type="profile" targetId="f18d-bebb-fe06-14b6"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Hydra Gauntlets" hidden="false" id="6826-0f9a-44ca-8c13">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Hydra gauntlets" id="b948-ddaf-1f86-d856" hidden="false" type="profile" targetId="eeac-de21-cae5-a620"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Shardnet and Impaler" hidden="false" id="180a-4be6-ac40-d036">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Shardnet and Impaler" id="054d-e522-cf94-b961" hidden="false" type="profile" targetId="9f42-6785-16f8-9a31"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="4" field="selections" scope="self" shared="true" id="d049-2d17-83ed-c75a"/>
           </constraints>
         </selectionEntryGroup>
         <selectionEntryGroup name="Dedicated Transport" id="aea4-4a90-6cd6-70a9" hidden="false">
@@ -4352,13 +4472,14 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         <infoLink name="Power from Pain" id="f821-6d65-d5f9-eb9a" hidden="false" type="profile" targetId="1dd1-ffaa-9d8f-ee0f"/>
         <infoLink name="Dodge" id="a86b-470c-e5e3-37b3" hidden="false" type="profile" targetId="a3d9-9545-e497-019e"/>
         <infoLink name="Fleet" id="285d-0a87-0c58-bd83" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Plasma Grenades" id="8d7c-62a7-bf30-d15d" hidden="false" type="profile" targetId="f199-6b5f-7b3d-f011"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Hellions" hidden="false" id="b633-e1ba-6fd2-bc47">
+    <selectionEntry type="unit" import="true" name="Hellions" hidden="false" id="b633-e1ba-6fd2-bc47">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="8997-ae2a-bd55-c382" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Hellion" hidden="false" id="d7b9-312e-565c-233b">
+            <selectionEntry type="model" import="true" name="Hellion" hidden="false" id="d7b9-312e-565c-233b">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="16"/>
               </costs>
@@ -4367,7 +4488,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                 <infoLink name="Hellglaive" id="2e42-f920-6f64-c9fa" hidden="false" type="profile" targetId="86d7-f826-2b76-96e5"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Helliarch" hidden="false" id="01b5-2765-21f0-5862">
+            <selectionEntry type="model" import="true" name="Helliarch" hidden="false" id="01b5-2765-21f0-5862">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="26"/>
               </costs>
@@ -4471,19 +4592,20 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         <infoLink name="Hit and Run" id="ffcd-7bec-d6ee-ae0b" hidden="false" type="profile" targetId="17a2-9db7-3461-361c"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Scourges" hidden="false" id="5329-2522-4020-2847">
+    <selectionEntry type="unit" import="true" name="Scourges" hidden="false" id="5329-2522-4020-2847">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="3e5d-76e0-346c-cee4" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Scourge" hidden="false" id="fe91-6200-df80-6989" defaultAmount="3">
+            <selectionEntry type="model" import="true" name="Scourge" hidden="false" id="fe91-6200-df80-6989" defaultAmount="3">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="22"/>
               </costs>
               <infoLinks>
                 <infoLink name="Scourge" id="f41d-0ddb-cbe7-f057" hidden="false" type="profile" targetId="fd91-e2ec-82a1-c86e"/>
+                <infoLink name="Shardcarbine" id="02a3-d143-3f46-c280" hidden="false" type="profile" targetId="1456-dcab-6e9b-1165"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Solarite" hidden="false" id="1939-9300-d85a-15da">
+            <selectionEntry type="model" import="true" name="Solarite" hidden="false" id="1939-9300-d85a-15da">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="32"/>
               </costs>
@@ -4588,65 +4710,79 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
+            <selectionEntry type="model" import="true" name="Scourge Gunner" hidden="false" id="dc5f-dc9b-24fc-74e3" defaultAmount="3">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="22"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Scourge" id="166e-6edd-988c-bb9a" hidden="false" type="profile" targetId="fd91-e2ec-82a1-c86e"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="df6c-9471-715e-ffae" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Shredder" hidden="false" id="5143-b856-e550-7a53">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Shredder" id="dee7-37da-7932-05b3" hidden="false" type="profile" targetId="8c02-d4dc-6c3f-26d4"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Splinter Cannon" hidden="false" id="2f3d-873e-469e-020e">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Splinter Cannon" id="4721-aaae-9fcd-11d0" hidden="false" type="profile" targetId="6c89-fd88-ada8-a1ca"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Haywire Blaster" hidden="false" id="d4a9-e1ae-55e5-5203">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Haywire Blaster" id="f7a9-5631-c929-4872" hidden="false" type="profile" targetId="2eab-4372-f3f9-feef"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="786b-40c9-1da3-51d5">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Heat Lance" id="2fd8-5ac8-be39-2ca5" hidden="false" type="profile" targetId="5f7a-864b-6b22-49e3"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Blaster" hidden="false" id="9299-9681-680d-e01b">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Blaster" id="d00d-cc79-8b51-971e" hidden="false" type="profile" targetId="b8e8-6a8c-9870-b727"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Dark Lance" hidden="false" id="48f3-3765-8956-7cd9">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Dark Lance" id="a452-19eb-8ea5-f6e8" hidden="false" type="profile" targetId="d8af-a924-76f1-6e34"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="ccf7-8f9b-f538-a79c-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="ccf7-8f9b-f538-a79c-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="377f-377a-9345-25fd"/>
+              </constraints>
+            </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="min" value="3" field="selections" scope="self" shared="true" id="e5c3-b5e7-7f78-ac06"/>
             <constraint type="max" value="10" field="selections" scope="self" shared="true" id="f909-13fe-7823-708b"/>
-          </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="For every five models in the unit, two Scourges may replace their shardcarbines with" id="2c0a-c068-5185-3667" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Shredder" hidden="false" id="1f28-ad5a-f24f-245c">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Shredder" id="e0ff-adec-cfe8-0191" hidden="false" type="profile" targetId="8c02-d4dc-6c3f-26d4"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Splinter Cannon" hidden="false" id="4a87-c0af-f038-daec">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Splinter Cannon" id="d950-6048-c396-7ce3" hidden="false" type="profile" targetId="6c89-fd88-ada8-a1ca"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Haywire Blaster" hidden="false" id="9399-834c-46f7-8d79">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Haywire Blaster" id="6430-172f-2f41-d8f6" hidden="false" type="profile" targetId="2eab-4372-f3f9-feef"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="022a-e0e1-db9f-a685">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Heat Lance" id="da88-202e-879e-108c" hidden="false" type="profile" targetId="5f7a-864b-6b22-49e3"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Blaster" hidden="false" id="d867-4ec4-5b1c-ec7f">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Blaster" id="4703-389b-8bfc-f7bb" hidden="false" type="profile" targetId="b8e8-6a8c-9870-b727"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Dark Lance" hidden="false" id="5ce7-55ae-011a-46e9">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Dark Lance" id="7e05-838c-8445-1e38" hidden="false" type="profile" targetId="d8af-a924-76f1-6e34"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="9f6c-d2e1-4869-c504"/>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4656,14 +4792,13 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         <infoLink name="Fleet" id="8398-9574-142d-faa8" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
         <infoLink name="Night Vision" id="b7d8-abe0-3959-0f6b" hidden="false" type="profile" targetId="2c92-8245-2e67-3bd5"/>
         <infoLink name="Power from Pain" id="9c34-8bd7-35a3-4f88" hidden="false" type="profile" targetId="1dd1-ffaa-9d8f-ee0f"/>
-        <infoLink name="Shardcarbine" id="c6eb-713e-a038-cc4e" hidden="false" type="profile" targetId="1456-dcab-6e9b-1165"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Beastmasters" hidden="false" id="c032-69dd-20ff-58dc">
+    <selectionEntry type="unit" import="true" name="Beastmasters" hidden="false" id="c032-69dd-20ff-58dc">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="2453-c4a5-8aa1-1682" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Beastmaster" hidden="false" id="7b60-f9db-67a7-1fb1">
+            <selectionEntry type="model" import="true" name="Beastmaster" hidden="false" id="7b60-f9db-67a7-1fb1">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
               </costs>
@@ -4675,7 +4810,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
               <selectionEntryGroups>
                 <selectionEntryGroup name="Each Beastmaster may be accompanied by one of the following options" id="18f8-0bf7-3901-8b79" hidden="false">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Khymerae" hidden="false" id="f50f-623b-beb7-2395">
+                    <selectionEntry type="model" import="true" name="Khymerae" hidden="false" id="f50f-623b-beb7-2395">
                       <selectionEntries>
                         <selectionEntry type="model" import="true" name="Khymerae" hidden="false" id="23d8-6f98-12b1-d930">
                           <costs>
@@ -4691,7 +4826,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Clawed Fiend" hidden="false" id="4977-dd78-49bc-7074">
+                    <selectionEntry type="model" import="true" name="Clawed Fiend" hidden="false" id="4977-dd78-49bc-7074">
                       <infoLinks>
                         <infoLink name="Clawed Fiend" id="e954-e0f7-8509-423a" hidden="false" type="profile" targetId="4b65-b66f-e8d0-34d7"/>
                       </infoLinks>
@@ -4706,7 +4841,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                         </profile>
                       </profiles>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Razorwing Flocks" hidden="false" id="ca08-94cf-2941-bfaf">
+                    <selectionEntry type="model" import="true" name="Razorwing Flocks" hidden="false" id="ca08-94cf-2941-bfaf">
                       <selectionEntries>
                         <selectionEntry type="upgrade" import="true" name="Razorwing" hidden="false" id="d60a-8998-82af-62cd">
                           <costs>
@@ -4736,46 +4871,125 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="One Beastmaster may replace his close combat weapon with one of the following" id="1e30-b4de-a3d9-96f9" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Venom Blade" hidden="false" id="ba11-bb18-2c6c-38e3">
+            <selectionEntry type="model" import="true" name="Beastmaster Combat Master" hidden="false" id="3ec9-c739-57c2-fd9b">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
               </costs>
               <infoLinks>
-                <infoLink name="Venom Blade" id="2e55-95d8-aae4-dd2c" hidden="false" type="profile" targetId="658c-abc4-330b-ab99"/>
+                <infoLink name="Beastmaster" id="f010-cf36-e803-7909" hidden="false" type="profile" targetId="0623-6294-622e-895b"/>
+                <infoLink name="Skyboard" id="3707-2634-ea0d-aaff" hidden="false" type="profile" targetId="c12c-bc69-eca8-0226"/>
               </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Each Beastmaster may be accompanied by one of the following options" id="3e6d-5db3-bd8b-7d0b" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="model" import="true" name="Khymerae" hidden="false" id="638c-43cc-fc29-89f2">
+                      <selectionEntries>
+                        <selectionEntry type="model" import="true" name="Khymerae" hidden="false" id="c5f2-039b-b40e-eca8">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b5df-e6b9-92d5-ad12"/>
+                            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="f0c3-ab66-e164-85d3"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink name="Khymera" id="c1d0-c6cb-219b-a005" hidden="false" type="profile" targetId="a47b-a9e7-6dde-4295"/>
+                          </infoLinks>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntry>
+                    <selectionEntry type="model" import="true" name="Clawed Fiend" hidden="false" id="ecd2-ae3a-0966-631f">
+                      <infoLinks>
+                        <infoLink name="Clawed Fiend" id="9535-0026-8fa0-80fb" hidden="false" type="profile" targetId="4b65-b66f-e8d0-34d7"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+                      </costs>
+                      <profiles>
+                        <profile name="Bestial Fury" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="ddcd-87ac-8419-3933">
+                          <characteristics>
+                            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Clawed Fiend gains +1 Attack each time it loses a Wound.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="model" import="true" name="Razorwing Flocks" hidden="false" id="d90c-7b2e-e9c9-64f7">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Razorwing" hidden="false" id="b42f-c998-b328-b303">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                          </costs>
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7a99-c2ab-9b65-bf22"/>
+                            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="eee4-2232-485c-f576"/>
+                          </constraints>
+                          <infoLinks>
+                            <infoLink name="Razorwing Flock" id="ccc2-fab6-540c-a7f6" hidden="false" type="profile" targetId="6081-c3bf-3f65-30b9"/>
+                          </infoLinks>
+                          <profiles>
+                            <profile name="Whirlwind of Blades" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="8dfb-7a5d-b969-14dc">
+                              <characteristics>
+                                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Razorwing Flocks have the Rending special rule.</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="9d00-6d2f-8963-a9e0"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Combat Weapon" id="1e30-b4de-a3d9-96f9" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Venom Blade" hidden="false" id="ba11-bb18-2c6c-38e3">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Venom Blade" id="2e55-95d8-aae4-dd2c" hidden="false" type="profile" targetId="658c-abc4-330b-ab99"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a55c-3f79-a8d5-fbe7"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="612c-a0a9-5280-6ba6">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Weapon" id="4826-819e-fe06-a614" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b345-4e1c-90ad-3022"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Agoniser" hidden="false" id="f87f-ff57-e032-b91e">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Agoniser" id="a37a-2e46-fcf8-2c02" hidden="false" type="profile" targetId="ccf1-9e1e-2e24-6fc5"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be30-5b77-1e3b-375e"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="168c-cc5f-5d48-0cdc"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a55c-3f79-a8d5-fbe7"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="612c-a0a9-5280-6ba6">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Power Weapon" id="4826-819e-fe06-a614" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b345-4e1c-90ad-3022"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Agoniser" hidden="false" id="f87f-ff57-e032-b91e">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Agoniser" id="a37a-2e46-fcf8-2c02" hidden="false" type="profile" targetId="ccf1-9e1e-2e24-6fc5"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be30-5b77-1e3b-375e"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="216c-ebbc-e947-24e8"/>
               </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="168c-cc5f-5d48-0cdc"/>
+            <constraint type="max" value="5" field="selections" scope="self" shared="true" id="9da5-8c21-8fa2-feed"/>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="9365-e184-f8b4-82d1"/>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4862,56 +5076,108 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
+            <selectionEntry type="model" import="true" name="Reaver Expert" hidden="false" id="b1e1-54bf-f18c-1c6a" defaultAmount="3">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="22"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Reaver" id="443c-3be9-a75b-fda0" hidden="false" type="profile" targetId="4926-dda0-a0f6-3216"/>
+                <infoLink name="Splinter Pistol" id="af3b-6f82-2b89-ff04" hidden="false" type="profile" targetId="961e-187b-b03d-183b"/>
+                <infoLink name="Close-Combat Weapon" id="5a04-8d68-0548-036a" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="1433-e740-ffb5-dede" hidden="false" defaultSelectionEntryId="58f0-33d9-eacf-4341">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Grav-talon" hidden="false" id="58f0-33d9-eacf-4341">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Grav-talon" id="8b79-a046-e760-481d" hidden="false" type="profile" targetId="890f-48ba-6bae-72ea"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="41a5-8623-0b11-98f0" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Cluster Caltrops" hidden="false" id="554c-00c8-b06f-4775">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Cluster Caltrops" id="9015-8707-5124-3226" hidden="false" type="profile" targetId="280a-ddb9-e2eb-cf71"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f139-fdfd-ad23-4332" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="3bda-2057-3961-db11-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3bda-2057-3961-db11-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a528-525c-8b17-c556" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Reaver Heavy Gunner" hidden="false" id="6dc9-cf63-0865-1e2c" defaultAmount="3">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="22"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Reaver" id="a5aa-0870-748b-fa51" hidden="false" type="profile" targetId="4926-dda0-a0f6-3216"/>
+                <infoLink name="Splinter Pistol" id="edf7-add3-d12d-a0f5" hidden="false" type="profile" targetId="961e-187b-b03d-183b"/>
+                <infoLink name="Close-Combat Weapon" id="103e-080d-9583-7761" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Reaver Jetbike Loadout" id="8438-26ce-c615-cfad" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="fecb-c4d1-5568-be35">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Heat Lance" id="d870-38c8-eeb1-bf87" hidden="false" type="profile" targetId="5f7a-864b-6b22-49e3"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="698f-2b29-6364-aa26" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Blaster" hidden="false" id="3110-d061-d0ec-5e04">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Blaster" id="d151-b541-fb86-4b8e" hidden="false" type="profile" targetId="b8e8-6a8c-9870-b727"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c76c-6c88-3f5f-d4c2" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Splinter Rifle" hidden="false" id="68a3-a7e1-1a1a-bbc5">
+                      <infoLinks>
+                        <infoLink name="Splinter Rifle" id="5777-8b32-97c4-63ce" hidden="false" type="profile" targetId="06a9-be17-626e-08de"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="884f-63aa-b0c3-6fc7" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="8119-946c-086f-6db6-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8119-946c-086f-6db6-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="9013-c718-8252-6bf1"/>
+              </constraints>
+            </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="min" value="3" field="selections" scope="self" shared="true" id="e642-291f-b747-099c"/>
             <constraint type="max" value="10" field="selections" scope="self" shared="true" id="ec4c-c893-0703-40c6"/>
-          </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="For every three models in the squad, one Reaver may replace his Jetbike&apos;s Splinter Rifle with" id="8438-26ce-c615-cfad" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Heat Lance" hidden="false" id="fecb-c4d1-5568-be35">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Heat Lance" id="d870-38c8-eeb1-bf87" hidden="false" type="profile" targetId="5f7a-864b-6b22-49e3"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Blaster" hidden="false" id="3110-d061-d0ec-5e04">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Blaster" id="d151-b541-fb86-4b8e" hidden="false" type="profile" targetId="b8e8-6a8c-9870-b727"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="3" field="selections" scope="self" shared="true" id="8119-946c-086f-6db6"/>
-          </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="One model per three Reavers may take either" id="1433-e740-ffb5-dede" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Grav-talon" hidden="false" id="58f0-33d9-eacf-4341">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Grav-talon" id="8b79-a046-e760-481d" hidden="false" type="profile" targetId="890f-48ba-6bae-72ea"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Cluster Caltrops" hidden="false" id="554c-00c8-b06f-4775">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Cluster Caltrops" id="9015-8707-5124-3226" hidden="false" type="profile" targetId="280a-ddb9-e2eb-cf71"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="3" field="selections" scope="self" shared="true" id="3bda-2057-3961-db11"/>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -5063,7 +5329,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Talos Pain Engine" hidden="false" id="45b4-4b58-a045-f399">
+    <selectionEntry type="unit" import="true" name="Talos Pain Engine" hidden="false" id="45b4-4b58-a045-f399">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="100"/>
       </costs>
@@ -5200,7 +5466,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Cronos Parasite Engine" hidden="false" id="38cf-bace-412a-908c">
+    <selectionEntry type="unit" import="true" name="Cronos Parasite Engine" hidden="false" id="38cf-bace-412a-908c">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="80"/>
       </costs>
@@ -5243,7 +5509,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Razorwing Jetfighter" hidden="false" id="cae2-455f-f5e7-896f">
+    <selectionEntry type="unit" import="true" name="Razorwing Jetfighter" hidden="false" id="cae2-455f-f5e7-896f">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="145"/>
       </costs>
@@ -5367,7 +5633,7 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Voidraven Bomber" hidden="false" id="bf80-6369-2df7-433b">
+    <selectionEntry type="unit" import="true" name="Voidraven Bomber" hidden="false" id="bf80-6369-2df7-433b">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="145"/>
       </costs>

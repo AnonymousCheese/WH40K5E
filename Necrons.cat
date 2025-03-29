@@ -1060,7 +1060,7 @@ Roll To Hit and To Wound seperately for each Sweet Attack. If the Catacomb Comma
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Nemesor Zahndrekh" hidden="false" id="20f0-3b61-2d65-0796">
+    <selectionEntry type="unit" import="true" name="Nemesor Zahndrekh" hidden="false" id="20f0-3b61-2d65-0796">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="185"/>
       </costs>
@@ -1134,7 +1134,7 @@ Roll To Hit and To Wound seperately for each Sweet Attack. If the Catacomb Comma
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Illuminor Szeras" hidden="false" id="6b80-5054-8052-1db2">
+    <selectionEntry type="unit" import="true" name="Illuminor Szeras" hidden="false" id="6b80-5054-8052-1db2">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="100"/>
       </costs>
@@ -1163,7 +1163,7 @@ Roll To Hit and To Wound seperately for each Sweet Attack. If the Catacomb Comma
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Orikan the Diviner" hidden="false" id="deb5-5858-ec16-7155">
+    <selectionEntry type="unit" import="true" name="Orikan the Diviner" hidden="false" id="deb5-5858-ec16-7155">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="165"/>
       </costs>
@@ -1199,7 +1199,7 @@ Roll To Hit and To Wound seperately for each Sweet Attack. If the Catacomb Comma
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Anrakyr The Traveller" hidden="false" id="9952-67f0-b6c7-64dc">
+    <selectionEntry type="unit" import="true" name="Anrakyr The Traveller" hidden="false" id="9952-67f0-b6c7-64dc">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="165"/>
       </costs>
@@ -1237,7 +1237,7 @@ These are treated exactly as Necron Immortals except they have the Furious Charg
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Trazyn the Infinite" hidden="false" id="5f49-e772-96db-1839">
+    <selectionEntry type="unit" import="true" name="Trazyn the Infinite" hidden="false" id="5f49-e772-96db-1839">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="175"/>
       </costs>
@@ -1278,7 +1278,7 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Necron Overlord" hidden="false" id="c9ea-7492-396d-a0a9">
+    <selectionEntry type="unit" import="true" name="Necron Overlord" hidden="false" id="c9ea-7492-396d-a0a9">
       <infoLinks>
         <infoLink name="Necron Overlord" id="c584-9110-757e-f1b3" hidden="false" type="profile" targetId="5a6e-cea6-53dd-1b7d"/>
         <infoLink name="Ever-living" id="5c31-ef32-8396-04d4" hidden="false" type="profile" targetId="a0a5-03b1-4eee-efb8"/>
@@ -1450,7 +1450,7 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Destroyer Lord" hidden="false" id="f355-15e9-12a3-f5c2">
+    <selectionEntry type="unit" import="true" name="Destroyer Lord" hidden="false" id="f355-15e9-12a3-f5c2">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="125"/>
       </costs>
@@ -1932,7 +1932,7 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Ghost Ark" hidden="false" id="e6c2-325b-2d0b-e1b7">
+    <selectionEntry type="unit" import="true" name="Ghost Ark" hidden="false" id="e6c2-325b-2d0b-e1b7">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="115"/>
       </costs>
@@ -1959,7 +1959,7 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Night Scythe" hidden="false" id="ffe6-528a-fa3b-9bef">
+    <selectionEntry type="unit" import="true" name="Night Scythe" hidden="false" id="ffe6-528a-fa3b-9bef">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="100"/>
       </costs>
@@ -1983,9 +1983,9 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Necron Immortals" hidden="false" id="fc97-40c5-7775-6a74">
+    <selectionEntry type="unit" import="true" name="Necron Immortals" hidden="false" id="fc97-40c5-7775-6a74">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Immortals" hidden="false" id="60b5-ffc7-5a1c-f8c1">
+        <selectionEntry type="model" import="true" name="Immortals" hidden="false" id="60b5-ffc7-5a1c-f8c1">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="17"/>
           </costs>
@@ -2035,9 +2035,9 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Deathmarks" hidden="false" id="3f6d-50f3-3a6d-7ad3">
+    <selectionEntry type="unit" import="true" name="Deathmarks" hidden="false" id="3f6d-50f3-3a6d-7ad3">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Deathmark" hidden="false" id="793b-32b2-81db-4cd0">
+        <selectionEntry type="model" import="true" name="Deathmark" hidden="false" id="793b-32b2-81db-4cd0">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="19"/>
           </costs>
@@ -2075,9 +2075,9 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Lychguards" hidden="false" id="d14b-dae2-cce2-6d17">
+    <selectionEntry type="unit" import="true" name="Lychguards" hidden="false" id="d14b-dae2-cce2-6d17">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Lychguard" hidden="false" id="26ba-da65-213b-7637">
+        <selectionEntry type="model" import="true" name="Lychguard" hidden="false" id="26ba-da65-213b-7637">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
           </costs>
@@ -2127,9 +2127,9 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Triarch Praetorians" hidden="false" id="f0cc-722a-5c64-7fbd">
+    <selectionEntry type="unit" import="true" name="Triarch Praetorians" hidden="false" id="f0cc-722a-5c64-7fbd">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Praetorian" hidden="false" id="81d7-8427-83c5-d66d">
+        <selectionEntry type="model" import="true" name="Praetorian" hidden="false" id="81d7-8427-83c5-d66d">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
           </costs>
@@ -2350,7 +2350,7 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
         <infoLink name="Reanimation Protocols" id="608e-ca7c-00c5-8db2" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Triarch Stalker" hidden="false" id="a98c-b1cb-21d6-1c03">
+    <selectionEntry type="unit" import="true" name="Triarch Stalker" hidden="false" id="a98c-b1cb-21d6-1c03">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="150"/>
       </costs>
@@ -2411,9 +2411,9 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Canoptek Wraiths" hidden="false" id="0616-738d-2071-df1a">
+    <selectionEntry type="unit" import="true" name="Canoptek Wraiths" hidden="false" id="0616-738d-2071-df1a">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Wraith" hidden="false" id="46dd-cfed-1a18-d132">
+        <selectionEntry type="model" import="true" name="Wraith" hidden="false" id="46dd-cfed-1a18-d132">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
           </costs>
@@ -2490,9 +2490,9 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Canoptek Scarabs" hidden="false" id="a65a-ab2c-c775-2d34">
+    <selectionEntry type="unit" import="true" name="Canoptek Scarabs" hidden="false" id="a65a-ab2c-c775-2d34">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Scarabs" hidden="false" id="3642-f438-8279-17b8">
+        <selectionEntry type="model" import="true" name="Scarabs" hidden="false" id="3642-f438-8279-17b8">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
           </costs>
@@ -2512,9 +2512,9 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
         <infoLink name="Swarm" id="9e88-7ab7-2efc-3818" hidden="false" type="rule" targetId="d74e-1928-0d91-b80a"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Tomb Blades" hidden="false" id="a016-0796-7fb7-410a">
+    <selectionEntry type="unit" import="true" name="Tomb Blades" hidden="false" id="a016-0796-7fb7-410a">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Tomb Blade" hidden="false" id="7e2c-5da6-f284-139f">
+        <selectionEntry type="model" import="true" name="Tomb Blade" hidden="false" id="7e2c-5da6-f284-139f">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
           </costs>
@@ -2618,7 +2618,7 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
         <infoLink name="Reanimation Protocols" id="0abb-0b92-3a0b-47d6" hidden="false" type="rule" targetId="fb34-58b6-d306-faa2"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Necron Destroyers" hidden="false" id="0ba3-b4c0-09d8-efdd">
+    <selectionEntry type="unit" import="true" name="Necron Destroyers" hidden="false" id="0ba3-b4c0-09d8-efdd">
       <infoLinks>
         <infoLink name="Jump Infantry" id="4851-1ebc-4473-c36e" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
         <infoLink name="Preferred Enemy" id="ef98-c2e0-f337-3b91" hidden="false" type="profile" targetId="1d62-9aab-05fd-0a35"/>
@@ -2627,7 +2627,7 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
       <selectionEntryGroups>
         <selectionEntryGroup name="Unit" id="bbf5-0d72-59e8-b1a5" hidden="false" defaultSelectionEntryId="27d9-e9da-eba5-a624">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Destroyers" hidden="false" id="27d9-e9da-eba5-a624">
+            <selectionEntry type="model" import="true" name="Destroyers" hidden="false" id="27d9-e9da-eba5-a624">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
               </costs>
@@ -2639,7 +2639,7 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
                 <infoLink name="Gauss Cannon" id="1331-fd9d-7e55-4e06" hidden="false" type="profile" targetId="d2ed-ca20-e2ce-9763"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Heavy Destroyer" hidden="false" id="d84d-5594-6941-f86b">
+            <selectionEntry type="model" import="true" name="Heavy Destroyer" hidden="false" id="d84d-5594-6941-f86b">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="60"/>
               </costs>
@@ -2659,7 +2659,7 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Doomsday Ark" hidden="false" id="e268-4d70-21ab-7f61">
+    <selectionEntry type="unit" import="true" name="Doomsday Ark" hidden="false" id="e268-4d70-21ab-7f61">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="175"/>
       </costs>
@@ -2674,7 +2674,7 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
         <infoLink name="Quantum Shielding" id="ef0e-5121-7076-0c44" hidden="false" type="profile" targetId="e4ed-9f4a-71e8-cd3a"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Annihilation Barge" hidden="false" id="6c2f-77e6-539c-f880">
+    <selectionEntry type="unit" import="true" name="Annihilation Barge" hidden="false" id="6c2f-77e6-539c-f880">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="90"/>
       </costs>
@@ -2713,7 +2713,7 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Necron Monolith" hidden="false" id="6195-cf41-c6e1-367a">
+    <selectionEntry type="unit" import="true" name="Necron Monolith" hidden="false" id="6195-cf41-c6e1-367a">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="200"/>
       </costs>
@@ -2754,7 +2754,7 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Doom Scythe" hidden="false" id="3db4-8a49-abae-927a">
+    <selectionEntry type="unit" import="true" name="Doom Scythe" hidden="false" id="3db4-8a49-abae-927a">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="175"/>
       </costs>
@@ -2769,9 +2769,9 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
         <infoLink name="Aerial Assault" id="3254-ab2b-f517-5dc2" hidden="false" type="profile" targetId="17c6-045d-4a27-cd75"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Canoptek Spyder" hidden="false" id="9e86-7865-d938-e140">
+    <selectionEntry type="unit" import="true" name="Canoptek Spyder" hidden="false" id="9e86-7865-d938-e140">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Spyder" hidden="false" id="7a7c-ecc5-0b72-0d1a">
+        <selectionEntry type="model" import="true" name="Spyder" hidden="false" id="7a7c-ecc5-0b72-0d1a">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
           </costs>
