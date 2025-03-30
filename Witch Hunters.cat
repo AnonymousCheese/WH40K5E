@@ -706,6 +706,52 @@ Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfor
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Counts as two close combat weapons in an Assault.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Zephyrim" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="f408-9d24-205e-cd67">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Zephyrim Superior" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="a4ae-f175-9f7b-1886">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Castigator" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="755b-f9cf-31f5-2450">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">4</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">13</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">11</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Paragon Warsuit" typeId="acd3-2539-3641-1250" typeName="Walker Vehicle" hidden="false" id="5bce-3d21-c7c0-7458">
+      <characteristics>
+        <characteristic name="WS" typeId="3d9c-8977-9b95-824b">4</characteristic>
+        <characteristic name="BS" typeId="ea47-07be-ab4a-6569">4</characteristic>
+        <characteristic name="STR" typeId="a630-c404-957f-a49f">5</characteristic>
+        <characteristic name="F" typeId="3549-2d9e-3052-b396">12</characteristic>
+        <characteristic name="S" typeId="94fc-8af8-d4d4-7b1a">11</characteristic>
+        <characteristic name="R" typeId="4eca-6e3c-2053-e75a">10</characteristic>
+        <characteristic name="I" typeId="f706-f227-5d93-0fe3">4</characteristic>
+        <characteristic name="A" typeId="12be-9dd2-0dd7-b17a">3</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <profileTypes>
     <profileType name="Act of Faith" id="478c-53c1-1a0a-66f7" hidden="false">
@@ -818,9 +864,21 @@ Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfor
         </selectionEntryGroup>
         <selectionEntryGroup name="If the unit is under the transport capacity, may take a dedicated transport" id="b328-2f55-2a0f-8aa6" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Chimera" hidden="false" id="f188-0bea-7ccb-930d" type="selectionEntry" targetId="5113-870e-440a-0645"/>
-            <entryLink import="true" name="Rhino" hidden="false" id="650f-cf33-c6a7-2622" type="selectionEntry" targetId="7b6e-3e68-4eb2-b8b4"/>
-            <entryLink import="true" name="Land Raider" hidden="false" id="7531-c94c-b8a9-7685" type="selectionEntry" targetId="01b1-f7f0-8056-6dd3"/>
+            <entryLink import="true" name="Chimera" hidden="false" id="f188-0bea-7ccb-930d" type="selectionEntry" targetId="5113-870e-440a-0645">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="93ab-1747-58f8-53c9"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Rhino" hidden="false" id="650f-cf33-c6a7-2622" type="selectionEntry" targetId="7b6e-3e68-4eb2-b8b4">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="13a0-b301-40ba-40a6"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Land Raider" hidden="false" id="7531-c94c-b8a9-7685" type="selectionEntry" targetId="01b1-f7f0-8056-6dd3">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6540-4a60-7029-1a04"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="6b58-6ad2-cf68-5c74"/>
@@ -981,6 +1039,9 @@ Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfor
                         <infoLink name="Combi-stake Crossbow" id="1a0a-0ff0-dbe3-7a4f" hidden="false" type="profile" targetId="7e5f-a43d-7d41-0b97"/>
                         <infoLink name="Boltgun" id="8a0b-b83a-55d5-6276" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1bd6-b5b7-dd28-a879"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                 </entryLink>
@@ -1526,6 +1587,9 @@ Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfor
                         <infoLink name="Combi-stake Crossbow" id="cde3-25e1-2f65-eeac" hidden="false" type="profile" targetId="7e5f-a43d-7d41-0b97"/>
                         <infoLink name="Boltgun" id="9676-81eb-9fb1-67ee" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9854-7249-88b4-b340" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                 </entryLink>
@@ -1774,16 +1838,16 @@ Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfor
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="8223-b3c9-be41-12f0" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Celestian" hidden="false" id="fb49-0a20-59bc-4f64">
+            <selectionEntry type="model" import="true" name="Celestian Gunner" hidden="false" id="fb49-0a20-59bc-4f64">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="13"/>
               </costs>
               <infoLinks>
                 <infoLink name="Celestian" id="ed7d-43b1-c76c-48cc" hidden="false" type="profile" targetId="e581-24ee-aa6f-4e2d"/>
+                <infoLink name="Close-Combat Weapon" id="867d-fb33-ccdb-6a57" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
               </infoLinks>
               <constraints>
-                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="f223-0fab-252c-613a"/>
-                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="c0b1-55f3-94aa-5d2a"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7fab-d94d-8644-4ac5" includeChildSelections="false"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Frag Grenades" hidden="false" id="6985-ea76-e498-bf5b">
@@ -1809,8 +1873,51 @@ Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfor
                   </constraints>
                 </selectionEntry>
               </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="58b0-be17-e481-e66a" hidden="false" defaultSelectionEntryId="a905-f6d0-e48a-71da">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="a905-f6d0-e48a-71da">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Flamer" id="2758-b4cf-4919-e585" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="32f0-bd03-6fdf-f250"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="7934-1b1b-bc75-43b0">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Meltagun" id="6ad3-18a6-1c00-bbb1" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5cb4-1340-335d-6644"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="da2e-bdb0-d208-3453">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Storm Bolter" id="f472-941b-fcf5-6cf8" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4428-b93e-ad88-b527"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="4b36-2e8d-9cde-a4ee-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4b36-2e8d-9cde-a4ee-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Celestian Superior" hidden="false" id="e3f5-43ac-7dcb-3ed4">
+            <selectionEntry type="model" import="true" name="Celestian Superior" hidden="false" id="e3f5-43ac-7dcb-3ed4">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="23"/>
               </costs>
@@ -1871,7 +1978,7 @@ Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfor
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8da4-fecd-a997-c3c7"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="May be upgraded to a Veteran Superior" hidden="false" id="e23f-4663-8fc0-173d">
+                <selectionEntry type="upgrade" import="true" name="Veteran Superior" hidden="false" id="e23f-4663-8fc0-173d">
                   <costs>
                     <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
                   </costs>
@@ -1887,28 +1994,6 @@ Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfor
                       <selectionEntryGroups>
                         <selectionEntryGroup name="One-Handed Weapons" id="9edd-f92c-6202-3499" hidden="false">
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="9abe-21b0-a035-a521">
-                              <costs>
-                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
-                              </costs>
-                              <infoLinks>
-                                <infoLink name="Bolt Pistol" id="8945-8787-e6f8-5d65" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
-                              </infoLinks>
-                              <constraints>
-                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8726-077e-6b8b-9e36"/>
-                              </constraints>
-                            </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="5aa4-2e2c-6c79-e853">
-                              <costs>
-                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
-                              </costs>
-                              <infoLinks>
-                                <infoLink name="Close-Combat Weapon" id="997c-f1e2-1b59-d15e" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
-                              </infoLinks>
-                              <constraints>
-                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b038-8d44-9d0f-fe17"/>
-                              </constraints>
-                            </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="d30c-e779-d480-9867">
                               <costs>
                                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
@@ -1957,17 +2042,6 @@ Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfor
                         </selectionEntryGroup>
                         <selectionEntryGroup name="Two-Handed Weapons" id="de87-25c4-b7e6-51ea" hidden="false">
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Bolter" hidden="false" id="e0d4-a2ae-33bc-1a8a">
-                              <costs>
-                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
-                              </costs>
-                              <infoLinks>
-                                <infoLink name="Boltgun" id="78c8-e086-46b1-814a" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
-                              </infoLinks>
-                              <constraints>
-                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="724d-d6c9-3bfd-ca87"/>
-                              </constraints>
-                            </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Eviscerator" hidden="false" id="de3b-a3cf-2cd0-eef5">
                               <costs>
                                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
@@ -2016,6 +2090,9 @@ Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfor
                                     <infoLink name="Combi-stake Crossbow" id="c895-0f82-a66e-3bd7" hidden="false" type="profile" targetId="7e5f-a43d-7d41-0b97"/>
                                     <infoLink name="Boltgun" id="28ad-ffc9-4677-06bd" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
                                   </infoLinks>
+                                  <constraints>
+                                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94b3-927f-d366-37cb"/>
+                                  </constraints>
                                 </selectionEntry>
                               </selectionEntries>
                             </entryLink>
@@ -2065,17 +2142,6 @@ Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfor
                               </infoLinks>
                               <constraints>
                                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ab8-1135-5297-eced"/>
-                              </constraints>
-                            </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Power Armour" hidden="false" id="6c61-4a6c-be3c-c2f6">
-                              <costs>
-                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                              </costs>
-                              <infoLinks>
-                                <infoLink name="Power Armour" id="9eb5-7d27-f344-6b36" hidden="false" type="profile" targetId="20b4-b738-addc-af21"/>
-                              </infoLinks>
-                              <constraints>
-                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a31-e335-9cb7-7746"/>
                               </constraints>
                             </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Purity Seals" hidden="false" id="50ea-4233-66a5-0fc6">
@@ -2148,113 +2214,182 @@ Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfor
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="One Celestian may be armed with one of the following" id="957d-7000-89c0-32ca" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Heavy Bolter" hidden="false" id="bcc4-cb9f-1289-fab5">
+            <selectionEntry type="model" import="true" name="Celestian Heavy Gunner" hidden="false" id="5a9c-2e2b-c937-f2f9">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="13"/>
               </costs>
               <infoLinks>
-                <infoLink name="Heavy Bolter" id="837a-f5ed-ca8d-2df7" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                <infoLink name="Celestian" id="5ee0-f904-4e4d-b454" hidden="false" type="profile" targetId="e581-24ee-aa6f-4e2d"/>
+                <infoLink name="Close-Combat Weapon" id="8a18-e69c-606c-f358" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
               </infoLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4de5-7181-4c01-636a"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c588-48c0-c8ef-26bb" includeChildSelections="false"/>
               </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Frag Grenades" hidden="false" id="2c73-b7a5-b4fe-94fa">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Frag Grenades" id="99ac-6ed0-f613-e82a" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="118c-c4b4-0238-cc64"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Krak Grenades" hidden="false" id="b40a-83e7-84db-3de5">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Krak Grenades" id="8565-da69-47ab-83b8" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9138-a346-25a2-fe7c"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="957d-7000-89c0-32ca" hidden="false" defaultSelectionEntryId="bcc4-cb9f-1289-fab5">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Heavy Bolter" hidden="false" id="bcc4-cb9f-1289-fab5">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Heavy Bolter" id="837a-f5ed-ca8d-2df7" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4de5-7181-4c01-636a"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Heavy Flamer" hidden="false" id="8b6c-94f9-c740-d9c3">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Heavy Flamer" id="99ca-1132-b857-5f98" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a78-0c6e-1f16-2b3f"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Multi-melta" hidden="false" id="959f-b284-7bcd-b2bd">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Multi-melta" id="bdaa-d2dc-d188-4174" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6da-c7cf-43f4-8057"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="7a2e-2c4d-3294-b438-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7a2e-2c4d-3294-b438-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Heavy Flamer" hidden="false" id="8b6c-94f9-c740-d9c3">
+            <selectionEntry type="model" import="true" name="Imagifier" hidden="false" id="2161-d84c-784b-2a81">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="33"/>
               </costs>
               <infoLinks>
-                <infoLink name="Heavy Flamer" id="99ca-1132-b857-5f98" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
+                <infoLink name="Celestian" id="6da7-167e-b859-5452" hidden="false" type="profile" targetId="e581-24ee-aa6f-4e2d"/>
+                <infoLink name="Simulacrum Imperialis" id="552c-98dd-2184-7b02" hidden="false" type="profile" targetId="ae54-5c70-f0ee-6b18"/>
+                <infoLink name="Boltgun" id="73c2-519b-8ae6-1911" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                <infoLink name="Close-Combat Weapon" id="3a01-62e0-84b7-a0af" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
               </infoLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a78-0c6e-1f16-2b3f"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="407d-ee40-0d2e-f4ff" includeChildSelections="false"/>
               </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Frag Grenades" hidden="false" id="817a-e590-f3da-23d7">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Frag Grenades" id="9c89-b8bb-75b6-4de9" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c35b-d8a3-40ce-7c18"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Krak Grenades" hidden="false" id="20b2-5eba-acc8-1837">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Krak Grenades" id="dacb-d33d-4435-dee6" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e277-6df4-16cf-244c"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Multi-melta" hidden="false" id="959f-b284-7bcd-b2bd">
+            <selectionEntry type="model" import="true" name="Celestian" hidden="false" id="600d-0c05-9094-8802" defaultAmount="4">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="13"/>
               </costs>
               <infoLinks>
-                <infoLink name="Multi-melta" id="bdaa-d2dc-d188-4174" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
+                <infoLink name="Celestian" id="3bf8-0f5e-5a16-a1d3" hidden="false" type="profile" targetId="e581-24ee-aa6f-4e2d"/>
+                <infoLink name="Boltgun" id="b04b-6afd-d72a-4bbf" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                <infoLink name="Close-Combat Weapon" id="fe25-322d-43dd-05fd" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
               </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6da-c7cf-43f4-8057"/>
-              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Frag Grenades" hidden="false" id="514c-f7e6-7038-0821">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Frag Grenades" id="ba7a-da8e-db70-75fd" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="535d-b5b1-356c-c596"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Krak Grenades" hidden="false" id="6b50-8e40-64f0-e87b">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Krak Grenades" id="bdbd-7f27-8168-8fec" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0050-c49a-984e-812a"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7a2e-2c4d-3294-b438"/>
-          </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="One Celestian may be armed with one of the following" id="58b0-be17-e481-e66a" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="a905-f6d0-e48a-71da">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Flamer" id="2758-b4cf-4919-e585" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="32f0-bd03-6fdf-f250"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="7934-1b1b-bc75-43b0">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Meltagun" id="6ad3-18a6-1c00-bbb1" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5cb4-1340-335d-6644"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="da2e-bdb0-d208-3453">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Storm Bolter" id="f472-941b-fcf5-6cf8" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4428-b93e-ad88-b527"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4b36-2e8d-9cde-a4ee"/>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="d18d-73d1-385c-4216"/>
+            <constraint type="max" value="10" field="selections" scope="self" shared="true" id="9c86-9ce2-5d65-f007"/>
           </constraints>
         </selectionEntryGroup>
         <selectionEntryGroup name="If the unit is under the transport capacity, may take a dedicated transport" id="4756-87bc-bfb5-ec7b" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Rhino" hidden="false" id="421f-bb79-aff7-2e1a" type="selectionEntry" targetId="7b6e-3e68-4eb2-b8b4"/>
-            <entryLink import="true" name="Immolator" hidden="false" id="eabc-67ff-728a-dcaa" type="selectionEntry" targetId="26bb-331b-d493-3a9c"/>
+            <entryLink import="true" name="Rhino" hidden="false" id="421f-bb79-aff7-2e1a" type="selectionEntry" targetId="7b6e-3e68-4eb2-b8b4">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3a15-3cd2-c11c-11d3"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Immolator" hidden="false" id="eabc-67ff-728a-dcaa" type="selectionEntry" targetId="26bb-331b-d493-3a9c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3331-446e-2db4-b101"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4255-f939-31f6-050b"/>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="One Celestian may take a Simulacrum Imperialis" hidden="false" id="3527-590b-6407-e430">
-          <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Simulacrum Imperialis" id="552c-98dd-2184-7b02" hidden="false" type="profile" targetId="ae54-5c70-f0ee-6b18"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52bc-626e-9f4c-e2e3"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <infoLinks>
-        <infoLink name="Boltgun" id="01b1-34a3-63af-a4cc" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
         <infoLink name="Adepta Sororitas" id="5c76-f985-8a23-3c0b" hidden="false" type="profile" targetId="a905-8dd1-4a18-2273"/>
       </infoLinks>
       <profiles>
@@ -2435,6 +2570,19 @@ Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfor
           </characteristics>
         </profile>
       </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Hull-mounted Heavy Bolter" hidden="false" id="6a67-0d1b-e9d3-18cc">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Heavy Bolter" id="917c-da40-f98e-7ace" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a613-4a5b-b979-066c"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Palatine" hidden="false" id="7031-bb29-1f8a-6305">
       <costs>
@@ -2619,6 +2767,9 @@ Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfor
                         <infoLink name="Combi-stake Crossbow" id="9a2f-8cdb-6d41-45b3" hidden="false" type="profile" targetId="7e5f-a43d-7d41-0b97"/>
                         <infoLink name="Boltgun" id="cd35-4484-1da3-2c5b" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3671-c965-e0c7-7727"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                 </entryLink>
@@ -2712,17 +2863,6 @@ Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfor
                   </infoLinks>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b009-1b7a-0d14-f506"/>
-                  </constraints>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Power Armour" hidden="false" id="c8ad-255a-da7f-bcc7">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Power Armour" id="7bdd-914f-a8d7-bf8a" hidden="false" type="profile" targetId="20b4-b738-addc-af21"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b353-e09a-1da7-04fa"/>
                   </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Purity Seals" hidden="false" id="0b54-c2ab-41aa-f305">
@@ -2993,6 +3133,9 @@ Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfor
                         <infoLink name="Combi-stake Crossbow" id="2afc-ad29-eb94-816f" hidden="false" type="profile" targetId="7e5f-a43d-7d41-0b97"/>
                         <infoLink name="Boltgun" id="e75e-1cd0-8d37-7835" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c2fa-d7fe-4a98-1959" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                 </entryLink>
@@ -3373,9 +3516,21 @@ Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfor
         </selectionEntryGroup>
         <selectionEntryGroup name="If the unit is under the transport capacity, may take a dedicated transport" id="3387-9db8-01c0-77f0" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Chimera" hidden="false" id="c4b3-ec22-90a0-39e6" type="selectionEntry" targetId="5113-870e-440a-0645"/>
-            <entryLink import="true" name="Rhino" hidden="false" id="7271-b46f-e8c7-b0ea" type="selectionEntry" targetId="7b6e-3e68-4eb2-b8b4"/>
-            <entryLink import="true" name="Land Raider" hidden="false" id="1128-8ebb-b1f0-17cc" type="selectionEntry" targetId="01b1-f7f0-8056-6dd3"/>
+            <entryLink import="true" name="Chimera" hidden="false" id="c4b3-ec22-90a0-39e6" type="selectionEntry" targetId="5113-870e-440a-0645">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c9b-7ce6-b30c-22ef"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Rhino" hidden="false" id="7271-b46f-e8c7-b0ea" type="selectionEntry" targetId="7b6e-3e68-4eb2-b8b4">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3332-c82b-f326-6936"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Land Raider" hidden="false" id="1128-8ebb-b1f0-17cc" type="selectionEntry" targetId="01b1-f7f0-8056-6dd3">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2179-18a8-04b4-707b"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b2d7-670f-3500-5c2a"/>
@@ -3536,6 +3691,9 @@ Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfor
                         <infoLink name="Combi-stake Crossbow" id="caa2-012e-a37f-3748" hidden="false" type="profile" targetId="7e5f-a43d-7d41-0b97"/>
                         <infoLink name="Boltgun" id="c397-a8fc-ccc0-2c96" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5954-ff11-05b8-91f0"/>
+                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                 </entryLink>
@@ -3761,9 +3919,9 @@ Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfor
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Arco-flagellants" hidden="false" id="ea41-6c93-5d98-4ee6">
+    <selectionEntry type="unit" import="true" name="Arco-flagellants" hidden="false" id="ea41-6c93-5d98-4ee6">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Arco-flagellant" hidden="false" id="391f-f790-6d33-411f">
+        <selectionEntry type="model" import="true" name="Arco-flagellant" hidden="false" id="391f-f790-6d33-411f">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
           </costs>
@@ -3808,7 +3966,7 @@ In close combat, roll a D6 at the beginning of each Assault phase for each Arco-
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="91ac-9a32-dc2b-e7d8" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Sister Repentia" hidden="false" id="ac44-c978-c592-a14f">
+            <selectionEntry type="model" import="true" name="Sister Repentia" hidden="false" id="ac44-c978-c592-a14f">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
               </costs>
@@ -3821,7 +3979,7 @@ In close combat, roll a D6 at the beginning of each Assault phase for each Arco-
                 <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="8962-46d3-0956-da95"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Mistress" hidden="false" id="9a42-4299-cb1b-0ed4">
+            <selectionEntry type="model" import="true" name="Mistress" hidden="false" id="9a42-4299-cb1b-0ed4">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
               </costs>
@@ -4124,55 +4282,20 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="a742-f984-5d58-a775" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Battle Sister" hidden="false" id="fca2-6af0-b141-44bb">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="11"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Battle Sister" id="7aa4-5458-7c72-2540" hidden="false" type="profile" targetId="3040-53bf-7490-0088"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="min" value="9" field="selections" scope="parent" shared="true" id="a227-27ca-b446-74fb"/>
-                <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="d4c5-5183-bac6-a0ea"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Frag Grenades" hidden="false" id="ea22-922e-2035-67f4">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Frag Grenades" id="1f5f-edf3-c4dc-776f" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c109-400b-1f58-f38b"/>
-                  </constraints>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Krak Grenade" hidden="false" id="1692-9f7e-8ee3-22e6">
-                  <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
-                  </costs>
-                  <infoLinks>
-                    <infoLink name="Krak Grenades" id="004f-500a-0440-39bd" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
-                  </infoLinks>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be43-28d0-3247-8e97"/>
-                  </constraints>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Sister Superior" hidden="false" id="1860-938e-13f8-eca6">
+            <selectionEntry type="model" import="true" name="Sister Superior" hidden="false" id="1860-938e-13f8-eca6" defaultAmount="1">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
               </costs>
               <infoLinks>
                 <infoLink name="Sister Superior" id="b3f9-0bf9-3b4b-03ba" hidden="false" type="profile" targetId="85c6-d450-c6bc-1ae4"/>
+                <infoLink name="Close-Combat Weapon" id="0975-2856-d7af-515f" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
               </infoLinks>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8a9a-49f9-d220-3bd6-min"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a9a-49f9-d220-3bd6-max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Loadout" id="ceba-9cf0-0186-6960" hidden="false">
+                <selectionEntryGroup name="Loadout" id="ceba-9cf0-0186-6960" hidden="false" defaultSelectionEntryId="8084-8c45-9968-bd04">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Bolter" hidden="false" id="8084-8c45-9968-bd04">
                       <infoLinks>
@@ -4221,7 +4344,7 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9dd-78de-1342-6bb4"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="May be upgraded to a Veteran Superior" hidden="false" id="0bf4-1bec-473d-71a8">
+                <selectionEntry type="upgrade" import="true" name="Veteran Superior" hidden="false" id="0bf4-1bec-473d-71a8">
                   <costs>
                     <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="14"/>
                   </costs>
@@ -4237,28 +4360,6 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                       <selectionEntryGroups>
                         <selectionEntryGroup name="One-Handed Weapons" id="cc11-b564-3fcc-da9c" hidden="false">
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="ff94-a7da-f7a0-3f30">
-                              <costs>
-                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
-                              </costs>
-                              <infoLinks>
-                                <infoLink name="Bolt Pistol" id="8879-10c8-b252-d246" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
-                              </infoLinks>
-                              <constraints>
-                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d2e-9945-2a8b-5c12"/>
-                              </constraints>
-                            </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="6215-5bdf-1822-210a">
-                              <costs>
-                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
-                              </costs>
-                              <infoLinks>
-                                <infoLink name="Close-Combat Weapon" id="4dcc-ed2a-bb9b-9494" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
-                              </infoLinks>
-                              <constraints>
-                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee6a-4a32-9dfd-7676"/>
-                              </constraints>
-                            </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="3f0b-3807-f709-8952">
                               <costs>
                                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
@@ -4307,17 +4408,6 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                         </selectionEntryGroup>
                         <selectionEntryGroup name="Two-Handed Weapons" id="0a9f-4d7c-6c26-ab84" hidden="false">
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Bolter" hidden="false" id="7a75-bea3-5656-cb75">
-                              <costs>
-                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
-                              </costs>
-                              <infoLinks>
-                                <infoLink name="Boltgun" id="de15-49ae-f99d-f255" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
-                              </infoLinks>
-                              <constraints>
-                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4f8-270e-e284-a815"/>
-                              </constraints>
-                            </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Eviscerator" hidden="false" id="c664-7faf-d828-6c1b">
                               <costs>
                                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
@@ -4366,6 +4456,9 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                                     <infoLink name="Combi-stake Crossbow" id="2771-17bf-68f0-4411" hidden="false" type="profile" targetId="7e5f-a43d-7d41-0b97"/>
                                     <infoLink name="Boltgun" id="18c1-d82a-5dca-f321" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
                                   </infoLinks>
+                                  <constraints>
+                                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d4c4-7a7b-c3c2-6baa" includeChildSelections="false"/>
+                                  </constraints>
                                 </selectionEntry>
                               </selectionEntries>
                             </entryLink>
@@ -4498,46 +4591,207 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
+            <selectionEntry type="model" import="true" name="Battle Sister" hidden="false" id="afd9-5aaf-13de-670c" defaultAmount="9">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="11"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Battle Sister" id="dd00-60c4-0feb-b8bd" hidden="false" type="profile" targetId="3040-53bf-7490-0088"/>
+                <infoLink name="Boltgun" id="44c4-8a78-411b-065d" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                <infoLink name="Close-Combat Weapon" id="61f7-410b-3723-df6d" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Frag Grenades" hidden="false" id="9fab-23e9-ae03-40b0">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Frag Grenades" id="d4d9-4290-8ee2-3109" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ef6-0184-a184-81a0"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Krak Grenade" hidden="false" id="b718-f845-6758-9337">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Krak Grenades" id="cd54-04bb-f8be-e8e8" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="877b-688c-01be-bd8e"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Imagifier" hidden="false" id="8434-61a2-d896-0f3a" defaultAmount="9">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="31"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Battle Sister" id="ba2d-387c-8c06-93ee" hidden="false" type="profile" targetId="3040-53bf-7490-0088"/>
+                <infoLink name="Boltgun" id="3c3d-7477-1ce1-a82e" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                <infoLink name="Close-Combat Weapon" id="52eb-9ee9-4beb-42bf" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                <infoLink name="Simulacrum Imperialis" id="79aa-8760-5748-4a9f" hidden="false" type="profile" targetId="ae54-5c70-f0ee-6b18"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dfd5-8b54-7f1d-e0bc" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Frag Grenades" hidden="false" id="c8ed-5d79-98b5-1c9b">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Frag Grenades" id="0f67-2c1f-c260-c1a0" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ae4-ad92-b3b0-a7f1"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Krak Grenade" hidden="false" id="e93b-cf40-24bc-7eab">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Krak Grenades" id="ebc8-5862-1720-eb6e" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec59-7a60-85df-db13"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
           </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Up to two Battle Sisters may be armed with one of the following" id="ace6-325a-0afd-c357" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="fb68-3c38-d7d9-a8e6">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Flamer" id="b6f1-02a8-1494-4926" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
-              </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Special Weapons" id="8d5c-e809-30e4-ec75" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="model" import="true" name="Battle Sister Gunner" hidden="false" id="fca2-6af0-b141-44bb">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="11"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Battle Sister" id="7aa4-5458-7c72-2540" hidden="false" type="profile" targetId="3040-53bf-7490-0088"/>
+                    <infoLink name="Close-Combat Weapon" id="b6b4-98d0-0199-5b8c" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1516-c0cd-f849-5222" includeChildSelections="false"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Frag Grenades" hidden="false" id="ea22-922e-2035-67f4">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Frag Grenades" id="1f5f-edf3-c4dc-776f" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c109-400b-1f58-f38b"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Krak Grenade" hidden="false" id="1692-9f7e-8ee3-22e6">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Krak Grenades" id="004f-500a-0440-39bd" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be43-28d0-3247-8e97"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Loadout" id="ace6-325a-0afd-c357" hidden="false" defaultSelectionEntryId="c42d-19c2-5fbb-c879">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="fb68-3c38-d7d9-a8e6">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Flamer" id="b6f1-02a8-1494-4926" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4113-efa3-7307-2227"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="2380-f9c5-3e9d-e7b4">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Meltagun" id="9372-5115-ed2c-fc58" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5da5-94ba-67f9-022f"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="c42d-19c2-5fbb-c879">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Storm Bolter" id="a796-e19c-63cd-37d9" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="89de-199f-0258-a436"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="self" shared="true" id="6a36-cab8-4d03-e7dd-min"/>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="6a36-cab8-4d03-e7dd-max"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntry>
+                <selectionEntry type="model" import="true" name="Battle Sister Heavy Gunner" hidden="false" id="5edd-f408-7424-d57f">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="23"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Battle Sister" id="5c0f-16a6-9d53-1677" hidden="false" type="profile" targetId="3040-53bf-7490-0088"/>
+                    <infoLink name="Close-Combat Weapon" id="75b4-a866-0bb7-de7a" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                    <infoLink name="Heavy Flamer" id="b68a-469b-7b7c-e594" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0537-8290-dcf4-e6b3" includeChildSelections="false"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Frag Grenades" hidden="false" id="39ca-8c58-a844-fb69">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Frag Grenades" id="98ce-8533-66e4-5ddf" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b00c-08dc-f79d-70e2"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Krak Grenade" hidden="false" id="26c6-928e-68bd-6596">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Krak Grenades" id="258c-6285-ac99-af79" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e8f-82a5-0378-9526"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+              </selectionEntries>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4113-efa3-7307-2227"/>
+                <constraint type="max" value="2" field="selections" scope="self" shared="true" id="cbed-ac3e-22bb-f648"/>
               </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="2380-f9c5-3e9d-e7b4">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Meltagun" id="9372-5115-ed2c-fc58" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5da5-94ba-67f9-022f"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="c42d-19c2-5fbb-c879">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Storm Bolter" id="a796-e19c-63cd-37d9" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="89de-199f-0258-a436"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <constraints>
-            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="6a36-cab8-4d03-e7dd"/>
+            <constraint type="min" value="10" field="selections" scope="self" shared="true" id="2342-7f52-40e2-c37b" includeChildSelections="true"/>
+            <constraint type="max" value="20" field="selections" scope="self" shared="true" id="f4fa-a518-d9c2-e816" includeChildSelections="true"/>
           </constraints>
         </selectionEntryGroup>
         <selectionEntryGroup name="If the squad numbers ten models or less, it may be mounted in a Rhino" id="24fc-d59c-3e15-57e2" hidden="false">
@@ -4551,45 +4805,78 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Boltgun" id="44c4-8a78-411b-065d" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
         <infoLink name="Adepta Sororitas" id="2bb4-4bea-bb7b-df9a" hidden="false" type="profile" targetId="a905-8dd1-4a18-2273"/>
       </infoLinks>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="If only one special weapon is taken, then one Battle Sister may take a Heavy Flamer" hidden="false" id="ab67-75e9-1fc3-75ce">
-          <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Heavy Flamer" id="b68a-469b-7b7c-e594" hidden="false" type="profile" targetId="f83b-3e9d-4395-7a68"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4bba-2ebe-70dd-7058"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Simulacrum Imperialis" hidden="false" id="17af-bc8b-a3a1-2360">
-          <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Simulacrum Imperialis" id="79aa-8760-5748-4a9f" hidden="false" type="profile" targetId="ae54-5c70-f0ee-6b18"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1eb-d7cc-57db-cd33"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Inquisitorial Storm Troopers" hidden="false" id="2bbc-443c-c8db-6740">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="4b32-f439-d221-1bfc" hidden="false">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Storm Trooper" hidden="false" id="8d02-c6ff-8a6b-5165" defaultAmount="5">
+            <selectionEntry type="model" import="true" name="Storm Trooper Gunner" hidden="false" id="8d02-c6ff-8a6b-5165" defaultAmount="5">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
               <infoLinks>
                 <infoLink name="Storm Trooper" id="13d1-7216-539b-09e7" hidden="false" type="profile" targetId="dd25-f2d2-e811-21b1"/>
               </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="aceb-6be6-a306-291f" hidden="false" defaultSelectionEntryId="4bd4-98f3-c141-8c7f">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="4bd4-98f3-c141-8c7f">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Flamer" id="22b7-19f0-8d81-b37c" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="03d8-12b2-5013-a3ee" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="163a-549d-25cf-aa4d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Meltagun" id="35bb-9c6b-6ec8-a8da" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed25-1ee0-da81-2013" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="e459-1cd7-af14-c86b">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Gun" id="6d79-674b-4927-02e4" hidden="false" type="profile" targetId="29c3-2b26-b62c-779c"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="414d-a4df-e8e3-3312" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Grenade Launcher" hidden="false" id="43ad-a313-2fe2-f7e1">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Grenade Launcher (Frag)" id="44af-1ac9-98bf-0eb3" hidden="false" type="profile" targetId="10bd-71f6-7fac-18b8"/>
+                        <infoLink name="Grenade Launcher (Krak)" id="31ba-a464-6639-1064" hidden="false" type="profile" targetId="52d0-c270-ad06-6656"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d6f3-e017-e6e8-a7dd" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="7ea9-a4b6-5269-c694-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="7ea9-a4b6-5269-c694-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="81f2-0ce7-3908-31d9" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Veteran" hidden="false" id="274d-e42a-8ee1-97ed">
               <costs>
@@ -4597,6 +4884,8 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
               </costs>
               <infoLinks>
                 <infoLink name="Veteran Storm Trooper" id="ec6b-4d56-06e1-928a" hidden="false" type="profile" targetId="5f9c-ff48-9c30-9304"/>
+                <infoLink name="Hellgun" id="a86d-a1ed-9503-a31e" hidden="false" type="profile" targetId="bc81-b3b5-2f8e-b6bb"/>
+                <infoLink name="Targeter" id="4920-5263-1e81-9958" hidden="false" type="profile" targetId="5ec8-4ac7-6c00-4ead"/>
               </infoLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd30-dcb0-d710-0506"/>
@@ -4735,6 +5024,9 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                                 <infoLink name="Combi-stake Crossbow" id="052c-4fac-0e2e-c765" hidden="false" type="profile" targetId="7e5f-a43d-7d41-0b97"/>
                                 <infoLink name="Boltgun" id="eb16-ad8f-169d-bd73" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
                               </infoLinks>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2af0-1713-bb5a-6bf1" includeChildSelections="false"/>
+                              </constraints>
                             </selectionEntry>
                           </selectionEntries>
                         </entryLink>
@@ -4840,72 +5132,46 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
+            <selectionEntry type="model" import="true" name="Storm Trooper" hidden="false" id="fe3e-4cd9-9d5f-aa8f" defaultAmount="5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Storm Trooper" id="ed3a-c56b-eb55-0a63" hidden="false" type="profile" targetId="dd25-f2d2-e811-21b1"/>
+                <infoLink name="Hellgun" id="f7ca-5401-a40b-7953" hidden="false" type="profile" targetId="bc81-b3b5-2f8e-b6bb"/>
+                <infoLink name="Targeter" id="d3b1-af9e-1e5c-754f" hidden="false" type="profile" targetId="5ec8-4ac7-6c00-4ead"/>
+              </infoLinks>
+            </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="min" value="5" field="selections" scope="self" shared="true" id="c533-d102-851c-25bb"/>
             <constraint type="max" value="10" field="selections" scope="self" shared="true" id="249d-a288-7644-29bb"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Up to two Storm Troopers may exchange their Hellgun and Targeter for" id="aceb-6be6-a306-291f" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="4bd4-98f3-c141-8c7f">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Flamer" id="22b7-19f0-8d81-b37c" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="163a-549d-25cf-aa4d">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Meltagun" id="35bb-9c6b-6ec8-a8da" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="e459-1cd7-af14-c86b">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Plasma Gun" id="6d79-674b-4927-02e4" hidden="false" type="profile" targetId="29c3-2b26-b62c-779c"/>
-              </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Grenade Launcher" hidden="false" id="43ad-a313-2fe2-f7e1">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Grenade Launcher (Frag)" id="44af-1ac9-98bf-0eb3" hidden="false" type="profile" targetId="10bd-71f6-7fac-18b8"/>
-                <infoLink name="Grenade Launcher (Krak)" id="31ba-a464-6639-1064" hidden="false" type="profile" targetId="52d0-c270-ad06-6656"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="7ea9-a4b6-5269-c694"/>
-          </constraints>
-        </selectionEntryGroup>
         <selectionEntryGroup name="Dedicated Transport" id="52ae-2516-4f18-1988" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Rhino" hidden="false" id="62a5-7b1c-c92c-6715" type="selectionEntry" targetId="7b6e-3e68-4eb2-b8b4"/>
-            <entryLink import="true" name="Chimera" hidden="false" id="f0b1-1139-d771-bef8" type="selectionEntry" targetId="5113-870e-440a-0645"/>
+            <entryLink import="true" name="Rhino" hidden="false" id="62a5-7b1c-c92c-6715" type="selectionEntry" targetId="7b6e-3e68-4eb2-b8b4">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c886-62b3-e4ae-cb67"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Chimera" hidden="false" id="f0b1-1139-d771-bef8" type="selectionEntry" targetId="5113-870e-440a-0645">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8dd0-ec19-b7a7-678b"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="213e-1d94-43fe-ed33"/>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <infoLinks>
-        <infoLink name="Hellgun" id="097c-6f48-0851-1fbc" hidden="false" type="profile" targetId="bc81-b3b5-2f8e-b6bb"/>
-        <infoLink name="Targeter" id="4d16-b9e3-c658-cd59" hidden="false" type="profile" targetId="5ec8-4ac7-6c00-4ead"/>
-      </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Seraphim Squad" hidden="false" id="c7b4-a856-66ea-57f5">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="a1cb-10e6-cf75-5702" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Seraphim" hidden="false" id="c6df-60e7-4370-8d9c">
+            <selectionEntry type="model" import="true" name="Seraphim" hidden="false" id="c6df-60e7-4370-8d9c">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="22"/>
               </costs>
@@ -4913,10 +5179,6 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                 <infoLink name="Seraphim" id="c0f7-053a-7d0f-9f25" hidden="false" type="profile" targetId="ffa0-0778-7995-07ad"/>
                 <infoLink name="Duel Bolt Pistols" id="8902-1221-8535-24ae" hidden="false" type="profile" targetId="70d2-1688-eefb-3677"/>
               </infoLinks>
-              <constraints>
-                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="d575-e92f-9b50-e840"/>
-                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="48e5-0431-1ea1-3ca3"/>
-              </constraints>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Melta Bombs" hidden="false" id="be4c-afef-a4c0-6aa0">
                   <costs>
@@ -4931,7 +5193,7 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Sister Superior" hidden="false" id="4e65-3cd1-5b44-bfe0">
+            <selectionEntry type="model" import="true" name="Sister Superior" hidden="false" id="4e65-3cd1-5b44-bfe0">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="32"/>
               </costs>
@@ -4945,7 +5207,7 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f8d7-9ac3-28e3-cdac-max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="May be upgraded to a Veteran Superior" hidden="false" id="9cc7-9e9f-b87b-9d5c">
+                <selectionEntry type="upgrade" import="true" name="Veteran Superior" hidden="false" id="9cc7-9e9f-b87b-9d5c">
                   <costs>
                     <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="14"/>
                   </costs>
@@ -4961,28 +5223,6 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                       <selectionEntryGroups>
                         <selectionEntryGroup name="One-Handed Weapons" id="62c5-9e41-e42c-2202" hidden="false">
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="e56b-fa95-67b7-27fa">
-                              <costs>
-                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
-                              </costs>
-                              <infoLinks>
-                                <infoLink name="Bolt Pistol" id="f60a-d4b5-f419-0a8c" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
-                              </infoLinks>
-                              <constraints>
-                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da6a-4c34-2e98-bb84"/>
-                              </constraints>
-                            </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="b785-7f71-715e-6395">
-                              <costs>
-                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
-                              </costs>
-                              <infoLinks>
-                                <infoLink name="Close-Combat Weapon" id="c51b-31ed-19b4-495e" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
-                              </infoLinks>
-                              <constraints>
-                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="411c-1d13-470a-7acd"/>
-                              </constraints>
-                            </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="8885-962d-abf6-c295">
                               <costs>
                                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
@@ -5090,6 +5330,9 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                                     <infoLink name="Combi-stake Crossbow" id="c33c-b292-8052-0e9b" hidden="false" type="profile" targetId="7e5f-a43d-7d41-0b97"/>
                                     <infoLink name="Boltgun" id="f01e-5ca8-079c-add0" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
                                   </infoLinks>
+                                  <constraints>
+                                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="15aa-ccf7-8d24-dcf3" includeChildSelections="false"/>
+                                  </constraints>
                                 </selectionEntry>
                               </selectionEntries>
                             </entryLink>
@@ -5222,29 +5465,66 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Up to two Seraphim may replace their duel bolt pistols with" id="8c66-e436-ef07-763f" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Duel Hand Flamers" hidden="false" id="9b50-750e-be69-13d7">
+            <selectionEntry type="model" import="true" name="Seraphim Gunner" hidden="false" id="e121-515f-0fda-eab7">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="7"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="22"/>
               </costs>
               <infoLinks>
-                <infoLink name="Duel Hand Flamer" id="3ea2-97f4-c961-171c" hidden="false" type="profile" targetId="62b7-29e2-73f2-531e"/>
+                <infoLink name="Seraphim" id="2011-9f1f-667a-b4ba" hidden="false" type="profile" targetId="ffa0-0778-7995-07ad"/>
               </infoLinks>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Duel Inferno Pistols" hidden="false" id="ad1e-e55e-b16e-703f">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Duel Inferno Pistols" id="5ea9-1fad-dfb5-94d2" hidden="false" type="profile" targetId="c699-8b5c-6c6a-f754"/>
-              </infoLinks>
+              <constraints>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="9f70-4571-e966-ab21"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Melta Bombs" hidden="false" id="99e2-5c35-014b-e9fa">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Melta Bomb" id="91d3-b996-b1d1-1f98" hidden="false" type="profile" targetId="62b3-f972-0f32-e8d8"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c06e-d443-1357-1266"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="8c66-e436-ef07-763f" hidden="false" defaultSelectionEntryId="9b50-750e-be69-13d7">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Duel Hand Flamers" hidden="false" id="9b50-750e-be69-13d7">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="7"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Duel Hand Flamer" id="3ea2-97f4-c961-171c" hidden="false" type="profile" targetId="62b7-29e2-73f2-531e"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="47d0-c7d5-6649-9841" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Duel Inferno Pistols" hidden="false" id="ad1e-e55e-b16e-703f">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Duel Inferno Pistols" id="5ea9-1fad-dfb5-94d2" hidden="false" type="profile" targetId="c699-8b5c-6c6a-f754"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="31e7-8676-f2a7-93d9" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="bd81-7553-0ec9-bbdf-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="bd81-7553-0ec9-bbdf-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="bd81-7553-0ec9-bbdf"/>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="a26c-269d-9a6d-9280"/>
+            <constraint type="max" value="10" field="selections" scope="self" shared="true" id="dde2-30f1-6a8f-d9a3"/>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -5272,16 +5552,18 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="2cde-5db6-0a5d-fb14" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Dominion" hidden="false" id="8739-b1ad-2cb7-8213">
+            <selectionEntry type="model" import="true" name="Imagifier" hidden="false" id="8739-b1ad-2cb7-8213">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="11"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="31"/>
               </costs>
               <infoLinks>
                 <infoLink name="Battle Sister" id="b0c5-e9bc-7573-c655" hidden="false" type="profile" targetId="3040-53bf-7490-0088"/>
+                <infoLink name="Boltgun" id="9be2-a376-1cf6-faca" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                <infoLink name="Close-Combat Weapon" id="2cf3-f570-23a0-32d0" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                <infoLink name="Simulacrum Imperialis" id="df71-b1da-71e3-97a2" hidden="false" type="profile" targetId="ae54-5c70-f0ee-6b18"/>
               </infoLinks>
               <constraints>
-                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="3601-9d9c-3a61-3933"/>
-                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="94cd-7bed-d7c2-6bad"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="303c-b0ca-9389-49c9" includeChildSelections="false"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Frag Grenades" hidden="false" id="27eb-176c-791a-6979">
@@ -5319,7 +5601,7 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Sister Superior" hidden="false" id="4b02-c4a6-22ef-8278">
+            <selectionEntry type="model" import="true" name="Sister Superior" hidden="false" id="4b02-c4a6-22ef-8278" defaultAmount="1">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
               </costs>
@@ -5331,7 +5613,7 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef6f-ba77-1d29-5128-max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Loadout" id="815c-6bf4-ed90-e82b" hidden="false">
+                <selectionEntryGroup name="Loadout" id="815c-6bf4-ed90-e82b" hidden="false" defaultSelectionEntryId="0118-3746-61aa-5954">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Bolter" hidden="false" id="0118-3746-61aa-5954">
                       <infoLinks>
@@ -5380,7 +5662,7 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c46-eac3-639e-4c8d"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="May be upgraded to a Veteran Superior" hidden="false" id="2d1c-214b-36ff-20e4">
+                <selectionEntry type="upgrade" import="true" name="Veteran Superior" hidden="false" id="2d1c-214b-36ff-20e4">
                   <costs>
                     <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="14"/>
                   </costs>
@@ -5396,28 +5678,6 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                       <selectionEntryGroups>
                         <selectionEntryGroup name="One-Handed Weapons" id="a724-f43c-32e7-6ed0" hidden="false">
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="629a-f1fe-cd5f-2820">
-                              <costs>
-                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
-                              </costs>
-                              <infoLinks>
-                                <infoLink name="Bolt Pistol" id="80e7-dcb5-8c22-1c3a" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
-                              </infoLinks>
-                              <constraints>
-                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2eb-a51d-d6ef-02a5"/>
-                              </constraints>
-                            </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="c820-b1dd-92e6-c62a">
-                              <costs>
-                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
-                              </costs>
-                              <infoLinks>
-                                <infoLink name="Close-Combat Weapon" id="f806-7d5b-1870-e646" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
-                              </infoLinks>
-                              <constraints>
-                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fcb3-d3a3-4b1c-19ce"/>
-                              </constraints>
-                            </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="e160-f5fb-32a5-8cb2">
                               <costs>
                                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
@@ -5466,17 +5726,6 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                         </selectionEntryGroup>
                         <selectionEntryGroup name="Two-Handed Weapons" id="b460-d39d-b0ec-3a50" hidden="false">
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Bolter" hidden="false" id="04c3-030b-34d7-6cb4">
-                              <costs>
-                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
-                              </costs>
-                              <infoLinks>
-                                <infoLink name="Boltgun" id="f212-5cd0-bc29-9aea" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
-                              </infoLinks>
-                              <constraints>
-                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="62de-6b96-7874-21b6"/>
-                              </constraints>
-                            </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Eviscerator" hidden="false" id="cfdb-d5bb-4816-c197">
                               <costs>
                                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
@@ -5525,6 +5774,9 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                                     <infoLink name="Combi-stake Crossbow" id="3397-17ba-c50c-c147" hidden="false" type="profile" targetId="7e5f-a43d-7d41-0b97"/>
                                     <infoLink name="Boltgun" id="8c10-5aa1-20b5-5385" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
                                   </infoLinks>
+                                  <constraints>
+                                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="afcb-7931-4b95-076e" includeChildSelections="false"/>
+                                  </constraints>
                                 </selectionEntry>
                               </selectionEntries>
                             </entryLink>
@@ -5668,61 +5920,159 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Up to four Dominions may be armed with one of the following" id="909e-4749-f351-b7c5" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="3f08-0db2-24a0-05ae">
+            <selectionEntry type="model" import="true" name="Dominion Gunner" hidden="false" id="c871-e58a-1dfb-cd08">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="11"/>
               </costs>
               <infoLinks>
-                <infoLink name="Flamer" id="f1de-f2e7-178c-b2e0" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
+                <infoLink name="Battle Sister" id="60c8-7565-34c5-cc71" hidden="false" type="profile" targetId="3040-53bf-7490-0088"/>
+                <infoLink name="Close-Combat Weapon" id="54ed-74e8-f7ad-dee1" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
               </infoLinks>
               <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3784-5a9c-11c3-b8db"/>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="26e8-b3e2-f1be-91ac"/>
               </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Frag Grenades" hidden="false" id="d32f-2c5c-61bb-a215">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Frag Grenades" id="c855-44d8-b09c-1c9e" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7399-d86b-3ad9-9585"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Krak Grenade" hidden="false" id="5453-839a-cd1f-adc6">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Krak Grenades" id="066c-9a95-9fd1-c0af" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9993-bef9-8723-5cc6"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Melta Bombs" hidden="false" id="d55d-bf4c-dfd4-8afb">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6506-19a4-72da-db73"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Melta Bomb" id="f991-872f-28c1-dc73" hidden="false" type="profile" targetId="62b3-f972-0f32-e8d8"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Up to four Dominions may be armed with one of the following" id="909e-4749-f351-b7c5" hidden="false" defaultSelectionEntryId="3f08-0db2-24a0-05ae">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="3f08-0db2-24a0-05ae">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Flamer" id="f1de-f2e7-178c-b2e0" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3784-5a9c-11c3-b8db"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="d4f1-709e-9c6e-cf57">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Meltagun" id="3b2d-0c26-0bfc-dbd0" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b03d-f324-b3ba-c6aa"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="7939-5fff-975f-3986">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Storm Bolter" id="ccf8-407a-7cbf-69e8" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="235b-991a-459f-ef5e"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="b462-d8b7-ee62-2af7-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b462-d8b7-ee62-2af7-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="d4f1-709e-9c6e-cf57">
+            <selectionEntry type="model" import="true" name="Dominion" hidden="false" id="c0c6-3ce7-ea0c-9d9d" defaultAmount="4">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="11"/>
               </costs>
               <infoLinks>
-                <infoLink name="Meltagun" id="3b2d-0c26-0bfc-dbd0" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
+                <infoLink name="Battle Sister" id="4949-f53e-45eb-b2be" hidden="false" type="profile" targetId="3040-53bf-7490-0088"/>
+                <infoLink name="Boltgun" id="51fc-917a-b74b-d9af" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                <infoLink name="Close-Combat Weapon" id="bc32-af0b-e482-4dee" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
               </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b03d-f324-b3ba-c6aa"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="7939-5fff-975f-3986">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Storm Bolter" id="ccf8-407a-7cbf-69e8" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="235b-991a-459f-ef5e"/>
-              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Frag Grenades" hidden="false" id="5aa7-440b-9d9d-e6c6">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Frag Grenades" id="2773-89f1-3944-f0c6" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="411c-d176-39a6-7e95"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Krak Grenade" hidden="false" id="ebbb-8dba-2f7d-46a3">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Krak Grenades" id="5afe-d6cd-996e-ad43" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0653-9563-fe61-1479"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Melta Bombs" hidden="false" id="0e29-9c3b-830d-4b8e">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="af40-bcd1-d662-6381"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Melta Bomb" id="2cdb-7069-e22e-152b" hidden="false" type="profile" targetId="62b3-f972-0f32-e8d8"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="max" value="4" field="selections" scope="self" shared="true" id="b462-d8b7-ee62-2af7"/>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="3e26-b25c-3d84-43b6"/>
+            <constraint type="max" value="10" field="selections" scope="self" shared="true" id="5f68-ec84-cc84-3761"/>
           </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="If the squad numbers ten models or less, it may be mounted in a Rhino" id="9c17-8da3-5ccd-4b4f" hidden="false">
-          <entryLinks>
-            <entryLink import="true" name="Rhino" hidden="false" id="b129-f50f-3074-e6ec" type="selectionEntry" targetId="7b6e-3e68-4eb2-b8b4">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="108e-7a4b-49ca-7857"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Dominions must be mounted in a transport (must be able to fit in the transport)" id="a3e9-a7c5-fcbd-506a" hidden="false" defaultSelectionEntryId="f339-1398-123b-7220">
           <entryLinks>
-            <entryLink import="true" name="Rhino" hidden="false" id="f339-1398-123b-7220" type="selectionEntry" targetId="7b6e-3e68-4eb2-b8b4"/>
-            <entryLink import="true" name="Immolator" hidden="false" id="d23b-7c80-25c4-3c9e" type="selectionEntry" targetId="26bb-331b-d493-3a9c"/>
+            <entryLink import="true" name="Rhino" hidden="false" id="f339-1398-123b-7220" type="selectionEntry" targetId="7b6e-3e68-4eb2-b8b4">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f236-b621-9701-7af0"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Immolator" hidden="false" id="d23b-7c80-25c4-3c9e" type="selectionEntry" targetId="26bb-331b-d493-3a9c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e27-29cb-9d98-3a81"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="5ca4-a55b-15a3-7a69-min"/>
@@ -5731,28 +6081,14 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Boltgun" id="9be2-a376-1cf6-faca" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
         <infoLink name="Adepta Sororitas" id="ecb9-f094-2858-13ec" hidden="false" type="profile" targetId="a905-8dd1-4a18-2273"/>
       </infoLinks>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Simulacrum Imperialis" hidden="false" id="56e8-33f1-5ae4-aebd">
-          <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Simulacrum Imperialis" id="df71-b1da-71e3-97a2" hidden="false" type="profile" targetId="ae54-5c70-f0ee-6b18"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1138-21e1-f3f0-0bfb"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Retributor Squad" hidden="false" id="37fc-3e5c-ba2e-dbca">
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="0728-67ac-8a50-407a" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Retributor" hidden="false" id="c581-3974-be1c-1688">
+            <selectionEntry type="model" import="true" name="Retributor Heavy Gunner" hidden="false" id="c581-3974-be1c-1688">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="11"/>
               </costs>
@@ -5760,8 +6096,7 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                 <infoLink name="Battle Sister" id="1b56-1066-2b00-f81e" hidden="false" type="profile" targetId="3040-53bf-7490-0088"/>
               </infoLinks>
               <constraints>
-                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="55bd-5589-ca8f-16d7"/>
-                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="d02d-0e6c-5c56-7147"/>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="8085-2c98-f428-9b6f" includeChildSelections="false"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Frag Grenades" hidden="false" id="fec5-caa5-f0a6-4de6">
@@ -5787,8 +6122,34 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                   </constraints>
                 </selectionEntry>
               </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="f863-07b1-ca33-d6ed" hidden="false" defaultSelectionEntryId="d6fc-3d68-6f15-574f">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Heavy Bolter" hidden="false" id="d6fc-3d68-6f15-574f">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Heavy Bolter" id="d73d-1134-8650-f5a6" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Multi-melta" hidden="false" id="8a78-38ef-212b-d69b">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Multi-melta" id="bc8a-788b-90ad-4c27" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="2a88-3e13-4020-2d00-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2a88-3e13-4020-2d00-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Sister Superior" hidden="false" id="9faf-7e39-e05c-527f">
+            <selectionEntry type="model" import="true" name="Sister Superior" hidden="false" id="9faf-7e39-e05c-527f">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
               </costs>
@@ -5800,7 +6161,7 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="56a1-2f4b-6fdb-f473-max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Loadout" id="6848-9d08-c177-89cd" hidden="false">
+                <selectionEntryGroup name="Loadout" id="6848-9d08-c177-89cd" hidden="false" defaultSelectionEntryId="1746-930f-201d-a160">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Bolter" hidden="false" id="1746-930f-201d-a160">
                       <infoLinks>
@@ -5849,7 +6210,7 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3721-c582-2ff4-eac1"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="May be upgraded to a Veteran Superior" hidden="false" id="b3a5-78c6-c9de-92ea">
+                <selectionEntry type="upgrade" import="true" name="Veteran Superior" hidden="false" id="b3a5-78c6-c9de-92ea">
                   <costs>
                     <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="14"/>
                   </costs>
@@ -5865,28 +6226,6 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                       <selectionEntryGroups>
                         <selectionEntryGroup name="One-Handed Weapons" id="e377-b4f5-b998-dd53" hidden="false">
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="d8d9-ad66-7729-6448">
-                              <costs>
-                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
-                              </costs>
-                              <infoLinks>
-                                <infoLink name="Bolt Pistol" id="661d-3b5a-4504-bd76" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
-                              </infoLinks>
-                              <constraints>
-                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b1f1-5d57-e023-5afe"/>
-                              </constraints>
-                            </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="59d8-a122-438c-474f">
-                              <costs>
-                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
-                              </costs>
-                              <infoLinks>
-                                <infoLink name="Close-Combat Weapon" id="8a23-3161-e24d-f68d" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
-                              </infoLinks>
-                              <constraints>
-                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f18-cd49-1418-77ba"/>
-                              </constraints>
-                            </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="c614-d272-d6b1-b20e">
                               <costs>
                                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
@@ -5935,17 +6274,6 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                         </selectionEntryGroup>
                         <selectionEntryGroup name="Two-Handed Weapons" id="1f62-3afb-039d-2c2e" hidden="false">
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Bolter" hidden="false" id="a4d2-8371-5812-567b">
-                              <costs>
-                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
-                              </costs>
-                              <infoLinks>
-                                <infoLink name="Boltgun" id="709e-e959-cc00-7d35" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
-                              </infoLinks>
-                              <constraints>
-                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2df2-846d-26c9-471a"/>
-                              </constraints>
-                            </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Eviscerator" hidden="false" id="faf6-598a-0241-fa43">
                               <costs>
                                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
@@ -5994,6 +6322,9 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                                     <infoLink name="Combi-stake Crossbow" id="b280-14d8-b271-7a58" hidden="false" type="profile" targetId="7e5f-a43d-7d41-0b97"/>
                                     <infoLink name="Boltgun" id="16c9-40f8-1cd5-6c9b" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
                                   </infoLinks>
+                                  <constraints>
+                                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="773a-1bb2-8618-ecf9" includeChildSelections="false"/>
+                                  </constraints>
                                 </selectionEntry>
                               </selectionEntries>
                             </entryLink>
@@ -6043,17 +6374,6 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                               </infoLinks>
                               <constraints>
                                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc7a-7fb6-374c-84c8"/>
-                              </constraints>
-                            </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Power Armour" hidden="false" id="0e32-8b22-4ecd-1975">
-                              <costs>
-                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                              </costs>
-                              <infoLinks>
-                                <infoLink name="Power Armour" id="1f0b-7628-80ae-1182" hidden="false" type="profile" targetId="20b4-b738-addc-af21"/>
-                              </infoLinks>
-                              <constraints>
-                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d223-906a-5d64-abf2"/>
                               </constraints>
                             </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Purity Seals" hidden="false" id="38f0-a255-3906-3aa1">
@@ -6126,29 +6446,80 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="Up to four Retributors may be armed with one of the following" id="f863-07b1-ca33-d6ed" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Heavy Bolter" hidden="false" id="d6fc-3d68-6f15-574f">
+            <selectionEntry type="model" import="true" name="Imagifier" hidden="false" id="7744-d293-e125-1cae">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="31"/>
               </costs>
               <infoLinks>
-                <infoLink name="Heavy Bolter" id="d73d-1134-8650-f5a6" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                <infoLink name="Battle Sister" id="4ec5-5981-a05b-3f21" hidden="false" type="profile" targetId="3040-53bf-7490-0088"/>
+                <infoLink name="Boltgun" id="1600-108c-c407-e926" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                <infoLink name="Simulacrum Imperialis" id="7926-02e2-2e79-0d5f" hidden="false" type="profile" targetId="ae54-5c70-f0ee-6b18"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d40-8fd3-0a69-6a46" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Frag Grenades" hidden="false" id="cb77-728c-1b3f-77b2">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Frag Grenades" id="4a01-ccfa-0d35-604b" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="44ee-10a6-0a89-72a5"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Krak Grenade" hidden="false" id="e338-e313-a9ec-9d6a">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Krak Grenades" id="16e1-b4dd-1f8c-b4eb" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e2e-4987-d993-9a95"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Multi-melta" hidden="false" id="8a78-38ef-212b-d69b">
+            <selectionEntry type="model" import="true" name="Retributor" hidden="false" id="5c97-4205-5735-3229">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="11"/>
               </costs>
               <infoLinks>
-                <infoLink name="Multi-melta" id="bc8a-788b-90ad-4c27" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
+                <infoLink name="Battle Sister" id="2eb0-a20d-9921-0839" hidden="false" type="profile" targetId="3040-53bf-7490-0088"/>
+                <infoLink name="Boltgun" id="769a-b196-7d40-a48b" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
               </infoLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Frag Grenades" hidden="false" id="38e8-5409-a66b-913c">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Frag Grenades" id="12e4-df1b-7c08-1ed1" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dcb8-9822-d2ac-d241"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Krak Grenade" hidden="false" id="bb33-7557-fe06-eb6a">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Krak Grenades" id="bcb3-eeeb-c77d-2f63" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f4f3-054d-9b71-2d17"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="max" value="4" field="selections" scope="self" shared="true" id="2a88-3e13-4020-2d00"/>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="b739-43e8-300e-1c16"/>
+            <constraint type="max" value="10" field="selections" scope="self" shared="true" id="295c-7516-efc7-d26e"/>
           </constraints>
         </selectionEntryGroup>
         <selectionEntryGroup name="If the squad numbers six models or less, it may be mounted in an Immolator" id="6383-8a7c-b819-734b" hidden="false">
@@ -6162,22 +6533,8 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Boltgun" id="1600-108c-c407-e926" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
         <infoLink name="Adepta Sororitas" id="b5d2-29bc-8c3b-4d98" hidden="false" type="profile" targetId="a905-8dd1-4a18-2273"/>
       </infoLinks>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="One Retributor not carrying a heavy weapon may take a Simulacrum Imperialis" hidden="false" id="a902-3d0f-4d86-287a">
-          <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Simulacrum Imperialis" id="7926-02e2-2e79-0d5f" hidden="false" type="profile" targetId="ae54-5c70-f0ee-6b18"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84a7-0dc1-c7ee-f2f7"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Exorcist" hidden="false" id="d757-f708-1b87-a482">
       <costs>
@@ -6311,6 +6668,13 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0a07-04e5-62f0-f485"/>
                 <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="b39e-6ed3-4a9a-eaf8"/>
               </constraints>
+              <profiles>
+                <profile name="Penitent Weapons" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="530b-f806-523a-6eb9">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Each Penitent Engine is armed with Two Dreadnought close combat weapons. Penitent Engines do not gain a bonus for being armed with an additional close combat weapon. Each arm is fitted with a single flamer which fire together as a Heavy Flamer. The first Weapon Destroyed result reduces the Engine&apos;s Attacks by 1 (to a minimum of 1) and reduces the Heavy Flamer to a Flamer. The second Weapon Destroyed result reduces the Attacks by a further 1 (to a minimum of 1) and reduces the model&apos;s Strength to 5, in addition to destroying the flamer.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -6319,11 +6683,6 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
         <infoLink name="Holy Rage" id="1bd8-3413-a6b1-7eb2" hidden="false" type="profile" targetId="a51e-630e-c22f-999f"/>
       </infoLinks>
       <profiles>
-        <profile name="Penitent Weapons" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="530b-f806-523a-6eb9">
-          <characteristics>
-            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Each Penitent Engine is armed with Two Dreadnought close combat weapons. Penitent Engines do not gain a bonus for being armed with an additional close combat weapon. Each arm is fitted with a single flamer which fire together as a Heavy Flamer. The first Weapon Destroyed result reduces the Engine&apos;s Attacks by 1 (to a minimum of 1) and reduces the Heavy Flamer to a Flamer. The second Weapon Destroyed result reduces the Attacks by a further 1 (to a minimum of 1) and reduces the model&apos;s Strength to 5, in addition to destroying the flamer.</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Rampage" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="4551-fa93-d93b-9538">
           <characteristics>
             <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Penitent Engines ignore any Crew Shaken and Crew Stunned results on the Vehicle Damage tables.</characteristic>
@@ -6341,7 +6700,7 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Orbital Strike" hidden="false" id="5170-6ce8-858e-d8e3">
+    <selectionEntry type="unit" import="true" name="Orbital Strike" hidden="false" id="5170-6ce8-858e-d8e3">
       <selectionEntryGroups>
         <selectionEntryGroup name="Strike type" id="f507-76c7-c542-809b" hidden="false">
           <selectionEntries>
@@ -6413,7 +6772,7 @@ Death-cult assassins may not join units or ride in vehicles. This unit can never
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Saint Celestine" hidden="false" id="cfb3-ca60-13f1-76a0">
+    <selectionEntry type="unit" import="true" name="Saint Celestine" hidden="false" id="cfb3-ca60-13f1-76a0">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="201"/>
       </costs>
@@ -6462,6 +6821,477 @@ For the purposes of calculating Victory Points, Celestine is considered a casual
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Zephyrim Squad" hidden="false" id="fc90-1f13-baba-e62d">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="f970-6c04-eb41-1185" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Seraphim" hidden="false" id="ecd8-74f2-be33-32d9">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="32"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Zephyrim" id="a3b6-9f90-c269-f2da" hidden="false" type="profile" targetId="f408-9d24-205e-cd67"/>
+                <infoLink name="Bolt Pistol" id="74d8-c701-e3a3-7b6e" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Melta Bombs" hidden="false" id="469e-989f-3092-bca0">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Melta Bomb" id="abd3-ce09-bf19-ee8b" hidden="false" type="profile" targetId="62b3-f972-0f32-e8d8"/>
+                    <infoLink name="Power Weapon" id="e898-4915-2245-3b8b" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="185d-43ee-9b4c-8a57"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Zephyrim Superior" hidden="false" id="1cf8-6131-2f56-1822">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="42"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Zephyrim Superior" id="9c21-c84d-d85c-ef7d" hidden="false" type="profile" targetId="a4ae-f175-9f7b-1886"/>
+                <infoLink name="Simulacrum Imperialis" id="06bd-f636-5723-4420" hidden="false" type="profile" targetId="ae54-5c70-f0ee-6b18"/>
+                <infoLink name="Bolt Pistol" id="d40e-8986-e943-b721" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                <infoLink name="Power Weapon" id="df34-26cc-b89c-b727" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="12e3-4dfd-d522-06ce"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="60e4-7257-b4c9-f245"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Veteran Superior" hidden="false" id="3cef-9414-80fe-c231">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="14"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Faithful" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="ba6f-4a1d-2914-6c45">
+                      <characteristics>
+                        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The Veteran Superior contributes 1 Faith Point to the army total.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="The Veteran Superior may be given any of the following" id="06ac-071d-32ee-6d07" hidden="false">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="One-Handed Weapons" id="8576-06e0-45ce-4bea" hidden="false">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="a106-7e23-3ba9-f1d1">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Plasma Pistol" id="e80a-c091-66ad-0bbf" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+                              </infoLinks>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="21fa-f9c6-4c12-f270"/>
+                              </constraints>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Brazier of Holy Fire" hidden="false" id="2f2a-fd72-118b-c8c9">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Brazier of Holy Fire" id="cd95-4c7b-0fba-35f7" hidden="false" type="profile" targetId="f6da-dcd5-b3d3-b775"/>
+                              </infoLinks>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8df8-72b5-67ad-de79"/>
+                              </constraints>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Praesidium Protectiva" hidden="false" id="00fb-701a-6514-7dae">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Praesidium Protectiva" id="6187-ab7b-e3c4-76fb" hidden="false" type="profile" targetId="5d43-f1b3-68bb-4ed0"/>
+                              </infoLinks>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d83-a893-67eb-0a2b"/>
+                              </constraints>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                        <selectionEntryGroup name="Two-Handed Weapons" id="ca46-678c-24ac-447c" hidden="false">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Bolter" hidden="false" id="4083-d954-09cd-b409">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Boltgun" id="af11-a98f-62bb-7224" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                              </infoLinks>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9542-3423-60cf-f8f5"/>
+                              </constraints>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Eviscerator" hidden="false" id="f358-460c-d869-4ed4">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Eviscerator" id="82d4-a07e-a8d9-82ec" hidden="false" type="profile" targetId="c34d-7883-b48f-6778"/>
+                              </infoLinks>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca42-c72d-8c5d-6bf6"/>
+                              </constraints>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Shotgun" hidden="false" id="a888-816c-7aa7-17d2">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Shotgun" id="3e86-a20f-74bf-f80e" hidden="false" type="profile" targetId="2ce3-d5a9-9590-6b9e"/>
+                              </infoLinks>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd52-4271-073b-a81b"/>
+                              </constraints>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="ad84-a354-8423-25a6">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Storm Bolter" id="e4f1-899b-1c2b-bbcd" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+                              </infoLinks>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="018d-d289-69a1-11ff"/>
+                              </constraints>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <entryLinks>
+                            <entryLink import="true" name="Combi-weapon" hidden="false" id="4dd9-f6a9-2629-8fd2" type="selectionEntry" targetId="d720-24d4-d7f1-df20">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+                              </costs>
+                              <selectionEntries>
+                                <selectionEntry type="upgrade" import="true" name="Bolter-Stake Crossbow" hidden="false" id="738c-6612-deed-df87">
+                                  <costs>
+                                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                                  </costs>
+                                  <infoLinks>
+                                    <infoLink name="Combi-stake Crossbow" id="a499-3389-ef62-81c2" hidden="false" type="profile" targetId="7e5f-a43d-7d41-0b97"/>
+                                    <infoLink name="Boltgun" id="762b-7ccc-5d3e-e476" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                                  </infoLinks>
+                                  <constraints>
+                                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="946d-b404-692a-d8a4" includeChildSelections="false"/>
+                                  </constraints>
+                                </selectionEntry>
+                              </selectionEntries>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntryGroup>
+                        <selectionEntryGroup name="Wargear " id="f706-4b3f-8e0c-1aea" hidden="false">
+                          <selectionEntries>
+                            <selectionEntry type="upgrade" import="true" name="Auspex" hidden="false" id="379f-b1b6-e722-e2f5">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Auspex" id="c73c-f1cb-f5a4-d685" hidden="false" type="profile" targetId="763f-2561-a62c-db73"/>
+                              </infoLinks>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="791a-c917-b5b5-fb41"/>
+                              </constraints>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Bionics" hidden="false" id="4867-166e-169f-a1ce">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Bionics" id="4d47-0d65-c1d7-8aa3" hidden="false" type="profile" targetId="bc5f-2ed3-1f14-8611"/>
+                              </infoLinks>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec47-d7f3-9464-8d22"/>
+                              </constraints>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Master Crafted Weapon" hidden="false" id="2230-2476-fe16-7f8e">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Master-crafted weapon" id="fd35-fd0b-3146-9dbd" hidden="false" type="profile" targetId="a1c8-4380-cdbb-801d"/>
+                              </infoLinks>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aea2-8fa6-14cc-f337"/>
+                              </constraints>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Power Armour" hidden="false" id="4f49-239f-57bd-ed0e">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Power Armour" id="d111-57f0-52ce-057b" hidden="false" type="profile" targetId="20b4-b738-addc-af21"/>
+                              </infoLinks>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="526a-dfb3-a484-afb8"/>
+                              </constraints>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Purity Seals" hidden="false" id="f8df-85cc-fca0-31cd">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Purity Seals" id="fccc-eb86-b1a3-6838" hidden="false" type="profile" targetId="7ab1-85c4-59e1-0397"/>
+                              </infoLinks>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3db1-2082-1130-0404"/>
+                              </constraints>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Rosarius" hidden="false" id="71c9-cc7b-dd40-e01e">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Rosarius" id="874c-cbe8-3fc0-4bfb" hidden="false" type="profile" targetId="ed20-581e-760f-756e"/>
+                              </infoLinks>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d275-06a5-20ec-712d"/>
+                              </constraints>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Book of St. Lucius" hidden="false" id="4e49-6ed5-42a7-017b">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Book of St. Lucius" id="4b5e-4a30-606d-ea63" hidden="false" type="profile" targetId="d983-cac6-dc24-0c83"/>
+                              </infoLinks>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8772-8b21-b439-8b15"/>
+                              </constraints>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Jump Pack" hidden="false" id="7ff5-decd-aa16-60fa">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Jump Pack" id="6a82-1961-e403-91c1" hidden="false" type="profile" targetId="9fdf-bc3e-5c20-fe0c"/>
+                                <infoLink name="Jump Infantry" id="72f7-02a1-731d-3ba3" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+                              </infoLinks>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aadb-f419-d90f-a4e7"/>
+                              </constraints>
+                            </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Sarissa" hidden="false" id="1417-ddbf-6dd7-a7e0">
+                              <costs>
+                                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                              </costs>
+                              <infoLinks>
+                                <infoLink name="Sarissa" id="0cfa-3b66-a2e1-e28f" hidden="false" type="profile" targetId="b786-3876-d4a9-4575"/>
+                              </infoLinks>
+                              <constraints>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa0b-5093-2e11-d7c4"/>
+                              </constraints>
+                            </selectionEntry>
+                          </selectionEntries>
+                          <constraints>
+                            <constraint type="max" value="100" field="6f18-a8fc-2c5b-9517" scope="self" shared="true" id="bb77-6c47-9e6c-d5e2" includeChildSelections="true"/>
+                          </constraints>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7062-58d8-99f2-bdad"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Melta Bombs" hidden="false" id="fe1e-f61d-93aa-142e">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Melta Bomb" id="6635-b74f-2dea-2759" hidden="false" type="profile" targetId="62b3-f972-0f32-e8d8"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb78-271d-43e2-addd"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="5202-dc1b-61ee-cc11"/>
+            <constraint type="max" value="10" field="selections" scope="self" shared="true" id="e9a8-90a4-4f96-acab"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Jump Pack" id="d268-0b43-6003-550a" hidden="false" type="profile" targetId="9fdf-bc3e-5c20-fe0c"/>
+        <infoLink name="Jump Infantry" id="de46-ca0c-4297-895c" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+        <infoLink name="Hit and Run" id="f95c-7806-113f-11b1" hidden="false" type="profile" targetId="17a2-9db7-3461-361c"/>
+        <infoLink name="Frag Grenades" id="cb88-85cd-d25b-b45c" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="d524-5957-0a98-400f" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Faithful" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="447a-7bef-7b79-8d3b">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">All Zephyrim are Faithful, regardless of the presence of a Faithful character. Each squad of Zephyrim adds 1 Faith Point to the army&apos;s Faith Point total.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Angelic Visage" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="5491-95df-3624-4674">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Any Adepta Sororitas unit with a model within 6&quot; of at least one model in the Zephyrim unit adds +1 to their Leadership, up to a maximum of 10, when taking Morale checks and Pinning tests. Note that other units of Zephyrim or Seraphim do not benefit from this rule and it is not cumulative.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Castigator" hidden="false" id="4a2d-3b02-04a1-b480">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="85"/>
+      </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Turret" id="7de5-ac80-a3f5-8ed1" hidden="false" defaultSelectionEntryId="7c72-c6be-e3fb-0cdb">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Autocannon" hidden="false" id="7c72-c6be-e3fb-0cdb">
+              <infoLinks>
+                <infoLink name="Twin-linked Autocannon" id="443f-4028-3152-1f21" hidden="false" type="profile" targetId="11aa-86cf-4281-eae2"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="721e-0bd3-7534-e6a2"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Battle Cannon" hidden="false" id="5926-5f8e-8f22-c456">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Battle Cannon" id="900c-fced-e2e6-4278" hidden="false" type="profile" targetId="5323-3577-3ed2-1a5d"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="deac-9648-a27b-2a60"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="b926-4a78-0f19-2d61"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="329a-4618-f122-d474"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Upgrades" id="9e85-ade7-bd7f-0720" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="fc86-6798-fb8e-34d3">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Storm Bolter" id="84b2-949f-d7f2-3ae6" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9efb-d458-1893-899f"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Hunter-killer Missile" hidden="false" id="d8cd-1327-b528-96aa">
+              <infoLinks>
+                <infoLink name="Hunter-Killer Missile" id="8639-0245-fe46-3cfb" hidden="false" type="profile" targetId="ecc5-0991-ef00-23ac"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ceb-1691-8325-e456"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Dozer Blade" hidden="false" id="4b33-225c-68a8-73f8">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Dozer Blade" id="f52e-6f4c-6263-0072" hidden="false" type="profile" targetId="071f-6e73-2a57-cfc4"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b72-4136-30cd-10fc"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Extra Armour" hidden="false" id="ebcf-754e-69ef-bb35">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Extra Armour" id="239f-9739-2469-b4a3" hidden="false" type="profile" targetId="ec58-94f7-12e5-a9b9"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="19c4-c972-f0f0-13cf"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Smoke Launchers" id="8e8f-8f5f-de27-72d9" hidden="false" type="profile" targetId="180e-ad4b-4df0-81ae"/>
+        <infoLink name="Searchlight" id="7186-c1eb-68ef-f48f" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
+        <infoLink name="Tank" id="45a0-021b-923e-7c5a" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
+        <infoLink name="Heavy Bolter" id="32e1-7c3f-bc61-c6b6" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+        <infoLink name="Heavy Bolter" id="8555-d41a-129c-3a00" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+        <infoLink name="Heavy Bolter" id="ef56-ec54-5af4-6aa1" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+        <infoLink name="Castigator" id="f891-e967-dfc3-7a1f" hidden="false" type="profile" targetId="755b-f9cf-31f5-2450"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Paragon Warsuits" hidden="false" id="7f70-8ed9-5021-01b4">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Paragon Warsuit" hidden="false" id="9f32-fe12-9efd-2382">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="80"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Paragon Warsuit" id="8285-9e04-4631-241e" hidden="false" type="profile" targetId="5bce-3d21-c7c0-7458"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8dd1-512d-ddc2-6877"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="bd1d-3ff3-aad0-a648"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Loadout" id="5faf-d418-205b-94df" hidden="false" defaultSelectionEntryId="9b48-d6c4-63c2-21fb">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Paragon War Blade" hidden="false" id="9b48-d6c4-63c2-21fb">
+                  <profiles>
+                    <profile name="Paragon War Blade" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="27f5-7faa-54d6-7ae7">
+                      <characteristics>
+                        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a Power Weapon</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b730-2c86-4070-8ad7" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Paragon War Mace" hidden="false" id="9913-481c-98d0-c979">
+                  <profiles>
+                    <profile name="Paragon War Mace" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="dbba-5d99-1b62-7ca9">
+                      <characteristics>
+                        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a Thunder Hammer</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe12-81dd-2ae5-9a06" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Holy Hatred" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="833f-fcc3-82fa-d1e1">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">When in close combat with any enemy with a WS attribute, Paragon Warsuits hit on a 3+ regardless of respective Weapon Skill values. This advantage does not apply if the enemy is an independent character or Monstrous Creature</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Faithful" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="41bf-2fed-358e-8b5a">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">All Paragon Warsuits are Faithful, regardless of the presence of a Faithful character. Each squadron&apos;s presence adds +1 to the army&apos;s Faith Point total.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Adepta Sororitas" id="1161-4e57-856d-7e02" hidden="false" type="profile" targetId="a905-8dd1-4a18-2273"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <rules>
@@ -7438,6 +8268,21 @@ Faithful Independent Characters may use Acts of Faith while operating independen
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c49a-32ab-4c28-98fe"/>
       </constraints>
+    </entryLink>
+    <entryLink import="true" name="Zephyrim Squad" hidden="false" id="56ce-2a41-ed4c-0635" type="selectionEntry" targetId="fc90-1f13-baba-e62d">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="8c91-fda8-84de-f662" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Castigator" hidden="false" id="4e07-960a-f129-a030" type="selectionEntry" targetId="4a2d-3b02-04a1-b480">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="8df3-10ce-2a66-1223" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Paragon Warsuits" hidden="false" id="fa8b-1c50-20bd-52a1" type="selectionEntry" targetId="7f70-8ed9-5021-01b4">
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="ff90-87a9-2221-d95f" primary="true" name="Elites"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
 </catalogue>

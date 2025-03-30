@@ -1586,7 +1586,7 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Combi-weapon" hidden="false" id="d720-24d4-d7f1-df20" defaultAmount="0">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Combi-flamer" hidden="false" id="f589-6e69-8051-ff14">
+        <selectionEntry type="upgrade" import="true" name="Combi-flamer" hidden="false" id="f589-6e69-8051-ff14" defaultAmount="1">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
           </costs>
@@ -1640,7 +1640,9 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b9bf-a0a0-3657-c3b6"/>
+        <constraint type="min" value="1" field="selections" scope="self" shared="true" id="b9bf-a0a0-3657-c3b6-min"/>
+        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b9bf-a0a0-3657-c3b6-max"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ace1-3b17-d12a-5323" includeChildSelections="false"/>
       </constraints>
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
