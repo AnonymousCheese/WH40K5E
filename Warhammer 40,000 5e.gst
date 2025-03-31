@@ -1582,6 +1582,175 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
+    <profile name="Venerable Dreadnought" typeId="acd3-2539-3641-1250" typeName="Walker Vehicle" hidden="false" id="e517-6fb2-82e7-7ea8">
+      <characteristics>
+        <characteristic name="WS" typeId="3d9c-8977-9b95-824b">5</characteristic>
+        <characteristic name="BS" typeId="ea47-07be-ab4a-6569">5</characteristic>
+        <characteristic name="STR" typeId="a630-c404-957f-a49f">6</characteristic>
+        <characteristic name="F" typeId="3549-2d9e-3052-b396">12</characteristic>
+        <characteristic name="S" typeId="94fc-8af8-d4d4-7b1a">12</characteristic>
+        <characteristic name="R" typeId="4eca-6e3c-2053-e75a">10</characteristic>
+        <characteristic name="I" typeId="f706-f227-5d93-0fe3">4</characteristic>
+        <characteristic name="A" typeId="12be-9dd2-0dd7-b17a">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dreadnought" typeId="acd3-2539-3641-1250" typeName="Walker Vehicle" hidden="false" id="e18f-e246-c81f-376a">
+      <characteristics>
+        <characteristic name="WS" typeId="3d9c-8977-9b95-824b">4</characteristic>
+        <characteristic name="BS" typeId="ea47-07be-ab4a-6569">4</characteristic>
+        <characteristic name="STR" typeId="a630-c404-957f-a49f">6</characteristic>
+        <characteristic name="F" typeId="3549-2d9e-3052-b396">12</characteristic>
+        <characteristic name="S" typeId="94fc-8af8-d4d4-7b1a">12</characteristic>
+        <characteristic name="R" typeId="4eca-6e3c-2053-e75a">10</characteristic>
+        <characteristic name="I" typeId="f706-f227-5d93-0fe3">4</characteristic>
+        <characteristic name="A" typeId="12be-9dd2-0dd7-b17a">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Animus Speculum" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="5c9e-ad99-2143-7368">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">For every Psyker within 12&quot; of the Culexus Assassin, add +1 to the animus speculum&apos;s Assault value (ie, Assault 2 becomes Assault 3 if there is one psyker within 12&quot;)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Neuro-Gauntlet" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="666e-5bac-6896-ac26">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a close combat weapon. Roll to hit as normal, but don&apos;t roll to wound. Instead each hit causes one wound on a D6 roll of 4+ regardless of the target&apos;s Toughness, and with no Armour save allowed (Invulnerables may still be taken). Vehicles hit by a neuro-gauntlet take a glancing hit on a D6 roll of 6, regardless of the vehicle&apos;s Armour Value.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Executioner Pistol" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e9a6-0e2d-45bd-bdde">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol, Poisoned (2+)</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Has an Armour Penetration of D6 against vehicles.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Combat Drugs" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="a232-7fe3-c7cd-908e">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Eversor Assassin can charge 12&quot; in the Assault phase (or double the distance of the dice roll if moving through difficult terrain). When the Eversor charges into combat, it gains an extra D6 Attacks rather than just +1 Attack.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bio-Meltdown!" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="9e29-43e8-3d41-cb64">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If the Eversor is killed, place a Blast marker centred over the model. Any model touched by the template takes an automatic Strength 5 hit, with saving throws allowed as normal. The Eversor is then removed from play.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Neural Shredder" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="049e-1eb3-5eca-03c6">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">X</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">The neural shredder has Strength 8 but, rather than using the targets&apos; Toughness value, their Leadership is used. Other than this, the To Wound chart is used as normal. A Neural Shredder cannot harm vehicles.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Polymorphine" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="bc6f-d304-29c7-79dc">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Callidus Assassin is always placed in reserve, even in missions which do not normally use the Reserves rule. When she becomes available, she may be placed anywhere on the battlefield, and can move and fight normally in the turn she arrives.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Poison Blades" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="8f62-2206-3c09-e3fe">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">If the Callidus Assassin is still in base contact with an enemy model at the end of the Assault phase, after all combats have been resolved, she may make an extra attack with her poisoned blades. This attack always wounds on a 4+, and normal Armour saves are allowed.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="C&apos;tan Phase Sword" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="6f88-37d9-f82d-fa7c">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">No saves are allowed against hits from a phase sword, not even Invulnerable saves.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="A Word in Your Ear" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="3726-f17e-0019-9c02">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The player with the Callidus Assassin can move one enemy unit up to 6&quot; after both sides have deployed, but before the first turn starts. The unit&apos;s new position must be within the normal deployment zone, and the owning player may choose the facing of the unit after it has been moved.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Conversion Beamer" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="aaec-111a-3a42-12ef">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A shot from a Conversion beamer has a different profile depending on how far the target is from the firer. When firing, measure the distance to the target and place the blast template. Once the final location of the attack has been placed (after scatter) measure to the centre of the blast marker to determine the profile.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Conversion Beamer (Point-blank)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="20fc-9e67-ede7-6b6f">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">up to 18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+      </characteristics>
+    </profile>
+    <profile name="Conversion Beamer (Mid)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="810d-d910-4f7e-8277">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">42&quot; - 72&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+      </characteristics>
+    </profile>
+    <profile name="Conversion Beamer (Long)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="af1e-071a-7268-cd18">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Over 72&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">Miss!</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">n/a</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">n/a</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+      </characteristics>
+    </profile>
+    <profile name="Conversion Beamer (close)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="2c13-8050-4dd2-2d23">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot; - 42&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+      </characteristics>
+    </profile>
+    <profile name="Exitus Pistol" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e146-43f9-0ff4-d037">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Exitus Rifle" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="5195-1377-ebdf-0847">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">X</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Sniper</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">The Exitus rifle may choose to fire a special round: Shield-Breaker, Turbo-Penetrator, Hellfire</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hellfire Round" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="4335-47c2-88df-7cd0">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The shot wounds on a 2+ instead of a 4+.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Turbo-Penetrator Round" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="c4b3-e91b-dba5-dd5b">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Inflicts 2 wounds on any model wounded. If fired at a vehicle, the shot has an Armour Penetration value of 3D6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shield-Breaker Round" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="70e8-d579-9540-6877">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The shot ignores any Invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Inferno Pistol" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="75d9-90dc-0e9d-254a">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">6&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol, Melta</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Combi-weapon" hidden="false" id="d720-24d4-d7f1-df20" defaultAmount="0">

@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="1d92-05fa-b42e-029a" name="Grey Knights" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Apothecary" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="9139-2bb7-ecfa-02de">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Assassin" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="a3bc-6cef-66dd-f591">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">8</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">8</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">7</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Brother Champion" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="a329-7b60-8850-62e9">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">7</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">*</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Brother-Captain Stern" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="a845-49d5-1ff1-e622">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Brother-Captain" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="24ed-15ba-ee54-da14">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Castellan Crowe" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="a7ed-a610-8c7e-76fa">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">8</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">*</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ghost Knight" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="8e0b-4395-fc35-03d8">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grand Master Mordrak" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="201c-654f-52a3-9d50">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">6</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grand Master" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="04cb-baa0-9594-01a5">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">6</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grey Knight" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="faad-3938-a405-aefc">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Inquisitor Coteaz" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="9802-0632-e77a-e780">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Inquisitor Karamazov" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="ff6b-62b5-65fa-bdc0">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Inquisitor Valeria" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="30db-1fa0-ff29-58b8">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3(5)</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Inquisitor" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="1a62-ddfa-1cc2-1d67">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Arco-flagellant" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="187d-adfe-9a76-8d72">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">1</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Banisher" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="1ebe-8995-e816-d30f">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Crusader" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="6858-f9f5-fea2-355e">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Daemonhost" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="05f6-4e15-242e-5ec4">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Death Cult Assassin" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="2c98-fc88-7066-ab00">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Inquisitor Servitor" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="90d7-0764-7895-c0b5">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Jokaero Weaponsmith" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="d05e-7655-4059-8b5c">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">1</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">2</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mystic" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="2b46-84bf-dba6-cba0">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psyker" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="224c-bf74-d834-9070">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Warrior Acolyte" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="ff3a-c202-13bf-3c1e">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Justicar Thawn" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="1f61-d27c-6f98-0e15">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Justicar" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="be06-31ae-91d1-9b83">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Knight of the Flame" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="7490-5a59-2f13-03d1">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Librarian" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="c2b7-207f-3c75-83ce">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lord Kaldor Draigo" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="fb68-5ecc-54b7-e4a2">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">7</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">6</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+ (5+ Invulnerable)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Nemesis Dreadknight" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="631e-81d0-caa0-ee77">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Paladin" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="f089-fd1a-0bf8-a2fc">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Purifier" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="8df3-37ad-b589-3a42">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Techmarine" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="f395-500e-f3b4-3d11">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Terminator Justicar" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="18ef-68f5-4752-6967">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Terminator" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="7e33-bf40-a4fb-ad4a">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Stormraven Gunship" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="61d2-21ae-223f-5801">
+      <characteristics>
+        <characteristic name="BS" typeId="b539-c71b-9239-8da0">4</characteristic>
+        <characteristic name="F" typeId="84f1-6495-b3c8-6025">12</characteristic>
+        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">12</characteristic>
+        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">12</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Condemnor Boltgun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="1ee0-d770-3efe-ba11">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, One Shot</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">A Psyker hit by a stake crossbow shot suffers the Perils of the Warp in addition to any other effects.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Energy Torrent" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="dc61-3e5b-078d-b0dc">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Flamestorm Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="dad0-6600-70c4-66d4">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Gatling Psilencer" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="3c94-48a1-c5e6-a4a0">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4*</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 12</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">A Psilencer always wounds Daemons on a roll of 4+, unless the scored required to wound is normally less.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Gravitor Beamer" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="7bce-7894-4a83-4457">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol, One Shot</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Incinerator" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="fa9c-0c47-1c5b-e400">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template*</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">*Place the template so that the narrow end is within 12&quot; of the weapon and the large end is no closer to the weapon than the narrow end. The heavy incinerator is then treated like any other template weapon.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Psycannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e029-a895-be67-e411" page="4">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Large Blast, Rending</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+      <alias>24&quot;</alias>
+    </profile>
+    <profile name="Hellrifle" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="eef6-9f99-f465-e565">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Rending</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Incinerator" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="2086-68bf-6c82-9444">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Mindstrike Missile" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="bd47-11c3-2b07-a6f9">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast, One Shot</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">A Psyker hit by this weapon suffers the Perils of the Warp in addition to any other effects.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Needle Pistol" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e1c9-a900-38ba-d203">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3*</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">*Shots from a Needle Pistol always wound on a 2+.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Barrage Bomb" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="ccb1-d9d6-bbb6-1657">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Unlimited</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance D3, Large Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Psilencer" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="b5e1-4f72-9706-8ff4">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4*</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 6</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">A Psilencer always wounds Daemons on a roll of 4+, unless the scored required to wound is normally less.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psyber-eagle" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="2920-6fd3-5133-3113">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault D6</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Psycannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="aaa6-46cd-46dc-e09a">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2 or Heavy 4, Rending</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Typhon Missile Launcher (Frag)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="2603-6bf0-e81f-e9bc">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2, Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Typhon Missile Launcher (Krak)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="1e34-b0c1-18f2-ccab">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Unholy Gaze" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="feb1-20e7-bced-d002">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Holocaust" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="2bbf-7011-e4a5-6c8f">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Large Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Psychic Shooting Attack</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psychic Barrage" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="cd76-f423-1415-db0b">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3*</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6*</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Large Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Psychic Shooting Attack. The Strength and AP of the attack improves by 1 for each additional Psyker in the unit beyond the first.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sanctified Flame" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="67a4-5622-2585-2632">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5*</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Psychic Shooting Attack. This attack always wounds Daemons on a 2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Smite" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="b40e-5984-5f07-cbd8">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 4</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Psychic Shooting Attack</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Vortex of Doom" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="3c1b-53d9-27b4-1434">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Psychic Shooting Attack</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Warp Rift" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="52c4-77ea-eea1-cf9b">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">*</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Psychic Shooting Attack.The target must take an Initiative test for each non-vehicle model hit. For every test that is failed, one model is removed as a casualty with no saving throws allowed. Vehicles hit take a single penetrating hit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Nemesis Force Sword" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="64f0-ab46-acac-8862">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a Nemesis Force Weapon which increases the bearer&apos;s Invulnerable save by +1 against close combat attacks. If the bearer has no Invulnerable save, there is no effect.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Nemesis Force Halberd" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="d9dc-c6c6-7f2e-1642">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a two-handed Nemesis Force Weapon. In addition, the weilder strikes at +2 Initiative.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Nemesis Daemon Hammer" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="74e2-b19f-7313-eb5e">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a Nemesis Force Weapon which follows the rules for a Thunder Hammer. Note that a Nemesis Dreadknight armed with this weapon strikes at normal Initiative rather than Initiative 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Nemesis Warding Stave" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="1deb-a37b-fa22-ff45">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a Nemesis Force Weapon which grants the wielder a 2+ Invulnerable save against wounds caused in close combat.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Nemesis Falchions" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="2db1-5616-6e7e-0efa">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a pair of Nemesis Force Weapons which grants the wielder +1 Attack.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Nemesis Doomfist" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="f72f-d5fa-e8b7-5302">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a Nemesis Force Weapon which follows all the rules for a Dreadnought Close Combat Weapon.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Nemesis Greatsword" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="4e36-5148-d789-7c50">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a Nemesis Force Weapon which re-rolls failed To Hit, To Wound and Armour Penetration rolls in close combat.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Daemonblade" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="4aa9-be88-8f1b-6559">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Daemonblade is a two-handed close combat weapon. In addition, every Daemonblade has two Daemonic powers randomly generated from the following list before the army is deployed. If the same result is rolled twice, you can choose the Daemonblade&apos;s second daemonic power.
+
+
+Roll 2D6
+
+
+2-3 Warpflame: Attacks made with it are resolved at +3 Strength.
+
+
+4 Unholy Speed: The wielder gains +3 attacks.
+
+
+5 Etherblade: Armour saves cannot be taken against wounds caused by the Daemonblade.
+
+
+6 Vampyre: When the Daemonblade inflicts an unsaved wound, its wielder immediately gains +1 Wound (to a maximum of 10)
+
+
+7 Daemonic Feud: Close combat attacks from this sword always wound Daemons on a roll of 2+. Furthermore, Daemons must re-roll any successful Invulnerable saves against any wounds thus caused.
+
+
+9 Deathlust: The bearer of the Daemonblade has the Furious Charge and Rage special rules.
+
+
+10 Daemon Venom: Attacks made with this Daemonblade have the Poisoned (2+) special rule.
+
+
+11-12 Familiar: The bearer counts as being one Mastery level higher than normal. In addition, the Daemonblade is a Force Weapon.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Null Rod" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="b748-35e5-e713-9f35">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Null Rod is a Power Weapon. Any unsaved wounds caused by a Null Rod inflict Instant Death on Psykers. Furthermore, the bearer (and his squad) cannot be affected by Psychic powers (friendly or enemy) in any way.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Scythian Venom Talon" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="c399-8bdb-4ba2-5692">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">Scythian Venom Talons are poisoned close combat weapons, and have the Poisoned (2+) special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psychotroke Grenades" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="ea40-b779-4241-5a98">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">When a unit equipped with Psychotroke grenades launches an assault, or is assaulted, roll a D6 for each enemy unit being assaulted or assaulting to see what the effect is. The effects of Psychotroke Gas only ever last for the duration of a single Assault phase.
+
+
+1 What&apos;s this? Smells a bit odd: The unit has resisted the gas - there is no effect.
+
+
+2 Suddenly, it&apos;s all so clear: The enemy unit is hit automatically in this Assault phase. They can still fight, but with a maximum of 1 Attack per model.
+
+
+3 Those enemies aren&apos;t real: The enemy is caught so utterly unprepared that you can re-roll to hit against the enemy unit during this Assault phase.
+
+
+4 They&apos;re horrible!: The enemy unit is reduced to Leadership 2 for the remainder of the Assault phase.
+
+
+5 The world is spinning: The enemy unit is reduced to Initiative 1 for the remainder of the Assault phase.
+
+
+6 They&apos;re out to get you: Every model in the enemy unit must immediately take an Initiative test. Any models that fail must strike blows against their own unit during this Assault phase, rather than against the enemy, exactly as if they were on your side. Wounds inflicted must be allocated amongst the entire unit, not just amongst unaffected models. Unsaved wounds caused by affected models count towards your close combat total. Units composed of single models re-roll this result.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Empyrean Brain Mines" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="a946-268f-7b11-835c">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Empyrean Brain Mines are used in the Assault phase, after assault moves have been made but before any blows are struck. Nominate one enemy model in base contact with the bearer. That model must pass an Initiative test to avoid the brain mind. If the test is passed, the effects of the mine have been resisted. If the test is failed, the victim has been rendered momentarily catatonic and cannot strike any blows during this Assault phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psyk-out Grenade" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="70b8-e5d9-c9d5-2e4e">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">When a unit equipped with Psyk-out Grenades launches an assault, any Daemons or Psykers in the assaulted unit(s) are reduced to Initiative 1 for the remainder of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rad Grenade" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="a6a2-449b-edf3-1afa">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">During a turn in which a unit equipped with Rad Grenade s launches an assault, or is assaulted, the enemy unit(s) suffer a -1 penalty to Toughness until the end of the phase (this does affect the victims&apos; instant death threshold).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Truesilver Armour" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="2cdf-5c02-4ba7-da5e">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">If a Daemon or Psyker succeeds in hitting this vehicle in close combat, it suffers a Strength 6 hit for each hit once damage has been resolved against the vehicle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Warp Stabilisation Field" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="454f-5578-c71e-ff4a">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A vehicle with a Warp Stabilisation field can be the subject of a Librarian&apos;s The Summoning psychic power. A vehicle that moves in this way counts as having moved flat out.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Brotherhood Banner" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="8f62-6ba0-3a79-a512">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">All models in the same unit as the Brotherhood Banner have +1 Attack whilst the banner bearer is alive. Additionally, the unit will automatically pass its Psychic test to &apos;activate&apos; its Force Weapons.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psybolt Ammunition" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="113d-84da-4c19-18ce">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model equipped with Psybolt Ammunition counts the Strength of its shots as being one point higher than normal if it is firing one of the following weapons: Bolt Pistol, Boltgun, Storm Bolter, Heavy Bolter, Hurricane Bolter, Autocannon or Assault Cannon. Eg. an Assault cannon would be Strength 7, rather than Strength 6, if the firer has Psybolt Ammunition.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psyflame Ammunition" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="f7a8-929b-9869-0356">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model equipped with Psyflame Ammunition counts the Strength of its shots as being one point higher than normal if it is firing one of the following weapons: Flamer, Heavy Flamer or Flamestorm Cannon. For example a Heavy flamer would be Strength 6, rather than Strength 5.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Servo-skulls" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="7c17-ebbe-c306-2be8">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Servo-skulls are treated as counters, rather than units, for all intents and purposes. They are placed on the battlefield after deployment areas have been determined, but before any forces are deployed. Each Servo-skull can be placed anywhere on the battlefield outside the enemy&apos;s deployment zone. Once deployed, Servo-skulls do not move.
+
+
+Enemy Infiltrators cannot setup within 12&quot; of a Servo-skull. Similarly, enemy scouts cannot use their pre-game move to approach to within 12&quot; of one. A friendly unit arriving by Deep Strike rolls one D6 less for scatter if it aims to arrive within 12&quot; of a Servo-skull. Likewise, friendly Blast templates placed within 12&quot; of a Servo-skull roll one D6 less for scatter.
+
+
+Should an enemy unit move to within 6&quot; then the Servo-skull will self-destruct or flee - remove it from play.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ulumeathi Plasma Syphon" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="f579-ae67-cf58-3c88">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Models firing Plasma weapons (including Plasma pistols, Plasma guns and Plasm Cannons) while within 12&quot; of a model with an Ulumeathi Plasma Syphon will count as Ballistic Skill 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psychic Pilot" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="adc0-ba32-b690-5496">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A vehicle with this special rule is treated as being a Psyker (Mastery level 1) and Leadership 10 for the purposes of Psychic tests and Psychic Hoods. If the vehicle suffers the Perils of the Warp, treat it as a glancing hit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Preffered Enemy (Daemons)" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="fab9-6d08-37e0-a3e3">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Units with this ability can always re-roll their rolls to hit in close combat against Daemons. This ability does not work when attacking vehicles without a Weapon Skill characteristic.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Aegis" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="3eb7-ed67-2a65-23a7">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If an enemy Psyker attempts to target a model with the Aegis special rule (or a unit that contains a model with the Aegis special rule) he suffers a -1 Penalty to his Leadership for the purposes of his Psychic test. A psychic power that does not specifically target a unit with the Aegis special rule does not suffer this penalty, even if the unit with the Aegis special rule is affected by the psychic power.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hammerhand" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="49b4-6a1c-2b4b-ff7d">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This power is used during the Assault phase in either player&apos;s turn, after assault moves have been made, but before any blows have been struck. If the Psychic test is passed, all models in the unit (including independent characters) have +1 Strength until the end of the Assault phase. Note that this Strength bonus is applied before any other modifiers, such as for Nemesis Daemon hammers and so forth.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psychic Communion" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="fce8-356c-966e-6bea">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This power can be used at the start of the Grey Knight&apos;s Movement phase. If the Psychic test is successful, you can modify any reserve rolls made this phase by +1 or -1 (choose after each dice roll has been made).
+
+
+This power is cumulative with other bonuses/penalties, including other uses of Psychic Communion.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grand Strategy" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="bf13-d912-60cd-055b">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">At the start of the game, before forces are deployed, the model can assign special battlefield roles to units under his command. Roll a D3 and choose that many Infantry, Jump Infantry, Monstrous Creature or Walker units in your army (but not models with the Independent Character special rule, Inquisitorial Henchmen Warbands or Grand Master Mordrak&apos;s unit of Ghost Knights). These nominated units have one of the following roles for the duration of the game (they must all have the same role). 
+
+
+Hammer of Righteousness: The nominated units re-roll To Wound rolls of 1 for the duration of the game.
+
+
+Shield of Blades: The nominated units have the Counter-attack special rule for the game&apos;s duration.
+
+
+Spear of Light: The nominated units have the Scouts special rule for the duration of the game. 
+
+
+Unyielding Anvil: The nominated units can claim objectives as if they were Troops.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Lord Kaldor Draigo" hidden="false" id="38f5-e50a-73ad-ae46">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="275"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Lord Kaldor Draigo" id="47c0-5c55-a930-4766" hidden="false" type="profile" targetId="fb68-5ecc-54b7-e4a2"/>
+        <infoLink name="Storm Bolter" id="0087-fe76-fdda-e58e" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+        <infoLink name="Frag Grenades" id="cb85-667e-43de-b79f" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="60db-0d32-050c-a983" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Psyk-out Grenade" id="c1fd-c8b1-54cf-c9bd" hidden="false" type="profile" targetId="70b8-e5d9-c9d5-2e4e"/>
+        <infoLink name="Storm Shield" id="ff85-5253-d8a3-8139" hidden="false" type="profile" targetId="5567-540d-ea70-31b2"/>
+        <infoLink name="The Aegis" id="2303-470e-6a48-d74a" hidden="false" type="profile" targetId="3eb7-ed67-2a65-23a7"/>
+        <infoLink name="Eternal Warrior" id="ccc0-7d5a-83f1-d626" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
+        <infoLink name="Fearless" id="d2df-cae7-7bbc-1957" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Independent Character" id="1ca1-74ac-9fdf-fde1" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Preffered Enemy (Daemons)" id="b504-a86e-1eb3-ff8d" hidden="false" type="profile" targetId="fab9-6d08-37e0-a3e3"/>
+        <infoLink name="Sanctified Flame" id="6228-9879-318b-5cfb" hidden="false" type="profile" targetId="67a4-5622-2585-2632"/>
+        <infoLink name="Hammerhand" id="6a26-ee8e-6ee5-9ad8" hidden="false" type="profile" targetId="49b4-6a1c-2b4b-ff7d"/>
+        <infoLink name="Psychic Communion" id="d61c-dc78-521f-efeb" hidden="false" type="profile" targetId="fce8-356c-966e-6bea"/>
+        <infoLink name="Grand Strategy" id="b849-bc9c-ab16-0f3e" hidden="false" type="profile" targetId="bf13-d912-60cd-055b"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Psyker (Mastery Level 2)" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="c10b-528b-cd74-2896">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This model is a Psyker who follows the rules for Psyker Mastery Level.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="The Titansword" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="f696-ae62-66e8-9cd9">
+          <characteristics>
+            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">The Titansword is a master-crafted force weapon. Additionally, any close combat attacks that Draigo directs against a unit that contains one or more Daemons or Psykers are resolved at Strength 10.
+
+
+Any Daemon or Psyker that suffers one or more unsaved wounds from Nemesis Force Weapons must take a Leadership test at the end of the Assault phase. If the test is passed, nothing happens. If the test is failed, the model is removed as a casualty. This ability applies regardless of whether or not the Nemesis Force Weapons have been successfully activated.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule name="Nemesis Force Weapon" id="67e3-b8bc-5302-6ceb" hidden="false">
+      <description>All Nemesis weapons are Force Weapons. Note that a unit of Grey Knights with the Brotherhood of Psykers special rule needs to take only a single Psychic test to &apos;activate&apos; all of its force weapons (although independent characters must still roll separately). If the test is passed, all wounds caused by the unit&apos;s Nemesis force weapons that phase inflict Instant Death. If a unit is striking at different Initiative orders, take the Psychic test to &apos;activate&apos; the force weapons immediately after the first unsaved wounds are caused. Any further wounds caused by the unit&apos;s Nemesis Force Weapons that phase will be bound by the result of that Psychic test.
+
+
+Any Daemon or Psyker that suffers one or more unsaved wounds from Nemesis Force Weapons must take a Leadership test at the end of the Assault phase. If the test is passed, nothing happens. If the test is failed, the model is removed as a casualty. This ability applies regardless of whether or not the Nemesis Force Weapons have been successfully activated.</description>
+    </rule>
+    <rule name="Brotherhood of Psykers" id="4aff-477a-d8aa-1eb8" hidden="false">
+      <description>A Grey Knight unit can use one Psychic power each turn. The unit counts as a single Psyker and follows all the normal rules for Psykers, with the following clarifications:
+
+
+• A Grey Knight unit uses the Leadership of its Justicar or Knight of the Flame (if he is alive), or the unit (if he is dead) for Psychic tests. A Grey Knight unit can never use the Leadership value of an Independent Character for Psychic tests.
+
+
+• If the Grey Knight unit suffers the Perils of the Warp, or any attack that specifically targets Psykers, it is resolved against the Justicar or or Knight of the Flame (if he is alive) or against a random non-character model in the squad if the Justicar or Knight of the Flame is dead.</description>
+    </rule>
+    <rule name="Psyker Mastery Level" id="b7a0-ef01-0e67-d15b" hidden="false">
+      <description>Grey Knights uses Mastery Levels, to determine how many psychic powers a character can use each turn. For each Mastery Level a character has, he can use one Psychic power per turn.</description>
+    </rule>
+  </sharedRules>
+  <entryLinks>
+    <entryLink import="true" name="Lord Kaldor Draigo" hidden="false" id="43c7-95ab-8ec7-eb0b" type="selectionEntry" targetId="38f5-e50a-73ad-ae46">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="495a-23a2-ac39-a30e" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7017-d30c-afb2-1000"/>
+      </constraints>
+    </entryLink>
+  </entryLinks>
+</catalogue>

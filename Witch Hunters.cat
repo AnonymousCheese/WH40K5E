@@ -277,10 +277,10 @@
     <profile name="Combi-stake Crossbow" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="7e5f-a43d-7d41-0b97">
       <characteristics>
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
-        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
-        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
-        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2</characteristic>
-        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Wounds Psykers on 2+ with no save.</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, One Shot</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Any Psyker hit by a stake crossbow shot suffers the Perils of the Warp in addition to any other effects.</characteristic>
       </characteristics>
     </profile>
     <profile name="Exorcist Missile" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="8bf8-ca7f-6e64-2977">
@@ -319,15 +319,6 @@
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
-    <profile name="Inferno Pistol" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="75d9-90dc-0e9d-254a">
-      <characteristics>
-        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">6&quot;</characteristic>
-        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
-        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
-        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol, Melta</characteristic>
-        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
-      </characteristics>
-    </profile>
     <profile name="Lance Strike" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="d0cc-7406-2733-0508">
       <characteristics>
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Unlimited</characteristic>
@@ -352,7 +343,7 @@
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Variable</characteristic>
-        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Once the impact point of the Psyk-out strike has been determined, roll 2D6 to discover how many inches from this point the drifting cloud of anti-psychic fallout spreads. Any model even partially within this place radius will be affected. The strike has no effect against normal stoops, but against psykers it has a Strength of 9, which is compared to the target&apos;s Leadership, rather than its Toughness. This attack counts as AP1, though Invulnerable saves may be taken against its effects. Rather than losing a wound, affected models lose a psychic power, chosen by the Witch Hunters player. The power must be one that was chosen as an upgrade for the psyker - &apos;innate&apos; powers and abilities are unaffected.
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Once the impact point of the Psyk-out strike has been determined, roll 2D6 to discover how many inches from this point the drifting cloud of anti-psychic fallout spreads. Any model even partially within this place radius will be affected. The strike has no effect against normal troops, but against psykers it has a Strength of 9, which is compared to the target&apos;s Leadership, rather than its Toughness. This attack counts as AP1, though Invulnerable saves may be taken against its effects. Rather than losing a wound, affected models lose a psychic power, chosen by the Witch Hunters player. The power must be one that was chosen as an upgrade for the psyker - &apos;innate&apos; powers and abilities are unaffected.
 
 
 Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfortunate enough to be affected by the blast, his opponent may remove one of his powers!</characteristic>
@@ -4039,15 +4030,6 @@ It is the duty of the Mistress to drive her charges on towards the cleaning fire
                     <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Any unit wishing to shoot at or charge the Culexus Assassin, and any psyker trying to target him with a psychic power, must first pass a Leadership test. If the test is failed they may not target the Assassin, but may attack another target instead.</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Animus Speculum" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="5c9e-ad99-2143-7368">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
-                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
-                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
-                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2</characteristic>
-                    <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">For every Psyker within 12&quot; of the Culexus Assassin, add +1 to the animus speculum&apos;s Assault value (ie, Assault 2 becomes Assault 3 if there is one psyker within 12&quot;)</characteristic>
-                  </characteristics>
-                </profile>
                 <profile name="Psyk-Out Grenades" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="f1d2-b9ab-2cbe-9853">
                   <characteristics>
                     <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Instead of firing the Animus Speculum, the Culexus Assassin may throw a Psyk-out grenade. This is only useful against psykers. Psyk-out Grenades have a range of 6&quot;. Roll to hit as normal. If the Psyker is hit, he must pass a Leadership test on 2D6. For each point the psyker fails the test by, he loses 1 Wound. Saving throws may be taken as normal. For example, a Psyker (with Ld 7, due to the Soulless rule) rolls a 9, and so loses 2 Wounds.</characteristic>
@@ -4074,6 +4056,9 @@ It is the duty of the Mistress to drive her charges on towards the cleaning fire
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink targetId="5c9e-ad99-2143-7368" id="5792-ca5b-3abd-ce66" type="profile" name="Animus Speculum" hidden="false"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Eversor" hidden="false" id="82bb-60ea-cb6b-047f">
               <costs>
@@ -4082,46 +4067,14 @@ It is the duty of the Mistress to drive her charges on towards the cleaning fire
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f8a-5d14-c694-5bae"/>
               </constraints>
-              <profiles>
-                <profile name="Needle Pistol" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e9a6-0e2d-45bd-bdde">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
-                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">X</characteristic>
-                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
-                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol, Poisoned (4+)</characteristic>
-                    <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Has an Armour Penetration of D6 against vehicles.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Neuro-Gauntlet" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="666e-5bac-6896-ac26">
-                  <characteristics>
-                    <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a close combat weapon. Roll to hit as normal, but don&apos;t roll to wound. Instead each hit causes one wound on a D6 roll of 4+ regardless of the target&apos;s Toughness, and with no Armour save allowed (Invulnerables may still be taken). Vehicles hit by a neuro-gauntlet take a glancing hit on a D6 roll of 6, regardless of the vehicle&apos;s Armour Value.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Combat Drugs" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="a232-7fe3-c7cd-908e">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Eversor Assassin can charge 12&quot; in the Assault phase (or double the distance of the dice roll if moving through difficult terrain). When the Eversor charges into combat, it gains an extra D6 Attacks rather than just +1 Attack.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Fast Shot" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="1eec-e0d1-5d3b-0cfe">
-                  <characteristics>
-                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The Eversor may fire his Executioner at the same target twice.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Executioner Pistol" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="0023-6df1-06b7-c46c">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Executioner pistol is both a Bolt pistol and a Needle Pistol. You may only choose a single profile each turn.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Bio-Meltdown!" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="9e29-43e8-3d41-cb64">
-                  <characteristics>
-                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If the Eversor is killed, place a Blast marker centred over the model. Any model touched by the template takes an automatic Strength 5 hit, with saving throws allowed as normal. The Eversor is then removed from play.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
               <infoLinks>
-                <infoLink name="Bolt Pistol" id="44a1-1b6f-523a-d8e0" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                <infoLink targetId="9e29-43e8-3d41-cb64" id="51eb-e973-49fe-b3df" type="profile" name="Bio-Meltdown!" hidden="false"/>
+                <infoLink targetId="a232-7fe3-c7cd-908e" id="61b2-e8c2-bde2-b0df" type="profile" name="Combat Drugs" hidden="false"/>
+                <infoLink targetId="e9a6-0e2d-45bd-bdde" id="3374-6432-67ed-1b16" type="profile" name="Executioner Pistol" hidden="false"/>
                 <infoLink name="Power Weapon" id="4ff5-d5bb-9018-8770" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+                <infoLink targetId="666e-5bac-6896-ac26" id="4898-d9d4-9ce5-e8e5" type="profile" name="Neuro-Gauntlet" hidden="false"/>
                 <infoLink name="Melta Bomb" id="fe19-3502-af5a-63d2" hidden="false" type="profile" targetId="62b3-f972-0f32-e8d8"/>
+                <infoLink name="Furious Charge" id="bd23-f500-f515-6cc3" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Callidus" hidden="false" id="30ae-cca9-7549-b058">
@@ -4131,42 +4084,15 @@ It is the duty of the Mistress to drive her charges on towards the cleaning fire
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6bba-3c4c-1dd9-55af"/>
               </constraints>
-              <profiles>
-                <profile name="C&apos;tan Phase Sword" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="6f88-37d9-f82d-fa7c">
-                  <characteristics>
-                    <characteristic name="Ability" typeId="2113-98a2-4376-a94c">No saves are allowed against hits from a phase sword, not even Invulnerable saves.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Neural Shredder" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="049e-1eb3-5eca-03c6">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
-                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">X</characteristic>
-                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
-                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
-                    <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">The neural shredder has Strength 8 but, rather than using the targets&apos; Toughness value, their Leadership is used. Other than this, the To Wound chart is used as normal. Against vehicles, roll a D3 on the armour penetration chart, counting as a Glancing hit.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Polymorphine" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="bc6f-d304-29c7-79dc">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Callidus Assassin is always placed in reserve, even in missions which do not normally use the Reserves rule. When she becomes available, she may be placed anywhere on the battlefield, and can move and fight normally in the turn she arrives.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Poison Blades" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="8f62-2206-3c09-e3fe">
-                  <characteristics>
-                    <characteristic name="Ability" typeId="2113-98a2-4376-a94c">If the Callidus Assassin is still in base contact with an enemy model at the end of the Assault phase, after all combats have been resolved, she may make an extra attack with her poisoned blades. This attack always wounds on a 4+, and normal Armour saves are allowed.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Jump Back" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="e250-f15c-5328-9f6e">
-                  <characteristics>
-                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">At the start of any Assault phase, the Callidus Assassin can attempt to disengage from combat. Roll a D6 - on a roll of a 1 she fails to disengage and must fight on in combat normally, on a roll of 2 or more she moves that many inches away from the enemy. This move cannot be used to move into contact with a different enemy model. If this leaves the enemy unit unengaged, they may make a consolidate move at the end of the Assault phase.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="A Word in Your Ear" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="3726-f17e-0019-9c02">
-                  <characteristics>
-                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The player with the Callidus Assassin can move one enemy unit up to 6&quot; after both sides have deployed, but before the first turn starts. The unit&apos;s new position must be within the normal deployment zone, and the owning player may choose the facing of the unit after it has been moved.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
+              <infoLinks>
+                <infoLink targetId="3726-f17e-0019-9c02" id="af6a-6de2-5e13-36d5" type="profile" name="A Word in Your Ear" hidden="false"/>
+                <infoLink targetId="6f88-37d9-f82d-fa7c" id="096d-1470-6770-6b1a" type="profile" name="C&apos;tan Phase Sword" hidden="false"/>
+                <infoLink name="Hit and Run" id="1c65-2ac9-5a80-8a39" hidden="false" type="profile" targetId="17a2-9db7-3461-361c"/>
+                <infoLink targetId="8f62-2206-3c09-e3fe" id="baf5-5f74-6b1c-8366" type="profile" name="Poison Blades" hidden="false"/>
+                <infoLink targetId="bc6f-d304-29c7-79dc" id="6f52-1fbc-70c4-daf6" type="profile" name="Polymorphine" hidden="false"/>
+                <infoLink targetId="049e-1eb3-5eca-03c6" id="a493-2fa8-14b9-601c" type="profile" name="Neural Shredder" hidden="false"/>
+                <infoLink name="Stealth" id="9b1f-6262-806c-9399" hidden="false" type="profile" targetId="8dc7-2ec3-1248-9d84"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Vindicare" hidden="false" id="f20d-107d-2c4c-da34">
               <costs>
@@ -4176,39 +4102,6 @@ It is the duty of the Mistress to drive her charges on towards the cleaning fire
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36e6-9846-11f5-35b8"/>
               </constraints>
               <profiles>
-                <profile name="Exitus Rifle" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="5195-1377-ebdf-0847">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36&quot;</characteristic>
-                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">X</characteristic>
-                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
-                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Sniper</characteristic>
-                    <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">The Exitus rifle may choose to fire each special round once: Shield-Breaker, Turbo-Penetrator, Hellfire</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Hellfire Round" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="4335-47c2-88df-7cd0">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The shot wounds on a 2+ instead of a 4+.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Shield-Breaker Round" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="70e8-d579-9540-6877">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The shot ignored any Invulnerable save.</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Turbo-Penetrator Round" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="c4b3-e91b-dba5-dd5b">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Inflicts 2 wounds on any model wounded. If fired at a vehicle, the shot has an Armour Penetration value of 3D6</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="Exitus Pistol" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e146-43f9-0ff4-d037">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
-                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
-                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
-                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol</characteristic>
-                    <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
-                  </characteristics>
-                </profile>
                 <profile name="Spy Mask" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="bdd8-5ec5-5307-32f2">
                   <characteristics>
                     <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Vindicare&apos;s spy mask reduces the Cover save of his target by 1 (a 6+ save is negated, a 5+ Cover save becomes a 6+ save, and so on). In addition, the spy mask means the Vindicate rolls 2D6x5 for determining how far he can see when the Night Fighting tules are being used.</characteristic>
@@ -4225,6 +4118,13 @@ It is the duty of the Mistress to drive her charges on towards the cleaning fire
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink targetId="70e8-d579-9540-6877" id="71ef-cafd-9af0-94f0" type="profile" name="Shield-Breaker Round" hidden="false"/>
+                <infoLink targetId="4335-47c2-88df-7cd0" id="9a1e-8a5e-f46d-54da" type="profile" name="Hellfire Round" hidden="false"/>
+                <infoLink targetId="c4b3-e91b-dba5-dd5b" id="238d-db95-6c20-4cfa" type="profile" name="Turbo-Penetrator Round" hidden="false"/>
+                <infoLink targetId="5195-1377-ebdf-0847" id="f915-df95-1ece-2078" type="profile" name="Exitus Rifle" hidden="false"/>
+                <infoLink targetId="e146-43f9-0ff4-d037" id="6cea-41ee-5f54-d5a9" type="profile" name="Exitus Pistol" hidden="false"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <constraints>

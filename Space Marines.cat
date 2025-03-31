@@ -1580,52 +1580,16 @@ If you decide to split the unit into combat squads, then each combat squad is tr
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
               </costs>
-              <profiles>
-                <profile name="Conversion Beamer (Point-blank)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="20fc-9e67-ede7-6b6f">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">up to 18&quot;</characteristic>
-                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
-                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
-                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
-                    <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
-                  </characteristics>
-                </profile>
-                <profile name="Conversion Beamer (close)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="2c13-8050-4dd2-2d23">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot; - 42&quot;</characteristic>
-                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
-                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
-                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
-                    <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
-                  </characteristics>
-                </profile>
-                <profile name="Conversion Beamer (Mid)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="810d-d910-4f7e-8277">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">42&quot; - 72&quot;</characteristic>
-                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
-                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
-                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
-                    <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
-                  </characteristics>
-                </profile>
-                <profile name="Conversion Beamer (Long)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="af1e-071a-7268-cd18">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Over 72&quot;</characteristic>
-                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">Miss!</characteristic>
-                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">n/a</characteristic>
-                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">n/a</characteristic>
-                    <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
-                  </characteristics>
-                </profile>
-                <profile name="Conversion Beamer" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="aaec-111a-3a42-12ef">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A shot from a Conversion beamer has a different profile depending on how far the target is from the firer. When firing, measure the distance to the target and place the blast template. Once the final location of the attack has been placed (after scatter) measure to the centre of the blast marker to determine the profile.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="18c0-4224-3cd2-640b"/>
               </constraints>
+              <infoLinks>
+                <infoLink targetId="2c13-8050-4dd2-2d23" id="c64a-69e1-5b23-b880" type="profile" name="Conversion Beamer (close)" hidden="false"/>
+                <infoLink targetId="20fc-9e67-ede7-6b6f" id="acaf-94c9-f8e8-f356" type="profile" name="Conversion Beamer (Point-blank)" hidden="false"/>
+                <infoLink targetId="af1e-071a-7268-cd18" id="e83f-0caf-29db-cd1c" type="profile" name="Conversion Beamer (Long)" hidden="false"/>
+                <infoLink targetId="810d-d910-4f7e-8277" id="505e-d664-3367-bd29" type="profile" name="Conversion Beamer (Mid)" hidden="false"/>
+                <infoLink targetId="aaec-111a-3a42-12ef" id="9519-0f86-2bee-cd1f" type="profile" name="Conversion Beamer" hidden="false"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Servo-harness" hidden="false" id="08c1-da80-0766-decd">
               <selectionEntryGroups>
@@ -3867,18 +3831,6 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="165"/>
       </costs>
       <profiles>
-        <profile name="Venerable Dreadnought" typeId="acd3-2539-3641-1250" typeName="Walker Vehicle" hidden="false" id="e517-6fb2-82e7-7ea8">
-          <characteristics>
-            <characteristic name="WS" typeId="3d9c-8977-9b95-824b">5</characteristic>
-            <characteristic name="BS" typeId="ea47-07be-ab4a-6569">5</characteristic>
-            <characteristic name="STR" typeId="a630-c404-957f-a49f">6</characteristic>
-            <characteristic name="F" typeId="3549-2d9e-3052-b396">12</characteristic>
-            <characteristic name="S" typeId="94fc-8af8-d4d4-7b1a">12</characteristic>
-            <characteristic name="R" typeId="4eca-6e3c-2053-e75a">10</characteristic>
-            <characteristic name="I" typeId="f706-f227-5d93-0fe3">4</characteristic>
-            <characteristic name="A" typeId="12be-9dd2-0dd7-b17a">2</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Venerable" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="1c76-e843-30ef-4040">
           <characteristics>
             <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Venerable Dreadnought suffers a glancing or penetrating hit, you can ask your opponent to re-roll the result rolled on the Vehicle Damage Chart. You must accept the result of the second roll, even if its worse than the first.</characteristic>
@@ -3886,6 +3838,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink targetId="e517-6fb2-82e7-7ea8" id="4119-d770-df1b-8709" type="profile" name="Venerable Dreadnought" hidden="false"/>
         <infoLink name="Smoke Launchers" id="43e4-b427-a257-0b48" hidden="false" type="profile" targetId="180e-ad4b-4df0-81ae"/>
         <infoLink name="Searchlight" id="aebb-c68c-1de1-3dee" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
       </infoLinks>
@@ -4123,21 +4076,8 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="105"/>
       </costs>
-      <profiles>
-        <profile name="Dreadnought" typeId="acd3-2539-3641-1250" typeName="Walker Vehicle" hidden="false" id="e18f-e246-c81f-376a">
-          <characteristics>
-            <characteristic name="WS" typeId="3d9c-8977-9b95-824b">4</characteristic>
-            <characteristic name="BS" typeId="ea47-07be-ab4a-6569">4</characteristic>
-            <characteristic name="STR" typeId="a630-c404-957f-a49f">6</characteristic>
-            <characteristic name="F" typeId="3549-2d9e-3052-b396">12</characteristic>
-            <characteristic name="S" typeId="94fc-8af8-d4d4-7b1a">12</characteristic>
-            <characteristic name="R" typeId="4eca-6e3c-2053-e75a">10</characteristic>
-            <characteristic name="I" typeId="f706-f227-5d93-0fe3">4</characteristic>
-            <characteristic name="A" typeId="12be-9dd2-0dd7-b17a">2</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <infoLinks>
+        <infoLink targetId="e18f-e246-c81f-376a" id="a35a-496e-9568-5689" type="profile" name="Dreadnought" hidden="false"/>
         <infoLink name="Smoke Launchers" id="1212-17d6-9fad-87f1" hidden="false" type="profile" targetId="180e-ad4b-4df0-81ae"/>
         <infoLink name="Searchlight" id="114a-a1d0-f45c-266b" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
       </infoLinks>
