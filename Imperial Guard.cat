@@ -6817,10 +6817,6 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aeab-566b-575d-d41a"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d7ed-b469-edb9-2dca"/>
-      </constraints>
       <infoLinks>
         <infoLink name="Company Commander on Horse" id="3a74-4e36-c559-d07b" hidden="false" targetId="783b-3809-1429-8418" type="profile"/>
         <infoLink name="Refractor Field" id="f7ad-39d3-551e-c911" hidden="false" type="profile" targetId="5e1e-a718-cafb-512c"/>

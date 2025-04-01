@@ -578,6 +578,102 @@ For example, a squad of Space Marine Devastators opens fire against a squadron 
 
 When engaged in close combat against a squadron, enemy models roll to hit and for armour penetration against the squadron as a whole. Damage results have the same effect as described above, and are allocated against the squadron at each Initiative value, in the same way as a normal combat. As usual for combats against vehicles, there is no defenders’ reaction, combat resolution, pile-in moves, consolidation, etc.</description>
     </rule>
+    <rule name="Super-Heavy Vehicle" id="d740-8c38-4a3f-9f85" hidden="false">
+      <description>See Super-Heavy Damage Table, Catastrophic Damage Table, Damage Control
+
+
+Super-heavy vehicles behave on the battlefield like all other vehicles, with the exceptions below. The main difference is that they have Structure Points, which work similarly to Wounds.
+
+
+Super-heavy vehicles can only move up to 6&quot; in the Movement phase, unless specified.
+
+
+Super-heavy vehicles are affected by difficult and dangerous terrain like other vehicles, but can always re-roll a result of 1. In addition, if their second roll is another 1, they are not immobilised, but suffer a Drive Damaged result, as described in their damage table.
+
+
+Super-Heavy vehicles may fire all of their weapons, regardless of how far they moved. Each weapon may be fired at a different target (each target must be within the weapon&apos;s fire arc).
+
+
+Because super-heavy vehicles greatly vary in size, for the purposes of establishing line of sight from a Super-Heavy vehicle, always use real line of sight, working this out from the barrel of the weapon they are firing. The rules for area terrain apply as normal.
+
+
+Just like Gargantuan creatures, Super-Heavy Vehicles are not affected by Psychic Powers (either friendly or enemy) with the exception of those that are attacks with a given Strength value, which affect them normally.</description>
+    </rule>
+    <rule name="Structure Points" id="80b4-4882-d52f-37b7" hidden="false">
+      <description>Glancing and Penetrating hits have a chance of inflicting the loss of Structure points, and only by reducing their Structure Points to 0 can a Super-Heavy vehicle be destroyed.
+
+
+Against Super-Heavy vehicles, enemies roll to hit and to penetrate armour exactly as with normal vehicles. If a glancing or penetrating hit is scored, the player must then roll a dice and consult the Super-heavy Damage table. If a glancing hit is scored, subtract 2 from the dice score, and when a destroyer weapon scores a hit, add 1 to the dice score.
+
+
+If a result reduces the target Super-Heavy vehicle to 0 Structure Points, it is destroyed - immediately roll one dice on the Catastrophic Damage table and apply the results.
+
+
+It is a good idea to record the damage results suffered by each Super-Heavy vehicle on a sheet of paper, as these huge war engines can accumulate a great amount of secondary damage before finally being knocked out.</description>
+    </rule>
+    <rule name="Super-Heavy Fast Vehicle" id="a2ca-bcf4-1e6d-7922" hidden="false">
+      <description>These vehicles may move up to 12&quot; and fire all of their weapons in the ensuing Shooting phase, or they may move up to 24&quot; and fire no weapons.</description>
+    </rule>
+    <rule name="Super-Heavy Tank" id="a1eb-f5b7-8211-8840" hidden="false">
+      <description>Follows all the standard Tank rules.
+
+
+A unit that is tank shocked by a Super-Heavy Tank takes its morale test with an extra -1 to its Leadership.</description>
+    </rule>
+    <rule name="Super-Heavy Walker" id="5769-fec8-be67-6310" hidden="false">
+      <description>Instead of following the movement rules for Super-Heavy Vehicles, Super-Heavy Walkers move 12&quot;, exactly as if they were Gargantuan Creatures, except that their maximum movement may be reduced by Drive Damaged results, as normal for Super-Heavy Vehicle.
+
+
+In the Assault phase, Super-Heavy Walkers once again follow the same rules as Gargantuan Creatures (including ignoring armour saves, extra armour penetration, dealing ordnance-level damage, stomp special attacks, the Terrifying special rule, etc)</description>
+    </rule>
+    <rule name="Super-Heavy Transport" id="4322-fa05-6af6-eb61" hidden="false">
+      <description>These vehicles&apos; transport capacity is expressed as a number of models (thirty, for example) and friendly infantry models normally count as one (so the vehicle in the example could carry up to thirty infantry models). Larger friendly models will take up proportionally more space (Terminators count as two, a Dreadnought counts as ten models, for example).
+
+
+Unless otherwise specified, each access point on a Super-Heavy Transport vehicle allows a separate unit to embark/disembark in a turn. If the vehicle is open-topped all transported units may disembark at once.
+
+
+Transported models are forced to disembark from a Super-Heavy Transport only if the enemy reduces the vehicle to zero Structure Points. In any case, transported units must immediately perform and emergency disembarkation. Any units that may not disembark (not enough access points, for example), are destroyed.</description>
+    </rule>
+    <rule name="Super-Heavy Damage Table" id="7d0a-f9f5-cd24-3d70" hidden="false">
+      <description>1 or less Gun Crew Shaken: One weapon (chosen by the attacker) cannot fire in the next turn. If all gun crews have been shaken, treat this result as a Driver Stunned.
+
+
+2 Driver Stunned: Until the end of its next turn, the vehicle may not move, has its Attacks reduced by 1 (to a minimum of 1) and may not use its Stomp special attack. If the driver is already stunned, treat this result as a Gun Crew Shaken.
+
+
+3 Weapon Destroyed: One weapon (chosen by the attacker) cannot shoot for the rest of the game. If all weapons have been destroyed, treat this result as Drive Damaged.
+
+
+4 Drive Damaged: The vehicle&apos;s maximum movement is permanently halved (normally to 3&quot;, but Walkers are reduced to 6&quot;, and Fast vehicles are reduced to either move 6&quot; and shoot or move 12&quot; and not shoot). If a second Drive Damaged result is suffered, the vehicle is Immobilised. An Immobilised Super-Heavy Walker has its Attacks reduced by 1 (to a minimum of 1) and may not use its stomp special attack. If already Immobilised, treat this result as Weapon Destroyed.
+
+
+5 Structural Damage: The vehicle loses 1 Structure Point.
+
+
+6 Chain Reaction!: The vehicle loses 1 Structure Point and the enemy rolls again on this table (applying the same modifiers).
+
+
+Note: if a vehicle suffers a Weapon Destroyed or Drive Damaged result, and is already Immobilised and has no weapons left, it suffers a Structural Damage result instead.</description>
+    </rule>
+    <rule name="Catastrophic Damage Table" id="f43f-4d1b-ef03-a76e" hidden="false">
+      <description>1-3 Wrecked: The vehicle is destroyed. The model is left in place and will count as a wreck from then on.
+
+
+4-5 Explosion: All models within 2D6&quot; suffer a wound on a 4+. Saves apply as normal. Vehicles are unaffected. The Super-Heavy Vehicle is removed from the table and replaced by a crater or area of rubble of appropriate size, if such a terrain piece is available.
+
+
+6 Apocalyptic Explosion: All models within 3D6 suffer a Strength 9 AP2 hit! Vehicles within range are hit on their side armour. The Super-Heavy Vehicle is removed from the table, along with any removable terrain feature touched by the blast and replaced by a crater or area of rubble of appropriate size, if such a terrain piece is available.</description>
+    </rule>
+    <rule name="Damage Control" id="a7ff-0d45-cdb2-b3eb" hidden="false">
+      <description>At the beginning of any of his turns, the controlling player may announce that a Super-Heavy Vehicle is diverting all resources to damage control. This means that the vehicle is doing absolutely nothing for the duration of the turn (no moving, shooting or assaulting). This cannot be attempted by a Super-Heavy Walker that is engaged in combat with another Super-Heavy Walker or a Gargantuan Creature.
+
+
+In return, the player immediately rolls a dice for each Structure Point the vehicle has left. For each result of a 5+, the player can repair one weapon that suffered a Weapon Destroyed result or repair a Drive, cancelling the effect of the Drive Damaged result.
+
+
+Note that this cannot be used to restore Void Shields, which are rolled for separately.</description>
+    </rule>
   </sharedRules>
   <publications>
     <publication name="Warhammer 40,000 5e Rulebook" id="ad9c-8597-0188-2ba0" hidden="false"/>
@@ -928,7 +1024,7 @@ Roll to hit and wound as normal, allowing any invulnerable saving throws the vi
     </profile>
     <profile name="Thunder Hammers" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="4cb2-e19a-4b72-594d">
       <characteristics>
-        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A thunder hammer uses the same rules as a power fist. In addition, all models that suffer an unsaved wound from a thunder hammer and are not killed will be knocked reeling, reducing their Initiative to a value of 1 until the end of the next player’s turn. Against vehicles with no Initiative value, whenever a thunder hammer inflicts any damage result, it also inflicts a crew shaken result</characteristic>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Thunder Hammer uses the same rules as a power fist. In addition, all models that suffer an unsaved wound from a thunder hammer and are not killed will be knocked reeling, reducing their Initiative to a value of 1 until the end of the next player’s turn. Against vehicles with no Initiative value, whenever a thunder hammer inflicts any damage result, it also inflicts a crew shaken result</characteristic>
       </characteristics>
     </profile>
     <profile name="Witchblade" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="d9ba-84db-8924-20a3">
@@ -1749,6 +1845,35 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol, Melta</characteristic>
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Terminator Armour" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="a5fa-5ad7-54d4-fd1a">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Models in Terminator Armour have a 2+ armour save and a 5+ invulnerable save.
+
+
+Terminator armoured models have the Relentless special rule, may not perform a Sweeping advance and can be teleported onto the battlefield.
+
+
+They may start the game in reserve and arrive using deep strike rules, even if its not part of the mission being played.
+
+
+Terminators count as two models for the purposes of transport capacity and cannot embark in Rhinos or Razorbacks.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Iron Halo" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="e427-87a4-ee08-b117">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">An Iron Halo confers a 4+ invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Teleport Homer" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="fc92-a2a9-16c0-5a2f">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">If Terminators wish to teleport onto the battlefield via deep strike and choose to do so within 6&quot; of a model carrying the homer, then they won&apos;t scatter. Note that the teleport homer only works for units that are teleporting, not for units entering play using jump packs, drop pods or other means of transport. Also note that the homer must already be on the table at the start of the turn for it to be used.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Power Armour" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="0606-0e5b-188b-e024">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Power Armour confers the bearer a 3+ Armour Save.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -500,7 +500,7 @@
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">A Psilencer always wounds Daemons on a roll of 4+, unless the scored required to wound is normally less.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Gravitor Beamer" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="7bce-7894-4a83-4457">
+    <profile name="Graviton Beamer" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="7bce-7894-4a83-4457">
       <characteristics>
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
@@ -564,7 +564,7 @@
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">*Shots from a Needle Pistol always wound on a 2+.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Barrage Bomb" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="ccb1-d9d6-bbb6-1657">
+    <profile name="Orbital Strike (Barrage Bomb)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="ccb1-d9d6-bbb6-1657">
       <characteristics>
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Unlimited</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
@@ -669,7 +669,7 @@
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
-        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Psychic Shooting Attack</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Psychic Shooting Attack. If when using this power the Librarian fails his Psychic test, place the vortex blast marker on the Librarian - in this case the template will not scatter.</characteristic>
       </characteristics>
     </profile>
     <profile name="Warp Rift" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="52c4-77ea-eea1-cf9b">
@@ -793,7 +793,7 @@ Roll 2D6
     </profile>
     <profile name="Rad Grenade" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="a6a2-449b-edf3-1afa">
       <characteristics>
-        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">During a turn in which a unit equipped with Rad Grenade s launches an assault, or is assaulted, the enemy unit(s) suffer a -1 penalty to Toughness until the end of the phase (this does affect the victims&apos; instant death threshold).</characteristic>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">During a turn in which a unit equipped with Rad Grenades launches an assault, or is assaulted, the enemy unit(s) suffer a -1 penalty to Toughness until the end of the phase (this does affect the victims&apos; instant death threshold).</characteristic>
       </characteristics>
     </profile>
     <profile name="Truesilver Armour" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="2cdf-5c02-4ba7-da5e">
@@ -882,6 +882,156 @@ Spear of Light: The nominated units have the Scouts special rule for the duratio
 Unyielding Anvil: The nominated units can claim objectives as if they were Troops.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Master-crafted Nemesis Daemon Hammer" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="2a3e-f1fe-5029-3721">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a Nemesis Force Weapon which follows the rules for a Thunder Hammer. Note that a Nemesis Dreadknight armed with this weapon strikes at normal Initiative rather than Initiative 1. This weapon is Master-crafted</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psyker (Mastery Level 1)" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="fa3d-07c4-a2f6-546d">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This model is a Psyker who follows the rules for Psyker Mastery Level.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psyker (Mastery Level 2)" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="c10b-528b-cd74-2896">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This model is a Psyker who follows the rules for Psyker Mastery Level.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Perfect Warrior" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="4128-ec62-64c1-5471">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">In the Assault phase, after assault moves have been made, but before any blows are struck, you must choose one of the following battle stances for the Brotherhood Champion to adopt:
+
+
+Sword Storm: The model makes a single attack on every enemy model in base contact with him (note that he does not receive bonus attacks for charging).
+
+
+Blade Shield: The model cannot attack this turn, but re-rolls failed saving throws until the end of the phase.
+
+
+Rapier Strike: The model makes D3 attacks this turn (D3+1 if he charged). These attacks are resolved at Initiative 10 and must be directed against a single independent character or monstrous creature in base contact.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heroic Sacrifice" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="5b79-5bfe-eff9-0fef">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This power can be used when the Brotherhood Champion is removed as a casualty during either player&apos;s Assault phase.
+
+
+If the Psychic test is successful, the Brotherhood Champion immediately makes a single attack against one enemy model that was in base contact when he died. If this attack hits, both models are removed as casualties with no saves of any kind allowed. If the attack misses, only the Brotherhood Champion is removed as a casualty.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Titan&apos;s Herald" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="e3c6-a6b0-e036-af9a">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">On a player turn in which he assaults, a Brotherhood Champion and all members of a squad he joined can re-roll failed rolls to hit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Cleaning Flame" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="051a-c2e2-f4de-a022">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This power can be used during the Assault phase in either player&apos;s turn, after assault moves have been made, but before any blows have been struck. If the Psychic test is passed, all enemy models that are part of the same assault suffer one Wound on a roll of 4+. Armour saves can be taken as normal.
+
+
+Once the effects of Cleansing Flame have been resolved (and any casualties removed), blows are struck as normal. Unsaved wounds caused by Cleansing Flame are counted as having been caused in close combat for all purposes.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Blind Grenades" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="d2aa-ae71-2543-6b2c">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">These are defensive grenades.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Orbital Strike (Lance Strike)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="dfad-b35c-4f36-1200">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Unlimited</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast, Lance</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Any vehicle hit by the lance strike suffers a Strength 10 hit, regardless of whether or not the centre of the template lies over the vehicle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Orbital Strike (Psyk-out Bomb)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="fc1a-3cb1-41dc-274b">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Unlimited</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Large Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Any Psyker hit by a Psyk-out bomb suffers the Perils of the Warp in addition to any other effects.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psychic Hood" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="a4c4-d91b-7b3e-db3f">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Declare that you will use the Psychic Hood after an enemy model within 24&quot; of the Librarian passes a Psychic test. If there are several Librarians in range, only one can attempt to nullify the Psychic power - you must choose which. Each player then rolls a D6 and adds their model&apos;s Leadership value to the score. If the Grey Knight Librarian beats the opposing model&apos;s score, then the psychic power is nullified and does not take effect that turn. If the opposing model&apos;s score is equal or higher, it can use its psychic power as normal. The psychic hood can be used once each time an enemy model uses a psychic power within range.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psyker (Mastery Level 3)" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="b50e-0fd3-8571-8add">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This model is a Psyker who follows the rules for Psyker Mastery Level.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dark Excommunication" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="bf62-bc02-9e06-3f8c">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This power can be used during the Assault phase (in either player&apos;s turn) after assault moves have been completed, but before any blows are struck. If the Psychic test is passed, choose an enemy unit in base contact with the Grey Knight. Any Daemonic Gifts possessed by models in that unit cease to work until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Might of Titan" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="c9ea-29ec-a0ca-19cd">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This power can be used at the start of the Librarian&apos;s Assault phase. If the Psychic test is successful, choose a friendly unit within 6&quot; (which can be the Librarian and any unit he has joined). Models in the target unit have +1 Strength until the end of the turn and roll an extra D6 for armour penetration. The Strength bonus from Might of Titan is cumulative with that from Hammerhand.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Quicksilver" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="f44b-3502-72c5-54fd">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This power can be used at the start of the Librarian&apos;s Movement phase. If the Psychic test is successful, choose a friendly unit within 6&quot; (which can be the Librarian and the unit he has joined). That unit is Initiative 10 for the rest of the turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sanctuary" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="9f24-6e05-2537-c5ef">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This power can be used at the start of the enemy Assault phase. If the Psychic test is successful, any enemy models attempting to assault friendly units from the Grey Knights Codex within 12&quot; of the Librarian that turn treat all terrain, including open terrain, as both difficult and dangerous.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Shrouding" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="e136-7e9c-8a5c-d392">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This power is used during the Opponent&apos;s Shooting phase. If the Psychic test is successful, the Librarian, and any friendly unit(s) within 6&quot; of him, have the Stealth special rule. If the unit is not in cover it benefits from a 6+ cover save instead. This power lasts until the end of the turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Summoning" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="98a7-1a83-6033-31dd">
+      <characteristics>
+        <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This power can be used at the beginning of the Librarian&apos;s Movement phase. If the Psychic test is successful, choose a friendly, non-vehicle unit that is not locked in combat anywhere on the battlefield. The chosen unit is removed from the tabletop and immediately placed anywhere within 6&quot; of the Librarian using the Deep Strike rules.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Master-crafted Multi-melta" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="8536-6458-f30a-5738">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Melta, Master-crafted</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Master-Crafted Power Sword" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="28b9-84c3-dee4-f5b5">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a Power Weapon with the Master-crafted special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Orbital Strike Relay" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="dcf3-edfe-537e-798a">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Orbital Strike Relay is treated as a ranged weapon that can be used provided the bearer did not move in the preceding Movement phase (though he can later assault if the controlling player wishes). Each time the Orbital relay is used, you must choose which kind of strike you wish to call down. Note that Orbital Strikes always scatter the full 2D6&quot; in the direction shown (if a hit is rolled, they scatter in the direction of the small arrow on the &apos;hit&apos; symbol).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Inquisitor in Terminator Armour" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="b4a0-d96e-e931-f0cc">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+ (5+ Invulnerable)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psyocculum" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="4e31-a974-c93b-73bd">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The bearer of a Psyocculum (and their unit) count as being Ballistic Skill 10 if shooting at a psyker, or a unit containing one or more psykers.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Lord Kaldor Draigo" hidden="false" id="38f5-e50a-73ad-ae46">
@@ -889,6 +1039,7 @@ Unyielding Anvil: The nominated units can claim objectives as if they were Troop
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="275"/>
       </costs>
       <infoLinks>
+        <infoLink targetId="c10b-528b-cd74-2896" id="c9fd-c2cb-f9c6-d77f" type="profile" name="Psyker (Mastery Level 2)" hidden="false"/>
         <infoLink name="Lord Kaldor Draigo" id="47c0-5c55-a930-4766" hidden="false" type="profile" targetId="fb68-5ecc-54b7-e4a2"/>
         <infoLink name="Storm Bolter" id="0087-fe76-fdda-e58e" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
         <infoLink name="Frag Grenades" id="cb85-667e-43de-b79f" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
@@ -904,13 +1055,9 @@ Unyielding Anvil: The nominated units can claim objectives as if they were Troop
         <infoLink name="Hammerhand" id="6a26-ee8e-6ee5-9ad8" hidden="false" type="profile" targetId="49b4-6a1c-2b4b-ff7d"/>
         <infoLink name="Psychic Communion" id="d61c-dc78-521f-efeb" hidden="false" type="profile" targetId="fce8-356c-966e-6bea"/>
         <infoLink name="Grand Strategy" id="b849-bc9c-ab16-0f3e" hidden="false" type="profile" targetId="bf13-d912-60cd-055b"/>
+        <infoLink name="Terminator Armour" id="3fd5-5385-b244-4d21" hidden="false" type="profile" targetId="a5fa-5ad7-54d4-fd1a"/>
       </infoLinks>
       <profiles>
-        <profile name="Psyker (Mastery Level 2)" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="c10b-528b-cd74-2896">
-          <characteristics>
-            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This model is a Psyker who follows the rules for Psyker Mastery Level.</characteristic>
-          </characteristics>
-        </profile>
         <profile name="The Titansword" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="f696-ae62-66e8-9cd9">
           <characteristics>
             <characteristic name="Ability" typeId="2113-98a2-4376-a94c">The Titansword is a master-crafted force weapon. Additionally, any close combat attacks that Draigo directs against a unit that contains one or more Daemons or Psykers are resolved at Strength 10.
@@ -920,6 +1067,2027 @@ Any Daemon or Psyker that suffers one or more unsaved wounds from Nemesis Force 
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Grand Master Mordrak" hidden="false" id="bb32-834d-e7ff-eb87">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="200"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Grand Master Mordrak" id="b804-7c4d-df1f-9dc4" hidden="false" type="profile" targetId="201c-654f-52a3-9d50"/>
+        <infoLink name="Terminator Armour" id="5d47-064e-814f-64c6" hidden="false" type="profile" targetId="a5fa-5ad7-54d4-fd1a"/>
+        <infoLink name="Storm Bolter" id="2baf-d42b-f34a-3491" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+        <infoLink name="Master-crafted Nemesis Daemon Hammer" id="9d98-956a-9696-d08c" hidden="false" type="profile" targetId="2a3e-f1fe-5029-3721"/>
+        <infoLink name="Frag Grenades" id="cea0-00d7-284f-2fb7" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="dfa5-eed1-3bf5-c36f" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Psyk-out Grenade" id="c401-4d29-6874-d4e1" hidden="false" type="profile" targetId="70b8-e5d9-c9d5-2e4e"/>
+        <infoLink name="Iron Halo" id="f6cd-e2fb-6385-f614" hidden="false" type="profile" targetId="e427-87a4-ee08-b117"/>
+        <infoLink name="The Aegis" id="9b2d-ff5b-eac0-9cef" hidden="false" type="profile" targetId="3eb7-ed67-2a65-23a7"/>
+        <infoLink name="And They Shall Know No Fear" id="47a2-0f16-5e34-41a3" hidden="false" type="rule" targetId="73f8-658e-9da5-beba"/>
+        <infoLink name="Grand Strategy" id="ecb4-fe85-9ddc-a3f0" hidden="false" type="profile" targetId="bf13-d912-60cd-055b"/>
+        <infoLink name="Preffered Enemy (Daemons)" id="b5c1-a6dd-f9d1-88a5" hidden="false" type="profile" targetId="fab9-6d08-37e0-a3e3"/>
+        <infoLink name="Hammerhand" id="d889-e5e7-7f9a-d8a5" hidden="false" type="profile" targetId="49b4-6a1c-2b4b-ff7d"/>
+        <infoLink name="Psychic Communion" id="03b1-cdd1-f7f7-5588" hidden="false" type="profile" targetId="fce8-356c-966e-6bea"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Psyker (Mastery Level 1)" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="eee1-969b-d7a3-81c5">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This model is a Psyker who follows the rules for Psyker Mastery Level.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="First to the Fray" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="3dab-304f-c8ec-62c6">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If he deploys via Deep Strike, Mordrak and any unit he accompanies will automatically arrive in your first turn and will not scatter.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ghostly Bodyguard" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="9e70-72cf-c286-85f2">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">An army that includes Mordrak can also include a unit of Ghost Knights. Ghost Knights also always have the Stealth special rule. Mordrak and the Ghost Knights form a unit, with Mordrak acting as an upgrade character until such point as the Ghost Knights are slain, at which point he reverts to being a single-model unit in his own right. 
+
+
+Whenever Mordrak suffers an unsaved wound, roll a D3 at the end of the phase. If the result is equal to or greater than the number of Mordrak&apos;s remaining wounds, a Ghost knight appears to defend him. Place a new Ghost Knight within coherency of Mordrak&apos;s unit - it joins Mordrak&apos;s unit to all intents and purposes. Note that this can take the squad above its normal maximum size.
+
+
+This Ghost knight has default wargear, as presented in the army list entry - it cannot have any upgrades. If Mordrak&apos;s unit is locked in combat, this new Ghost Knight is placed in base contact with enemy models involved in the combat if possible, otherwise it must be placed 1&quot; away from enemy models, as normal. If you do not have a spare Ghost Knight or if there is insufficient room to place it, then the Ghost Knight does not materialise.
+
+
+If Mordrak is removed as a casualty, the Ghost Knights lose their connection to the mortal world and are also removed.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Ghost Knights" hidden="false" id="aab6-a05c-092b-e4c7" type="selectionEntry" targetId="c886-16f0-41ac-c459">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="59bf-0f2a-0445-c0c1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ghost Knights" hidden="false" id="c886-16f0-41ac-c459">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="1af8-3b94-241d-091a" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Ghost Knight" hidden="false" id="5105-119a-35c5-a809" defaultAmount="1">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Ghost Knight" id="f176-cb66-fc1f-b096" hidden="false" type="profile" targetId="8e0b-4395-fc35-03d8"/>
+                <infoLink name="Storm Bolter" id="82e0-44c8-e4a1-10f8" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="f3d1-4194-5f32-6a40" hidden="false" defaultSelectionEntryId="771c-a56b-c246-7e01">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Nemesis Force Sword" hidden="false" id="771c-a56b-c246-7e01">
+                      <infoLinks>
+                        <infoLink name="Nemesis Force Sword" id="a71b-e195-23e9-eeb1" hidden="false" type="profile" targetId="64f0-ab46-acac-8862"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5b4e-f404-e284-2fce" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Nemesis Force Halberd" hidden="false" id="313b-0d69-183b-3eb5">
+                      <infoLinks>
+                        <infoLink name="Nemesis Force Halberd" id="f4d4-6cc5-6fb4-e9df" hidden="false" type="profile" targetId="d9dc-c6c6-7f2e-1642"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8cab-d119-d00a-a904" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Nemesis Daemon Hammer" hidden="false" id="54c1-d091-8c42-73b5">
+                      <infoLinks>
+                        <infoLink name="Nemesis Daemon Hammer" id="7709-1351-a3fb-3cca" hidden="false" type="profile" targetId="74e2-b19f-7313-eb5e"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca31-bb70-bd3f-cabe" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Nemesis Falchions" hidden="false" id="0315-51a4-5c7b-f724">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Nemesis Falchions" id="7042-93ab-e662-ba02" hidden="false" type="profile" targetId="2db1-5616-6e7e-0efa"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d57b-8a06-92ed-146d" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="daf9-ce1e-62de-300a-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="daf9-ce1e-62de-300a-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Ghost Knight Banner Bearer" hidden="false" id="ad09-91f0-41c8-1569" defaultAmount="1">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="65"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Ghost Knight" id="ea65-1ffd-a6bb-3ba9" hidden="false" type="profile" targetId="8e0b-4395-fc35-03d8"/>
+                <infoLink name="Storm Bolter" id="557b-eea2-be4c-e044" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+                <infoLink name="Brotherhood Banner" id="0a9e-620e-58d1-0c3f" hidden="false" type="profile" targetId="8f62-6ba0-3a79-a512"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df42-9d7d-dd5b-22f6" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="f36f-8174-e1da-e4b1" hidden="false" defaultSelectionEntryId="771c-a56b-c246-7e01">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Nemesis Force Sword" hidden="false" id="c972-eaa6-ee2f-e66a">
+                      <infoLinks>
+                        <infoLink name="Nemesis Force Sword" id="f0e5-dcb9-8453-168f" hidden="false" type="profile" targetId="64f0-ab46-acac-8862"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f04-e387-88bd-675d" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Nemesis Force Halberd" hidden="false" id="a73d-e2f6-3cba-7572">
+                      <infoLinks>
+                        <infoLink name="Nemesis Force Halberd" id="adda-e017-d5bc-04cf" hidden="false" type="profile" targetId="d9dc-c6c6-7f2e-1642"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d1e8-794a-7bf7-952d" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Nemesis Daemon Hammer" hidden="false" id="770f-b19c-b7b3-7346">
+                      <infoLinks>
+                        <infoLink name="Nemesis Daemon Hammer" id="0358-269b-e274-bec8" hidden="false" type="profile" targetId="74e2-b19f-7313-eb5e"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf72-47a2-92b8-3aba" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Nemesis Falchions" hidden="false" id="6d15-3d67-43ab-0f6d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Nemesis Falchions" id="ad68-848a-39fd-3673" hidden="false" type="profile" targetId="2db1-5616-6e7e-0efa"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c64-bab6-91c8-94b8" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="a51b-2006-3dd0-0844-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a51b-2006-3dd0-0844-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="5" field="selections" scope="self" shared="true" id="fcd2-bceb-0479-2b3c"/>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="3283-14aa-08b4-1879"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Terminator Armour" id="31a9-d197-249f-deb8" hidden="false" type="profile" targetId="a5fa-5ad7-54d4-fd1a"/>
+        <infoLink name="Frag Grenades" id="2df8-4606-224f-5751" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="e80a-c5e2-97c7-839a" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Psyk-out Grenade" id="66f0-7ae3-f047-2e92" hidden="false" type="profile" targetId="70b8-e5d9-c9d5-2e4e"/>
+        <infoLink name="The Aegis" id="b0d8-fb87-c0bc-b70e" hidden="false" type="profile" targetId="3eb7-ed67-2a65-23a7"/>
+        <infoLink name="And They Shall Know No Fear" id="07b9-543b-1620-b3ca" hidden="false" type="rule" targetId="73f8-658e-9da5-beba"/>
+        <infoLink name="Brotherhood of Psykers" id="eeba-b763-a0c9-ad8e" hidden="false" type="rule" targetId="4aff-477a-d8aa-1eb8"/>
+        <infoLink name="Preffered Enemy (Daemons)" id="d415-fda0-f99c-7ec4" hidden="false" type="profile" targetId="fab9-6d08-37e0-a3e3"/>
+        <infoLink name="Hammerhand" id="61f7-2354-2c00-2f77" hidden="false" type="profile" targetId="49b4-6a1c-2b4b-ff7d"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Brother-Captain Stern" hidden="false" id="5ad3-61f5-383c-82b3">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="200"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Brother-Captain Stern" id="fa05-081c-8ee2-377b" hidden="false" type="profile" targetId="a845-49d5-1ff1-e622"/>
+        <infoLink name="Terminator Armour" id="b62d-e878-6b66-1622" hidden="false" type="profile" targetId="a5fa-5ad7-54d4-fd1a"/>
+        <infoLink name="Storm Bolter" id="b3c1-0512-04fe-94fa" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+        <infoLink name="Nemesis Force Sword" id="8f2b-183f-cd65-7ded" hidden="false" type="profile" targetId="64f0-ab46-acac-8862"/>
+        <infoLink name="Frag Grenades" id="a3f6-38ef-e83e-3b66" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="48e9-177e-01b1-72cf" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Psyk-out Grenade" id="b463-6181-5d72-dc04" hidden="false" type="profile" targetId="70b8-e5d9-c9d5-2e4e"/>
+        <infoLink name="Iron Halo" id="0d7b-5bfa-ab1c-36f4" hidden="false" type="profile" targetId="e427-87a4-ee08-b117"/>
+        <infoLink name="The Aegis" id="0f7a-5f15-21e1-1496" hidden="false" type="profile" targetId="3eb7-ed67-2a65-23a7"/>
+        <infoLink name="And They Shall Know No Fear" id="bd42-f6fe-9c12-bef4" hidden="false" type="rule" targetId="73f8-658e-9da5-beba"/>
+        <infoLink name="Independent Character" id="2ec5-2325-75e6-ecb1" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Preffered Enemy (Daemons)" id="77e4-5378-3209-f6de" hidden="false" type="profile" targetId="fab9-6d08-37e0-a3e3"/>
+        <infoLink name="Hammerhand" id="56ae-235a-5e57-a53c" hidden="false" type="profile" targetId="49b4-6a1c-2b4b-ff7d"/>
+        <infoLink name="Psychic Communion" id="272a-89df-edf0-b85c" hidden="false" type="profile" targetId="fce8-356c-966e-6bea"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Psyker (Mastery Level 2)" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="eb9d-fd77-45cc-32de">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This model is a Psyker who follows the rules for Psyker Mastery Level.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Zone of Banishment" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="e414-2d9d-1351-0003">
+          <characteristics>
+            <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">Stern can use this power during his Assault phase, in place of making his close combat attacks. All models (friend and foe) within D6&quot; of Stern, not including Stern himself, must immediately pass a Strength test. Those that fail are drawn into the Warp and are removed as casualties (they don&apos;t count towards combat resolution) Daemons must re-roll successful Strength tests.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Strands of Fate" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="5f67-b62e-9358-290e">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Stern can re-roll one To Hit, To Wound or Saving throw each phase. However, for each dice re-rolled in this manner, your opponent can re-roll one To Hit, To Wound or Saving throw at any point later in the game.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Castellan Crowe" hidden="false" id="e1a2-7fe3-f84b-f06d">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="150"/>
+      </costs>
+      <infoLinks>
+        <infoLink targetId="fa3d-07c4-a2f6-546d" id="2ad0-84ff-bcb3-2129" type="profile" name="Psyker (Mastery Level 1)" hidden="false"/>
+        <infoLink name="Castellan Crowe" id="3385-1a31-0521-d541" hidden="false" type="profile" targetId="a7ed-a610-8c7e-76fa"/>
+        <infoLink targetId="051a-c2e2-f4de-a022" id="8183-4d4b-5cfe-20c5" type="profile" name="Cleaning Flame" hidden="false"/>
+        <infoLink targetId="e3c6-a6b0-e036-af9a" id="93fc-2b78-5d3a-a553" type="profile" name="Titan&apos;s Herald" hidden="false"/>
+        <infoLink targetId="5b79-5bfe-eff9-0fef" id="8843-def4-f2cb-64f0" type="profile" name="Heroic Sacrifice" hidden="false"/>
+        <infoLink targetId="4128-ec62-64c1-5471" id="a1c0-621c-6100-9085" type="profile" name="The Perfect Warrior" hidden="false"/>
+        <infoLink name="Storm Bolter" id="5984-c6fa-4963-aeed" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+        <infoLink name="Frag Grenades" id="7d8e-d984-c1b6-7f7a" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="ea5f-a527-d2c4-4739" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Psyk-out Grenade" id="043e-b812-8982-d099" hidden="false" type="profile" targetId="70b8-e5d9-c9d5-2e4e"/>
+        <infoLink name="Iron Halo" id="29dd-522f-91ad-bb01" hidden="false" type="profile" targetId="e427-87a4-ee08-b117"/>
+        <infoLink name="The Aegis" id="35b8-e0f2-aabb-10e3" hidden="false" type="profile" targetId="3eb7-ed67-2a65-23a7"/>
+        <infoLink name="Fearless" id="2601-1f26-7346-6c9e" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Preffered Enemy (Daemons)" id="3108-38a5-39a9-2bb0" hidden="false" type="profile" targetId="fab9-6d08-37e0-a3e3"/>
+        <infoLink name="Hammerhand" id="dae1-4256-7c54-a18f" hidden="false" type="profile" targetId="49b4-6a1c-2b4b-ff7d"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Blade of Antwyr" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="52d7-b6e8-2324-28d2">
+          <characteristics>
+            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">The Blade of Antwyr is a Close combat weapon. However, during a turn in which an enemy unit assaults Crowe, all models in that unit gain the Furious Charge special rule and re-roll failed To Hit rolls for that Assault phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Master Swordsman" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="48b8-7920-43e8-2588">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Crowe&apos;s close combat attacks have the Rending special rule, and will rend on a To Wound roll of 4 or more.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Grey Knight Grand Master" hidden="false" id="6a9c-d1e1-3fd9-a39e">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="175"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Grand Master" id="c19f-31f1-de1f-9730" hidden="false" type="profile" targetId="04cb-baa0-9594-01a5"/>
+        <infoLink name="Terminator Armour" id="7421-30a2-dd85-4d9e" hidden="false" type="profile" targetId="a5fa-5ad7-54d4-fd1a"/>
+        <infoLink name="Frag Grenades" id="dbee-0a99-15c2-db2d" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="9793-d6a1-95af-50c1" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Psyk-out Grenade" id="0b96-0ac2-609d-1a0e" hidden="false" type="profile" targetId="70b8-e5d9-c9d5-2e4e"/>
+        <infoLink name="Iron Halo" id="b451-7843-9f87-2045" hidden="false" type="profile" targetId="e427-87a4-ee08-b117"/>
+        <infoLink name="The Aegis" id="1bda-9c80-6b13-851f" hidden="false" type="profile" targetId="3eb7-ed67-2a65-23a7"/>
+        <infoLink name="And They Shall Know No Fear" id="887b-203b-391c-f1ac" hidden="false" type="rule" targetId="73f8-658e-9da5-beba"/>
+        <infoLink name="Grand Strategy" id="c7c1-c5ba-f5a2-81be" hidden="false" type="profile" targetId="bf13-d912-60cd-055b"/>
+        <infoLink name="Independent Character" id="b585-ca8b-2fde-5c92" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Preffered Enemy (Daemons)" id="a6d8-2659-467b-b7e2" hidden="false" type="profile" targetId="fab9-6d08-37e0-a3e3"/>
+        <infoLink name="Hammerhand" id="b1bb-5a0a-9c1c-e829" hidden="false" type="profile" targetId="49b4-6a1c-2b4b-ff7d"/>
+        <infoLink name="Psychic Communion" id="0309-9308-6c08-5e45" hidden="false" type="profile" targetId="fce8-356c-966e-6bea"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Psychic Mastery" id="fc2a-de95-f302-972c" hidden="false" defaultSelectionEntryId="a49c-548c-063f-d3b7">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Level 1" hidden="false" id="a49c-548c-063f-d3b7">
+              <infoLinks>
+                <infoLink name="Psyker (Mastery Level 1)" id="f6a3-705d-3f9b-2bc8" hidden="false" type="profile" targetId="fa3d-07c4-a2f6-546d"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f712-189d-8465-688f" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Level 2" hidden="false" id="2535-7678-b335-b986">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Psyker (Mastery Level 2)" id="711b-6e79-a895-d05d" hidden="false" type="profile" targetId="c10b-528b-cd74-2896"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="363b-6862-55cc-eaa4" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="ac6f-d5e9-fd8c-4e64-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="ac6f-d5e9-fd8c-4e64-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapon" id="601a-8400-b675-7ecd" hidden="false" defaultSelectionEntryId="98d4-aa18-ee32-12f5">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="98d4-aa18-ee32-12f5">
+              <infoLinks>
+                <infoLink name="Storm Bolter" id="4352-3cba-f930-9b6d" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fee5-8f5d-5ac7-4b98" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Incinerator" hidden="false" id="50ee-8b5a-cb1d-44e3">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Incinerator" id="c076-dcf7-7428-592b" hidden="false" type="profile" targetId="2086-68bf-6c82-9444"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e69-a5ea-ad97-1d1c" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psilencer" hidden="false" id="7510-2c14-d05c-b7cf">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Psilencer" id="ee4e-75bf-904e-57e8" hidden="false" type="profile" targetId="b5e1-4f72-9706-8ff4"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98ee-f336-9e67-b761" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psycannon" hidden="false" id="63ee-2205-2ca2-5937">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Psycannon" id="8fe6-3c8b-064c-4635" hidden="false" type="profile" targetId="aaa6-46cd-46dc-e09a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf7c-8f44-cd0b-4c1b" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="b853-ed07-2b8c-0375-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b853-ed07-2b8c-0375-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Combat Weapon" id="ac16-3549-0bd0-4df2" hidden="false" defaultSelectionEntryId="9391-4d2a-9237-de3a">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Nemesis Force Sword" hidden="false" id="9391-4d2a-9237-de3a">
+              <infoLinks>
+                <infoLink name="Nemesis Force Sword" id="61ad-5dc4-9138-ad7b" hidden="false" type="profile" targetId="64f0-ab46-acac-8862"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e251-6e2d-fd9c-14ff" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nemesis Force Halberd" hidden="false" id="6fa7-6219-402c-6e87">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Nemesis Force Halberd" id="4e50-f746-d987-428a" hidden="false" type="profile" targetId="d9dc-c6c6-7f2e-1642"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="47d9-4d49-03fc-c87b" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nemesis Daemon Hammer" hidden="false" id="5b60-d2cc-a66b-919e">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Nemesis Daemon Hammer" id="8924-88d1-bb87-7f05" hidden="false" type="profile" targetId="74e2-b19f-7313-eb5e"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0295-b7c7-b5e5-af5c" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Pair of Nemesis Falchions" hidden="false" id="93dd-925c-0efe-d238">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Nemesis Falchions" id="1540-74c7-4e9b-e694" hidden="false" type="profile" targetId="2db1-5616-6e7e-0efa"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a6b-4c63-49f2-17cb" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nemesis Warding Stave" hidden="false" id="055a-dc79-d629-90e4">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Nemesis Warding Stave" id="71a6-9e6a-f6ef-2ae0" hidden="false" type="profile" targetId="1deb-a37b-fa22-ff45"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17ed-55ab-7a75-cd22" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="e379-d4d0-2910-3f37-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e379-d4d0-2910-3f37-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take any of the following" id="683d-55f6-5335-4ec3" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Blind Grenades" hidden="false" id="914f-371e-f82b-69aa">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="d2aa-ae71-2543-6b2c" id="7aa5-e92b-49ef-ef55" type="profile" name="Blind Grenades" hidden="false"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e2f4-4cd9-de10-7aee" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melta Bombs" hidden="false" id="c113-2c3d-28dd-0f38">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Melta Bomb" id="08c5-2d4a-38fb-ea5b" hidden="false" type="profile" targetId="62b3-f972-0f32-e8d8"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="13b0-f622-32c6-52f4" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Digital Weapons" hidden="false" id="2192-22e2-4aed-8ffe">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Digital Weapons" id="2fdf-5b3c-42b3-5ee9" hidden="false" type="profile" targetId="ee5b-ba52-7418-5482"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5405-916e-6799-21d2" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psybolt Ammunition" hidden="false" id="5344-e7f4-7a29-e67e">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Psybolt Ammunition" id="8b77-c3ad-8b48-0e28" hidden="false" type="profile" targetId="113d-84da-4c19-18ce"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="635c-f8e5-dbcd-c966" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Empyrean Brain Mines" hidden="false" id="1f57-24e4-e13a-c8cf">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Empyrean Brain Mines" id="b30e-0df2-5ddf-256a" hidden="false" type="profile" targetId="a946-268f-7b11-835c"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="03a2-bc24-f029-9eb9" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psychotroke Grenades" hidden="false" id="5531-85e1-a43f-02d3">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Psychotroke Grenades" id="8fcf-cfc2-f41c-f604" hidden="false" type="profile" targetId="ea40-b779-4241-5a98"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4967-9999-a4af-6bce" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Rad Grenades" hidden="false" id="839c-e477-6f20-5bfa">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Rad Grenade" id="b2b1-930e-cff6-dbba" hidden="false" type="profile" targetId="a6a2-449b-edf3-1afa"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aabe-3c63-d4b1-ae1b" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Orbital Strike Relay" hidden="false" id="337a-c404-f325-f9aa">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="dcf3-edfe-537e-798a" id="3772-40ad-3319-ac31" type="profile" name="Orbital Strike Relay" hidden="false"/>
+                <infoLink name="Orbital Strike (Barrage Bomb)" id="d36a-dd7b-6ca6-1340" hidden="false" type="profile" targetId="ccb1-d9d6-bbb6-1657"/>
+                <infoLink name="Orbital Strike (Lance Strike)" id="ba21-4840-a8d0-4588" hidden="false" type="profile" targetId="dfad-b35c-4f36-1200"/>
+                <infoLink name="Orbital Strike (Psyk-out Bomb)" id="d7d1-f263-a57b-481f" hidden="false" type="profile" targetId="fc1a-3cb1-41dc-274b"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May make any weapon Master-crafted" id="fcf5-ea6f-57f9-053c" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Master-Crafted Weapon" hidden="false" id="06d4-4e13-2618-1ba7">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5654-45a2-f3aa-cbb3"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Master-crafted" id="f6af-aea4-976e-82c5" hidden="false" type="rule" targetId="cd03-6afa-5db9-cf04"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Servo-Skull" hidden="false" id="e194-385b-e279-d6cf">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Servo-skulls" id="d5df-0975-411d-f00b" hidden="false" type="profile" targetId="7c17-ebbe-c306-2be8"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="4371-e34a-8a27-2e38" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Grey Knight Brother-Captain" hidden="false" id="ac15-2114-5f18-5acb">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="150"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Brother-Captain" id="92e8-8c72-ffc5-adf2" hidden="false" type="profile" targetId="24ed-15ba-ee54-da14"/>
+        <infoLink name="Terminator Armour" id="4a1f-38bb-80ca-8446" hidden="false" type="profile" targetId="a5fa-5ad7-54d4-fd1a"/>
+        <infoLink name="Krak Grenades" id="8924-f0cc-7be7-76e2" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Frag Grenades" id="90ab-314c-e83c-7f16" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Psyk-out Grenade" id="0f9c-3562-cec8-f4fa" hidden="false" type="profile" targetId="70b8-e5d9-c9d5-2e4e"/>
+        <infoLink name="Iron Halo" id="51ff-a88c-b704-989b" hidden="false" type="profile" targetId="e427-87a4-ee08-b117"/>
+        <infoLink name="The Aegis" id="a6e3-bbd4-744a-ad2d" hidden="false" type="profile" targetId="3eb7-ed67-2a65-23a7"/>
+        <infoLink name="And They Shall Know No Fear" id="855f-2594-8a50-351b" hidden="false" type="rule" targetId="73f8-658e-9da5-beba"/>
+        <infoLink name="Independent Character" id="3fc9-4215-6af1-a81a" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Preffered Enemy (Daemons)" id="5425-4b28-80f1-ba9f" hidden="false" type="profile" targetId="fab9-6d08-37e0-a3e3"/>
+        <infoLink name="Psychic Communion" id="ae2b-a39e-6121-7933" hidden="false" type="profile" targetId="fce8-356c-966e-6bea"/>
+        <infoLink name="Hammerhand" id="1739-98f3-2adc-7db0" hidden="false" type="profile" targetId="49b4-6a1c-2b4b-ff7d"/>
+        <infoLink name="Psyker (Mastery Level 1)" id="4872-263f-1ed5-5490" hidden="false" type="profile" targetId="fa3d-07c4-a2f6-546d"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapon" id="58a5-626c-2401-19d1" hidden="false" defaultSelectionEntryId="f536-d7a9-584a-d40d">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="f536-d7a9-584a-d40d">
+              <infoLinks>
+                <infoLink name="Storm Bolter" id="3e9c-b5e7-873d-e104" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc8c-aa02-9926-7ee9" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Incinerator" hidden="false" id="cf92-af16-e1c5-4e99">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Incinerator" id="d3ec-1464-f7f3-17ca" hidden="false" type="profile" targetId="2086-68bf-6c82-9444"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9245-a743-0b98-bffd" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psilencer" hidden="false" id="86fe-aee1-0100-66ec">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Psilencer" id="da1f-3999-91e4-81cf" hidden="false" type="profile" targetId="b5e1-4f72-9706-8ff4"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c67-d2e3-7f80-78db" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psycannon" hidden="false" id="393a-9b0d-213a-1f7e">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Psycannon" id="2c8f-3575-ad92-170e" hidden="false" type="profile" targetId="aaa6-46cd-46dc-e09a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a94e-043b-df39-a49e" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="0e34-3322-a4dc-9a08"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e761-3219-b48e-86c9"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Combat Weapon" id="36aa-0f85-1ff8-3ad2" hidden="false" defaultSelectionEntryId="7af8-c7c4-ff75-5f5b">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Nemesis Force Sword" hidden="false" id="7af8-c7c4-ff75-5f5b">
+              <infoLinks>
+                <infoLink name="Nemesis Force Sword" id="254b-121c-320d-799e" hidden="false" type="profile" targetId="64f0-ab46-acac-8862"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bec3-436f-6261-4336" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nemesis Force Halberd" hidden="false" id="fa17-cebb-3ddb-b79e">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Nemesis Force Halberd" id="3899-a0e2-ff17-015c" hidden="false" type="profile" targetId="d9dc-c6c6-7f2e-1642"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f7e-fa44-7cf3-311b" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nemesis Daemon Hammer" hidden="false" id="97db-c72c-c60a-46e5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Nemesis Daemon Hammer" id="f6b2-2b0f-be15-fbd5" hidden="false" type="profile" targetId="74e2-b19f-7313-eb5e"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f068-cbd2-ba69-7604" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Pair of Nemesis Falchions" hidden="false" id="c20c-73db-f13b-4704">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Nemesis Falchions" id="59de-204c-8964-46e0" hidden="false" type="profile" targetId="2db1-5616-6e7e-0efa"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="160f-ec72-f45a-a237" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nemesis Warding Stave" hidden="false" id="6142-3894-4b5c-994a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Nemesis Warding Stave" id="e395-4183-793e-b306" hidden="false" type="profile" targetId="1deb-a37b-fa22-ff45"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b987-1d9c-4673-ed14" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="8de8-c94a-19bf-dd2c"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="29ab-a1c8-17eb-dbf6"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take any of the following" id="6efd-5ac5-b7a7-413b" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Blind Grenades" hidden="false" id="611f-e0da-8130-f900">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Blind Grenades" id="1861-70e7-2c29-40af" hidden="false" targetId="d2aa-ae71-2543-6b2c" type="profile"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a63c-245f-af80-6a6e" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Melta Bombs" hidden="false" id="f71b-7927-3f9d-745f">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Melta Bomb" id="880b-9efc-74d2-8cca" hidden="false" type="profile" targetId="62b3-f972-0f32-e8d8"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf0a-ce9f-5447-27c6" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Digital Weapons" hidden="false" id="2990-5f5a-27ad-59aa">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Digital Weapons" id="5897-08ff-027d-6ef6" hidden="false" type="profile" targetId="ee5b-ba52-7418-5482"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4624-f51a-3f61-9ab4" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psybolt Ammunition" hidden="false" id="3428-cd9c-d6db-6531">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Psybolt Ammunition" id="f825-4cf0-51b0-01d6" hidden="false" type="profile" targetId="113d-84da-4c19-18ce"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab79-d459-3aad-e495" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Empyrean Brain Mines" hidden="false" id="3ae6-4563-885b-feb0">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Empyrean Brain Mines" id="862d-39d4-862b-90ac" hidden="false" type="profile" targetId="a946-268f-7b11-835c"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b9b-71f5-b3bd-7163" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psychotroke Grenades" hidden="false" id="04d5-dc71-0ba0-db4f">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Psychotroke Grenades" id="8199-8760-0de4-48ee" hidden="false" type="profile" targetId="ea40-b779-4241-5a98"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d6c-6ba2-65e9-271a" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Rad Grenades" hidden="false" id="ceca-93fb-303a-83e0">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Rad Grenade" id="404c-d878-cd11-68fe" hidden="false" type="profile" targetId="a6a2-449b-edf3-1afa"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dad8-93c7-cd69-a9a2" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Orbital Strike Relay" hidden="false" id="84c4-7c3b-15e2-8280">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
+              </costs>
+              <profiles>
+                <profile name="Orbital Strike Relay" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="f3cc-67b7-0c89-bfbd">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Orbital Strike Relay is treated as a ranged weapon that can be used provided the bearer did not move in the preceding Movement phase (though he can later assault if the controlling player wishes). Each time the Orbital relay is used, you must choose which kind of strike you wish to call down. Note that Orbital Strikes always scatter the full 2D6&quot; in the direction shown (if a hit is rolled, they scatter in the direction of the small arrow on the &apos;hit&apos; symbol).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Orbital Strike (Barrage Bomb)" id="89b8-9b77-fb99-486f" hidden="false" type="profile" targetId="ccb1-d9d6-bbb6-1657"/>
+                <infoLink name="Orbital Strike (Lance Strike)" id="a397-63e7-31fd-b178" hidden="false" type="profile" targetId="dfad-b35c-4f36-1200"/>
+                <infoLink name="Orbital Strike (Psyk-out Bomb)" id="acd4-d17f-f2f7-3741" hidden="false" type="profile" targetId="fc1a-3cb1-41dc-274b"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May make any weapon Master-crafted" id="9aa9-9777-90af-2fca" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Master-Crafted Weapon" hidden="false" id="62f6-1c39-7bf9-46cf">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f4e4-7b55-e596-ad58"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Master-crafted" id="89ae-7b29-3468-f28d" hidden="false" type="rule" targetId="cd03-6afa-5db9-cf04"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Servo-Skull" hidden="false" id="74ac-c48f-6387-eb38">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Servo-skulls" id="1a21-8a8d-c1d2-9cb9" hidden="false" type="profile" targetId="7c17-ebbe-c306-2be8"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="2a67-3447-9923-1518" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Brother Champion" hidden="false" id="c19e-2f88-7e80-a904">
+      <infoLinks>
+        <infoLink name="Brother Champion" id="6980-cf21-4335-38df" hidden="false" type="profile" targetId="a329-7b60-8850-62e9"/>
+        <infoLink name="Storm Bolter" id="0e39-122d-5e54-4454" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+        <infoLink name="Frag Grenades" id="8e7f-a38e-13a6-f7d3" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="d6ef-a842-9fae-fcea" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Psyk-out Grenade" id="44f7-9bd4-af18-c480" hidden="false" type="profile" targetId="70b8-e5d9-c9d5-2e4e"/>
+        <infoLink name="Iron Halo" id="4234-1f67-578f-73b0" hidden="false" type="profile" targetId="e427-87a4-ee08-b117"/>
+        <infoLink name="The Aegis" id="42ab-9ecd-363f-3d5b" hidden="false" type="profile" targetId="3eb7-ed67-2a65-23a7"/>
+        <infoLink name="And They Shall Know No Fear" id="19f8-7989-4319-8861" hidden="false" type="rule" targetId="73f8-658e-9da5-beba"/>
+        <infoLink name="Independent Character" id="e648-0a36-a403-565d" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="The Perfect Warrior" id="be45-bf91-5a4b-39ca" hidden="false" type="profile" targetId="4128-ec62-64c1-5471"/>
+        <infoLink name="Preffered Enemy (Daemons)" id="f233-9e0e-5c13-3882" hidden="false" type="profile" targetId="fab9-6d08-37e0-a3e3"/>
+        <infoLink name="Psyker (Mastery Level 1)" id="3995-7a2b-db5d-8a53" hidden="false" type="profile" targetId="fa3d-07c4-a2f6-546d"/>
+        <infoLink name="Titan&apos;s Herald" id="3dc1-e079-0186-f8e3" hidden="false" type="profile" targetId="e3c6-a6b0-e036-af9a"/>
+        <infoLink name="Hammerhand" id="ae76-f687-671a-40db" hidden="false" type="profile" targetId="49b4-6a1c-2b4b-ff7d"/>
+        <infoLink name="Heroic Sacrifice" id="a020-72ca-c555-562d" hidden="false" type="profile" targetId="5b79-5bfe-eff9-0fef"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May take any of the following" id="7e48-81d3-419e-55c7" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Digital Weapons" hidden="false" id="8de2-44a8-21e5-4eba">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Digital Weapons" id="6901-e812-9b52-a857" hidden="false" type="profile" targetId="ee5b-ba52-7418-5482"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ee9-4ed5-79a0-74ec" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psybolt Ammunition" hidden="false" id="7a31-1174-5131-f287">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Psybolt Ammunition" id="c620-cdfc-9487-e4ab" hidden="false" type="profile" targetId="113d-84da-4c19-18ce"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ea9-cbb4-c558-f9ba" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Empyrean Brain Mines" hidden="false" id="c4db-bd50-832a-5d14">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Empyrean Brain Mines" id="4430-73d6-4777-c490" hidden="false" type="profile" targetId="a946-268f-7b11-835c"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c6cb-e46f-bb83-8c32" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="Anointed Blade" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="735b-0bea-7a16-535c">
+          <characteristics>
+            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">The Anointed Blade is a Nemesis Force Sword. Additionally, any failed attempts To Wound made with it can be re-rolled.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Librarian" hidden="false" id="95a8-fe00-e8e2-bc3b">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="150"/>
+      </costs>
+      <infoLinks>
+        <infoLink targetId="a4c4-d91b-7b3e-db3f" id="2f23-cdb7-67cd-9232" type="profile" name="Psychic Hood" hidden="false"/>
+        <infoLink name="Librarian" id="df51-45b4-9755-b2c1" hidden="false" type="profile" targetId="c2b7-207f-3c75-83ce"/>
+        <infoLink name="Terminator Armour" id="46da-8508-59ff-8a26" hidden="false" type="profile" targetId="a5fa-5ad7-54d4-fd1a"/>
+        <infoLink name="Storm Bolter" id="110c-f4ca-0740-600a" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+        <infoLink name="Frag Grenades" id="93c7-3c4c-7c73-9820" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="a230-7a84-0254-4546" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Psyk-out Grenade" id="f608-e7dd-dbcb-a85f" hidden="false" type="profile" targetId="70b8-e5d9-c9d5-2e4e"/>
+        <infoLink name="The Aegis" id="ad03-b282-315e-8f4b" hidden="false" type="profile" targetId="3eb7-ed67-2a65-23a7"/>
+        <infoLink name="And They Shall Know No Fear" id="767f-6c97-412e-fd9d" hidden="false" type="rule" targetId="73f8-658e-9da5-beba"/>
+        <infoLink name="Independent Character" id="035f-4a53-d527-4c2d" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Preffered Enemy (Daemons)" id="7f0e-fe85-99ce-62af" hidden="false" type="profile" targetId="fab9-6d08-37e0-a3e3"/>
+        <infoLink name="Hammerhand" id="5e96-8970-9bb6-25b9" hidden="false" type="profile" targetId="49b4-6a1c-2b4b-ff7d"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Combat Weapon" id="8a1c-2cde-ae82-f416" hidden="false" defaultSelectionEntryId="d3e0-8256-fed9-2abe">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Nemesis Force Sword" hidden="false" id="d3e0-8256-fed9-2abe">
+              <infoLinks>
+                <infoLink name="Nemesis Force Sword" id="3860-0758-372a-f6ba" hidden="false" type="profile" targetId="64f0-ab46-acac-8862"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="53e7-0925-a236-b21e" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nemesis Force Halberd" hidden="false" id="afcc-a877-fe25-7292">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Nemesis Force Halberd" id="23ef-a1d1-ca16-bf48" hidden="false" type="profile" targetId="d9dc-c6c6-7f2e-1642"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8623-ccb4-f171-6663" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nemesis Daemon Hammer" hidden="false" id="dc35-9602-5ba8-3315">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Nemesis Daemon Hammer" id="3fec-8129-44a3-6b7c" hidden="false" type="profile" targetId="74e2-b19f-7313-eb5e"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e8c6-17fa-c41a-72d8" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Pair of Nemesis Falchions" hidden="false" id="a61a-c7f5-7311-0b68">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Nemesis Falchions" id="6146-268b-f070-f57b" hidden="false" type="profile" targetId="2db1-5616-6e7e-0efa"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4045-844b-a889-7a4c" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nemesis Warding Stave" hidden="false" id="caf3-b086-f07c-4e91">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Nemesis Warding Stave" id="e4f6-4f66-bb32-5b6a" hidden="false" type="profile" targetId="1deb-a37b-fa22-ff45"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="38cd-cca9-98cc-c702" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="7db0-c977-ea4c-b1c8"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b37b-9465-4be8-f3f2"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Psychic Mastery" id="7598-bb10-81c2-8835" hidden="false" defaultSelectionEntryId="1f1e-c544-7997-5788">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Level 2" hidden="false" id="1f1e-c544-7997-5788">
+              <infoLinks>
+                <infoLink name="Psyker (Mastery Level 2)" id="0caa-2937-496f-ede9" hidden="false" type="profile" targetId="c10b-528b-cd74-2896"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3152-8932-7587-a9ae" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Level 3" hidden="false" id="f3c0-b5bf-0d12-6da7">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Psyker (Mastery Level 3)" id="d6f0-2222-b8a0-6df4" hidden="false" type="profile" targetId="b50e-0fd3-8571-8add"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4515-cc5f-8c31-29de" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="fd8c-4944-96f2-a340"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3139-5673-0869-0325"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take any of the following" id="1234-9441-857c-de19" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Digital Weapons" hidden="false" id="5f17-90ab-3cb9-05ac">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Digital Weapons" id="0c2e-fd9e-f8f9-4f64" hidden="false" type="profile" targetId="ee5b-ba52-7418-5482"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c7d-f84d-29df-3922" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psybolt Ammunition" hidden="false" id="38a7-11de-6530-4267">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Psybolt Ammunition" id="dc8a-cbd7-e2f4-7d3b" hidden="false" type="profile" targetId="113d-84da-4c19-18ce"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ddf4-ac7d-02bb-8efa" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Empyrean Brain Mines" hidden="false" id="4913-8323-6cc3-8a64">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Empyrean Brain Mines" id="7b4c-7139-12fd-f723" hidden="false" type="profile" targetId="a946-268f-7b11-835c"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7417-918c-6d2b-da07" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Teleport Homer" hidden="false" id="66af-820a-4871-23c1">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Teleport Homer" id="d4c8-bf91-db67-56ad" hidden="false" type="profile" targetId="fc92-a2a9-16c0-5a2f"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="050a-3399-af4d-16db" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May make any weapon Master-crafted" id="2dfc-19f6-2448-26b2" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Master-Crafted Weapon" hidden="false" id="7e36-091a-40a0-3729">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="2f9e-3caf-c003-11a5"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Master-crafted" id="e81c-5d0e-d3ad-350b" hidden="false" type="rule" targetId="cd03-6afa-5db9-cf04"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Psychic Powers" id="708a-7546-a3d1-8071" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Dark Excommunication" hidden="false" id="a519-9e6a-12f7-d4a3">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="bf62-bc02-9e06-3f8c" id="0618-e789-c7ef-e8f7" type="profile" name="Dark Excommunication" hidden="false"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c0d8-fa96-b147-e4d3" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Quicksilver" hidden="false" id="364f-c0b2-a5cb-4595">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="f44b-3502-72c5-54fd" id="e31f-3082-3866-65be" type="profile" name="Quicksilver" hidden="false"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2804-de29-0619-e454" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Might of Titan" hidden="false" id="51e9-bb70-0177-0d93">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink targetId="c9ea-29ec-a0ca-19cd" id="f9ef-c346-58c8-71fd" type="profile" name="Might of Titan" hidden="false"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a739-2ff1-c439-3a52" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Sanctuary" hidden="false" id="f58c-4b59-3011-d3e4">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5988-43a3-12bb-bd77" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink targetId="9f24-6e05-2537-c5ef" id="44ed-a8c7-7d45-5c17" type="profile" name="Sanctuary" hidden="false"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Smite" hidden="false" id="ee70-3e8a-fdb0-155c">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Smite" id="a4ff-6370-d6ab-47df" hidden="false" type="profile" targetId="b40e-5984-5f07-cbd8"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a359-483e-dc25-d7f7" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="The Shrouding" hidden="false" id="5517-d06f-c537-a5dd">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10d8-e4e9-b6d4-53fb" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink targetId="e136-7e9c-8a5c-d392" id="f7ed-bb8f-5bfe-175b" type="profile" name="The Shrouding" hidden="false"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="The Summoning" hidden="false" id="6388-0b4e-4d13-65c8">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e50f-8527-c778-16c9" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink targetId="98a7-1a83-6033-31dd" id="1919-05da-8304-9775" type="profile" name="The Summoning" hidden="false"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Vortex of Doom" hidden="false" id="5347-7f80-d50c-d269">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Vortex of Doom" id="8c4a-fa56-2f9d-a7f7" hidden="false" type="profile" targetId="3c1b-53d9-27b4-1434"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d5f0-9a6f-b38d-afd4" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Warp Rift" hidden="false" id="0549-74c7-d5d0-7a4c">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Warp Rift" id="a1b6-615c-5aa7-97e6" hidden="false" type="profile" targetId="52c4-77ea-eea1-cf9b"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5324-3cbf-f68c-cfe7" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Servo-Skull" hidden="false" id="9c92-bd4c-b79c-f4c2">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Servo-skulls" id="19c8-3afd-cd67-7d5d" hidden="false" type="profile" targetId="7c17-ebbe-c306-2be8"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a6ce-81e2-71e7-c45b" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Inquisitor Coteaz" hidden="false" id="a36c-e932-f7a7-d51e">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="100"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Inquisitor Coteaz" id="592b-c9df-0f35-ac78" hidden="false" type="profile" targetId="9802-0632-e77a-e780"/>
+        <infoLink name="Bolt Pistol" id="aa70-aec8-bd82-6488" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+        <infoLink name="Master-crafted Nemesis Daemon Hammer" id="d14b-bb36-1c41-56cb" hidden="false" type="profile" targetId="2a3e-f1fe-5029-3721"/>
+        <infoLink name="Frag Grenades" id="00c6-7ffa-e5e8-0102" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="ae3f-d80f-37d2-bb8b" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Psyk-out Grenade" id="3bc0-dec5-c45b-669b" hidden="false" type="profile" targetId="70b8-e5d9-c9d5-2e4e"/>
+        <infoLink name="Independent Character" id="dacc-3d85-3b88-1ca0" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Psyker (Mastery Level 2)" id="4f80-b25f-df6f-1863" hidden="false" type="profile" targetId="c10b-528b-cd74-2896"/>
+        <infoLink name="Stubborn" id="213a-5abd-014f-f852" hidden="false" type="profile" targetId="5493-e844-f447-39ae"/>
+        <infoLink name="Dark Excommunication" id="aed6-c478-62a4-043a" hidden="false" type="profile" targetId="bf62-bc02-9e06-3f8c"/>
+        <infoLink name="Hammerhand" id="6065-9ecc-5724-b403" hidden="false" type="profile" targetId="49b4-6a1c-2b4b-ff7d"/>
+        <infoLink name="Sanctuary" id="cf4d-8818-9f91-61e1" hidden="false" type="profile" targetId="9f24-6e05-2537-c5ef"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Psyber-eagle" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="100b-aac7-905b-a947">
+          <characteristics>
+            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+            <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault D6</characteristic>
+            <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+          </characteristics>
+        </profile>
+        <profile name="Spy Network" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="5b90-87c3-e5fb-7210">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Coteaz allows you to re-roll the dice to Seize the Initiative, or force your opponent to re-roll his.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="I&apos;ve Been Expecting You" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="8da4-138d-1559-f86f">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If an enemy unit arrives from reserve within 12&quot; of Coteaz and within his line of sight, Coteaz and his unit can immediately make an out-of-sequence shooting attack against it. There is no limit on how many times the ability can be used in a turn.
+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Lord of Formosa" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="6d4c-5b5d-f50a-21cc">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Inquisitorial Henchmen warbands are Troop choices in an army that includes Inquisitor Coteaz, and are not limited by the number of Inquisitors in your army.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Inquisitor Karamazov" hidden="false" id="c799-6985-b404-9720">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="200"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Inquisitor Karamazov" id="d8b4-de52-e08a-29d7" hidden="false" type="profile" targetId="ff6b-62b5-65fa-bdc0"/>
+        <infoLink name="Master-crafted Multi-melta" id="6da2-0755-e601-fee3" hidden="false" type="profile" targetId="8536-6458-f30a-5738"/>
+        <infoLink name="Master-Crafted Power Sword" id="00ab-5ed2-1890-133e" hidden="false" type="profile" targetId="28b9-84c3-dee4-f5b5"/>
+        <infoLink name="Frag Grenades" id="4c2d-475f-7266-cb03" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="4d9f-671d-898d-189a" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Psyk-out Grenade" id="6222-d7fb-7654-96c8" hidden="false" type="profile" targetId="70b8-e5d9-c9d5-2e4e"/>
+        <infoLink name="Rad Grenade" id="8852-7605-363a-a91e" hidden="false" type="profile" targetId="a6a2-449b-edf3-1afa"/>
+        <infoLink name="Orbital Strike (Barrage Bomb)" id="b4a3-4b54-79b9-29e6" hidden="false" type="profile" targetId="ccb1-d9d6-bbb6-1657"/>
+        <infoLink name="Orbital Strike (Lance Strike)" id="c61a-2055-bc0b-9f78" hidden="false" type="profile" targetId="dfad-b35c-4f36-1200"/>
+        <infoLink name="Orbital Strike (Psyk-out Bomb)" id="da80-2622-3368-5525" hidden="false" type="profile" targetId="fc1a-3cb1-41dc-274b"/>
+        <infoLink name="Orbital Strike Relay" id="8e24-054f-daf3-d575" hidden="false" type="profile" targetId="dcf3-edfe-537e-798a"/>
+        <infoLink name="Independent Character" id="be35-f65f-1414-1ccb" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Relentless" id="d185-7335-bd93-867d" hidden="false" type="profile" targetId="eadc-173f-94e1-8411"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Throne of Judgement" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="2333-9104-7840-ee5b">
+          <characteristics>
+            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Throne of judgement bestows several characteristic boosts on Karamazov (included in his profile). Furthermore, due to the throne&apos;s size, Karamazov cannot embark in Transport vehicles.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="By Any Means Necessary" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="778d-842d-fa35-4af1">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">When Karamazov&apos;s Orbital Strike Relay is &apos;fired&apos;, you can choose to place the template so its centre is over a friendly model, rather than an enemy - even if that friendly model is in combat. If you do so, the shot does not scatter. All models under the template are hit as normal.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dread Reputation" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="53bb-4930-3748-793e">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Karamazov can always choose to pass or fail Morale and Pinning tests as he wishes. Friendly units within 12&quot; of Karamazov re-roll all failed Morale and Pinning tests.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Inquisitor Valeria" hidden="false" id="b392-9cfc-34ca-8a2f">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="140"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Inquisitor Valeria" id="be4f-13f7-474e-35a2" hidden="false" type="profile" targetId="30db-1fa0-ff29-58b8"/>
+        <infoLink name="Laspistol" id="6ba1-e89b-0dc0-19b7" hidden="false" type="profile" targetId="e061-dada-0483-3fff"/>
+        <infoLink name="Gravitor Beamer" id="f3f1-48a8-d761-bcad" hidden="false" type="profile" targetId="7bce-7894-4a83-4457"/>
+        <infoLink name="Frag Grenades" id="4fb8-635b-333f-036a" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="c2e0-c91f-3c0f-7600" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Psyk-out Grenade" id="ebdc-dd2c-0c2e-c1f6" hidden="false" type="profile" targetId="70b8-e5d9-c9d5-2e4e"/>
+        <infoLink name="Independent Character" id="005d-da6d-a249-39d9" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Stubborn" id="228a-feb5-3297-970d" hidden="false" type="profile" targetId="5493-e844-f447-39ae"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Dagger of Midnight" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="b047-0417-33c8-5a8a">
+          <characteristics>
+            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">The Dagger of Midnight is a Power Weapon. In addition, it grants Valeria +2 Attacks (included in her profile). These bonus attacks must be rolled separately, because if Valeria rolls a double when rolling To Hit with them, they are resolved as if they has been directed against her, instead of against her chosen target.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Forceshield" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="d0a3-87b7-0139-8f43">
+          <characteristics>
+            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Forceshield grants Valeria a 4+ Invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hyperstone Maze" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="fb00-2c58-c707-468e">
+          <characteristics>
+            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Valeria can use her Hyperstone Maze once per game, in lieu of making close combat attacks that round. Choose a character or Monstrous creature in base contact with Valeria. The victim must immediately roll equal to or under its remaining Wounds on a D6 or be trapped within the Hyperstone Maze forever - it is removed as a casualty, with no saves of any kind allowed.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Runes of Destiny" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="57f3-c604-4563-650c">
+          <characteristics>
+            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Successful saves taken against Valeria&apos;s shooting or close combat attacks must be re-rolled.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ordo Malleus Inquisitor" hidden="false" id="3e88-524b-e3b2-9067">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Inquisitor" id="860d-4d7c-aca5-9a38" hidden="false" type="profile" targetId="1a62-ddfa-1cc2-1d67"/>
+        <infoLink name="Frag Grenades" id="c910-9c14-89cc-4aed" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="63a5-6da4-d5a9-f186" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Psyk-out Grenade" id="080d-1759-9973-c080" hidden="false" type="profile" targetId="70b8-e5d9-c9d5-2e4e"/>
+        <infoLink name="Independent Character" id="7a03-432b-cf10-23c3" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Stubborn" id="aa15-1315-e00f-36c0" hidden="false" type="profile" targetId="5493-e844-f447-39ae"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapon" id="40a1-61ae-de38-affb" hidden="false" defaultSelectionEntryId="8cad-1b22-d8ef-ae83">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="8cad-1b22-d8ef-ae83">
+              <infoLinks>
+                <infoLink name="Bolt Pistol" id="3997-ebb6-dd07-97b9" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd1f-38cc-79d0-b4d3" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="c294-f914-486b-2a7c">
+              <infoLinks>
+                <infoLink name="Plasma Pistol" id="1aeb-02a0-50ef-16f3" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f87f-c436-dc25-bb42" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Incinerator" hidden="false" id="7831-2cf2-e0f8-b795">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Incinerator" id="cc01-ddaa-bae2-5585" hidden="false" type="profile" targetId="2086-68bf-6c82-9444"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9f38-95ae-e3a9-d323" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Hellrifle" hidden="false" id="cc65-8f95-7104-a934">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Hellrifle" id="78d3-a257-d3ac-b26d" hidden="false" type="profile" targetId="eef6-9f99-f465-e565"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ead-672a-ddf4-6d09" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Combi-weapon" hidden="false" id="355f-2f19-511c-b05b" type="selectionEntry" targetId="d720-24d4-d7f1-df20"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="f27b-04b1-79e0-306c-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="f27b-04b1-79e0-306c-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Combat Weapon" id="545e-59fa-880b-68d9" hidden="false" defaultSelectionEntryId="8541-9cdc-1623-451c">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Chainsword" hidden="false" id="8541-9cdc-1623-451c">
+              <infoLinks>
+                <infoLink name="Close-Combat Weapon" id="3afe-5193-57b0-8be0" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="60eb-4ba5-8844-9eff" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Power Sword" hidden="false" id="c032-0deb-a6fb-8401">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Power Weapon" id="4af7-7daf-584e-6d0b" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1552-f2f4-af8a-a7c4" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="7e6a-044b-167e-9539">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Power Fist" id="dd1b-4445-ea7f-0167" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="79e0-c2e9-bc95-f10a" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Nemesis Daemon Hammer" hidden="false" id="002a-1ba0-8c0c-0b70">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Nemesis Daemon Hammer" id="9fe2-4352-5abd-218e" hidden="false" type="profile" targetId="74e2-b19f-7313-eb5e"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5646-4cd0-b018-fd9a" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Daemonblade" hidden="false" id="a633-a809-f819-bf7d">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Daemonblade" id="c4f4-c83b-c8e4-b75f" hidden="false" type="profile" targetId="4aa9-be88-8f1b-6559"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d280-390a-1283-79cd" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="4ab1-94ac-7175-956f-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4ab1-94ac-7175-956f-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take any of the following" id="fb23-67e6-17e1-fc66" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Psybolt Ammunition" hidden="false" id="a87a-6b54-2f42-6ade">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Psybolt Ammunition" id="9654-090c-7cfc-4b7b" hidden="false" type="profile" targetId="113d-84da-4c19-18ce"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d2a1-444d-b360-2ec2" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Empyrean Brain Mines" hidden="false" id="9102-5f9d-6c22-89cf">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Empyrean Brain Mines" id="89f8-f783-9943-4909" hidden="false" type="profile" targetId="a946-268f-7b11-835c"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9aee-df18-0fa6-4e6e" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Power Armour" hidden="false" id="7855-27e6-3a7c-510c">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
+          </costs>
+          <infoLinks>
+            <infoLink targetId="0606-0e5b-188b-e024" id="15c2-8bac-ad08-e869" type="profile" name="Power Armour" hidden="false"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6be4-3c13-014c-d539" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Servo-Skull" hidden="false" id="3e64-774a-f3f6-c692">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Servo-skulls" id="5d15-4f6a-8846-a85b" hidden="false" type="profile" targetId="7c17-ebbe-c306-2be8"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="e607-2b81-5a6d-fb5d" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psyker (Mastery Level 1)" hidden="false" id="5b3e-278f-5264-f161">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+          </costs>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Psychic Power" id="dfc8-aea1-703c-3806" hidden="false" defaultSelectionEntryId="eaef-a9df-9185-d169">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Hammerhand" hidden="false" id="eaef-a9df-9185-d169">
+                  <infoLinks>
+                    <infoLink name="Hammerhand" id="090f-5692-cde9-187c" hidden="false" type="profile" targetId="49b4-6a1c-2b4b-ff7d"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8073-77d3-d65a-b0eb" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Psychic Communion" hidden="false" id="6734-016b-4039-8694">
+                  <infoLinks>
+                    <infoLink name="Psychic Communion" id="be4f-68a7-16b7-8517" hidden="false" type="profile" targetId="fce8-356c-966e-6bea"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd0a-9492-615b-429f" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="1e75-7e41-0085-8c25-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1e75-7e41-0085-8c25-max"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <infoLinks>
+            <infoLink name="Force Weapon" id="f38a-dc1d-fdc1-d7cb" hidden="false" type="profile" targetId="84e8-f828-c1c0-81c1"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e89-e9d6-3940-87af" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ordo Malleus Inquisitor in Terminator Armour" hidden="false" id="d500-51ce-7e73-8949">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="65"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Inquisitor in Terminator Armour" id="12a5-8231-1ab2-23d8" hidden="false" type="profile" targetId="b4a0-d96e-e931-f0cc"/>
+        <infoLink name="Psyk-out Grenade" id="2bdf-9dab-7882-c01c" hidden="false" type="profile" targetId="70b8-e5d9-c9d5-2e4e"/>
+        <infoLink name="Independent Character" id="5fad-6146-0dd5-6bae" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Stubborn" id="b45b-e187-8087-1aae" hidden="false" type="profile" targetId="5493-e844-f447-39ae"/>
+        <infoLink name="Terminator Armour" id="4a28-7c3c-d9de-368f" hidden="false" type="profile" targetId="a5fa-5ad7-54d4-fd1a"/>
+        <infoLink name="Nemesis Daemon Hammer" id="133d-e0ec-2a83-24db" hidden="false" type="profile" targetId="74e2-b19f-7313-eb5e"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapon" id="5337-c8ec-69f3-a64f" hidden="false" defaultSelectionEntryId="a27b-c369-703f-d918">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="a27b-c369-703f-d918">
+              <infoLinks>
+                <infoLink name="Storm Bolter" id="049e-f1d4-fc13-732d" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0048-5016-74b9-b3a1" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psycannon" hidden="false" id="1193-c7c7-93ec-2d1c">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Psycannon" id="6d7e-2d3a-fc95-a8b3" hidden="false" type="profile" targetId="aaa6-46cd-46dc-e09a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c0f6-566a-5d9c-360e" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Combi-weapon" hidden="false" id="06de-57d2-6319-aad1" type="selectionEntry" targetId="d720-24d4-d7f1-df20"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="ee12-e73b-e3e6-84dd-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="ee12-e73b-e3e6-84dd-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take any of the following" id="5cc9-2155-fed1-c93a" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Psybolt Ammunition" hidden="false" id="ec48-837e-13af-6a38">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Psybolt Ammunition" id="c3d6-11d3-8e92-c42d" hidden="false" type="profile" targetId="113d-84da-4c19-18ce"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="924e-8a7d-a9f5-18c3" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Empyrean Brain Mines" hidden="false" id="ad77-f077-c58c-c8fb">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Empyrean Brain Mines" id="1dd3-87a1-5768-2ea5" hidden="false" type="profile" targetId="a946-268f-7b11-835c"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c11d-a87f-ffee-bacb" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Servo-Skull" hidden="false" id="504e-790e-e246-3d00">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Servo-skulls" id="5e3c-e73a-87dc-0c23" hidden="false" type="profile" targetId="7c17-ebbe-c306-2be8"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1e9b-a74b-a4d3-e85c" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psyker (Mastery Level 1)" hidden="false" id="8a30-c407-84b4-c03e">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+          </costs>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Psychic Power" id="3c4e-b15c-957f-0bd9" hidden="false" defaultSelectionEntryId="eaef-a9df-9185-d169">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Hammerhand" hidden="false" id="e700-64d8-75d2-6f2a">
+                  <infoLinks>
+                    <infoLink name="Hammerhand" id="568c-9dd2-5053-def0" hidden="false" type="profile" targetId="49b4-6a1c-2b4b-ff7d"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7333-54c6-8f44-ecd7" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Psychic Communion" hidden="false" id="d26f-b453-b284-757c">
+                  <infoLinks>
+                    <infoLink name="Psychic Communion" id="f0aa-665b-e0a1-a381" hidden="false" type="profile" targetId="fce8-356c-966e-6bea"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc29-4a1e-c1a2-8e28" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="3848-ceff-6cd0-a40a-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3848-ceff-6cd0-a40a-max"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <infoLinks>
+            <infoLink name="Force Weapon" id="56c0-2c84-3523-3beb" hidden="false" type="profile" targetId="84e8-f828-c1c0-81c1"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7917-d2e6-47a0-75fe" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ordo Hereticus Inquisitor" hidden="false" id="50d8-f45d-bcb1-b0d4">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Inquisitor" id="8e66-66e2-db4a-ad47" hidden="false" type="profile" targetId="1a62-ddfa-1cc2-1d67"/>
+        <infoLink name="Frag Grenades" id="93d7-127d-467a-0360" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="71a8-291b-5e6e-98ca" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Psyk-out Grenade" id="8903-00a2-d8fb-229b" hidden="false" type="profile" targetId="70b8-e5d9-c9d5-2e4e"/>
+        <infoLink name="Independent Character" id="e8d8-e2b4-f6b0-b4e5" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Stubborn" id="5cb6-c8d7-5ae4-2149" hidden="false" type="profile" targetId="5493-e844-f447-39ae"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapon" id="2508-9aa1-8197-27c3" hidden="false" defaultSelectionEntryId="a96a-9eeb-294e-98ba">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="a96a-9eeb-294e-98ba">
+              <infoLinks>
+                <infoLink name="Bolt Pistol" id="bb49-2025-c645-8781" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a666-0582-2d25-4a39" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="1ce3-ad69-96eb-8d14">
+              <infoLinks>
+                <infoLink name="Plasma Pistol" id="1045-2fd4-e2e0-6841" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f87-bf8d-017b-a004" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Inferno Pistol" hidden="false" id="98b7-6f06-acc9-63f8">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Inferno Pistol" id="f439-09b9-ad8f-c52a" hidden="false" type="profile" targetId="75d9-90dc-0e9d-254a"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3cb5-0b3d-efd5-7f01" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Condemnor Boltgun" hidden="false" id="619b-368c-3326-cde9">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Condemnor Boltgun" id="568a-3e6d-b24f-e14c" hidden="false" type="profile" targetId="1ee0-d770-3efe-ba11"/>
+                <infoLink name="Boltgun" id="14a4-4ba5-090d-b29e" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a04c-ba25-6fcc-50a4" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Combi-weapon" hidden="false" id="ebdc-119f-b5aa-598c" type="selectionEntry" targetId="d720-24d4-d7f1-df20"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="fef0-c0dc-b2ed-b438-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="fef0-c0dc-b2ed-b438-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Combat Weapon" id="e2d5-0a02-8915-7255" hidden="false" defaultSelectionEntryId="af5e-b5b2-4996-1aef">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Chainsword" hidden="false" id="af5e-b5b2-4996-1aef">
+              <infoLinks>
+                <infoLink name="Close-Combat Weapon" id="8b41-022d-d636-a8e3" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="97ef-01c3-5e4f-4010" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Power Sword" hidden="false" id="c84e-759d-9cef-2e9c">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Power Weapon" id="120d-9ec0-0b3c-03d7" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="59d9-5321-e256-afaa" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="2e27-8319-4967-cc0f">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Power Fist" id="f7e1-13ec-8253-2ea4" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f8ad-e623-bb8f-067a" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Thunder Hammer" hidden="false" id="f470-fbfd-7bcf-1d5c">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Thunder Hammer" id="0488-59e4-0951-9aa9" hidden="false" type="profile" targetId="4cb2-e19a-4b72-594d"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d72e-f366-0766-825f" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Null Rod" hidden="false" id="f08b-7272-ed01-7de4">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Null Rod" id="ea3d-f53e-52a7-7959" hidden="false" type="profile" targetId="b748-35e5-e713-9f35"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b1c6-b7f5-c60f-f854" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="4195-f69d-dd16-c1cf-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4195-f69d-dd16-c1cf-max"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Power Armour" hidden="false" id="d505-3752-b2ff-5771">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Power Armour" id="54fa-c95a-7181-6193" hidden="false" targetId="0606-0e5b-188b-e024" type="profile"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b84a-4661-d54f-461f" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Servo-Skull" hidden="false" id="0fe6-537d-8406-7c9c">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Servo-skulls" id="5f6f-39a4-36c9-299b" hidden="false" type="profile" targetId="7c17-ebbe-c306-2be8"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a193-658f-a5f5-c7d6" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psyker (Mastery Level 1)" hidden="false" id="b46b-1b3f-5af9-2296">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+          </costs>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Psychic Power" id="297d-0acb-4f63-5c06" hidden="false" defaultSelectionEntryId="eaef-a9df-9185-d169">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Hammerhand" hidden="false" id="4ae1-9af5-8623-8da9">
+                  <infoLinks>
+                    <infoLink name="Hammerhand" id="13cc-084b-b07a-9759" hidden="false" type="profile" targetId="49b4-6a1c-2b4b-ff7d"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9477-a29c-8d99-4542" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Psychic Communion" hidden="false" id="9487-ecef-114d-485c">
+                  <infoLinks>
+                    <infoLink name="Psychic Communion" id="9606-1fac-c88f-7cfd" hidden="false" type="profile" targetId="fce8-356c-966e-6bea"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="860a-e72c-5670-497a" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="a3d3-84b2-c3a2-1b5e-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a3d3-84b2-c3a2-1b5e-max"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <infoLinks>
+            <infoLink name="Force Weapon" id="e76a-1ec0-4e81-5560" hidden="false" type="profile" targetId="84e8-f828-c1c0-81c1"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="674d-3492-e433-3e90" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psyocculum" hidden="false" id="8b48-436b-475a-28da">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Psyocculum" id="823e-f7df-09fc-15ce" hidden="false" type="profile" targetId="4e31-a974-c93b-73bd"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d693-b5cd-7caf-d0f8" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ordo Xenos Inquisitor" hidden="false" id="c27e-2f8d-3ed2-0592">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Inquisitor" id="bb1b-0f7a-775a-f702" hidden="false" type="profile" targetId="1a62-ddfa-1cc2-1d67"/>
+        <infoLink name="Frag Grenades" id="3b78-aef9-7035-d07d" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="1c7a-510e-f2a5-efca" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="Psyk-out Grenade" id="94c7-8bf6-a68b-553c" hidden="false" type="profile" targetId="70b8-e5d9-c9d5-2e4e"/>
+        <infoLink name="Independent Character" id="db3a-452d-ecf0-aadd" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Stubborn" id="6540-8550-21e2-1f2b" hidden="false" type="profile" targetId="5493-e844-f447-39ae"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapon" id="be32-4dab-3d40-5a08" hidden="false" defaultSelectionEntryId="4b6e-e727-38ea-7dd1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="4b6e-e727-38ea-7dd1">
+              <infoLinks>
+                <infoLink name="Bolt Pistol" id="d020-9756-01ad-c64c" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="75e5-be07-d641-25c0" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="e356-b3c9-f90b-9095">
+              <infoLinks>
+                <infoLink name="Plasma Pistol" id="c016-4c70-7afc-2a3a" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3726-af9c-63a4-8499" includeChildSelections="false"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Needle Pistol" hidden="false" id="be45-2ad3-3e0f-39db">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Needle Pistol" id="79f7-472c-d8de-e809" hidden="false" type="profile" targetId="e1c9-a900-38ba-d203"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="91aa-a3d8-cef7-dcdf" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Scythian Venom Talon" hidden="false" id="a790-c8f8-03d9-ce1a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Scythian Venom Talon" id="031b-88a5-cc03-1115" hidden="false" type="profile" targetId="c399-8bdb-4ba2-5692"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f74f-af73-8fbb-7fc5" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Conversion Beamer" hidden="false" id="b462-ee8c-6117-0c22">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Conversion Beamer" id="09b6-1d7b-90d3-9fe5" hidden="false" type="profile" targetId="aaec-111a-3a42-12ef"/>
+                <infoLink name="Conversion Beamer (close)" id="f0b9-f143-f94d-a8c3" hidden="false" type="profile" targetId="2c13-8050-4dd2-2d23"/>
+                <infoLink name="Conversion Beamer (Long)" id="17fd-44b1-105f-79e7" hidden="false" type="profile" targetId="af1e-071a-7268-cd18"/>
+                <infoLink name="Conversion Beamer (Mid)" id="123f-563f-6ce6-249c" hidden="false" type="profile" targetId="810d-d910-4f7e-8277"/>
+                <infoLink name="Conversion Beamer (Point-blank)" id="b871-b403-6a82-0c57" hidden="false" type="profile" targetId="20fc-9e67-ede7-6b6f"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="71de-4cd3-07a4-43ca" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink import="true" name="Combi-weapon" hidden="false" id="730e-d6fe-175c-45c6" type="selectionEntry" targetId="d720-24d4-d7f1-df20"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="c3a7-582c-ebf8-aac9-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c3a7-582c-ebf8-aac9-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Combat Weapon" id="9dc7-1b7e-b07d-f093" hidden="false" defaultSelectionEntryId="4720-4ffe-e4aa-68f2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Chainsword" hidden="false" id="4720-4ffe-e4aa-68f2">
+              <infoLinks>
+                <infoLink name="Close-Combat Weapon" id="e0bf-24d3-6d8c-06d0" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="81b4-fc01-ffc4-3ac2" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Power Sword" hidden="false" id="3675-35da-8583-580e">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Power Weapon" id="6d38-d2bd-0174-e85e" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f6a6-fa4d-adf8-1d21" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="1c21-2de6-fc09-e7ea-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1c21-2de6-fc09-e7ea-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take any of the following" id="ae25-38d1-8701-4f50" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Digital Weapons" hidden="false" id="53d7-2f41-a9c2-b6c3">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Digital Weapons" id="b5ec-5692-32cd-1b4f" hidden="false" type="profile" targetId="ee5b-ba52-7418-5482"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5179-93f4-4316-d2d3" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ulumeathi Plasma Syphon" hidden="false" id="8c17-a756-0173-ff46">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Ulumeathi Plasma Syphon" id="5ccd-e982-9797-cee0" hidden="false" type="profile" targetId="f579-ae67-cf58-3c88"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bead-e5ac-4111-0d88" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Rad Grenades" hidden="false" id="6605-e767-e549-474e">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Rad Grenade" id="a286-f81f-ecfc-a22b" hidden="false" type="profile" targetId="a6a2-449b-edf3-1afa"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="02b7-6011-c4c0-207e" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Psychotroke Grenades" hidden="false" id="1e72-c026-d2aa-8983">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Psychotroke Grenades" id="ad22-24b9-f247-6276" hidden="false" type="profile" targetId="ea40-b779-4241-5a98"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d31f-e30a-49d9-ea9f" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Power Armour" hidden="false" id="a8ae-befb-66f3-b854">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Power Armour" id="1aad-da5e-4c2e-1323" hidden="false" targetId="0606-0e5b-188b-e024" type="profile"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1283-5c07-0636-2508" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Servo-Skull" hidden="false" id="a014-40b8-d1ec-6ded">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Servo-skulls" id="1c51-ebf4-e20e-f0d6" hidden="false" type="profile" targetId="7c17-ebbe-c306-2be8"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="804b-aba2-777c-0b68" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Psyker (Mastery Level 1)" hidden="false" id="00ca-275c-36bd-870a">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+          </costs>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Psychic Power" id="efd1-89a6-dcdb-d007" hidden="false" defaultSelectionEntryId="eaef-a9df-9185-d169">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Hammerhand" hidden="false" id="6b26-4f0d-145d-a178">
+                  <infoLinks>
+                    <infoLink name="Hammerhand" id="f64a-44f1-6f7f-f131" hidden="false" type="profile" targetId="49b4-6a1c-2b4b-ff7d"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5b0c-9d47-20d4-fdcb" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Psychic Communion" hidden="false" id="d96c-6206-5fcc-23cd">
+                  <infoLinks>
+                    <infoLink name="Psychic Communion" id="26fc-bdb8-3e52-8ff5" hidden="false" type="profile" targetId="fce8-356c-966e-6bea"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="89dc-66bf-553d-58c0" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="84b3-8445-b8cf-973e-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="84b3-8445-b8cf-973e-max"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <infoLinks>
+            <infoLink name="Force Weapon" id="2c8e-bfcc-89bd-11f9" hidden="false" type="profile" targetId="84e8-f828-c1c0-81c1"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a69c-c441-5459-38c2" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
@@ -941,6 +3109,9 @@ Any Daemon or Psyker that suffers one or more unsaved wounds from Nemesis Force 
     <rule name="Psyker Mastery Level" id="b7a0-ef01-0e67-d15b" hidden="false">
       <description>Grey Knights uses Mastery Levels, to determine how many psychic powers a character can use each turn. For each Mastery Level a character has, he can use one Psychic power per turn.</description>
     </rule>
+    <rule name="Master-crafted" id="cd03-6afa-5db9-cf04" hidden="false">
+      <description>A Master-crafted weapon may re-roll a single To Hit roll.</description>
+    </rule>
   </sharedRules>
   <entryLinks>
     <entryLink import="true" name="Lord Kaldor Draigo" hidden="false" id="43c7-95ab-8ec7-eb0b" type="selectionEntry" targetId="38f5-e50a-73ad-ae46">
@@ -950,6 +3121,91 @@ Any Daemon or Psyker that suffers one or more unsaved wounds from Nemesis Force 
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7017-d30c-afb2-1000"/>
       </constraints>
+    </entryLink>
+    <entryLink import="true" name="Grand Master Mordrak" hidden="false" id="488d-ada2-6f91-84af" type="selectionEntry" targetId="bb32-834d-e7ff-eb87">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="b619-0853-d3de-d184" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f85-1b8b-908d-51c8"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Brother-Captain Stern" hidden="false" id="d08c-f824-082d-1c60" type="selectionEntry" targetId="5ad3-61f5-383c-82b3">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="7582-f28a-2229-1911" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b808-e0d2-2227-1257"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Castellan Crowe" hidden="false" id="313d-9a6e-e7cf-1c46" type="selectionEntry" targetId="e1a2-7fe3-f84b-f06d">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="2ca1-412b-15d5-52eb" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa4d-96f3-4325-c78f"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Grey Knight Grand Master" hidden="false" id="22ea-ae10-371f-3ec9" type="selectionEntry" targetId="6a9c-d1e1-3fd9-a39e">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="7e52-f1cb-b02b-1f44" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Grey Knight Brother-Captain" hidden="false" id="6c60-fca4-f5b2-85b3" type="selectionEntry" targetId="ac15-2114-5f18-5acb">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="c903-446a-6fce-b422" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Brother Champion" hidden="false" id="0e9d-185f-7a8b-b82e" type="selectionEntry" targetId="c19e-2f88-7e80-a904"/>
+    <entryLink import="true" name="Librarian" hidden="false" id="1082-8a4c-dd5f-200a" type="selectionEntry" targetId="95a8-fe00-e8e2-bc3b">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="f750-2bd7-50dc-860f" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Inquisitor Coteaz" hidden="false" id="2bef-c3dc-e156-cb57" type="selectionEntry" targetId="a36c-e932-f7a7-d51e">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="de69-67c7-2c5c-56dc" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b87b-26e0-d3f0-2c5e"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Inquisitor Karamazov" hidden="false" id="ae80-6cd1-18d5-5846" type="selectionEntry" targetId="c799-6985-b404-9720">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="2244-9539-f89d-34f8" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="21c8-8e8a-5018-e11b"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Inquisitor Valeria" hidden="false" id="c10a-8958-df99-fced" type="selectionEntry" targetId="b392-9cfc-34ca-8a2f">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="9977-9235-75b6-1a48" primary="true" name="HQ"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="860d-4f22-c9c8-3e72"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Ordo Malleus Inquisitor" hidden="false" id="cc68-850f-122c-1143" type="selectionEntry" targetId="3e88-524b-e3b2-9067">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="0588-ba00-5339-176e" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ordo Malleus Inquisitor in Terminator Armour" hidden="false" id="2169-7dee-ec0f-6fba" type="selectionEntry" targetId="d500-51ce-7e73-8949">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="642e-3dc9-3a09-1155" primary="false" name="Troops"/>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="9a2e-aea4-8722-daab" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ordo Hereticus Inquisitor" hidden="false" id="3776-69f4-2f2f-1df9" type="selectionEntry" targetId="50d8-f45d-bcb1-b0d4">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="bcfa-5585-1c2d-6984" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ordo Xenos Inquisitor" hidden="false" id="d3dc-27b1-a3e3-e967" type="selectionEntry" targetId="c27e-2f8d-3ed2-0592">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="dff8-0ee3-6379-b6d0" primary="true" name="HQ"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
 </catalogue>

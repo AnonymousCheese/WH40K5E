@@ -8425,25 +8425,6 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
-    <profile name="Terminator Armour" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="a5fa-5ad7-54d4-fd1a">
-      <characteristics>
-        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Models in Terminator Armour have a 2+ armour save and a 5+ invulnerable save.
-
-
-Terminator armoured models have the Relentless special rule, may not perform a Sweeping advance and can be teleported onto the battlefield.
-
-
-They may start the game in reserve and arrive using deep strike rules, even if its not part of the mission being played.
-
-
-Terminators count as two models for the purposes of transport capacity and cannot embark in Rhinos or Razorbacks.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Teleport Homer" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="fc92-a2a9-16c0-5a2f">
-      <characteristics>
-        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">If Terminators wish to teleport onto the battlefield via deep strike and choose to do so within 6&quot; of a model carrying the homer, then they won&apos;t scatter. Note that the teleport homer only works for units that are teleporting, not for units entering play using jump packs, drop pods or other means of transport. Also note that the homer must already be on the table at the start of the turn for it to be used.</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Orbital Bombardment" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="bc8c-064b-c6cf-a4ba">
       <characteristics>
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Unlimited</characteristic>
@@ -8451,11 +8432,6 @@ Terminators count as two models for the purposes of transport capacity and canno
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Barrage (This ability can be used once per game in the unit&apos;s shooting phase, provided they did not move in the preceding Movement phase (though they may later assault if the controlling player wishes). Calling down an orbital bombardment otherwise counts as firing a ranged weapon. Note that if an arrow is rolled on the scatter dice and orbital bombardment will always scatter the full 2D6&quot;, the model&apos;s Ballistic Skill makes no difference)</characteristic>
         <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
-      </characteristics>
-    </profile>
-    <profile name="Iron Halo" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="e427-87a4-ee08-b117">
-      <characteristics>
-        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">An Iron Halo confers a 4+ invulnerable save.</characteristic>
       </characteristics>
     </profile>
     <profile name="Relic Blade" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="08b3-cd4c-5d89-d874">
