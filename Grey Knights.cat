@@ -7550,6 +7550,9 @@ Any Daemon or Psyker that suffers one or more unsaved wounds from Nemesis Force 
       <categoryLinks>
         <categoryLink targetId="ac8d-efba-1884-d3ad" id="340f-bd04-4002-d43f" primary="true" name="HQ"/>
       </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="100"/>
+      </costs>
     </entryLink>
     <entryLink import="true" name="Librarian" hidden="false" id="1082-8a4c-dd5f-200a" type="selectionEntry" targetId="95a8-fe00-e8e2-bc3b">
       <categoryLinks>
