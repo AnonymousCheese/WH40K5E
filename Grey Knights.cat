@@ -6836,7 +6836,7 @@ Nominate any point over which the Stormraven moved, and deploy the squad as if i
       <profiles>
         <profile name="Astral Aim" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="608f-26af-bc67-e9ac">
           <characteristics>
-            <characteristic name="Power" typeId="1638-2569-4ea3-9b0a"/>
+            <characteristic name="Power" typeId="1638-2569-4ea3-9b0a">This power can be used during the Grey Knight&apos;s Shooting phase. If the Psychic test is passed, the unit (and any accompanying characters) can shoot at any enemy unit within range, even if they do not have line of sight to it or it is outside the distance they can see in a night fight. The target automatically has a 4+ cover save (which cannot be modified by any means) against this attack. The squad cannot target an enemy unit that is embarked within a transport.</characteristic>
           </characteristics>
         </profile>
       </profiles>
