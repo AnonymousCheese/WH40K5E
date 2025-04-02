@@ -4483,7 +4483,7 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Apothecary" hidden="false" id="72a3-edd3-76a1-8101" defaultAmount="">
+            <selectionEntry type="model" import="true" name="Apothecary" hidden="false" id="72a3-edd3-76a1-8101">
               <infoLinks>
                 <infoLink targetId="1a9a-1582-2ee9-832c" id="5e23-ae8f-25ed-fe92" type="profile" name="Narthecium" hidden="false"/>
                 <infoLink name="Apothecary" id="14c9-e78a-1551-2a1c" hidden="false" type="profile" targetId="9139-2bb7-ecfa-02de"/>
@@ -4664,7 +4664,7 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b369-eef6-8630-cdc1"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Paladin Banner Bearer" hidden="false" id="604c-a1b5-15fa-1ff1" defaultAmount="">
+            <selectionEntry type="model" import="true" name="Paladin Banner Bearer" hidden="false" id="604c-a1b5-15fa-1ff1">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="55"/>
               </costs>
@@ -7546,7 +7546,11 @@ Any Daemon or Psyker that suffers one or more unsaved wounds from Nemesis Force 
         <categoryLink targetId="ac8d-efba-1884-d3ad" id="c903-446a-6fce-b422" primary="true" name="HQ"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Brother Champion" hidden="false" id="0e9d-185f-7a8b-b82e" type="selectionEntry" targetId="c19e-2f88-7e80-a904"/>
+    <entryLink import="true" name="Brother Champion" hidden="false" id="0e9d-185f-7a8b-b82e" type="selectionEntry" targetId="c19e-2f88-7e80-a904">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="340f-bd04-4002-d43f" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink import="true" name="Librarian" hidden="false" id="1082-8a4c-dd5f-200a" type="selectionEntry" targetId="95a8-fe00-e8e2-bc3b">
       <categoryLinks>
         <categoryLink targetId="ac8d-efba-1884-d3ad" id="f750-2bd7-50dc-860f" primary="true" name="HQ"/>
@@ -7583,7 +7587,6 @@ Any Daemon or Psyker that suffers one or more unsaved wounds from Nemesis Force 
     </entryLink>
     <entryLink import="true" name="Ordo Malleus Inquisitor in Terminator Armour" hidden="false" id="2169-7dee-ec0f-6fba" type="selectionEntry" targetId="d500-51ce-7e73-8949">
       <categoryLinks>
-        <categoryLink targetId="default-category" id="642e-3dc9-3a09-1155" primary="false" name="Troops"/>
         <categoryLink targetId="ac8d-efba-1884-d3ad" id="9a2e-aea4-8722-daab" primary="true" name="HQ"/>
       </categoryLinks>
     </entryLink>
