@@ -10,12 +10,6 @@ Units which include Servitors are still subject to this rule, providing that the
     <rule name="Combat Tactics" id="63e6-2a1c-88a5-4120" hidden="false">
       <description>A non-fearless Space Marine unit with this special rule can choose to automatically fail any Morale check it is called upon to take</description>
     </rule>
-    <rule name="Combat Squads" id="9b83-9c79-fe48-a8b5" hidden="false">
-      <description>A number of ten-man units in the Space Marines army have the option of breaking down into two five-man units, called combat squads. The decision to split the unit into combat squads, as well as which models go into each combat squad, must be made when the unit is deployed. Both combat squads can be deployed in separate locations. The one exception to this is a unit that arrives by Drop Pod. The player can choose to split such a unit into combat squads when it disembarks from the Drop Pod.
-
-
-If you decide to split the unit into combat squads, then each combat squad is treated as a separate unit for all game purposes from that point.</description>
-    </rule>
   </sharedRules>
   <infoLinks>
     <infoLink targetId="bc6b-768b-66df-f39f" id="f466-ec81-8025-94bc" type="rule" name="Combi" hidden="false"/>
@@ -3830,14 +3824,8 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="165"/>
       </costs>
-      <profiles>
-        <profile name="Venerable" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="1c76-e843-30ef-4040">
-          <characteristics>
-            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Venerable Dreadnought suffers a glancing or penetrating hit, you can ask your opponent to re-roll the result rolled on the Vehicle Damage Chart. You must accept the result of the second roll, even if its worse than the first.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <infoLinks>
+        <infoLink targetId="1c76-e843-30ef-4040" id="a64f-4bc5-6fbc-e0ba" type="profile" name="Venerable" hidden="false"/>
         <infoLink targetId="e517-6fb2-82e7-7ea8" id="4119-d770-df1b-8709" type="profile" name="Venerable Dreadnought" hidden="false"/>
         <infoLink name="Smoke Launchers" id="43e4-b427-a257-0b48" hidden="false" type="profile" targetId="180e-ad4b-4df0-81ae"/>
         <infoLink name="Searchlight" id="aebb-c68c-1de1-3dee" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
@@ -8484,32 +8472,6 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
 Each player then rolls a D6 and adds their model&apos;s leadership value to the score. If the Space Marine Librarian beats the opposing model&apos;s score then the psychic power is nullified and does not take effect that turn. If the opposing model&apos;s score is equal or higher, it can use its psychic power as normal. The psychic hood can be used once each time an enemy model uses a psychic power within range.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Servo-Harness" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="184e-8bbb-d1ae-78d8">
-      <characteristics>
-        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A servo-harness gives the model a servo-arm, plasma cutter (cannot be used in close combat) and a flamer. In the shooting phase the model can fire both harness-mounted weapons, or one harness mount and another gun.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Plasma Cutter" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="646a-bf1c-e0de-99f4">
-      <characteristics>
-        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
-        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
-        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
-        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol, Gets Hot!, Twin-linked (cannot be used in close combat)</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
-      </characteristics>
-    </profile>
-    <profile name="Blessing of the Omnissiah" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="f01b-6ffb-5123-f9e1">
-      <characteristics>
-        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If this model is in base contact with a damaged vehicle during the Shooting phase, he can attempt to repair it instead of firing. Roll a D6 and add the following modifiers:
-
-
-- Each Servitor with a servo-arm in the unit: +1
-- The Model has a servo-harness: +1
-
-
-If the result is 5 or more, then either a Weapon Destroyed result or Immobilised result (owning player&apos;s choice) will be repaired. If a Weapon Destroyed result is repaired, that weapon can be fired in the following Shooting phase. The Model cannot repair if gone to ground or falling back.</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Locator Beacon" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="0431-ec18-7cc3-1b61">
       <characteristics>
         <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">If a unit wishes to arrive on the battlefield via deep strike and chooses to do so within 6&quot; of a model carrying a locator beacon, then it won&apos;t scatter. Note that the locator beacon must already be on the table at the start of the turn for it to be used.</characteristic>
@@ -8598,11 +8560,6 @@ If the result is 5 or more, then either a Weapon Destroyed result or Immobilised
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Blast</characteristic>
         <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
-      </characteristics>
-    </profile>
-    <profile name="Bolster Defenses" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="a58b-9566-2629-fe38">
-      <characteristics>
-        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Each model with this ability can bolster a single ruin before the game begins. When you deploy, nominate one ruin in your deployment area for your Model to bolster. The ruin&apos;s cover save is increased by one for the duration of the game. For example, a normal ruin (4+ save) so reinforced would offer a 3+ cover save. A ruin can only be bolstered once.</characteristic>
       </characteristics>
     </profile>
     <profile name="Rosarius" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="3b72-5db6-baa8-690f">

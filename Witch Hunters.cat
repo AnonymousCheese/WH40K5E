@@ -4025,11 +4025,6 @@ It is the duty of the Mistress to drive her charges on towards the cleaning fire
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2897-fe4b-d034-2c29"/>
               </constraints>
               <profiles>
-                <profile name="Etherium" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="3f9e-b337-e76b-65d6">
-                  <characteristics>
-                    <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Any unit wishing to shoot at or charge the Culexus Assassin, and any psyker trying to target him with a psychic power, must first pass a Leadership test. If the test is failed they may not target the Assassin, but may attack another target instead.</characteristic>
-                  </characteristics>
-                </profile>
                 <profile name="Psyk-Out Grenades" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="f1d2-b9ab-2cbe-9853">
                   <characteristics>
                     <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Instead of firing the Animus Speculum, the Culexus Assassin may throw a Psyk-out grenade. This is only useful against psykers. Psyk-out Grenades have a range of 6&quot;. Roll to hit as normal. If the Psyker is hit, he must pass a Leadership test on 2D6. For each point the psyker fails the test by, he loses 1 Wound. Saving throws may be taken as normal. For example, a Psyker (with Ld 7, due to the Soulless rule) rolls a 9, and so loses 2 Wounds.</characteristic>
@@ -4057,6 +4052,7 @@ It is the duty of the Mistress to drive her charges on towards the cleaning fire
                 </profile>
               </profiles>
               <infoLinks>
+                <infoLink targetId="3f9e-b337-e76b-65d6" id="e1e3-ac16-1024-c16e" type="profile" name="Etherium" hidden="false"/>
                 <infoLink targetId="5c9e-ad99-2143-7368" id="5792-ca5b-3abd-ce66" type="profile" name="Animus Speculum" hidden="false"/>
               </infoLinks>
             </selectionEntry>
