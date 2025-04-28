@@ -1932,6 +1932,33 @@ If the result is 5 or more, then either a Weapon Destroyed result or Immobilised
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
+    <profile name="Twin-linked Storm Bolter" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="1df2-a9d9-7e24-064b">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Psychic Hood" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="27ab-7b2d-35be-bdf6">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Psychic hoods allow a Librarian to nullify and opposing psyker&apos;s power. Declare that you&apos;ll use the psychic hood after an enemy model within 24&quot; of the Librarian passes a Psychic test. If there are several Librarians in range, only one can attempt to nullify the psychic power - you must choose which.
+
+
+Each player then rolls a D6 and adds their model&apos;s leadership value to the score. If the Space Marine Librarian beats the opposing model&apos;s score then the psychic power is nullified and does not take effect that turn. If the opposing model&apos;s score is equal or higher, it can use its psychic power as normal. The psychic hood can be used once each time an enemy model uses a psychic power within range.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Space Marine Bike" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="10d2-59d9-3431-593e">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Models equipped with Space Marine bikes follow all the rules for bikes. They are fitted with a twin-linked bolter.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rosarius" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="068b-48c1-6ad3-22ee">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A Rosarius confers a 4+ Invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Combi-weapon" hidden="false" id="d720-24d4-d7f1-df20" defaultAmount="0">
@@ -1990,7 +2017,6 @@ If the result is 5 or more, then either a Weapon Destroyed result or Immobilised
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="self" shared="true" id="b9bf-a0a0-3657-c3b6-min"/>
         <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b9bf-a0a0-3657-c3b6-max"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ace1-3b17-d12a-5323" includeChildSelections="false"/>
       </constraints>

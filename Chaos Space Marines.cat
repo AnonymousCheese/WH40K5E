@@ -1222,6 +1222,9 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
               <infoLinks>
                 <infoLink name="Mark of Khorne" id="0133-a27d-44ea-cb13" hidden="false" type="profile" targetId="54e8-b1c8-2d9c-b264"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ddc-92ee-227d-4224" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Mark of Slaanesh" hidden="false" id="8c19-8665-5420-e6f7">
               <costs>
@@ -1230,6 +1233,10 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
               <infoLinks>
                 <infoLink name="Mark of Slaanesh" id="5844-4906-2cd8-e785" hidden="false" type="profile" targetId="0682-af00-f4b4-e49c"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ebab-65f3-69b3-6513" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2063-c6ab-94e3-69da" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Mark of Nurgle" hidden="false" id="37f2-f0b8-6761-1306">
               <costs>
@@ -1238,6 +1245,9 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
               <infoLinks>
                 <infoLink name="Mark of Nurgle" id="afc9-e893-c5d8-c44e" hidden="false" type="profile" targetId="5920-fd24-ceda-39ee"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b9af-5b50-c934-f1f5" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Mark of Tzeentch" hidden="false" id="d8b8-b5db-86b5-2789">
               <costs>
@@ -1246,6 +1256,9 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
               <infoLinks>
                 <infoLink name="Mark of Tzeentch" id="c90c-8662-febd-f454" hidden="false" type="profile" targetId="d2e7-0507-e479-a0c6"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6590-b0f7-2d45-1ab3" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1258,6 +1271,9 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
               <infoLinks>
                 <infoLink name="Bolt Pistol" id="c1e7-adaf-696b-dfa9" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a317-8fb0-7c59-ac85" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="2852-dd33-8265-fbe1">
               <costs>
@@ -1266,6 +1282,9 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
               <infoLinks>
                 <infoLink name="Plasma Pistol" id="d684-6622-d430-8346" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e293-5b9a-5746-e584" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1278,6 +1297,9 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
               <infoLinks>
                 <infoLink name="Close-Combat Weapon" id="5977-3d67-8e31-63e5" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="881f-caf2-8162-f801" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="8814-722e-775d-241a">
               <costs>
@@ -1286,6 +1308,9 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
               <infoLinks>
                 <infoLink name="Power Weapon" id="ce71-ca56-ba3f-06dc" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ebcc-d741-9031-ea2b" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="fb7f-5aa6-5d23-4a3a">
               <costs>
@@ -1294,6 +1319,9 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
               <infoLinks>
                 <infoLink name="Power Fist" id="b8e0-2ee6-8f61-4713" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e3e7-7baf-634a-5f47" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Single Lightning Claw" hidden="false" id="7e50-fba4-d3e7-cdcf">
               <costs>
@@ -1302,6 +1330,9 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
               <infoLinks>
                 <infoLink name="Lightning Claws" id="e602-1f0c-ddfc-a057" hidden="false" type="profile" targetId="5f25-fc3f-2fbd-1d75"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4b6-4acb-239e-439f" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Pair of Lightning Claws" hidden="false" id="16b0-193a-daab-d1dc">
               <costs>
@@ -1310,10 +1341,17 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
               <infoLinks>
                 <infoLink name="Lightning Claws" id="fe2c-5bc6-226e-ccfb" hidden="false" type="profile" targetId="5f25-fc3f-2fbd-1d75"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e67d-cb39-02d6-7588" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink targetId="47cc-6cf7-39d2-838e" id="c5cf-2cd5-ac4e-d1d4" type="selectionEntry" name="Daemon Weapon" hidden="false"/>
+            <entryLink targetId="47cc-6cf7-39d2-838e" id="c5cf-2cd5-ac4e-d1d4" type="selectionEntry" name="Daemon Weapon" hidden="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d08-1ddf-11ff-1e99" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="c494-ad7b-222c-3a33-min"/>
@@ -1332,11 +1370,7 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink import="true" name="Combi-weapon" hidden="false" id="678e-f5cf-dcac-f10d" type="selectionEntry" targetId="d720-24d4-d7f1-df20">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-            </entryLink>
+            <entryLink import="true" name="Combi-weapon" hidden="false" id="678e-f5cf-dcac-f10d" type="selectionEntry" targetId="d720-24d4-d7f1-df20"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1329-dfd7-9c53-9b21"/>
@@ -1378,6 +1412,9 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
                 <infoLink name="Jump Infantry" id="88a8-2ee7-d91b-ffc7" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
                 <infoLink name="Deep Strike" id="59eb-a128-1b5c-8170" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6de7-415e-5b50-5ccd" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Bike" hidden="false" id="43f1-f194-4912-7c23">
               <costs>
@@ -1386,6 +1423,9 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
               <infoLinks>
                 <infoLink targetId="3326-67e1-a5e9-b3e7" id="c109-3abf-b0d8-186f" type="rule" name="Bike" hidden="false"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6952-99bf-8dc2-4ca2" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Demonic Steed" hidden="false" id="6e7b-6a6e-5d47-ffec">
               <costs>
@@ -1396,21 +1436,33 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
                   <infoLinks>
                     <infoLink name="Disc of Tzeentch" id="8423-942c-688a-fdd0" hidden="false" type="profile" targetId="9f73-e7ed-37c0-9531"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5ad2-7b28-2067-e6b4" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Mount of Slaanesh" hidden="false" id="4dcf-44b5-845c-0f23">
                   <infoLinks>
                     <infoLink name="Mount of Slaanesh" id="aa93-35ce-3819-545e" hidden="false" type="profile" targetId="8935-d9d6-00bf-d2cc"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="683a-c625-147e-6681" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Juggernaut of Khorne" hidden="false" id="d3dc-d629-e632-0a81">
                   <infoLinks>
                     <infoLink name="Juggernaut of Khorne" id="6243-f037-de0c-d7da" hidden="false" type="profile" targetId="b81c-d049-8385-dbb2"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f5fd-48b0-1748-b64d" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Palanquin of Nurgle" hidden="false" id="ead2-494c-b953-5ae3">
                   <infoLinks>
                     <infoLink name="Palanquin of Nurgle" id="b111-2603-3d9e-f1de" hidden="false" type="profile" targetId="23b6-cf6b-d5a0-ed40"/>
                   </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="136b-28b4-81c9-2c22" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntry>
               </selectionEntries>
               <constraints>
@@ -1419,6 +1471,9 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
               </constraints>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="72c7-b547-9b84-b235"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
@@ -1569,6 +1624,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Bolt Pistol" id="36d1-0c8a-0559-d118" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a32-5182-5d95-b67f" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="3199-0cb8-9eec-44f9">
               <costs>
@@ -1577,6 +1635,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Plasma Pistol" id="dc9a-6bab-187e-2446" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="345c-34ff-0dc1-f908" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1589,6 +1650,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Power Weapon" id="31d2-bd43-0af1-e4b9" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e88-024d-baac-64f8" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="80ee-6dc6-5a87-e639">
               <costs>
@@ -1597,6 +1661,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Power Fist" id="fb7e-855d-3bc0-0157" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0740-6c4e-5d7c-6c18" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Single Lightning Claw" hidden="false" id="dbc9-a5be-a919-e5eb">
               <costs>
@@ -1605,6 +1672,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Lightning Claws" id="cafb-375d-186c-594a" hidden="false" type="profile" targetId="5f25-fc3f-2fbd-1d75"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98d8-570a-39b3-ffc2" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Pair of Lightning Claws" hidden="false" id="b743-1c13-1149-6674">
               <costs>
@@ -1613,6 +1683,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Lightning Claws" id="d39e-39cf-368d-85bd" hidden="false" type="profile" targetId="5f25-fc3f-2fbd-1d75"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c00-bd6b-1c04-6ff9" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Chainfist" hidden="false" id="9892-1ee6-2df4-c36d">
               <costs>
@@ -1621,6 +1694,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Chain Fist" id="54b5-8b01-2d5b-91fb" hidden="false" type="profile" targetId="5151-d1aa-1f80-cb94"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a49-3cae-b97f-fc2f" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1628,6 +1704,9 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
               </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="788d-eb3e-9ad4-496c" includeChildSelections="false"/>
+              </constraints>
             </entryLink>
           </entryLinks>
           <constraints>
@@ -1644,14 +1723,13 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Twin-linked Bolter" id="4597-0e1a-4f2c-fccf" hidden="false" type="profile" targetId="0f1a-e452-e74a-284a"/>
               </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c2d0-a34f-e955-3a4c" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink import="true" name="Combi-weapon" hidden="false" id="e034-4305-5035-5a13" type="selectionEntry" targetId="d720-24d4-d7f1-df20">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-              </costs>
-            </entryLink>
+            <entryLink import="true" name="Combi-weapon" hidden="false" id="e034-4305-5035-5a13" type="selectionEntry" targetId="d720-24d4-d7f1-df20"/>
           </entryLinks>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="self" shared="true" id="5ef5-15b8-d9e4-cc61-min"/>
@@ -4330,7 +4408,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1d9b-6f93-dd47-ec20"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Biker Champion" hidden="false" id="9e96-5e05-f58a-2595" defaultAmount="">
+            <selectionEntry type="model" import="true" name="Biker Champion" hidden="false" id="9e96-5e05-f58a-2595">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="48"/>
               </costs>
