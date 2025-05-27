@@ -1154,8 +1154,8 @@ Roll to hit and wound as normal, allowing any invulnerable saving throws the vi
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
-        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
     <profile name="Mindlock" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="10a3-06dc-0087-35a7">
