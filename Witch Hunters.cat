@@ -736,11 +736,20 @@ Psyk-out weapons are non-descriminatory - should a psychic Witch Hunter be unfor
         <characteristic name="WS" typeId="3d9c-8977-9b95-824b">4</characteristic>
         <characteristic name="BS" typeId="ea47-07be-ab4a-6569">4</characteristic>
         <characteristic name="STR" typeId="a630-c404-957f-a49f">5</characteristic>
-        <characteristic name="F" typeId="3549-2d9e-3052-b396">12</characteristic>
+        <characteristic name="F" typeId="3549-2d9e-3052-b396">11</characteristic>
         <characteristic name="S" typeId="94fc-8af8-d4d4-7b1a">11</characteristic>
         <characteristic name="R" typeId="4eca-6e3c-2053-e75a">10</characteristic>
         <characteristic name="I" typeId="f706-f227-5d93-0fe3">4</characteristic>
         <characteristic name="A" typeId="12be-9dd2-0dd7-b17a">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Paragon Grenade Launchers" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="71d5-91ea-acd5-ba03">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -7169,6 +7178,41 @@ For the purposes of calculating Victory Points, Celestine is considered a casual
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Shoulder Mount" id="1676-05cb-38d1-ac18" hidden="false" defaultSelectionEntryId="5277-accd-eb5c-3b53">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Paragon Grenade Launchers" hidden="false" id="164f-9648-3041-d02f">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e5ad-48cd-e15a-74e3" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink targetId="71d5-91ea-acd5-ba03" id="e6f1-db4f-8914-c1dd" type="profile" name="Paragon Grenade Launchers" hidden="false"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Paragon Storm Bolters" hidden="false" id="5277-accd-eb5c-3b53">
+                  <profiles>
+                    <profile name="Paragon Storm Bolters" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4dfd-c862-1e31-31d0">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+                        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+                        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+                        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2, Twin-linked</characteristic>
+                        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7331-aecb-463c-9f1e" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="c15e-6aa6-7dd1-3235-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c15e-6aa6-7dd1-3235-max"/>
+              </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
