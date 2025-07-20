@@ -1959,6 +1959,11 @@ Each player then rolls a D6 and adds their model&apos;s leadership value to the 
         <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A Rosarius confers a 4+ Invulnerable save.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Hunting Lance" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="07b2-cb33-7ecf-a9b5">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">Rough Riders use their hunting lances the first time they charge into close combat, after which they cannot be used again. When they charge into close combat, a unit armed with hunting lances counts as being armed with power weapons that strike at strength and initiative 5. Models using a hunting lance cannot gain an extra attack from having an additional close combat weapon.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Combi-weapon" hidden="false" id="d720-24d4-d7f1-df20" defaultAmount="0">

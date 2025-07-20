@@ -7191,6 +7191,10 @@ For the purposes of calculating Victory Points, Celestine is considered a casual
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="9418-f00f-b83a-c374"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="4fbc-45d4-cd46-56fb"/>
+              </constraints>
             </selectionEntryGroup>
             <selectionEntryGroup name="Shoulder Mount" id="1676-05cb-38d1-ac18" hidden="false" defaultSelectionEntryId="5277-accd-eb5c-3b53">
               <selectionEntries>
