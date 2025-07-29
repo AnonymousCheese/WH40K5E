@@ -3721,7 +3721,7 @@ It is worth pointing out that some armies might use different versions of smoke
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="0ead-a258-d5e7-eeb4"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Hellhound" hidden="false" id="662c-10b3-4c2a-6fdf" collective="false">
+        <selectionEntry type="model" import="true" name="Hellhound" hidden="false" id="662c-10b3-4c2a-6fdf" collective="false" defaultAmount="1">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="130"/>
           </costs>
@@ -3973,7 +3973,7 @@ It is worth pointing out that some armies might use different versions of smoke
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Leman Russ Squadron" hidden="false" id="92e0-1714-ead2-08c7" collective="false">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Leman Russ Battle Tank" hidden="false" id="e901-3bc3-7439-81a9" collective="false">
+        <selectionEntry type="model" import="true" name="Leman Russ Battle Tank" hidden="false" id="e901-3bc3-7439-81a9" collective="false" defaultAmount="1">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="150"/>
           </costs>
@@ -5111,7 +5111,7 @@ It is worth pointing out that some armies might use different versions of smoke
         <constraint type="min" value="1" field="selections" scope="self" shared="true" id="ff60-2d70-3c6f-7eb7"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Basilisk" hidden="false" id="6af5-6ca1-045a-cde6" collective="false">
+        <selectionEntry type="model" import="true" name="Basilisk" hidden="false" id="6af5-6ca1-045a-cde6" collective="false" defaultAmount="1">
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="125"/>
           </costs>
@@ -7624,7 +7624,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="d7d7-48a9-2356-2587"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Combat Engineers" hidden="false" id="cde1-8691-1fa1-96bc" type="selectionEntry" targetId="6b1a-7335-f46b-3c2d" sortIndex="4">
+        <entryLink import="true" name="Death Korp Engineers" hidden="false" id="cde1-8691-1fa1-96bc" type="selectionEntry" targetId="6b1a-7335-f46b-3c2d" sortIndex="4">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9f37-dced-10c3-5aa0"/>
           </constraints>
@@ -8413,7 +8413,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink import="true" name="Death Heavy Weapon Team" hidden="false" id="b765-5a42-c7fa-46e9" type="selectionEntry" targetId="8853-ca5a-8733-0a9b">
+            <entryLink import="true" name="Death Korp Heavy Weapon Team" hidden="false" id="b765-5a42-c7fa-46e9" type="selectionEntry" targetId="8853-ca5a-8733-0a9b">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f313-93e6-25f0-8ecb"/>
               </constraints>
@@ -8919,7 +8919,7 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Large Blast</characteristic>
-            <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">The Cyclops carries a demolition charge that is detonated when the vehicle reaches its target. In the Imperial Guard Shooting phase, place the template centred on the Cyclops. Do not roll for scatter. Anything under the template is hit as normal. The Cyclops is destroyed in the explosion, remove it from play. </characteristic>
+            <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">The Cyclops carries a demolition charge that is detonated when the vehicle reaches its target. In the Imperial Guard Shooting phase, place the template centred on the Cyclops. Do not roll for scatter. Anything under the template is hit as normal. The Cyclops is destroyed in the explosion, remove it from play.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9286,7 +9286,7 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72&quot;</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
-        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1 (Shots with an oppressor cannon roll an additional D6 when rolling for armour penetration)</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Blast (Shots with an oppressor cannon roll an additional D3 when rolling for armour penetration)</characteristic>
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>

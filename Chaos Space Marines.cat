@@ -1156,6 +1156,7 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
               </costs>
               <infoLinks>
                 <infoLink name="Gift of Chaos" id="f316-4faf-cf8b-2d02" hidden="false" type="profile" targetId="c5a5-df47-f56e-8723"/>
+                <infoLink name="Chaos Spawn" id="158f-df21-d95b-af71" hidden="false" type="profile" targetId="f25c-f80a-75fa-d58f"/>
               </infoLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a31-7003-88f3-ccb3"/>
@@ -1831,6 +1832,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               </costs>
               <infoLinks>
                 <infoLink name="Gift of Chaos" id="1836-b93c-7fb1-b6c9" hidden="false" type="profile" targetId="c5a5-df47-f56e-8723"/>
+                <infoLink name="Chaos Spawn" id="6dea-e09e-58b6-ffc1" hidden="false" type="profile" targetId="f25c-f80a-75fa-d58f"/>
               </infoLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="97bc-7995-e671-b9b1"/>
@@ -2108,6 +2110,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               </costs>
               <infoLinks>
                 <infoLink name="Gift of Chaos" id="ca97-6282-f709-4b2e" hidden="false" type="profile" targetId="c5a5-df47-f56e-8723"/>
+                <infoLink name="Chaos Spawn" id="1f52-069e-ee19-738b" hidden="false" type="profile" targetId="f25c-f80a-75fa-d58f"/>
               </infoLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd82-ba74-8a98-9c01"/>
