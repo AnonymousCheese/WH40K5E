@@ -196,14 +196,6 @@
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd7c-fd2a-55cd-ed40"/>
           </constraints>
-          <entryLinks>
-            <entryLink import="true" name="Combat Weapon" hidden="false" id="5bf2-adaa-ef52-8839" type="selectionEntryGroup" targetId="f1e6-b6ba-1058-f815">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a0fa-a220-97b6-08e5"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef98-0fa9-b4f4-2e6f"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
         </entryLink>
         <entryLink import="true" name="Chimera Dedicated Transport" hidden="false" id="bbd7-2ec8-65a1-cbe9" type="selectionEntry" targetId="d678-774b-9976-ed5e">
           <constraints>
@@ -4131,7 +4123,7 @@ It is worth pointing out that some armies might use different versions of smoke
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Leman Russ Battle Tank" hidden="false" id="e901-3bc3-7439-81a9" collective="false" defaultAmount="">
+            <selectionEntry type="model" import="true" name="Leman Russ Battle Tank" hidden="false" id="e901-3bc3-7439-81a9" collective="false">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="150"/>
               </costs>
@@ -5117,7 +5109,7 @@ It is worth pointing out that some armies might use different versions of smoke
       <selectionEntryGroups>
         <selectionEntryGroup name="Battery" id="ef59-139e-55b4-6a90" hidden="false" defaultSelectionEntryId="6af5-6ca1-045a-cde6">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Basilisk" hidden="false" id="6af5-6ca1-045a-cde6" collective="false" defaultAmount="">
+            <selectionEntry type="model" import="true" name="Basilisk" hidden="false" id="6af5-6ca1-045a-cde6" collective="false">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="125"/>
               </costs>
