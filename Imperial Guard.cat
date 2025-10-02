@@ -3134,6 +3134,7 @@ It is worth pointing out that some armies might use different versions of smoke
         <infoLink name="Move Through Cover" id="7462-65f2-52d5-b5d0" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
         <infoLink name="Walker" id="5106-ecbb-cd00-9336" hidden="false" type="rule" targetId="fea1-2c4a-c33c-5600"/>
         <infoLink name="Open-topped" id="691d-fc4f-b064-0bc4" hidden="false" type="rule" targetId="21d9-2669-1dba-9fb2"/>
+        <infoLink name="Vehicle Squadron" id="fb2b-e5a8-3df1-360f" hidden="false" type="rule" targetId="9e05-992c-a147-f618"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Armoured Sentinel Squadron" hidden="false" id="4d8f-01a0-7f40-bbf4">

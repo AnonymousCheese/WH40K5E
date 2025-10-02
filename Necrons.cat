@@ -426,8 +426,8 @@
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">D6&quot;</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">X</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
-        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Special</characteristic>
-        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">See Eternity Gate</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">The Portal of Exile is treated as a shooting attack. When used, all enemy models (not units) that are within D6&quot; of the Monolith&apos;s portal, and have line of sight to it, must immediately pass a Strength test (models without a Strength value automatically pass) or be removed as casualties with no saves of any kind allowed. Roll separately for each individual model.</characteristic>
       </characteristics>
     </profile>
     <profile name="Gauntlet of Fire" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="23f1-293e-92d9-56ce">
@@ -471,7 +471,7 @@
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
-        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3, Gauss*</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3, Gauss</characteristic>
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">A Gauss Flux Arc can be fired at a different target unit to other weapons on the vehicle (including other gauss flux arcs) subject to the normal rules for shooting.</characteristic>
       </characteristics>
     </profile>
@@ -2733,13 +2733,8 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
       <profiles>
         <profile name="Eternity Gate" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="ff71-6bad-7887-9ca7">
           <characteristics>
-            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Eternity gate can be used in one of two ways in each of your turns, as a dimensional cooridor or a portal of exile. The eternity gate cannot be destroyed separately from the Monolith: 
-
-
-•Dimensional Corridor
-
-
-•Portal of Exile</characteristic>
+            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Eternity gate can be used in one of two ways in each of your turns, as a Dimensional corridor or a Portal of exile. The eternity gate cannot be destroyed separately from the Monolith.
+</characteristic>
           </characteristics>
         </profile>
         <profile name="Eternity Gate (Dimensional Corridor)" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="324d-7839-3d86-7168">
