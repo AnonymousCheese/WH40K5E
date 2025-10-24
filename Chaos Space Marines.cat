@@ -1000,6 +1000,7 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
         <infoLink name="Wind of Chaos" id="7c03-d5f6-cb69-835e" hidden="false" type="profile" targetId="d649-665c-8fb6-c97e"/>
         <infoLink name="Gift of Chaos" id="1602-e243-1f11-fe05" hidden="false" type="profile" targetId="c5a5-df47-f56e-8723"/>
         <infoLink name="Bolt of Change (Tzeentch only)" id="15c9-ee6f-8ec9-c2dd" hidden="false" type="profile" targetId="6e68-6f58-024f-b1ba"/>
+        <infoLink name="Chaos Spawn" id="2719-ea2d-0e57-465d" hidden="false" type="profile" targetId="f25c-f80a-75fa-d58f"/>
       </infoLinks>
       <profiles>
         <profile name="Black Staff of Ahriman" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="815a-bbbe-5db4-caad">

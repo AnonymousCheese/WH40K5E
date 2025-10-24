@@ -5011,8 +5011,8 @@ It is worth pointing out that some armies might use different versions of smoke
                 <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72&quot;</characteristic>
                 <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
                 <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
-                <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2</characteristic>
-                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+                <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2, Twin-linked</characteristic>
+                <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
               </characteristics>
             </profile>
             <profile name="Twin-linked Hydra autocannons" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="85b5-6e32-9938-483b">
@@ -5020,8 +5020,8 @@ It is worth pointing out that some armies might use different versions of smoke
                 <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72&quot;</characteristic>
                 <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
                 <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
-                <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2</characteristic>
-                <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+                <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2, Twin-linked</characteristic>
+                <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
               </characteristics>
             </profile>
             <profile name="Auto-targeting System" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="bf4b-a299-197c-dc2c">
@@ -6217,7 +6217,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
             <constraint type="max" value="1" field="selections" scope="self" shared="true" id="32ad-e9ba-30f9-5dc9"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Hull Weapon" id="b603-cd4c-2d7c-24d9" hidden="false">
+        <selectionEntryGroup name="Hull Weapon" id="b603-cd4c-2d7c-24d9" hidden="false" defaultSelectionEntryId="ad42-2482-1338-db93">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Castigator Gatling Cannon" hidden="false" id="ad42-2482-1338-db93">
               <infoLinks>
@@ -6239,6 +6239,10 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="3186-de50-b5f1-0dbc"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="828e-1ec5-8843-8c26" includeChildSelections="false"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <selectionEntries>
@@ -6455,7 +6459,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
                       <profiles>
                         <profile name="Power Maul" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="a249-16ca-6e32-1fa6">
                           <characteristics>
-                            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a power weapon. additionally, all models that suffer an unsaved wound from a thunder hammer and are not killed will be knocked reeling, reducing their Initiative to a value of 1 until the end of the next player’s turn.</characteristic>
+                            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a power weapon. additionally, all models that suffer an unsaved wound from a Power Maul and are not killed will be knocked reeling, reducing their Initiative to a value of 1 until the end of the next player’s turn.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -6562,9 +6566,9 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
                       </costs>
                       <profiles>
-                        <profile name="Power Maul" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="6a3a-c04a-2d74-4ccc">
+                        <profile name="Power Maul" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="92e5-743b-bad9-da70">
                           <characteristics>
-                            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a power weapon. additionally, all models that suffer an unsaved wound from a thunder hammer and are not killed will be knocked reeling, reducing their Initiative to a value of 1 until the end of the next player’s turn.</characteristic>
+                            <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a power weapon. additionally, all models that suffer an unsaved wound from a Power Maul and are not killed will be knocked reeling, reducing their Initiative to a value of 1 until the end of the next player’s turn.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
