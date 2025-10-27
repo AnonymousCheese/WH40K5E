@@ -3727,6 +3727,16 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
                     <constraint type="min" value="2" field="selections" scope="self" shared="true" id="3be7-84d7-cc78-cb94-min"/>
                     <constraint type="max" value="2" field="selections" scope="self" shared="true" id="3be7-84d7-cc78-cb94-max"/>
                   </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Combi-weapon" hidden="false" id="2ebc-9252-6a67-a0ad" type="selectionEntry" targetId="d720-24d4-d7f1-df20">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d1a5-be59-3d86-1cb2"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <selectionEntries>
@@ -10118,6 +10128,11 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
     <entryLink import="true" name="Terminator Chaplain" hidden="false" id="3ff8-b495-a264-54b8" type="selectionEntry" targetId="f0ab-42ae-0095-6f63">
       <categoryLinks>
         <categoryLink targetId="ac8d-efba-1884-d3ad" id="f035-9f01-3997-86c3" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Terminator Librarian" hidden="false" id="c73f-1ea2-a259-40fc" type="selectionEntry" targetId="158d-279f-67ca-94b1">
+      <categoryLinks>
+        <categoryLink targetId="ac8d-efba-1884-d3ad" id="0722-d5fe-5145-0d24" primary="true" name="HQ"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
