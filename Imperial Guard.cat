@@ -6123,10 +6123,10 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
       </costs>
       <infoLinks>
         <infoLink name="Rogal Dorn" id="fb72-5a78-709c-8b48" hidden="false" type="profile" targetId="8078-26a2-e0ee-6a72"/>
-        <infoLink name="Extra Armour" id="dc47-2491-6c05-df17" hidden="false" type="profile" targetId="ec58-94f7-12e5-a9b9"/>
         <infoLink name="Smoke Launchers" id="fc7a-f93a-2362-1fe4" hidden="false" type="profile" targetId="180e-ad4b-4df0-81ae"/>
         <infoLink name="Searchlight" id="f6aa-2910-2914-2c87" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
-        <infoLink name="Tank" id="613f-4596-6a30-c571" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
+        <infoLink name="Super-Heavy Vehicle" id="9061-ee6c-c4dc-b0f0" hidden="false" type="rule" targetId="d740-8c38-4a3f-9f85"/>
+        <infoLink name="Super-Heavy Tank" id="3aab-500f-bf63-91dc" hidden="false" type="rule" targetId="a1eb-f5b7-8211-8840"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Turret" id="8335-15c1-1207-6c25" hidden="false" defaultSelectionEntryId="3bc3-dabf-8a79-e7dc">
@@ -6261,13 +6261,6 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
       <entryLinks>
         <entryLink import="true" name="Camo Netting" hidden="false" id="992b-0cec-c9a6-64aa" type="selectionEntry" targetId="85df-b220-bf8a-f306"/>
       </entryLinks>
-      <profiles>
-        <profile name="Lumbering Behemoth" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="c9e4-8b49-743b-fdf2">
-          <characteristics>
-            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Rogal Dorn that moved at combat speed or remained stationary can fire it&apos;s turret weapon in addition to any other weapons it is usually allowed to fire (even if the turret weapon is ordnance). However, a Rogal Dorn travelling at cruising speed can only move up to D6+6&quot; - roll every time it moves at this speed.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Psyker Battle Squad" hidden="false" id="15e8-8b2a-1146-5c7d">
       <selectionEntryGroups>
@@ -8907,7 +8900,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
             <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The Cyclops is remote controlled. It may move to within 1&quot; of an enemy model in the Movement phase.
 
 
-The operator is a single Death Korps of Krieg guardsman. He guides the Cyclops to its target via remote control. The Cyclops cannot function more than 48&quot; away from its operator. If they become separated, the Cyclops simple stops and can do nothing until its operator is back within 48&quot;. If the operator is killed, the Cyclops can do nothing (including detonate).
+The operator is a single Engineer. He guides the Cyclops to its target via remote control. The Cyclops cannot function more than 48&quot; away from its operator. If they become separated, the Cyclops simple stops and can do nothing until its operator is back within 48&quot;. If the operator is killed, the Cyclops can do nothing (including detonate).
 
 
  As a remote vehicle, the Cyclops is destroyed by any glancing or penetrating hit. When rolling for armour penetration, if a weapon scores a 6 and this results in a penetrating hit against the Cyclops, the demolition charge is detonated and it explodes. Place the Ordnance template centred on the Cyclops as if it detonated as normal. Note that a roll of a 6 that causes a glancing hit will not cause the Cyclops to explode.
@@ -8936,6 +8929,207 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
         <infoLink targetId="e5fb-341e-b2d1-65ef" id="a70a-e821-a2c5-36fa" type="profile" name="Cyclops" hidden="false"/>
         <infoLink name="Death Korp Engineer" id="9fd6-a15d-4a62-4868" hidden="false" type="profile" targetId="8c2e-bdc7-553d-d677"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Baneblade" hidden="false" id="dded-2c7b-b274-21de">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="500"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Baneblade" id="9671-9796-16ac-be8c" hidden="false" type="profile" targetId="7620-af75-c649-cadd"/>
+        <infoLink name="Baneblade Cannon" id="9de7-04f6-3f36-707b" hidden="false" type="profile" targetId="3322-04dd-bd06-271c"/>
+        <infoLink name="Autocannon" id="6457-49a7-16b8-e2fd" hidden="false" type="profile" targetId="0439-7ae4-6bcf-50ac"/>
+        <infoLink name="Demolisher Siege Cannon" id="152a-380b-4e9e-2492" hidden="false" type="profile" targetId="89e8-d621-834c-b6c1"/>
+        <infoLink name="Smoke Launchers" id="87c9-f05b-72d8-970e" hidden="false" type="profile" targetId="180e-ad4b-4df0-81ae"/>
+        <infoLink name="Searchlight" id="8a35-0188-1856-f06e" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Loadout" id="2988-3aca-ada1-4b45" hidden="false" defaultSelectionEntryId="8a4e-2209-6eb7-ee78">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Extra Armour" hidden="false" id="de3c-9e1b-0495-b4c1">
+              <profiles>
+                <profile name="Extra Armour" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="c2bf-5edc-d6bf-d751">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Vehicle&apos;s side armour is increased to 14.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f0b-e03b-3974-4110" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Two Sponsons" hidden="false" id="8a4e-2209-6eb7-ee78">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b3d2-a55b-4822-6fde" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon" id="2509-10fd-6acb-2aee" hidden="false" defaultSelectionEntryId="d1c5-32f9-2140-f0a8">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Twin-linked Heavy Bolter" hidden="false" id="d1c5-32f9-2140-f0a8" collective="true">
+                      <infoLinks>
+                        <infoLink name="Twin-linked Heavy Bolter" id="e0d8-6603-4800-720a" hidden="false" type="profile" targetId="684d-431d-f854-d4fd"/>
+                        <infoLink name="Twin-linked Heavy Bolter" id="c407-d30b-a4ad-721d" hidden="false" type="profile" targetId="684d-431d-f854-d4fd"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f7d-8c0f-b1b0-e25c" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin-linked Heavy Flamer" hidden="false" id="880a-edc6-c042-74cf" collective="true">
+                      <infoLinks>
+                        <infoLink name="Twin-linked Heavy Flamer" id="2f63-8414-daa7-74ae" hidden="false" type="profile" targetId="ac52-5bdd-8a29-3bb1"/>
+                        <infoLink name="Twin-linked Heavy Flamer" id="0aab-a5a4-39f1-00f1" hidden="false" type="profile" targetId="ac52-5bdd-8a29-3bb1"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="56a7-581d-2fd8-1548" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="5a4c-fc4f-4c17-0b52-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5a4c-fc4f-4c17-0b52-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <infoLinks>
+                <infoLink name="Lascannon" id="21a7-f0cc-ca35-39a2" hidden="false" type="profile" targetId="2965-8d8c-d5b0-8aa1"/>
+                <infoLink name="Lascannon" id="5d47-a8da-8437-2d21" hidden="false" type="profile" targetId="2965-8d8c-d5b0-8aa1"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Four Sponsons" hidden="false" id="0a13-ec2d-717e-4941">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="100"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ec0-a35f-644e-38b0" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapon" id="888d-d48e-a5f7-75ea" hidden="false" defaultSelectionEntryId="d710-0d59-a31d-acbb">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Twin-linked Heavy Bolter" hidden="false" id="d710-0d59-a31d-acbb" collective="true">
+                      <infoLinks>
+                        <infoLink name="Twin-linked Heavy Bolter" id="d5f6-8ee1-f5f2-1800" hidden="false" type="profile" targetId="684d-431d-f854-d4fd"/>
+                        <infoLink name="Twin-linked Heavy Bolter" id="c57d-e1bf-81d2-55f1" hidden="false" type="profile" targetId="684d-431d-f854-d4fd"/>
+                        <infoLink name="Twin-linked Heavy Bolter" id="5e86-2d5f-7bd0-0a16" hidden="false" type="profile" targetId="684d-431d-f854-d4fd"/>
+                        <infoLink name="Twin-linked Heavy Bolter" id="5a82-da8f-9689-84cb" hidden="false" type="profile" targetId="684d-431d-f854-d4fd"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e6e4-a711-0e57-2a09" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin-linked Heavy Flamer" hidden="false" id="7fad-ccd5-f546-0f42" collective="true">
+                      <infoLinks>
+                        <infoLink name="Twin-linked Heavy Flamer" id="7ecd-756b-dde2-5aad" hidden="false" type="profile" targetId="ac52-5bdd-8a29-3bb1"/>
+                        <infoLink name="Twin-linked Heavy Flamer" id="d1f8-f929-2576-c86a" hidden="false" type="profile" targetId="ac52-5bdd-8a29-3bb1"/>
+                        <infoLink name="Twin-linked Heavy Flamer" id="53c4-2d66-a609-b812" hidden="false" type="profile" targetId="ac52-5bdd-8a29-3bb1"/>
+                        <infoLink name="Twin-linked Heavy Flamer" id="9574-601c-7b79-6df1" hidden="false" type="profile" targetId="ac52-5bdd-8a29-3bb1"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c13e-eec2-b36e-9c70" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="03cb-1649-ab75-4104-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="03cb-1649-ab75-4104-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <infoLinks>
+                <infoLink name="Lascannon" id="e3cd-cee0-a920-6c75" hidden="false" type="profile" targetId="2965-8d8c-d5b0-8aa1"/>
+                <infoLink name="Lascannon" id="39ae-1290-d724-6a51" hidden="false" type="profile" targetId="2965-8d8c-d5b0-8aa1"/>
+                <infoLink name="Lascannon" id="80c2-312e-5785-9a86" hidden="false" type="profile" targetId="2965-8d8c-d5b0-8aa1"/>
+                <infoLink name="Lascannon" id="28fa-1089-4118-3a3a" hidden="false" type="profile" targetId="2965-8d8c-d5b0-8aa1"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="ce81-3407-5565-fb04-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="ce81-3407-5565-fb04-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Pintle-Mount" id="4d9b-af59-5765-82e5" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Heavy Stubber" hidden="false" id="2d19-bd18-48f4-3798">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Heavy Stubber" id="eecf-f042-2be6-12cd" hidden="false" type="profile" targetId="18dc-70dc-46bc-2834"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7bb9-faac-c5df-0c18" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="3e82-8715-7839-66ce">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Storm Bolter" id="28f4-2b79-b69a-a0f1" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b2d-8d67-f575-1429" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="14b3-def3-ba96-7cbe"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Upgrades" id="df34-3798-6440-4f41" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Commissariat Crew" hidden="false" id="80d4-c93e-8194-47c5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <profiles>
+                <profile name="Commissariat Crew" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="de02-6be3-1e35-7ed8">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Any Imperial Guard unit within 12&quot;of a Baneblade with Commissariat Crew count their Leadership value as 10.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b492-5285-9032-2e93" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Command Tank" hidden="false" id="dfb3-266a-6e10-9bb4">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+              </costs>
+              <profiles>
+                <profile name="Command Tank" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="a36d-551a-cebf-09f4">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">All Imperial Guard units within 24&quot; of a Baneblade Command Tank may re-roll failed Morale checks.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="801b-a29a-45fe-8f45" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5f74-fdaa-9b40-c12c"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Hunter-Killer Missile" hidden="false" id="d565-2787-131d-1579">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f655-895d-df0c-ca6a" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Hunter-Killer Missile" id="bc41-13ef-8204-9f8a" hidden="false" type="profile" targetId="ecc5-0991-ef00-23ac"/>
+            <infoLink name="Hunter-Killer Missile" id="c9b6-bec1-0760-6bf5" hidden="false" type="profile" targetId="5409-a843-ef82-6a9e"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="487a-17d0-4e42-7172" primary="true" name="Heavy Support"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -9020,7 +9214,7 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Chem Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="9c39-b43a-3a39-94e7">
@@ -9029,7 +9223,7 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">1</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy, Poisoned (2+)</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Demolition Charge" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="5257-38e9-039a-1a90">
@@ -9038,7 +9232,7 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Large Blast, One Shot Only</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Eradicator Nova Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="7482-4f26-f568-a0aa">
@@ -9047,7 +9241,7 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy, Large Blast</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Executioner Plasma Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="9a66-388c-2031-4e20">
@@ -9056,7 +9250,7 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3, Blast</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Exterminator Autocannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="498a-9532-02ef-e521">
@@ -9065,7 +9259,7 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 4, Twin-linked</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Guardsman" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="b2de-546d-01f6-63e5">
@@ -9155,7 +9349,7 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">X</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol, Sniper</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Camo Netting" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="6d53-02aa-4b3e-2123">
@@ -9182,7 +9376,7 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Melta, Blast</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Inferno Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e55b-09f1-6879-96a1">
@@ -9200,7 +9394,7 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">1</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Poisoned (2+)</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Hellstrike Missiles" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="b414-a702-d75c-507e">
@@ -9209,7 +9403,7 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, One Shot</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Multiple rocket pods" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e67a-1686-a377-67d8">
@@ -9218,7 +9412,7 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Large Blast</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="For the Honour of Cadia!" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="7e34-8f18-ea16-d83e">
@@ -9242,7 +9436,7 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Bulky" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="1c0a-0c56-c294-9c52">
@@ -9264,12 +9458,13 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
         <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
-    <profile name="Rogal Dorn" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="8078-26a2-e0ee-6a72">
+    <profile name="Rogal Dorn" typeId="4f6f-b40f-36fb-7ece" typeName="Super-Heavy Vehicle" hidden="false" id="8078-26a2-e0ee-6a72">
       <characteristics>
-        <characteristic name="BS" typeId="b539-c71b-9239-8da0">3</characteristic>
-        <characteristic name="F" typeId="84f1-6495-b3c8-6025">14</characteristic>
-        <characteristic name="S" typeId="38b6-8429-f0fd-11cb">14</characteristic>
-        <characteristic name="R" typeId="10a0-8c50-f9d5-466b">11</characteristic>
+        <characteristic name="BS" typeId="c083-0548-101e-0f69">3</characteristic>
+        <characteristic name="F" typeId="ccd0-0f66-453c-e26b">14</characteristic>
+        <characteristic name="S" typeId="3f4c-12d9-90e8-3794">13</characteristic>
+        <characteristic name="R" typeId="5972-c096-9c99-ea47">10</characteristic>
+        <characteristic name="Structure Points" typeId="0a2a-2e66-c248-4b50">2</characteristic>
       </characteristics>
     </profile>
     <profile name="Battle Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="681b-749e-e193-d646">
@@ -9941,9 +10136,9 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
         <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
       </characteristics>
     </profile>
-    <profile name="Death Korp Engineer" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="8c2e-bdc7-553d-d677">
+    <profile name="Engineer" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="8c2e-bdc7-553d-d677">
       <characteristics>
-        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">3</characteristic>
         <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
         <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
         <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
@@ -9951,19 +10146,6 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
         <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">7</characteristic>
-        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Engineer Watchmaster" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="b453-defa-8cf6-f489">
-      <characteristics>
-        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
-        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">3</characteristic>
-        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
-        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
-        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
-        <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
-        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
-        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
         <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
       </characteristics>
     </profile>
@@ -9999,6 +10181,24 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
         <characteristic name="F" typeId="84f1-6495-b3c8-6025">10</characteristic>
         <characteristic name="S" typeId="38b6-8429-f0fd-11cb">10</characteristic>
         <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Baneblade" typeId="4f6f-b40f-36fb-7ece" typeName="Super-Heavy Vehicle" hidden="false" id="7620-af75-c649-cadd">
+      <characteristics>
+        <characteristic name="BS" typeId="c083-0548-101e-0f69">3</characteristic>
+        <characteristic name="F" typeId="ccd0-0f66-453c-e26b">14</characteristic>
+        <characteristic name="S" typeId="3f4c-12d9-90e8-3794">13</characteristic>
+        <characteristic name="R" typeId="5972-c096-9c99-ea47">12</characteristic>
+        <characteristic name="Structure Points" typeId="0a2a-2e66-c248-4b50">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Baneblade Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="3322-04dd-bd06-271c">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, 10&quot; Blast, Primary Weapon</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -10232,34 +10432,14 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
         <categoryLink targetId="ac8d-efba-1884-d3ad" id="95be-900a-cd1b-f8aa" primary="true" name="HQ"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Death Korp Command Squad" hidden="false" id="16e5-3b32-99b2-bc20" type="selectionEntry" targetId="6117-4563-dd89-1af3">
-      <categoryLinks>
-        <categoryLink targetId="ac8d-efba-1884-d3ad" id="e1d3-66f5-2233-b24a" primary="true" name="HQ"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Death Rider Company Commander" hidden="false" id="822b-bedd-aff8-923c" type="selectionEntry" targetId="d972-b719-cd0a-4f40">
-      <categoryLinks>
-        <categoryLink targetId="ac8d-efba-1884-d3ad" id="e02f-dd94-bba6-6935" primary="true" name="HQ"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Death Korps Grenadier" hidden="false" id="0c1f-93cf-559a-cbe7" type="selectionEntry" targetId="b20d-8490-3b0b-86da">
-      <categoryLinks>
-        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="8cac-5ccc-cd44-aeea" primary="true" name="Elites"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Death Korp Infantry Platoon" hidden="false" id="8e6e-2d08-07a2-b987" type="selectionEntry" targetId="b04d-95e6-99f8-3ffe">
-      <categoryLinks>
-        <categoryLink targetId="default-category" id="6a97-6959-4027-d9aa" primary="true" name="Troops"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Death Rider Squad" hidden="false" id="cc3c-592f-ba52-3a77" type="selectionEntry" targetId="5637-8e1c-b25a-5bd7">
-      <categoryLinks>
-        <categoryLink targetId="74fe-37c3-fbbf-849e" id="ee04-86f8-a636-26c6" primary="true" name="Fast Attack"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink import="true" name="Cyclops Remote Control Demolition Vehicle" hidden="false" id="e649-bdda-6947-5f56" type="selectionEntry" targetId="87e4-5fb5-9d17-b129">
       <categoryLinks>
         <categoryLink targetId="74fe-37c3-fbbf-849e" id="f3dd-9e71-b3c6-e06a" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Baneblade" hidden="false" id="153f-d458-3027-effe" type="selectionEntry" targetId="dded-2c7b-b274-21de">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="1c93-0e05-1a19-fca3" primary="true" name="Heavy Support"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

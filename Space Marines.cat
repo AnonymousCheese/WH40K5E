@@ -5893,7 +5893,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 4, Blast</characteristic>
-            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
           </characteristics>
         </profile>
         <profile name="Airburst" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="2506-0896-9199-f03f">
@@ -5902,7 +5902,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 4, Blast, Ignores Cover</characteristic>
-            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
           </characteristics>
         </profile>
         <profile name="Subterranean Blast" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="c5e0-7ecf-5ecf-2f6e">
@@ -5911,7 +5911,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 4, Blast, Tremor (Any unit hit by a subterranean blast will move as if in difficult terrain in its following Movement phase. If the unit is actually moving through difficult terrain, it rolls one less dice than normal to determine its maximum move. A vehicle hit by a Tremor shell must take a dangerous terrain test if it moves in the following Movement phase. This even applies to skimmers.</characteristic>
-            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6089,7 +6089,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Barrage</characteristic>
-            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
           </characteristics>
         </profile>
         <profile name="Whirlwind Multiple Missile Launcher (Incendiary Castellan Missiles)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="dfbd-5aaf-f84c-01c7">
@@ -6098,7 +6098,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Barrage, Ignore Cover</characteristic>
-            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6177,7 +6177,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1</characteristic>
-            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6703,7 +6703,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                     <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
                     <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
                     <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 4</characteristic>
-                    <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+                    <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6750,7 +6750,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                     <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
                     <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
                     <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
-                    <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+                    <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6819,7 +6819,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                     <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
                     <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
                     <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast</characteristic>
-                    <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+                    <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
                   </characteristics>
                 </profile>
                 <profile name="Vortex of Doom" typeId="8c68-ad11-33db-e3c4" typeName="Psychic Power" hidden="false" id="3108-3967-1a59-287c">
@@ -6857,7 +6857,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Master-crafted, Hellfire rounds</characteristic>
-            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
           </characteristics>
         </profile>
         <profile name="Infernus (Flamer)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="5ece-243f-6de1-6c30">
@@ -6866,7 +6866,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Combi</characteristic>
-            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6920,7 +6920,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 4</characteristic>
-            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
           </characteristics>
         </profile>
       </profiles>
@@ -7751,7 +7751,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
-            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
           </characteristics>
         </profile>
         <profile name="Spear of Vulkan" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="cf74-9eec-af8e-48ad">
@@ -9640,7 +9640,7 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">X</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Poisoned (2+)</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Hellfire Rounds" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="43e4-63b6-176d-07fa">
@@ -9744,7 +9744,7 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Astartes Grenade Launcher (Frag)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="30dc-7722-86b5-be37">
@@ -9753,7 +9753,7 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Blast</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Rosarius" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="3b72-5db6-baa8-690f">

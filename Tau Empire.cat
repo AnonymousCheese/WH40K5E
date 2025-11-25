@@ -7,7 +7,7 @@
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Ion Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="ff89-d19b-9322-0a8a">
@@ -16,7 +16,7 @@
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Kroot Rifle" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0b20-adf3-1c14-da78">
@@ -25,7 +25,7 @@
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire (The bearer count as having two single-handed weapons in close combat)</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Kroot Gun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="1e3b-5b14-d27d-60d7">
@@ -34,7 +34,7 @@
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Markerlight" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="b97e-6810-4cc5-f2d9">

@@ -48,19 +48,19 @@
     <costType name="Points" id="6f18-a8fc-2c5b-9517" defaultCostLimit="-1"/>
   </costTypes>
   <profileTypes>
-    <profileType name="Abilities" id="ccb3-7790-3139-7975" hidden="false">
+    <profileType name="Abilities" id="ccb3-7790-3139-7975" hidden="false" kind="ability">
       <characteristicTypes>
         <characteristicType name="Description" id="e24a-6018-20cf-d76c"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Transport" id="9a37-e4d2-11fe-9e81" hidden="false">
+    <profileType name="Transport" id="9a37-e4d2-11fe-9e81" hidden="false" kind="model">
       <characteristicTypes>
         <characteristicType name="Capacity" id="7cdf-4c80-a83d-200c"/>
         <characteristicType name="Access Points" id="6e42-3bd5-70a6-724f"/>
         <characteristicType name="Fire Points" id="aa94-ae0c-98e7-5923"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Unit" id="0967-823d-dd82-4e47" hidden="false">
+    <profileType name="Unit" id="0967-823d-dd82-4e47" hidden="false" kind="model">
       <characteristicTypes>
         <characteristicType name="WS" id="15b1-a34a-6e7c-332e"/>
         <characteristicType name="BS" id="63a5-4be2-9cc0-7723"/>
@@ -73,7 +73,7 @@
         <characteristicType name="Sv" id="c1e7-f1bd-8acd-7595"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Weapons" id="8e6f-7553-28c5-95a0" hidden="false">
+    <profileType name="Weapons" id="8e6f-7553-28c5-95a0" hidden="false" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Range" id="9b9e-0c24-e409-a801"/>
         <characteristicType name="Str." id="1ebc-896c-43de-904a"/>
@@ -82,17 +82,17 @@
         <characteristicType name="Notes" id="45fd-0f50-e1d0-907c"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Melee Weapons" id="1d88-1369-f0ed-b39c" hidden="false">
+    <profileType name="Melee Weapons" id="1d88-1369-f0ed-b39c" hidden="false" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Ability" id="2113-98a2-4376-a94c"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Wargear" id="456a-26d9-cb27-bd5c" hidden="false">
+    <profileType name="Wargear" id="456a-26d9-cb27-bd5c" hidden="false" kind="weapon">
       <characteristicTypes>
         <characteristicType name="Description" id="9e5e-2cfd-7c93-749a"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Vehicle" id="0092-3322-1b28-b657" hidden="false">
+    <profileType name="Vehicle" id="0092-3322-1b28-b657" hidden="false" kind="model">
       <characteristicTypes>
         <characteristicType name="BS" id="b539-c71b-9239-8da0"/>
         <characteristicType name="F" id="84f1-6495-b3c8-6025"/>
@@ -100,7 +100,7 @@
         <characteristicType name="R" id="10a0-8c50-f9d5-466b"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Walker Vehicle" id="acd3-2539-3641-1250" hidden="false">
+    <profileType name="Walker Vehicle" id="acd3-2539-3641-1250" hidden="false" kind="model">
       <characteristicTypes>
         <characteristicType name="WS" id="3d9c-8977-9b95-824b"/>
         <characteristicType name="BS" id="ea47-07be-ab4a-6569"/>
@@ -112,9 +112,18 @@
         <characteristicType name="A" id="12be-9dd2-0dd7-b17a"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Psychic Power" id="8c68-ad11-33db-e3c4" hidden="false">
+    <profileType name="Psychic Power" id="8c68-ad11-33db-e3c4" hidden="false" kind="spell">
       <characteristicTypes>
         <characteristicType name="Power" id="1638-2569-4ea3-9b0a"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Super-Heavy Vehicle" id="4f6f-b40f-36fb-7ece" hidden="false" kind="model">
+      <characteristicTypes>
+        <characteristicType name="BS" id="c083-0548-101e-0f69"/>
+        <characteristicType name="F" id="ccd0-0f66-453c-e26b"/>
+        <characteristicType name="S" id="3f4c-12d9-90e8-3794"/>
+        <characteristicType name="R" id="5972-c096-9c99-ea47"/>
+        <characteristicType name="Structure Points" id="0a2a-2e66-c248-4b50"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -579,7 +588,7 @@ For example, a squad of Space Marine Devastators opens fire against a squadron 
 When engaged in close combat against a squadron, enemy models roll to hit and for armour penetration against the squadron as a whole. Damage results have the same effect as described above, and are allocated against the squadron at each Initiative value, in the same way as a normal combat. As usual for combats against vehicles, there is no defenders’ reaction, combat resolution, pile-in moves, consolidation, etc.</description>
     </rule>
     <rule name="Super-Heavy Vehicle" id="d740-8c38-4a3f-9f85" hidden="false">
-      <description>See Super-Heavy Damage Table, Catastrophic Damage Table, Damage Control
+      <description>See Structure Points, Super-Heavy Damage Table, Catastrophic Damage Table, Damage Control
 
 
 Super-heavy vehicles behave on the battlefield like all other vehicles, with the exceptions below. The main difference is that they have Structure Points, which work similarly to Wounds.
@@ -603,7 +612,7 @@ Just like Gargantuan creatures, Super-Heavy Vehicles are not affected by Psychic
       <description>Glancing and Penetrating hits have a chance of inflicting the loss of Structure points, and only by reducing their Structure Points to 0 can a Super-Heavy vehicle be destroyed.
 
 
-Against Super-Heavy vehicles, enemies roll to hit and to penetrate armour exactly as with normal vehicles. If a glancing or penetrating hit is scored, the player must then roll a dice and consult the Super-heavy Damage table. If a glancing hit is scored, subtract 2 from the dice score, and when a destroyer weapon scores a hit, add 1 to the dice score.
+Against Super-Heavy vehicles, enemies roll to hit and to penetrate armour exactly as with normal vehicles. If a glancing or penetrating hit is scored, the player must then roll a dice and consult the Super-heavy Damage Table. If a glancing hit is scored, subtract 2 from the dice score, and when a destroyer weapon scores a hit, add 1 to the dice score.
 
 
 If a result reduces the target Super-Heavy vehicle to 0 Structure Points, it is destroyed - immediately roll one dice on the Catastrophic Damage table and apply the results.
@@ -679,6 +688,12 @@ Note that this cannot be used to restore Void Shields, which are rolled for sepa
 
 
 If you decide to split the unit into combat squads, then each combat squad is treated as a separate unit for all game purposes from that point.</description>
+    </rule>
+    <rule name="Primary Weapon" id="fa44-d448-227b-6f6b" hidden="false">
+      <description>Primary Weapons always count as Ordnance for the purposes of rolling for armour penetration and on vehicle damage charts.
+
+
+In addition, whenever a primary weapon is affected by a Gun Crew Shaken or Weapon Destroyed result, the controlling player must roll a dice. On a result of 1-3 the primary weapon is shaken/destroyed as normal, but on a 4-6 the hit has no effect.</description>
     </rule>
   </sharedRules>
   <publications>
@@ -1174,7 +1189,7 @@ Roll to hit and wound as normal, allowing any invulnerable saving throws the vi
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Stalker Pattern Boltgun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="1e5a-8a0a-984b-4148">
@@ -1183,7 +1198,7 @@ Roll to hit and wound as normal, allowing any invulnerable saving throws the vi
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2, Rending, Pinning</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Acute Senses" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="253f-bb05-f8fd-fffd">
@@ -1452,7 +1467,7 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Twin-linked Multi-melta" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4ab3-9893-48a6-9e2a">
@@ -1479,7 +1494,7 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A vehicle with the Supersonic rule that moves flat out may move up to 36&quot;.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Demolisher Siege Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="89e8-d621-834c-b6c1">
+    <profile name="Demolisher Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="89e8-d621-834c-b6c1">
       <characteristics>
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
@@ -1613,7 +1628,7 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Lasgun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="3d2e-5448-edbf-a00a">
@@ -1622,7 +1637,7 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Mortar" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="f2c6-50ba-e87d-bd29">
@@ -1631,7 +1646,7 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Blast, Barrage</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Hot-shot Lasgun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="f28e-7823-c8a6-457f">
@@ -1640,7 +1655,7 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Hot-shot Laspistol" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="d57f-df99-38fa-f6ab">
@@ -1649,7 +1664,7 @@ If a walker is armed with two or more close combat weapons, it gains one bonus 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
       </characteristics>
     </profile>
     <profile name="Vanquisher Battle Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0888-73c5-4c5a-3b37">
@@ -2280,7 +2295,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1</characteristic>
-            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2375,7 +2390,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Barrage</characteristic>
-            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
           </characteristics>
         </profile>
         <profile name="Whirlwind Multiple Missile Launcher (Incendiary Castellan Missiles)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="dfbd-5aaf-f84c-01c7">
@@ -2384,7 +2399,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
             <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
             <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
             <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Barrage, Ignore Cover</characteristic>
-            <characteristic typeId="45fd-0f50-e1d0-907c" name="New Characteristic Type"/>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
           </characteristics>
         </profile>
       </profiles>
