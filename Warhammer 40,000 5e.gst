@@ -30,6 +30,11 @@
     </categoryEntry>
     <categoryEntry name="Dedicated Transport" id="168b-a772-94f7-83f5" hidden="false"/>
     <categoryEntry name="Unique" id="1f0d-7d41-7ef9-ce4a" hidden="false"/>
+    <categoryEntry name="Super-Heavy" id="5968-f35e-18fd-612b" hidden="false">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6b87-b497-7b84-2c68" includeChildSelections="false"/>
+      </constraints>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Default Force" hidden="false" id="default-force">
@@ -124,6 +129,19 @@
         <characteristicType name="S" id="3f4c-12d9-90e8-3794"/>
         <characteristicType name="R" id="5972-c096-9c99-ea47"/>
         <characteristicType name="Structure Points" id="0a2a-2e66-c248-4b50"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType name="Super-Heavy Walker" id="7b1d-75a0-b2de-cb2e" hidden="false">
+      <characteristicTypes>
+        <characteristicType name="WS" id="0b22-562d-304f-708a"/>
+        <characteristicType name="BS" id="5ac3-7cf1-7a4b-0bdc"/>
+        <characteristicType name="S" id="b80b-7f3f-9d69-7f75"/>
+        <characteristicType name="F" id="22f8-d228-3d58-0d92"/>
+        <characteristicType name="S" id="82d2-1b71-b01a-7615"/>
+        <characteristicType name="R" id="58d5-2599-2a90-7cbc"/>
+        <characteristicType name="I" id="12b2-2bea-bc7f-ac88"/>
+        <characteristicType name="A" id="e212-98ab-8660-eeab"/>
+        <characteristicType name="Structure Points" id="3f21-3557-c8fe-4dda"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -694,6 +712,18 @@ If you decide to split the unit into combat squads, then each combat squad is tr
 
 
 In addition, whenever a primary weapon is affected by a Gun Crew Shaken or Weapon Destroyed result, the controlling player must roll a dice. On a result of 1-3 the primary weapon is shaken/destroyed as normal, but on a 4-6 the hit has no effect.</description>
+    </rule>
+    <rule name="Destroyer" id="7e16-5365-5905-4ad1" hidden="false">
+      <description>A weapon with a Strength value of Destroyer is a Destroyer Weapon. If a Destroyer Weapon hits a vehicle (including partial hits using blast markers), there is no need to roll for armour penetration - it automatically scores a penetrating hit. 
+
+
+This hit can be downgraded to a glancing hit by rules that have that effect, with the exception of cover, which cannot obscure the vehicle. 
+
+
+In addition, when rolling on the appropriate vehicle damage chart, add +1 to the result. 
+
+
+If a destroyer weapon hits a non-vehicle model, there is no need to roll to wound - it automatically scores a wound. If the target fails to save this wound (no cover saves are allowed, but Invulnerable saves do apply) the weapon always inflicts Instant Death, regardless of the target&apos;s Toughness. If the target is immune to Instant Death, then the Destroyer will cause one Wound as normal.</description>
     </rule>
   </sharedRules>
   <publications>

@@ -6073,6 +6073,148 @@ If the model that is possessed by the Greater Daemon is inside a transport, the 
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Khorne Lord of Skulls" hidden="false" id="385b-4f3a-126e-912d">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="888"/>
+      </costs>
+      <profiles>
+        <profile name="Khorne Lord of Skulls" typeId="7b1d-75a0-b2de-cb2e" typeName="Super-Heavy Walker" hidden="false" id="0a6a-064b-d579-1897">
+          <characteristics>
+            <characteristic name="WS" typeId="0b22-562d-304f-708a">4</characteristic>
+            <characteristic name="BS" typeId="5ac3-7cf1-7a4b-0bdc">3</characteristic>
+            <characteristic name="S" typeId="b80b-7f3f-9d69-7f75">13</characteristic>
+            <characteristic name="F" typeId="22f8-d228-3d58-0d92">13</characteristic>
+            <characteristic name="S" typeId="82d2-1b71-b01a-7615">13</characteristic>
+            <characteristic name="R" typeId="58d5-2599-2a90-7cbc">11</characteristic>
+            <characteristic name="I" typeId="12b2-2bea-bc7f-ac88">3</characteristic>
+            <characteristic name="A" typeId="e212-98ab-8660-eeab">4</characteristic>
+            <characteristic name="Structure Points" typeId="3f21-3557-c8fe-4dda">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fueled by Rage" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="97ea-5220-0fef-dee7">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">For every Structure Point this model has lost, it gains three additional Attacks.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Tracked Behemoth" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="8fd8-ee83-8c31-071a">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This model may Tank Shock or Ram using the Thunderblitz table, in the same manner as a Super-Heavy Vehicle, but it may not make Stomp Attacks.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Destroyer" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="d71a-cb50-efba-11d4">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Melee attacks made by this model count as having the Destroyer rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Chest Weapon" id="8410-377a-1ac4-24cb" hidden="false" defaultSelectionEntryId="2284-cb70-17d6-280c">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Gorestorm Cannon" hidden="false" id="2284-cb70-17d6-280c">
+              <profiles>
+                <profile name="Gorestorm Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="7395-0c66-626e-855f">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Hellstorm</characteristic>
+                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Primary Weapon</characteristic>
+                    <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb99-b058-c67b-8d3b" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ichor Cannon" hidden="false" id="072f-9c0e-aed8-1a79">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <profiles>
+                <profile name="Ichor Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="ee52-9563-2eb8-4c39">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Primary Weapon, Large Blast</characteristic>
+                    <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a281-784c-dc48-9e32" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Daemongore Cannon" hidden="false" id="8351-7bfe-56f3-078f">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="65"/>
+              </costs>
+              <profiles>
+                <profile name="Daemongore Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="5078-4c2a-b75e-caa1">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Hellstorm</characteristic>
+                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
+                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Primary Weapon, Gets Hot, Instant Death</characteristic>
+                    <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1119-4e79-6a6a-fceb" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="6c37-cf64-63bc-1465-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="6c37-cf64-63bc-1465-max"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Arm Weapon" id="fb78-4c81-e05a-c779" hidden="false" defaultSelectionEntryId="b34c-457b-3cda-63ab">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Hades Gatling Cannon" hidden="false" id="b34c-457b-3cda-63ab">
+              <profiles>
+                <profile name="Hades Gatling Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="4b3f-45f4-e1ea-90a1">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 12, Pinning</characteristic>
+                    <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b4d5-3244-8b36-75bd" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Skullhurler" hidden="false" id="33c5-c161-8219-e39b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="60"/>
+              </costs>
+              <profiles>
+                <profile name="Skullhurler" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="bdad-a92f-70d9-43bf">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">60&quot;</characteristic>
+                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
+                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Primary Weapon, 10&quot; Blast</characteristic>
+                    <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Successful saving throws against this weapon must be re-rolled.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e5a-4b98-fc70-7f32" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="33fd-f366-bef3-c466-min"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="33fd-f366-bef3-c466-max"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Abaddon the Despoiler" hidden="false" id="ec1c-0579-6db5-cae9" type="selectionEntry" targetId="71cf-98df-61ce-bfe0">
@@ -6266,6 +6408,12 @@ If the model that is possessed by the Greater Daemon is inside a transport, the 
     <entryLink import="true" name="Venomcrawler" hidden="false" id="7644-3c2c-d16e-8c9f" type="selectionEntry" targetId="0666-2920-f070-09c8">
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="0596-03d0-3269-9baf" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Khorne Lord of Skulls" hidden="false" id="e8be-26eb-565d-84a7" type="selectionEntry" targetId="385b-4f3a-126e-912d">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="30f0-440d-d146-1588" primary="true" name="Heavy Support"/>
+        <categoryLink targetId="5968-f35e-18fd-612b" id="ffbb-efa0-7c74-7324" primary="false" name="Super-Heavy"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
