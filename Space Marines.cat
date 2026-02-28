@@ -408,6 +408,9 @@ Units which include Servitors are still subject to this rule, providing that the
           </characteristics>
         </profile>
       </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Honour Guard" hidden="false" id="7568-fbee-1431-1813" type="selectionEntry" targetId="67d2-c56d-8486-47fc"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Space Marine Captain" hidden="false" id="148c-743e-841e-fe3d">
       <costs>
@@ -9618,6 +9621,275 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Honour Guard" hidden="false" id="67d2-c56d-8486-47fc">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="71f6-22bd-b7d0-864e" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Honour Guard" hidden="false" id="ef44-382d-ee35-f7ed" defaultAmount="2">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+              </costs>
+              <profiles>
+                <profile name="Honour Guard" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="ed91-3db2-9f2e-9efb">
+                  <characteristics>
+                    <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+                    <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+                    <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+                    <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+                    <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+                    <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+                    <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+                    <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+                    <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Boltgun" id="507c-48f6-153b-6a25" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                <infoLink name="Bolt Pistol" id="4787-7719-7af5-c9c3" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                <infoLink name="Power Weapon" id="9ce4-553a-bca7-e782" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Auxiliary Grenade Launcher" hidden="false" id="42b2-9977-ee99-f3c5">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Auxiliary Grenade Launcher (Frag)" id="52b1-9db5-572d-7e07" hidden="false" type="profile" targetId="84bf-de4f-2b86-396f"/>
+                    <infoLink name="Auxiliary Grenade Launcher (Krak)" id="cef8-fedd-3d19-09fe" hidden="false" type="profile" targetId="985a-77cd-05b9-1b5f"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4041-97fa-0347-ec4a" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Relic Blade" hidden="false" id="55c0-2d1b-6f61-ee28">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Relic Blade" id="c248-f7e4-93a0-fc19" hidden="false" type="profile" targetId="08b3-cd4c-5d89-d874"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1fba-3135-4dac-ca0c" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Chapter Champion" hidden="false" id="8d31-de2e-38d5-6760" defaultAmount="1">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
+              </costs>
+              <profiles>
+                <profile name="Chapter Champion" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="cfa3-c670-6974-1627">
+                  <characteristics>
+                    <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+                    <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+                    <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+                    <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+                    <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+                    <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+                    <characteristic name="A" typeId="a535-0722-3bc1-4d3c">3</characteristic>
+                    <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+                    <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Honour or Death" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="64a2-e33e-ae22-4544">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">In an Assault, the Chapter Champion must direct all of his attacks against an enemy independent character if in base contact with one. He always re-rolls any failed rolls to hit and to wound that are directed against an enemy Independent Character.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="866e-056f-a28e-faae-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="866e-056f-a28e-faae-max"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="b8fe-0091-377a-ce14" hidden="false" defaultSelectionEntryId="6a5d-0990-fff8-6ca8">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="6a5d-0990-fff8-6ca8">
+                      <infoLinks>
+                        <infoLink name="Boltgun" id="aa52-7586-2dbb-d0b7" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6fea-8c51-67f7-8704" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Combat Blade" hidden="false" id="6cba-eedd-e8eb-b4f9">
+                      <infoLinks>
+                        <infoLink name="Close-Combat Weapon" id="c093-8574-bd93-0cc9" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f094-4060-36e0-414a" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="d6dc-a941-90db-eb17-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d6dc-a941-90db-eb17-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Combat Weapon" id="9c0e-f1a5-9256-ba86" hidden="false" defaultSelectionEntryId="5e3d-e72e-c743-4d40">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Power Sword" hidden="false" id="5e3d-e72e-c743-4d40">
+                      <infoLinks>
+                        <infoLink name="Power Weapon" id="9ff4-796c-6ba0-a8eb" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7fa2-1762-2f41-4076" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Thunder Hammer" hidden="false" id="2d19-0c3d-4d6b-efb4">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Thunder Hammer" id="4fea-0964-4e23-cc02" hidden="false" type="profile" targetId="4cb2-e19a-4b72-594d"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94bb-0e07-b0ba-539e" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Relic Blade" hidden="false" id="4307-4438-9b8b-9a45">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Relic Blade" id="bc4a-ee4f-a336-e587" hidden="false" type="profile" targetId="08b3-cd4c-5d89-d874"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36fd-376c-e942-a968" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="0533-ded5-ae71-72bd-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0533-ded5-ae71-72bd-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Digital Lasers" hidden="false" id="f4cc-f4d9-289e-6194">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Digital Weapons" id="f1b8-ffe7-7fa2-bef6" hidden="false" type="profile" targetId="ee5b-ba52-7418-5482"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3391-4710-fcde-97df" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Auxiliary Grenade Launcher" hidden="false" id="6f25-1abd-0617-ab37">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Auxiliary Grenade Launcher (Frag)" id="ed71-d999-ebe5-6c5b" hidden="false" type="profile" targetId="84bf-de4f-2b86-396f"/>
+                    <infoLink name="Auxiliary Grenade Launcher (Krak)" id="f799-ed36-aae8-2725" hidden="false" type="profile" targetId="985a-77cd-05b9-1b5f"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2587-989f-c1b2-668c" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <infoLinks>
+                <infoLink name="Bolt Pistol" id="1f3e-ab0e-5d98-766e" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Standard Bearer" hidden="false" id="dde2-8467-7486-d131">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="60"/>
+              </costs>
+              <profiles>
+                <profile name="Honour Guard" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="4f17-1e9e-1bb2-18a6">
+                  <characteristics>
+                    <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+                    <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+                    <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+                    <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+                    <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+                    <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+                    <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+                    <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+                    <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Chapter Banner" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="4fc1-8f3a-5aa0-f31f">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Any Space Marine unit within 12&quot; of the Banner Bearer always re-rolls failed Morale and Pinning tests. In addition, all models in the same unit as the Chapter Banner have +1 Attack whilst the banner bearer is alive. While the Banner Bearer is alive, the Honour Guard counts as scoring one extra wound in close combat for the purposes of calculating the assault result.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Boltgun" id="c626-aa27-c017-583f" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+                <infoLink name="Bolt Pistol" id="8632-d940-ffe5-db4f" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                <infoLink name="Power Weapon" id="01f2-e89d-cdd8-9528" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Auxiliary Grenade Launcher" hidden="false" id="4a5b-30ad-7cbc-607e">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Auxiliary Grenade Launcher (Frag)" id="d08f-6200-f7ea-30b9" hidden="false" type="profile" targetId="84bf-de4f-2b86-396f"/>
+                    <infoLink name="Auxiliary Grenade Launcher (Krak)" id="d680-0f1a-0669-e1e5" hidden="false" type="profile" targetId="985a-77cd-05b9-1b5f"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3aff-d730-91cb-dc0f" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Relic Blade" hidden="false" id="b216-e493-3a37-098c">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Relic Blade" id="e0f1-046b-0504-81f8" hidden="false" type="profile" targetId="08b3-cd4c-5d89-d874"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7eb6-dddd-c217-c0ef" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="acc4-5833-c96a-fe72" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="self" shared="true" id="b9d4-caa9-0fcc-ec54"/>
+            <constraint type="max" value="10" field="selections" scope="self" shared="true" id="0419-0805-79a4-b5c0"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Dedicated Transport" id="1c93-6320-6cff-ec60" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Rhino" hidden="false" id="9ba2-885b-76d4-9e78" type="selectionEntry" targetId="0761-9e60-dce9-7b3d">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d28-5875-8b96-231e"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Razorback" hidden="false" id="a70c-0676-5bd3-e215" type="selectionEntry" targetId="5abf-2c54-24ab-27ec">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0237-868f-766f-1bce"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Drop Pod" hidden="false" id="d071-4c68-7b1e-7512" type="selectionEntry" targetId="57d0-d692-2492-52c0">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c0dd-8fdd-f5d7-c865"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="1782-32da-5b6c-bf5a"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Frag Grenades" id="8f19-9828-cc80-e5ad" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="343b-cc40-3529-1198" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+        <infoLink name="And They Shall Know No Fear" id="f0da-a544-1e65-768a" hidden="false" type="rule" targetId="73f8-658e-9da5-beba"/>
+        <infoLink name="Combat Tactics" id="7075-054c-17ff-d6c9" hidden="false" type="rule" targetId="63e6-2a1c-88a5-4120"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Orbital Bombardment" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="bc8c-064b-c6cf-a4ba">
@@ -9878,6 +10150,24 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
         <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Auxiliary Grenade Launcher (Frag)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="84bf-de4f-2b86-396f">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Auxiliary Grenade Launcher (Krak)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="985a-77cd-05b9-1b5f">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
   </sharedProfiles>

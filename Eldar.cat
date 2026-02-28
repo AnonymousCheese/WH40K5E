@@ -1769,10 +1769,12 @@
         <infoLink name="Wrist-mounted Avenger Shuriken Catapults" id="8b24-cc86-7495-fcf8" hidden="false" type="profile" targetId="0f18-d71c-4959-5577"/>
         <infoLink name="Defend" id="adaf-3ae7-8766-35d3" hidden="false" type="profile" targetId="a8a7-0b93-5bdc-ce5c"/>
         <infoLink name="Bladestorm" id="e834-cef5-d765-e54c" hidden="false" type="profile" targetId="5330-f7e5-6561-5746"/>
+        <infoLink name="Eternal Warrior" id="a276-0b26-404f-a769" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
+        <infoLink name="Fearless" id="ca13-669f-aaed-c064" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Fleet" id="d431-a4c4-d8a9-9174" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Independent Character" id="41dd-cded-8670-801c" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Phoenix Lord" id="58a3-7f69-3750-d576" hidden="false" type="profile" targetId="9353-0d17-6adf-23bc"/>
       </infoLinks>
-      <entryLinks>
-        <entryLink targetId="bde0-bf0a-44b9-d62d" id="2acf-77f6-3e70-c299" type="selectionEntryGroup" name="Phoenix Lord" hidden="false"/>
-      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Jain Zar" hidden="false" id="b996-6673-68c0-abda">
       <costs>
@@ -1792,10 +1794,12 @@
         <infoLink name="Acrobatic" id="d628-8e47-bed1-ea31" hidden="false" type="profile" targetId="4a27-edc9-6fbb-7f3e"/>
         <infoLink name="War Shout" id="441e-09cc-d364-5cad" hidden="false" type="profile" targetId="9f30-2738-6be2-fccf"/>
         <infoLink name="Furious Charge" id="83c1-2921-9e5f-1a6d" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Eternal Warrior" id="2128-2a4f-8212-87fb" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
+        <infoLink name="Fearless" id="edad-e046-e178-7742" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Fleet" id="86d0-1f19-5918-d581" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Independent Character" id="2e69-a2e8-0b8d-0f4c" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Phoenix Lord" id="4e1a-4857-3d9e-0c74" hidden="false" type="profile" targetId="9353-0d17-6adf-23bc"/>
       </infoLinks>
-      <entryLinks>
-        <entryLink import="true" name="Phoenix Lord" hidden="false" id="6f8f-d1f9-14f7-30df" targetId="bde0-bf0a-44b9-d62d" type="selectionEntryGroup"/>
-      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Baharroth" hidden="false" id="21de-b843-ff6b-1cdb">
       <costs>
@@ -1818,10 +1822,12 @@
         <infoLink name="Skyleap" id="dbd3-4b36-b7dd-d85c" hidden="false" type="profile" targetId="111d-993e-7705-4f5d"/>
         <infoLink name="Intercept" id="4031-337c-2b8f-2732" hidden="false" type="profile" targetId="bf0d-a365-5a90-b051"/>
         <infoLink name="Hit and Run" id="8cfd-372d-ba16-b780" hidden="false" type="profile" targetId="17a2-9db7-3461-361c"/>
+        <infoLink name="Eternal Warrior" id="ffea-f789-b905-707c" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
+        <infoLink name="Fearless" id="f746-3e44-36f0-4f75" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Fleet" id="fa6f-291b-1c95-07fd" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Independent Character" id="8bc7-c1fe-b7fe-ed67" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Phoenix Lord" id="cdcb-3b65-8432-c963" hidden="false" type="profile" targetId="9353-0d17-6adf-23bc"/>
       </infoLinks>
-      <entryLinks>
-        <entryLink import="true" name="Phoenix Lord" hidden="false" id="667e-8a86-c71e-5579" targetId="bde0-bf0a-44b9-d62d" type="selectionEntryGroup"/>
-      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Karandras" hidden="false" id="92c8-f497-4675-395b">
       <costs>
@@ -1842,10 +1848,12 @@
         <infoLink name="Shadowstrike" id="0285-d66a-9ad7-5e3c" hidden="false" type="profile" targetId="abfd-8e97-eda9-89b2"/>
         <infoLink name="Stalker" id="75b4-cb9d-372e-4ac2" hidden="false" type="profile" targetId="c50d-564f-0bda-2327"/>
         <infoLink name="Stealth" id="074b-2b8c-9f85-46dc" hidden="false" type="profile" targetId="8dc7-2ec3-1248-9d84"/>
+        <infoLink name="Eternal Warrior" id="f8ee-4b6f-1afe-c10d" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
+        <infoLink name="Fearless" id="6590-d8f3-809f-705d" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Fleet" id="11b0-7935-03f7-5a7d" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Independent Character" id="6974-8cda-1dba-bf2a" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Phoenix Lord" id="49ba-b828-37c3-7cd8" hidden="false" type="profile" targetId="9353-0d17-6adf-23bc"/>
       </infoLinks>
-      <entryLinks>
-        <entryLink import="true" name="Phoenix Lord" hidden="false" id="0408-d2d7-12e5-d061" targetId="bde0-bf0a-44b9-d62d" type="selectionEntryGroup"/>
-      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Fuegan" hidden="false" id="730f-88de-e870-5d44">
       <costs>
@@ -1865,10 +1873,12 @@
         <infoLink name="Tank Hunters" id="e3ad-d475-1916-8432" hidden="false" type="profile" targetId="3151-3abf-952c-8046"/>
         <infoLink name="Crack Shot" id="1086-e5cb-ba6c-a571" hidden="false" type="profile" targetId="6eb5-0805-00c4-cb1b"/>
         <infoLink name="Feel No Pain" id="2ac1-0323-cd9b-9427" hidden="false" type="profile" targetId="d22d-ca74-1014-8212"/>
+        <infoLink name="Eternal Warrior" id="8231-246f-d65c-22a8" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
+        <infoLink name="Fearless" id="4af0-2937-688c-22d8" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Fleet" id="4d6a-0775-6176-67ea" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Independent Character" id="07e9-8835-cfdb-216c" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Phoenix Lord" id="6a61-6831-042a-d67d" hidden="false" type="profile" targetId="9353-0d17-6adf-23bc"/>
       </infoLinks>
-      <entryLinks>
-        <entryLink import="true" name="Phoenix Lord" hidden="false" id="22bb-c607-2cc3-22b9" targetId="bde0-bf0a-44b9-d62d" type="selectionEntryGroup"/>
-      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Maugan Ra" hidden="false" id="f5c1-2026-9a09-1996">
       <costs>
@@ -1886,10 +1896,12 @@
         <infoLink name="Crack Shot" id="ec7f-313f-a6f7-c670" hidden="false" type="profile" targetId="6eb5-0805-00c4-cb1b"/>
         <infoLink name="Fast Shot" id="5f64-9c91-734b-633a" hidden="false" type="profile" targetId="1e50-f4b0-d60a-6158"/>
         <infoLink name="Acute Senses" id="557d-a53a-506e-1c09" hidden="false" type="profile" targetId="253f-bb05-f8fd-fffd"/>
+        <infoLink name="Eternal Warrior" id="bbe4-94a3-5880-0640" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
+        <infoLink name="Fearless" id="b548-e7d6-dbe5-409f" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Fleet" id="bc60-4535-1123-3dae" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Independent Character" id="e5b3-d95d-be2e-ec0f" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Phoenix Lord" id="045b-894b-d168-126c" hidden="false" type="profile" targetId="9353-0d17-6adf-23bc"/>
       </infoLinks>
-      <entryLinks>
-        <entryLink import="true" name="Phoenix Lord" hidden="false" id="e56c-17a3-1044-7cd7" targetId="bde0-bf0a-44b9-d62d" type="selectionEntryGroup"/>
-      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Striking Scorpions" hidden="false" id="87fd-2e03-068a-bb47">
       <selectionEntryGroups>
@@ -3341,7 +3353,7 @@
           </selectionEntries>
           <constraints>
             <constraint type="min" value="3" field="selections" scope="self" shared="true" id="ad49-7c3b-bdb6-843f"/>
-            <constraint type="min" value="12" field="selections" scope="self" shared="true" id="e26d-7567-83b1-eaad"/>
+            <constraint type="max" value="12" field="selections" scope="self" shared="true" id="e26d-7567-83b1-eaad"/>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4635,7 +4647,11 @@
         <categoryLink targetId="9260-7d57-be5c-bd52" id="7c33-93b7-6fbc-fbb3" primary="true" name="Heavy Support"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Dark Reapers" hidden="false" id="55c0-d451-6101-e673" type="selectionEntry" targetId="24ad-3cda-3c7a-c95a"/>
+    <entryLink import="true" name="Dark Reapers" hidden="false" id="55c0-d451-6101-e673" type="selectionEntry" targetId="24ad-3cda-3c7a-c95a">
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="d391-984b-2d85-08c6" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink import="true" name="Wraithlord" hidden="false" id="c0ed-1a91-57c6-379c" type="selectionEntry" targetId="4b93-3a46-eaf1-565b">
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="fe74-02bd-b960-eeb1" primary="true" name="Heavy Support"/>
