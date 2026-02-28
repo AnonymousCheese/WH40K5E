@@ -1076,6 +1076,68 @@
         <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This weapon may re-roll failed rolls to hit in close combat.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Skyreaver" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="4ab4-29f2-6dc7-7ea2">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Felarch" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="75e0-61e6-812e-c853">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shredder" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="fa05-fb87-dd99-aa7b">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Blast</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Blaster" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0d88-a281-6724-c159">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Lance</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Blast Pistol" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="673f-7708-34e5-2a93">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">6&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol, Lance</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Neuro Disruptor" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e887-8c6b-8791-10f1">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol, Poison 2+</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Autarch" hidden="false" id="b9fb-9d94-2b5c-bfe1">
@@ -4485,6 +4547,175 @@
         <entryLink import="true" name="Vehicle Upgrades" hidden="false" id="61ae-2b63-5403-222c" type="selectionEntryGroup" targetId="ea13-5c3a-0b18-21a9"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Skyreavers" hidden="false" id="fb34-9243-7402-06ca">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="c022-efb3-5739-098e" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Skyreaver" hidden="false" id="be6d-4cb7-7bce-2b40" defaultAmount="5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="38"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Skyreaver" id="771f-4525-659d-2872" hidden="false" type="profile" targetId="4ab4-29f2-6dc7-7ea2"/>
+                <infoLink name="Shuriken Pistol" id="e5e5-ad9a-62be-06fd" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+                <infoLink name="Plasma Grenades" id="c096-27e1-39a3-587b" hidden="false" type="profile" targetId="f199-6b5f-7b3d-f011"/>
+                <infoLink name="Haywire Grenades" id="9f10-9e60-359e-05a3" hidden="false" type="profile" targetId="49d2-85d6-9995-2583"/>
+                <infoLink name="Power Weapon" id="8234-20f8-0910-7531" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Felarch" hidden="false" id="74bf-3967-60c7-9102" defaultAmount="">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Skyreaver Felarch" id="18c4-1824-252c-50fc" hidden="false" type="profile" targetId="75e0-61e6-812e-c853"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6366-2abf-41d8-2f7f"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="ca98-d8d8-1d0b-5ed9" hidden="false" defaultSelectionEntryId="3700-6560-33dc-c19a">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Shuriken Pistol" hidden="false" id="3700-6560-33dc-c19a">
+                      <infoLinks>
+                        <infoLink name="Shuriken Pistol" id="6d45-fa7a-43be-d3c6" hidden="false" type="profile" targetId="826d-a035-4dcc-5d36"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eb55-1684-a740-b30c"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Blast Pistol" hidden="false" id="289a-6301-9aa8-b5d8">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Blast Pistol" id="d29b-e631-d393-1980" hidden="false" type="profile" targetId="673f-7708-34e5-2a93"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ae1-059d-694a-167e"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Neuro Disruptor" hidden="false" id="853a-bb95-952c-b62c">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Neuro Disruptor" id="9f68-0020-9776-a846" hidden="false" type="profile" targetId="e887-8c6b-8791-10f1"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6895-5e66-31b8-1ffd"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="abf8-8fbc-397e-3019"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2e12-5707-f36b-8971"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Exarch Powers" id="b235-8ac1-6ea6-02c0" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Skyleap" hidden="false" id="c7cc-3d39-7545-1365">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Skyleap" id="3298-d36a-2eef-0b5c" hidden="false" type="profile" targetId="111d-993e-7705-4f5d"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b4d-48a7-23c2-de0e"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Intercept" hidden="false" id="33f7-3de4-c3ea-9bcb">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Intercept" id="0e16-f8c5-45a2-5c2a" hidden="false" type="profile" targetId="bf0d-a365-5a90-b051"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d38-849a-a91d-b1b8"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Skyreaver Gunner" hidden="false" id="4018-5753-abbb-a717" defaultAmount="">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="28"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Skyreaver" id="34d6-792c-0fa7-af0d" hidden="false" type="profile" targetId="4ab4-29f2-6dc7-7ea2"/>
+                <infoLink name="Plasma Grenades" id="5386-f68e-9955-75a3" hidden="false" type="profile" targetId="f199-6b5f-7b3d-f011"/>
+                <infoLink name="Haywire Grenades" id="af57-dffc-ab7e-b616" hidden="false" type="profile" targetId="49d2-85d6-9995-2583"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="a87f-c24f-ac21-7547" hidden="false" defaultSelectionEntryId="d193-0655-73a0-7498">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="d193-0655-73a0-7498">
+                      <infoLinks>
+                        <infoLink name="Flamer" id="7996-6eec-2346-ac7d" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="416d-8aa5-e51f-a09b" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Fusion Gun" hidden="false" id="43fb-a1ae-c445-be84">
+                      <infoLinks>
+                        <infoLink name="Fusion Gun" id="7c78-8789-6e80-89d7" hidden="false" type="profile" targetId="408b-d81f-b690-6638"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="728b-9052-f119-e0c3" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Shredder" hidden="false" id="2b5f-4755-be6b-2d29">
+                      <infoLinks>
+                        <infoLink name="Shredder" id="8a26-89b7-3090-33f6" hidden="false" type="profile" targetId="fa05-fb87-dd99-aa7b"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="907c-422f-53d1-af20" includeChildSelections="false"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Blaster" hidden="false" id="7bac-4137-5ae8-c1ae">
+                      <infoLinks>
+                        <infoLink name="Blaster" id="7264-b1f0-5894-8e2f" hidden="false" type="profile" targetId="0d88-a281-6724-c159"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2337-b81c-bc5e-9dd2" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="b61d-b8de-0d9d-e01e-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b61d-b8de-0d9d-e01e-max" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="dec0-8483-dd45-8c8c" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="self" shared="true" id="619c-20f8-568b-909b"/>
+            <constraint type="max" value="10" field="selections" scope="self" shared="true" id="59a0-ff63-86ec-f27d"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Fleet" id="a303-d7a3-7e46-0c40" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Jump Infantry" id="c130-93c3-2c00-7236" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <infoLinks>
     <infoLink targetId="a523-0c5b-eb97-f0a0" id="eb88-22d2-76d6-ec55" type="rule" name="Jetbike" hidden="false"/>
@@ -4670,6 +4901,11 @@
     <entryLink import="true" name="Fire Prism" hidden="false" id="efbd-a90b-11d7-2d03" type="selectionEntry" targetId="5dea-c7ec-51fb-cde3">
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="c02a-4adc-2cc5-2384" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Skyreavers" hidden="false" id="ec90-aee1-9d9f-2de4" type="selectionEntry" targetId="fb34-9243-7402-06ca">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="9a05-e171-50d3-5ee1" primary="true" name="Fast Attack"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
