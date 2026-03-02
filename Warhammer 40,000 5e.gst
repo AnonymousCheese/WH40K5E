@@ -509,7 +509,7 @@ If it chooses ‘Death or Glory!’ and its attack fails to stop the ramming ta
 Bikes can move up to 12&quot; in the Movement phase. Bikes are not slowed down by difficult terrain. However, they treat all difficult terrain as dangerous terrain instead. 
 
 
-Bikes also have the ‘turbo boosters’ special rule.
+Bikes also have the ‘Turbo-Boosters’ special rule.
 
 
 As bikes are so fast moving, they fall back 3D6&quot;, rather than 2D6&quot;. Remember that they treat all difficult terrain as dangerous.
@@ -3741,6 +3741,7 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
         <infoLink name="Space Marine Bike" id="37fd-3c69-7e0e-76c9" hidden="false" type="profile" targetId="10d2-59d9-3431-593e"/>
         <infoLink name="And They Shall Know No Fear" id="c84e-1b03-2408-4212" hidden="false" type="rule" targetId="73f8-658e-9da5-beba"/>
         <infoLink name="Combat Squads" id="5f79-e3e5-08b5-4e80" hidden="false" type="rule" targetId="9b83-9c79-fe48-a8b5"/>
+        <infoLink name="Bike" id="17ed-5e4f-faf5-6f72" hidden="false" type="rule" targetId="3326-67e1-a5e9-b3e7"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Attack Bike Squad" hidden="false" id="b998-d706-044f-7ce1">
@@ -3808,6 +3809,7 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
       </selectionEntries>
       <infoLinks>
         <infoLink name="And They Shall Know No Fear" id="1125-b47e-47b3-ba9f" hidden="false" type="rule" targetId="73f8-658e-9da5-beba"/>
+        <infoLink name="Bike" id="c329-3fef-bd1f-95cb" hidden="false" type="rule" targetId="3326-67e1-a5e9-b3e7"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>

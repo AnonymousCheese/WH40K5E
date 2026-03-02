@@ -5568,6 +5568,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
         <infoLink name="Combat Tactics" id="215b-e357-7925-9bb1" hidden="false" type="rule" targetId="63e6-2a1c-88a5-4120"/>
         <infoLink name="Infiltrate" id="ff04-b3eb-ac6d-9fe2" hidden="false" type="profile" targetId="db64-5b1f-d306-b354"/>
         <infoLink name="Scouts" id="02f8-18a9-366e-9c47" hidden="false" type="profile" targetId="e289-1576-b63b-c142"/>
+        <infoLink name="Bike" id="cf13-361e-62d7-05c8" hidden="false" type="rule" targetId="3326-67e1-a5e9-b3e7"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="8f39-8ea8-8b2b-66c4" hidden="false">
