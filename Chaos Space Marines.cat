@@ -5847,7 +5847,6 @@ If the model that is possessed by the Greater Daemon is inside a transport, the 
       </selectionEntryGroups>
       <infoLinks>
         <infoLink name="Dreadnought Close Combat Weapon" id="032d-2933-6f05-d895" hidden="false" type="profile" targetId="72a1-7ddd-b4ae-b945"/>
-        <infoLink targetId="f85c-0fbe-ac30-71e4" id="b18e-e833-7cfb-0130" type="profile" name="Daemon" hidden="false"/>
         <infoLink name="Dreadnought Close Combat Weapon" id="36f1-8a52-ee42-89ae" hidden="false" type="profile" targetId="72a1-7ddd-b4ae-b945"/>
         <infoLink name="Daemonic Possession" id="315f-7ed1-34f2-0699" hidden="false" type="profile" targetId="c1cd-1ebd-4c99-023e"/>
         <infoLink name="Fleet" id="97cd-d2d2-0bb9-f7d6" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>

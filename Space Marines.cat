@@ -2021,6 +2021,9 @@ Units which include Servitors are still subject to this rule, providing that the
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe0e-197e-ee4a-f553"/>
                       </constraints>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="b16a-37d9-9163-31f1">
                       <costs>
@@ -2549,7 +2552,7 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
         <infoLink name="Open-topped" id="a9b3-4853-0eae-100d" hidden="false" type="rule" targetId="21d9-2669-1dba-9fb2"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Weapon" id="83d0-bca4-b642-af66" hidden="false">
+        <selectionEntryGroup name="Weapon" id="83d0-bca4-b642-af66" hidden="false" defaultSelectionEntryId="5c86-b487-3446-6b17">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="5c86-b487-3446-6b17">
               <infoLinks>
