@@ -10362,6 +10362,108 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Vendetta Gunship Squadron" hidden="false" id="a01b-097a-2a17-45b1" collective="false">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Vendetta" hidden="false" id="2e90-8208-737e-668b" collective="false">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="130"/>
+          </costs>
+          <profiles>
+            <profile name="Transport" typeId="9a37-e4d2-11fe-9e81" typeName="Transport" hidden="false" id="ce11-34a0-b9b4-9c5b">
+              <characteristics>
+                <characteristic name="Capacity" typeId="7cdf-4c80-a83d-200c">12</characteristic>
+                <characteristic name="Access Points" typeId="6e42-3bd5-70a6-724f">One on each side of the hull and one at the rear.</characteristic>
+                <characteristic typeId="aa94-ae0c-98e7-5923" name="Fire Points"/>
+              </characteristics>
+            </profile>
+            <profile name="Grav Chute Insertion" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="e76a-1454-656c-9c81">
+              <characteristics>
+                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Valkyrie or Vendetta moved flat out, passengers may still disembark, but they must do so as follows. Nominate any point over which the Valkyrie or Vendetta moved over and deploy the squad as if it were deep striking onto that point. If the unit scatters, every model must immediately take a dangerous terrain test. If any of the models cannot be deployed, the unit is destroyed as described in the 1-2 result on the Deep Strike Mishap table.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Vendetta" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="805c-f2ad-5b3c-8206">
+              <characteristics>
+                <characteristic name="BS" typeId="b539-c71b-9239-8da0">3</characteristic>
+                <characteristic name="F" typeId="84f1-6495-b3c8-6025">12</characteristic>
+                <characteristic name="S" typeId="38b6-8429-f0fd-11cb">12</characteristic>
+                <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Skimmer" id="1b1f-f9a6-2472-2487" hidden="false" targetId="5768-8357-f0e3-1484" type="rule"/>
+            <infoLink name="Fast" id="5101-ff85-859c-d32a" hidden="false" type="rule" targetId="4d59-8511-a8e5-1f62"/>
+            <infoLink name="Deep Strike" id="5e66-1327-ff44-4c28" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
+            <infoLink name="Scouts" id="55d2-2c69-5a35-f035" hidden="false" type="profile" targetId="e289-1576-b63b-c142"/>
+            <infoLink name="Searchlight" id="5b54-2939-7267-1060" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
+            <infoLink name="Extra Armour" id="baaa-088b-0470-7349" hidden="false" type="profile" targetId="ec58-94f7-12e5-a9b9"/>
+            <infoLink name="Twin-linked Lascannon" id="7136-885a-a495-4fcb" hidden="false" type="profile" targetId="e50f-e49c-148c-4aee"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Loadout" id="d640-db98-bc6f-ba4f" hidden="false" defaultSelectionEntryId="f50d-bf76-8fdd-520f">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Twin-linked Lascannons" hidden="false" id="f50d-bf76-8fdd-520f">
+                  <infoLinks>
+                    <infoLink name="Twin-linked Lascannon" id="b185-f631-719e-321c" hidden="false" type="profile" targetId="e50f-e49c-148c-4aee"/>
+                    <infoLink name="Twin-linked Lascannon" id="56bc-8aae-ea90-08f8" hidden="false" type="profile" targetId="e50f-e49c-148c-4aee"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d66-8bac-9c37-5f3f" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Hellfury Missiles" hidden="false" id="ae9c-86cc-c454-7273">
+                  <profiles>
+                    <profile name="Hellfury Missiles" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="8276-0b04-db46-909d">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72&quot;</characteristic>
+                        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+                        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+                        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Large Blast, One Shot Only</characteristic>
+                        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+                      </characteristics>
+                    </profile>
+                    <profile name="Hellfury Missiles" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="06b0-e5df-1fb8-2bf3">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72&quot;</characteristic>
+                        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+                        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+                        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Large Blast, One Shot Only</characteristic>
+                        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7cc7-21cd-e577-a252" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="c18f-8159-2df5-e13f-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c18f-8159-2df5-e13f-max"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Heavy Bolter Sponsons" hidden="false" id="ef4d-4f01-b860-314e" collective="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2444-c916-5e58-2542"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Heavy Bolter" id="2071-0f7d-7bf6-265d" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                <infoLink name="Heavy Bolter" id="2e6f-fd90-9c7b-65d5" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="755d-8018-e22d-dd05"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="fd67-9f97-23ae-65aa"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Weapon" id="3d23-3fcb-a692-ee14" hidden="false" defaultSelectionEntryId="ce25-f6e6-b3ef-f18e">
@@ -11750,6 +11852,11 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="166d-97c6-43bd-5700" primary="true" name="Heavy Support"/>
         <categoryLink targetId="5968-f35e-18fd-612b" id="a11f-2485-8094-fa4e" primary="false" name="Super-Heavy"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vendetta Gunship Squadron" hidden="false" id="e0aa-3821-ffd9-3eef" type="selectionEntry" targetId="a01b-097a-2a17-45b1">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="0aaf-24a0-d4ed-5e8e" primary="true" name="Fast Attack"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
