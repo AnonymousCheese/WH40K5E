@@ -6585,20 +6585,20 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Field Battery" hidden="false" id="db57-f5ef-55f4-e398">
           <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="65"/>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Loadout" id="fa47-72c3-f691-0818" hidden="false" defaultSelectionEntryId="4852-f744-a1ab-84e4">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Bombast Field Gun" hidden="false" id="a500-356c-6a74-6831">
                   <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
                   </costs>
                   <profiles>
                     <profile name="Bombast Field Gun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="d5c8-0b4c-db17-2518">
                       <characteristics>
                         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;-72&quot;</characteristic>
-                        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+                        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
                         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
                         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Barrage 1, Large Blast</characteristic>
                         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
@@ -6627,7 +6627,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heavy Lascannon" hidden="false" id="0c98-d7fd-7e8f-1142">
                   <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
                   </costs>
                   <infoLinks>
                     <infoLink targetId="8a76-e0ad-47d2-9699" id="5afb-178e-c56f-9c4f" type="profile" name="Heavy Lascannon" hidden="false"/>
@@ -6687,6 +6687,11 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <profile name="Entrenched Position" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="73f3-c2dc-1ad5-b3e8">
           <characteristics>
             <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This model always has a 4+ Cover save but may not Go to Ground.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Artillery Team" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="c069-2a66-1def-5c2f">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This unit is immune to Instant Death.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6780,7 +6785,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Siege Cannon" hidden="false" id="a4c2-6a83-a443-c2ab">
                   <costs>
-                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
                   </costs>
                   <profiles>
                     <profile name="Siege Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e894-a000-ed96-7d47">
@@ -11310,7 +11315,7 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
     <profile name="Heavy Lascannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="8a76-e0ad-47d2-9699">
       <characteristics>
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
-        <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2</characteristic>
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
