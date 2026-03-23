@@ -3302,7 +3302,7 @@
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Guardian Jetbike" hidden="false" id="e729-3c67-dd24-c94d">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="22"/>
               </costs>
               <infoLinks>
                 <infoLink name="Guardian Jetbike" id="0ce5-addb-9af8-070a" hidden="false" type="profile" targetId="3a0c-d7d6-b338-040b"/>
@@ -3402,7 +3402,7 @@
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Jetbike Gunner" hidden="false" id="2a7d-4799-b883-a2ac">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="55"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="32"/>
               </costs>
               <infoLinks>
                 <infoLink name="Guardian Jetbike" id="bf7a-5d39-782d-9f16" hidden="false" type="profile" targetId="3a0c-d7d6-b338-040b"/>
@@ -4553,7 +4553,7 @@
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Skyreaver" hidden="false" id="be6d-4cb7-7bce-2b40" defaultAmount="5">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="38"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="23"/>
               </costs>
               <infoLinks>
                 <infoLink name="Skyreaver" id="771f-4525-659d-2872" hidden="false" type="profile" targetId="4ab4-29f2-6dc7-7ea2"/>
@@ -4562,19 +4562,48 @@
                 <infoLink name="Haywire Grenades" id="9f10-9e60-359e-05a3" hidden="false" type="profile" targetId="49d2-85d6-9995-2583"/>
                 <infoLink name="Power Weapon" id="8234-20f8-0910-7531" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
               </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="0a6f-4f9d-998b-c885" hidden="false" defaultSelectionEntryId="e01c-e9d6-9476-784a">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="e01c-e9d6-9476-784a">
+                      <infoLinks>
+                        <infoLink name="Close-Combat Weapon" id="72af-433e-d84f-c0e2" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7173-8400-4eaa-ce72" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="1d0e-e689-8d10-5c7a">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Weapon" id="a1d3-b815-b276-7021" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a07b-f5da-306c-6c2b" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="b7a9-85a4-d5a9-e700-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b7a9-85a4-d5a9-e700-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Felarch" hidden="false" id="74bf-3967-60c7-9102" defaultAmount="">
+            <selectionEntry type="model" import="true" name="Felarch" hidden="false" id="74bf-3967-60c7-9102">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="33"/>
               </costs>
               <infoLinks>
-                <infoLink name="Skyreaver Felarch" id="18c4-1824-252c-50fc" hidden="false" type="profile" targetId="75e0-61e6-812e-c853"/>
+                <infoLink name="Felarch" id="18c4-1824-252c-50fc" hidden="false" type="profile" targetId="75e0-61e6-812e-c853"/>
               </infoLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6366-2abf-41d8-2f7f"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Loadout" id="ca98-d8d8-1d0b-5ed9" hidden="false" defaultSelectionEntryId="3700-6560-33dc-c19a">
+                <selectionEntryGroup name="Ranged Weapon" id="ca98-d8d8-1d0b-5ed9" hidden="false" defaultSelectionEntryId="3700-6560-33dc-c19a">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Shuriken Pistol" hidden="false" id="3700-6560-33dc-c19a">
                       <infoLinks>
@@ -4612,37 +4641,38 @@
                     <constraint type="max" value="1" field="selections" scope="self" shared="true" id="2e12-5707-f36b-8971"/>
                   </constraints>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Exarch Powers" id="b235-8ac1-6ea6-02c0" hidden="false">
+                <selectionEntryGroup name="Melee Weapon" id="94b2-2188-7b6e-c3ee" hidden="false" defaultSelectionEntryId="784b-319c-3a77-9476">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Skyleap" hidden="false" id="c7cc-3d39-7545-1365">
+                    <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="784b-319c-3a77-9476">
+                      <infoLinks>
+                        <infoLink name="Close-Combat Weapon" id="7e73-9143-69ca-83e6" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0bb8-737e-f8b2-98de" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="c198-4481-3cbd-d9f9">
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
                       </costs>
                       <infoLinks>
-                        <infoLink name="Skyleap" id="3298-d36a-2eef-0b5c" hidden="false" type="profile" targetId="111d-993e-7705-4f5d"/>
+                        <infoLink name="Power Weapon" id="203e-06e7-32c7-ac50" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
                       </infoLinks>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b4d-48a7-23c2-de0e"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Intercept" hidden="false" id="33f7-3de4-c3ea-9bcb">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Intercept" id="0e16-f8c5-45a2-5c2a" hidden="false" type="profile" targetId="bf0d-a365-5a90-b051"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d38-849a-a91d-b1b8"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8301-010d-ee0a-e810" includeChildSelections="false"/>
                       </constraints>
                     </selectionEntry>
                   </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="14e5-361b-6e71-b75b-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="14e5-361b-6e71-b75b-max"/>
+                  </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Skyreaver Gunner" hidden="false" id="4018-5753-abbb-a717" defaultAmount="">
+            <selectionEntry type="model" import="true" name="Skyreaver Gunner" hidden="false" id="4018-5753-abbb-a717">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="28"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="23"/>
               </costs>
               <infoLinks>
                 <infoLink name="Skyreaver" id="34d6-792c-0fa7-af0d" hidden="false" type="profile" targetId="4ab4-29f2-6dc7-7ea2"/>

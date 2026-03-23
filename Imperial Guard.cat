@@ -6585,7 +6585,7 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Field Battery" hidden="false" id="db57-f5ef-55f4-e398">
           <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="65"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Loadout" id="fa47-72c3-f691-0818" hidden="false" defaultSelectionEntryId="4852-f744-a1ab-84e4">
@@ -6668,6 +6668,11 @@ If using the Crack Shot rule when firing at a monstrous creature, any hits that 
         <profile name="Immobile" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="2dfa-840b-ba1c-8231">
           <characteristics>
             <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Once deployed, this model cannot be moved.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Artillery Team" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="13b7-cc1e-6d60-c630">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This unit is immune to Instant Death.</characteristic>
           </characteristics>
         </profile>
       </profiles>
