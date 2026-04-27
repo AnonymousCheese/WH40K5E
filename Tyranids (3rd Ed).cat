@@ -1016,13 +1016,41 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Biomorphs" id="b0a5-9316-4a34-0811" hidden="false">
                   <entryLinks>
-                    <entryLink import="true" name="Adrenal Glands (+1 I)" hidden="false" id="2577-fee6-f46b-5577" type="selectionEntry" targetId="1fde-a1f5-8231-2ac4"/>
-                    <entryLink import="true" name="Adrenal Glands (+1 WS)" hidden="false" id="0929-6e71-1add-a093" type="selectionEntry" targetId="59c2-8b3c-858f-3dd2"/>
-                    <entryLink import="true" name="Bio-Plasma" hidden="false" id="f426-4a4d-9c83-8886" type="selectionEntry" targetId="acf3-4ca5-9999-4506"/>
-                    <entryLink import="true" name="Enhanced Senses (+1 BS)" hidden="false" id="8f74-0643-37b8-81ff" type="selectionEntry" targetId="c74c-9bf1-258e-d29a"/>
-                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="3081-6e9d-5992-9b9e" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d"/>
-                    <entryLink import="true" name="Flesh Hooks" hidden="false" id="9a82-28d6-7267-e2a5" type="selectionEntry" targetId="c26f-797e-8c25-b5cf"/>
-                    <entryLink import="true" name="Leaping" hidden="false" id="fd93-e303-f489-b692" type="selectionEntry" targetId="f55c-de6d-b9e5-949e"/>
+                    <entryLink import="true" name="Adrenal Glands (+1 I)" hidden="false" id="2577-fee6-f46b-5577" type="selectionEntry" targetId="1fde-a1f5-8231-2ac4">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Adrenal Glands (+1 WS)" hidden="false" id="0929-6e71-1add-a093" type="selectionEntry" targetId="59c2-8b3c-858f-3dd2">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Bio-Plasma" hidden="false" id="f426-4a4d-9c83-8886" type="selectionEntry" targetId="acf3-4ca5-9999-4506">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Enhanced Senses (+1 BS)" hidden="false" id="8f74-0643-37b8-81ff" type="selectionEntry" targetId="c74c-9bf1-258e-d29a">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="3081-6e9d-5992-9b9e" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Flesh Hooks" hidden="false" id="9a82-28d6-7267-e2a5" type="selectionEntry" targetId="c26f-797e-8c25-b5cf">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Leaping" hidden="false" id="fd93-e303-f489-b692" type="selectionEntry" targetId="f55c-de6d-b9e5-949e">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
+                      </costs>
+                    </entryLink>
                     <entryLink import="true" name="Toxin Sacs (+1 S)" hidden="false" id="fa15-9d53-1429-69b1" type="selectionEntry" targetId="8cee-09a6-3312-2980">
                       <modifiers>
                         <modifier type="set" value="10" field="6f18-a8fc-2c5b-9517" scope="416d-7563-c938-4693" affects="self.entries.a09e-6da5-34e6-2240"/>
@@ -1032,6 +1060,9 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                         <modifier type="set" value="20" field="6f18-a8fc-2c5b-9517" scope="416d-7563-c938-4693" affects="self.entries.1d10-90e7-1a09-5ee4"/>
                         <modifier type="set" value="4" field="6f18-a8fc-2c5b-9517" scope="416d-7563-c938-4693" affects="self.entries.3d1f-5491-71c6-ccfc"/>
                       </modifiers>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -1155,13 +1186,41 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Biomorphs" id="c88d-9bdb-d907-5b31" hidden="false">
                   <entryLinks>
-                    <entryLink import="true" name="Adrenal Glands (+1 I)" hidden="false" id="c4af-49b9-76f8-46ff" type="selectionEntry" targetId="1fde-a1f5-8231-2ac4"/>
-                    <entryLink import="true" name="Adrenal Glands (+1 WS)" hidden="false" id="eb5e-f81a-70de-a768" type="selectionEntry" targetId="59c2-8b3c-858f-3dd2"/>
-                    <entryLink import="true" name="Bio-Plasma" hidden="false" id="3e54-29aa-79c5-ceb3" type="selectionEntry" targetId="acf3-4ca5-9999-4506"/>
-                    <entryLink import="true" name="Enhanced Senses (+1 BS)" hidden="false" id="c317-1014-a9b6-2dee" type="selectionEntry" targetId="c74c-9bf1-258e-d29a"/>
-                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="7eb0-553b-b39a-bb28" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d"/>
-                    <entryLink import="true" name="Flesh Hooks" hidden="false" id="14f9-da93-1c6c-bc0c" type="selectionEntry" targetId="c26f-797e-8c25-b5cf"/>
-                    <entryLink import="true" name="Leaping" hidden="false" id="db3f-c52e-c2d7-5bd4" type="selectionEntry" targetId="f55c-de6d-b9e5-949e"/>
+                    <entryLink import="true" name="Adrenal Glands (+1 I)" hidden="false" id="c4af-49b9-76f8-46ff" type="selectionEntry" targetId="1fde-a1f5-8231-2ac4">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Adrenal Glands (+1 WS)" hidden="false" id="eb5e-f81a-70de-a768" type="selectionEntry" targetId="59c2-8b3c-858f-3dd2">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Bio-Plasma" hidden="false" id="3e54-29aa-79c5-ceb3" type="selectionEntry" targetId="acf3-4ca5-9999-4506">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Enhanced Senses (+1 BS)" hidden="false" id="c317-1014-a9b6-2dee" type="selectionEntry" targetId="c74c-9bf1-258e-d29a">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="7eb0-553b-b39a-bb28" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Flesh Hooks" hidden="false" id="14f9-da93-1c6c-bc0c" type="selectionEntry" targetId="c26f-797e-8c25-b5cf">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Leaping" hidden="false" id="db3f-c52e-c2d7-5bd4" type="selectionEntry" targetId="f55c-de6d-b9e5-949e">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
+                      </costs>
+                    </entryLink>
                     <entryLink import="true" name="Toxin Sacs (+1 S)" hidden="false" id="b598-0649-a08d-0d0c" type="selectionEntry" targetId="8cee-09a6-3312-2980">
                       <modifiers>
                         <modifier type="set" value="10" field="6f18-a8fc-2c5b-9517" scope="8737-5192-c44c-2792" affects="self.entries.33c2-0202-2bd3-ad9f"/>
@@ -1169,6 +1228,9 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                         <modifier type="set" value="6" field="6f18-a8fc-2c5b-9517" scope="8737-5192-c44c-2792" affects="self.entries.9692-be3b-51e6-c015"/>
                         <modifier type="set" value="4" field="6f18-a8fc-2c5b-9517" scope="8737-5192-c44c-2792" affects="self.entries.d908-c12e-ef59-063a"/>
                       </modifiers>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -1295,13 +1357,41 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Biomorphs" id="b505-ee39-c7d0-db69" hidden="false">
                   <entryLinks>
-                    <entryLink import="true" name="Adrenal Glands (+1 I)" hidden="false" id="bc60-ed8f-3c1b-c975" type="selectionEntry" targetId="1fde-a1f5-8231-2ac4"/>
-                    <entryLink import="true" name="Adrenal Glands (+1 WS)" hidden="false" id="ff76-a5a7-1670-90fe" type="selectionEntry" targetId="59c2-8b3c-858f-3dd2"/>
-                    <entryLink import="true" name="Bio-Plasma" hidden="false" id="d1e3-eaf8-8dd9-f96e" type="selectionEntry" targetId="acf3-4ca5-9999-4506"/>
-                    <entryLink import="true" name="Enhanced Senses (+1 BS)" hidden="false" id="2faf-9487-b7c7-a042" type="selectionEntry" targetId="c74c-9bf1-258e-d29a"/>
-                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="ac86-1195-5cbc-cc60" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d"/>
-                    <entryLink import="true" name="Flesh Hooks" hidden="false" id="7380-da76-de56-d263" type="selectionEntry" targetId="c26f-797e-8c25-b5cf"/>
-                    <entryLink import="true" name="Leaping" hidden="false" id="95fd-ea17-1a1e-b8b7" type="selectionEntry" targetId="f55c-de6d-b9e5-949e"/>
+                    <entryLink import="true" name="Adrenal Glands (+1 I)" hidden="false" id="bc60-ed8f-3c1b-c975" type="selectionEntry" targetId="1fde-a1f5-8231-2ac4">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Adrenal Glands (+1 WS)" hidden="false" id="ff76-a5a7-1670-90fe" type="selectionEntry" targetId="59c2-8b3c-858f-3dd2">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Bio-Plasma" hidden="false" id="d1e3-eaf8-8dd9-f96e" type="selectionEntry" targetId="acf3-4ca5-9999-4506">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Enhanced Senses (+1 BS)" hidden="false" id="2faf-9487-b7c7-a042" type="selectionEntry" targetId="c74c-9bf1-258e-d29a">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="ac86-1195-5cbc-cc60" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Flesh Hooks" hidden="false" id="7380-da76-de56-d263" type="selectionEntry" targetId="c26f-797e-8c25-b5cf">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Leaping" hidden="false" id="95fd-ea17-1a1e-b8b7" type="selectionEntry" targetId="f55c-de6d-b9e5-949e">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
+                      </costs>
+                    </entryLink>
                     <entryLink import="true" name="Toxin Sacs (+1 S)" hidden="false" id="e346-87eb-9bde-dd60" type="selectionEntry" targetId="8cee-09a6-3312-2980">
                       <modifiers>
                         <modifier type="set" value="10" field="6f18-a8fc-2c5b-9517" scope="0db3-b9e7-dcc0-3fbc" affects="self.entries.1f36-1a11-2808-020b"/>
@@ -1311,6 +1401,9 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                         <modifier type="set" value="20" field="6f18-a8fc-2c5b-9517" scope="0db3-b9e7-dcc0-3fbc" affects="self.entries.0961-b61d-0dac-727a"/>
                         <modifier type="set" value="4" field="6f18-a8fc-2c5b-9517" scope="0db3-b9e7-dcc0-3fbc" affects="self.entries.431f-9427-b65d-c178"/>
                       </modifiers>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -1434,13 +1527,41 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Biomorphs" id="d787-d8e8-1ce4-62ed" hidden="false">
                   <entryLinks>
-                    <entryLink import="true" name="Adrenal Glands (+1 I)" hidden="false" id="54bf-4cab-6432-e892" type="selectionEntry" targetId="1fde-a1f5-8231-2ac4"/>
-                    <entryLink import="true" name="Adrenal Glands (+1 WS)" hidden="false" id="1a4b-85e4-03fd-50d7" type="selectionEntry" targetId="59c2-8b3c-858f-3dd2"/>
-                    <entryLink import="true" name="Bio-Plasma" hidden="false" id="2ccc-c106-b8e1-aadc" type="selectionEntry" targetId="acf3-4ca5-9999-4506"/>
-                    <entryLink import="true" name="Enhanced Senses (+1 BS)" hidden="false" id="8cb9-0fe4-90c9-aac8" type="selectionEntry" targetId="c74c-9bf1-258e-d29a"/>
-                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="9c6e-a759-82a5-72b9" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d"/>
-                    <entryLink import="true" name="Flesh Hooks" hidden="false" id="6f69-29b3-0888-b3d8" type="selectionEntry" targetId="c26f-797e-8c25-b5cf"/>
-                    <entryLink import="true" name="Leaping" hidden="false" id="49cb-1b8c-6472-8499" type="selectionEntry" targetId="f55c-de6d-b9e5-949e"/>
+                    <entryLink import="true" name="Adrenal Glands (+1 I)" hidden="false" id="54bf-4cab-6432-e892" type="selectionEntry" targetId="1fde-a1f5-8231-2ac4">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Adrenal Glands (+1 WS)" hidden="false" id="1a4b-85e4-03fd-50d7" type="selectionEntry" targetId="59c2-8b3c-858f-3dd2">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Bio-Plasma" hidden="false" id="2ccc-c106-b8e1-aadc" type="selectionEntry" targetId="acf3-4ca5-9999-4506">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Enhanced Senses (+1 BS)" hidden="false" id="8cb9-0fe4-90c9-aac8" type="selectionEntry" targetId="c74c-9bf1-258e-d29a">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="9c6e-a759-82a5-72b9" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Flesh Hooks" hidden="false" id="6f69-29b3-0888-b3d8" type="selectionEntry" targetId="c26f-797e-8c25-b5cf">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Leaping" hidden="false" id="49cb-1b8c-6472-8499" type="selectionEntry" targetId="f55c-de6d-b9e5-949e">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
+                      </costs>
+                    </entryLink>
                     <entryLink import="true" name="Toxin Sacs (+1 S)" hidden="false" id="6136-2532-ca1c-ea9b" type="selectionEntry" targetId="8cee-09a6-3312-2980">
                       <modifiers>
                         <modifier type="set" value="10" field="6f18-a8fc-2c5b-9517" scope="e6a2-799d-d1d5-a158" affects="self.entries.95d3-d086-ae23-36cd"/>
@@ -1448,6 +1569,9 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                         <modifier type="set" value="6" field="6f18-a8fc-2c5b-9517" scope="e6a2-799d-d1d5-a158" affects="self.entries.137f-2102-c1dd-07a6"/>
                         <modifier type="set" value="4" field="6f18-a8fc-2c5b-9517" scope="e6a2-799d-d1d5-a158" affects="self.entries.1ec1-46db-8613-6237"/>
                       </modifiers>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -1574,13 +1698,41 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Biomorphs" id="fb21-3d0b-98af-9ebd" hidden="false">
                   <entryLinks>
-                    <entryLink import="true" name="Adrenal Glands (+1 I)" hidden="false" id="d526-8bb5-7b6f-3fcd" type="selectionEntry" targetId="1fde-a1f5-8231-2ac4"/>
-                    <entryLink import="true" name="Adrenal Glands (+1 WS)" hidden="false" id="ca67-e343-6686-a007" type="selectionEntry" targetId="59c2-8b3c-858f-3dd2"/>
-                    <entryLink import="true" name="Bio-Plasma" hidden="false" id="5042-9031-cb7b-1725" type="selectionEntry" targetId="acf3-4ca5-9999-4506"/>
-                    <entryLink import="true" name="Enhanced Senses (+1 BS)" hidden="false" id="8a28-96ee-d3c3-8f02" type="selectionEntry" targetId="c74c-9bf1-258e-d29a"/>
-                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="5760-3d28-038b-f87a" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d"/>
-                    <entryLink import="true" name="Flesh Hooks" hidden="false" id="b5be-6fde-d77d-5599" type="selectionEntry" targetId="c26f-797e-8c25-b5cf"/>
-                    <entryLink import="true" name="Leaping" hidden="false" id="d43e-1917-df9e-514b" type="selectionEntry" targetId="f55c-de6d-b9e5-949e"/>
+                    <entryLink import="true" name="Adrenal Glands (+1 I)" hidden="false" id="d526-8bb5-7b6f-3fcd" type="selectionEntry" targetId="1fde-a1f5-8231-2ac4">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Adrenal Glands (+1 WS)" hidden="false" id="ca67-e343-6686-a007" type="selectionEntry" targetId="59c2-8b3c-858f-3dd2">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Bio-Plasma" hidden="false" id="5042-9031-cb7b-1725" type="selectionEntry" targetId="acf3-4ca5-9999-4506">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Enhanced Senses (+1 BS)" hidden="false" id="8a28-96ee-d3c3-8f02" type="selectionEntry" targetId="c74c-9bf1-258e-d29a">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="5760-3d28-038b-f87a" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Flesh Hooks" hidden="false" id="b5be-6fde-d77d-5599" type="selectionEntry" targetId="c26f-797e-8c25-b5cf">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Leaping" hidden="false" id="d43e-1917-df9e-514b" type="selectionEntry" targetId="f55c-de6d-b9e5-949e">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
+                      </costs>
+                    </entryLink>
                     <entryLink import="true" name="Toxin Sacs (+1 S)" hidden="false" id="f2f0-7654-5a1b-8903" type="selectionEntry" targetId="8cee-09a6-3312-2980">
                       <modifiers>
                         <modifier type="set" value="10" field="6f18-a8fc-2c5b-9517" scope="91b9-cec3-052b-3bf4" affects="self.entries.84f0-d14c-d1d5-5eaf"/>
@@ -1590,6 +1742,9 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                         <modifier type="set" value="20" field="6f18-a8fc-2c5b-9517" scope="91b9-cec3-052b-3bf4" affects="self.entries.af3b-f55d-b9c4-3f2d"/>
                         <modifier type="set" value="4" field="6f18-a8fc-2c5b-9517" scope="91b9-cec3-052b-3bf4" affects="self.entries.47cd-92fd-1758-1c9a"/>
                       </modifiers>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -1713,13 +1868,41 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Biomorphs" id="6578-83d5-2da2-e61a" hidden="false">
                   <entryLinks>
-                    <entryLink import="true" name="Adrenal Glands (+1 I)" hidden="false" id="4a27-4fd2-21b1-c354" type="selectionEntry" targetId="1fde-a1f5-8231-2ac4"/>
-                    <entryLink import="true" name="Adrenal Glands (+1 WS)" hidden="false" id="6ecb-e5fe-1031-759b" type="selectionEntry" targetId="59c2-8b3c-858f-3dd2"/>
-                    <entryLink import="true" name="Bio-Plasma" hidden="false" id="989e-d03b-db59-30f6" type="selectionEntry" targetId="acf3-4ca5-9999-4506"/>
-                    <entryLink import="true" name="Enhanced Senses (+1 BS)" hidden="false" id="2a25-fbfb-8f1a-9754" type="selectionEntry" targetId="c74c-9bf1-258e-d29a"/>
-                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="c559-ca9e-a7f9-1ab1" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d"/>
-                    <entryLink import="true" name="Flesh Hooks" hidden="false" id="ac68-cf13-8b5b-48f3" type="selectionEntry" targetId="c26f-797e-8c25-b5cf"/>
-                    <entryLink import="true" name="Leaping" hidden="false" id="d8a9-d5ae-2b7b-2900" type="selectionEntry" targetId="f55c-de6d-b9e5-949e"/>
+                    <entryLink import="true" name="Adrenal Glands (+1 I)" hidden="false" id="4a27-4fd2-21b1-c354" type="selectionEntry" targetId="1fde-a1f5-8231-2ac4">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Adrenal Glands (+1 WS)" hidden="false" id="6ecb-e5fe-1031-759b" type="selectionEntry" targetId="59c2-8b3c-858f-3dd2">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Bio-Plasma" hidden="false" id="989e-d03b-db59-30f6" type="selectionEntry" targetId="acf3-4ca5-9999-4506">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Enhanced Senses (+1 BS)" hidden="false" id="2a25-fbfb-8f1a-9754" type="selectionEntry" targetId="c74c-9bf1-258e-d29a">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="c559-ca9e-a7f9-1ab1" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Flesh Hooks" hidden="false" id="ac68-cf13-8b5b-48f3" type="selectionEntry" targetId="c26f-797e-8c25-b5cf">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Leaping" hidden="false" id="d8a9-d5ae-2b7b-2900" type="selectionEntry" targetId="f55c-de6d-b9e5-949e">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
+                      </costs>
+                    </entryLink>
                     <entryLink import="true" name="Toxin Sacs (+1 S)" hidden="false" id="8fcd-7e0b-4eab-4ae1" type="selectionEntry" targetId="8cee-09a6-3312-2980">
                       <modifiers>
                         <modifier type="set" value="10" field="6f18-a8fc-2c5b-9517" scope="0d4d-d959-dd3c-5949" affects="self.entries.98da-8631-e496-a0ba"/>
@@ -1727,6 +1910,9 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                         <modifier type="set" value="6" field="6f18-a8fc-2c5b-9517" scope="0d4d-d959-dd3c-5949" affects="self.entries.3f6f-e385-4cc7-cb05"/>
                         <modifier type="set" value="4" field="6f18-a8fc-2c5b-9517" scope="0d4d-d959-dd3c-5949" affects="self.entries.3d1a-b26c-195b-f121"/>
                       </modifiers>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
+                      </costs>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -3258,7 +3444,7 @@ Movement: Spore Mine Clusters drift D6&quot; in the direction rolled on a Scatte
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0318-0c70-7eb2-c7d4" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Bonded Exoskeleton" hidden="false" id="2cf5-26bf-5ce0-dffd">
+    <selectionEntry type="upgrade" import="true" name="Bonded Exoskeleton (+1 T)" hidden="false" id="2cf5-26bf-5ce0-dffd">
       <infoLinks>
         <infoLink name="Bonded Exoskeleton" id="3b65-0030-6bd3-a236" hidden="false" type="profile" targetId="69d9-03c7-fbc4-bd76"/>
       </infoLinks>
