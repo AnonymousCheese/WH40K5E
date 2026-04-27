@@ -401,12 +401,12 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Enhanced Senses" hidden="false" id="8fed-037e-e250-dece" type="selectionEntry" targetId="c74c-9bf1-258e-d29a">
+            <entryLink import="true" name="Enhanced Senses (+1 BS)" hidden="false" id="8fed-037e-e250-dece" type="selectionEntry" targetId="c74c-9bf1-258e-d29a">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Extended Carapace" hidden="false" id="8dd0-3f86-ee9b-e5b5" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d">
+            <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="8dd0-3f86-ee9b-e5b5" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
               </costs>
@@ -421,7 +421,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Toxin Sacs" hidden="false" id="9770-df25-4631-4f70" type="selectionEntry" targetId="8cee-09a6-3312-2980">
+            <entryLink import="true" name="Toxin Sacs (+1 S)" hidden="false" id="9770-df25-4631-4f70" type="selectionEntry" targetId="8cee-09a6-3312-2980">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
               </costs>
@@ -679,7 +679,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Extended Carapace" hidden="false" id="a5d0-f8cd-064a-b21d" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d">
+                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="a5d0-f8cd-064a-b21d" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d">
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
                       </costs>
@@ -694,7 +694,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Toxin Sacs" hidden="false" id="a16a-26f9-40ea-6370" type="selectionEntry" targetId="8cee-09a6-3312-2980">
+                    <entryLink import="true" name="Toxin Sacs (+1 S)" hidden="false" id="a16a-26f9-40ea-6370" type="selectionEntry" targetId="8cee-09a6-3312-2980">
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
                       </costs>
@@ -755,12 +755,12 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Toxin Sacs" hidden="false" id="c3e8-f4fd-48e1-63ae" type="selectionEntry" targetId="8cee-09a6-3312-2980">
+            <entryLink import="true" name="Toxin Sacs (+1 S)" hidden="false" id="c3e8-f4fd-48e1-63ae" type="selectionEntry" targetId="8cee-09a6-3312-2980">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Extended Carapace" hidden="false" id="3876-d3b5-361c-72e9" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d">
+            <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="3876-d3b5-361c-72e9" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
@@ -837,7 +837,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Extended Carapace" hidden="false" id="bb1c-24c2-8dec-15b6" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d">
+                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="bb1c-24c2-8dec-15b6" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d">
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
                       </costs>
@@ -852,7 +852,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Toxin Sacs" hidden="false" id="855b-b7f1-3adf-7521" type="selectionEntry" targetId="8cee-09a6-3312-2980">
+                    <entryLink import="true" name="Toxin Sacs (+1 S)" hidden="false" id="855b-b7f1-3adf-7521" type="selectionEntry" targetId="8cee-09a6-3312-2980">
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
                       </costs>
@@ -1019,11 +1019,11 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                     <entryLink import="true" name="Adrenal Glands (+1 I)" hidden="false" id="2577-fee6-f46b-5577" type="selectionEntry" targetId="1fde-a1f5-8231-2ac4"/>
                     <entryLink import="true" name="Adrenal Glands (+1 WS)" hidden="false" id="0929-6e71-1add-a093" type="selectionEntry" targetId="59c2-8b3c-858f-3dd2"/>
                     <entryLink import="true" name="Bio-Plasma" hidden="false" id="f426-4a4d-9c83-8886" type="selectionEntry" targetId="acf3-4ca5-9999-4506"/>
-                    <entryLink import="true" name="Enhanced Senses" hidden="false" id="8f74-0643-37b8-81ff" type="selectionEntry" targetId="c74c-9bf1-258e-d29a"/>
-                    <entryLink import="true" name="Extended Carapace" hidden="false" id="3081-6e9d-5992-9b9e" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d"/>
+                    <entryLink import="true" name="Enhanced Senses (+1 BS)" hidden="false" id="8f74-0643-37b8-81ff" type="selectionEntry" targetId="c74c-9bf1-258e-d29a"/>
+                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="3081-6e9d-5992-9b9e" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d"/>
                     <entryLink import="true" name="Flesh Hooks" hidden="false" id="9a82-28d6-7267-e2a5" type="selectionEntry" targetId="c26f-797e-8c25-b5cf"/>
                     <entryLink import="true" name="Leaping" hidden="false" id="fd93-e303-f489-b692" type="selectionEntry" targetId="f55c-de6d-b9e5-949e"/>
-                    <entryLink import="true" name="Toxin Sacs" hidden="false" id="fa15-9d53-1429-69b1" type="selectionEntry" targetId="8cee-09a6-3312-2980">
+                    <entryLink import="true" name="Toxin Sacs (+1 S)" hidden="false" id="fa15-9d53-1429-69b1" type="selectionEntry" targetId="8cee-09a6-3312-2980">
                       <modifiers>
                         <modifier type="set" value="10" field="6f18-a8fc-2c5b-9517" scope="416d-7563-c938-4693" affects="self.entries.a09e-6da5-34e6-2240"/>
                         <modifier type="set" value="8" field="6f18-a8fc-2c5b-9517" scope="416d-7563-c938-4693" affects="self.entries.9348-92b5-4468-e5c6"/>
@@ -1158,11 +1158,11 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                     <entryLink import="true" name="Adrenal Glands (+1 I)" hidden="false" id="c4af-49b9-76f8-46ff" type="selectionEntry" targetId="1fde-a1f5-8231-2ac4"/>
                     <entryLink import="true" name="Adrenal Glands (+1 WS)" hidden="false" id="eb5e-f81a-70de-a768" type="selectionEntry" targetId="59c2-8b3c-858f-3dd2"/>
                     <entryLink import="true" name="Bio-Plasma" hidden="false" id="3e54-29aa-79c5-ceb3" type="selectionEntry" targetId="acf3-4ca5-9999-4506"/>
-                    <entryLink import="true" name="Enhanced Senses" hidden="false" id="c317-1014-a9b6-2dee" type="selectionEntry" targetId="c74c-9bf1-258e-d29a"/>
-                    <entryLink import="true" name="Extended Carapace" hidden="false" id="7eb0-553b-b39a-bb28" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d"/>
+                    <entryLink import="true" name="Enhanced Senses (+1 BS)" hidden="false" id="c317-1014-a9b6-2dee" type="selectionEntry" targetId="c74c-9bf1-258e-d29a"/>
+                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="7eb0-553b-b39a-bb28" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d"/>
                     <entryLink import="true" name="Flesh Hooks" hidden="false" id="14f9-da93-1c6c-bc0c" type="selectionEntry" targetId="c26f-797e-8c25-b5cf"/>
                     <entryLink import="true" name="Leaping" hidden="false" id="db3f-c52e-c2d7-5bd4" type="selectionEntry" targetId="f55c-de6d-b9e5-949e"/>
-                    <entryLink import="true" name="Toxin Sacs" hidden="false" id="b598-0649-a08d-0d0c" type="selectionEntry" targetId="8cee-09a6-3312-2980">
+                    <entryLink import="true" name="Toxin Sacs (+1 S)" hidden="false" id="b598-0649-a08d-0d0c" type="selectionEntry" targetId="8cee-09a6-3312-2980">
                       <modifiers>
                         <modifier type="set" value="10" field="6f18-a8fc-2c5b-9517" scope="8737-5192-c44c-2792" affects="self.entries.33c2-0202-2bd3-ad9f"/>
                         <modifier type="set" value="8" field="6f18-a8fc-2c5b-9517" scope="8737-5192-c44c-2792" affects="self.entries.7552-bc0b-48b1-689d"/>
@@ -1298,11 +1298,11 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                     <entryLink import="true" name="Adrenal Glands (+1 I)" hidden="false" id="bc60-ed8f-3c1b-c975" type="selectionEntry" targetId="1fde-a1f5-8231-2ac4"/>
                     <entryLink import="true" name="Adrenal Glands (+1 WS)" hidden="false" id="ff76-a5a7-1670-90fe" type="selectionEntry" targetId="59c2-8b3c-858f-3dd2"/>
                     <entryLink import="true" name="Bio-Plasma" hidden="false" id="d1e3-eaf8-8dd9-f96e" type="selectionEntry" targetId="acf3-4ca5-9999-4506"/>
-                    <entryLink import="true" name="Enhanced Senses" hidden="false" id="2faf-9487-b7c7-a042" type="selectionEntry" targetId="c74c-9bf1-258e-d29a"/>
-                    <entryLink import="true" name="Extended Carapace" hidden="false" id="ac86-1195-5cbc-cc60" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d"/>
+                    <entryLink import="true" name="Enhanced Senses (+1 BS)" hidden="false" id="2faf-9487-b7c7-a042" type="selectionEntry" targetId="c74c-9bf1-258e-d29a"/>
+                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="ac86-1195-5cbc-cc60" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d"/>
                     <entryLink import="true" name="Flesh Hooks" hidden="false" id="7380-da76-de56-d263" type="selectionEntry" targetId="c26f-797e-8c25-b5cf"/>
                     <entryLink import="true" name="Leaping" hidden="false" id="95fd-ea17-1a1e-b8b7" type="selectionEntry" targetId="f55c-de6d-b9e5-949e"/>
-                    <entryLink import="true" name="Toxin Sacs" hidden="false" id="e346-87eb-9bde-dd60" type="selectionEntry" targetId="8cee-09a6-3312-2980">
+                    <entryLink import="true" name="Toxin Sacs (+1 S)" hidden="false" id="e346-87eb-9bde-dd60" type="selectionEntry" targetId="8cee-09a6-3312-2980">
                       <modifiers>
                         <modifier type="set" value="10" field="6f18-a8fc-2c5b-9517" scope="0db3-b9e7-dcc0-3fbc" affects="self.entries.1f36-1a11-2808-020b"/>
                         <modifier type="set" value="8" field="6f18-a8fc-2c5b-9517" scope="0db3-b9e7-dcc0-3fbc" affects="self.entries.85af-c192-8650-e00a"/>
@@ -1437,11 +1437,11 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                     <entryLink import="true" name="Adrenal Glands (+1 I)" hidden="false" id="54bf-4cab-6432-e892" type="selectionEntry" targetId="1fde-a1f5-8231-2ac4"/>
                     <entryLink import="true" name="Adrenal Glands (+1 WS)" hidden="false" id="1a4b-85e4-03fd-50d7" type="selectionEntry" targetId="59c2-8b3c-858f-3dd2"/>
                     <entryLink import="true" name="Bio-Plasma" hidden="false" id="2ccc-c106-b8e1-aadc" type="selectionEntry" targetId="acf3-4ca5-9999-4506"/>
-                    <entryLink import="true" name="Enhanced Senses" hidden="false" id="8cb9-0fe4-90c9-aac8" type="selectionEntry" targetId="c74c-9bf1-258e-d29a"/>
-                    <entryLink import="true" name="Extended Carapace" hidden="false" id="9c6e-a759-82a5-72b9" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d"/>
+                    <entryLink import="true" name="Enhanced Senses (+1 BS)" hidden="false" id="8cb9-0fe4-90c9-aac8" type="selectionEntry" targetId="c74c-9bf1-258e-d29a"/>
+                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="9c6e-a759-82a5-72b9" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d"/>
                     <entryLink import="true" name="Flesh Hooks" hidden="false" id="6f69-29b3-0888-b3d8" type="selectionEntry" targetId="c26f-797e-8c25-b5cf"/>
                     <entryLink import="true" name="Leaping" hidden="false" id="49cb-1b8c-6472-8499" type="selectionEntry" targetId="f55c-de6d-b9e5-949e"/>
-                    <entryLink import="true" name="Toxin Sacs" hidden="false" id="6136-2532-ca1c-ea9b" type="selectionEntry" targetId="8cee-09a6-3312-2980">
+                    <entryLink import="true" name="Toxin Sacs (+1 S)" hidden="false" id="6136-2532-ca1c-ea9b" type="selectionEntry" targetId="8cee-09a6-3312-2980">
                       <modifiers>
                         <modifier type="set" value="10" field="6f18-a8fc-2c5b-9517" scope="e6a2-799d-d1d5-a158" affects="self.entries.95d3-d086-ae23-36cd"/>
                         <modifier type="set" value="8" field="6f18-a8fc-2c5b-9517" scope="e6a2-799d-d1d5-a158" affects="self.entries.b4b8-b372-5aea-9819"/>
@@ -1577,11 +1577,11 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                     <entryLink import="true" name="Adrenal Glands (+1 I)" hidden="false" id="d526-8bb5-7b6f-3fcd" type="selectionEntry" targetId="1fde-a1f5-8231-2ac4"/>
                     <entryLink import="true" name="Adrenal Glands (+1 WS)" hidden="false" id="ca67-e343-6686-a007" type="selectionEntry" targetId="59c2-8b3c-858f-3dd2"/>
                     <entryLink import="true" name="Bio-Plasma" hidden="false" id="5042-9031-cb7b-1725" type="selectionEntry" targetId="acf3-4ca5-9999-4506"/>
-                    <entryLink import="true" name="Enhanced Senses" hidden="false" id="8a28-96ee-d3c3-8f02" type="selectionEntry" targetId="c74c-9bf1-258e-d29a"/>
-                    <entryLink import="true" name="Extended Carapace" hidden="false" id="5760-3d28-038b-f87a" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d"/>
+                    <entryLink import="true" name="Enhanced Senses (+1 BS)" hidden="false" id="8a28-96ee-d3c3-8f02" type="selectionEntry" targetId="c74c-9bf1-258e-d29a"/>
+                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="5760-3d28-038b-f87a" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d"/>
                     <entryLink import="true" name="Flesh Hooks" hidden="false" id="b5be-6fde-d77d-5599" type="selectionEntry" targetId="c26f-797e-8c25-b5cf"/>
                     <entryLink import="true" name="Leaping" hidden="false" id="d43e-1917-df9e-514b" type="selectionEntry" targetId="f55c-de6d-b9e5-949e"/>
-                    <entryLink import="true" name="Toxin Sacs" hidden="false" id="f2f0-7654-5a1b-8903" type="selectionEntry" targetId="8cee-09a6-3312-2980">
+                    <entryLink import="true" name="Toxin Sacs (+1 S)" hidden="false" id="f2f0-7654-5a1b-8903" type="selectionEntry" targetId="8cee-09a6-3312-2980">
                       <modifiers>
                         <modifier type="set" value="10" field="6f18-a8fc-2c5b-9517" scope="91b9-cec3-052b-3bf4" affects="self.entries.84f0-d14c-d1d5-5eaf"/>
                         <modifier type="set" value="8" field="6f18-a8fc-2c5b-9517" scope="91b9-cec3-052b-3bf4" affects="self.entries.4891-1dfd-b41a-b68c"/>
@@ -1716,11 +1716,11 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                     <entryLink import="true" name="Adrenal Glands (+1 I)" hidden="false" id="4a27-4fd2-21b1-c354" type="selectionEntry" targetId="1fde-a1f5-8231-2ac4"/>
                     <entryLink import="true" name="Adrenal Glands (+1 WS)" hidden="false" id="6ecb-e5fe-1031-759b" type="selectionEntry" targetId="59c2-8b3c-858f-3dd2"/>
                     <entryLink import="true" name="Bio-Plasma" hidden="false" id="989e-d03b-db59-30f6" type="selectionEntry" targetId="acf3-4ca5-9999-4506"/>
-                    <entryLink import="true" name="Enhanced Senses" hidden="false" id="2a25-fbfb-8f1a-9754" type="selectionEntry" targetId="c74c-9bf1-258e-d29a"/>
-                    <entryLink import="true" name="Extended Carapace" hidden="false" id="c559-ca9e-a7f9-1ab1" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d"/>
+                    <entryLink import="true" name="Enhanced Senses (+1 BS)" hidden="false" id="2a25-fbfb-8f1a-9754" type="selectionEntry" targetId="c74c-9bf1-258e-d29a"/>
+                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="c559-ca9e-a7f9-1ab1" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d"/>
                     <entryLink import="true" name="Flesh Hooks" hidden="false" id="ac68-cf13-8b5b-48f3" type="selectionEntry" targetId="c26f-797e-8c25-b5cf"/>
                     <entryLink import="true" name="Leaping" hidden="false" id="d8a9-d5ae-2b7b-2900" type="selectionEntry" targetId="f55c-de6d-b9e5-949e"/>
-                    <entryLink import="true" name="Toxin Sacs" hidden="false" id="8fcd-7e0b-4eab-4ae1" type="selectionEntry" targetId="8cee-09a6-3312-2980">
+                    <entryLink import="true" name="Toxin Sacs (+1 S)" hidden="false" id="8fcd-7e0b-4eab-4ae1" type="selectionEntry" targetId="8cee-09a6-3312-2980">
                       <modifiers>
                         <modifier type="set" value="10" field="6f18-a8fc-2c5b-9517" scope="0d4d-d959-dd3c-5949" affects="self.entries.98da-8631-e496-a0ba"/>
                         <modifier type="set" value="8" field="6f18-a8fc-2c5b-9517" scope="0d4d-d959-dd3c-5949" affects="self.entries.4d32-5c0c-58c5-2de2"/>
@@ -1853,7 +1853,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Extended Carapace" hidden="false" id="1896-ee4d-72f7-3d69" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d">
+                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="1896-ee4d-72f7-3d69" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d">
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
                       </costs>
@@ -1868,7 +1868,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Toxin Sacs" hidden="false" id="3598-8f46-26ea-615b" type="selectionEntry" targetId="8cee-09a6-3312-2980">
+                    <entryLink import="true" name="Toxin Sacs (+1 S)" hidden="false" id="3598-8f46-26ea-615b" type="selectionEntry" targetId="8cee-09a6-3312-2980">
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
                       </costs>
@@ -1976,7 +1976,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Extended Carapace" hidden="false" id="a535-ca9d-4b3a-5084" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d">
+                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="a535-ca9d-4b3a-5084" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d">
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="3"/>
                       </costs>
@@ -1986,7 +1986,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Toxin Sacs" hidden="false" id="d106-5d4d-5d85-111a" type="selectionEntry" targetId="8cee-09a6-3312-2980">
+                    <entryLink import="true" name="Toxin Sacs (+1 S)" hidden="false" id="d106-5d4d-5d85-111a" type="selectionEntry" targetId="8cee-09a6-3312-2980">
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
                       </costs>
@@ -2056,12 +2056,12 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Enhanced Senses" hidden="false" id="a45f-1fed-3d3c-bb6e" type="selectionEntry" targetId="c74c-9bf1-258e-d29a">
+                    <entryLink import="true" name="Enhanced Senses (+1 BS)" hidden="false" id="a45f-1fed-3d3c-bb6e" type="selectionEntry" targetId="c74c-9bf1-258e-d29a">
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Extended Carapace" hidden="false" id="ed43-c4f3-ede0-9ab8" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d">
+                    <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="ed43-c4f3-ede0-9ab8" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d">
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
                       </costs>
@@ -2076,7 +2076,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Toxin Sacs" hidden="false" id="c978-71f1-db23-eadb" type="selectionEntry" targetId="8cee-09a6-3312-2980">
+                    <entryLink import="true" name="Toxin Sacs (+1 S)" hidden="false" id="c978-71f1-db23-eadb" type="selectionEntry" targetId="8cee-09a6-3312-2980">
                       <modifiers>
                         <modifier type="set" value="2" field="6f18-a8fc-2c5b-9517" scope="parent" affects="5427-edd3-c343-71ec"/>
                       </modifiers>
@@ -2159,7 +2159,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Enhanced Senses" hidden="false" id="ea00-a924-e395-a25b" type="selectionEntry" targetId="c74c-9bf1-258e-d29a">
+                    <entryLink import="true" name="Enhanced Senses (+1 BS)" hidden="false" id="ea00-a924-e395-a25b" type="selectionEntry" targetId="c74c-9bf1-258e-d29a">
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
                       </costs>
@@ -2174,7 +2174,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Toxin Sacs" hidden="false" id="e9e8-03a4-4989-26f3" type="selectionEntry" targetId="8cee-09a6-3312-2980">
+                    <entryLink import="true" name="Toxin Sacs (+1 S)" hidden="false" id="e9e8-03a4-4989-26f3" type="selectionEntry" targetId="8cee-09a6-3312-2980">
                       <modifiers>
                         <modifier type="set" value="2" field="6f18-a8fc-2c5b-9517" scope="parent" affects="5427-edd3-c343-71ec"/>
                       </modifiers>
@@ -2681,12 +2681,12 @@ Movement: Spore Mine Clusters drift D6&quot; in the direction rolled on a Scatte
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Enhanced Senses" hidden="false" id="6cac-bc1f-7268-773a" type="selectionEntry" targetId="c74c-9bf1-258e-d29a">
+            <entryLink import="true" name="Enhanced Senses (+1 BS)" hidden="false" id="6cac-bc1f-7268-773a" type="selectionEntry" targetId="c74c-9bf1-258e-d29a">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Extended Carapace" hidden="false" id="e0e1-3f7b-bc75-447b" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d">
+            <entryLink import="true" name="Extended Carapace (+1 Sv)" hidden="false" id="e0e1-3f7b-bc75-447b" type="selectionEntry" targetId="11c9-1b30-5dbd-de3d">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
               </costs>
@@ -2706,12 +2706,12 @@ Movement: Spore Mine Clusters drift D6&quot; in the direction rolled on a Scatte
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Reinforced Chitin" hidden="false" id="7eeb-698e-30d9-6ef7" type="selectionEntry" targetId="c76b-b192-048c-639c">
+            <entryLink import="true" name="Reinforced Chitin (+1 W)" hidden="false" id="7eeb-698e-30d9-6ef7" type="selectionEntry" targetId="c76b-b192-048c-639c">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Toxin Sacs" hidden="false" id="0cef-7bdc-e4cf-a1a5" type="selectionEntry" targetId="8cee-09a6-3312-2980">
+            <entryLink import="true" name="Toxin Sacs (+1 S)" hidden="false" id="0cef-7bdc-e4cf-a1a5" type="selectionEntry" targetId="8cee-09a6-3312-2980">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="6"/>
               </costs>
@@ -3151,7 +3151,7 @@ Movement: Spore Mine Clusters drift D6&quot; in the direction rolled on a Scatte
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Weapon Symbiote" id="b80c-32b0-f3d4-0020" hidden="false" defaultSelectionEntryId="df0d-4359-1568-7a2f">
+                <selectionEntryGroup name="Weapon Symbiote" id="b80c-32b0-f3d4-0020" hidden="false" defaultSelectionEntryId="0557-dd78-91f9-e9c7">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Devourer" hidden="false" id="7056-3a34-c3c3-1e5c">
                       <costs>
@@ -3194,7 +3194,7 @@ Movement: Spore Mine Clusters drift D6&quot; in the direction rolled on a Scatte
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="4"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="7"/>
               </costs>
               <constraints>
                 <constraint type="max" value="4" field="6f18-a8fc-2c5b-9517" scope="self" shared="true" id="40b5-a76c-0f18-2503"/>
