@@ -646,7 +646,7 @@ The executed model is immediately removed as a casualty, regardless of the numbe
           <characteristics>
             <characteristic name="Capacity" typeId="7cdf-4c80-a83d-200c">12</characteristic>
             <characteristic name="Access Points" typeId="6e42-3bd5-70a6-724f">Rear</characteristic>
-            <characteristic name="Fire Points" typeId="aa94-ae0c-98e7-5923">Two models may fire from the top hatch.</characteristic>
+            <characteristic name="Fire Points" typeId="aa94-ae0c-98e7-5923">Five models may fire from the top hatch.</characteristic>
           </characteristics>
         </profile>
         <profile name="Mobile Command Vehicle" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="96b8-4379-a0a0-af25">

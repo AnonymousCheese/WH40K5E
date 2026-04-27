@@ -1938,14 +1938,14 @@ Units which include Servitors are still subject to this rule, providing that the
                 </profile>
               </profiles>
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="13"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="16"/>
               </costs>
               <infoLinks>
                 <infoLink name="Boltgun" id="cab1-b126-189f-bf33" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
                 <infoLink name="Bolt Pistol" id="3506-d93f-7f9f-7f83" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Space Marine Sergeant" hidden="false" id="47cf-5bd5-8728-a5b4">
+            <selectionEntry type="model" import="true" name="Space Marine Sergeant" hidden="false" id="47cf-5bd5-8728-a5b4" defaultAmount="1">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1f28-3a6f-ad6e-6329-min"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f28-3a6f-ad6e-6329-max"/>
@@ -2080,12 +2080,12 @@ Units which include Servitors are still subject to this rule, providing that the
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="23"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="26"/>
               </costs>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Marine Gunner" hidden="false" id="494f-3ed0-4bdd-1df3">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="13"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="16"/>
               </costs>
               <profiles>
                 <profile name="Space Marine" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="be4e-17e1-5e17-0c69">
@@ -2115,13 +2115,10 @@ Units which include Servitors are still subject to this rule, providing that the
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="279c-33b9-807f-0dd3"/>
                       </constraints>
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                      </costs>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="b017-c9f8-e68d-c755">
                       <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
                       </costs>
                       <infoLinks>
                         <infoLink name="Meltagun" id="24cf-3a8a-9302-049a" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
@@ -2135,7 +2132,7 @@ Units which include Servitors are still subject to this rule, providing that the
                         <infoLink name="Plasma Gun" id="54fd-fe0a-90fe-60fa" hidden="false" type="profile" targetId="29c3-2b26-b62c-779c"/>
                       </infoLinks>
                       <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
                       </costs>
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2430-073b-ece0-803d"/>
@@ -2154,7 +2151,7 @@ Units which include Servitors are still subject to this rule, providing that the
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Marine Heavy Gunner" hidden="false" id="b0c1-23ec-0126-95d2">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="13"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="16"/>
               </costs>
               <profiles>
                 <profile name="Space Marine" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="cb4c-9d69-a6c0-b6ef">
@@ -2184,9 +2181,6 @@ Units which include Servitors are still subject to this rule, providing that the
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2324-2d92-d04f-a46a"/>
                       </constraints>
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                      </costs>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Multi-melta" hidden="false" id="8e80-0a22-4ca2-04e9">
                       <infoLinks>
@@ -2195,9 +2189,6 @@ Units which include Servitors are still subject to this rule, providing that the
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b31-5c6a-fc02-9148"/>
                       </constraints>
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                      </costs>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="236c-92e8-ba87-fdf3">
                       <infoLinks>
@@ -2207,13 +2198,10 @@ Units which include Servitors are still subject to this rule, providing that the
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc2f-f90b-0843-0805"/>
                       </constraints>
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                      </costs>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Plasma Cannon" hidden="false" id="8cbd-eb59-81c1-5185">
                       <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
                       </costs>
                       <infoLinks>
                         <infoLink name="Plasma Cannon" id="e0d6-62f6-4199-3232" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
@@ -2224,7 +2212,7 @@ Units which include Servitors are still subject to this rule, providing that the
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Lascannon" hidden="false" id="33cf-5a9e-2c76-dce6">
                       <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
                       </costs>
                       <infoLinks>
                         <infoLink name="Lascannon" id="f3bb-7933-5e03-2921" hidden="false" type="profile" targetId="2965-8d8c-d5b0-8aa1"/>
@@ -3598,9 +3586,6 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
                       <infoLinks>
                         <infoLink name="Boltgun" id="48fc-559a-e409-2033" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
                       </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6516-7810-e157-751e"/>
-                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="d881-f86c-24bd-2e1b">
                       <infoLinks>
@@ -3613,17 +3598,59 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
                       </costs>
                     </selectionEntry>
-                  </selectionEntries>
-                  <entryLinks>
-                    <entryLink import="true" name="Combi-weapon" hidden="false" id="2ed3-96ea-4f56-da2f" type="selectionEntry" targetId="d720-24d4-d7f1-df20">
+                    <selectionEntry type="upgrade" import="true" name="Combi-plasma" hidden="false" id="8c21-7ed4-9c38-9f3d">
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
                       </costs>
+                      <profiles>
+                        <profile name="Combi-plasma (Boltgun)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0b01-7cc5-e710-8911">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+                            <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+                            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+                            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+                            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+                          </characteristics>
+                        </profile>
+                        <profile name="Combi-plasma (plasma)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="a6cd-6d96-3fa7-68ce">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+                            <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+                            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+                            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Gets Hot!, One Shot</characteristic>
+                            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="66b8-40cc-0b6b-14ec"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa44-2261-3364-e6f7"/>
                       </constraints>
-                    </entryLink>
-                  </entryLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Combi-melta" hidden="false" id="241b-f8a2-3766-0025">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Combi-melta (Boltgun)" id="fe7a-4e7e-71cd-e016" hidden="false" targetId="aad5-fec1-bd21-2ae3" type="profile"/>
+                        <infoLink name="Combi-melta (melta)" id="230b-fb6e-95ef-895f" hidden="false" targetId="38ae-bcac-62af-c514" type="profile"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ce4-4476-d7a7-2f09"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Combi-flamer" hidden="false" id="929a-15df-6a83-2560" defaultAmount="1">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Combi-flamer (Flamer)" id="d2d7-3505-4246-92a2" hidden="false" targetId="6895-2cfe-6f5b-8f88" type="profile"/>
+                        <infoLink name="Combi-flamer (Boltgun)" id="db6a-99d2-0d31-e993" hidden="false" targetId="79ec-9032-001f-b7bf" type="profile"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9218-115b-6c19-52da"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="self" shared="true" id="49ab-dd9a-8765-be6c-min"/>
                     <constraint type="max" value="1" field="selections" scope="self" shared="true" id="49ab-dd9a-8765-be6c-max"/>
@@ -3728,21 +3755,63 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9098-1723-19df-7388"/>
                       </constraints>
                     </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Combi-plasma" hidden="false" id="031b-2f50-0896-a077">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <profiles>
+                        <profile name="Combi-plasma (Boltgun)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="3b85-2511-161b-9b67">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+                            <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+                            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+                            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+                            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+                          </characteristics>
+                        </profile>
+                        <profile name="Combi-plasma (plasma)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="fd39-9c0a-ef99-04a0">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+                            <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+                            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+                            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Gets Hot!, One Shot</characteristic>
+                            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c42-67e6-1dcd-33cc"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Combi-melta" hidden="false" id="4e67-6a80-dbe3-071d">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Combi-melta (Boltgun)" id="3a24-38e0-dab9-2e78" hidden="false" targetId="aad5-fec1-bd21-2ae3" type="profile"/>
+                        <infoLink name="Combi-melta (melta)" id="ff7e-116c-07c6-a5c3" hidden="false" targetId="38ae-bcac-62af-c514" type="profile"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="355d-ce81-8f79-6ac1"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Combi-flamer" hidden="false" id="f34f-4aec-7b57-439b" defaultAmount="1">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Combi-flamer (Flamer)" id="e5e1-f06d-45c5-1c3a" hidden="false" targetId="6895-2cfe-6f5b-8f88" type="profile"/>
+                        <infoLink name="Combi-flamer (Boltgun)" id="9fd8-7c0d-c12c-9db5" hidden="false" targetId="79ec-9032-001f-b7bf" type="profile"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0eb9-e1fd-9572-a85b"/>
+                      </constraints>
+                    </selectionEntry>
                   </selectionEntries>
                   <constraints>
                     <constraint type="min" value="2" field="selections" scope="self" shared="true" id="3be7-84d7-cc78-cb94-min"/>
                     <constraint type="max" value="2" field="selections" scope="self" shared="true" id="3be7-84d7-cc78-cb94-max"/>
                   </constraints>
-                  <entryLinks>
-                    <entryLink import="true" name="Combi-weapon" hidden="false" id="2ebc-9252-6a67-a0ad" type="selectionEntry" targetId="d720-24d4-d7f1-df20">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                      </costs>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d1a5-be59-3d86-1cb2"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <selectionEntries>

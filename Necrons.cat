@@ -1901,7 +1901,7 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
           </costs>
           <infoLinks>
             <infoLink name="Necron Warrior" id="f0eb-dde2-cca8-b663" hidden="false" type="profile" targetId="95d0-e835-9e47-5e9d"/>
-            <infoLink name="Gauss Blaster" id="fe33-002f-2dee-7e5a" hidden="false" type="profile" targetId="dae5-6f92-4507-9ceb"/>
+            <infoLink name="Gauss Flayer" id="fe33-002f-2dee-7e5a" hidden="false" type="profile" targetId="139b-46a3-bf85-e711"/>
           </infoLinks>
           <constraints>
             <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="94a3-dd28-7714-13bc"/>
@@ -2733,8 +2733,7 @@ To resolve the psionic shockwave, roll a D6 for every model in the combat (frien
       <profiles>
         <profile name="Eternity Gate" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="ff71-6bad-7887-9ca7">
           <characteristics>
-            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Eternity gate can be used in one of two ways in each of your turns, as a Dimensional corridor or a Portal of exile. The eternity gate cannot be destroyed separately from the Monolith.
-</characteristic>
+            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">The Eternity gate can be used in one of two ways in each of your turns, as a Dimensional corridor or a Portal of exile. The eternity gate cannot be destroyed separately from the Monolith.</characteristic>
           </characteristics>
         </profile>
         <profile name="Eternity Gate (Dimensional Corridor)" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="324d-7839-3d86-7168">

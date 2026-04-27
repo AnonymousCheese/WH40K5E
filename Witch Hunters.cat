@@ -8398,21 +8398,203 @@ Faithful Independent Characters may use Acts of Faith while operating independen
           </costs>
           <infoLinks>
             <infoLink name="Warrior Henchman" id="b12a-25f4-7c3f-2f9c" hidden="false" type="profile" targetId="0759-2d42-88e5-f17f"/>
-            <infoLink name="Hellgun" id="af39-a900-8208-d97b" hidden="false" type="profile" targetId="bc81-b3b5-2f8e-b6bb"/>
-            <infoLink name="Targeter" id="e110-c3d2-2401-0040" hidden="false" type="profile" targetId="5ec8-4ac7-6c00-4ead"/>
             <infoLink name="Frag Grenades" id="cdd7-3641-1e2d-3f2f" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
             <infoLink name="Krak Grenades" id="b421-e859-87b5-c76c" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
           </infoLinks>
-          <profiles>
-            <profile name="The Warrior" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="85e2-6802-97a5-5da7">
-              <characteristics>
-                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The Inquisitor gains +1 WS if he has any Warriors in his retinue.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
           <constraints>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="7b9d-3604-3ae8-5cb9"/>
           </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Warrior Type" id="4ec7-985c-6d1d-1477" hidden="false" defaultSelectionEntryId="7554-e932-5a66-b162">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Veteran Guardsman" hidden="false" id="7554-e932-5a66-b162">
+                  <infoLinks>
+                    <infoLink name="Targeter" id="e110-c3d2-2401-0040" hidden="false" type="profile" targetId="5ec8-4ac7-6c00-4ead"/>
+                  </infoLinks>
+                  <profiles>
+                    <profile name="The Warrior" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="85e2-6802-97a5-5da7">
+                      <characteristics>
+                        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">The Inquisitor gains +1 WS if he has any Warriors in his retinue.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Loadout" id="4fec-634b-8a03-7b03" hidden="false" defaultSelectionEntryId="5221-6a7b-bb40-70c0">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Hellgun" hidden="false" id="5221-6a7b-bb40-70c0">
+                          <infoLinks>
+                            <infoLink name="Hellgun" id="af39-a900-8208-d97b" hidden="false" type="profile" targetId="bc81-b3b5-2f8e-b6bb"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c2ee-40fe-0c01-cf5c" includeChildSelections="false"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Hellpistol and Close Combat Weapon" hidden="false" id="94aa-b143-1976-fd93">
+                          <infoLinks>
+                            <infoLink name="Hellpistol" id="78fe-c504-8e38-51c0" hidden="false" type="profile" targetId="6203-0b2c-76b5-d902"/>
+                            <infoLink name="Close-Combat Weapon" id="daa9-8e42-1a97-62d7" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8592-5a6f-272a-370b" includeChildSelections="false"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Shotgun" hidden="false" id="5f2a-6639-9725-8c87">
+                          <infoLinks>
+                            <infoLink name="Shotgun" id="46ee-9cbe-731b-2626" hidden="false" type="profile" targetId="2ce3-d5a9-9590-6b9e"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3bea-e9c4-ed60-7d44" includeChildSelections="false"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="d6af-07d8-1e5a-f1be">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Flamer" id="b438-0aad-3930-454f" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f864-7d8e-c33d-f688" includeChildSelections="false"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Plasma Gun" hidden="false" id="2481-fd22-e68c-c2c8">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Plasma Gun" id="114b-5975-1b30-f49f" hidden="false" type="profile" targetId="29c3-2b26-b62c-779c"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ff0-eb81-3fea-d432" includeChildSelections="false"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="e13a-19f0-2b67-4f16">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Meltagun" id="4953-6ed4-9dff-9b35" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c188-204d-4ae4-71dd" includeChildSelections="false"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Grenade Launcher" hidden="false" id="720b-2100-04e5-240d">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Grenade Launcher (Frag)" id="4adc-8cf0-68e9-f64f" hidden="false" type="profile" targetId="10bd-71f6-7fac-18b8"/>
+                            <infoLink name="Grenade Launcher (Krak)" id="f5e5-3972-b91f-25bd" hidden="false" type="profile" targetId="52d0-c270-ad06-6656"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="331a-84e9-85e7-cc92" includeChildSelections="false"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="self" shared="true" id="bc8e-2b6e-6c82-f4d9-min"/>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="bc8e-2b6e-6c82-f4d9-max"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ac2-65d0-8f8b-e0d4" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Combat Servitor" hidden="false" id="167d-93e7-27b9-9e97">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c22f-faa7-b049-25ba" includeChildSelections="false"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Power Fist" id="eec9-86ad-e94d-684d" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
+                    <infoLink name="Close-Combat Weapon" id="6639-d236-119f-f232" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                    <infoLink name="Targeter" id="1f19-2aab-ab04-24d4" hidden="false" type="profile" targetId="5ec8-4ac7-6c00-4ead"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Gun Servitor" hidden="false" id="2997-d9d4-8899-8087">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cfe3-c7ce-3c43-1696" includeChildSelections="false"/>
+                  </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Loadout" id="6e0e-cd41-7b3f-3b70" hidden="false" defaultSelectionEntryId="7b55-3818-625a-2115">
+                      <selectionEntries>
+                        <selectionEntry type="upgrade" import="true" name="Multi-melta" hidden="false" id="e299-9203-b967-9753">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Multi-melta" id="56b9-9d03-2d56-48b5" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="11a5-fdcc-3adc-5259" includeChildSelections="false"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Heavy Bolter" hidden="false" id="7b55-3818-625a-2115">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Heavy Bolter" id="ee9c-7617-be33-7205" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9fac-7029-5ba0-1925" includeChildSelections="false"/>
+                          </constraints>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Plasma Cannon" hidden="false" id="de4c-b61d-c03d-35ad">
+                          <costs>
+                            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+                          </costs>
+                          <infoLinks>
+                            <infoLink name="Plasma Cannon" id="d673-f50a-3173-b166" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
+                          </infoLinks>
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="695d-2521-7a31-c622" includeChildSelections="false"/>
+                          </constraints>
+                        </selectionEntry>
+                      </selectionEntries>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="self" shared="true" id="ceea-3e00-1c6d-10b7-min"/>
+                        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="ceea-3e00-1c6d-10b7-max"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <infoLinks>
+                    <infoLink name="Targeter" id="21a7-77ac-bf4a-df4d" hidden="false" type="profile" targetId="5ec8-4ac7-6c00-4ead"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Crusader" hidden="false" id="b1bb-2413-7885-f3ee">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f439-14d7-5aa9-da9a" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="3" field="63a5-4be2-9cc0-7723" scope="3c1b-5de4-ad95-7431" affects="self.entries.3c1b-5de4-ad95-7431.profiles.Unit"/>
+                    <modifier type="set" value="4" field="15b1-a34a-6e7c-332e" scope="3c1b-5de4-ad95-7431" affects="self.entries.3c1b-5de4-ad95-7431.profiles.Unit"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Power Weapon" id="323b-62a4-18dc-0b87" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+                  </infoLinks>
+                  <profiles>
+                    <profile name="Suppression Shield" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="8b33-0a86-9d72-d81f">
+                      <characteristics>
+                        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This counts as an additional close combat weapon. Additionally, it grants the bearer a 4+ Invulnerable save.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="669d-8764-6884-0bd9-min"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="669d-8764-6884-0bd9-max"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="The Familiar" hidden="false" id="5e89-4d1a-85f2-23a4">
           <costs>

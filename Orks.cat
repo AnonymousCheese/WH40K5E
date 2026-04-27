@@ -2839,7 +2839,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Nob" hidden="false" id="05fd-cc8a-cfa3-f132">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="16"/>
               </costs>
               <infoLinks>
                 <infoLink name="Nob" id="4aa4-28a9-08a7-a7cd" hidden="false" type="profile" targetId="2170-7dfa-4d28-aa46"/>
