@@ -13,6 +13,24 @@ Strength: Ranged bio-weapons have a Strength equal to the creature firing (S), m
 
 Rate of Fire: Many bioweapons are Assault X weapons. These get one shot per attack on the creature&apos;s basic profile (before being modified), so 2X weapons get twice the creature&apos;s attacks in shots, and so on.</description>
     </rule>
+    <rule name="Instinctive Behaviour" id="0b39-ed37-abc2-a981" hidden="false">
+      <description>If a Tyranid brood begins it&apos;s movement phase more than 12&quot; away from a Synapse Creature, and that unit is not falling back or already in combat, it will revert to Instinctive Behaviour. Choose each Brood in this situation in turn, and apply the following rules:
+
+
+
+
+-If you want to move that brood this turn for any reason, it must take a Leadership test at the start of its Movement phase. If this is failed, the brood will fall back as it had failed a Morale test. If it is passed, the brood may act as normal.
+
+
+
+
+-Alternatively the brood may Lurk. This means it will remain stationary that turn but may fire its weapons as normal. Lurking units that are not Monstrous Creatures add +1 to any cover save they may benefit from. Lurking Tyranids may not claim objectives or hold table quarters.
+
+
+
+
+-Tyranids always fall back towards the nearest Synapse Creature if possible - if there are no Synapse Creatures on the board they will fall back towards the nearest Tyranid table edge.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile name="Synapse Creature" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="29cc-1526-6edd-ba42">
@@ -25,20 +43,6 @@ Tyranids within synapse range are immune to instant death caused by weapons with
 
 
 A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate in the Shooting Phase (Choose one mine in the cluster as the initial detonation point). Note that this counts as a shooting attack, so it may not shoot or use other psychic powers in the Shooting phase. Other creatures from the same brood may still fire at a different target is desired.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Instinctive Behaviour" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="318f-bfd2-acf5-f826">
-      <characteristics>
-        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Tyranid brood begins it&apos;s movement phase more than 12&quot; away from a Synapse Creature, and that unit is not falling back or already in combat, it will revert to Instinctive Behaviour. Choose each Brood in this situation in turn, and apply the following rules:
-
-
--If you want to move that brood this turn for any reason, it must take a Leadership test at the start of its Movement phase. If this is failed, the brood will fall back as it had failed a Morale test. If it is passed, the brood may act as normal.
-
-
--Alternatively the brood may Lurk. This means it will remain stationary that turn but may fire its weapons as normal. Lurking units that are not Monstrous Creatures add +1 to any cover save they may benefit from. Lurking Tyranids may not claim objectives or hold table quarters.
-
-
--Tyranids always fall back towards the nearest Synapse Creature if possible - if there are no Synapse Creatures on the board they will fall back towards the nearest Tyranid table edge.</characteristic>
       </characteristics>
     </profile>
     <profile name="Barbed Strangler" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="f165-89f6-31ca-9435">
@@ -1995,6 +1999,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
       <infoLinks>
         <infoLink name="Fearless" id="3409-86d5-67e9-a71f" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
         <infoLink name="Hit and Run" id="d53c-bba8-bf44-87e5" hidden="false" type="profile" targetId="17a2-9db7-3461-361c"/>
+        <infoLink name="Instinctive Behaviour" id="c6a6-6be9-12c5-239d" hidden="false" type="rule" targetId="0b39-ed37-abc2-a981"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="978c-e18f-8aeb-f4c1" id="ef09-922a-4e9a-2eda" primary="true" name="Elites"/>
@@ -2121,6 +2126,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
       </selectionEntryGroups>
       <infoLinks>
         <infoLink name="Fleet" id="e44b-1462-c574-f078" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Instinctive Behaviour" id="0101-9f23-39c1-b434" hidden="false" type="rule" targetId="0b39-ed37-abc2-a981"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Hormagaunt Brood" hidden="false" id="e874-8965-5eea-27a1">
@@ -2191,6 +2197,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
       <infoLinks>
         <infoLink name="Beast" id="3ba7-b434-76b2-484a" hidden="false" type="rule" targetId="0b22-19ae-f545-c0ba"/>
         <infoLink name="Leaping" id="8b88-5c3c-3d0f-35f6" hidden="false" type="profile" targetId="0060-a7e0-6bc6-8dc7"/>
+        <infoLink name="Instinctive Behaviour" id="7502-e7de-2dac-44d9" hidden="false" type="rule" targetId="0b39-ed37-abc2-a981"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="default-category" id="a943-ed8e-7817-eac2" primary="true" name="Troops"/>
@@ -2506,6 +2513,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
       <infoLinks>
         <infoLink name="Beast" id="8806-3bd0-f1cc-c26e" hidden="false" type="rule" targetId="0b22-19ae-f545-c0ba"/>
         <infoLink name="Deep Strike" id="32b9-c5e3-dcc4-66a5" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
+        <infoLink name="Instinctive Behaviour" id="99f9-372f-07b9-fd41" hidden="false" type="rule" targetId="0b39-ed37-abc2-a981"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="74fe-37c3-fbbf-849e" id="5a6d-89a3-c6b0-8f24" primary="true" name="Fast Attack"/>
@@ -2554,6 +2562,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
         <infoLink name="Jump Infantry" id="84fd-3e9c-1e86-8508" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
         <infoLink name="Fleet" id="f097-3404-0b30-2257" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
         <infoLink name="Deep Strike" id="6fb6-a83d-5f86-83a8" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
+        <infoLink name="Instinctive Behaviour" id="6c87-4cbb-ec95-97cd" hidden="false" type="rule" targetId="0b39-ed37-abc2-a981"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Zoanthropes" hidden="false" id="024e-e916-e6dc-c2ba">
@@ -2670,6 +2679,9 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="1e42-50d1-5dc4-1d11" primary="true" name="Heavy Support"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Instinctive Behaviour" id="49fd-eed9-fad0-dcb2" hidden="false" type="rule" targetId="0b39-ed37-abc2-a981"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Biovore Brood" hidden="false" id="05e4-329b-46af-0ce7">
       <selectionEntryGroups>
@@ -2835,6 +2847,7 @@ Movement: Spore Mine Clusters drift D6&quot; in the direction rolled on a Scatte
       <infoLinks>
         <infoLink name="Monstrous Creature" id="7b71-1b07-c9fd-1997" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
         <infoLink name="Fearless" id="3b36-a0fb-8df3-9051" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Instinctive Behaviour" id="566b-ad88-98b1-87f8" hidden="false" type="rule" targetId="0b39-ed37-abc2-a981"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="95fd-dda7-c4d1-b812" primary="true" name="Heavy Support"/>
@@ -3273,6 +3286,9 @@ Movement: Spore Mine Clusters drift D6&quot; in the direction rolled on a Scatte
       <constraints>
         <constraint type="max" value="115" field="6f18-a8fc-2c5b-9517" scope="b3a8-7238-336a-987f" shared="true" id="669e-0370-eb52-269f" includeChildSelections="true" childName="self" includeChildForces="false"/>
       </constraints>
+      <infoLinks>
+        <infoLink name="Instinctive Behaviour" id="2159-53de-0e96-6cee" hidden="false" type="rule" targetId="0b39-ed37-abc2-a981"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Gaunt Brood (Without Number)" hidden="false" id="ce39-1458-21bd-2387">
       <categoryLinks>
@@ -3395,6 +3411,7 @@ Movement: Spore Mine Clusters drift D6&quot; in the direction rolled on a Scatte
       </selectionEntryGroups>
       <infoLinks>
         <infoLink name="Fleet" id="0c26-8ffe-8cbc-dbf6" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Instinctive Behaviour" id="eda6-89be-31b5-8131" hidden="false" type="rule" targetId="0b39-ed37-abc2-a981"/>
       </infoLinks>
       <profiles>
         <profile name="Without Number" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="3b81-e6ba-f4dc-34ce">
