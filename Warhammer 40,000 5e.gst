@@ -50,7 +50,7 @@
     </forceEntry>
   </forceEntries>
   <costTypes>
-    <costType name="Points" id="6f18-a8fc-2c5b-9517" defaultCostLimit="-1"/>
+    <costType name="Points" id="6f18-a8fc-2c5b-9517" defaultCostLimit="2000"/>
   </costTypes>
   <profileTypes>
     <profileType name="Abilities" id="ccb3-7790-3139-7975" hidden="false" kind="ability">
