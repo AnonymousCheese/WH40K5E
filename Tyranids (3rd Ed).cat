@@ -101,7 +101,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
     </profile>
     <profile name="Bonesword" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="edb5-e799-2f3e-4dbf">
       <characteristics>
-        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">Bone Swords are Power Weapons. Additionally, the bearer is permanently under the effects of the Catalyst Psychic Power.</characteristic>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Hive Tyrant with a Bone Sword is under the effects of the Catalyst power. With a successful psychic test taken at the beginning of the Tyranid Assault phase, the Hive Tyrant may use the Bonesword to extend the effects of Catalyst to all broods with a model within 6&quot;.</characteristic>
       </characteristics>
     </profile>
     <profile name="Crushing Claws" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="76ae-6fe0-96f6-a5d7">
@@ -537,6 +537,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
         <infoLink name="Fearless" id="506a-a46b-5794-7648" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
         <infoLink name="Synapse Creature" id="6953-2ccb-7d74-722a" hidden="false" type="profile" targetId="29cc-1526-6edd-ba42"/>
         <infoLink name="The Horror" id="3095-a8bf-187c-cf0e" hidden="false" type="profile" targetId="b0ff-52e7-8ca5-583a"/>
+        <infoLink name="Move Through Cover" id="efc0-6a86-9511-c4fd" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="unit" import="true" name="Tyrant Guard Retinue" hidden="false" id="f7e4-b127-dfb8-90be" defaultAmount="0">
@@ -802,6 +803,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
         <infoLink name="Independent Character" id="c08a-b6d8-2021-4b2d" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
         <infoLink name="Infiltrate" id="4b7f-707c-04c6-d20e" hidden="false" type="profile" targetId="db64-5b1f-d306-b354"/>
         <infoLink name="Synapse Creature" id="0352-d3ab-7e12-6909" hidden="false" type="profile" targetId="29cc-1526-6edd-ba42"/>
+        <infoLink name="Move Through Cover" id="2709-67d5-91b3-223e" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="8a91-7a2a-f9a3-66a9" includeChildSelections="true"/>
@@ -901,6 +903,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
       </selectionEntryGroups>
       <infoLinks>
         <infoLink name="Fleet" id="7246-70b0-b176-9c7e" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+        <infoLink name="Move Through Cover" id="5baf-1379-4630-0515" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
       </infoLinks>
       <profiles>
         <profile name="Brood Telepathy" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="8c67-a138-6592-31af">
@@ -1252,6 +1255,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
       </categoryLinks>
       <infoLinks>
         <infoLink name="Synapse Creature" id="9906-3f2a-4ea9-308e" hidden="false" type="profile" targetId="29cc-1526-6edd-ba42"/>
+        <infoLink name="Move Through Cover" id="d2b3-d57f-2faa-aeb1" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Tyranid Warrior Brood" hidden="false" id="829c-ec9f-c72e-65cd">
@@ -1593,6 +1597,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
       </categoryLinks>
       <infoLinks>
         <infoLink name="Synapse Creature" id="1c58-c124-bcfb-02e2" hidden="false" type="profile" targetId="29cc-1526-6edd-ba42"/>
+        <infoLink name="Move Through Cover" id="6877-5980-1cde-ec4b" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Winged Tyranid Warrior Brood" hidden="false" id="628e-f9bb-7d7f-aafd">
@@ -1935,6 +1940,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
       <infoLinks>
         <infoLink name="Synapse Creature" id="aa89-721d-8299-d0a3" hidden="false" type="profile" targetId="29cc-1526-6edd-ba42"/>
         <infoLink name="Jump Infantry" id="dc9a-75c6-6844-78f5" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+        <infoLink name="Move Through Cover" id="b95f-cbf1-b6bb-2cda" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Lictor Brood" hidden="false" id="7d2b-c994-b57c-0ee2">
@@ -2000,6 +2006,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
         <infoLink name="Fearless" id="3409-86d5-67e9-a71f" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
         <infoLink name="Hit and Run" id="d53c-bba8-bf44-87e5" hidden="false" type="profile" targetId="17a2-9db7-3461-361c"/>
         <infoLink name="Instinctive Behaviour" id="c6a6-6be9-12c5-239d" hidden="false" type="rule" targetId="0b39-ed37-abc2-a981"/>
+        <infoLink name="Move Through Cover" id="ec48-a0a5-ae26-0b2b" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="978c-e18f-8aeb-f4c1" id="ef09-922a-4e9a-2eda" primary="true" name="Elites"/>
@@ -2127,6 +2134,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
       <infoLinks>
         <infoLink name="Fleet" id="e44b-1462-c574-f078" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
         <infoLink name="Instinctive Behaviour" id="0101-9f23-39c1-b434" hidden="false" type="rule" targetId="0b39-ed37-abc2-a981"/>
+        <infoLink name="Move Through Cover" id="c47a-8ae8-ea8e-6f7e" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Hormagaunt Brood" hidden="false" id="e874-8965-5eea-27a1">
@@ -2198,6 +2206,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
         <infoLink name="Beast" id="3ba7-b434-76b2-484a" hidden="false" type="rule" targetId="0b22-19ae-f545-c0ba"/>
         <infoLink name="Leaping" id="8b88-5c3c-3d0f-35f6" hidden="false" type="profile" targetId="0060-a7e0-6bc6-8dc7"/>
         <infoLink name="Instinctive Behaviour" id="7502-e7de-2dac-44d9" hidden="false" type="rule" targetId="0b39-ed37-abc2-a981"/>
+        <infoLink name="Move Through Cover" id="6308-16d0-9929-4d4c" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="default-category" id="a943-ed8e-7817-eac2" primary="true" name="Troops"/>
@@ -2304,6 +2313,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
       <infoLinks>
         <infoLink name="Fearless" id="2140-2ee6-cd98-4dfb" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
         <infoLink name="Swarm" id="41bc-d980-44db-62e1" hidden="false" type="rule" targetId="d74e-1928-0d91-b80a"/>
+        <infoLink name="Move Through Cover" id="e7ed-0527-26c6-8d08" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Winged Ripper Swarm" hidden="false" id="4c82-a200-51e9-5dc7">
@@ -2403,6 +2413,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
         <infoLink name="Fearless" id="7468-fb52-5811-4ab6" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
         <infoLink name="Swarm" id="ca0a-0228-63d7-8dc4" hidden="false" type="rule" targetId="d74e-1928-0d91-b80a"/>
         <infoLink name="Jump Infantry" id="8568-b7f0-5cbd-b004" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+        <infoLink name="Move Through Cover" id="5391-b980-6276-0c9d" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Ravener Brood" hidden="false" id="15c0-444f-eb99-b79e">
@@ -2514,6 +2525,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
         <infoLink name="Beast" id="8806-3bd0-f1cc-c26e" hidden="false" type="rule" targetId="0b22-19ae-f545-c0ba"/>
         <infoLink name="Deep Strike" id="32b9-c5e3-dcc4-66a5" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
         <infoLink name="Instinctive Behaviour" id="99f9-372f-07b9-fd41" hidden="false" type="rule" targetId="0b39-ed37-abc2-a981"/>
+        <infoLink name="Move Through Cover" id="158c-1c16-2514-fb42" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="74fe-37c3-fbbf-849e" id="5a6d-89a3-c6b0-8f24" primary="true" name="Fast Attack"/>
@@ -2563,6 +2575,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
         <infoLink name="Fleet" id="f097-3404-0b30-2257" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
         <infoLink name="Deep Strike" id="6fb6-a83d-5f86-83a8" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
         <infoLink name="Instinctive Behaviour" id="6c87-4cbb-ec95-97cd" hidden="false" type="rule" targetId="0b39-ed37-abc2-a981"/>
+        <infoLink name="Move Through Cover" id="601e-0e1e-0848-7514" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Zoanthropes" hidden="false" id="024e-e916-e6dc-c2ba">
@@ -2681,6 +2694,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
       </categoryLinks>
       <infoLinks>
         <infoLink name="Instinctive Behaviour" id="49fd-eed9-fad0-dcb2" hidden="false" type="rule" targetId="0b39-ed37-abc2-a981"/>
+        <infoLink name="Move Through Cover" id="5311-05dd-1967-ff60" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Biovore Brood" hidden="false" id="05e4-329b-46af-0ce7">
@@ -2824,6 +2838,9 @@ Movement: Spore Mine Clusters drift D6&quot; in the direction rolled on a Scatte
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="0e56-bf80-5518-b282" primary="true" name="Heavy Support"/>
       </categoryLinks>
+      <infoLinks>
+        <infoLink name="Move Through Cover" id="ccd9-8696-be7b-86b8" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Carnifex" hidden="false" id="3d50-3b38-c1d4-2231">
       <costs>
@@ -2848,6 +2865,7 @@ Movement: Spore Mine Clusters drift D6&quot; in the direction rolled on a Scatte
         <infoLink name="Monstrous Creature" id="7b71-1b07-c9fd-1997" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
         <infoLink name="Fearless" id="3b36-a0fb-8df3-9051" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
         <infoLink name="Instinctive Behaviour" id="566b-ad88-98b1-87f8" hidden="false" type="rule" targetId="0b39-ed37-abc2-a981"/>
+        <infoLink name="Move Through Cover" id="e1e3-cfa9-66c2-61e9" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="95fd-dda7-c4d1-b812" primary="true" name="Heavy Support"/>
@@ -2875,7 +2893,7 @@ Movement: Spore Mine Clusters drift D6&quot; in the direction rolled on a Scatte
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Bonded Exoskeleton" hidden="false" id="0c64-efd3-8cbc-eac7" type="selectionEntry" targetId="2cf5-26bf-5ce0-dffd">
+            <entryLink import="true" name="Bonded Exoskeleton (+1 T)" hidden="false" id="0c64-efd3-8cbc-eac7" type="selectionEntry" targetId="2cf5-26bf-5ce0-dffd">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
               </costs>
@@ -3080,7 +3098,7 @@ Movement: Spore Mine Clusters drift D6&quot; in the direction rolled on a Scatte
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="8"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Bonded Exoskeleton" hidden="false" id="bbc3-eb69-f9fc-5a93" type="selectionEntry" targetId="2cf5-26bf-5ce0-dffd">
+                    <entryLink import="true" name="Bonded Exoskeleton (+1 T)" hidden="false" id="bbc3-eb69-f9fc-5a93" type="selectionEntry" targetId="2cf5-26bf-5ce0-dffd">
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
                       </costs>
@@ -3288,6 +3306,7 @@ Movement: Spore Mine Clusters drift D6&quot; in the direction rolled on a Scatte
       </constraints>
       <infoLinks>
         <infoLink name="Instinctive Behaviour" id="2159-53de-0e96-6cee" hidden="false" type="rule" targetId="0b39-ed37-abc2-a981"/>
+        <infoLink name="Move Through Cover" id="320d-13ee-af2f-c833" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Gaunt Brood (Without Number)" hidden="false" id="ce39-1458-21bd-2387">
@@ -3412,6 +3431,7 @@ Movement: Spore Mine Clusters drift D6&quot; in the direction rolled on a Scatte
       <infoLinks>
         <infoLink name="Fleet" id="0c26-8ffe-8cbc-dbf6" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
         <infoLink name="Instinctive Behaviour" id="eda6-89be-31b5-8131" hidden="false" type="rule" targetId="0b39-ed37-abc2-a981"/>
+        <infoLink name="Move Through Cover" id="53e8-a18d-e20a-93c8" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
       </infoLinks>
       <profiles>
         <profile name="Without Number" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="3b81-e6ba-f4dc-34ce">
