@@ -164,8 +164,8 @@ Units that fire heavy weapons in the Shooting phase may not assault into close�
     <rule name="Pistol" id="9673-0a1f-2ec3-dbf4" hidden="false" publicationId="ad9c-8597-0188-2ba0">
       <description>All pistols are effectively Assault 1 weapons with a range of 12&quot; (unless differently specified in their profile). In addition a pistol counts as a close combat weapon in the Assault phase.</description>
     </rule>
-    <rule name="Ordinance" id="6427-975f-8a30-cc4f" hidden="false" publicationId="ad9c-8597-0188-2ba0">
-      <description>Ordnance weapons are so huge and powerful that they cannot be physically carried by infantry, but must be mounted onto a vehicle or be built into the structure of a bunker or fortress.</description>
+    <rule name="Ordnance" id="6427-975f-8a30-cc4f" hidden="false" publicationId="ad9c-8597-0188-2ba0">
+      <description>No other weapons may be fired by the bearer this turn. Unless stated otherwise, Ordinance weapons use the Large Blast marker. Additionally, When you roll to penetrate a vehicle&apos;s armour, roll two dice and pick the highest result. </description>
     </rule>
     <rule name="Template" id="4cb0-165c-9898-b8c2" hidden="false" publicationId="ad9c-8597-0188-2ba0">
       <description>Instead of rolling to hit, simply place the template so that its narrow end is touching the base of the model firing it and the rest of the template covers as many models as possible in the target unit without touching any friendly models. Against vehicles, the template must be placed to cover as much of the vehicle as possible without also touching a friendly model. Any models fully or partially under the template are hit. Against vehicles, use the direction of the firer to determine which armour facing is attacked. 

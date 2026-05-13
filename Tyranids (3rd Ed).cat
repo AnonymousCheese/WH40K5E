@@ -542,7 +542,7 @@ A Synapse creature is able to cause all Spore Mines within 24&quot; to detonate 
       <selectionEntries>
         <selectionEntry type="unit" import="true" name="Tyrant Guard Retinue" hidden="false" id="f7e4-b127-dfb8-90be" defaultAmount="0">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Tyrant Guard" hidden="false" id="c6b6-1247-ac41-40f4" defaultAmount="0">
+            <selectionEntry type="model" import="true" name="Tyrant Guard" hidden="false" id="c6b6-1247-ac41-40f4" defaultAmount="1">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
               </costs>

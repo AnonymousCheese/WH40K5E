@@ -1036,11 +1036,6 @@ The executed model is immediately removed as a casualty, regardless of the numbe
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Commissar" hidden="false" id="7872-7ff0-1dc7-e58f" type="selectionEntry" targetId="267a-194d-3718-fb56" sortIndex="3">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a70-015c-9410-2649"/>
-          </constraints>
-        </entryLink>
         <entryLink import="true" name="Chimera Dedicated Transport" hidden="false" id="027d-e1ba-8d4b-fae5" type="selectionEntry" targetId="d678-774b-9976-ed5e">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="979d-6284-d387-fcde"/>
@@ -1051,6 +1046,99 @@ The executed model is immediately removed as a casualty, regardless of the numbe
       <infoLinks>
         <infoLink name="Frag Grenades" id="826b-3784-6f44-a973" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
       </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Commissar" hidden="false" id="df00-9ce4-dd68-a2a2">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+          </costs>
+          <profiles>
+            <profile name="Commissar" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e51d-2efa-97d1-d893">
+              <characteristics>
+                <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+                <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+                <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+                <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+                <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+                <characteristic name="I" typeId="8517-a46c-d6df-9c75">3</characteristic>
+                <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+                <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+                <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">5+</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Summary Execution" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="b531-883b-fda1-9daf">
+              <characteristics>
+                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If the Commissar&apos;s unit fails a morale test the Commissar will summarily execute the squad&apos;s current commander - this is the model in the unit with the highest Leadership Value. 
+
+
+If two or more models in the same squad have the same leadership value, randomly determine which of the models is executed. A commissar (of either rank) will never execute himself or another Commissar (of either rank) - ignore these models when determining who is eligible for execution.
+
+
+The executed model is immediately removed as a casualty, regardless of the number of Wounds remaining. The unit in question must then re-roll the failed Morale check - if this test also fails then the squad falls back as normal.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Weapon" id="acff-29c2-eed9-c4bc" hidden="false" defaultSelectionEntryId="1814-b109-bd8b-7267">
+              <entryLinks>
+                <entryLink import="true" name="Bolt Pistol" hidden="false" id="1814-b109-bd8b-7267" type="selectionEntry" targetId="c8cf-089e-ffe2-4f05">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Plasma Pistol" hidden="false" id="7f53-7f54-c951-dd5d" type="selectionEntry" targetId="920a-34d4-886d-7715"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b809-3908-aa72-61e3"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e44-7cdb-cd4d-5d6e"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Combat Weapon" id="d6c1-1457-1b60-21d9" hidden="false" defaultSelectionEntryId="d527-0bc1-6be6-5271">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="d527-0bc1-6be6-5271">
+                  <infoLinks>
+                    <infoLink name="Close-Combat Weapon" id="1878-ea62-1c35-3b33" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc45-74f1-0629-f6ed"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="0f3b-a0b6-0f44-845d">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Power Weapon" id="b7d4-3e38-104f-e9b9" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5379-9ced-2f1d-5f68"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="d0d1-2781-779d-90bf">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Power Fist" id="c14c-1adc-a90f-608c" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a97a-be23-daf9-77de" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="d233-33ed-44b8-9796"/>
+                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="ec32-13f5-50fb-240a"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <infoLinks>
+            <infoLink name="Stubborn" id="a14e-9d44-9438-b997" hidden="false" type="profile" targetId="5493-e844-f447-39ae"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="54be-949f-b054-19e4" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Heavy Weapon Squad" hidden="false" id="1cf0-9ca6-2823-7b30">
       <costs>
