@@ -1740,7 +1740,7 @@ Any unit with this special rule that is removed from play may be brought back in
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="c4f2-275d-1cc7-bc3f">
                       <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
                       </costs>
                       <infoLinks>
                         <infoLink name="Meltagun" id="360e-6984-23e7-e754" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
@@ -1869,7 +1869,7 @@ Any unit with this special rule that is removed from play may be brought back in
             <entryLink targetId="6914-590b-f86c-0ffe" id="1d8c-cdda-96bd-83a0" type="selectionEntry" name="Veteran Heavy Weapon Team" hidden="false"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup name="The entire unit may take" id="1ed5-f946-9c35-b75d" hidden="false">
+        <selectionEntryGroup name="Upgrades" id="1ed5-f946-9c35-b75d" hidden="false">
           <entryLinks>
             <entryLink import="true" name="Krak Grenades" hidden="false" id="b5a3-d3a4-b33c-d700" type="selectionEntry" targetId="e182-b831-28de-7154">
               <costs>

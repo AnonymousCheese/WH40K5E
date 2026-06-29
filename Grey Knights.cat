@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="1d92-05fa-b42e-029a" name="Grey Knights" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="1d92-05fa-b42e-029a" name="Grey Knights" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedProfiles>
     <profile name="Apothecary" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="9139-2bb7-ecfa-02de">
       <characteristics>
@@ -2317,6 +2317,9 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
           </characteristics>
         </profile>
       </profiles>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden" scope="force" affects="self.entries.forces.bea2-0489-74dc-3d9e"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Inquisitor Karamazov" hidden="false" id="c799-6985-b404-9720">
       <costs>
@@ -2844,7 +2847,7 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
               </costs>
               <infoLinks>
-                <infoLink name="Thunder Hammers" id="0488-59e4-0951-9aa9" hidden="false" type="profile" targetId="4cb2-e19a-4b72-594d"/>
+                <infoLink name="Thunder Hammer" id="0488-59e4-0951-9aa9" hidden="false" type="profile" targetId="4cb2-e19a-4b72-594d"/>
               </infoLinks>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d72e-f366-0766-825f" includeChildSelections="false"/>
@@ -7511,6 +7514,9 @@ Any Daemon or Psyker that suffers one or more unsaved wounds from Nemesis Force 
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7017-d30c-afb2-1000"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden" scope="force" affects="self.entries.forces.7b66-a757-f115-7b8f"/>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Grand Master Mordrak" hidden="false" id="488d-ada2-6f91-84af" type="selectionEntry" targetId="bb32-834d-e7ff-eb87">
       <categoryLinks>
@@ -7711,6 +7717,16 @@ Any Daemon or Psyker that suffers one or more unsaved wounds from Nemesis Force 
     <entryLink import="true" name="Land Raider Redeemer" hidden="false" id="fa1b-0086-1889-5c67" type="selectionEntry" targetId="f1d4-c36b-ad18-b27d">
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="051f-5a0d-a32d-56e5" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Inquisitorial Henchmen Warband" hidden="true" id="84dc-f3b5-c67e-4400" type="selectionEntry" targetId="bea2-0489-74dc-3d9e">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="f003-bf7a-6e15-4a5c" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Paladin Squad" hidden="true" id="7b66-a757-f115-7b8f" type="selectionEntry" targetId="e502-aae7-44f1-7263">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="daec-4716-c530-8c2f" primary="true" name="Troops"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

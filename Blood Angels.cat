@@ -6405,17 +6405,29 @@ The target does not change facing and will stop if it comes within 1&quot; or di
                     </selectionEntry>
                   </selectionEntries>
                   <constraints>
-                    <constraint type="min" value="2" field="selections" scope="self" shared="true" id="a46e-9739-230e-2902-min"/>
-                    <constraint type="max" value="2" field="selections" scope="self" shared="true" id="a46e-9739-230e-2902-max"/>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="a46e-9739-230e-2902-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a46e-9739-230e-2902-max"/>
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <constraints>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f4bb-5b86-e542-47f0" includeChildSelections="false"/>
+                <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="f4bb-5b86-e542-47f0" includeChildSelections="false"/>
               </constraints>
               <infoLinks>
                 <infoLink name="Close-Combat Weapon" id="690d-3515-f73b-a528" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
               </infoLinks>
+              <modifiers>
+                <modifier type="increment" value="1" field="f4bb-5b86-e542-47f0">
+                  <conditions>
+                    <condition type="atLeast" value="4" field="selections" scope="parent" childId="any" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" value="1" field="f4bb-5b86-e542-47f0">
+                  <conditions>
+                    <condition type="atLeast" value="10" field="selections" scope="parent" childId="any" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
           </selectionEntries>
           <constraints>

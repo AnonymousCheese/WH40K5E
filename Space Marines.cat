@@ -104,6 +104,13 @@ Units which include Servitors are still subject to this rule, providing that the
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Honour Guard" hidden="false" id="dec7-4856-fbeb-4fc4" type="selectionEntry" targetId="67d2-c56d-8486-47fc">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d159-f45e-9913-b90f" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Chapter Master" hidden="false" id="b570-3e3a-ed00-eba9">
       <costs>
@@ -409,7 +416,11 @@ Units which include Servitors are still subject to this rule, providing that the
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Honour Guard" hidden="false" id="7568-fbee-1431-1813" type="selectionEntry" targetId="67d2-c56d-8486-47fc"/>
+        <entryLink import="true" name="Honour Guard" hidden="false" id="7568-fbee-1431-1813" type="selectionEntry" targetId="67d2-c56d-8486-47fc">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a508-d514-7ea1-fae7" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Space Marine Captain" hidden="false" id="148c-743e-841e-fe3d">
@@ -1794,6 +1805,14 @@ Units which include Servitors are still subject to this rule, providing that the
                   </costs>
                   <infoLinks>
                     <infoLink name="Multi-melta" id="bde0-8ff3-e496-1765" hidden="false" type="profile" targetId="0b59-dfc6-9696-0b99"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Plasma Cannon" hidden="false" id="3b62-2516-ce47-6310">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Plasma Cannon" id="4eb5-4aca-6ac9-0e0b" hidden="false" type="profile" targetId="fe57-d289-2133-fdb2"/>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -4797,7 +4816,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                         <infoLink name="Close-Combat Weapon" id="c1ea-5266-564c-3890" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="1be3-f3e2-0f4c-165c">
+                    <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="1be3-f3e2-0f4c-165c" defaultAmount="1">
                       <infoLinks>
                         <infoLink name="Boltgun" id="11e8-1b73-49c6-5a03" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
                       </infoLinks>
@@ -4834,6 +4853,14 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                         <infoLink name="Power Fist" id="d6fc-e615-41f6-c96b" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
                       </infoLinks>
                     </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="a488-f899-af9c-2c9c" defaultAmount="1">
+                      <infoLinks>
+                        <infoLink name="Bolt Pistol" id="585a-1b56-bea9-4188" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="703d-b545-1ca2-2fe2" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
                     <entryLink import="true" name="Combi-weapon" hidden="false" id="9dba-d43e-a774-f297" type="selectionEntry" targetId="d720-24d4-d7f1-df20">
@@ -4853,7 +4880,6 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
               </costs>
               <infoLinks>
                 <infoLink targetId="5305-8e96-8b1b-d1b3" id="1372-eacd-ac1b-21a3" type="profile" name="Damned Sergeant" hidden="false"/>
-                <infoLink name="Bolt Pistol" id="49f6-ff85-00ee-1248" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Damned Legionnaire" hidden="false" id="31b2-d4c9-01be-62da" collective="false" defaultAmount="4">
@@ -7048,7 +7074,18 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
         <infoLink name="Combat Tactics" id="a747-6179-e212-a1af" hidden="false" type="rule" targetId="63e6-2a1c-88a5-4120"/>
         <infoLink name="Independent Character" id="a6ac-7969-4928-3f36" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
         <infoLink name="Orbital Bombardment" id="6016-f854-936d-a32a" hidden="false" type="profile" targetId="bc8c-064b-c6cf-a4ba"/>
+        <infoLink name="Power Fist" id="2701-649f-cd9b-314b" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
+        <infoLink name="Iron Halo" id="f28a-dc8b-53f0-b023" hidden="false" type="profile" targetId="e427-87a4-ee08-b117"/>
+        <infoLink name="Frag Grenades" id="8f2f-43d5-45e0-e275" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+        <infoLink name="Krak Grenades" id="d9f9-bbe8-4e21-fedf" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
       </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Honour Guard" hidden="false" id="3658-aa80-6912-2465" type="selectionEntry" targetId="67d2-c56d-8486-47fc">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b80-de9a-60dc-4b2a" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Captain Darnath Lysander" hidden="false" id="fd95-e937-2e5c-59b0">
       <costs>
@@ -8391,6 +8428,8 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
               </costs>
               <infoLinks>
                 <infoLink targetId="c224-6f0e-71f7-5833" id="344c-d192-e851-90ca" type="profile" name="Space Marine" hidden="false"/>
+                <infoLink name="Bolt Pistol" id="a1ef-aed2-71ff-c7c7" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                <infoLink name="Close-Combat Weapon" id="92f0-9b4a-e76e-79bb" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Space Marine Sergeant" hidden="false" id="4576-0277-b2f4-64c8" collective="false" defaultAmount="1">
@@ -8513,39 +8552,60 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
                 <infoLink targetId="b9fa-7f4b-c14a-cc57" id="1385-5e8a-e49e-f267" type="profile" name="Space Marine Sergeant" hidden="false"/>
               </infoLinks>
             </selectionEntry>
+            <selectionEntry type="model" import="true" name="Space Marine Gunner" hidden="false" id="d5bb-accf-191a-db9f" collective="false">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="18"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Space Marine" id="b257-66ac-99f8-49cf" hidden="false" targetId="c224-6f0e-71f7-5833" type="profile"/>
+                <infoLink name="Close-Combat Weapon" id="7595-4577-25bc-07a0" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="ec19-f193-c773-ecb6" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="9658-a996-c286-8fa1" defaultAmount="1">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Flamer" id="049e-98a4-ea09-d3ec" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0159-53d7-2ac4-ba15" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="ca6a-458b-5386-faa1">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Pistol" id="a88d-09fd-a0f3-55f2" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c900-e667-20f4-fa5d" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="0160-9a23-cacc-23c3"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b1a-3226-bb1b-f54b" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="increment" value="1" field="9b1a-3226-bb1b-f54b">
+                  <conditions>
+                    <condition type="atLeast" value="9" field="selections" scope="parent" childId="any" shared="true" includeChildSelections="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="max" value="10" field="selections" scope="self" shared="true" id="141e-cbe8-4260-d08d"/>
             <constraint type="min" value="5" field="selections" scope="self" shared="true" id="61e8-741e-7e94-233f"/>
-          </constraints>
-        </selectionEntryGroup>
-        <selectionEntryGroup name="For every five models, one Space Marine may replace his bolt pistol" id="ec19-f193-c773-ecb6" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="9658-a996-c286-8fa1">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Flamer" id="049e-98a4-ea09-d3ec" hidden="false" type="profile" targetId="8e25-e118-f3a3-6ac8"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2df5-bd6e-2546-b76b"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="ca6a-458b-5386-faa1">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Plasma Pistol" id="a88d-09fd-a0f3-55f2" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9743-abec-01fc-44e3"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="max" value="2" field="selections" scope="self" shared="true" id="0160-9a23-cacc-23c3"/>
           </constraints>
         </selectionEntryGroup>
         <selectionEntryGroup name="Dedicated Transport" id="4ae3-4371-b1d8-679c" hidden="false">
@@ -8571,11 +8631,12 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
         <infoLink name="And They Shall Know No Fear" id="de8a-582c-310d-11ff" hidden="false" type="rule" targetId="73f8-658e-9da5-beba"/>
         <infoLink name="Combat Squads" id="76f2-7f6b-2868-e249" hidden="false" type="rule" targetId="9b83-9c79-fe48-a8b5"/>
         <infoLink name="Combat Tactics" id="c83d-486b-bf39-de46" hidden="false" type="rule" targetId="63e6-2a1c-88a5-4120"/>
-        <infoLink name="Bolt Pistol" id="a1ef-aed2-71ff-c7c7" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
-        <infoLink name="Close-Combat Weapon" id="92f0-9b4a-e76e-79bb" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
         <infoLink name="Frag Grenades" id="efc6-c90a-4f41-ae47" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
         <infoLink name="Krak Grenades" id="7a0a-4ba4-1be2-e7ea" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
       </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Jump Packs" hidden="false" id="ab5e-c3cc-b77d-0f3c" defaultAmount="1"/>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Terminator Chapter Master" hidden="false" id="bdc3-dd03-6315-88d1">
       <costs>
@@ -8817,6 +8878,13 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
           </characteristics>
         </profile>
       </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Honour Guard" hidden="false" id="16f8-9bf2-1e38-a201" type="selectionEntry" targetId="67d2-c56d-8486-47fc">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6280-14bb-8096-06d1" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Terminator Captain" hidden="false" id="375c-ff88-20f4-c88e">
       <costs>
@@ -10568,6 +10636,11 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
     <entryLink import="true" name="Terminator Librarian" hidden="false" id="c73f-1ea2-a259-40fc" type="selectionEntry" targetId="158d-279f-67ca-94b1">
       <categoryLinks>
         <categoryLink targetId="ac8d-efba-1884-d3ad" id="0722-d5fe-5145-0d24" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Assault Squad" hidden="false" id="7b7c-2abf-58a6-939e" type="selectionEntry" targetId="8365-9a39-aa62-f2b6">
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="2bff-6bf7-ce28-a9ba" primary="true" name="Fast Attack"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
