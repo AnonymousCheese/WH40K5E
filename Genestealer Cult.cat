@@ -1212,7 +1212,7 @@ The Crouchling model is purely decorative and is ignored for game purposes.</cha
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Neophyte Gunner" hidden="false" id="f746-c48b-53af-eb50">
+            <selectionEntry type="model" import="true" name="Neophyte Gunner" hidden="false" id="f746-c48b-53af-eb50">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
               </costs>
@@ -1752,7 +1752,7 @@ The Crouchling model is purely decorative and is ignored for game purposes.</cha
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1363-92d6-483a-2c75"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink name="Thunder Hammers" id="ced4-41d1-baa9-20ca" hidden="false" type="profile" targetId="4cb2-e19a-4b72-594d"/>
+                    <infoLink name="Thunder Hammer" id="ced4-41d1-baa9-20ca" hidden="false" type="profile" targetId="4cb2-e19a-4b72-594d"/>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
