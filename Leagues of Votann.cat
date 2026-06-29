@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="98ef-83eb-b44b-f560" name="Leagues of Votann" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="98ef-83eb-b44b-f560" name="Leagues of Votann (Homebrew)" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedProfiles>
     <profile name="Void Armour" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="a9fc-40e0-ace6-f5f3">
       <characteristics>

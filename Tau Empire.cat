@@ -6057,7 +6057,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
                 <modifier type="set" value="true" field="hidden" scope="b1f3-6fd3-a351-cc37" affects="self.entries.f1ec-c420-9676-0918"/>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Shas&apos;ui Team Leader" hidden="false" id="f1ec-c420-9676-0918" defaultAmount="" collective="false">
+            <selectionEntry type="model" import="true" name="Shas&apos;ui Team Leader" hidden="false" id="f1ec-c420-9676-0918" collective="false">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="75"/>
               </costs>
@@ -7412,6 +7412,11 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="31bb-5d69-9bf8-557b"/>
       </constraints>
+    </entryLink>
+    <entryLink import="true" name="Custom Content" hidden="false" id="ef54-04bf-e1f9-961f" type="selectionEntry" targetId="f04b-cec3-c568-abd9">
+      <categoryLinks>
+        <categoryLink targetId="525f-0a42-3f5c-5613" id="1c01-28cd-0b12-f888" primary="true" name="Configuration"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
 </catalogue>

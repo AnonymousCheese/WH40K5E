@@ -5853,6 +5853,13 @@ If the model that is possessed by the Greater Daemon is inside a transport, the 
         <infoLink name="Walker" id="bdbf-d217-741a-e03b" hidden="false" type="rule" targetId="fea1-2c4a-c33c-5600"/>
         <infoLink name="Move Through Cover" id="bc72-b121-4564-c4b5" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Forgefiend" hidden="false" id="74d1-c6ef-3a30-1579">
       <costs>
@@ -5905,6 +5912,13 @@ If the model that is possessed by the Greater Daemon is inside a transport, the 
         <infoLink name="Fleet" id="48ad-e2d2-650c-3ac7" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
         <infoLink name="Daemon" id="f919-c281-4233-6766" hidden="false" type="profile" targetId="f85c-0fbe-ac30-71e4"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Venomcrawler" hidden="false" id="0666-2920-f070-09c8">
       <costs>
@@ -5943,6 +5957,13 @@ If the model that is possessed by the Greater Daemon is inside a transport, the 
           </characteristics>
         </profile>
       </profiles>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Aspiring Champion" hidden="false" id="0964-34b0-90ba-1ba6">
       <costs>
@@ -6213,6 +6234,13 @@ If the model that is possessed by the Greater Daemon is inside a transport, the 
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="7a0f-60e9-0b8f-41f9" shared="true" childName="Hide Apocalypse Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
@@ -6413,6 +6441,11 @@ If the model that is possessed by the Greater Daemon is inside a transport, the 
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="30f0-440d-d146-1588" primary="true" name="Heavy Support"/>
         <categoryLink targetId="5968-f35e-18fd-612b" id="ffbb-efa0-7c74-7324" primary="false" name="Super-Heavy"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Custom Content" hidden="false" id="43b1-76dd-53a0-c794" type="selectionEntry" targetId="f04b-cec3-c568-abd9">
+      <categoryLinks>
+        <categoryLink targetId="525f-0a42-3f5c-5613" id="609e-7695-ba55-9cd0" primary="true" name="Configuration"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

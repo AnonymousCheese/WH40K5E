@@ -3350,4 +3350,11 @@ For example, if a Canoness joins a unit of Celestians then you would require two
       </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <entryLinks>
+    <entryLink import="true" name="Custom Content" hidden="false" id="2e3a-d9c4-7b43-9cee" type="selectionEntry" targetId="f04b-cec3-c568-abd9">
+      <categoryLinks>
+        <categoryLink targetId="525f-0a42-3f5c-5613" id="ba9c-63d1-b17e-53fa" primary="true" name="Configuration"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
 </catalogue>

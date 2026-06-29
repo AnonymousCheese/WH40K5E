@@ -8877,20 +8877,46 @@ Faithful Independent Characters may use Acts of Faith while operating independen
       <categoryLinks>
         <categoryLink targetId="74fe-37c3-fbbf-849e" id="8c91-fda8-84de-f662" primary="true" name="Fast Attack"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Castigator" hidden="false" id="4e07-960a-f129-a030" type="selectionEntry" targetId="4a2d-3b02-04a1-b480">
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="8df3-10ce-2a66-1223" primary="true" name="Heavy Support"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Paragon Warsuits" hidden="false" id="fa8b-1c50-20bd-52a1" type="selectionEntry" targetId="7f70-8ed9-5021-01b4">
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="acfd-2e2d-374e-15b2" primary="true" name="Heavy Support"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Celestian Sacresants" hidden="false" id="1329-963a-6ab3-dbd6" type="selectionEntry" targetId="db93-2874-90e5-dd05">
       <categoryLinks>
         <categoryLink targetId="978c-e18f-8aeb-f4c1" id="f60b-10e5-5348-8901" primary="true" name="Elites"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Custom Content" hidden="false" id="680e-475a-cb56-ef04" type="selectionEntry" targetId="f04b-cec3-c568-abd9">
+      <categoryLinks>
+        <categoryLink targetId="525f-0a42-3f5c-5613" id="25cb-93e7-e866-c46c" primary="true" name="Configuration"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

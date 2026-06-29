@@ -2847,5 +2847,10 @@ If the test is failed, the unit must immediately fire all its weapons (no holdin
         <categoryLink targetId="9260-7d57-be5c-bd52" id="f45b-1051-719a-7071" primary="true" name="Heavy Support"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Custom Content" hidden="false" id="49b3-217d-e48d-2fcc" type="selectionEntry" targetId="f04b-cec3-c568-abd9">
+      <categoryLinks>
+        <categoryLink targetId="525f-0a42-3f5c-5613" id="60a8-9b7a-5615-7607" primary="true" name="Configuration"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

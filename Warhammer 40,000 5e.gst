@@ -1,33 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="sys-9c90-407d-0876-14fb" name="Warhammer 40,000 5e" battleScribeVersion="2.03" revision="2" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" library="false">
   <categoryEntries>
-    <categoryEntry name="Troops" id="default-category">
-      <constraints>
-        <constraint type="min" value="2" field="selections" scope="roster" shared="true" id="2ba4-d6dd-3a79-60e6" includeChildSelections="true"/>
-        <constraint type="max" value="6" field="selections" scope="roster" shared="true" id="5770-fa9b-1025-feb8" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="HQ" id="ac8d-efba-1884-d3ad" hidden="false">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="36e3-3e20-327c-26e1" includeChildSelections="true"/>
-        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="0fd7-7355-461b-d50b" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Elites" id="978c-e18f-8aeb-f4c1" hidden="false">
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="c4fb-3ff8-9cb5-bad5" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Fast Attack" id="74fe-37c3-fbbf-849e" hidden="false">
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="ab7a-b1c8-57d8-a763" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-    <categoryEntry name="Heavy Support" id="9260-7d57-be5c-bd52" hidden="false">
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="6c48-3c27-0430-e4da" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
+    <categoryEntry name="Troops" id="default-category"/>
+    <categoryEntry name="HQ" id="ac8d-efba-1884-d3ad" hidden="false"/>
+    <categoryEntry name="Elites" id="978c-e18f-8aeb-f4c1" hidden="false"/>
+    <categoryEntry name="Fast Attack" id="74fe-37c3-fbbf-849e" hidden="false"/>
+    <categoryEntry name="Heavy Support" id="9260-7d57-be5c-bd52" hidden="false"/>
     <categoryEntry name="Dedicated Transport" id="168b-a772-94f7-83f5" hidden="false"/>
     <categoryEntry name="Unique" id="1f0d-7d41-7ef9-ce4a" hidden="false"/>
     <categoryEntry name="Super-Heavy" id="5968-f35e-18fd-612b" hidden="false">
@@ -35,17 +13,110 @@
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6b87-b497-7b84-2c68" includeChildSelections="false"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry name="Homebrew" id="df0c-6e22-d859-7f22" hidden="false"/>
+    <categoryEntry name="Forgeworld" id="1d90-693c-460a-0301" hidden="false"/>
+    <categoryEntry name="Configuration" id="525f-0a42-3f5c-5613" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry name="Default Force" hidden="false" id="default-force">
       <categoryLinks>
-        <categoryLink name="HQ" hidden="false" id="79cd-b337-09f1-8e8b" targetId="ac8d-efba-1884-d3ad"/>
-        <categoryLink name="Troops" hidden="false" id="default-force-category-link" targetId="default-category"/>
-        <categoryLink name="Elites" hidden="false" id="b932-bd98-317c-5dbd" targetId="978c-e18f-8aeb-f4c1"/>
-        <categoryLink name="Fast Attack" hidden="false" id="cf6d-e1b9-b714-97f2" targetId="74fe-37c3-fbbf-849e"/>
-        <categoryLink name="Heavy Support" hidden="false" id="877c-51b8-b64b-f539" targetId="9260-7d57-be5c-bd52"/>
+        <categoryLink name="HQ" hidden="false" id="79cd-b337-09f1-8e8b" targetId="ac8d-efba-1884-d3ad">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="eab7-beb9-bb29-643c" includeChildSelections="true"/>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="c114-57d1-5098-a704" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Troops" hidden="false" id="default-force-category-link" targetId="default-category">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="force" shared="true" id="cbdf-ca83-0907-eb4f" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="6" field="selections" scope="force" shared="true" id="273f-6226-3bd2-603f" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Elites" hidden="false" id="b932-bd98-317c-5dbd" targetId="978c-e18f-8aeb-f4c1">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="force" shared="true" id="10f2-750e-e887-a448" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Fast Attack" hidden="false" id="cf6d-e1b9-b714-97f2" targetId="74fe-37c3-fbbf-849e">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="force" shared="true" id="d31b-c9a7-b2ea-b7f3" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Heavy Support" hidden="false" id="877c-51b8-b64b-f539" targetId="9260-7d57-be5c-bd52">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="force" shared="true" id="e4a0-4050-ad4a-6325" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
         <categoryLink name="Dedicated Transport" hidden="false" id="5b31-c3ad-730a-dc0a" targetId="168b-a772-94f7-83f5"/>
         <categoryLink name="Unique" hidden="false" id="88f3-8ce2-ad3f-1919" targetId="1f0d-7d41-7ef9-ce4a"/>
+        <categoryLink name="Configuration" hidden="false" id="2548-116e-8a73-8ce4" targetId="525f-0a42-3f5c-5613"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry name="Planet Strike Attacker" id="f80b-1237-c7e6-8925" hidden="false">
+      <categoryLinks>
+        <categoryLink name="HQ" hidden="false" id="3f09-79c7-ac0c-b681" targetId="ac8d-efba-1884-d3ad">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="a839-5f55-406d-f15c" includeChildSelections="true"/>
+            <constraint type="max" value="3" field="selections" scope="force" shared="true" id="83ac-57c5-819f-4873" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Troops" hidden="false" id="b812-b266-f4e0-7b47" targetId="default-category">
+          <constraints>
+            <constraint type="max" value="6" field="selections" scope="force" shared="true" id="1289-9233-88a2-1cd7" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Elites" hidden="false" id="e043-2057-2b98-8327" targetId="978c-e18f-8aeb-f4c1">
+          <constraints>
+            <constraint type="max" value="6" field="selections" scope="force" shared="true" id="22a6-188d-542c-1893" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Fast Attack" hidden="false" id="9ec7-657a-c30f-9dd4" targetId="74fe-37c3-fbbf-849e">
+          <constraints>
+            <constraint type="max" value="6" field="selections" scope="force" shared="true" id="d88c-0b7a-904f-881e" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Heavy Support" hidden="false" id="0ec8-4238-f706-eb07" targetId="9260-7d57-be5c-bd52">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="force" shared="true" id="a386-0702-cfd3-79a4" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Dedicated Transport" hidden="false" id="4ffe-d622-3f70-6a9f" targetId="168b-a772-94f7-83f5"/>
+        <categoryLink name="Unique" hidden="false" id="7fdc-ff34-c4a9-0a99" targetId="1f0d-7d41-7ef9-ce4a"/>
+        <categoryLink name="Configuration" hidden="false" id="a131-8915-cd18-c789" targetId="525f-0a42-3f5c-5613"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry name="Planet Strike Defender" id="d643-f6a1-75ab-ad34" hidden="false">
+      <categoryLinks>
+        <categoryLink name="HQ" hidden="false" id="d998-9217-6976-2bc9" targetId="ac8d-efba-1884-d3ad">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="d65b-8356-07d8-ba62" includeChildSelections="true"/>
+            <constraint type="max" value="3" field="selections" scope="force" shared="true" id="65b0-8914-ad1c-dc40" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Troops" hidden="false" id="ea6a-6931-944d-7c2a" targetId="default-category">
+          <constraints>
+            <constraint type="max" value="8" field="selections" scope="force" shared="true" id="ef6c-2eeb-8056-4ad1" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="min" value="2" field="selections" scope="force" shared="true" id="b775-497a-353f-974e" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Elites" hidden="false" id="9d4f-b556-355f-1756" targetId="978c-e18f-8aeb-f4c1">
+          <constraints>
+            <constraint type="max" value="6" field="selections" scope="force" shared="true" id="b064-1ded-382a-31d9" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Fast Attack" hidden="false" id="64b7-a484-b1f4-7add" targetId="74fe-37c3-fbbf-849e">
+          <constraints>
+            <constraint type="max" value="6" field="selections" scope="force" shared="true" id="9d95-4b8e-c897-ff8f" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Heavy Support" hidden="false" id="e31b-4a19-ed25-18c1" targetId="9260-7d57-be5c-bd52">
+          <constraints>
+            <constraint type="max" value="6" field="selections" scope="force" shared="true" id="d288-9bc0-51eb-07c2" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Dedicated Transport" hidden="false" id="02d7-82f0-a1c3-22df" targetId="168b-a772-94f7-83f5"/>
+        <categoryLink name="Unique" hidden="false" id="117c-338f-0a01-3587" targetId="1f0d-7d41-7ef9-ce4a"/>
+        <categoryLink name="Configuration" hidden="false" id="2fed-19f9-e10f-a693" targetId="525f-0a42-3f5c-5613"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -3966,6 +4037,13 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
           </constraints>
         </selectionEntry>
       </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Impulsor" hidden="false" id="029f-8e03-0080-1cf7">
       <costs>
@@ -3989,7 +4067,7 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
         </profile>
         <profile name="Exposed Rear" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="1c56-6508-4074-729f">
           <characteristics>
-            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Attacks made against the rear of an Impulsor count as Open-topped. </characteristic>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Attacks made against the rear of an Impulsor count as Open-topped.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4058,6 +4136,13 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
         <infoLink name="Skimmer" id="fea0-caa6-1ab8-16c4" hidden="false" type="rule" targetId="5768-8357-f0e3-1484"/>
         <infoLink name="Tank" id="0d37-a745-cca6-609e" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Gladiator" hidden="false" id="b8fb-3d05-1547-38bc">
       <costs>
@@ -4236,6 +4321,34 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="24c5-a830-40d8-e88a" primary="true" name="Heavy Support"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Custom Content" hidden="false" id="f04b-cec3-c568-abd9">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="9ed1-adc2-b692-1915-min" includeChildSelections="false" childId="any"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="9ed1-adc2-b692-1915-max" includeChildSelections="false" childId="any"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="525f-0a42-3f5c-5613" id="a7f1-d4dd-dcea-58c7" primary="true" name="Configuration"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Hide Homebrew Units" hidden="false" id="0d75-b87c-69ae-f778">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d847-745c-29eb-88c3" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Hide Apocalypse Units" hidden="false" id="7a0f-60e9-0b8f-41f9">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8391-61a9-bdee-c97a" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
 </gameSystem>

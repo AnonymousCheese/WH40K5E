@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="36c1-928b-d26d-9a12" name="Genestealer Cult" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="36c1-928b-d26d-9a12" name="Genestealer Cult (Homebrew)" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedProfiles>
     <profile name="Acolyte Iconward" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="a50d-1884-2832-d2bb">
       <characteristics>

@@ -5856,6 +5856,11 @@
         <categoryLink targetId="9260-7d57-be5c-bd52" id="3c9c-45e3-0ac1-5f6f" primary="true" name="Heavy Support"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Custom Content" hidden="false" id="c061-2580-8595-8621" type="selectionEntry" targetId="f04b-cec3-c568-abd9">
+      <categoryLinks>
+        <categoryLink targetId="525f-0a42-3f5c-5613" id="9d1a-8afa-4e31-db12" primary="true" name="Configuration"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <profileTypes>
     <profileType name="Saga" id="7128-e7c3-9116-6f29" hidden="false">

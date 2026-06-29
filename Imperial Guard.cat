@@ -11869,11 +11869,25 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="552c-8f66-d5eb-7fb5" primary="true" name="Heavy Support"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Rogal Dorn Battle Tank" hidden="false" id="5475-c91a-f913-7afa" type="selectionEntry" targetId="a3a4-b8f4-46a1-352e">
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="7dfc-72d8-4260-fb72" primary="true" name="Heavy Support"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Psyker Battle Squad" hidden="false" id="3404-7844-9bb6-3d25" type="selectionEntry" targetId="15e8-8b2a-1146-5c7d">
       <categoryLinks>
@@ -11884,78 +11898,174 @@ A single Cyclops and its operator may be transported inside a Chimera. They coun
       <categoryLinks>
         <categoryLink targetId="978c-e18f-8aeb-f4c1" id="1f47-9a06-5ff2-18a7" primary="true" name="Elites"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Field Ordnance Battery" hidden="false" id="347f-fb95-5e4e-1f9d" type="selectionEntry" targetId="e8ce-df6b-cfbf-3340">
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="5095-05bf-d298-53a6" primary="true" name="Heavy Support"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Artillery Battery" hidden="false" id="b08a-65b1-47a1-a232" type="selectionEntry" targetId="22d4-aa34-64ea-8ef0">
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="4f6f-3187-45e1-b878" primary="true" name="Heavy Support"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Company Commander on Horse" hidden="false" id="5131-6dc7-572e-c9ed" type="selectionEntry" targetId="6711-c7d8-bad1-22cf">
       <categoryLinks>
         <categoryLink targetId="ac8d-efba-1884-d3ad" id="95be-900a-cd1b-f8aa" primary="true" name="HQ"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Cyclops Remote Control Demolition Vehicle" hidden="false" id="e649-bdda-6947-5f56" type="selectionEntry" targetId="87e4-5fb5-9d17-b129">
       <categoryLinks>
         <categoryLink targetId="74fe-37c3-fbbf-849e" id="f3dd-9e71-b3c6-e06a" primary="true" name="Fast Attack"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Baneblade" hidden="false" id="153f-d458-3027-effe" type="selectionEntry" targetId="dded-2c7b-b274-21de">
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="1c93-0e05-1a19-fca3" primary="true" name="Heavy Support"/>
         <categoryLink targetId="5968-f35e-18fd-612b" id="fc55-ee9e-dcdd-31e3" primary="false" name="Super-Heavy"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="7a0f-60e9-0b8f-41f9" shared="true" childName="Hide Apocalypse Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Hellhammer" hidden="false" id="92c4-3a01-7a4b-2d84" type="selectionEntry" targetId="a7b4-ab1b-460d-1462">
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="a094-f51d-247d-bcfb" primary="true" name="Heavy Support"/>
         <categoryLink targetId="5968-f35e-18fd-612b" id="2bbe-9533-1a14-b1f7" primary="false" name="Super-Heavy"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="7a0f-60e9-0b8f-41f9" shared="true" childName="Hide Apocalypse Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Stormlord" hidden="false" id="bf9c-0cb3-c3e9-032e" type="selectionEntry" targetId="49ac-5b0b-e6e7-898e">
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="f8e1-dfbb-bcff-4193" primary="true" name="Heavy Support"/>
         <categoryLink targetId="5968-f35e-18fd-612b" id="90bf-7373-4de6-1d3e" primary="false" name="Super-Heavy"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="7a0f-60e9-0b8f-41f9" shared="true" childName="Hide Apocalypse Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Banehammer" hidden="false" id="ed7e-2acf-a854-d5d1" type="selectionEntry" targetId="83fe-ebc3-74fb-fb12">
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="fb32-4269-2bfd-b9e6" primary="true" name="Heavy Support"/>
         <categoryLink targetId="5968-f35e-18fd-612b" id="01b6-6b61-8620-6b15" primary="false" name="Super-Heavy"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="7a0f-60e9-0b8f-41f9" shared="true" childName="Hide Apocalypse Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Banesword" hidden="false" id="f544-8705-789b-2eb8" type="selectionEntry" targetId="5384-55a5-29ea-625f">
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="1940-c456-bd9e-3707" primary="true" name="Heavy Support"/>
         <categoryLink targetId="5968-f35e-18fd-612b" id="20a8-de0e-bf07-ba6e" primary="false" name="Super-Heavy"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="7a0f-60e9-0b8f-41f9" shared="true" childName="Hide Apocalypse Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Doomhammer" hidden="false" id="2674-7beb-a73e-96eb" type="selectionEntry" targetId="5b2c-1fca-432a-2695">
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="01af-9e17-0a51-24e5" primary="true" name="Heavy Support"/>
         <categoryLink targetId="5968-f35e-18fd-612b" id="adf9-7ed7-4948-2869" primary="false" name="Super-Heavy"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="7a0f-60e9-0b8f-41f9" shared="true" childName="Hide Apocalypse Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Shadowsword" hidden="false" id="144d-b16c-ee30-573a" type="selectionEntry" targetId="5e28-dd39-2b56-9bf5">
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="e3a4-4099-aa81-406f" primary="true" name="Heavy Support"/>
         <categoryLink targetId="5968-f35e-18fd-612b" id="3d7a-51dd-8c97-be3f" primary="false" name="Super-Heavy"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="7a0f-60e9-0b8f-41f9" shared="true" childName="Hide Apocalypse Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Stormsword" hidden="false" id="15eb-e2f5-5632-745c" type="selectionEntry" targetId="296c-978b-a41e-1067">
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="166d-97c6-43bd-5700" primary="true" name="Heavy Support"/>
         <categoryLink targetId="5968-f35e-18fd-612b" id="a11f-2485-8094-fa4e" primary="false" name="Super-Heavy"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="7a0f-60e9-0b8f-41f9" shared="true" childName="Hide Apocalypse Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Vendetta Gunship Squadron" hidden="false" id="e0aa-3821-ffd9-3eef" type="selectionEntry" targetId="a01b-097a-2a17-45b1">
       <categoryLinks>
         <categoryLink targetId="74fe-37c3-fbbf-849e" id="0aaf-24a0-d4ed-5e8e" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Custom Content" hidden="false" id="62d4-75ff-87a6-40bb" type="selectionEntry" targetId="f04b-cec3-c568-abd9">
+      <categoryLinks>
+        <categoryLink targetId="525f-0a42-3f5c-5613" id="5f65-c24c-f1ba-d48c" primary="true" name="Configuration"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

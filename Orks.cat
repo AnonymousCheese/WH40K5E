@@ -2599,7 +2599,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                 <infoLink name="Stikkbomb" id="2106-ffbc-7a7b-91c8" hidden="false" type="profile" targetId="9e56-a965-6c2e-f383"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Kommando Gunner" hidden="false" id="8be0-c86e-bc91-d0da" defaultAmount="">
+            <selectionEntry type="model" import="true" name="Kommando Gunner" hidden="false" id="8be0-c86e-bc91-d0da">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
@@ -4644,6 +4644,11 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
     <entryLink import="true" name="Deff Dread" hidden="false" id="c3d6-8762-4ffd-a9f7" type="selectionEntry" targetId="59ba-03b6-7dc2-6369">
       <categoryLinks>
         <categoryLink name="Heavy Support" hidden="false" id="d019-a31c-9b7d-b7a8" targetId="9260-7d57-be5c-bd52" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Custom Content" hidden="false" id="7b42-446b-9029-b77e" type="selectionEntry" targetId="f04b-cec3-c568-abd9">
+      <categoryLinks>
+        <categoryLink targetId="525f-0a42-3f5c-5613" id="db03-5fe8-c875-e980" primary="true" name="Configuration"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

@@ -2989,6 +2989,11 @@ Nominate a Canoptek Scarab unit within 6&quot; and roll a D6. On a roll of 2-6, 
         <categoryLink targetId="9260-7d57-be5c-bd52" id="69a8-3ffd-4752-cdf8" primary="true" name="Heavy Support"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Custom Content" hidden="false" id="c8ab-ed18-86f8-cb44" type="selectionEntry" targetId="f04b-cec3-c568-abd9">
+      <categoryLinks>
+        <categoryLink targetId="525f-0a42-3f5c-5613" id="ef79-6274-8e48-fc4b" primary="true" name="Configuration"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Royal Court" id="c8b2-45b3-4924-7da0" hidden="false">

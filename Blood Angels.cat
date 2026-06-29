@@ -7817,5 +7817,10 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
         <categoryLink targetId="9260-7d57-be5c-bd52" id="1f2c-3d5f-f86d-2dff" primary="true" name="Heavy Support"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Custom Content" hidden="false" id="b985-c6b8-5ba1-953e" type="selectionEntry" targetId="f04b-cec3-c568-abd9">
+      <categoryLinks>
+        <categoryLink targetId="525f-0a42-3f5c-5613" id="891e-baf6-2287-dabd" primary="true" name="Configuration"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

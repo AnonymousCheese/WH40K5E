@@ -7729,5 +7729,10 @@ Any Daemon or Psyker that suffers one or more unsaved wounds from Nemesis Force 
         <categoryLink targetId="default-category" id="daec-4716-c530-8c2f" primary="true" name="Troops"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Custom Content" hidden="false" id="9c0c-6487-9993-a5bf" type="selectionEntry" targetId="f04b-cec3-c568-abd9">
+      <categoryLinks>
+        <categoryLink targetId="525f-0a42-3f5c-5613" id="ba49-ea07-9be6-ae2e" primary="true" name="Configuration"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

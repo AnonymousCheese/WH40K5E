@@ -3581,6 +3581,11 @@ In addition, any Psychic powers targeted against Black Templar units or characte
         <categoryLink targetId="9260-7d57-be5c-bd52" id="8404-01dd-24b5-5406" primary="true" name="Heavy Support"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Custom Content" hidden="false" id="167e-456b-718d-ec67" type="selectionEntry" targetId="f04b-cec3-c568-abd9">
+      <categoryLinks>
+        <categoryLink targetId="525f-0a42-3f5c-5613" id="7fca-70ef-7896-fcb2" primary="true" name="Configuration"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Armoury" id="ef3b-391a-5ec0-5f6f" hidden="false">

@@ -3905,4 +3905,11 @@ Movement: Spore Mine Clusters drift D6&quot; in the direction rolled on a Scatte
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Custom Content" hidden="false" id="d4ed-8bd5-067c-fccb" type="selectionEntry" targetId="f04b-cec3-c568-abd9">
+      <categoryLinks>
+        <categoryLink targetId="525f-0a42-3f5c-5613" id="2ec9-c9a4-4404-7a29" primary="true" name="Configuration"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
 </catalogue>

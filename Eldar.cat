@@ -4937,6 +4937,18 @@
       <categoryLinks>
         <categoryLink targetId="74fe-37c3-fbbf-849e" id="9a05-e171-50d3-5ee1" primary="true" name="Fast Attack"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="true" name="Custom Content" hidden="false" id="c56e-cd0a-4535-f45d" type="selectionEntry" targetId="f04b-cec3-c568-abd9">
+      <categoryLinks>
+        <categoryLink targetId="525f-0a42-3f5c-5613" id="00dc-0f79-ffe2-5e02" primary="true" name="Configuration"/>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedRules>

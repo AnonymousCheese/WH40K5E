@@ -2282,6 +2282,13 @@ After this power has been used, but before any additional Wounds are gained due 
           </characteristics>
         </profile>
       </profiles>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Ymgarl Genestealer Brood" hidden="false" id="e617-087f-8fcf-0ec3">
       <selectionEntries>
@@ -4223,6 +4230,13 @@ Place the Large blast template directly over the spot the Mawloc is emerging fro
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Norn Assimilator" hidden="false" id="e028-0196-a332-1a08">
       <costs>
@@ -4238,6 +4252,13 @@ Place the Large blast template directly over the spot the Mawloc is emerging fro
         <infoLink name="Shadow in the Warp" id="19f2-ddec-bb9d-d5f1" hidden="false" type="profile" targetId="90e3-72fc-385a-b619"/>
         <infoLink name="Flesh Hooks" id="38d7-1064-99c4-7004" hidden="false" type="profile" targetId="29d2-7727-8aaa-e025"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Barbgaunt Brood" hidden="false" id="35ce-75e3-12a8-f579">
       <selectionEntryGroups>
@@ -4311,6 +4332,16 @@ Place the Large blast template directly over the spot the Mawloc is emerging fro
         <infoLink name="Instinctive Behaviour - Lurk" id="d10e-a47f-9c09-2a3b" hidden="false" type="profile" targetId="b0d0-ba0f-5b54-513e"/>
         <infoLink name="Claws and Teeth" id="659f-b3f4-8065-0cb3" hidden="false" type="profile" targetId="7c9d-9e0a-cc00-defb"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="df0c-6e22-d859-7f22" id="dada-857e-f375-90bb" primary="false" name="Homebrew"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Exocrine Brood" hidden="false" id="2cce-e1b5-d622-af70">
       <selectionEntries>
@@ -4354,6 +4385,13 @@ Place the Large blast template directly over the spot the Mawloc is emerging fro
         <infoLink name="Monstrous Creature" id="6560-bbfb-ee14-c817" hidden="false" type="rule" targetId="6b1b-944b-162c-6851"/>
         <infoLink name="Instinctive Behaviour - Feed" id="7e5f-a4dc-b650-8794" hidden="false" type="profile" targetId="033b-00cf-e0e1-c66c"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Maleceptor Brood" hidden="false" id="c402-878a-7ff1-ce46">
       <selectionEntries>
@@ -4452,6 +4490,13 @@ Place the Large blast template directly over the spot the Mawloc is emerging fro
       <infoLinks>
         <infoLink name="Move Through Cover" id="f72f-b2e1-02ee-0615" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Neurolictor Brood" hidden="false" id="4a3c-e287-30dc-755b">
       <selectionEntries>
@@ -4479,6 +4524,13 @@ Place the Large blast template directly over the spot the Mawloc is emerging fro
         <infoLink name="Synapse Creature" id="0836-96e7-531c-d7d4" hidden="false" type="profile" targetId="c532-63f6-20dd-0d6f"/>
         <infoLink name="Shadow in the Warp" id="4118-9f90-3e22-9bbc" hidden="false" type="profile" targetId="90e3-72fc-385a-b619"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Neurotyrant" hidden="false" id="5cca-d39e-cecd-f232">
       <costs>
@@ -4716,6 +4768,13 @@ Place the Large blast template directly over the spot the Mawloc is emerging fro
           </characteristics>
         </profile>
       </profiles>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Psychophage Brood" hidden="false" id="9ba9-0692-ac2c-bb78">
       <selectionEntries>
@@ -4761,6 +4820,13 @@ Place the Large blast template directly over the spot the Mawloc is emerging fro
         <infoLink name="Feel No Pain" id="e72d-5944-5ddc-2a27" hidden="false" type="profile" targetId="d22d-ca74-1014-8212"/>
         <infoLink name="Instinctive Behaviour - Feed" id="e362-8d50-5fde-7fde" hidden="false" type="profile" targetId="033b-00cf-e0e1-c66c"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Toxicrene Brood" hidden="false" id="3874-46da-2f62-2da3">
       <selectionEntries>
@@ -4801,6 +4867,13 @@ Place the Large blast template directly over the spot the Mawloc is emerging fro
         <infoLink name="Instinctive Behaviour - Feed" id="870c-8558-6a7c-006c" hidden="false" type="profile" targetId="033b-00cf-e0e1-c66c"/>
         <infoLink name="Toxic Miasma" id="4370-5403-675b-1783" hidden="false" type="profile" targetId="f0af-7b7b-bae0-b9fe"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Von Ryan&apos;s Leaper Brood" hidden="false" id="982e-3f63-f7ac-a50e">
       <selectionEntries>
@@ -4841,6 +4914,13 @@ Place the Large blast template directly over the spot the Mawloc is emerging fro
         <infoLink name="Move Through Cover" id="aecf-c7e5-cf59-c640" hidden="false" type="profile" targetId="25f7-501a-6b03-6c3b"/>
         <infoLink name="Stealth" id="c9f3-6d68-40fb-8a4d" hidden="false" type="profile" targetId="8dc7-2ec3-1248-9d84"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
@@ -5033,6 +5113,7 @@ Place the Large blast template directly over the spot the Mawloc is emerging fro
     <entryLink import="true" name="Barbgaunt Brood" hidden="false" id="7430-12f4-00be-a539" type="selectionEntry" targetId="35ce-75e3-12a8-f579">
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="728e-5fce-e61f-57b0" primary="true" name="Heavy Support"/>
+        <categoryLink targetId="df0c-6e22-d859-7f22" id="d71e-91a0-6eec-52e3" primary="false" name="Homebrew"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Exocrine Brood" hidden="false" id="cf71-3955-bbe2-a94c" type="selectionEntry" targetId="2cce-e1b5-d622-af70">
@@ -5080,5 +5161,6 @@ Place the Large blast template directly over the spot the Mawloc is emerging fro
         <categoryLink targetId="978c-e18f-8aeb-f4c1" id="6bac-444e-781f-c378" primary="true" name="Elites"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Custom Content" hidden="false" id="0dac-8535-ce50-f5a9" type="selectionEntry" targetId="f04b-cec3-c568-abd9"/>
   </entryLinks>
 </catalogue>

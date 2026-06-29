@@ -10379,11 +10379,25 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="d19d-b22e-f0e2-6e83" primary="true" name="Heavy Support"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink targetId="b556-6668-cc88-ab99" id="12c8-fc39-6c0c-d986" type="selectionEntry" name="Repulsor" hidden="false">
       <categoryLinks>
         <categoryLink targetId="9260-7d57-be5c-bd52" id="e725-38da-3e58-3a28" primary="true" name="Heavy Support"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Marneus Calgar, Lord Macragge" hidden="false" id="4774-eaef-e52c-c026" type="selectionEntry" targetId="5565-f3d0-6f8f-89aa">
       <categoryLinks>
@@ -10641,6 +10655,11 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
     <entryLink import="true" name="Assault Squad" hidden="false" id="7b7c-2abf-58a6-939e" type="selectionEntry" targetId="8365-9a39-aa62-f2b6">
       <categoryLinks>
         <categoryLink targetId="74fe-37c3-fbbf-849e" id="2bff-6bf7-ce28-a9ba" primary="true" name="Fast Attack"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Custom Content" hidden="false" id="39e9-fd3b-70be-af18" type="selectionEntry" targetId="f04b-cec3-c568-abd9">
+      <categoryLinks>
+        <categoryLink targetId="525f-0a42-3f5c-5613" id="713f-6451-be3d-4044" primary="true" name="Configuration"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

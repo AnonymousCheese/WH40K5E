@@ -5907,6 +5907,11 @@ If a Dark Eldar unit is joined by one or more characters with pain tokens, all t
         <categoryLink name="Elites" hidden="false" id="8d77-61aa-44b0-86ca" targetId="978c-e18f-8aeb-f4c1" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Custom Content" hidden="false" id="fe94-f7fc-d630-b3d2" type="selectionEntry" targetId="f04b-cec3-c568-abd9">
+      <categoryLinks>
+        <categoryLink targetId="525f-0a42-3f5c-5613" id="cbf2-fe51-a593-29fa" primary="true" name="Configuration"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Take up to two of the following Arcane Wargear" id="82b2-dc04-a078-1785" hidden="false">

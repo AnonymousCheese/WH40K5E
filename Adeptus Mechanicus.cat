@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="6bd5-fb0f-9513-a10e" name="Adeptus Mechanicus" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="6bd5-fb0f-9513-a10e" name="Adeptus Mechanicus (Homebrew)" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedProfiles>
     <profile name="Ranger Alpha" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="932d-86f7-e5cc-78b2">
       <characteristics>
@@ -1235,7 +1235,7 @@ Canticles: Incantation of the Iron Soul, Litany of the Electromancer, Chant of t
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="11"/>
               </costs>
               <infoLinks>
-                <infoLink name="Skitatii Ranger" id="4956-ae1c-5784-04d1" hidden="false" type="profile" targetId="6d41-1d73-7f35-6cbd"/>
+                <infoLink name="Skitarii Ranger" id="4956-ae1c-5784-04d1" hidden="false" type="profile" targetId="6d41-1d73-7f35-6cbd"/>
                 <infoLink name="Galvanic Rifle" id="ad07-16a3-7d72-38f6" hidden="false" type="profile" targetId="1602-dc0a-93d3-bdfb"/>
               </infoLinks>
             </selectionEntry>
@@ -2052,7 +2052,7 @@ Canticles: Incantation of the Iron Soul, Litany of the Electromancer, Chant of t
         </profile>
         <profile name="Field Harmonics" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="5907-d57c-d19c-a067">
           <characteristics>
-            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A model with this special rule adds 1 to any Invulnerable saving throws it makes for its Emanatus Force Field for each other model from the same squadron within 4&quot;. </characteristic>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A model with this special rule adds 1 to any Invulnerable saving throws it makes for its Emanatus Force Field for each other model from the same squadron within 4&quot;.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2431,9 +2431,7 @@ If a model with this special rule charges a building or vehicle, the hit is reso
         </profile>
         <profile name="Shock" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="fee1-702f-4db5-bac5">
           <characteristics>
-            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Whenever a model with this special rule makes attacks with its electrostatic gauntlets in the Shooting phase or the Assault phase, each To Hit roll of a 6 causes 2 additional hits on the target. Snap Shots never cause additional hits as a result of this special rule.
-
-</characteristic>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Whenever a model with this special rule makes attacks with its electrostatic gauntlets in the Shooting phase or the Assault phase, each To Hit roll of a 6 causes 2 additional hits on the target. Snap Shots never cause additional hits as a result of this special rule.</characteristic>
           </characteristics>
         </profile>
       </profiles>
