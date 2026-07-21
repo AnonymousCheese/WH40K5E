@@ -3286,6 +3286,18 @@ It is worth pointing out that some armies might use different versions of smoke
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5937-06af-9cd2-7923"/>
                   </constraints>
                 </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="e9b4-ea35-c869-2515">
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Missile Launcher (Frag)" id="8673-7010-59b8-3452" hidden="false" type="profile" targetId="5c9b-64b6-6546-fc94"/>
+                    <infoLink name="Missile Launcher (Krak)" id="47b8-769c-b461-989d" hidden="false" type="profile" targetId="c290-fc2b-c332-8290"/>
+                  </infoLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c320-61a6-ddd4-271e"/>
+                  </constraints>
+                </selectionEntry>
               </selectionEntries>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5620-9709-2898-5d77-min"/>

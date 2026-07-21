@@ -6482,7 +6482,7 @@ The target does not change facing and will stop if it comes within 1&quot; or di
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="205"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Razorback" hidden="false" id="d1fc-86bc-98ff-6070" type="selectionEntry" targetId="5abf-2c54-24ab-27ec">
+                    <entryLink import="true" name="Blood Angel Razorback" hidden="false" id="d1fc-86bc-98ff-6070" type="selectionEntry" targetId="6d09-26ec-be7b-fadd">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9982-d492-4edc-79d0" includeChildSelections="false"/>
                       </constraints>
@@ -6490,7 +6490,7 @@ The target does not change facing and will stop if it comes within 1&quot; or di
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Rhino" hidden="false" id="c91c-39f0-53ee-ed2c" type="selectionEntry" targetId="0761-9e60-dce9-7b3d">
+                    <entryLink import="true" name="Blood Angel Rhino" hidden="false" id="c91c-39f0-53ee-ed2c" type="selectionEntry" targetId="5def-579e-0664-ce34">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e8a6-db51-f22c-cce6" includeChildSelections="false"/>
                       </constraints>
@@ -7415,12 +7415,12 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
       <selectionEntryGroups>
         <selectionEntryGroup name="Dedicated Transport" id="9c58-baae-1da5-cf88" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Rhino" hidden="false" id="4c4e-1a84-233d-8448" type="selectionEntry" targetId="0761-9e60-dce9-7b3d">
+            <entryLink import="true" name="Blood Angel Rhino" hidden="false" id="4c4e-1a84-233d-8448" type="selectionEntry" targetId="5def-579e-0664-ce34">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3a67-d491-250a-fc06"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Razorback" hidden="false" id="4c40-44b7-69a3-448c" type="selectionEntry" targetId="5abf-2c54-24ab-27ec">
+            <entryLink import="true" name="Blood Angel Razorback" hidden="false" id="4c40-44b7-69a3-448c" type="selectionEntry" targetId="6d09-26ec-be7b-fadd">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7cd5-d409-78a7-4a2f"/>
               </constraints>
@@ -7690,6 +7690,218 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
         <categoryLink targetId="9260-7d57-be5c-bd52" id="0787-2685-7ef3-72b8" primary="true" name="Heavy Support"/>
       </categoryLinks>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Predator" hidden="false" id="defc-f542-af03-0b6b">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="70"/>
+      </costs>
+      <profiles>
+        <profile name="Predator" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="e478-e88c-773e-b158">
+          <characteristics>
+            <characteristic name="BS" typeId="b539-c71b-9239-8da0">4</characteristic>
+            <characteristic name="F" typeId="84f1-6495-b3c8-6025">13</characteristic>
+            <characteristic name="S" typeId="38b6-8429-f0fd-11cb">11</characteristic>
+            <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Turret" id="6ddf-0766-570c-96f0" hidden="false" defaultSelectionEntryId="772b-a2a4-1af7-91aa">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Autocannon" hidden="false" id="7534-e6fd-273a-48a3">
+              <infoLinks>
+                <infoLink name="Autocannon" id="0fae-d7df-37e2-66cd" hidden="false" type="profile" targetId="0439-7ae4-6bcf-50ac"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Lascannon" hidden="false" id="5987-d045-40f7-b242">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="45"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Twin-linked Lascannon" id="1705-c527-2484-6842" hidden="false" type="profile" targetId="e50f-e49c-148c-4aee"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="2a91-8687-ae9a-ac67"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="42d4-5f64-7cee-f631"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Sponsons" id="f696-d907-1e2d-6d99" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Heavy Bolters" hidden="false" id="51a6-cfc6-9717-8ae9">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Heavy Bolter" id="ce37-02ed-0843-2d9e" hidden="false" type="profile" targetId="a9ff-3d1e-c9e1-c169"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lascannons" hidden="false" id="e66d-8571-957e-6a79">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="65"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Lascannon" id="b747-01b3-a0f3-05d5" hidden="false" type="profile" targetId="2965-8d8c-d5b0-8aa1"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="485c-5529-6def-03e2"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Upgrades" id="347e-0db2-6347-038b" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="9459-02ea-1404-8d34">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Storm Bolter" id="63a4-affa-c43d-a09f" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d67-0ef2-8a3c-3b38"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Hunter-killer Missile" hidden="false" id="3c59-8a95-108f-bd37">
+              <infoLinks>
+                <infoLink name="Hunter-Killer Missile" id="b39f-e713-02fd-fdd0" hidden="false" type="profile" targetId="ecc5-0991-ef00-23ac"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ee0-65ef-9262-9d7f"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Dozer Blade" hidden="false" id="d9c5-e58b-e027-a047">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Dozer Blade" id="548e-82a8-1404-82fd" hidden="false" type="profile" targetId="071f-6e73-2a57-cfc4"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b839-5f61-1a44-4160"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Extra Armour" hidden="false" id="6be1-679f-ffaf-a748">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Extra Armour" id="8f72-90e4-b9b9-a701" hidden="false" type="profile" targetId="ec58-94f7-12e5-a9b9"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="181d-52ae-eb4c-b711"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Smoke Launchers" id="1dbc-7887-91b9-e8b4" hidden="false" type="profile" targetId="180e-ad4b-4df0-81ae"/>
+        <infoLink name="Searchlight" id="fd5f-6276-61f6-5bde" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
+        <infoLink name="Tank" id="983e-d690-beba-aa9f" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="5e4a-89a2-ed8b-a7f9" primary="true" name="Heavy Support"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Vindicator" hidden="false" id="6f9c-de22-0c3f-9630">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="145"/>
+      </costs>
+      <profiles>
+        <profile name="Vindicator" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="43fb-76f5-8bb6-f310">
+          <characteristics>
+            <characteristic name="BS" typeId="b539-c71b-9239-8da0">4</characteristic>
+            <characteristic name="F" typeId="84f1-6495-b3c8-6025">13</characteristic>
+            <characteristic name="S" typeId="38b6-8429-f0fd-11cb">11</characteristic>
+            <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Demolisher Cannon" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="ff3b-a2f5-f8ba-4e45">
+          <characteristics>
+            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+            <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
+            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1</characteristic>
+            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Smoke Launchers" id="3031-30c2-9844-6e77" hidden="false" type="profile" targetId="180e-ad4b-4df0-81ae"/>
+        <infoLink name="Searchlight" id="eda1-e812-78a1-eaa1" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
+        <infoLink name="Tank" id="ea5a-bfde-2f29-c042" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
+        <infoLink name="Storm Bolter" id="4364-c946-9587-445e" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Upgrades" id="96fd-43e6-93df-4531" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="7964-dc00-fb4f-929b">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Storm Bolter" id="cec7-f8e7-9970-9eee" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="95e0-2e2e-9a8d-a288"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Hunter-killer Missile" hidden="false" id="97ea-6436-5382-034d">
+              <infoLinks>
+                <infoLink name="Hunter-Killer Missile" id="31c0-f550-6fe1-ce4a" hidden="false" type="profile" targetId="ecc5-0991-ef00-23ac"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1861-c39e-7aed-fa05"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Dozer Blade" hidden="false" id="cb45-3aae-8199-82c5">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Dozer Blade" id="d648-a2b7-7815-4032" hidden="false" type="profile" targetId="071f-6e73-2a57-cfc4"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3f1f-ddcf-4ac4-2206"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Extra Armour" hidden="false" id="1d05-c936-d050-d86e">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Extra Armour" id="5bd9-34ce-aebd-abba" hidden="false" type="profile" targetId="ec58-94f7-12e5-a9b9"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2339-99ba-536b-9127"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Siege Shield" hidden="false" id="549d-205f-adda-df6d">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <profiles>
+                <profile name="Siege Shield" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="3a27-84e8-9718-b994">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A Vindicator with a Siege Shield automatically passes dangerous terrain tests.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="006d-281d-c799-f479"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Chapter Banner" hidden="false" id="af8f-b4b3-0ee1-1d63">
@@ -7743,7 +7955,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="250"/>
           </costs>
         </entryLink>
-        <entryLink import="true" name="Razorback" hidden="false" id="4772-d6e6-42ef-6ecf" type="selectionEntry" targetId="5abf-2c54-24ab-27ec">
+        <entryLink import="true" name="Blood Angel Razorback" hidden="false" id="4772-d6e6-42ef-6ecf" type="selectionEntry" targetId="6d09-26ec-be7b-fadd">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f070-b381-653e-7b0f" includeChildSelections="false"/>
           </constraints>
@@ -7751,7 +7963,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
           </costs>
         </entryLink>
-        <entryLink import="true" name="Rhino" hidden="false" id="6991-1bfb-06f9-e1a7" type="selectionEntry" targetId="0761-9e60-dce9-7b3d">
+        <entryLink import="true" name="Blood Angel Rhino" hidden="false" id="6991-1bfb-06f9-e1a7" type="selectionEntry" targetId="5def-579e-0664-ce34">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3dfb-f16f-4912-31f5" includeChildSelections="false"/>
           </constraints>
@@ -7791,16 +8003,6 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
       <infoLinks>
         <infoLink name="The Red Thirst" id="400b-d724-2b19-565e" hidden="false" type="profile" targetId="545c-83df-5191-aab3"/>
       </infoLinks>
-    </entryLink>
-    <entryLink import="true" name="Predator" hidden="false" id="a0f4-349e-629f-b7b6" type="selectionEntry" targetId="392a-15f6-d475-8511">
-      <categoryLinks>
-        <categoryLink targetId="9260-7d57-be5c-bd52" id="446b-f826-7217-8d0b" primary="true" name="Heavy Support"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Vindicator" hidden="false" id="c203-5d7e-0f5f-f8f6" type="selectionEntry" targetId="5dd4-383b-f834-e831">
-      <categoryLinks>
-        <categoryLink targetId="9260-7d57-be5c-bd52" id="5fca-f221-61fd-9685" primary="true" name="Heavy Support"/>
-      </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Whirlwind" hidden="false" id="261e-4d04-4bd0-f857" type="selectionEntry" targetId="b31b-afe0-7c98-d3e1">
       <categoryLinks>

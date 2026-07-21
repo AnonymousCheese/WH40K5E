@@ -4431,9 +4431,6 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
                       </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Nemesis Force Halberd" hidden="false" id="5460-d211-0634-0425">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
-                      </costs>
                       <infoLinks>
                         <infoLink name="Nemesis Force Halberd" id="84c6-3201-c9bf-e54c" hidden="false" type="profile" targetId="d9dc-c6c6-7f2e-1642"/>
                       </infoLinks>
@@ -4442,9 +4439,6 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
                       </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Nemesis Daemon Hammer" hidden="false" id="a537-a52c-e829-3238">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                      </costs>
                       <infoLinks>
                         <infoLink name="Nemesis Daemon Hammer" id="2885-5039-8dd4-d44a" hidden="false" type="profile" targetId="74e2-b19f-7313-eb5e"/>
                       </infoLinks>
@@ -4579,9 +4573,6 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
                       </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Nemesis Force Halberd" hidden="false" id="4f58-77d6-d41b-5ef9">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
-                      </costs>
                       <infoLinks>
                         <infoLink name="Nemesis Force Halberd" id="afcb-2eac-e6f1-dde2" hidden="false" type="profile" targetId="d9dc-c6c6-7f2e-1642"/>
                       </infoLinks>
@@ -4590,9 +4581,6 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
                       </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Nemesis Daemon Hammer" hidden="false" id="6a91-010d-9998-7e64">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                      </costs>
                       <infoLinks>
                         <infoLink name="Nemesis Daemon Hammer" id="0367-4f33-d864-0d0f" hidden="false" type="profile" targetId="74e2-b19f-7313-eb5e"/>
                       </infoLinks>

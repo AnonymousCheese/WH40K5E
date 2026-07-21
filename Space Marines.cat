@@ -2690,7 +2690,7 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Shotgun" hidden="false" id="0352-dfae-3c18-7a2c">
                       <infoLinks>
-                        <infoLink name="Shotgun" id="dce0-2920-31a5-696e" hidden="false" type="profile" targetId="2ce3-d5a9-9590-6b9e"/>
+                        <infoLink name="Astartes Shotgun" id="dce0-2920-31a5-696e" hidden="false" type="profile" targetId="601a-3723-417e-5e4f"/>
                       </infoLinks>
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe78-fc47-b08b-f425" includeChildSelections="false"/>
@@ -2805,7 +2805,7 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Shotgun" hidden="false" id="2afc-65b4-ff0f-8340">
                       <infoLinks>
-                        <infoLink name="Shotgun" id="ed90-d0d7-c497-d841" hidden="false" type="profile" targetId="2ce3-d5a9-9590-6b9e"/>
+                        <infoLink name="Astartes Shotgun" id="ed90-d0d7-c497-d841" hidden="false" type="profile" targetId="601a-3723-417e-5e4f"/>
                       </infoLinks>
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d8b8-4cbb-6209-37f9" includeChildSelections="false"/>
@@ -5720,14 +5720,14 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
               <infoLinks>
                 <infoLink name="Scout Biker Sergeant" id="ce08-9cad-d52a-8c9e" hidden="false" type="profile" targetId="137f-09fc-bce6-8260"/>
                 <infoLink name="Twin-linked Bolter" id="f0a7-0217-619f-4f6d" hidden="false" type="profile" targetId="3250-0314-9ec7-9777"/>
-                <infoLink name="Shotgun" id="6f39-327b-ba94-274f" hidden="false" type="profile" targetId="2ce3-d5a9-9590-6b9e"/>
+                <infoLink name="Astartes Shotgun" id="6f39-327b-ba94-274f" hidden="false" type="profile" targetId="601a-3723-417e-5e4f"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Scout Biker Sergeant" hidden="false" id="55c2-d3dc-df0a-ad34">
               <infoLinks>
                 <infoLink name="Scout Biker Sergeant" id="cbba-2beb-32cc-c493" hidden="false" type="profile" targetId="137f-09fc-bce6-8260"/>
                 <infoLink name="Twin-linked Bolter" id="fd90-5eb3-0a40-4740" hidden="false" type="profile" targetId="3250-0314-9ec7-9777"/>
-                <infoLink name="Shotgun" id="c0e0-7016-6ba0-fc95" hidden="false" type="profile" targetId="2ce3-d5a9-9590-6b9e"/>
+                <infoLink name="Astartes Shotgun" id="c0e0-7016-6ba0-fc95" hidden="false" type="profile" targetId="601a-3723-417e-5e4f"/>
               </infoLinks>
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
@@ -5831,7 +5831,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                 <infoLink name="Scout Biker" id="bf9b-f40c-0a45-933d" hidden="false" type="profile" targetId="5792-e839-10a3-8459"/>
                 <infoLink name="Astartes Grenade Launcher (Krak)" id="41ab-e7cc-0b75-a5f1" hidden="false" type="profile" targetId="f500-36c4-91b9-2bb7"/>
                 <infoLink name="Astartes Grenade Launcher (Frag)" id="4eab-13e3-ac4d-5893" hidden="false" type="profile" targetId="30dc-7722-86b5-be37"/>
-                <infoLink name="Shotgun" id="1ed9-3a14-b375-3d0f" hidden="false" type="profile" targetId="2ce3-d5a9-9590-6b9e"/>
+                <infoLink name="Astartes Shotgun" id="1ed9-3a14-b375-3d0f" hidden="false" type="profile" targetId="601a-3723-417e-5e4f"/>
               </infoLinks>
               <constraints>
                 <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a824-671c-4893-df70"/>
@@ -10370,6 +10370,15 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Astartes Shotgun" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="601a-3723-417e-5e4f">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2</characteristic>
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>

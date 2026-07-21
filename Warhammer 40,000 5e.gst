@@ -119,6 +119,87 @@
         <categoryLink name="Configuration" hidden="false" id="2fed-19f9-e10f-a693" targetId="525f-0a42-3f5c-5613"/>
       </categoryLinks>
     </forceEntry>
+    <forceEntry name="Kill Team" id="146f-bca9-0e4a-b6c1" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Troops" hidden="false" id="d00b-0b67-ad18-e8b1" targetId="default-category">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="68c3-6feb-e186-a455" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Elites" hidden="false" id="4d9b-0327-2b4a-5267" targetId="978c-e18f-8aeb-f4c1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e32e-97ca-706d-4dec" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Fast Attack" hidden="false" id="d601-3066-9faa-fa01" targetId="74fe-37c3-fbbf-849e">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="95dc-6ffa-5908-e4ca" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Dedicated Transport" hidden="false" id="bd7c-ee8e-c709-f8b7" targetId="168b-a772-94f7-83f5"/>
+        <categoryLink name="Unique" hidden="false" id="c0df-cbad-38ad-f723" targetId="1f0d-7d41-7ef9-ce4a"/>
+        <categoryLink name="Configuration" hidden="false" id="f47d-025a-312a-76e3" targetId="525f-0a42-3f5c-5613"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry name="Cities of Death Attacker" id="939c-d574-17c5-1699" hidden="false">
+      <categoryLinks>
+        <categoryLink name="HQ" hidden="false" id="9a64-db82-4233-63a8" targetId="ac8d-efba-1884-d3ad">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="65a0-f988-cd42-0f92" includeChildSelections="true"/>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="472c-6090-1086-823f" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Troops" hidden="false" id="c387-a771-755c-a0a8" targetId="default-category">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="force" shared="true" id="c958-8ef8-4375-d3bf" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Elites" hidden="false" id="c2dc-a117-9e50-b431" targetId="978c-e18f-8aeb-f4c1">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="force" shared="true" id="6d56-195d-ec5c-ef45" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="6" field="selections" scope="force" shared="true" id="16e0-a843-9aab-bd52" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Fast Attack" hidden="false" id="0bc7-0d80-c29f-b12c" targetId="74fe-37c3-fbbf-849e">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="f0d9-3af7-5d25-e0a5" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="3" field="selections" scope="force" shared="true" id="b9d5-386e-1b1c-3ac2" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Dedicated Transport" hidden="false" id="4cc0-9f20-675d-acab" targetId="168b-a772-94f7-83f5"/>
+        <categoryLink name="Unique" hidden="false" id="be31-1120-c509-be3b" targetId="1f0d-7d41-7ef9-ce4a"/>
+        <categoryLink name="Configuration" hidden="false" id="63fd-fa9e-b276-2cd7" targetId="525f-0a42-3f5c-5613"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry name="Cities of Death Defender" id="f8cb-db9c-1ea8-2e6c" hidden="false">
+      <categoryLinks>
+        <categoryLink name="HQ" hidden="false" id="cb9a-7c77-0f21-8fd3" targetId="ac8d-efba-1884-d3ad">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="533a-4e91-cbc2-4352" includeChildSelections="true"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ec6d-0661-bc25-8c16" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Troops" hidden="false" id="4f15-0515-7275-45e0" targetId="default-category">
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="force" shared="true" id="5c82-1c22-ee08-6125" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="9" field="selections" scope="force" shared="true" id="aa3e-f7c5-f5f2-1e3f" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Elites" hidden="false" id="841d-d177-34cb-b933" targetId="978c-e18f-8aeb-f4c1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="7bf6-58c2-cd57-4f1f" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Heavy Support" hidden="false" id="c1b8-3882-dd87-79e5" targetId="9260-7d57-be5c-bd52">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="force" shared="true" id="a104-fe99-d6a0-7946" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Dedicated Transport" hidden="false" id="ec3a-6da7-298f-4b23" targetId="168b-a772-94f7-83f5"/>
+        <categoryLink name="Unique" hidden="false" id="ffb7-620b-817d-773d" targetId="1f0d-7d41-7ef9-ce4a"/>
+        <categoryLink name="Configuration" hidden="false" id="b6b4-0137-20db-fa65" targetId="525f-0a42-3f5c-5613"/>
+      </categoryLinks>
+    </forceEntry>
   </forceEntries>
   <costTypes>
     <costType name="Points" id="6f18-a8fc-2c5b-9517" defaultCostLimit="2000"/>
@@ -953,7 +1034,7 @@ shooting attack (but still cannot use the same power twice in a turn).</charact
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2</characteristic>
-        <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
     <profile name="Multi-melta" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0b59-dfc6-9696-0b99">
@@ -4349,6 +4430,217 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
           </constraints>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Blood Angel Rhino" hidden="false" id="5def-579e-0664-ce34" collective="false">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
+      </costs>
+      <profiles>
+        <profile name="Rhino" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="3530-b757-00ca-29c5">
+          <characteristics>
+            <characteristic name="BS" typeId="b539-c71b-9239-8da0">4</characteristic>
+            <characteristic name="F" typeId="84f1-6495-b3c8-6025">11</characteristic>
+            <characteristic name="S" typeId="38b6-8429-f0fd-11cb">11</characteristic>
+            <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Rhino" typeId="9a37-e4d2-11fe-9e81" typeName="Transport" hidden="false" id="a188-2cb1-360c-a404">
+          <characteristics>
+            <characteristic name="Capacity" typeId="7cdf-4c80-a83d-200c">10</characteristic>
+            <characteristic name="Access Points" typeId="6e42-3bd5-70a6-724f">One on each side, rear</characteristic>
+            <characteristic name="Fire Points" typeId="aa94-ae0c-98e7-5923">Two models can fire from the Rhino&apos;s top hatch.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Repair" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="a45c-8f60-d7fb-649e">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a Rhino is immobilised for any reason, then in subsequent turns the crew can attempt a temporary repair instead of vehicle shooting. Roll a D6 in the Shooting phase, and on a 6 the vehicle is no longer Immobilised.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Upgrades" id="ab39-b12b-9471-00d5" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="db39-ebf2-4dbb-a254">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Storm Bolter" id="e6bf-d0fd-97da-fd61" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca53-2fb9-a40b-37d8"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Hunter-killer Missile" hidden="false" id="00b3-8b38-6db8-e377">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Hunter-Killer Missile" id="e5d8-de7f-ba83-fa8e" hidden="false" type="profile" targetId="ecc5-0991-ef00-23ac"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf70-5487-10ab-43c9"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Dozer Blade" hidden="false" id="4492-3186-2e6b-545a">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Dozer Blade" id="2014-c8aa-3f97-d106" hidden="false" type="profile" targetId="071f-6e73-2a57-cfc4"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4234-9ca6-f97e-85aa"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Extra Armour" hidden="false" id="190d-6afa-f06d-dbd6">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Extra Armour" id="1461-869a-cc05-829a" hidden="false" type="profile" targetId="ec58-94f7-12e5-a9b9"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="22ac-619b-f9ba-ccec"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Storm Bolter" id="be74-d0ee-4344-d9cb" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+        <infoLink name="Smoke Launchers" id="f9ad-cb37-0a4a-5c16" hidden="false" type="profile" targetId="180e-ad4b-4df0-81ae"/>
+        <infoLink name="Searchlight" id="815c-67a9-611f-b13e" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
+        <infoLink name="Tank" id="a0df-72dd-6af0-6fe4" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
+        <infoLink name="Fast" id="1081-8b70-1cf4-7913" hidden="false" type="rule" targetId="4d59-8511-a8e5-1f62"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Dedicated Transport" hidden="false" id="a85f-bb71-685c-7b2a" targetId="168b-a772-94f7-83f5" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Blood Angel Razorback" hidden="false" id="6d09-26ec-be7b-fadd" collective="false">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="55"/>
+      </costs>
+      <profiles>
+        <profile name="Razorback" typeId="0092-3322-1b28-b657" typeName="Vehicle" hidden="false" id="19f5-4acd-ae4a-f42b">
+          <characteristics>
+            <characteristic name="BS" typeId="b539-c71b-9239-8da0">4</characteristic>
+            <characteristic name="F" typeId="84f1-6495-b3c8-6025">11</characteristic>
+            <characteristic name="S" typeId="38b6-8429-f0fd-11cb">11</characteristic>
+            <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Razorback" typeId="9a37-e4d2-11fe-9e81" typeName="Transport" hidden="false" id="1c27-474b-8254-c1ac">
+          <characteristics>
+            <characteristic name="Capacity" typeId="7cdf-4c80-a83d-200c">6</characteristic>
+            <characteristic name="Access Points" typeId="6e42-3bd5-70a6-724f">One on each side, rear</characteristic>
+            <characteristic name="Fire Points" typeId="aa94-ae0c-98e7-5923">None.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Upgrades" id="d14e-eb9e-a518-af39" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="6d64-a696-940a-333f">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Storm Bolter" id="1ed6-40c0-5208-5977" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7381-a16a-0b47-3fb8"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Hunter-killer Missile" hidden="false" id="1fdf-24b2-526c-88bf">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Hunter-Killer Missile" id="ee44-5000-6ea4-93db" hidden="false" type="profile" targetId="ecc5-0991-ef00-23ac"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8026-0c54-6c54-e02c"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Dozer Blade" hidden="false" id="3a24-32a8-cfd5-155f">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Dozer Blade" id="ead4-a211-29c7-a81e" hidden="false" type="profile" targetId="071f-6e73-2a57-cfc4"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="01cf-fec9-7619-9ba1"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Extra Armour" hidden="false" id="34cf-0ef5-5cf9-2bd6">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Extra Armour" id="3078-316c-6a7b-10f2" hidden="false" type="profile" targetId="ec58-94f7-12e5-a9b9"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70fe-8c5d-f76c-5021"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Weapon" id="8f6e-1128-6b52-b607" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Heavy Bolter" hidden="false" id="2ed0-7f3c-1e64-9cdb" defaultAmount="1">
+              <infoLinks>
+                <infoLink name="Twin-linked Heavy Bolter" id="32f1-efc8-a568-2037" hidden="false" targetId="684d-431d-f854-d4fd" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Heavy Flamer" hidden="false" id="5105-c628-89e2-d711">
+              <infoLinks>
+                <infoLink name="Twin-linked Heavy Flamer" id="ca9c-ed1c-af48-b2d0" hidden="false" targetId="ac52-5bdd-8a29-3bb1" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Assault Cannon" hidden="false" id="98dc-301f-089c-c417">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Twin-linked Assault Cannon" id="3a06-f8bb-6a3b-4c4d" hidden="false" targetId="899c-a6c5-c4a7-4a80" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Twin-linked Lascannon" hidden="false" id="1b72-19b7-6e8e-e569">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Twin-linked Lascannon" id="98a3-ac91-948a-e5b5" hidden="false" targetId="e50f-e49c-148c-4aee" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Lascannon and Twin-linked Plasma Gun" hidden="false" id="7e31-b4ab-1735-78c7">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Twin-linked Plasma Gun" id="f5b0-5605-590f-41d9" hidden="false" targetId="a04e-4283-5e46-f839" type="profile"/>
+                <infoLink name="Lascannon" id="7bac-9c9a-3cd3-eff4" hidden="false" type="profile" targetId="2965-8d8c-d5b0-8aa1"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="self" shared="true" id="653f-5ffb-ac45-28e9"/>
+            <constraint type="max" value="1" field="selections" scope="self" shared="true" id="31f7-474c-9b3c-dc70"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Smoke Launchers" id="7095-5ec2-6f4b-6c29" hidden="false" type="profile" targetId="180e-ad4b-4df0-81ae"/>
+        <infoLink name="Searchlight" id="0ea6-c912-3787-b191" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
+        <infoLink name="Tank" id="332d-fd60-bb7d-cfd6" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
+        <infoLink name="Fast" id="4637-9f03-6779-3444" hidden="false" type="rule" targetId="4d59-8511-a8e5-1f62"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Dedicated Transport" hidden="false" id="586b-0e1c-f5ab-ce7a" targetId="168b-a772-94f7-83f5" primary="true"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
 </gameSystem>
