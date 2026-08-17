@@ -350,7 +350,7 @@ When a Votann unit makes an attack against a unit with one or more Judgement tok
   </sharedProfiles>
   <sharedRules>
     <rule name="Beam" id="5b60-9420-d5d3-02d5" hidden="false">
-      <description>After designating a target, draw a line from the firing model to the target unit. If the attack is in range, each unit the line passes through takes a number of hits equal to the number of models in that unit touched by the beam. A beam is stopped by and does not extent past a vehicle or monstrous creature that it hits.</description>
+      <description>After designating a target, draw a line from the firing model to the target unit. If the attack is in range, each unit the line passes through also takes a number of attacks equal to the weapon&apos;s profile. A beam is stopped by and does not extent past a vehicle or monstrous creature that it hits.</description>
     </rule>
   </sharedRules>
   <selectionEntries>
