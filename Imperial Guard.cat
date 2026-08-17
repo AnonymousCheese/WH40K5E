@@ -1041,7 +1041,11 @@ The executed model is immediately removed as a casualty, regardless of the numbe
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="979d-6284-d387-fcde"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Krak Grenades" hidden="false" id="b0b2-9e76-7553-549c" type="selectionEntry" targetId="e182-b831-28de-7154" sortIndex="4"/>
+        <entryLink import="true" name="Krak Grenades" hidden="false" id="b0b2-9e76-7553-549c" type="selectionEntry" targetId="e182-b831-28de-7154" sortIndex="4">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <infoLinks>
         <infoLink name="Frag Grenades" id="826b-3784-6f44-a973" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>

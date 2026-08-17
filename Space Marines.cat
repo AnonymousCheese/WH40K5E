@@ -4815,11 +4815,17 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                       <infoLinks>
                         <infoLink name="Close-Combat Weapon" id="c1ea-5266-564c-3890" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f5a-4981-f1d1-1833" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Boltgun" hidden="false" id="1be3-f3e2-0f4c-165c" defaultAmount="1">
                       <infoLinks>
                         <infoLink name="Boltgun" id="11e8-1b73-49c6-5a03" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c17-4361-0c9a-8bff" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="c947-ced1-9dcc-5391">
                       <costs>
@@ -4828,6 +4834,9 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                       <infoLinks>
                         <infoLink name="Storm Bolter" id="ff5c-2ff7-e5c6-4881" hidden="false" type="profile" targetId="a37b-6942-f8fb-4aee"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b4e-0c0e-0acc-a70e" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="668c-e95c-0ef4-948e">
                       <infoLinks>
@@ -4836,6 +4845,9 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
                       </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="19e4-9e63-8e95-e5ab" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="5ff5-2f53-804d-cd55">
                       <infoLinks>
@@ -4844,6 +4856,9 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
                       </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c7eb-4bcf-9c03-a6d1" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="f41d-189c-e699-8d77">
                       <costs>
@@ -4852,6 +4867,9 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                       <infoLinks>
                         <infoLink name="Power Fist" id="d6fc-e615-41f6-c96b" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
                       </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f7b-5836-7409-a6ac" includeChildSelections="false"/>
+                      </constraints>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="a488-f899-af9c-2c9c" defaultAmount="1">
                       <infoLinks>
@@ -4861,17 +4879,62 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="703d-b545-1ca2-2fe2" includeChildSelections="false"/>
                       </constraints>
                     </selectionEntry>
-                  </selectionEntries>
-                  <entryLinks>
-                    <entryLink import="true" name="Combi-weapon" hidden="false" id="9dba-d43e-a774-f297" type="selectionEntry" targetId="d720-24d4-d7f1-df20">
+                    <selectionEntry type="upgrade" import="true" name="Combi-flamer" hidden="false" id="9f52-3ab7-8bcd-cedb" defaultAmount="1">
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
                       </costs>
-                    </entryLink>
-                  </entryLinks>
+                      <infoLinks>
+                        <infoLink name="Combi-flamer (Flamer)" id="ce53-d0ba-0102-e773" hidden="false" targetId="6895-2cfe-6f5b-8f88" type="profile"/>
+                        <infoLink name="Combi-flamer (Boltgun)" id="abd2-e743-df6c-6e8c" hidden="false" targetId="79ec-9032-001f-b7bf" type="profile"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b953-d591-804b-3e8b"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Combi-melta" hidden="false" id="95f5-eda7-8482-9920">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Combi-melta (Boltgun)" id="e128-22f0-a29f-2774" hidden="false" targetId="aad5-fec1-bd21-2ae3" type="profile"/>
+                        <infoLink name="Combi-melta (melta)" id="3de2-bfd8-077e-9bb1" hidden="false" targetId="38ae-bcac-62af-c514" type="profile"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e0e-95b9-5522-87f3"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Combi-plasma" hidden="false" id="a6bf-0956-43a7-84d8">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <profiles>
+                        <profile name="Combi-plasma (Boltgun)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="f674-c3f5-5d52-b9de">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+                            <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+                            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+                            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+                            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+                          </characteristics>
+                        </profile>
+                        <profile name="Combi-plasma (plasma)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="26db-34c9-d5e7-275e">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+                            <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+                            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+                            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Gets Hot!, One Shot</characteristic>
+                            <characteristic typeId="45fd-0f50-e1d0-907c" name="Notes"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6547-50fa-94b3-6b38"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="self" shared="true" id="c765-6b1d-087a-2f20-min"/>
-                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c765-6b1d-087a-2f20-max"/>
+                    <constraint type="max" value="2" field="selections" scope="self" shared="true" id="c765-6b1d-087a-2f20-max"/>
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -4892,7 +4955,7 @@ Walkers make sweeping advances, pile-in moves and consolidations unless they ar
                 <infoLink name="Boltgun" id="2132-2755-c991-ac4c" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Legionnaire Gunner" hidden="false" id="67a0-4396-0f8a-418a" collective="false" defaultAmount="4">
+            <selectionEntry type="model" import="true" name="Legionnaire Gunner" hidden="false" id="67a0-4396-0f8a-418a" collective="false" defaultAmount="0">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c8c-094b-1a60-b428"/>
               </constraints>
@@ -8543,6 +8606,9 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="03c2-e9af-6f60-867d"/>
                   </constraints>
+                  <costs>
+                    <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
@@ -10769,4 +10835,265 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
       </selectionEntryGroups>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <selectionEntries>
+    <selectionEntry type="unit" import="true" name="Bladeguard Veteran Squad" hidden="false" id="ffa9-57cc-ac14-b54d">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="8268-9584-bfdc-3813" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Bladeguard Veteran" hidden="false" id="3a49-e77a-fba4-7be5" defaultAmount="2">
+              <profiles>
+                <profile name="Bladeguard Veteran" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="ea7b-5dfa-fedb-18ed">
+                  <characteristics>
+                    <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+                    <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+                    <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+                    <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+                    <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+                    <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+                    <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+                    <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+                    <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Power Weapon" id="d52e-652d-dc52-9925" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+                <infoLink name="Storm Shield" id="04a3-a397-07bf-fe98" hidden="false" type="profile" targetId="5567-540d-ea70-31b2"/>
+                <infoLink name="Bolt Pistol" id="eb0f-548d-cedc-22a7" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                <infoLink name="Frag Grenades" id="fa71-c0dd-849b-4098" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+                <infoLink name="Krak Grenades" id="1673-2626-9073-9946" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Bladeguard Veteran Sergeant" hidden="false" id="1a39-c9f6-d213-639d" defaultAmount="1">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+              </costs>
+              <profiles>
+                <profile name="Bladeguard Veteran Sergeant" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e11b-5bb3-2ec7-1d49">
+                  <characteristics>
+                    <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+                    <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+                    <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+                    <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+                    <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+                    <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+                    <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+                    <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+                    <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Frag Grenades" id="6f81-c831-d0e2-bf58" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+                <infoLink name="Krak Grenades" id="23a3-6b40-4f9a-37c1" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+                <infoLink name="Power Weapon" id="c1a5-38eb-e4d6-f954" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+                <infoLink name="Storm Shield" id="fe5f-2535-4600-e4b1" hidden="false" type="profile" targetId="5567-540d-ea70-31b2"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="73ca-e366-8259-54fc" hidden="false" defaultSelectionEntryId="5fe5-cbc0-bb63-6fcd">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="5fe5-cbc0-bb63-6fcd" defaultAmount="1">
+                      <infoLinks>
+                        <infoLink name="Bolt Pistol" id="f095-5a66-b95a-6893" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="59c0-8ff6-76fa-5162" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Plasma Pistol" hidden="false" id="1fa6-726b-ab34-c15e">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Plasma Pistol" id="3251-4c90-d042-0761" hidden="false" type="profile" targetId="b62f-861c-897a-2966"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c96-6d5d-d977-7bf4" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Neo-volkite Pistol" hidden="false" id="f981-58ec-e6f5-a613">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <profiles>
+                        <profile name="Neo-volkite Pistol" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="c5bb-478d-3cbe-1b7d">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+                            <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+                            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+                            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol, Rending</characteristic>
+                            <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f1cb-4f41-ce8a-6302" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="c0b5-5a99-90e7-cc52-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="c0b5-5a99-90e7-cc52-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4191-d070-9972-e8e2-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4191-d070-9972-e8e2-max"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="self" shared="true" id="5e35-b07f-4a8d-f34b"/>
+            <constraint type="max" value="6" field="selections" scope="self" shared="true" id="7b17-ac3a-9160-ae9f"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="f27e-d816-a5d1-5333" primary="true" name="Elites"/>
+        <categoryLink targetId="df0c-6e22-d859-7f22" id="5f8e-cc63-97fd-9175" primary="false" name="Homebrew"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Aggressor Squad" hidden="false" id="016b-932c-561d-c13c">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="b60c-83bb-dc13-2c9e" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Aggressor" hidden="false" id="0d7d-f72b-6460-9d6c" defaultAmount="2">
+              <profiles>
+                <profile name="Aggressor" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="92ac-ed7b-e084-d98e">
+                  <characteristics>
+                    <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+                    <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+                    <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+                    <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+                    <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+                    <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+                    <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+                    <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+                    <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Two Power Fists" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="7f36-bc09-f5c4-9d1c">
+                  <characteristics>
+                    <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A power fist is a power weapon, and also doubles the user’s Strength (up to a maximum of 10). Power fists, however, are difficult and cumbersome to use, so attacks with a power fist are always delivered at Initiative 1 (ignore Initiative bonuses from special rules, wargear, etc.). The bearer does not gain the +1 attack bonus for having two combat weapons unless they are equipped with two of this weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="0740-6911-f58b-c57f" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Twin-linked Boltgun and Fragstorm Grenade Launcher" hidden="false" id="14b6-a60d-5d93-ac47" defaultAmount="1">
+                      <infoLinks>
+                        <infoLink name="Twin-linked Bolter" id="575f-8ee0-31d8-59c5" hidden="false" type="profile" targetId="0f1a-e452-e74a-284a"/>
+                        <infoLink name="Fragstorm Grenade Launcher" id="f30b-035d-4b68-f8a2" hidden="false" type="profile" targetId="aa50-62f2-6fea-fdef"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e00-1faf-5769-c10c" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin-linked Flamer" hidden="false" id="d5e7-df1e-0266-b3f0">
+                      <infoLinks>
+                        <infoLink name="Twin-linked Flamer" id="b695-9bfc-d30d-4d0e" hidden="false" type="profile" targetId="3fbb-cdb9-76b2-0d61"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c2db-0d4b-20b8-a4bf" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="d106-be4b-49bc-3916-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="d106-be4b-49bc-3916-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Aggressor Sergeant" hidden="false" id="cbab-d8a3-5ad3-672d" defaultAmount="1">
+              <profiles>
+                <profile name="Aggressor Sergeant" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="8ec2-8ec0-31f9-5bbb">
+                  <characteristics>
+                    <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+                    <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+                    <characteristic name="S" typeId="09af-e927-0c3c-9d88">4</characteristic>
+                    <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+                    <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+                    <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+                    <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+                    <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+                    <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Two Power Fists" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="a77e-2fab-6496-5c06">
+                  <characteristics>
+                    <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A power fist is a power weapon, and also doubles the user’s Strength (up to a maximum of 10). Power fists, however, are difficult and cumbersome to use, so attacks with a power fist are always delivered at Initiative 1 (ignore Initiative bonuses from special rules, wargear, etc.). The bearer does not gain the +1 attack bonus for having two combat weapons unless they are equipped with two of this weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="d402-3b45-6c61-64a3" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Twin-linked Boltgun and Fragstorm Grenade Launcher" hidden="false" id="21f0-6c07-e66c-96e4" defaultAmount="1">
+                      <infoLinks>
+                        <infoLink name="Twin-linked Bolter" id="1819-c11b-f5d8-bee6" hidden="false" type="profile" targetId="0f1a-e452-e74a-284a"/>
+                        <infoLink name="Fragstorm Grenade Launcher" id="54c7-9e59-6735-252b" hidden="false" type="profile" targetId="aa50-62f2-6fea-fdef"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="01e6-1eb3-f288-50e8" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Twin-linked Flamer" hidden="false" id="5eb1-04c2-80eb-09d0">
+                      <infoLinks>
+                        <infoLink name="Twin-linked Flamer" id="1797-3024-c8ef-d6e3" hidden="false" type="profile" targetId="3fbb-cdb9-76b2-0d61"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f8d0-f8cb-79dd-0bfb" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="a2ac-2002-e6c0-01dc-min"/>
+                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a2ac-2002-e6c0-01dc-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="50"/>
+              </costs>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ea46-ebf0-bdee-aa7e-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea46-ebf0-bdee-aa7e-max" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="self" shared="true" id="f107-ac68-0cfa-f425"/>
+            <constraint type="max" value="6" field="selections" scope="self" shared="true" id="16e5-d7ab-5e62-0ca5"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="force" childId="0d75-b87c-69ae-f778" shared="true" childName="Hide Homebrew Units" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink targetId="9260-7d57-be5c-bd52" id="d43b-5e24-cca5-599b" primary="true" name="Heavy Support"/>
+        <categoryLink targetId="df0c-6e22-d859-7f22" id="69cd-46cd-0859-54ea" primary="false" name="Homebrew"/>
+      </categoryLinks>
+    </selectionEntry>
+  </selectionEntries>
 </catalogue>

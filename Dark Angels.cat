@@ -5142,8 +5142,8 @@ Independent characters wearing Terminator armour may also be deployed via Deathw
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="54"/>
               </costs>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="self" shared="true" id="8557-a3e6-79f9-2618-min"/>
-                <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8557-a3e6-79f9-2618-max"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6749-1448-fe7f-2596-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6749-1448-fe7f-2596-max"/>
               </constraints>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Combat Weapon" id="8c54-605b-5ff0-9d6e" hidden="false" defaultSelectionEntryId="d76f-4c9d-f925-9cfe">

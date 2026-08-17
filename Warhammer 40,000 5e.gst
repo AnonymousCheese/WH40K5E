@@ -1209,7 +1209,7 @@ Roll to hit and wound as normal, allowing any invulnerable saving throws the vi
     </profile>
     <profile name="Power Fist" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="cc61-3ec6-0369-8cd8">
       <characteristics>
-        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A power fist is a power weapon, and also doubles the user’s Strength (up to a maximum of 10). Power fists, however, are difficult and cumbersome to use, so attacks with a power fist are always delivered at Initiative 1 (ignore Initiative bonuses from special rules, wargear, etc.).</characteristic>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A power fist is a power weapon, and also doubles the user’s Strength (up to a maximum of 10). Power fists, however, are difficult and cumbersome to use, so attacks with a power fist are always delivered at Initiative 1 (ignore Initiative bonuses from special rules, wargear, etc.). The bearer does not gain the +1 attack bonus for having two combat weapons unless they are equipped with two of this weapon.</characteristic>
       </characteristics>
     </profile>
     <profile name="Power Weapon" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="31dd-6647-d267-e3c2">
@@ -2186,6 +2186,15 @@ Each player then rolls a D6 and adds their model&apos;s leadership value to the 
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">6</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3, Twin-linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Twin-linked Flamer" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="3fbb-cdb9-76b2-0d61">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Template</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Twin-linked</characteristic>
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>

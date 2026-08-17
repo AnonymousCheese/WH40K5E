@@ -434,8 +434,8 @@
       <characteristics>
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18&quot;</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
-        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
-        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 3</characteristic>
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
@@ -2916,7 +2916,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="6063-d27b-8b4a-2204">
                       <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
                       </costs>
                       <infoLinks>
                         <infoLink name="Power Klaw" id="9b3f-d6d7-6952-4b39" hidden="false" type="profile" targetId="6705-2eb7-6536-7904"/>
@@ -2925,7 +2925,7 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a169-701c-9f5e-9b50" includeChildSelections="false"/>
                       </constraints>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Choppa" hidden="false" id="7d54-94e3-ad0b-fb0a">
+                    <selectionEntry type="upgrade" import="true" name="Choppa" hidden="false" id="7d54-94e3-ad0b-fb0a" defaultAmount="1">
                       <infoLinks>
                         <infoLink name="Choppa" id="54aa-ad5e-a105-2967" hidden="false" type="profile" targetId="7c5b-db0d-b847-c0ce"/>
                       </infoLinks>
@@ -4605,6 +4605,16 @@ Note that no more than one Waaagh! can be called per turn, so Ghazghkull cannot 
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="326f-dc1b-c73e-b03c" includeChildSelections="false"/>
       </constraints>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="increment" value="1" field="326f-dc1b-c73e-b03c"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="2" field="selections" scope="force" childId="2dbb-a56a-bdf5-9988" shared="true" includeChildSelections="false" childName="Big Mek"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
     <entryLink import="true" name="Killa Kans" hidden="false" id="a727-97a4-f01d-474c" type="selectionEntry" targetId="fbdd-cc21-6eba-4a71">
       <categoryLinks>

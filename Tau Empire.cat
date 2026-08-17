@@ -4483,6 +4483,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
       <infoLinks>
         <infoLink name="Acute Senses" id="df26-2a68-819b-6355" hidden="false" type="profile" targetId="253f-bb05-f8fd-fffd"/>
         <infoLink name="Deep Strike" id="e0ec-b2a0-ffeb-13e0" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
+        <infoLink name="Jet Pack" id="b1e7-312f-5b9b-e2f1" hidden="false" targetId="738d-e5f9-d3a3-c049" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Stealth Team" hidden="false" id="b375-99c1-f932-029a">
@@ -5010,6 +5011,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
         <infoLink name="Infiltrate" id="d8de-58dc-19be-1aae" hidden="false" type="profile" targetId="db64-5b1f-d306-b354"/>
         <infoLink name="Acute Senses" id="5544-ae17-1da0-846a" hidden="false" type="profile" targetId="253f-bb05-f8fd-fffd"/>
         <infoLink name="Deep Strike" id="16bc-08a1-292e-5ae0" hidden="false" type="profile" targetId="a4d9-aab7-6c66-e4da"/>
+        <infoLink name="Jet Pack" id="20f2-1396-8dfd-3e77" hidden="false" targetId="738d-e5f9-d3a3-c049" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Kroot Carnivore Squad" hidden="false" id="d2bd-5811-8c85-6079">
@@ -6871,6 +6873,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
         <infoLink name="Bonding Knife" id="4b4e-4cff-ef54-bda0" hidden="false" type="profile" targetId="8917-b687-41df-907b"/>
         <infoLink name="Plasma Rifle" id="8d90-723f-8983-92e2" hidden="false" type="profile" targetId="92fe-29f5-2729-f7d0"/>
         <infoLink name="Independent Character" id="d8aa-a105-967b-b288" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Jet Pack" id="8adc-0e0a-1c82-908e" hidden="false" targetId="738d-e5f9-d3a3-c049" type="profile"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Bodyguard" hidden="false" id="4447-7f2f-6f8b-cc8e" collective="true">
@@ -7258,6 +7261,7 @@ While attached, the Gun Drones may fire as part of the vehicle, using their own 
         <infoLink name="Stealth Field Generator" id="e21d-3f28-0243-7513" hidden="false" type="profile" targetId="4140-e781-09d4-8186"/>
         <infoLink name="Shield Generator" id="baaa-0371-9300-faa7" hidden="false" type="profile" targetId="aed5-b40c-b40b-dfb4"/>
         <infoLink name="Independent Character" id="5a64-daa6-7735-e625" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+        <infoLink name="Jet Pack" id="9f1d-20da-380d-d744" hidden="false" targetId="738d-e5f9-d3a3-c049" type="profile"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Shield Drone" hidden="false" id="3a28-c5cb-9e89-91f4">

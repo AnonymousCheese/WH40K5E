@@ -46,6 +46,10 @@
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a11e-da28-69db-2dc6" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden" affects="self.entries.forces.group.recursive.2771-5c25-e782-cd67" scope="force"/>
+            <modifier type="set" value="false" field="hidden" affects="self.entries.forces.group.recursive.86cf-b25b-4370-1d18" scope="force"/>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Njal Stormcaller" hidden="false" id="8efa-4e0e-7407-b01a">
           <costs>
@@ -243,7 +247,7 @@
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="May take up to two Fenrisian wolves" hidden="false" id="4c5f-d476-2927-df8b">
+            <selectionEntry type="upgrade" import="true" name="Fenrisian Wolf" hidden="false" id="4c5f-d476-2927-df8b">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
@@ -258,6 +262,10 @@
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6623-436a-96b6-6b12" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden" affects="self.entries.forces.group.recursive.a020-c6f6-043c-baf3" scope="force"/>
+            <modifier type="set" value="false" field="hidden" affects="self.entries.forces.group.recursive.8921-833f-d249-1ed2" scope="force"/>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="unit" import="true" name="Bjorn the Fell-Handed" hidden="false" id="0e9d-f9cd-38b9-e1f7">
           <costs>
@@ -2312,6 +2320,99 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
+        <selectionEntry type="unit" import="true" name="Bran Redmaw" hidden="false" id="ef38-5b85-e0a0-434f">
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="210"/>
+          </costs>
+          <profiles>
+            <profile name="Bran Redmaw" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="bc71-c116-b3be-4391">
+              <characteristics>
+                <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
+                <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+                <characteristic name="S" typeId="09af-e927-0c3c-9d88">4(5)</characteristic>
+                <characteristic name="T" typeId="ff29-f8b2-5b20-b686">4</characteristic>
+                <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+                <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+                <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+                <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+                <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="The Axe Langnvast" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="63ab-d2f8-189d-592b">
+              <characteristics>
+                <characteristic name="Ability" typeId="2113-98a2-4376-a94c">Langnvast is a two-handed power weapon which adds +1 to its user&apos;s Strength and allows its wielder to re-roll any assault hits which fail to wound.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Patient Killers" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="32ab-ec5a-e6c9-16b1">
+              <characteristics>
+                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If Bran is leading the army then a single Grey Hunter squad may use the Infiltrate and Behind Enemy Lines special rules.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Curse of the Redmaw" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="6491-72bd-2ff0-f25d">
+              <characteristics>
+                <characteristic name="Description" typeId="e24a-6018-20cf-d76c">At the start of each of Bran&apos;s controllers Movement phase expect for the first, before moving units, Roll a D6. On turn 2 Bran will succumb to the Curse of the Wulfen on a 6+, on turn 3 it will be on a 5+,, on turn 4 on a 4+ and any further turns on a 3+. Add +1 to this roll for each Space Wolves unit locked in combat that turn.
+
+
+Once Bran Succumbs to the Curse he transforms into the Redmaw, replace the model with the Redmaw. The Redmaw enters play with the number of wounds Bran had when the curse came into effect and with only the wargear and Special rules detailed on the Redmaw profile, he completely replaces Bran Redmaw and is not affected by any effects previously applied to Bran by either friendly or enemy models. He remains a HQ choice for all purposes.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Wolftooth Necklace" id="d8f2-4353-8052-3364" hidden="false" type="profile" targetId="dee4-517f-9d1a-f205"/>
+            <infoLink name="Bolt Pistol" id="d83a-09d1-471c-7a75" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
+            <infoLink name="Frag Grenades" id="c045-7a8b-2815-1945" hidden="false" type="profile" targetId="6e7c-a63e-3bc6-5bc9"/>
+            <infoLink name="Krak Grenades" id="9079-f64f-d379-519c" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
+            <infoLink name="Belt of Russ" id="1198-4aaa-bef9-23c0" hidden="false" type="profile" targetId="b654-3daa-c0f2-2e58"/>
+            <infoLink name="And They Shall Know No Fear" id="9bef-3e01-47b1-c34d" hidden="false" type="rule" targetId="73f8-658e-9da5-beba"/>
+            <infoLink name="Independent Character" id="dc34-b369-15a9-5569" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+            <infoLink name="Acute Senses" id="0794-f66e-1f4f-fdba" hidden="false" type="profile" targetId="253f-bb05-f8fd-fffd"/>
+            <infoLink name="Counter-Attack" id="4753-cedc-4f2d-a0b3" hidden="false" type="profile" targetId="98cd-d727-4827-db44"/>
+            <infoLink name="Saga of the Hunter" id="c882-c132-6f8a-0596" hidden="false" type="profile" targetId="22cd-9aa5-9422-11f3"/>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry type="unit" import="true" name="The Redmaw" hidden="false" id="d24e-b598-c2df-4e90" defaultAmount="1">
+              <profiles>
+                <profile name="The Redmaw" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="23ae-c9d9-2822-79f8">
+                  <characteristics>
+                    <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">7</characteristic>
+                    <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">-</characteristic>
+                    <characteristic name="S" typeId="09af-e927-0c3c-9d88">6</characteristic>
+                    <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
+                    <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
+                    <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+                    <characteristic name="A" typeId="a535-0722-3bc1-4d3c">5</characteristic>
+                    <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">8</characteristic>
+                    <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Patient Killers" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="713d-0e6f-239f-6d4f">
+                  <characteristics>
+                    <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If Bran is leading the army then a single Grey Hunter squad may use the Infiltrate and Behind Enemy Lines special rules.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Wolftooth Necklace" id="c255-03d0-c488-9cb8" hidden="false" type="profile" targetId="dee4-517f-9d1a-f205"/>
+                <infoLink name="Independent Character" id="b4f7-3e1c-243c-17cf" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
+                <infoLink name="Acute Senses" id="21b0-0df3-a072-3bd4" hidden="false" type="profile" targetId="253f-bb05-f8fd-fffd"/>
+                <infoLink name="Counter-Attack" id="e540-02ea-10bb-ce95" hidden="false" type="profile" targetId="98cd-d727-4827-db44"/>
+                <infoLink name="Fleet" id="0f5b-1e3b-fa69-f9ed" hidden="false" type="profile" targetId="3748-79f1-e937-8650"/>
+                <infoLink name="Saga of the Hunter" id="1389-3d50-add9-0bec" hidden="false" type="profile" targetId="22cd-9aa5-9422-11f3"/>
+                <infoLink name="Eternal Warrior" id="a684-f045-70de-34f9" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
+                <infoLink name="Feel No Pain" id="0585-82ca-f29c-861d" hidden="false" type="profile" targetId="d22d-ca74-1014-8212"/>
+                <infoLink name="Furious Charge" id="5c86-d2a9-b0ec-2e2e" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+                <infoLink name="Fearless" id="eefd-77c3-d4fe-f20e" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9f05-380f-e82e-c40e-min" childId="any"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9f05-380f-e82e-c40e-max" childId="any"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6161-be0a-4a6c-f971" includeChildSelections="true"/>
+          </constraints>
+        </selectionEntry>
       </selectionEntries>
       <constraints>
         <constraint type="max" value="2" field="selections" scope="self" shared="true" id="938e-7b61-a52a-7528"/>
@@ -2332,77 +2433,6 @@
                 <infoLink name="Krak Grenades" id="f28d-f84c-ee60-e224" hidden="false" type="profile" targetId="0a12-b99c-7d80-2ab6"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup name="Combat Weapon" id="e9a8-85fc-9bdf-abf8" hidden="false" defaultSelectionEntryId="3439-26c1-dcb9-4147">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="1066-3b89-20d7-9937">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Power Weapon" id="59fd-54f8-eeae-489b" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="39aa-dd9e-90b3-2de4" includeChildSelections="false"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Wolf Claw" hidden="false" id="f6e4-e5cb-db35-c0a7">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Wolf Claw" id="a61a-797f-60da-d1ba" hidden="false" type="profile" targetId="334d-cbb2-8528-92cc"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0fa4-e932-40ac-4b3e" includeChildSelections="false"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="c8a0-a358-34f1-bafe">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Power Fist" id="95d8-5cc3-6206-1e24" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="79ea-e611-3de2-ab87" includeChildSelections="false"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Frost Blade" hidden="false" id="6370-ccf8-5a73-f0d1">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Frost Blade" id="9f0c-66b6-8e6d-42f0" hidden="false" type="profile" targetId="0cc6-1183-fd4f-e2da"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a370-a60c-81a0-b8e1" includeChildSelections="false"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Thunder Hammer" hidden="false" id="6a26-c5ae-155f-f6ca">
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Thunder Hammer" id="cbb4-5fb4-0205-e293" hidden="false" type="profile" targetId="4cb2-e19a-4b72-594d"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7155-5129-8132-feb1" includeChildSelections="false"/>
-                      </constraints>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="3439-26c1-dcb9-4147">
-                      <infoLinks>
-                        <infoLink name="Close-Combat Weapon" id="a8bf-1b2e-fc60-1ba4" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
-                      </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="909b-a24f-27c2-33b8" includeChildSelections="false"/>
-                      </constraints>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="ab9f-f56d-b5f7-c2f4-min"/>
-                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="ab9f-f56d-b5f7-c2f4-max"/>
-                  </constraints>
-                </selectionEntryGroup>
                 <selectionEntryGroup name="Any model may have one of the following" id="ed8b-2484-36da-2335" hidden="false">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Jump Pack" hidden="false" id="c573-79fb-5f98-00e2">
@@ -2432,7 +2462,7 @@
                     <constraint type="max" value="1" field="selections" scope="self" shared="true" id="53e1-ad0e-36c0-de75"/>
                   </constraints>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Weapon" id="ff45-7d32-5096-ef7e" hidden="false" defaultSelectionEntryId="2b11-30ab-122e-4d40">
+                <selectionEntryGroup name="Loadout" id="ff45-7d32-5096-ef7e" hidden="false" defaultSelectionEntryId="2b11-30ab-122e-4d40">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="6700-64db-5f95-d868">
                       <costs>
@@ -2475,12 +2505,75 @@
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="88af-8eb2-0a68-8fd7" includeChildSelections="false"/>
                       </constraints>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="36b7-6e07-db9c-a590">
+                    <selectionEntry type="upgrade" import="true" name="Bolt Pistol" hidden="false" id="36b7-6e07-db9c-a590" defaultAmount="1">
                       <infoLinks>
                         <infoLink name="Bolt Pistol" id="5491-5219-3f86-9239" hidden="false" type="profile" targetId="d1b6-0b7d-7649-7b73"/>
                       </infoLinks>
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c6e0-831b-c335-818f" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Close Combat Weapon" hidden="false" id="3439-26c1-dcb9-4147" defaultAmount="1">
+                      <infoLinks>
+                        <infoLink name="Close-Combat Weapon" id="a8bf-1b2e-fc60-1ba4" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="909b-a24f-27c2-33b8" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Frost Blade" hidden="false" id="6370-ccf8-5a73-f0d1">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Frost Blade" id="9f0c-66b6-8e6d-42f0" hidden="false" type="profile" targetId="0cc6-1183-fd4f-e2da"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a370-a60c-81a0-b8e1" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="c8a0-a358-34f1-bafe">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Fist" id="95d8-5cc3-6206-1e24" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="79ea-e611-3de2-ab87" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="1066-3b89-20d7-9937">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Weapon" id="59fd-54f8-eeae-489b" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="39aa-dd9e-90b3-2de4" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Thunder Hammer" hidden="false" id="6a26-c5ae-155f-f6ca">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Thunder Hammer" id="cbb4-5fb4-0205-e293" hidden="false" type="profile" targetId="4cb2-e19a-4b72-594d"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7155-5129-8132-feb1" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Wolf Claw" hidden="false" id="f6e4-e5cb-db35-c0a7">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Wolf Claw" id="a61a-797f-60da-d1ba" hidden="false" type="profile" targetId="334d-cbb2-8528-92cc"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0fa4-e932-40ac-4b3e" includeChildSelections="false"/>
                       </constraints>
                     </selectionEntry>
                   </selectionEntries>
@@ -2495,8 +2588,8 @@
                     </entryLink>
                   </entryLinks>
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="self" shared="true" id="70d5-ce58-a29e-735d-min"/>
-                    <constraint type="max" value="1" field="selections" scope="self" shared="true" id="70d5-ce58-a29e-735d-max"/>
+                    <constraint type="min" value="2" field="selections" scope="self" shared="true" id="70d5-ce58-a29e-735d-min"/>
+                    <constraint type="max" value="2" field="selections" scope="self" shared="true" id="70d5-ce58-a29e-735d-max"/>
                   </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -2889,7 +2982,16 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e003-4dd1-3e64-c148" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Impulsor" hidden="false" id="76ec-ac1b-4a7d-8bb6" type="selectionEntry" targetId="029f-8e03-0080-1cf7"/>
+            <entryLink import="true" name="Impulsor" hidden="false" id="76ec-ac1b-4a7d-8bb6" type="selectionEntry" targetId="029f-8e03-0080-1cf7">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="14fd-a22a-734c-c353" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Drop Pod" hidden="false" id="c3ad-4ec5-c0a8-ea88" type="selectionEntry" targetId="57d0-d692-2492-52c0">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="afe4-dca6-6aaf-e15c" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="One Wolf Guard pack may select any type of Land Raider as a dedicated transport." hidden="false" id="e376-7dcd-0f74-9a34">
@@ -5859,6 +5961,16 @@
     <entryLink import="true" name="Custom Content" hidden="false" id="c061-2580-8595-8621" type="selectionEntry" targetId="f04b-cec3-c568-abd9">
       <categoryLinks>
         <categoryLink targetId="525f-0a42-3f5c-5613" id="9d1a-8afa-4e31-db12" primary="true" name="Configuration"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wolf Guard Pack" hidden="true" id="86cf-b25b-4370-1d18" type="selectionEntry" targetId="d967-b68c-2836-1353">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="5af6-ad39-2504-ae1e" primary="true" name="Troops"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Fenrisian Wolf Pack" hidden="true" id="8921-833f-d249-1ed2" type="selectionEntry" targetId="84a2-2ebf-a096-0b00">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="223e-7d9f-b33d-c64c" primary="true" name="Troops"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
