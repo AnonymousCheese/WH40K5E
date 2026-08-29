@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="302a-dd20-f8bc-1035" name="Chaos Space Marines" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="302a-dd20-f8bc-1035" name="Chaos Space Marines" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedProfiles>
     <profile name="Abaddon" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="4984-5c46-5c7a-76f2">
       <characteristics>
@@ -2767,11 +2767,101 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <infoLinks>
                 <infoLink name="Terminator Champion" id="6ddf-8d77-db14-64fc" hidden="false" type="profile" targetId="a68f-e36b-e032-a311"/>
               </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eabf-e8f7-4f87-8bae"/>
-              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="5de6-369b-409e-dbb7" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Twin-linked Bolter" hidden="false" id="4539-f3d1-cd89-be2f" defaultAmount="1">
+                      <infoLinks>
+                        <infoLink name="Twin-linked Bolter" id="346d-6f40-4aa6-9992" hidden="false" type="profile" targetId="3250-0314-9ec7-9777"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="765b-f183-c926-0c0b"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Pair of Lightning Claws" hidden="false" id="541e-6685-ad96-e60a">
+                      <infoLinks>
+                        <infoLink name="Lightning Claws" id="82a9-43df-ed03-b41c" hidden="false" type="profile" targetId="5f25-fc3f-2fbd-1d75"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ed0-dfa2-4dea-4d2b"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <entryLinks>
+                    <entryLink import="true" name="Combi-weapon" hidden="false" id="da82-895b-2666-5f93" type="selectionEntry" targetId="d720-24d4-d7f1-df20">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58f8-54f2-3d43-fe70"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="260f-eb3c-b4df-e722"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Melee Weapon" id="299f-aabc-ff86-765e" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="0d80-0b34-4c25-6d23" defaultAmount="1">
+                      <infoLinks>
+                        <infoLink name="Power Weapon" id="22c4-40fb-adca-7773" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c90-6648-afca-80d7" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Chainfist" hidden="false" id="ae90-7b1e-97c2-66fd">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Chain Fist" id="a48c-ddfc-75d0-586f" hidden="false" type="profile" targetId="5151-d1aa-1f80-cb94"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b6f-bcc1-3f0c-530a" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Lightning Claw" hidden="false" id="9ebb-6096-3e8f-7e01">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Lightning Claws" id="d6bd-2364-ade4-5f1d" hidden="false" type="profile" targetId="5f25-fc3f-2fbd-1d75"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c0eb-0baa-d73c-3f75" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="2d0b-be47-8eec-40ea">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Power Fist" id="a711-8f65-42d3-a7d7" hidden="false" type="profile" targetId="cc61-3ec6-0369-8cd8"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="342b-8063-ed9c-7605" includeChildSelections="false"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2801-68fc-e41c-793b"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="2801-68fc-e41c-793b">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="541e-6685-ad96-e60a" shared="true" includeChildSelections="false" childName="Pair of Lightning Claws"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="model" import="true" name="Chaos Terminator" hidden="false" id="c98e-f61a-d345-693b">
+            <selectionEntry type="model" import="true" name="Chaos Terminator" hidden="false" id="c98e-f61a-d345-693b" defaultAmount="3">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
               </costs>
@@ -2781,7 +2871,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
               <selectionEntryGroups>
                 <selectionEntryGroup name="Loadout" id="de15-6944-6354-10c5" hidden="false">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Twin-linked Bolter" hidden="false" id="971e-d98c-4ff5-333a">
+                    <selectionEntry type="upgrade" import="true" name="Twin-linked Bolter" hidden="false" id="971e-d98c-4ff5-333a" defaultAmount="1">
                       <infoLinks>
                         <infoLink name="Twin-linked Bolter" id="9367-8219-4d10-c928" hidden="false" type="profile" targetId="3250-0314-9ec7-9777"/>
                       </infoLinks>
@@ -2789,7 +2879,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="80e2-1de2-3cfb-408c"/>
                       </constraints>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Lightning Claw" hidden="false" id="35a0-7a19-50f2-cb18">
+                    <selectionEntry type="upgrade" import="true" name="Pair of Lightning Claws" hidden="false" id="35a0-7a19-50f2-cb18">
                       <infoLinks>
                         <infoLink name="Lightning Claws" id="575c-28ad-5c9e-7540" hidden="false" type="profile" targetId="5f25-fc3f-2fbd-1d75"/>
                       </infoLinks>
@@ -2811,10 +2901,13 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2695-3594-d104-be2f"/>
+                  </constraints>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Melee Weapon" id="d657-babe-2357-7a08" hidden="false">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="7e59-daa4-8f2d-92a5">
+                    <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="7e59-daa4-8f2d-92a5" defaultAmount="1">
                       <infoLinks>
                         <infoLink name="Power Weapon" id="c73d-0b8d-3f05-bde0" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
                       </infoLinks>
@@ -2857,6 +2950,16 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
                       </constraints>
                     </selectionEntry>
                   </selectionEntries>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d01-36a8-0214-ae52"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="2d01-36a8-0214-ae52">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="35a0-7a19-50f2-cb18" shared="true" childName="Pair of Lightning Claws"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
