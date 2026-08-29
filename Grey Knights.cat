@@ -7527,6 +7527,7 @@ Any Daemon or Psyker that suffers one or more unsaved wounds from Nemesis Force 
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7017-d30c-afb2-1000"/>
       </constraints>
       <modifiers>
+        <modifier type="set" value="true" field="hidden" scope="force" affects="self.entries.forces.3c5e-102d-6d21-e354"/>
         <modifier type="set" value="false" field="hidden" scope="force" affects="self.entries.forces.7b66-a757-f115-7b8f"/>
       </modifiers>
     </entryLink>
@@ -7554,6 +7555,7 @@ Any Daemon or Psyker that suffers one or more unsaved wounds from Nemesis Force 
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa4d-96f3-4325-c78f"/>
       </constraints>
       <modifiers>
+        <modifier type="set" value="true" field="hidden" scope="force" affects="self.entries.forces.9a0d-9977-2927-de1e"/>
         <modifier type="set" value="false" field="hidden" scope="force" affects="self.entries.forces.7444-3ed3-2358-eeab"/>
       </modifiers>
     </entryLink>
