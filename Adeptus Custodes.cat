@@ -153,6 +153,15 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ka&apos;tah Stances" hidden="false" id="4db5-a6c8-788c-29ec" defaultAmount="1">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="e1fb-f4b6-6c45-4032-min" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e1fb-f4b6-6c45-4032-max" includeChildSelections="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Ka&apos;tah Stance Reference" hidden="false" id="487f-a543-7fb5-0e03" type="selectionEntryGroup" targetId="09fe-d7fa-97c4-dd3e"/>
+      </entryLinks>
+    </selectionEntry>
   </selectionEntries>
   <sharedProfiles>
     <profile name="Auric Bolter" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="9e4f-575c-26ad-9900">
@@ -412,22 +421,41 @@ This ability may only be taken by one model in your army, and cannot be taken al
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
+    <profile name="Martial Ka&apos;tah" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="66a4-eb78-7ea4-8b78">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">At the start of your turn, select one Adeptus Custodes unit within 12&quot; of this model and one of the following Ka&apos;tah Stances. The selected unit gains the abilities of that Stance until the start of your next turn:
+- Calistus Stance
+- Dacatarai Stance
+- Kaptaris Stance
+- Rendax Stance.
+
+
+
+A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, and may never have more than one issued to it in one turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rendax Stance" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="aebd-d2bd-033b-3df6">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">All melee attacks made by this model gain the Rending special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dacatarai Stance" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="2c87-2586-3e88-d175">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This model increases its Attacks by 2, but decreases its Strength by 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Kaptaris Stance" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="b0ce-8950-e050-041d">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This model adds 2 to its Initiative and gains the Counter-Attack special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Calistus Stance" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="45f5-8a8c-4ccb-e5e6">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This model gains the Hit and Run and Move Through Cover special rules.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
-    <rule name="Martial Ka&apos;tah" id="be40-3205-8fc4-6837" hidden="false">
-      <description>At the start of your turn, for each Custodes Independent Character on the battlefield, select one unit within 12&quot; of them, and one of the Ka&apos;tah Stances from below. The selected unit gains the corresponding ability until the start of your next turn:
-
-- **Rendax** - All melee attacks made by this model gain the Rending special rule.
-
-
-- **Dacatarai** - This model increases its Attacks by 2, but decreases its Strength by 1.
-
-
-- **Kaptaris** - This model adds 2 to its Initiative and gains the Counter-Attack special rule.
-
-
-- **Calistus** - This model gains the Hit and Run and Move Through Cover special rules.</description>
-    </rule>
     <rule name="Only In Death" id="a226-a827-1018-b8bf" hidden="false">
       <description>Adeptus Custodes automatically pass tests to regroup, and may take such tests even if the squad has been reduced below half-strength, though all other criteria apply. Usually troops that regroup cannot move normally and always count as moving whether they do or not, but these restrictions do not apply to models with this special rule. If Adeptus Custodes are caught by a sweeping advance, they are not destroyed and will instead continue to fight normally. If this happens then the unit is subject to the No Retreat! rule in this round of close combat and might therefore suffer additional casualties.</description>
     </rule>
@@ -606,9 +634,9 @@ This ability may only be taken by one model in your army, and cannot be taken al
       </constraints>
       <infoLinks>
         <infoLink name="Only In Death" id="f125-10d7-0e42-c74f" hidden="false" type="rule" targetId="a226-a827-1018-b8bf"/>
-        <infoLink name="Martial Ka&apos;tah" id="0582-14c9-03b2-7b74" hidden="false" type="rule" targetId="be40-3205-8fc4-6837"/>
+        <infoLink name="Martial Ka&apos;tah" id="0582-14c9-03b2-7b74" hidden="false" type="profile" targetId="66a4-eb78-7ea4-8b78"/>
         <infoLink name="Independent Character" id="afbe-d051-8d15-8043" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
-        <infoLink name="Golden Exemplar" id="6f26-a631-589b-f674" hidden="false" type="profile" targetId="c5e9-ede3-9a5f-3a3a"/>
+        <infoLink name="Golden Fortitude" id="6f26-a631-589b-f674" hidden="false" type="profile" targetId="c5e9-ede3-9a5f-3a3a"/>
         <infoLink name="Fearless" id="e0e7-048b-2b07-00ba" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
         <infoLink name="Eternal Warrior" id="108a-8284-89c2-607a" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
         <infoLink name="Auramite Armor" id="d1a4-81cf-744d-0cf1" hidden="false" type="profile" targetId="9406-f42c-ca79-e645"/>
@@ -659,8 +687,8 @@ This ability may only be taken by one model in your army, and cannot be taken al
         <infoLink name="Eternal Warrior" id="55ee-0faa-d3f6-ed6a" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
         <infoLink name="Fearless" id="60ea-4f04-06a4-64e8" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
         <infoLink name="Independent Character" id="85a6-2235-dcd4-4ba8" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
-        <infoLink name="Golden Exemplar" id="ef4a-9631-9ac7-57ac" hidden="false" type="profile" targetId="c5e9-ede3-9a5f-3a3a"/>
-        <infoLink name="Martial Ka&apos;tah" id="1c7e-b307-5c44-e222" hidden="false" type="rule" targetId="be40-3205-8fc4-6837"/>
+        <infoLink name="Golden Fortitude" id="ef4a-9631-9ac7-57ac" hidden="false" type="profile" targetId="c5e9-ede3-9a5f-3a3a"/>
+        <infoLink name="Martial Ka&apos;tah" id="1c7e-b307-5c44-e222" hidden="false" type="profile" targetId="66a4-eb78-7ea4-8b78"/>
         <infoLink name="Only In Death" id="3601-2f76-c07b-77df" hidden="false" type="rule" targetId="a226-a827-1018-b8bf"/>
       </infoLinks>
       <selectionEntryGroups>
@@ -907,8 +935,8 @@ This ability may only be taken by one model in your army, and cannot be taken al
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Adrastus Bolt Caliver" hidden="false" id="6ccb-b1ee-eedd-e44d">
           <infoLinks>
-            <infoLink name="Adrastus Bolt Caliver" id="c2cc-2a5c-9531-3822" hidden="false" type="profile" targetId="7a96-4648-7dc0-d0fe"/>
-            <infoLink name="Combi-Disintegrator" id="7367-424b-a363-cc4f" hidden="false" type="profile" targetId="e8d8-e064-3036-3b8e"/>
+            <infoLink name="Adrastus Bolt Caliver (Bolter)" id="c2cc-2a5c-9531-3822" hidden="false" type="profile" targetId="7a96-4648-7dc0-d0fe"/>
+            <infoLink name="Adrastus Bolt Caliver (Disintegrator)" id="7367-424b-a363-cc4f" hidden="false" type="profile" targetId="e8d8-e064-3036-3b8e"/>
           </infoLinks>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="70f3-0eca-1116-ec34-min" includeChildSelections="false"/>
@@ -973,6 +1001,49 @@ This ability may only be taken by one model in your army, and cannot be taken al
       <constraints>
         <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3b4e-4691-d049-a599"/>
       </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Ka&apos;tah Stances" id="09fe-d7fa-97c4-dd3e" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Calistus" hidden="false" id="4e81-f6cb-2b1a-677d">
+          <infoLinks>
+            <infoLink name="Calistus Stance" id="9fea-a9e4-5806-fda6" hidden="false" type="profile" targetId="45f5-8a8c-4ccb-e5e6"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b634-a803-f241-6678-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b634-a803-f241-6678-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Dacatarai" hidden="false" id="41b8-1b07-6bf1-0869">
+          <infoLinks>
+            <infoLink name="Dacatarai Stance" id="8855-7a6e-0a74-f54f" hidden="false" type="profile" targetId="2c87-2586-3e88-d175"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8873-4e92-30e4-8624-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8873-4e92-30e4-8624-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Kaptaris" hidden="false" id="d4de-bece-1a75-1e95">
+          <infoLinks>
+            <infoLink name="Kaptaris Stance" id="e8b0-c266-3cfc-d1e5" hidden="false" type="profile" targetId="b0ce-8950-e050-041d"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="077b-b0b3-fd7b-7db6-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="077b-b0b3-fd7b-7db6-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Rendax" hidden="false" id="5df9-32ac-397d-f7f6">
+          <infoLinks>
+            <infoLink name="Rendax Stance" id="e2e4-6bef-a1b5-28fa" hidden="false" type="profile" targetId="aebd-d2bd-033b-3df6"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d0bb-dc48-6130-9fd7-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d0bb-dc48-6130-9fd7-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <infoGroups>
+        <infoGroup name="Ka&apos;tah Stances" id="f455-08be-fe62-ad3b" hidden="false"/>
+      </infoGroups>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>
