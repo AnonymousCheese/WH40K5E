@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="1d92-05fa-b42e-029a" name="Grey Knights" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="1d92-05fa-b42e-029a" name="Grey Knights" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedProfiles>
     <profile name="Apothecary" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="9139-2bb7-ecfa-02de">
       <characteristics>
@@ -1083,6 +1083,11 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
         <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Units with Personal Teleporters are Jump Infantry. Once per game, the unit can elect to make a teleport shunt instead of moving. If making a teleport shunt, the unit immediately makes a move of up to 30&quot; in any direction. This move cannot end on top of another unit or in impassable terrain, but ignores intervening units, terrain and so on. A unit that moves via a teleport shunt cannot assault in the same turn, although it can shoot or run as normal. The unit counts as having moved.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Amphibious" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="3437-ecce-58c4-4770">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">A Chimera treats all water features as clear terrain when it moves.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Lord Kaldor Draigo" hidden="false" id="38f5-e50a-73ad-ae46">
@@ -1107,6 +1112,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
         <infoLink name="Psychic Communion" id="d61c-dc78-521f-efeb" hidden="false" type="profile" targetId="fce8-356c-966e-6bea"/>
         <infoLink name="Grand Strategy" id="b849-bc9c-ab16-0f3e" hidden="false" type="profile" targetId="bf13-d912-60cd-055b"/>
         <infoLink name="Terminator Armour" id="3fd5-5385-b244-4d21" hidden="false" type="profile" targetId="a5fa-5ad7-54d4-fd1a"/>
+        <infoLink name="Lord of Titan" id="72e4-9b80-7cf1-a2cc" hidden="false" type="rule" targetId="d439-0af2-aace-0381"/>
       </infoLinks>
       <profiles>
         <profile name="The Titansword" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="f696-ae62-66e8-9cd9">
@@ -1366,6 +1372,7 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
         <infoLink name="Fearless" id="2601-1f26-7346-6c9e" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
         <infoLink name="Preffered Enemy (Daemons)" id="3108-38a5-39a9-2bb0" hidden="false" type="profile" targetId="fab9-6d08-37e0-a3e3"/>
         <infoLink name="Hammerhand" id="dae1-4256-7c54-a18f" hidden="false" type="profile" targetId="49b4-6a1c-2b4b-ff7d"/>
+        <infoLink name="Keeper of Anarch" id="2c5a-ca5c-028e-7b4f" hidden="false" type="rule" targetId="16ab-b204-0bd4-eba1"/>
       </infoLinks>
       <profiles>
         <profile name="Blade of Antwyr" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="52d7-b6e8-2324-28d2">
@@ -4004,9 +4011,9 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
       </costs>
       <infoLinks>
         <infoLink name="Chimera Armored Transport" id="b0f8-4b21-2cf6-4d39" hidden="false" type="profile" targetId="6c7f-e0f5-f0d6-396d"/>
-        <infoLink name="Searchlight" id="cb7b-3ee7-333b-1a0f" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
         <infoLink name="Smoke Launchers" id="1de6-9e17-758b-edac" hidden="false" type="profile" targetId="180e-ad4b-4df0-81ae"/>
         <infoLink name="Tank" id="ba2a-dbe2-ef11-b4f7" hidden="false" type="rule" targetId="3475-46b4-28e6-8fb0"/>
+        <infoLink name="Amphibious" id="a22f-3e9c-faa4-e9bc" hidden="false" type="profile" targetId="3437-ecce-58c4-4770"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Turret" id="edd9-affc-1d18-d59f" hidden="false" defaultSelectionEntryId="88f7-760e-1a0e-4c98">
@@ -4122,6 +4129,17 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b23f-b1fa-e387-d81e" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Searchlight" hidden="false" id="8229-c946-ddfa-58b4">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b41-f272-40cd-d7fd" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Searchlight" id="cb7b-3ee7-333b-1a0f" hidden="false" type="profile" targetId="589c-c16c-2ed7-61f9"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup name="Pintle Mount" id="4443-5729-34ca-117a" hidden="false">
@@ -4137,7 +4155,7 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c0f-46d6-ba55-4f37"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Heavy Stubber" hidden="false" id="fb12-beb5-9ef1-86bb">
+            <selectionEntry type="upgrade" import="true" name="Heavy Stubber" hidden="true" id="fb12-beb5-9ef1-86bb">
               <infoLinks>
                 <infoLink name="Heavy Stubber" id="d05c-2e40-49b6-ba0a" hidden="false" type="profile" targetId="18dc-70dc-46bc-2834"/>
               </infoLinks>
@@ -4162,7 +4180,7 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
           <characteristics>
             <characteristic name="Capacity" typeId="7cdf-4c80-a83d-200c">12</characteristic>
             <characteristic name="Access Points" typeId="6e42-3bd5-70a6-724f">Rear</characteristic>
-            <characteristic name="Fire Points" typeId="aa94-ae0c-98e7-5923">Two models may fire from the top hatch.</characteristic>
+            <characteristic name="Fire Points" typeId="aa94-ae0c-98e7-5923">Five models may fire from the top hatch.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7493,6 +7511,12 @@ Any Daemon or Psyker that suffers one or more unsaved wounds from Nemesis Force 
     <rule name="Master-crafted" id="cd03-6afa-5db9-cf04" hidden="false">
       <description>A Master-crafted weapon may re-roll a single To Hit roll.</description>
     </rule>
+    <rule name="Lord of Titan" id="d439-0af2-aace-0381" hidden="false">
+      <description>In an army that includes Lord Kaldor Draigo, Paladin Squads are Troops choices.</description>
+    </rule>
+    <rule name="Keeper of Anarch" id="16ab-b204-0bd4-eba1" hidden="false">
+      <description>In an army that includes Castellan Crowe, Purifier Squads are Troops choices.</description>
+    </rule>
   </sharedRules>
   <entryLinks>
     <entryLink import="true" name="Lord Kaldor Draigo" hidden="false" id="43c7-95ab-8ec7-eb0b" type="selectionEntry" targetId="38f5-e50a-73ad-ae46">
@@ -7529,6 +7553,9 @@ Any Daemon or Psyker that suffers one or more unsaved wounds from Nemesis Force 
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa4d-96f3-4325-c78f"/>
       </constraints>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden" scope="force" affects="self.entries.forces.7444-3ed3-2358-eeab"/>
+      </modifiers>
     </entryLink>
     <entryLink import="true" name="Grey Knight Grand Master" hidden="false" id="22ea-ae10-371f-3ec9" type="selectionEntry" targetId="6a9c-d1e1-3fd9-a39e">
       <categoryLinks>
@@ -7720,6 +7747,11 @@ Any Daemon or Psyker that suffers one or more unsaved wounds from Nemesis Force 
     <entryLink import="true" name="Custom Content" hidden="false" id="9c0c-6487-9993-a5bf" type="selectionEntry" targetId="f04b-cec3-c568-abd9">
       <categoryLinks>
         <categoryLink targetId="525f-0a42-3f5c-5613" id="ba49-ea07-9be6-ae2e" primary="true" name="Configuration"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Purifier Squad" hidden="true" id="7444-3ed3-2358-eeab" type="selectionEntry" targetId="22e5-fe42-46ba-dc7a">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="dd59-abed-fe57-8d61" primary="true" name="Troops"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
