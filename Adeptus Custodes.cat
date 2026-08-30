@@ -159,7 +159,7 @@
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e1fb-f4b6-6c45-4032-max" includeChildSelections="false"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Ka&apos;tah Stance Reference" hidden="false" id="487f-a543-7fb5-0e03" type="selectionEntryGroup" targetId="09fe-d7fa-97c4-dd3e"/>
+        <entryLink import="true" name="Ka&apos;tah Stances" hidden="false" id="487f-a543-7fb5-0e03" type="selectionEntryGroup" targetId="09fe-d7fa-97c4-dd3e"/>
       </entryLinks>
     </selectionEntry>
   </selectionEntries>
@@ -188,7 +188,7 @@
     </profile>
     <profile name="Guardian Spear" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="2346-74e5-e85d-610b">
       <characteristics>
-        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Guardian Spear is a power weapon that adds +2 to the wielder&apos;s Strength. 
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Guardian Spear is a power weapon that adds +1 to the wielder&apos;s Strength. 
 Any model equipped with a Guardian Spear is also equipped with an Auric Bolter.</characteristic>
       </characteristics>
     </profile>
@@ -244,7 +244,7 @@ This ability may only be taken by one model in your army, and cannot be taken al
     <profile name="Custodian Guard" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="740a-8547-a7b8-ef74">
       <characteristics>
         <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
-        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
         <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
         <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
         <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
@@ -289,7 +289,7 @@ Additionally, while this model is on the battlefield, any time a enemy unit is s
     <profile name="Custodian Warden" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e855-654a-8260-e71d">
       <characteristics>
         <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
-        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
         <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
         <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
         <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
@@ -307,7 +307,7 @@ Additionally, while this model is on the battlefield, any time a enemy unit is s
     <profile name="Blade Champion" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="1be4-7aaf-198d-2a56">
       <characteristics>
         <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">7</characteristic>
-        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
         <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
         <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
         <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
@@ -337,7 +337,7 @@ This ability may only be taken by one model in your army, and cannot be taken al
     <profile name="Allarus Custodian" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="0ab3-29a0-cb26-a8e0">
       <characteristics>
         <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
-        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
         <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
         <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
         <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
@@ -374,7 +374,7 @@ If the wielder successfully assaulted this phase, you may re-roll failed attempt
     <profile name="Vertus Praetor" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="08ec-4e42-9132-61e7">
       <characteristics>
         <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
-        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
         <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
         <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5(6)</characteristic>
         <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
@@ -522,14 +522,14 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         <infoLink name="Only In Death" id="4166-9013-c94c-e902" hidden="false" type="rule" targetId="a226-a827-1018-b8bf"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="60"/>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="65"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="May be equipped with:" id="6de7-947c-1c49-5f3d" hidden="false">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="a4de-20ad-f355-7f70">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
               </costs>
               <infoLinks>
                 <infoLink name="Misericordia" id="35f7-a7f6-e4a2-a8f7" hidden="false" type="profile" targetId="1508-6096-5ba2-6ee3"/>
@@ -578,14 +578,14 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         <infoLink name="Feel No Pain" id="e727-24e2-8c41-d7fc" hidden="false" type="profile" targetId="d22d-ca74-1014-8212"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="65"/>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="75"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="May be equipped with:" id="b8df-e9e3-ea8e-4fb6" hidden="false">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="4984-9201-51ab-eb59">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
               </costs>
               <infoLinks>
                 <infoLink name="Misericordia" id="87df-6713-48b4-9e9a" hidden="false" type="profile" targetId="1508-6096-5ba2-6ee3"/>
@@ -626,7 +626,7 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Blade Champion" hidden="false" id="feda-4390-7693-9706">
       <costs>
-        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="155"/>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="180"/>
       </costs>
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="104e-a1e7-8ba6-6586"/>
@@ -730,7 +730,7 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="db11-2979-99d0-2d72">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
               </costs>
               <infoLinks>
                 <infoLink name="Misericordia" id="aa93-e2d7-7235-3eb9" hidden="false" type="profile" targetId="1508-6096-5ba2-6ee3"/>
@@ -767,7 +767,7 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="135"/>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="160"/>
       </costs>
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="67cb-1ab0-8aa2-e62f"/>
@@ -784,14 +784,14 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         <infoLink name="Unleash the Lions" id="c72f-590b-85dc-fccc" hidden="false" type="profile" targetId="92c4-925a-34d9-43fa"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="80"/>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="85"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="May be equipped with:" id="1b04-2fbc-0f44-c68a" hidden="false">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="6f22-ee96-4483-96b9">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
               </costs>
               <infoLinks>
                 <infoLink name="Misericordia" id="acac-395d-7308-65f8" hidden="false" type="profile" targetId="1508-6096-5ba2-6ee3"/>
@@ -836,7 +836,7 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         <infoLink name="Vertus Praetor" id="1f1d-930e-3d20-b545" hidden="false" type="profile" targetId="08ec-4e42-9132-61e7"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="90"/>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="110"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="May be equipped with:" id="f82c-41c0-24cc-a678" hidden="false">
@@ -913,14 +913,14 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         <infoLink name="Only In Death" id="bff6-195a-ddbd-daf0" hidden="false" type="rule" targetId="a226-a827-1018-b8bf"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="60"/>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="80"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="May be equipped with:" id="d36e-80ac-8527-7207" hidden="false">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="1aee-ed1c-dcc7-91fc">
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
               </costs>
               <infoLinks>
                 <infoLink name="Misericordia" id="a8d6-a3bc-fdcc-80d4" hidden="false" type="profile" targetId="1508-6096-5ba2-6ee3"/>
