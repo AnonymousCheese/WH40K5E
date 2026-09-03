@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="17e3-f1c4-0f86-355b" name="Dark Angels" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="17e3-f1c4-0f86-355b" name="Dark Angels" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedProfiles>
     <profile name="Attack Bike" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="21f0-1a17-8d0d-f9ee">
       <characteristics>
@@ -3618,7 +3618,11 @@ Independent characters wearing Terminator armour may also be deployed via Deathw
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
-                    <entryLink import="true" name="Combi-weapon" hidden="false" id="ce26-8baf-4eb7-4827" type="selectionEntry" targetId="d720-24d4-d7f1-df20"/>
+                    <entryLink import="true" name="Combi-weapon" hidden="false" id="ce26-8baf-4eb7-4827" type="selectionEntry" targetId="d720-24d4-d7f1-df20">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="self" shared="true" id="6f99-56a7-a2f0-23b4-min"/>
@@ -3909,7 +3913,11 @@ Independent characters wearing Terminator armour may also be deployed via Deathw
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
-                    <entryLink import="true" name="Combi-weapon" hidden="false" id="a8dc-bec5-2957-9bce" type="selectionEntry" targetId="d720-24d4-d7f1-df20"/>
+                    <entryLink import="true" name="Combi-weapon" hidden="false" id="a8dc-bec5-2957-9bce" type="selectionEntry" targetId="d720-24d4-d7f1-df20">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="self" shared="true" id="994e-7f2d-43f2-2282-min"/>
