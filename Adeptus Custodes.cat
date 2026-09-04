@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="335d-39cc-c6b5-56d5" name="Adeptus Custodes (Homebrew)" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="1" authorName="scoobery" authorUrl="https://github.com/scoobery" authorContact="@scooberydoobery" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="335d-39cc-c6b5-56d5" name="Adeptus Custodes (Homebrew)" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="2" authorName="scoobery" authorUrl="https://github.com/scoobery" authorContact="@scooberydoobery" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="unit" import="true" name="Custodian Guard" hidden="false" id="163e-07f4-cfe3-8d55">
       <categoryLinks>
@@ -132,6 +132,9 @@
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="65"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Close-Combat Weapon" id="bd6d-5006-9ad5-a82f" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+              </infoLinks>
             </entryLink>
           </entryLinks>
           <constraints>
@@ -161,6 +164,54 @@
       <entryLinks>
         <entryLink import="true" name="Ka&apos;tah Stances" hidden="false" id="487f-a543-7fb5-0e03" type="selectionEntryGroup" targetId="09fe-d7fa-97c4-dd3e"/>
       </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Venatari Custodians" hidden="false" id="36f2-88dc-f9a1-f3c1">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="db3c-495a-715b-7a73" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Venatari Custodian" hidden="false" id="4e9a-48c6-db8f-df36" type="selectionEntry" targetId="f41e-74f8-655c-d962" defaultAmount="3">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="May be equipped with:" id="225b-b474-1288-b773" hidden="false">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="c58e-40aa-c6dc-1f6c">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Misericordia" id="f296-e40e-578c-a007" hidden="false" type="profile" targetId="1508-6096-5ba2-6ee3"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="139e-a6a3-fa31-8b5c"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Equipped with one of the following:" id="ba7d-6c25-30ca-51ff" hidden="false" defaultSelectionEntryId="db62-76d1-2fcc-9cb4">
+                  <entryLinks>
+                    <entryLink import="true" name="Guardian Spear" hidden="false" id="2511-7909-1363-93b4" type="selectionEntry" targetId="87e5-8aac-f7d2-f637" defaultAmount="1"/>
+                    <entryLink import="true" name="Kinetic Destroyer and Tarsus Buckler" hidden="false" id="70e6-9f74-f74d-dbb1" type="selectionEntry" targetId="2716-836d-018c-0216">
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b7b1-6a68-a486-67b8" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7fb2-706f-0217-8e40" includeChildSelections="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="1841-33a1-240f-852e"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="619c-959a-b858-a36a"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="74fe-37c3-fbbf-849e" id="5b86-9fee-d553-028b" primary="true" name="Fast Attack"/>
+      </categoryLinks>
     </selectionEntry>
   </selectionEntries>
   <sharedProfiles>
@@ -244,7 +295,7 @@ This ability may only be taken by one model in your army, and cannot be taken al
     <profile name="Custodian Guard" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="740a-8547-a7b8-ef74">
       <characteristics>
         <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
-        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
         <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
         <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
         <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
@@ -267,7 +318,7 @@ This ability may only be taken by one model in your army, and cannot be taken al
     <profile name="Adrastus Bolt Caliver (Bolter)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="7a96-4648-7dc0-d0fe">
       <characteristics>
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36</characteristic>
-        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
         <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">2 x Rapid Fire</characteristic>
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
@@ -289,7 +340,7 @@ Additionally, while this model is on the battlefield, any time a enemy unit is s
     <profile name="Custodian Warden" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e855-654a-8260-e71d">
       <characteristics>
         <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
-        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
         <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
         <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
         <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
@@ -307,7 +358,7 @@ Additionally, while this model is on the battlefield, any time a enemy unit is s
     <profile name="Blade Champion" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="1be4-7aaf-198d-2a56">
       <characteristics>
         <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">7</characteristic>
-        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
         <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
         <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
         <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
@@ -337,7 +388,7 @@ This ability may only be taken by one model in your army, and cannot be taken al
     <profile name="Allarus Custodian" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="0ab3-29a0-cb26-a8e0">
       <characteristics>
         <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
-        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
         <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
         <characteristic name="T" typeId="ff29-f8b2-5b20-b686">6</characteristic>
         <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
@@ -374,7 +425,7 @@ If the wielder successfully assaulted this phase, you may re-roll failed attempt
     <profile name="Vertus Praetor" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="08ec-4e42-9132-61e7">
       <characteristics>
         <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
-        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
         <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
         <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5(6)</characteristic>
         <characteristic name="W" typeId="4a81-ac45-a71c-c71e">3</characteristic>
@@ -415,8 +466,8 @@ This ability may only be taken by one model in your army, and cannot be taken al
     <profile name="Adrastus Bolt Caliver (Disintegrator)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e8d8-e064-3036-3b8e">
       <characteristics>
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18</characteristic>
-        <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
-        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
         <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 1, Combi</characteristic>
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
@@ -452,6 +503,51 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
     <profile name="Calistus Stance" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="45f5-8a8c-4ccb-e5e6">
       <characteristics>
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This model gains the Hit and Run and Move Through Cover special rules.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Venatari Custodian" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="5ec8-43e5-46dc-97f1">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">5</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">10</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+ (5++)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tarsus Buckler" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="1d59-ff82-8b89-449d">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A Tarsus Buckler confers a 4+ Invulnerable Save to the bearer.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Kinetic Destroyer" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="820d-0f36-c8cf-d841">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol, Rending</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Sister of Silence" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="9d5e-ebe3-4d2e-f4ca">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">1</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">1</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Null" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="4500-78e5-94fd-8326">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Enemy models within 12&quot; of a Sister of Silence suffer -1 to their Leadership when resolving Psychic tests. This is increased to -2 Leadership if they are within 6&quot;.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -513,7 +609,7 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         <infoLink name="Vexilla" id="098c-432e-d319-936c" hidden="false" type="profile" targetId="635c-7a38-1032-4e90"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Custodian Guard" hidden="false" id="ad3f-6453-3205-5359" defaultAmount="3">
+    <selectionEntry type="model" import="true" name="Custodian Guard" hidden="false" id="ad3f-6453-3205-5359" defaultAmount="3">
       <infoLinks>
         <infoLink name="Auramite Armor" id="1a2c-5feb-a5d5-506b" hidden="false" type="profile" targetId="9406-f42c-ca79-e645"/>
         <infoLink name="Eternal Warrior" id="3b7a-f1b1-a969-3853" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
@@ -522,7 +618,7 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         <infoLink name="Only In Death" id="4166-9013-c94c-e902" hidden="false" type="rule" targetId="a226-a827-1018-b8bf"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="65"/>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="80"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="May be equipped with:" id="6de7-947c-1c49-5f3d" hidden="false">
@@ -568,7 +664,7 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Custodian Warden" hidden="false" id="4be2-b54f-cab6-1e26" defaultAmount="3">
+    <selectionEntry type="model" import="true" name="Custodian Warden" hidden="false" id="4be2-b54f-cab6-1e26" defaultAmount="3">
       <infoLinks>
         <infoLink name="Auramite Armor" id="b6b5-4d82-d063-da31" hidden="false" type="profile" targetId="9406-f42c-ca79-e645"/>
         <infoLink name="Eternal Warrior" id="37d1-cb6e-cd6c-6ee2" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
@@ -578,7 +674,7 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         <infoLink name="Feel No Pain" id="e727-24e2-8c41-d7fc" hidden="false" type="profile" targetId="d22d-ca74-1014-8212"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="75"/>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="90"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="May be equipped with:" id="b8df-e9e3-ea8e-4fb6" hidden="false">
@@ -624,7 +720,7 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Blade Champion" hidden="false" id="feda-4390-7693-9706">
+    <selectionEntry type="model" import="true" name="Blade Champion" hidden="false" id="feda-4390-7693-9706">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="180"/>
       </costs>
@@ -680,7 +776,7 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Shield Captain" hidden="false" id="3dfe-5f7c-4f05-339e" defaultAmount="1">
+    <selectionEntry type="model" import="true" name="Shield Captain" hidden="false" id="3dfe-5f7c-4f05-339e" defaultAmount="1">
       <infoLinks>
         <infoLink name="Shield Captain" id="a607-654a-09e8-4515" hidden="false" type="profile" targetId="b59e-b91a-a636-b64a"/>
         <infoLink name="Auramite Armor" id="c5fc-b749-bac3-18f2" hidden="false" type="profile" targetId="9406-f42c-ca79-e645"/>
@@ -767,14 +863,14 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="160"/>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="165"/>
       </costs>
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="67cb-1ab0-8aa2-e62f"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e04-479d-565f-96ec"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Allarus Custodian" hidden="false" id="5e6b-31ec-8500-5c2a" defaultAmount="3">
+    <selectionEntry type="model" import="true" name="Allarus Custodian" hidden="false" id="5e6b-31ec-8500-5c2a" defaultAmount="3">
       <infoLinks>
         <infoLink name="Eternal Warrior" id="41c5-a19e-969a-b032" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
         <infoLink name="Fearless" id="3062-a57d-a366-d749" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
@@ -784,7 +880,7 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         <infoLink name="Unleash the Lions" id="c72f-590b-85dc-fccc" hidden="false" type="profile" targetId="92c4-925a-34d9-43fa"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="85"/>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="100"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="May be equipped with:" id="1b04-2fbc-0f44-c68a" hidden="false">
@@ -826,7 +922,7 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Vertus Praetor" hidden="false" id="d4c7-5ccf-51f3-5d70" defaultAmount="3">
+    <selectionEntry type="model" import="true" name="Vertus Praetor" hidden="false" id="d4c7-5ccf-51f3-5d70" defaultAmount="3">
       <infoLinks>
         <infoLink name="Auramite Armor" id="cb15-12a7-4973-4bd2" hidden="false" type="profile" targetId="9406-f42c-ca79-e645"/>
         <infoLink name="Eternal Warrior" id="55e0-db83-2c90-2549" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
@@ -836,7 +932,7 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         <infoLink name="Vertus Praetor" id="1f1d-930e-3d20-b545" hidden="false" type="profile" targetId="08ec-4e42-9132-61e7"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="110"/>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="120"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="May be equipped with:" id="f82c-41c0-24cc-a678" hidden="false">
@@ -904,7 +1000,7 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         <infoLink name="Ballistus Grenade Launcher" id="9e9f-b6d9-c5fc-d033" hidden="false" type="profile" targetId="bc08-5efb-be13-7880"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Saggitarum Custodian" hidden="false" id="fd5f-a840-a560-f896" defaultAmount="3">
+    <selectionEntry type="model" import="true" name="Saggitarum Custodian" hidden="false" id="fd5f-a840-a560-f896" defaultAmount="3">
       <infoLinks>
         <infoLink name="Auramite Armor" id="74c4-33fb-8e07-c659" hidden="false" type="profile" targetId="9406-f42c-ca79-e645"/>
         <infoLink name="Eternal Warrior" id="583b-fd88-0455-073f" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
@@ -913,7 +1009,7 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         <infoLink name="Only In Death" id="bff6-195a-ddbd-daf0" hidden="false" type="rule" targetId="a226-a827-1018-b8bf"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="80"/>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="85"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="May be equipped with:" id="d36e-80ac-8527-7207" hidden="false">
@@ -944,6 +1040,61 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
           </constraints>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Venatari Custodian" hidden="false" id="f41e-74f8-655c-d962">
+      <infoLinks>
+        <infoLink name="Auramite Armor" id="a68d-b187-f009-1c75" hidden="false" type="profile" targetId="9406-f42c-ca79-e645"/>
+        <infoLink name="Eternal Warrior" id="035d-4171-ff9d-28a9" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
+        <infoLink name="Fearless" id="bde8-afbc-00a9-6f49" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Only In Death" id="ae05-318c-ea1c-797d" hidden="false" type="rule" targetId="a226-a827-1018-b8bf"/>
+        <infoLink name="Jump Infantry" id="beee-ab50-4bc7-83b8" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
+        <infoLink name="Venatari Custodian" id="50b7-dc34-bfac-156e" hidden="false" type="profile" targetId="5ec8-43e5-46dc-97f1"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="95"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Kinetic Destroyer and Tarsus Buckler" hidden="false" id="2716-836d-018c-0216">
+      <entryLinks>
+        <entryLink import="true" name="Kinetic Destroyer" hidden="false" id="bd20-56df-408c-cc47" type="selectionEntry" targetId="6a03-43f1-31a6-b2fa">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb9a-8d7b-0627-8a18"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="23b1-7549-f895-da59"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Tarsus Buckler" hidden="false" id="6290-8c8a-8ff8-db0f">
+          <infoLinks>
+            <infoLink name="Tarsus Buckler" id="cb11-55be-0ffd-6554" hidden="false" type="profile" targetId="1d59-ff82-8b89-449d"/>
+            <infoLink name="Close-Combat Weapon" id="dd93-3b3b-ecb5-4cad" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e925-2c0c-fce4-7584"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ae0-fa8c-325c-c349"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="2+ (4++)" field="c1e7-f1bd-8acd-7595" scope="parent" affects="profiles.Unit"/>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Kinetic Destroyer" hidden="false" id="6a03-43f1-31a6-b2fa">
+      <infoLinks>
+        <infoLink name="Kinetic Destroyer" id="b476-635b-6550-b4c2" hidden="false" type="profile" targetId="820d-0f36-c8cf-d841"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Prosecutor" hidden="false" id="9820-2eee-04c7-c03c">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Sister of Silence" id="1649-42a5-fb1f-70ba" hidden="false" type="profile" targetId="9d5e-ebe3-4d2e-f4ca"/>
+        <infoLink name="Boltgun" id="9230-d6fc-4feb-ab75" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
+        <infoLink name="Fearless" id="abf8-1000-1ca1-4ad3" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
+        <infoLink name="Null" id="dbb4-602d-11b7-6311" hidden="false" type="profile" targetId="4500-78e5-94fd-8326"/>
+        <infoLink name="Psychic Hood" id="09e3-24ee-265d-73d6" hidden="false" type="profile" targetId="27ab-7b2d-35be-bdf6"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
