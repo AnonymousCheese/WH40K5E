@@ -1,221 +1,312 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="335d-39cc-c6b5-56d5" name="Adeptus Custodes (Homebrew)" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" revision="2" authorName="scoobery" authorUrl="https://github.com/scoobery" authorContact="@scooberydoobery" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Adeptus Custodes (Homebrew)" id="335d-39cc-c6b5-56d5" authorContact="@scooberydoobery" authorName="scoobery" authorUrl="https://github.com/scoobery" battleScribeVersion="2.03" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="2" library="false" revision="2" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry type="unit" import="true" name="Custodian Guard" hidden="false" id="163e-07f4-cfe3-8d55">
+    <selectionEntry name="Custodian Guard" id="163e-07f4-cfe3-8d55" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink targetId="default-category" id="6c56-6bf0-84c0-5be7" primary="true" name="Troops"/>
+        <categoryLink name="Troops" id="6c56-6bf0-84c0-5be7" primary="true" targetId="default-category"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="deac-9a48-3180-fcd8" hidden="false">
           <constraints>
-            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="e929-1cab-cb3d-6b60"/>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="c8c7-0165-8d84-cc76"/>
+            <constraint id="e929-1cab-cb3d-6b60" field="selections" scope="parent" shared="true" type="min" value="3"/>
+            <constraint id="c8c7-0165-8d84-cc76" field="selections" scope="parent" shared="true" type="max" value="5"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Custodian Guard" hidden="false" id="2cff-ff06-70fd-7562" type="selectionEntry" targetId="ad3f-6453-3205-5359"/>
+            <entryLink name="Custodian Guard" id="2cff-ff06-70fd-7562" hidden="false" import="true" targetId="ad3f-6453-3205-5359" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Unit may be equipped with:" id="2420-a2b4-444a-0041" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Tanglefoot Grenades" hidden="false" id="7b36-8616-ecd6-7041" type="selectionEntry" targetId="ba5d-20b4-fb6f-03f3">
+            <entryLink name="Tanglefoot Grenades" id="7b36-8616-ecd6-7041" hidden="false" import="true" targetId="ba5d-20b4-fb6f-03f3" type="selectionEntry">
+              <constraints>
+                <constraint id="3ca4-351f-4012-6c00" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ca4-351f-4012-6c00" includeChildSelections="false"/>
-              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Shield Captain" hidden="false" id="db0d-dc07-66c9-eda7">
+    <selectionEntry name="Shield Captain" id="db0d-dc07-66c9-eda7" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="HQ" id="cfa1-b183-b1ac-394f" primary="true" targetId="ac8d-efba-1884-d3ad"/>
+      </categoryLinks>
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
       </costs>
-      <categoryLinks>
-        <categoryLink targetId="ac8d-efba-1884-d3ad" id="cfa1-b183-b1ac-394f" primary="true" name="HQ"/>
-      </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Shield Captain" hidden="false" id="8499-aafb-b0ba-aed8" type="selectionEntry" targetId="3dfe-5f7c-4f05-339e"/>
+        <entryLink name="Shield Captain" id="8499-aafb-b0ba-aed8" hidden="false" import="true" targetId="3dfe-5f7c-4f05-339e" type="selectionEntry"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Custodian Wardens" hidden="false" id="e49e-ea0d-b5fa-2aa6">
+    <selectionEntry name="Custodian Wardens" id="e49e-ea0d-b5fa-2aa6" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink targetId="default-category" id="a16e-276b-30f4-0c9a" primary="false" name="Troops"/>
-        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="b786-279a-0602-8552" primary="true" name="Elites"/>
+        <categoryLink name="Elites" id="b786-279a-0602-8552" primary="true" targetId="978c-e18f-8aeb-f4c1"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="050e-9e6b-29ee-1807" hidden="false">
           <constraints>
-            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="20f9-ab00-b4d6-2871"/>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="dea3-7d63-8766-d0d6"/>
+            <constraint id="20f9-ab00-b4d6-2871" field="selections" scope="parent" shared="true" type="min" value="3"/>
+            <constraint id="dea3-7d63-8766-d0d6" field="selections" scope="parent" shared="true" type="max" value="5"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Custodian Warden" hidden="false" id="84cc-31ee-676a-5fbc" type="selectionEntry" targetId="4be2-b54f-cab6-1e26"/>
+            <entryLink name="Custodian Warden" id="84cc-31ee-676a-5fbc" hidden="false" import="true" targetId="4be2-b54f-cab6-1e26" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Unit may be equipped with:" id="c756-e011-95b3-c700" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Tanglefoot Grenades" hidden="false" id="2cb2-8c9b-002e-ff43" type="selectionEntry" targetId="ba5d-20b4-fb6f-03f3">
+            <entryLink name="Tanglefoot Grenades" id="2cb2-8c9b-002e-ff43" hidden="false" import="true" targetId="ba5d-20b4-fb6f-03f3" type="selectionEntry">
+              <constraints>
+                <constraint id="dc91-72ed-dffe-4a24" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc91-72ed-dffe-4a24" includeChildSelections="false"/>
-              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Blade Champion" hidden="false" id="f604-9d29-547b-daa6">
+    <selectionEntry name="Blade Champion" id="f604-9d29-547b-daa6" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink targetId="ac8d-efba-1884-d3ad" id="9f67-57e2-cc4c-9371" primary="true" name="HQ"/>
+        <categoryLink name="HQ" id="9f67-57e2-cc4c-9371" primary="true" targetId="ac8d-efba-1884-d3ad"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Blade Champion" hidden="false" id="b382-bf17-bda1-36fa" type="selectionEntry" targetId="feda-4390-7693-9706"/>
+        <entryLink name="Blade Champion" id="b382-bf17-bda1-36fa" hidden="false" import="true" targetId="feda-4390-7693-9706" type="selectionEntry"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Allarus Custodians" hidden="false" id="40f6-d894-fe55-4b7d">
+    <selectionEntry name="Allarus Custodians" id="40f6-d894-fe55-4b7d" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Elites" id="4c6e-49b1-615b-36ef" primary="true" targetId="978c-e18f-8aeb-f4c1"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="62e4-ac52-c53d-453c" hidden="false">
-          <entryLinks>
-            <entryLink import="true" name="Allarus Custodian" hidden="false" id="a279-75b4-3fe6-1011" type="selectionEntry" targetId="5e6b-31ec-8500-5c2a" defaultAmount="2"/>
-          </entryLinks>
           <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="7d00-6c8d-45db-deb1"/>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="de40-5fd2-ce89-5f9c"/>
+            <constraint id="7d00-6c8d-45db-deb1" field="selections" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="de40-5fd2-ce89-5f9c" field="selections" scope="parent" shared="true" type="max" value="6"/>
           </constraints>
+          <entryLinks>
+            <entryLink name="Allarus Custodian" id="a279-75b4-3fe6-1011" defaultAmount="2" hidden="false" import="true" targetId="5e6b-31ec-8500-5c2a" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="Unit may be equipped with:" id="905f-9d53-c47a-69a7" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Tanglefoot Grenades" hidden="false" id="c0e8-12c6-bb6a-6857" type="selectionEntry" targetId="ba5d-20b4-fb6f-03f3">
+            <entryLink name="Tanglefoot Grenades" id="c0e8-12c6-bb6a-6857" hidden="false" import="true" targetId="ba5d-20b4-fb6f-03f3" type="selectionEntry">
+              <constraints>
+                <constraint id="fd86-20be-cb2f-cded" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd86-20be-cb2f-cded" includeChildSelections="false"/>
-              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <categoryLinks>
-        <categoryLink targetId="978c-e18f-8aeb-f4c1" id="4c6e-49b1-615b-36ef" primary="true" name="Elites"/>
-      </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Vertus Praetors" hidden="false" id="da16-2df8-9258-bd93">
+    <selectionEntry name="Vertus Praetors" id="da16-2df8-9258-bd93" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink targetId="74fe-37c3-fbbf-849e" id="5966-d505-d2d8-7dfd" primary="true" name="Fast Attack"/>
+        <categoryLink name="Fast Attack" id="5966-d505-d2d8-7dfd" primary="true" targetId="74fe-37c3-fbbf-849e"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="b726-37f4-625e-362f" hidden="false">
-          <entryLinks>
-            <entryLink import="true" name="Vertus Praetor" hidden="false" id="2ca1-eabf-71a7-dd0f" type="selectionEntry" targetId="d4c7-5ccf-51f3-5d70" defaultAmount="2"/>
-          </entryLinks>
           <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="108e-baff-4aad-d0e3"/>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="3ed4-67fd-4bbd-ae24"/>
+            <constraint id="108e-baff-4aad-d0e3" field="selections" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="3ed4-67fd-4bbd-ae24" field="selections" scope="parent" shared="true" type="max" value="3"/>
           </constraints>
+          <entryLinks>
+            <entryLink name="Vertus Praetor" id="2ca1-eabf-71a7-dd0f" defaultAmount="2" hidden="false" import="true" targetId="d4c7-5ccf-51f3-5d70" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Saggitarum Custodians" hidden="false" id="15a6-2203-abc1-9d4e">
+    <selectionEntry name="Saggitarum Custodians" id="15a6-2203-abc1-9d4e" hidden="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink targetId="9260-7d57-be5c-bd52" id="fa06-cb32-fa1d-0896" primary="true" name="Heavy Support"/>
+        <categoryLink name="Heavy Support" id="fa06-cb32-fa1d-0896" primary="true" targetId="9260-7d57-be5c-bd52"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="0ac1-2c44-1950-e1ed" hidden="false">
+          <constraints>
+            <constraint id="41f8-f616-8488-8fdf" field="selections" scope="parent" shared="true" type="min" value="3"/>
+            <constraint id="e9eb-45df-ab61-2b13" field="selections" scope="parent" shared="true" type="max" value="5"/>
+          </constraints>
           <entryLinks>
-            <entryLink import="true" name="Saggitarum Custodian" hidden="false" id="2bcf-1efb-e6c6-007d" type="selectionEntry" targetId="fd5f-a840-a560-f896" defaultAmount="3">
+            <entryLink name="Saggitarum Custodian" id="2bcf-1efb-e6c6-007d" defaultAmount="3" hidden="false" import="true" targetId="fd5f-a840-a560-f896" type="selectionEntry">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="65"/>
               </costs>
               <infoLinks>
-                <infoLink name="Close-Combat Weapon" id="bd6d-5006-9ad5-a82f" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
+                <infoLink name="Close-Combat Weapon" id="bd6d-5006-9ad5-a82f" hidden="false" targetId="662b-09f1-bd5b-b334" type="profile"/>
               </infoLinks>
             </entryLink>
           </entryLinks>
-          <constraints>
-            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="41f8-f616-8488-8fdf"/>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="e9eb-45df-ab61-2b13"/>
-          </constraints>
         </selectionEntryGroup>
         <selectionEntryGroup name="Unit may be equipped with:" id="8c16-5b39-e613-0b79" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Tanglefoot Grenades" hidden="false" id="21c4-97e1-676f-da4c" type="selectionEntry" targetId="ba5d-20b4-fb6f-03f3">
+            <entryLink name="Tanglefoot Grenades" id="21c4-97e1-676f-da4c" hidden="false" import="true" targetId="ba5d-20b4-fb6f-03f3" type="selectionEntry">
+              <constraints>
+                <constraint id="02e8-eee9-189b-90ec" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="02e8-eee9-189b-90ec" includeChildSelections="false"/>
-              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Ka&apos;tah Stances" hidden="false" id="4db5-a6c8-788c-29ec" defaultAmount="1">
+    <selectionEntry name="Ka&apos;tah Stances" id="4db5-a6c8-788c-29ec" defaultAmount="1" hidden="false" import="true" type="upgrade">
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="e1fb-f4b6-6c45-4032-min" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="e1fb-f4b6-6c45-4032-max" includeChildSelections="false"/>
+        <constraint id="e1fb-f4b6-6c45-4032-min" field="selections" includeChildSelections="false" scope="force" shared="true" type="min" value="1"/>
+        <constraint id="e1fb-f4b6-6c45-4032-max" field="selections" includeChildSelections="false" scope="force" shared="true" type="max" value="1"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Ka&apos;tah Stances" hidden="false" id="487f-a543-7fb5-0e03" type="selectionEntryGroup" targetId="09fe-d7fa-97c4-dd3e"/>
+        <entryLink name="Ka&apos;tah Stances" id="487f-a543-7fb5-0e03" hidden="false" import="true" targetId="09fe-d7fa-97c4-dd3e" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Venatari Custodians" hidden="false" id="36f2-88dc-f9a1-f3c1">
+    <selectionEntry name="Venatari Custodians" id="36f2-88dc-f9a1-f3c1" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Fast Attack" id="5b86-9fee-d553-028b" primary="true" targetId="74fe-37c3-fbbf-849e"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="db3c-495a-715b-7a73" hidden="false">
+          <constraints>
+            <constraint id="1841-33a1-240f-852e" field="selections" scope="parent" shared="true" type="min" value="3"/>
+            <constraint id="619c-959a-b858-a36a" field="selections" scope="parent" shared="true" type="max" value="5"/>
+          </constraints>
           <entryLinks>
-            <entryLink import="true" name="Venatari Custodian" hidden="false" id="4e9a-48c6-db8f-df36" type="selectionEntry" targetId="f41e-74f8-655c-d962" defaultAmount="3">
+            <entryLink name="Venatari Custodian" id="4e9a-48c6-db8f-df36" defaultAmount="3" hidden="false" import="true" targetId="f41e-74f8-655c-d962" type="selectionEntry">
               <selectionEntryGroups>
                 <selectionEntryGroup name="May be equipped with:" id="225b-b474-1288-b773" hidden="false">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="c58e-40aa-c6dc-1f6c">
+                    <selectionEntry name="Misericordia" id="c58e-40aa-c6dc-1f6c" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="139e-a6a3-fa31-8b5c" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
                       </costs>
                       <infoLinks>
-                        <infoLink name="Misericordia" id="f296-e40e-578c-a007" hidden="false" type="profile" targetId="1508-6096-5ba2-6ee3"/>
+                        <infoLink name="Misericordia" id="f296-e40e-578c-a007" hidden="false" targetId="1508-6096-5ba2-6ee3" type="profile"/>
                       </infoLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="139e-a6a3-fa31-8b5c"/>
-                      </constraints>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Equipped with one of the following:" id="ba7d-6c25-30ca-51ff" hidden="false" defaultSelectionEntryId="db62-76d1-2fcc-9cb4">
+                <selectionEntryGroup name="Equipped with one of the following:" id="ba7d-6c25-30ca-51ff" defaultSelectionEntryId="db62-76d1-2fcc-9cb4" hidden="false">
+                  <constraints>
+                    <constraint id="b7b1-6a68-a486-67b8" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                    <constraint id="7fb2-706f-0217-8e40" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
                   <entryLinks>
-                    <entryLink import="true" name="Guardian Spear" hidden="false" id="2511-7909-1363-93b4" type="selectionEntry" targetId="87e5-8aac-f7d2-f637" defaultAmount="1"/>
-                    <entryLink import="true" name="Kinetic Destroyer and Tarsus Buckler" hidden="false" id="70e6-9f74-f74d-dbb1" type="selectionEntry" targetId="2716-836d-018c-0216">
+                    <entryLink name="Guardian Spear" id="2511-7909-1363-93b4" defaultAmount="1" hidden="false" import="true" targetId="87e5-8aac-f7d2-f637" type="selectionEntry"/>
+                    <entryLink name="Kinetic Destroyer and Tarsus Buckler" id="70e6-9f74-f74d-dbb1" hidden="false" import="true" targetId="2716-836d-018c-0216" type="selectionEntry">
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
                       </costs>
                     </entryLink>
                   </entryLinks>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b7b1-6a68-a486-67b8" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7fb2-706f-0217-8e40" includeChildSelections="false"/>
-                  </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </entryLink>
           </entryLinks>
-          <constraints>
-            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="1841-33a1-240f-852e"/>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="619c-959a-b858-a36a"/>
-          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Prosecutor Squad" id="b21b-2cc3-ab16-7d4d" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink targetId="74fe-37c3-fbbf-849e" id="5b86-9fee-d553-028b" primary="true" name="Fast Attack"/>
+        <categoryLink name="Troops" id="dd72-194b-32ee-440d" primary="true" targetId="default-category"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="8606-4f3b-aaa9-fb27" hidden="false">
+          <constraints>
+            <constraint id="d621-0bfc-5213-6c24" field="selections" scope="parent" shared="true" type="min" value="5"/>
+            <constraint id="4b0f-6b0e-ebe9-fc9c" field="selections" scope="parent" shared="true" type="max" value="10"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Prosecutor" id="05ba-074a-076a-3be8" defaultAmount="4" hidden="false" import="true" targetId="9820-2eee-04c7-c03c" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Unit may be equipped with:" id="5255-e3a9-d22e-6fb3" hidden="false">
+          <entryLinks>
+            <entryLink name="Psyk-Out Grenades" id="b82f-bc3f-8407-7173" hidden="false" import="true" targetId="1443-e366-f638-be05" type="selectionEntry">
+              <constraints>
+                <constraint id="a4e1-7767-6686-01d6" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Witchseeker Squad" id="9e17-103b-fc13-14b2" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Fast Attack" id="507c-20e2-c734-9f62" primary="true" targetId="74fe-37c3-fbbf-849e"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="6d60-ed94-9c4d-3b10" hidden="false">
+          <constraints>
+            <constraint id="5e06-1fad-97f6-99bc" field="selections" scope="parent" shared="true" type="min" value="5"/>
+            <constraint id="c128-8b59-6efa-e78f" field="selections" scope="parent" shared="true" type="max" value="10"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Witchseeker" id="2738-ae8e-f4e6-881a" defaultAmount="4" hidden="false" import="true" targetId="f487-b529-2055-ebe7" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Unit may be equipped with:" id="0442-aac9-77e6-54b2" hidden="false">
+          <entryLinks>
+            <entryLink name="Psyk-Out Grenades" id="8e29-b435-e3db-bb13" hidden="false" import="true" targetId="1443-e366-f638-be05" type="selectionEntry">
+              <constraints>
+                <constraint id="b0a2-f8bf-6de3-fbd4" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Vigilator Squad" id="2892-3e84-5a85-d159" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Elites" id="5144-6161-6131-e66b" primary="true" targetId="978c-e18f-8aeb-f4c1"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Squad" id="5167-7549-c8fb-5866" hidden="false">
+          <constraints>
+            <constraint id="09a4-008c-a9a7-4fd8" field="selections" scope="parent" shared="true" type="min" value="5"/>
+            <constraint id="c9d7-a6b6-66eb-d936" field="selections" scope="parent" shared="true" type="max" value="10"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Vigilator" id="dc7e-501e-92ef-a278" defaultAmount="4" hidden="false" import="true" targetId="21d8-78f9-24de-6ccb" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Unit may be equipped with:" id="d207-7608-e306-f1ee" hidden="false">
+          <entryLinks>
+            <entryLink name="Psyk-Out Grenades" id="1410-48a0-069c-cbdf" hidden="false" import="true" targetId="1443-e366-f638-be05" type="selectionEntry">
+              <constraints>
+                <constraint id="0660-db78-cfc9-cea0" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Knight-Centura" id="dc29-67d7-8de9-cb02" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="HQ" id="1f6f-d33d-a07e-bb1b" hidden="false" primary="true" targetId="ac8d-efba-1884-d3ad"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Knight-Centura" id="9fd2-1ca7-8dd8-ab66" hidden="false" import="true" targetId="3cdf-a8df-2511-de80" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntry>
   </selectionEntries>
   <sharedProfiles>
-    <profile name="Auric Bolter" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="9e4f-575c-26ad-9900">
+    <profile name="Auric Bolter" id="9e4f-575c-26ad-9900" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
@@ -224,7 +315,7 @@
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
-    <profile name="Shield Captain" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="b59e-b91a-a636-b64a">
+    <profile name="Shield Captain" id="b59e-b91a-a636-b64a" hidden="false" typeId="0967-823d-dd82-4e47" typeName="Unit">
       <characteristics>
         <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">6</characteristic>
         <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
@@ -237,31 +328,31 @@
         <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+ (4++)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Guardian Spear" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="2346-74e5-e85d-610b">
+    <profile name="Guardian Spear" id="2346-74e5-e85d-610b" hidden="false" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons">
       <characteristics>
         <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Guardian Spear is a power weapon that adds +1 to the wielder&apos;s Strength. 
 Any model equipped with a Guardian Spear is also equipped with an Auric Bolter.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Auramite Armor" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="9406-f42c-ca79-e645">
+    <profile name="Auramite Armor" id="9406-f42c-ca79-e645" hidden="false" typeId="456a-26d9-cb27-bd5c" typeName="Wargear">
       <characteristics>
         <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Auramite Armor confers a 2+ Armour Save and a 5+ Invulnerable Save to the bearer.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Arcane Genetic Alchemy" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="8bb9-100c-aeb3-a550">
+    <profile name="Arcane Genetic Alchemy" id="8bb9-100c-aeb3-a550" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If a model with this special rule would suffer an unsaved wound, roll a dice. On a 5 or 6, that injury is ignored and no wounds are lost. 
 
 (This does not stack with the Feel No Pain rule. However, it can be used in place of the Feel No Pain rule against any wounds for which a saving throw was not allowed, or would otherwise inflict instant death.)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Castellan Axe" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="e58c-f2b8-cf47-4077">
+    <profile name="Castellan Axe" id="e58c-f2b8-cf47-4077" hidden="false" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons">
       <characteristics>
         <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Castellan Axe is treated as a chain fist, except that it attacks at the bearer&apos;s Initiative minus 2, as opposed to at Initiative 1.
 Any model equipped with a Castellan Axe is also equipped with an Auric Bolter.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Auric Bolt Pistol" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="0b8e-ba23-a9a8-fddd">
+    <profile name="Auric Bolt Pistol" id="0b8e-ba23-a9a8-fddd" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
@@ -270,13 +361,13 @@ Any model equipped with a Castellan Axe is also equipped with an Auric Bolter.</
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
-    <profile name="Sentinel Blade" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="3227-6e7d-0382-d488">
+    <profile name="Sentinel Blade" id="3227-6e7d-0382-d488" hidden="false" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons">
       <characteristics>
         <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Sentinel Blade is treated as a power weapon. 
 Any model equipped with a Sentinel Blade is also equipped with an Auric Bolt Pistol.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Superior Creation" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="7d83-e7cd-b7cd-7d83">
+    <profile name="Superior Creation" id="7d83-e7cd-b7cd-7d83" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If an Adeptus Custodes model with this special rule would be removed from play after sustaining lethal damage, roll a dice. On a 1, the model is removed from play as normal. On any other result, do not remove the model from play. Instead, its remaining wounds are set to half its starting wounds and it loses the Superior Creation special rule.
 
@@ -284,7 +375,7 @@ Any model equipped with a Sentinel Blade is also equipped with an Auric Bolt Pis
 This ability may only be taken by one model in your army, and cannot be taken alongside other Exemplar traits.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Radiant Mantle" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="d7e0-b2dc-e254-d131">
+    <profile name="Radiant Mantle" id="d7e0-b2dc-e254-d131" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Shooting attacks that target this model or its unit subtract 1 from their BS when rolling to hit.
 
@@ -292,7 +383,7 @@ This ability may only be taken by one model in your army, and cannot be taken al
 This ability may only be taken by one model in your army, and cannot be taken alongside other Exemplar traits.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Custodian Guard" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="740a-8547-a7b8-ef74">
+    <profile name="Custodian Guard" id="740a-8547-a7b8-ef74" hidden="false" typeId="0967-823d-dd82-4e47" typeName="Unit">
       <characteristics>
         <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
         <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
@@ -305,17 +396,17 @@ This ability may only be taken by one model in your army, and cannot be taken al
         <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+ (5++)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Golden Fortitude" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="c5e9-ede3-9a5f-3a3a">
+    <profile name="Golden Fortitude" id="c5e9-ede3-9a5f-3a3a" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Models with the Golden Fortitude special rule have a 4+ invulnerable save.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Vexilla" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="635c-7a38-1032-4e90">
+    <profile name="Vexilla" id="635c-7a38-1032-4e90" hidden="false" typeId="456a-26d9-cb27-bd5c" typeName="Wargear">
       <characteristics>
         <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model with a Vexilla reduces the Ld of enemy units within 12&quot; by 1.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Adrastus Bolt Caliver (Bolter)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="7a96-4648-7dc0-d0fe">
+    <profile name="Adrastus Bolt Caliver (Bolter)" id="7a96-4648-7dc0-d0fe" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">36</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
@@ -324,7 +415,7 @@ This ability may only be taken by one model in your army, and cannot be taken al
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
-    <profile name="Arae Shrike" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="cd7d-56f3-0dbd-4e8e">
+    <profile name="Arae Shrike" id="cd7d-56f3-0dbd-4e8e" hidden="false" typeId="456a-26d9-cb27-bd5c" typeName="Wargear">
       <characteristics>
         <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A model equipped with an Arae Shrike gains the Deep Strike special rule, and confers it to any unit that it joins. 
 
@@ -332,12 +423,12 @@ This ability may only be taken by one model in your army, and cannot be taken al
 Additionally, while this model is on the battlefield, any time a enemy unit is set up via Deep Strike within 12&quot; of this model, you may choose to have that unit&apos;s controller reroll the scatter dice and/or the 2D6 roll to determine how far the unit scatters.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Misericordia" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="1508-6096-5ba2-6ee3">
+    <profile name="Misericordia" id="1508-6096-5ba2-6ee3" hidden="false" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons">
       <characteristics>
         <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A unit equipped with a Misericordia may make one additional attack during an assault if it is not also equipped with a storm shield. This attack is resolved at Initiative 0, and causes Instant Death if not saved.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Custodian Warden" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="e855-654a-8260-e71d">
+    <profile name="Custodian Warden" id="e855-654a-8260-e71d" hidden="false" typeId="0967-823d-dd82-4e47" typeName="Unit">
       <characteristics>
         <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
         <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
@@ -350,12 +441,12 @@ Additionally, while this model is on the battlefield, any time a enemy unit is s
         <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+ (5++)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Eternity Blade" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="8b6c-3eee-fac7-b576">
+    <profile name="Eternity Blade" id="8b6c-3eee-fac7-b576" hidden="false" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons">
       <characteristics>
         <characteristic name="Ability" typeId="2113-98a2-4376-a94c">An Eternity Blade is a master-crafted power weapon. Additionally, any failed attempts To Wound made with it may be re-rolled.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Blade Champion" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="1be4-7aaf-198d-2a56">
+    <profile name="Blade Champion" id="1be4-7aaf-198d-2a56" hidden="false" typeId="0967-823d-dd82-4e47" typeName="Unit">
       <characteristics>
         <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">7</characteristic>
         <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
@@ -368,7 +459,7 @@ Additionally, while this model is on the battlefield, any time a enemy unit is s
         <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+ (4++)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Impregnable Mind" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="1b89-e216-528b-ebc2">
+    <profile name="Impregnable Mind" id="1b89-e216-528b-ebc2" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">When an opposing Psyker uses a psychic power, this model may attempt to nullify it. Declare that you&apos;ll use this ability after an enemy model within 18&quot; of this model passes a Psychic test.
 
@@ -380,12 +471,12 @@ Only one can attempt to nullify a psychic power with this rule may be made each 
 This ability may only be taken by one model in your army, and cannot be taken alongside other Exemplar traits.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Adamantite Terminator Armor" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="0650-4bd3-48ee-0764">
+    <profile name="Adamantite Terminator Armor" id="0650-4bd3-48ee-0764" hidden="false" typeId="456a-26d9-cb27-bd5c" typeName="Wargear">
       <characteristics>
         <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Adamantite Terminator Armor confers a 2+ Armour Save and a 4+ Invulnerable Save to the bearer.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Allarus Custodian" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="0ab3-29a0-cb26-a8e0">
+    <profile name="Allarus Custodian" id="0ab3-29a0-cb26-a8e0" hidden="false" typeId="0967-823d-dd82-4e47" typeName="Unit">
       <characteristics>
         <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
         <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
@@ -398,7 +489,7 @@ This ability may only be taken by one model in your army, and cannot be taken al
         <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+ (4++)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Unleash the Lions" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="92c4-925a-34d9-43fa">
+    <profile name="Unleash the Lions" id="92c4-925a-34d9-43fa" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">At the beginning of the Adeptus Custodes player&apos;s movement phase, that player may choose to split this unit into separate units consisting of one individual model per unit. These new units are then treated as separate units for the rest of the game.
 
@@ -406,7 +497,7 @@ This ability may only be taken by one model in your army, and cannot be taken al
 If an Independent Character is attached to this unit, it too automatically becomes unattached and treated as its own separate unit.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Salvo Launcher" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="9861-87c9-d5fa-d184">
+    <profile name="Salvo Launcher" id="9861-87c9-d5fa-d184" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
@@ -415,14 +506,14 @@ If an Independent Character is attached to this unit, it too automatically becom
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
-    <profile name="Interceptor Lance" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="f4fc-af3f-b284-9e37">
+    <profile name="Interceptor Lance" id="f4fc-af3f-b284-9e37" hidden="false" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons">
       <characteristics>
         <characteristic name="Ability" typeId="2113-98a2-4376-a94c">An Interceptor Lance is a rending weapon and a power weapon that adds +2 to the wielder&apos;s Strength.
 
 If the wielder successfully assaulted this phase, you may re-roll failed attempts To Wound for this weapon&apos;s attacks.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Vertus Praetor" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="08ec-4e42-9132-61e7">
+    <profile name="Vertus Praetor" id="08ec-4e42-9132-61e7" hidden="false" typeId="0967-823d-dd82-4e47" typeName="Unit">
       <characteristics>
         <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
         <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
@@ -435,13 +526,13 @@ If the wielder successfully assaulted this phase, you may re-roll failed attempt
         <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+ (5++)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Pyrithite Spear" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons" hidden="false" id="3c0c-ee99-f1c7-2073">
+    <profile name="Pyrithite Spear" id="3c0c-ee99-f1c7-2073" hidden="false" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons">
       <characteristics>
         <characteristic name="Ability" typeId="2113-98a2-4376-a94c">A Pyrithite Spear is a power weapon that adds +2 to the wielder&apos;s Strength. 
 Any model equipped with a Pyrithite Spear is also equipped with a Meltagun.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Castellan&apos;s Mark" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="f329-080c-bd9a-0d8c">
+    <profile name="Castellan&apos;s Mark" id="f329-080c-bd9a-0d8c" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If this model is on the battlefield at the start of the game before the first turn begins, you may select up to two of your Adeptus Custodes units on the battlefield including the bearer and its unit. You may then set them up on the battlefield again or place them into reserves.
 
@@ -449,12 +540,12 @@ Any model equipped with a Pyrithite Spear is also equipped with a Meltagun.</cha
 This ability may only be taken by one model in your army, and cannot be taken alongside other Exemplar traits.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Tanglefoot Grenades" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="e59a-b1c3-e9d5-8bc4">
+    <profile name="Tanglefoot Grenades" id="e59a-b1c3-e9d5-8bc4" hidden="false" typeId="456a-26d9-cb27-bd5c" typeName="Wargear">
       <characteristics>
         <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">At the beginning of the assault phase, any unit equipped with Tanglefoot Grenades may select one enemy unit within 12&quot; of it. Roll a dice. The result of the dice roll is then subtracted from the move distance of the targeted enemy unit during this assault.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Ballistus Grenade Launcher" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="bc08-5efb-be13-7880">
+    <profile name="Ballistus Grenade Launcher" id="bc08-5efb-be13-7880" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
@@ -463,7 +554,7 @@ This ability may only be taken by one model in your army, and cannot be taken al
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
-    <profile name="Adrastus Bolt Caliver (Disintegrator)" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="e8d8-e064-3036-3b8e">
+    <profile name="Adrastus Bolt Caliver (Disintegrator)" id="e8d8-e064-3036-3b8e" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">18</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
@@ -472,7 +563,7 @@ This ability may only be taken by one model in your army, and cannot be taken al
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
-    <profile name="Martial Ka&apos;tah" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="66a4-eb78-7ea4-8b78">
+    <profile name="Martial Ka&apos;tah" id="66a4-eb78-7ea4-8b78" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">At the start of your turn, select one Adeptus Custodes unit within 12&quot; of this model and one of the following Ka&apos;tah Stances. The selected unit gains the abilities of that Stance until the start of your next turn:
 - Calistus Stance
@@ -485,27 +576,27 @@ This ability may only be taken by one model in your army, and cannot be taken al
 A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, and may never have more than one issued to it in one turn.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Rendax Stance" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="aebd-d2bd-033b-3df6">
+    <profile name="Rendax Stance" id="aebd-d2bd-033b-3df6" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">All melee attacks made by this model gain the Rending special rule.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Dacatarai Stance" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="2c87-2586-3e88-d175">
+    <profile name="Dacatarai Stance" id="2c87-2586-3e88-d175" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This model increases its Attacks by 2, but decreases its Strength by 1.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Kaptaris Stance" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="b0ce-8950-e050-041d">
+    <profile name="Kaptaris Stance" id="b0ce-8950-e050-041d" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This model adds 2 to its Initiative and gains the Counter-Attack special rule.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Calistus Stance" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="45f5-8a8c-4ccb-e5e6">
+    <profile name="Calistus Stance" id="45f5-8a8c-4ccb-e5e6" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This model gains the Hit and Run and Move Through Cover special rules.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Venatari Custodian" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="5ec8-43e5-46dc-97f1">
+    <profile name="Venatari Custodian" id="5ec8-43e5-46dc-97f1" hidden="false" typeId="0967-823d-dd82-4e47" typeName="Unit">
       <characteristics>
         <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
         <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">5</characteristic>
@@ -518,12 +609,12 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+ (5++)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Tarsus Buckler" typeId="456a-26d9-cb27-bd5c" typeName="Wargear" hidden="false" id="1d59-ff82-8b89-449d">
+    <profile name="Tarsus Buckler" id="1d59-ff82-8b89-449d" hidden="false" typeId="456a-26d9-cb27-bd5c" typeName="Wargear">
       <characteristics>
         <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">A Tarsus Buckler confers a 4+ Invulnerable Save to the bearer.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Kinetic Destroyer" typeId="8e6f-7553-28c5-95a0" typeName="Weapons" hidden="false" id="820d-0f36-c8cf-d841">
+    <profile name="Kinetic Destroyer" id="820d-0f36-c8cf-d841" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
       <characteristics>
         <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
         <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
@@ -532,7 +623,7 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
-    <profile name="Sister of Silence" typeId="0967-823d-dd82-4e47" typeName="Unit" hidden="false" id="9d5e-ebe3-4d2e-f4ca">
+    <profile name="Sister of Silence" id="9d5e-ebe3-4d2e-f4ca" hidden="false" typeId="0967-823d-dd82-4e47" typeName="Unit">
       <characteristics>
         <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">4</characteristic>
         <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
@@ -545,9 +636,35 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
       </characteristics>
     </profile>
-    <profile name="Null" typeId="ccb3-7790-3139-7975" typeName="Abilities" hidden="false" id="4500-78e5-94fd-8326">
+    <profile name="Null" id="4500-78e5-94fd-8326" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Enemy models within 12&quot; of a Sister of Silence suffer -1 to their Leadership when resolving Psychic tests. This is increased to -2 Leadership if they are within 6&quot;.</characteristic>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Enemy models within 12&quot; of a Sister of Silence suffer -1 to their Leadership when resolving Psychic tests. This is increased to -2 Leadership if they are within engagement range.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Psyk-Out Grenades" id="8674-9295-cd0d-00c6" hidden="false" typeId="456a-26d9-cb27-bd5c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">At the beginning of the shooting phase, any unit equipped with Psyk-Out Grenades may select an enemy unit within 8&quot;. If the target unit contains any Psyker models, one of those models immediately takes a Leadership test at -2. 
+
+
+Should it fail the leadership test, it will immediately take a wound for which no saving throws may be made.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Witchbane" id="aced-fb03-c0ac-7087" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">During an assault, all attacks made by this model against targets that have psychic powers will always wound on a 2+.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Knight-Centura" id="d71f-254a-f810-94b6" hidden="false" typeId="0967-823d-dd82-4e47" typeName="Unit">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">5</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">4</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">3</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">3</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">2</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">4</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -557,149 +674,149 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Castellan Axe" hidden="false" id="db55-4375-03d6-2bcf">
+    <selectionEntry name="Castellan Axe" id="db55-4375-03d6-2bcf" hidden="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink name="Auric Bolter" id="760d-d2a0-f184-1e77" hidden="false" type="profile" targetId="9e4f-575c-26ad-9900"/>
-        <infoLink name="Castellan Axe" id="239c-2776-4166-fec0" hidden="false" type="profile" targetId="e58c-f2b8-cf47-4077"/>
+        <infoLink name="Auric Bolter" id="760d-d2a0-f184-1e77" hidden="false" targetId="9e4f-575c-26ad-9900" type="profile"/>
+        <infoLink name="Castellan Axe" id="239c-2776-4166-fec0" hidden="false" targetId="e58c-f2b8-cf47-4077" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Guardian Spear" hidden="false" id="87e5-8aac-f7d2-f637">
+    <selectionEntry name="Guardian Spear" id="87e5-8aac-f7d2-f637" hidden="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink name="Auric Bolter" id="16db-30ca-3f62-27d0" hidden="false" type="profile" targetId="9e4f-575c-26ad-9900"/>
-        <infoLink name="Guardian Spear" id="be18-89b1-34b0-f3d7" hidden="false" type="profile" targetId="2346-74e5-e85d-610b"/>
+        <infoLink name="Auric Bolter" id="16db-30ca-3f62-27d0" hidden="false" targetId="9e4f-575c-26ad-9900" type="profile"/>
+        <infoLink name="Guardian Spear" id="be18-89b1-34b0-f3d7" hidden="false" targetId="2346-74e5-e85d-610b" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Sentinel Blade" hidden="false" id="637a-bab5-0a1f-8d42">
+    <selectionEntry name="Sentinel Blade" id="637a-bab5-0a1f-8d42" hidden="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink name="Auric Bolt Pistol" id="9c69-8492-5e3f-54f3" hidden="false" type="profile" targetId="0b8e-ba23-a9a8-fddd"/>
-        <infoLink name="Power Weapon" id="eb75-4529-450e-b18b" hidden="false" type="profile" targetId="31dd-6647-d267-e3c2"/>
+        <infoLink name="Auric Bolt Pistol" id="9c69-8492-5e3f-54f3" hidden="false" targetId="0b8e-ba23-a9a8-fddd" type="profile"/>
+        <infoLink name="Power Weapon" id="eb75-4529-450e-b18b" hidden="false" targetId="31dd-6647-d267-e3c2" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Sentinel Blade and Praesidium Shield" hidden="false" id="2640-57f3-1cd4-953e">
+    <selectionEntry name="Sentinel Blade and Praesidium Shield" id="2640-57f3-1cd4-953e" hidden="false" import="true" type="upgrade">
       <entryLinks>
-        <entryLink import="true" name="Sentinel Blade" hidden="false" id="f29b-1290-f8a3-9ed8" type="selectionEntry" targetId="637a-bab5-0a1f-8d42">
+        <entryLink name="Sentinel Blade" id="f29b-1290-f8a3-9ed8" hidden="false" import="true" targetId="637a-bab5-0a1f-8d42" type="selectionEntry">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e8f0-15cd-a587-3412-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e8f0-15cd-a587-3412-max" includeChildSelections="false"/>
+            <constraint id="e8f0-15cd-a587-3412-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="e8f0-15cd-a587-3412-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </entryLink>
       </entryLinks>
+      <modifiers>
+        <modifier affects="profiles.Unit" field="c1e7-f1bd-8acd-7595" scope="parent" type="set" value="2+ (3++)"/>
+      </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Praesidium Shield" hidden="false" id="e907-7ea2-f067-036c">
-          <infoLinks>
-            <infoLink name="Storm Shield" id="f3b6-ee0d-2f21-a1d0" hidden="false" type="profile" targetId="5567-540d-ea70-31b2"/>
-          </infoLinks>
+        <selectionEntry name="Praesidium Shield" id="e907-7ea2-f067-036c" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="35ed-02b4-899d-18e9"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e0e-6bc1-fc3b-838d"/>
+            <constraint id="35ed-02b4-899d-18e9" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="1e0e-6bc1-fc3b-838d" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Storm Shield" id="f3b6-ee0d-2f21-a1d0" hidden="false" targetId="5567-540d-ea70-31b2" type="profile"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
-      <modifiers>
-        <modifier type="set" value="2+ (3++)" field="c1e7-f1bd-8acd-7595" scope="parent" affects="profiles.Unit"/>
-      </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Eternity Blade" hidden="false" id="3724-da2b-a30b-9e52">
+    <selectionEntry name="Eternity Blade" id="3724-da2b-a30b-9e52" hidden="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink name="Eternity Blade" id="089f-69a9-50a1-23a3" hidden="false" type="profile" targetId="8b6c-3eee-fac7-b576"/>
+        <infoLink name="Eternity Blade" id="089f-69a9-50a1-23a3" hidden="false" targetId="8b6c-3eee-fac7-b576" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Vexilla" hidden="false" id="c21f-3f3a-46ab-9805">
+    <selectionEntry name="Vexilla" id="c21f-3f3a-46ab-9805" hidden="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink name="Vexilla" id="098c-432e-d319-936c" hidden="false" type="profile" targetId="635c-7a38-1032-4e90"/>
+        <infoLink name="Vexilla" id="098c-432e-d319-936c" hidden="false" targetId="635c-7a38-1032-4e90" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Custodian Guard" hidden="false" id="ad3f-6453-3205-5359" defaultAmount="3">
-      <infoLinks>
-        <infoLink name="Auramite Armor" id="1a2c-5feb-a5d5-506b" hidden="false" type="profile" targetId="9406-f42c-ca79-e645"/>
-        <infoLink name="Eternal Warrior" id="3b7a-f1b1-a969-3853" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
-        <infoLink name="Fearless" id="5afa-9c1a-8f3c-9573" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
-        <infoLink name="Custodian Guard" id="fb7b-88f9-1c0d-3000" hidden="false" type="profile" targetId="740a-8547-a7b8-ef74"/>
-        <infoLink name="Only In Death" id="4166-9013-c94c-e902" hidden="false" type="rule" targetId="a226-a827-1018-b8bf"/>
-      </infoLinks>
+    <selectionEntry name="Custodian Guard" id="ad3f-6453-3205-5359" defaultAmount="3" hidden="false" import="true" type="model">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="80"/>
       </costs>
+      <infoLinks>
+        <infoLink name="Auramite Armor" id="1a2c-5feb-a5d5-506b" hidden="false" targetId="9406-f42c-ca79-e645" type="profile"/>
+        <infoLink name="Eternal Warrior" id="3b7a-f1b1-a969-3853" hidden="false" targetId="0fcb-3f5f-22f7-bffd" type="profile"/>
+        <infoLink name="Fearless" id="5afa-9c1a-8f3c-9573" hidden="false" targetId="1380-eda3-7a3b-055c" type="profile"/>
+        <infoLink name="Custodian Guard" id="fb7b-88f9-1c0d-3000" hidden="false" targetId="740a-8547-a7b8-ef74" type="profile"/>
+        <infoLink name="Only In Death" id="4166-9013-c94c-e902" hidden="false" targetId="a226-a827-1018-b8bf" type="rule"/>
+      </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="May be equipped with:" id="6de7-947c-1c49-5f3d" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="a4de-20ad-f355-7f70">
+            <selectionEntry name="Misericordia" id="a4de-20ad-f355-7f70" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="48e0-ad6c-33ad-85a0" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
               </costs>
               <infoLinks>
-                <infoLink name="Misericordia" id="35f7-a7f6-e4a2-a8f7" hidden="false" type="profile" targetId="1508-6096-5ba2-6ee3"/>
+                <infoLink name="Misericordia" id="35f7-a7f6-e4a2-a8f7" hidden="false" targetId="1508-6096-5ba2-6ee3" type="profile"/>
               </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="48e0-ad6c-33ad-85a0"/>
-              </constraints>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Equipped with one of the following:" id="008c-092a-841c-780c" hidden="false" defaultSelectionEntryId="db62-76d1-2fcc-9cb4">
+        <selectionEntryGroup name="Equipped with one of the following:" id="008c-092a-841c-780c" defaultSelectionEntryId="db62-76d1-2fcc-9cb4" hidden="false">
+          <constraints>
+            <constraint id="14bf-0ca0-8304-ab4e" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="4ebd-2fe6-8eec-fd0a" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
           <entryLinks>
-            <entryLink import="true" name="Guardian Spear" hidden="false" id="db62-76d1-2fcc-9cb4" type="selectionEntry" targetId="87e5-8aac-f7d2-f637" defaultAmount="1"/>
-            <entryLink import="true" name="Sentinel Blade and Praesidium Shield" hidden="false" id="0be2-bd3b-414b-7496" type="selectionEntry" targetId="2640-57f3-1cd4-953e">
+            <entryLink name="Guardian Spear" id="db62-76d1-2fcc-9cb4" defaultAmount="1" hidden="false" import="true" targetId="87e5-8aac-f7d2-f637" type="selectionEntry"/>
+            <entryLink name="Sentinel Blade and Praesidium Shield" id="0be2-bd3b-414b-7496" hidden="false" import="true" targetId="2640-57f3-1cd4-953e" type="selectionEntry">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
               </costs>
             </entryLink>
           </entryLinks>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="14bf-0ca0-8304-ab4e" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ebd-2fe6-8eec-fd0a" includeChildSelections="false"/>
-          </constraints>
         </selectionEntryGroup>
         <selectionEntryGroup name="One model may take:" id="7368-2e14-c087-fdc7" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Vexilla" hidden="false" id="2091-fb66-410b-cdaa" type="selectionEntry" targetId="c21f-3f3a-46ab-9805">
+            <entryLink name="Vexilla" id="2091-fb66-410b-cdaa" hidden="false" import="true" targetId="c21f-3f3a-46ab-9805" type="selectionEntry">
+              <constraints>
+                <constraint id="471b-2725-3169-8601" field="selections" includeChildSelections="false" scope="root-entry" shared="true" type="max" value="1"/>
+              </constraints>
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
               </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="471b-2725-3169-8601" includeChildSelections="false"/>
-              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Custodian Warden" hidden="false" id="4be2-b54f-cab6-1e26" defaultAmount="3">
-      <infoLinks>
-        <infoLink name="Auramite Armor" id="b6b5-4d82-d063-da31" hidden="false" type="profile" targetId="9406-f42c-ca79-e645"/>
-        <infoLink name="Eternal Warrior" id="37d1-cb6e-cd6c-6ee2" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
-        <infoLink name="Fearless" id="b004-f642-7479-ea4f" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
-        <infoLink name="Custodian Warden" id="55f3-f1f4-4809-8578" hidden="false" type="profile" targetId="e855-654a-8260-e71d"/>
-        <infoLink name="Only In Death" id="670b-199b-818a-bef4" hidden="false" type="rule" targetId="a226-a827-1018-b8bf"/>
-        <infoLink name="Feel No Pain" id="e727-24e2-8c41-d7fc" hidden="false" type="profile" targetId="d22d-ca74-1014-8212"/>
-      </infoLinks>
+    <selectionEntry name="Custodian Warden" id="4be2-b54f-cab6-1e26" defaultAmount="3" hidden="false" import="true" type="model">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="90"/>
       </costs>
+      <infoLinks>
+        <infoLink name="Auramite Armor" id="b6b5-4d82-d063-da31" hidden="false" targetId="9406-f42c-ca79-e645" type="profile"/>
+        <infoLink name="Eternal Warrior" id="37d1-cb6e-cd6c-6ee2" hidden="false" targetId="0fcb-3f5f-22f7-bffd" type="profile"/>
+        <infoLink name="Fearless" id="b004-f642-7479-ea4f" hidden="false" targetId="1380-eda3-7a3b-055c" type="profile"/>
+        <infoLink name="Custodian Warden" id="55f3-f1f4-4809-8578" hidden="false" targetId="e855-654a-8260-e71d" type="profile"/>
+        <infoLink name="Only In Death" id="670b-199b-818a-bef4" hidden="false" targetId="a226-a827-1018-b8bf" type="rule"/>
+        <infoLink name="Feel No Pain" id="e727-24e2-8c41-d7fc" hidden="false" targetId="d22d-ca74-1014-8212" type="profile"/>
+      </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="May be equipped with:" id="b8df-e9e3-ea8e-4fb6" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="4984-9201-51ab-eb59">
+            <selectionEntry name="Misericordia" id="4984-9201-51ab-eb59" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="34af-9e91-8d12-2d98" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
               </costs>
               <infoLinks>
-                <infoLink name="Misericordia" id="87df-6713-48b4-9e9a" hidden="false" type="profile" targetId="1508-6096-5ba2-6ee3"/>
+                <infoLink name="Misericordia" id="87df-6713-48b4-9e9a" hidden="false" targetId="1508-6096-5ba2-6ee3" type="profile"/>
               </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="34af-9e91-8d12-2d98"/>
-              </constraints>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Equipped with one of the following:" id="9d39-3c76-bdb9-a505" hidden="false" defaultSelectionEntryId="9c3a-2fb1-fecb-7283">
+        <selectionEntryGroup name="Equipped with one of the following:" id="9d39-3c76-bdb9-a505" defaultSelectionEntryId="9c3a-2fb1-fecb-7283" hidden="false">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e95d-929c-880f-d025"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b238-ef55-b1ea-1f25"/>
+            <constraint id="e95d-929c-880f-d025" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="b238-ef55-b1ea-1f25" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Guardian Spear" hidden="false" id="9c3a-2fb1-fecb-7283" type="selectionEntry" targetId="87e5-8aac-f7d2-f637" defaultAmount="1"/>
-            <entryLink import="true" name="Castellan Axe" hidden="false" id="0035-82d6-1be8-cb70" type="selectionEntry" targetId="db55-4375-03d6-2bcf">
+            <entryLink name="Guardian Spear" id="9c3a-2fb1-fecb-7283" defaultAmount="1" hidden="false" import="true" targetId="87e5-8aac-f7d2-f637" type="selectionEntry"/>
+            <entryLink name="Castellan Axe" id="0035-82d6-1be8-cb70" hidden="false" import="true" targetId="db55-4375-03d6-2bcf" type="selectionEntry">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
               </costs>
@@ -708,153 +825,160 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         </selectionEntryGroup>
         <selectionEntryGroup name="One model may take:" id="7587-5778-795a-9c24" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="Vexilla" hidden="false" id="7ea5-479d-80c0-43e3" type="selectionEntry" targetId="c21f-3f3a-46ab-9805">
+            <entryLink name="Vexilla" id="7ea5-479d-80c0-43e3" hidden="false" import="true" targetId="c21f-3f3a-46ab-9805" type="selectionEntry">
+              <constraints>
+                <constraint id="019d-0b67-0dc1-6911" field="selections" includeChildSelections="false" scope="root-entry" shared="true" type="max" value="1"/>
+              </constraints>
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
               </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="019d-0b67-0dc1-6911" includeChildSelections="false"/>
-              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Blade Champion" hidden="false" id="feda-4390-7693-9706">
+    <selectionEntry name="Blade Champion" id="feda-4390-7693-9706" hidden="false" import="true" type="model">
+      <constraints>
+        <constraint id="104e-a1e7-8ba6-6586" field="selections" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="8c41-d60a-2dc6-3235" field="selections" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="180"/>
       </costs>
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="104e-a1e7-8ba6-6586"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c41-d60a-2dc6-3235"/>
-      </constraints>
       <infoLinks>
-        <infoLink name="Only In Death" id="f125-10d7-0e42-c74f" hidden="false" type="rule" targetId="a226-a827-1018-b8bf"/>
-        <infoLink name="Martial Ka&apos;tah" id="0582-14c9-03b2-7b74" hidden="false" type="profile" targetId="66a4-eb78-7ea4-8b78"/>
-        <infoLink name="Independent Character" id="afbe-d051-8d15-8043" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
-        <infoLink name="Golden Fortitude" id="6f26-a631-589b-f674" hidden="false" type="profile" targetId="c5e9-ede3-9a5f-3a3a"/>
-        <infoLink name="Fearless" id="e0e7-048b-2b07-00ba" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
-        <infoLink name="Eternal Warrior" id="108a-8284-89c2-607a" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
-        <infoLink name="Auramite Armor" id="d1a4-81cf-744d-0cf1" hidden="false" type="profile" targetId="9406-f42c-ca79-e645"/>
-        <infoLink name="Blade Champion" id="c3d0-debb-b555-d294" hidden="false" type="profile" targetId="1be4-7aaf-198d-2a56"/>
-        <infoLink name="Furious Charge" id="e232-6772-a1c8-57f8" hidden="false" type="profile" targetId="8f63-946f-5992-31e0"/>
+        <infoLink name="Only In Death" id="f125-10d7-0e42-c74f" hidden="false" targetId="a226-a827-1018-b8bf" type="rule"/>
+        <infoLink name="Martial Ka&apos;tah" id="0582-14c9-03b2-7b74" hidden="false" targetId="66a4-eb78-7ea4-8b78" type="profile"/>
+        <infoLink name="Independent Character" id="afbe-d051-8d15-8043" hidden="false" targetId="db9c-91d8-5b8a-ee16" type="profile"/>
+        <infoLink name="Golden Fortitude" id="6f26-a631-589b-f674" hidden="false" targetId="c5e9-ede3-9a5f-3a3a" type="profile"/>
+        <infoLink name="Fearless" id="e0e7-048b-2b07-00ba" hidden="false" targetId="1380-eda3-7a3b-055c" type="profile"/>
+        <infoLink name="Eternal Warrior" id="108a-8284-89c2-607a" hidden="false" targetId="0fcb-3f5f-22f7-bffd" type="profile"/>
+        <infoLink name="Auramite Armor" id="d1a4-81cf-744d-0cf1" hidden="false" targetId="9406-f42c-ca79-e645" type="profile"/>
+        <infoLink name="Blade Champion" id="c3d0-debb-b555-d294" hidden="false" targetId="1be4-7aaf-198d-2a56" type="profile"/>
+        <infoLink name="Furious Charge" id="e232-6772-a1c8-57f8" hidden="false" targetId="8f63-946f-5992-31e0" type="profile"/>
       </infoLinks>
+      <selectionEntries>
+        <selectionEntry name="Eternity Blade" id="371c-1fe3-fcfc-2c49" defaultAmount="0" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="a673-2d37-9dde-df20-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="a673-2d37-9dde-df20-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Eternity Blade" id="4354-900b-d75e-9e00" hidden="false" targetId="8b6c-3eee-fac7-b576" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="May take any one of the following Exemplar traits:" id="0657-b673-d312-38c8" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="HQ Exemplar Traits" hidden="false" id="784a-6aff-6de2-6ccc" type="selectionEntryGroup" targetId="f20f-d73e-cd99-f6f0" flatten="true"/>
+            <entryLink name="HQ Exemplar Traits" id="784a-6aff-6de2-6ccc" flatten="true" hidden="false" import="true" targetId="f20f-d73e-cd99-f6f0" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="May take an additional Eternity Blade" id="7f62-8f8f-c1a4-b0df" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Eternity Blade" hidden="false" id="41cd-52d8-2236-a2ec" defaultAmount="0">
+            <selectionEntry name="Eternity Blade" id="41cd-52d8-2236-a2ec" defaultAmount="0" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="c216-ea88-0eaf-3366" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c216-ea88-0eaf-3366"/>
-              </constraints>
               <infoLinks>
-                <infoLink name="Eternity Blade" id="a04b-4085-77c6-98f8" hidden="false" type="profile" targetId="8b6c-3eee-fac7-b576"/>
+                <infoLink name="Eternity Blade" id="a04b-4085-77c6-98f8" hidden="false" targetId="8b6c-3eee-fac7-b576" type="profile"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Eternity Blade" hidden="false" id="371c-1fe3-fcfc-2c49" defaultAmount="0">
-          <costs>
-            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
-          </costs>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a673-2d37-9dde-df20-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a673-2d37-9dde-df20-max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink name="Eternity Blade" id="4354-900b-d75e-9e00" hidden="false" type="profile" targetId="8b6c-3eee-fac7-b576"/>
-          </infoLinks>
-        </selectionEntry>
-      </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Shield Captain" hidden="false" id="3dfe-5f7c-4f05-339e" defaultAmount="1">
+    <selectionEntry name="Shield Captain" id="3dfe-5f7c-4f05-339e" defaultAmount="1" hidden="false" import="true" type="model">
+      <constraints>
+        <constraint id="67cb-1ab0-8aa2-e62f" field="selections" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="1e04-479d-565f-96ec" field="selections" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="165"/>
+      </costs>
       <infoLinks>
-        <infoLink name="Shield Captain" id="a607-654a-09e8-4515" hidden="false" type="profile" targetId="b59e-b91a-a636-b64a"/>
-        <infoLink name="Auramite Armor" id="c5fc-b749-bac3-18f2" hidden="false" type="profile" targetId="9406-f42c-ca79-e645"/>
-        <infoLink name="Eternal Warrior" id="55ee-0faa-d3f6-ed6a" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
-        <infoLink name="Fearless" id="60ea-4f04-06a4-64e8" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
-        <infoLink name="Independent Character" id="85a6-2235-dcd4-4ba8" hidden="false" type="profile" targetId="db9c-91d8-5b8a-ee16"/>
-        <infoLink name="Golden Fortitude" id="ef4a-9631-9ac7-57ac" hidden="false" type="profile" targetId="c5e9-ede3-9a5f-3a3a"/>
-        <infoLink name="Martial Ka&apos;tah" id="1c7e-b307-5c44-e222" hidden="false" type="profile" targetId="66a4-eb78-7ea4-8b78"/>
-        <infoLink name="Only In Death" id="3601-2f76-c07b-77df" hidden="false" type="rule" targetId="a226-a827-1018-b8bf"/>
+        <infoLink name="Shield Captain" id="a607-654a-09e8-4515" hidden="false" targetId="b59e-b91a-a636-b64a" type="profile"/>
+        <infoLink name="Auramite Armor" id="c5fc-b749-bac3-18f2" hidden="false" targetId="9406-f42c-ca79-e645" type="profile"/>
+        <infoLink name="Eternal Warrior" id="55ee-0faa-d3f6-ed6a" hidden="false" targetId="0fcb-3f5f-22f7-bffd" type="profile"/>
+        <infoLink name="Fearless" id="60ea-4f04-06a4-64e8" hidden="false" targetId="1380-eda3-7a3b-055c" type="profile"/>
+        <infoLink name="Independent Character" id="85a6-2235-dcd4-4ba8" hidden="false" targetId="db9c-91d8-5b8a-ee16" type="profile"/>
+        <infoLink name="Golden Fortitude" id="ef4a-9631-9ac7-57ac" hidden="false" targetId="c5e9-ede3-9a5f-3a3a" type="profile"/>
+        <infoLink name="Martial Ka&apos;tah" id="1c7e-b307-5c44-e222" hidden="false" targetId="66a4-eb78-7ea4-8b78" type="profile"/>
+        <infoLink name="Only In Death" id="3601-2f76-c07b-77df" hidden="false" targetId="a226-a827-1018-b8bf" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="May take any one of the following Exemplar traits:" id="6753-0199-ec7d-d330" hidden="false">
           <entryLinks>
-            <entryLink import="true" name="HQ Exemplar Traits" hidden="false" id="f023-d0e6-d20c-61db" type="selectionEntryGroup" targetId="f20f-d73e-cd99-f6f0" flatten="true"/>
+            <entryLink name="HQ Exemplar Traits" id="f023-d0e6-d20c-61db" flatten="true" hidden="false" import="true" targetId="f20f-d73e-cd99-f6f0" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="May take:" id="03c8-d643-30ac-0c3d" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Arae Shrike" hidden="false" id="2866-6497-5ddc-b324">
+            <selectionEntry name="Arae Shrike" id="2866-6497-5ddc-b324" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="fe2b-9728-785f-95a2" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arae Shrike" id="bb3f-8616-b0cc-66e4" hidden="false" type="profile" targetId="cd7d-56f3-0dbd-4e8e"/>
+                <infoLink name="Arae Shrike" id="bb3f-8616-b0cc-66e4" hidden="false" targetId="cd7d-56f3-0dbd-4e8e" type="profile"/>
               </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe2b-9728-785f-95a2"/>
-              </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Praesidium Shield" hidden="false" id="2915-2a2b-6414-a18e">
+            <selectionEntry name="Praesidium Shield" id="2915-2a2b-6414-a18e" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="bb65-21f5-5de1-56da" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
               </costs>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb65-21f5-5de1-56da"/>
-              </constraints>
               <infoLinks>
-                <infoLink name="Storm Shield" id="eae8-b30e-a573-25bf" hidden="false" type="profile" targetId="5567-540d-ea70-31b2"/>
+                <infoLink name="Storm Shield" id="eae8-b30e-a573-25bf" hidden="false" targetId="5567-540d-ea70-31b2" type="profile"/>
               </infoLinks>
               <modifiers>
-                <modifier type="set" value="2+ (3++)" field="c1e7-f1bd-8acd-7595" scope="parent" affects="self.profiles.Unit"/>
+                <modifier affects="self.profiles.Unit" field="c1e7-f1bd-8acd-7595" scope="parent" type="set" value="2+ (3++)"/>
               </modifiers>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup name="May be equipped with:" id="403e-7ac6-d458-ae4e" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="db11-2979-99d0-2d72">
+            <selectionEntry name="Misericordia" id="db11-2979-99d0-2d72" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="d619-9ed7-8b36-93a3" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
               </costs>
               <infoLinks>
-                <infoLink name="Misericordia" id="aa93-e2d7-7235-3eb9" hidden="false" type="profile" targetId="1508-6096-5ba2-6ee3"/>
+                <infoLink name="Misericordia" id="aa93-e2d7-7235-3eb9" hidden="false" targetId="1508-6096-5ba2-6ee3" type="profile"/>
               </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d619-9ed7-8b36-93a3"/>
-              </constraints>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Equipped with one of the following:" id="284c-e5ec-d393-ab2c" hidden="false" defaultSelectionEntryId="5b4d-f2ce-b09e-b752">
+        <selectionEntryGroup name="Equipped with one of the following:" id="284c-e5ec-d393-ab2c" defaultSelectionEntryId="5b4d-f2ce-b09e-b752" hidden="false">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c3aa-e8f5-725a-a38e"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="50d6-8b8e-8159-7281"/>
+            <constraint id="c3aa-e8f5-725a-a38e" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="50d6-8b8e-8159-7281" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Guardian Spear" hidden="false" id="5b4d-f2ce-b09e-b752" type="selectionEntry" targetId="87e5-8aac-f7d2-f637" defaultAmount="1"/>
-            <entryLink import="true" name="Castellan Axe" hidden="false" id="59b8-a7de-02fa-376c" type="selectionEntry" targetId="db55-4375-03d6-2bcf">
+            <entryLink name="Guardian Spear" id="5b4d-f2ce-b09e-b752" defaultAmount="1" hidden="false" import="true" targetId="87e5-8aac-f7d2-f637" type="selectionEntry"/>
+            <entryLink name="Castellan Axe" id="59b8-a7de-02fa-376c" hidden="false" import="true" targetId="db55-4375-03d6-2bcf" type="selectionEntry">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Eternity Blade" hidden="false" id="2bbf-4e27-75d9-52bd" type="selectionEntry" targetId="3724-da2b-a30b-9e52">
+            <entryLink name="Eternity Blade" id="2bbf-4e27-75d9-52bd" hidden="false" import="true" targetId="3724-da2b-a30b-9e52" type="selectionEntry">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Pyrithite Spear" hidden="false" id="f40c-1fca-602f-0381" type="selectionEntry" targetId="fd7b-cd21-96ab-a86b">
+            <entryLink name="Pyrithite Spear" id="f40c-1fca-602f-0381" hidden="false" import="true" targetId="fd7b-cd21-96ab-a86b" type="selectionEntry">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
               </costs>
@@ -862,339 +986,408 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <costs>
-        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="165"/>
-      </costs>
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="67cb-1ab0-8aa2-e62f"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e04-479d-565f-96ec"/>
-      </constraints>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Allarus Custodian" hidden="false" id="5e6b-31ec-8500-5c2a" defaultAmount="3">
-      <infoLinks>
-        <infoLink name="Eternal Warrior" id="41c5-a19e-969a-b032" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
-        <infoLink name="Fearless" id="3062-a57d-a366-d749" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
-        <infoLink name="Only In Death" id="4a24-3ed1-d79f-f075" hidden="false" type="rule" targetId="a226-a827-1018-b8bf"/>
-        <infoLink name="Adamantite Terminator Armor" id="360c-dc7f-8209-0a62" hidden="false" type="profile" targetId="0650-4bd3-48ee-0764"/>
-        <infoLink name="Allarus Custodian" id="123f-a7e3-db57-c340" hidden="false" type="profile" targetId="0ab3-29a0-cb26-a8e0"/>
-        <infoLink name="Unleash the Lions" id="c72f-590b-85dc-fccc" hidden="false" type="profile" targetId="92c4-925a-34d9-43fa"/>
-      </infoLinks>
+    <selectionEntry name="Allarus Custodian" id="5e6b-31ec-8500-5c2a" defaultAmount="3" hidden="false" import="true" type="model">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="100"/>
       </costs>
+      <entryLinks>
+        <entryLink name="Ballistus Grenade Launcher" id="ed56-2f42-1490-326c" hidden="false" import="true" targetId="0b02-4cf5-54dc-c9d8" type="selectionEntry">
+          <constraints>
+            <constraint id="da24-cb33-dcbb-30cc-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="da24-cb33-dcbb-30cc-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Eternal Warrior" id="41c5-a19e-969a-b032" hidden="false" targetId="0fcb-3f5f-22f7-bffd" type="profile"/>
+        <infoLink name="Fearless" id="3062-a57d-a366-d749" hidden="false" targetId="1380-eda3-7a3b-055c" type="profile"/>
+        <infoLink name="Only In Death" id="4a24-3ed1-d79f-f075" hidden="false" targetId="a226-a827-1018-b8bf" type="rule"/>
+        <infoLink name="Adamantite Terminator Armor" id="360c-dc7f-8209-0a62" hidden="false" targetId="0650-4bd3-48ee-0764" type="profile"/>
+        <infoLink name="Allarus Custodian" id="123f-a7e3-db57-c340" hidden="false" targetId="0ab3-29a0-cb26-a8e0" type="profile"/>
+        <infoLink name="Unleash the Lions" id="c72f-590b-85dc-fccc" hidden="false" targetId="92c4-925a-34d9-43fa" type="profile"/>
+      </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="May be equipped with:" id="1b04-2fbc-0f44-c68a" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="6f22-ee96-4483-96b9">
+            <selectionEntry name="Misericordia" id="6f22-ee96-4483-96b9" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="f02d-f466-14e7-c456" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
               </costs>
               <infoLinks>
-                <infoLink name="Misericordia" id="acac-395d-7308-65f8" hidden="false" type="profile" targetId="1508-6096-5ba2-6ee3"/>
+                <infoLink name="Misericordia" id="acac-395d-7308-65f8" hidden="false" targetId="1508-6096-5ba2-6ee3" type="profile"/>
               </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f02d-f466-14e7-c456"/>
-              </constraints>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup name="Equipped with one of the following:" id="2617-b323-54e1-f2d0" hidden="false">
+          <constraints>
+            <constraint id="ab0c-f79d-8aee-4be7" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="5c88-7d53-cc57-ab8d" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
           <entryLinks>
-            <entryLink import="true" name="Guardian Spear" hidden="false" id="f80a-9694-a591-5855" type="selectionEntry" targetId="87e5-8aac-f7d2-f637" defaultAmount="1"/>
-            <entryLink import="true" name="Castellan Axe" hidden="false" id="0b5a-36e2-95ff-e955" type="selectionEntry" targetId="db55-4375-03d6-2bcf">
+            <entryLink name="Guardian Spear" id="f80a-9694-a591-5855" defaultAmount="1" hidden="false" import="true" targetId="87e5-8aac-f7d2-f637" type="selectionEntry"/>
+            <entryLink name="Castellan Axe" id="0b5a-36e2-95ff-e955" hidden="false" import="true" targetId="db55-4375-03d6-2bcf" type="selectionEntry">
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
               </costs>
             </entryLink>
           </entryLinks>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ab0c-f79d-8aee-4be7" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c88-7d53-cc57-ab8d" includeChildSelections="false"/>
-          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink import="true" name="Ballistus Grenade Launcher" hidden="false" id="ed56-2f42-1490-326c" type="selectionEntry" targetId="0b02-4cf5-54dc-c9d8">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="da24-cb33-dcbb-30cc-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da24-cb33-dcbb-30cc-max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Vertus Praetor" hidden="false" id="d4c7-5ccf-51f3-5d70" defaultAmount="3">
-      <infoLinks>
-        <infoLink name="Auramite Armor" id="cb15-12a7-4973-4bd2" hidden="false" type="profile" targetId="9406-f42c-ca79-e645"/>
-        <infoLink name="Eternal Warrior" id="55e0-db83-2c90-2549" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
-        <infoLink name="Fearless" id="4341-8da2-7a82-4723" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
-        <infoLink name="Only In Death" id="3c6a-c586-b248-ad3f" hidden="false" type="rule" targetId="a226-a827-1018-b8bf"/>
-        <infoLink name="Jetbike" id="1e01-7b50-7a7c-00fe" hidden="false" type="rule" targetId="a523-0c5b-eb97-f0a0"/>
-        <infoLink name="Vertus Praetor" id="1f1d-930e-3d20-b545" hidden="false" type="profile" targetId="08ec-4e42-9132-61e7"/>
-      </infoLinks>
+    <selectionEntry name="Vertus Praetor" id="d4c7-5ccf-51f3-5d70" defaultAmount="3" hidden="false" import="true" type="model">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="120"/>
       </costs>
+      <entryLinks>
+        <entryLink name="Interceptor Lance" id="9e03-6d73-d046-0731" defaultAmount="1" hidden="false" import="true" targetId="3de1-11ae-1202-2af9" type="selectionEntry">
+          <constraints>
+            <constraint id="81fa-6d49-b8b5-89c9-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="81fa-6d49-b8b5-89c9-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Auramite Armor" id="cb15-12a7-4973-4bd2" hidden="false" targetId="9406-f42c-ca79-e645" type="profile"/>
+        <infoLink name="Eternal Warrior" id="55e0-db83-2c90-2549" hidden="false" targetId="0fcb-3f5f-22f7-bffd" type="profile"/>
+        <infoLink name="Fearless" id="4341-8da2-7a82-4723" hidden="false" targetId="1380-eda3-7a3b-055c" type="profile"/>
+        <infoLink name="Only In Death" id="3c6a-c586-b248-ad3f" hidden="false" targetId="a226-a827-1018-b8bf" type="rule"/>
+        <infoLink name="Jetbike" id="1e01-7b50-7a7c-00fe" hidden="false" targetId="a523-0c5b-eb97-f0a0" type="rule"/>
+        <infoLink name="Vertus Praetor" id="1f1d-930e-3d20-b545" hidden="false" targetId="08ec-4e42-9132-61e7" type="profile"/>
+      </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="May be equipped with:" id="f82c-41c0-24cc-a678" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="96d7-218f-3708-0cb0">
+            <selectionEntry name="Misericordia" id="96d7-218f-3708-0cb0" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="e8f0-acce-8eef-fcfc" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
               </costs>
               <infoLinks>
-                <infoLink name="Misericordia" id="ffcc-4cce-a170-3a53" hidden="false" type="profile" targetId="1508-6096-5ba2-6ee3"/>
+                <infoLink name="Misericordia" id="ffcc-4cce-a170-3a53" hidden="false" targetId="1508-6096-5ba2-6ee3" type="profile"/>
               </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e8f0-acce-8eef-fcfc"/>
-              </constraints>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Equipped with one of the following:" id="d9d3-1cd2-9a47-03b0" hidden="false" defaultSelectionEntryId="db62-76d1-2fcc-9cb4">
+        <selectionEntryGroup name="Equipped with one of the following:" id="d9d3-1cd2-9a47-03b0" defaultSelectionEntryId="db62-76d1-2fcc-9cb4" hidden="false">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9a90-45e8-4c9e-1541" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c6b-843f-63b1-9d4b" includeChildSelections="false"/>
+            <constraint id="9a90-45e8-4c9e-1541" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="0c6b-843f-63b1-9d4b" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Hurricane Bolter" hidden="false" id="a3c3-28e5-4fa9-09a7">
+            <selectionEntry name="Hurricane Bolter" id="a3c3-28e5-4fa9-09a7" hidden="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink name="Hurricane Bolter" id="7786-f97c-1346-c314" hidden="false" type="profile" targetId="e41f-e1ad-f76e-371b"/>
+                <infoLink name="Hurricane Bolter" id="7786-f97c-1346-c314" hidden="false" targetId="e41f-e1ad-f76e-371b" type="profile"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Salvo Launcher" hidden="false" id="554c-0fd5-03b4-e3ea">
+            <selectionEntry name="Salvo Launcher" id="554c-0fd5-03b4-e3ea" hidden="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink name="Salvo Launcher" id="b2a2-2cdb-0572-c6cf" hidden="false" type="profile" targetId="9861-87c9-d5fa-d184"/>
-                <infoLink name="Melta" id="7a79-c4af-eb02-f054" hidden="false" type="rule" targetId="01e6-4c3d-2e3b-c08c"/>
+                <infoLink name="Salvo Launcher" id="b2a2-2cdb-0572-c6cf" hidden="false" targetId="9861-87c9-d5fa-d184" type="profile"/>
+                <infoLink name="Melta" id="7a79-c4af-eb02-f054" hidden="false" targetId="01e6-4c3d-2e3b-c08c" type="rule"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink import="true" name="Interceptor Lance" hidden="false" id="9e03-6d73-d046-0731" type="selectionEntry" targetId="3de1-11ae-1202-2af9" defaultAmount="1">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="81fa-6d49-b8b5-89c9-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="81fa-6d49-b8b5-89c9-max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Interceptor Lance" hidden="false" id="3de1-11ae-1202-2af9">
+    <selectionEntry name="Interceptor Lance" id="3de1-11ae-1202-2af9" hidden="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink name="Interceptor Lance" id="3a6a-4c88-c62c-971b" hidden="false" type="profile" targetId="f4fc-af3f-b284-9e37"/>
+        <infoLink name="Interceptor Lance" id="3a6a-4c88-c62c-971b" hidden="false" targetId="f4fc-af3f-b284-9e37" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Pyrithite Spear" hidden="false" id="fd7b-cd21-96ab-a86b">
+    <selectionEntry name="Pyrithite Spear" id="fd7b-cd21-96ab-a86b" hidden="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink name="Pyrithite Spear" id="2d0c-d00c-eac2-5ec6" hidden="false" type="profile" targetId="3c0c-ee99-f1c7-2073"/>
-        <infoLink name="Meltagun" id="590b-0a5b-67ca-a1ce" hidden="false" type="profile" targetId="a9bc-3c46-8c3e-c07a"/>
+        <infoLink name="Pyrithite Spear" id="2d0c-d00c-eac2-5ec6" hidden="false" targetId="3c0c-ee99-f1c7-2073" type="profile"/>
+        <infoLink name="Meltagun" id="590b-0a5b-67ca-a1ce" hidden="false" targetId="a9bc-3c46-8c3e-c07a" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Tanglefoot Grenades" hidden="false" id="ba5d-20b4-fb6f-03f3">
+    <selectionEntry name="Tanglefoot Grenades" id="ba5d-20b4-fb6f-03f3" hidden="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink name="Tanglefoot Grenades" id="72dc-0478-9275-bbf0" hidden="false" type="profile" targetId="e59a-b1c3-e9d5-8bc4"/>
+        <infoLink name="Tanglefoot Grenades" id="72dc-0478-9275-bbf0" hidden="false" targetId="e59a-b1c3-e9d5-8bc4" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Ballistus Grenade Launcher" hidden="false" id="0b02-4cf5-54dc-c9d8">
+    <selectionEntry name="Ballistus Grenade Launcher" id="0b02-4cf5-54dc-c9d8" hidden="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink name="Ballistus Grenade Launcher" id="9e9f-b6d9-c5fc-d033" hidden="false" type="profile" targetId="bc08-5efb-be13-7880"/>
+        <infoLink name="Ballistus Grenade Launcher" id="9e9f-b6d9-c5fc-d033" hidden="false" targetId="bc08-5efb-be13-7880" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Saggitarum Custodian" hidden="false" id="fd5f-a840-a560-f896" defaultAmount="3">
-      <infoLinks>
-        <infoLink name="Auramite Armor" id="74c4-33fb-8e07-c659" hidden="false" type="profile" targetId="9406-f42c-ca79-e645"/>
-        <infoLink name="Eternal Warrior" id="583b-fd88-0455-073f" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
-        <infoLink name="Fearless" id="4e6d-0985-e80f-638b" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
-        <infoLink name="Custodian Guard" id="e26f-6516-ed9a-1943" hidden="false" type="profile" targetId="740a-8547-a7b8-ef74"/>
-        <infoLink name="Only In Death" id="bff6-195a-ddbd-daf0" hidden="false" type="rule" targetId="a226-a827-1018-b8bf"/>
-      </infoLinks>
+    <selectionEntry name="Saggitarum Custodian" id="fd5f-a840-a560-f896" defaultAmount="3" hidden="false" import="true" type="model">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="85"/>
       </costs>
+      <infoLinks>
+        <infoLink name="Auramite Armor" id="74c4-33fb-8e07-c659" hidden="false" targetId="9406-f42c-ca79-e645" type="profile"/>
+        <infoLink name="Eternal Warrior" id="583b-fd88-0455-073f" hidden="false" targetId="0fcb-3f5f-22f7-bffd" type="profile"/>
+        <infoLink name="Fearless" id="4e6d-0985-e80f-638b" hidden="false" targetId="1380-eda3-7a3b-055c" type="profile"/>
+        <infoLink name="Custodian Guard" id="e26f-6516-ed9a-1943" hidden="false" targetId="740a-8547-a7b8-ef74" type="profile"/>
+        <infoLink name="Only In Death" id="bff6-195a-ddbd-daf0" hidden="false" targetId="a226-a827-1018-b8bf" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry name="Adrastus Bolt Caliver" id="6ccb-b1ee-eedd-e44d" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="70f3-0eca-1116-ec34-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="70f3-0eca-1116-ec34-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Adrastus Bolt Caliver (Bolter)" id="c2cc-2a5c-9531-3822" hidden="false" targetId="7a96-4648-7dc0-d0fe" type="profile"/>
+            <infoLink name="Adrastus Bolt Caliver (Disintegrator)" id="7367-424b-a363-cc4f" hidden="false" targetId="e8d8-e064-3036-3b8e" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="May be equipped with:" id="d36e-80ac-8527-7207" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Misericordia" hidden="false" id="1aee-ed1c-dcc7-91fc">
+            <selectionEntry name="Misericordia" id="1aee-ed1c-dcc7-91fc" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="bf5a-58fc-d41e-b112" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
               <costs>
                 <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
               </costs>
               <infoLinks>
-                <infoLink name="Misericordia" id="a8d6-a3bc-fdcc-80d4" hidden="false" type="profile" targetId="1508-6096-5ba2-6ee3"/>
+                <infoLink name="Misericordia" id="a8d6-a3bc-fdcc-80d4" hidden="false" targetId="1508-6096-5ba2-6ee3" type="profile"/>
               </infoLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf5a-58fc-d41e-b112"/>
-              </constraints>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Adrastus Bolt Caliver" hidden="false" id="6ccb-b1ee-eedd-e44d">
-          <infoLinks>
-            <infoLink name="Adrastus Bolt Caliver (Bolter)" id="c2cc-2a5c-9531-3822" hidden="false" type="profile" targetId="7a96-4648-7dc0-d0fe"/>
-            <infoLink name="Adrastus Bolt Caliver (Disintegrator)" id="7367-424b-a363-cc4f" hidden="false" type="profile" targetId="e8d8-e064-3036-3b8e"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="70f3-0eca-1116-ec34-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70f3-0eca-1116-ec34-max" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Venatari Custodian" hidden="false" id="f41e-74f8-655c-d962">
-      <infoLinks>
-        <infoLink name="Auramite Armor" id="a68d-b187-f009-1c75" hidden="false" type="profile" targetId="9406-f42c-ca79-e645"/>
-        <infoLink name="Eternal Warrior" id="035d-4171-ff9d-28a9" hidden="false" type="profile" targetId="0fcb-3f5f-22f7-bffd"/>
-        <infoLink name="Fearless" id="bde8-afbc-00a9-6f49" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
-        <infoLink name="Only In Death" id="ae05-318c-ea1c-797d" hidden="false" type="rule" targetId="a226-a827-1018-b8bf"/>
-        <infoLink name="Jump Infantry" id="beee-ab50-4bc7-83b8" hidden="false" type="rule" targetId="4158-c955-9c2f-46f7"/>
-        <infoLink name="Venatari Custodian" id="50b7-dc34-bfac-156e" hidden="false" type="profile" targetId="5ec8-43e5-46dc-97f1"/>
-      </infoLinks>
+    <selectionEntry name="Venatari Custodian" id="f41e-74f8-655c-d962" hidden="false" import="true" type="model">
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="95"/>
       </costs>
+      <infoLinks>
+        <infoLink name="Auramite Armor" id="a68d-b187-f009-1c75" hidden="false" targetId="9406-f42c-ca79-e645" type="profile"/>
+        <infoLink name="Eternal Warrior" id="035d-4171-ff9d-28a9" hidden="false" targetId="0fcb-3f5f-22f7-bffd" type="profile"/>
+        <infoLink name="Fearless" id="bde8-afbc-00a9-6f49" hidden="false" targetId="1380-eda3-7a3b-055c" type="profile"/>
+        <infoLink name="Only In Death" id="ae05-318c-ea1c-797d" hidden="false" targetId="a226-a827-1018-b8bf" type="rule"/>
+        <infoLink name="Jump Infantry" id="beee-ab50-4bc7-83b8" hidden="false" targetId="4158-c955-9c2f-46f7" type="rule"/>
+        <infoLink name="Venatari Custodian" id="50b7-dc34-bfac-156e" hidden="false" targetId="5ec8-43e5-46dc-97f1" type="profile"/>
+      </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Kinetic Destroyer and Tarsus Buckler" hidden="false" id="2716-836d-018c-0216">
+    <selectionEntry name="Kinetic Destroyer and Tarsus Buckler" id="2716-836d-018c-0216" hidden="false" import="true" type="upgrade">
       <entryLinks>
-        <entryLink import="true" name="Kinetic Destroyer" hidden="false" id="bd20-56df-408c-cc47" type="selectionEntry" targetId="6a03-43f1-31a6-b2fa">
+        <entryLink name="Kinetic Destroyer" id="bd20-56df-408c-cc47" hidden="false" import="true" targetId="6a03-43f1-31a6-b2fa" type="selectionEntry">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb9a-8d7b-0627-8a18"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="23b1-7549-f895-da59"/>
+            <constraint id="fb9a-8d7b-0627-8a18" field="selections" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="23b1-7549-f895-da59" field="selections" scope="parent" shared="true" type="min" value="1"/>
           </constraints>
         </entryLink>
       </entryLinks>
+      <modifiers>
+        <modifier affects="profiles.Unit" field="c1e7-f1bd-8acd-7595" scope="parent" type="set" value="2+ (4++)"/>
+      </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Tarsus Buckler" hidden="false" id="6290-8c8a-8ff8-db0f">
-          <infoLinks>
-            <infoLink name="Tarsus Buckler" id="cb11-55be-0ffd-6554" hidden="false" type="profile" targetId="1d59-ff82-8b89-449d"/>
-            <infoLink name="Close-Combat Weapon" id="dd93-3b3b-ecb5-4cad" hidden="false" type="profile" targetId="662b-09f1-bd5b-b334"/>
-          </infoLinks>
+        <selectionEntry name="Tarsus Buckler" id="6290-8c8a-8ff8-db0f" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e925-2c0c-fce4-7584"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ae0-fa8c-325c-c349"/>
+            <constraint id="e925-2c0c-fce4-7584" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="7ae0-fa8c-325c-c349" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
+          <infoLinks>
+            <infoLink name="Tarsus Buckler" id="cb11-55be-0ffd-6554" hidden="false" targetId="1d59-ff82-8b89-449d" type="profile"/>
+            <infoLink name="Close-Combat Weapon" id="dd93-3b3b-ecb5-4cad" hidden="false" targetId="662b-09f1-bd5b-b334" type="profile"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
-      <modifiers>
-        <modifier type="set" value="2+ (4++)" field="c1e7-f1bd-8acd-7595" scope="parent" affects="profiles.Unit"/>
-      </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Kinetic Destroyer" hidden="false" id="6a03-43f1-31a6-b2fa">
+    <selectionEntry name="Kinetic Destroyer" id="6a03-43f1-31a6-b2fa" hidden="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink name="Kinetic Destroyer" id="b476-635b-6550-b4c2" hidden="false" type="profile" targetId="820d-0f36-c8cf-d841"/>
+        <infoLink name="Kinetic Destroyer" id="b476-635b-6550-b4c2" hidden="false" targetId="820d-0f36-c8cf-d841" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Prosecutor" hidden="false" id="9820-2eee-04c7-c03c">
+    <selectionEntry name="Prosecutor" id="9820-2eee-04c7-c03c" hidden="false" import="true" type="model">
       <costs>
-        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="30"/>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="12"/>
       </costs>
       <infoLinks>
-        <infoLink name="Sister of Silence" id="1649-42a5-fb1f-70ba" hidden="false" type="profile" targetId="9d5e-ebe3-4d2e-f4ca"/>
-        <infoLink name="Boltgun" id="9230-d6fc-4feb-ab75" hidden="false" type="profile" targetId="a682-d8a1-a764-7cf0"/>
-        <infoLink name="Fearless" id="abf8-1000-1ca1-4ad3" hidden="false" type="profile" targetId="1380-eda3-7a3b-055c"/>
-        <infoLink name="Null" id="dbb4-602d-11b7-6311" hidden="false" type="profile" targetId="4500-78e5-94fd-8326"/>
-        <infoLink name="Psychic Hood" id="09e3-24ee-265d-73d6" hidden="false" type="profile" targetId="27ab-7b2d-35be-bdf6"/>
+        <infoLink name="Sister of Silence" id="1649-42a5-fb1f-70ba" hidden="false" targetId="9d5e-ebe3-4d2e-f4ca" type="profile"/>
+        <infoLink name="Boltgun" id="9230-d6fc-4feb-ab75" hidden="false" targetId="a682-d8a1-a764-7cf0" type="profile"/>
+        <infoLink name="Fearless" id="abf8-1000-1ca1-4ad3" hidden="false" targetId="1380-eda3-7a3b-055c" type="profile"/>
+        <infoLink name="Null" id="dbb4-602d-11b7-6311" hidden="false" targetId="4500-78e5-94fd-8326" type="profile"/>
+        <infoLink name="Close-Combat Weapon" id="0cc8-b868-148c-a8e1" hidden="false" targetId="662b-09f1-bd5b-b334" type="profile"/>
+        <infoLink name="Power Armour" id="adde-9754-888a-da7f" hidden="false" targetId="0606-0e5b-188b-e024" type="profile"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Psyk-Out Grenades" id="1443-e366-f638-be05" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Psyk-Out Grenades" id="c256-ba68-8100-470c" hidden="false" targetId="8674-9295-cd0d-00c6" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Witchseeker" id="f487-b529-2055-ebe7" hidden="false" import="true" type="model">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="18"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Fearless" id="1494-b2b3-e612-0fa4" hidden="false" targetId="1380-eda3-7a3b-055c" type="profile"/>
+        <infoLink name="Null" id="aedc-f9b6-343e-1e21" hidden="false" targetId="4500-78e5-94fd-8326" type="profile"/>
+        <infoLink name="Sister of Silence" id="69ee-a6fc-87ac-4090" hidden="false" targetId="9d5e-ebe3-4d2e-f4ca" type="profile"/>
+        <infoLink name="Flamer" id="0395-bd57-ef1b-59f2" hidden="false" targetId="8e25-e118-f3a3-6ac8" type="profile"/>
+        <infoLink name="Scouts" id="6a46-9d0e-31af-8e72" hidden="false" targetId="e289-1576-b63b-c142" type="profile"/>
+        <infoLink name="Close-Combat Weapon" id="af2e-f68f-da23-5b21" hidden="false" targetId="662b-09f1-bd5b-b334" type="profile"/>
+        <infoLink name="Power Armour" id="b90c-0acc-11da-1863" hidden="false" targetId="0606-0e5b-188b-e024" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Vigilator" id="21d8-78f9-24de-6ccb" hidden="false" import="true" type="model">
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="22"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Fearless" id="99a9-57f2-136b-5c5a" hidden="false" targetId="1380-eda3-7a3b-055c" type="profile"/>
+        <infoLink name="Null" id="ad8e-8790-ef9d-f25b" hidden="false" targetId="4500-78e5-94fd-8326" type="profile"/>
+        <infoLink name="Sister of Silence" id="9c9c-dcc6-0650-b5d2" hidden="false" targetId="9d5e-ebe3-4d2e-f4ca" type="profile"/>
+        <infoLink name="Power Weapon" id="3a68-a69b-d915-d682" hidden="false" targetId="31dd-6647-d267-e3c2" type="profile"/>
+        <infoLink name="Power Armour" id="1f62-1566-e37b-d5f4" hidden="false" targetId="0606-0e5b-188b-e024" type="profile"/>
+        <infoLink name="Witchbane" id="06cc-4846-953c-649d" hidden="false" targetId="aced-fb03-c0ac-7087" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Knight-Centura" id="3cdf-a8df-2511-de80" hidden="false" import="true" type="model">
+      <constraints>
+        <constraint id="f527-0735-cebb-b10d" field="selections" scope="parent" shared="true" type="max" value="1"/>
+        <constraint id="ce92-ee1a-6747-33db" field="selections" scope="parent" shared="true" type="min" value="1"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Fearless" id="90ab-039f-db00-5ba0" hidden="false" targetId="1380-eda3-7a3b-055c" type="profile"/>
+        <infoLink name="Null" id="1c23-9db0-c8cd-2794" hidden="false" targetId="4500-78e5-94fd-8326" type="profile"/>
+        <infoLink name="Power Armour" id="a2a5-6649-cae0-c934" hidden="false" targetId="0606-0e5b-188b-e024" type="profile"/>
+        <infoLink name="Knight-Centura" id="1470-6286-8883-9ec1" hidden="false" targetId="d71f-254a-f810-94b6" type="profile"/>
+        <infoLink name="Witchbane" id="2120-9d39-176b-6a52" hidden="false" targetId="aced-fb03-c0ac-7087" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Equipped with one of the following:" id="f302-14d9-6d1c-f01f" defaultSelectionEntryId="d7be-246f-5dd7-d561" hidden="false">
+          <constraints>
+            <constraint id="6e96-a032-2f2b-f69d" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="b51b-769c-83aa-8303" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Boltgun and Close-Combat Weapon" id="08cd-7c01-7916-f241" hidden="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink name="Boltgun" id="a2d4-6f57-82cf-1c31" hidden="false" targetId="a682-d8a1-a764-7cf0" type="profile"/>
+                <infoLink name="Close-Combat Weapon" id="fc7a-8dbd-ee77-1ab2" hidden="false" targetId="662b-09f1-bd5b-b334" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Flamer and Close-Combat Weapon" id="2c83-6e13-321a-951f" hidden="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink name="Close-Combat Weapon" id="d3e4-2f45-d569-2982" hidden="false" targetId="662b-09f1-bd5b-b334" type="profile"/>
+                <infoLink name="Flamer" id="0eb2-889d-a539-00b8" hidden="false" targetId="8e25-e118-f3a3-6ac8" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Power Weapon" id="d7be-246f-5dd7-d561" hidden="false" import="true" sortIndex="1" type="upgrade">
+              <infoLinks>
+                <infoLink name="Power Weapon" id="2783-79fe-9c37-36ae" hidden="false" targetId="31dd-6647-d267-e3c2" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="HQ Exemplar Traits" id="f20f-d73e-cd99-f6f0" hidden="false">
+      <constraints>
+        <constraint id="3b4e-4691-d049-a599" field="selections" scope="self" shared="true" type="max" value="1"/>
+      </constraints>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Radiant Mantle" hidden="false" id="9f93-eedd-8e85-ae0d">
+        <selectionEntry name="Radiant Mantle" id="9f93-eedd-8e85-ae0d" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="bb92-587c-1229-7a69" field="selections" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="30f9-982b-91ef-b28b" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="1"/>
+          </constraints>
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
           </costs>
           <infoLinks>
-            <infoLink name="Radiant Mantle" id="968c-57fe-c9e0-ee6f" hidden="false" type="profile" targetId="d7e0-b2dc-e254-d131"/>
+            <infoLink name="Radiant Mantle" id="968c-57fe-c9e0-ee6f" hidden="false" targetId="d7e0-b2dc-e254-d131" type="profile"/>
           </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb92-587c-1229-7a69"/>
-            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="30f9-982b-91ef-b28b" includeChildSelections="true"/>
-          </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Superior Creation" hidden="false" id="ea6b-c60f-83a2-63b5">
+        <selectionEntry name="Superior Creation" id="ea6b-c60f-83a2-63b5" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="9d5a-bd8a-44bf-be8f" field="selections" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="06fc-d5f4-1f35-9be7" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="1"/>
+          </constraints>
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
           </costs>
           <infoLinks>
-            <infoLink name="Superior Creation" id="4fdb-54d2-d3c2-c3eb" hidden="false" type="profile" targetId="7d83-e7cd-b7cd-7d83"/>
+            <infoLink name="Superior Creation" id="4fdb-54d2-d3c2-c3eb" hidden="false" targetId="7d83-e7cd-b7cd-7d83" type="profile"/>
           </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d5a-bd8a-44bf-be8f"/>
-            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="06fc-d5f4-1f35-9be7" includeChildSelections="true"/>
-          </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Impregnable Mind" hidden="false" id="5280-1345-8cb3-893b">
+        <selectionEntry name="Impregnable Mind" id="5280-1345-8cb3-893b" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="850c-c48f-e93c-4401" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="1"/>
+            <constraint id="6740-73ab-0d3a-48c8" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
           </costs>
           <infoLinks>
-            <infoLink name="Impregnable Mind" id="bc80-944b-2090-1c83" hidden="false" type="profile" targetId="1b89-e216-528b-ebc2"/>
+            <infoLink name="Impregnable Mind" id="bc80-944b-2090-1c83" hidden="false" targetId="1b89-e216-528b-ebc2" type="profile"/>
           </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="850c-c48f-e93c-4401" includeChildSelections="true"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6740-73ab-0d3a-48c8"/>
-          </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Castellan&apos;s Mark" hidden="false" id="8e3b-2281-544e-15c6">
+        <selectionEntry name="Castellan&apos;s Mark" id="8e3b-2281-544e-15c6" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="e860-1933-bf60-c54a" field="selections" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="82fa-b9bb-92fa-775f" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="1"/>
+          </constraints>
           <costs>
             <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
           </costs>
           <infoLinks>
-            <infoLink name="Castellan&apos;s Mark" id="f8ff-17df-9169-2e35" hidden="false" type="profile" targetId="f329-080c-bd9a-0d8c"/>
+            <infoLink name="Castellan&apos;s Mark" id="f8ff-17df-9169-2e35" hidden="false" targetId="f329-080c-bd9a-0d8c" type="profile"/>
           </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e860-1933-bf60-c54a"/>
-            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="82fa-b9bb-92fa-775f" includeChildSelections="true"/>
-          </constraints>
         </selectionEntry>
       </selectionEntries>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3b4e-4691-d049-a599"/>
-      </constraints>
     </selectionEntryGroup>
     <selectionEntryGroup name="Ka&apos;tah Stances" id="09fe-d7fa-97c4-dd3e" hidden="false">
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Calistus" hidden="false" id="4e81-f6cb-2b1a-677d">
-          <infoLinks>
-            <infoLink name="Calistus Stance" id="9fea-a9e4-5806-fda6" hidden="false" type="profile" targetId="45f5-8a8c-4ccb-e5e6"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b634-a803-f241-6678-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b634-a803-f241-6678-max" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Dacatarai" hidden="false" id="41b8-1b07-6bf1-0869">
-          <infoLinks>
-            <infoLink name="Dacatarai Stance" id="8855-7a6e-0a74-f54f" hidden="false" type="profile" targetId="2c87-2586-3e88-d175"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8873-4e92-30e4-8624-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8873-4e92-30e4-8624-max" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Kaptaris" hidden="false" id="d4de-bece-1a75-1e95">
-          <infoLinks>
-            <infoLink name="Kaptaris Stance" id="e8b0-c266-3cfc-d1e5" hidden="false" type="profile" targetId="b0ce-8950-e050-041d"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="077b-b0b3-fd7b-7db6-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="077b-b0b3-fd7b-7db6-max" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Rendax" hidden="false" id="5df9-32ac-397d-f7f6">
-          <infoLinks>
-            <infoLink name="Rendax Stance" id="e2e4-6bef-a1b5-28fa" hidden="false" type="profile" targetId="aebd-d2bd-033b-3df6"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d0bb-dc48-6130-9fd7-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d0bb-dc48-6130-9fd7-max" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <infoGroups>
         <infoGroup name="Ka&apos;tah Stances" id="f455-08be-fe62-ad3b" hidden="false"/>
       </infoGroups>
+      <selectionEntries>
+        <selectionEntry name="Calistus" id="4e81-f6cb-2b1a-677d" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="b634-a803-f241-6678-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="b634-a803-f241-6678-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Calistus Stance" id="9fea-a9e4-5806-fda6" hidden="false" targetId="45f5-8a8c-4ccb-e5e6" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry name="Dacatarai" id="41b8-1b07-6bf1-0869" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="8873-4e92-30e4-8624-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="8873-4e92-30e4-8624-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Dacatarai Stance" id="8855-7a6e-0a74-f54f" hidden="false" targetId="2c87-2586-3e88-d175" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry name="Kaptaris" id="d4de-bece-1a75-1e95" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="077b-b0b3-fd7b-7db6-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="077b-b0b3-fd7b-7db6-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Kaptaris Stance" id="e8b0-c266-3cfc-d1e5" hidden="false" targetId="b0ce-8950-e050-041d" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry name="Rendax" id="5df9-32ac-397d-f7f6" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="d0bb-dc48-6130-9fd7-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="d0bb-dc48-6130-9fd7-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Rendax Stance" id="e2e4-6bef-a1b5-28fa" hidden="false" targetId="aebd-d2bd-033b-3df6" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>
