@@ -29,9 +29,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Shield Captain" id="db0d-dc07-66c9-eda7" hidden="false" import="true" type="unit">
+    <selectionEntry name="Shield Captain (Panoply of Heroes)" id="db0d-dc07-66c9-eda7" hidden="true" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="HQ" id="cfa1-b183-b1ac-394f" primary="true" targetId="ac8d-efba-1884-d3ad"/>
+        <categoryLink name="Elites" id="0ee2-e921-3361-6101" hidden="false" primary="true" targetId="978c-e18f-8aeb-f4c1"/>
       </categoryLinks>
       <costs>
         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
@@ -228,7 +228,7 @@
         </selectionEntryGroup>
         <selectionEntryGroup name="Unit may be equipped with:" id="5255-e3a9-d22e-6fb3" hidden="false">
           <entryLinks>
-            <entryLink name="Psyk-Out Grenades" id="b82f-bc3f-8407-7173" hidden="false" import="true" targetId="1443-e366-f638-be05" type="selectionEntry">
+            <entryLink name="Psyk-out Grenades" id="b82f-bc3f-8407-7173" hidden="false" import="true" targetId="1443-e366-f638-be05" type="selectionEntry">
               <constraints>
                 <constraint id="a4e1-7767-6686-01d6" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -256,7 +256,7 @@
         </selectionEntryGroup>
         <selectionEntryGroup name="Unit may be equipped with:" id="0442-aac9-77e6-54b2" hidden="false">
           <entryLinks>
-            <entryLink name="Psyk-Out Grenades" id="8e29-b435-e3db-bb13" hidden="false" import="true" targetId="1443-e366-f638-be05" type="selectionEntry">
+            <entryLink name="Psyk-out Grenades" id="8e29-b435-e3db-bb13" hidden="false" import="true" targetId="1443-e366-f638-be05" type="selectionEntry">
               <constraints>
                 <constraint id="b0a2-f8bf-6de3-fbd4" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -284,7 +284,7 @@
         </selectionEntryGroup>
         <selectionEntryGroup name="Unit may be equipped with:" id="d207-7608-e306-f1ee" hidden="false">
           <entryLinks>
-            <entryLink name="Psyk-Out Grenades" id="1410-48a0-069c-cbdf" hidden="false" import="true" targetId="1443-e366-f638-be05" type="selectionEntry">
+            <entryLink name="Psyk-out Grenades" id="1410-48a0-069c-cbdf" hidden="false" import="true" targetId="1443-e366-f638-be05" type="selectionEntry">
               <constraints>
                 <constraint id="0660-db78-cfc9-cea0" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -302,6 +302,33 @@
       </categoryLinks>
       <entryLinks>
         <entryLink name="Knight-Centura" id="9fd2-1ca7-8dd8-ab66" hidden="false" import="true" targetId="3cdf-a8df-2511-de80" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry name="Caladius Grav-tank" id="1de4-a9be-f32c-47c7" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Heavy Support" id="b3fb-4b56-f411-aa87" hidden="false" primary="true" targetId="9260-7d57-be5c-bd52"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Caladius Grav-tank" id="1bcc-d919-5eb6-0705" hidden="false" import="true" targetId="b254-627f-5683-91b7" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry name="Captain-General Trajann Valoris" id="a506-c6b7-71fd-d49f" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="HQ" id="ee9c-aaa6-c713-d3b0" hidden="false" primary="true" targetId="ac8d-efba-1884-d3ad"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Captain-General Trajann Valoris" id="05f7-2d82-a4e3-224c" hidden="false" import="true" targetId="b7d7-f3e2-ada7-993c" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry name="Shield Captain" id="75ff-2ea1-0f78-b52e" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="HQ" id="7a58-3aa4-ce7b-0d55" primary="true" targetId="ac8d-efba-1884-d3ad"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Shield Captain" id="1ee4-670c-58f5-aabd" hidden="false" import="true" targetId="3dfe-5f7c-4f05-339e" type="selectionEntry"/>
       </entryLinks>
     </selectionEntry>
   </selectionEntries>
@@ -377,7 +404,7 @@ This ability may only be taken by one model in your army, and cannot be taken al
     </profile>
     <profile name="Radiant Mantle" id="d7e0-b2dc-e254-d131" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Shooting attacks that target this model or its unit subtract 1 from their BS when rolling to hit.
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Shooting attacks that target this model subtract 1 from their BS when rolling to hit.
 
 
 This ability may only be taken by one model in your army, and cannot be taken alongside other Exemplar traits.</characteristic>
@@ -641,12 +668,9 @@ A unit may only benefit from the effects of one Ka&apos;tah Stance at a time, an
         <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Enemy models within 12&quot; of a Sister of Silence suffer -1 to their Leadership when resolving Psychic tests. This is increased to -2 Leadership if they are within engagement range.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Psyk-Out Grenades" id="8674-9295-cd0d-00c6" hidden="false" typeId="456a-26d9-cb27-bd5c" typeName="Wargear">
+    <profile name="Psyk-out Grenades" id="8674-9295-cd0d-00c6" hidden="false" typeId="456a-26d9-cb27-bd5c" typeName="Wargear">
       <characteristics>
-        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">At the beginning of the shooting phase, any unit equipped with Psyk-Out Grenades may select an enemy unit within 8&quot;. If the target unit contains any Psyker models, one of those models immediately takes a Leadership test at -2. 
-
-
-Should it fail the leadership test, it will immediately take a wound for which no saving throws may be made.</characteristic>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">When a unit equipped with Psyk-out Grenades launches an Assault, any Daemons or Psykers in the assaulted unit(s) are reduced to Initiative 1 for the remainder of the phase.</characteristic>
       </characteristics>
     </profile>
     <profile name="Witchbane" id="aced-fb03-c0ac-7087" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
@@ -665,6 +689,70 @@ Should it fail the leadership test, it will immediately take a wound for which n
         <characteristic name="A" typeId="a535-0722-3bc1-4d3c">2</characteristic>
         <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">9</characteristic>
         <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Caladius Grav-tank" id="a57a-e0aa-9c89-b9e7" hidden="false" typeId="4f6f-b40f-36fb-7ece" typeName="Super-Heavy Vehicle">
+      <characteristics>
+        <characteristic name="BS" typeId="c083-0548-101e-0f69">4</characteristic>
+        <characteristic name="F" typeId="ccd0-0f66-453c-e26b">13</characteristic>
+        <characteristic name="S" typeId="3f4c-12d9-90e8-3794">13</characteristic>
+        <characteristic name="R" typeId="5972-c096-9c99-ea47">11</characteristic>
+        <characteristic name="Structure Points" typeId="0a2a-2e66-c248-4b50">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Twin Arachnus Heavy Blaze Cannon" id="55c7-3f22-a320-308d" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Lance, Twin-Linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Twin Iliastus Accelerator Cannon" id="d451-5628-34ae-c4f0" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">60&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 3, Twin-Linked</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Trajann Valoris" id="4ef3-1775-d8ea-4f56" hidden="false" typeId="0967-823d-dd82-4e47" typeName="Unit">
+      <characteristics>
+        <characteristic name="WS" typeId="15b1-a34a-6e7c-332e">7</characteristic>
+        <characteristic name="BS" typeId="63a5-4be2-9cc0-7723">6</characteristic>
+        <characteristic name="S" typeId="09af-e927-0c3c-9d88">5</characteristic>
+        <characteristic name="T" typeId="ff29-f8b2-5b20-b686">5</characteristic>
+        <characteristic name="W" typeId="4a81-ac45-a71c-c71e">4</characteristic>
+        <characteristic name="I" typeId="8517-a46c-d6df-9c75">6</characteristic>
+        <characteristic name="A" typeId="a535-0722-3bc1-4d3c">4</characteristic>
+        <characteristic name="Ld" typeId="ddd5-77eb-4cc8-9eab">11</characteristic>
+        <characteristic name="Sv" typeId="c1e7-f1bd-8acd-7595">2+ (4++)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="The Watcher&apos;s Axe (Shooting)" id="1303-2a92-1a44-7796" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Assault 2</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="The Watcher&apos;s Axe" id="b5b9-d979-68ee-f0b8" hidden="false" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">The Watcher&apos;s Axe is a master-crafted power weapon that adds +3 to the wielder&apos;s strength. Additionally, any failed attempts To Wound made with it may be re-rolled.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Moment Shackle" id="4516-fcf9-c669-24be" hidden="false" typeId="456a-26d9-cb27-bd5c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">Once per battle, Trajann Valoris may break the Moment Shackle to perform one of the following feats:
+
+
+- If Trajann would be removed from play after being reduced to 0 wounds, instead he is not removed and stands back up with D3 wounds remaining.
+- After Trajann has fought during an assault this turn, he may fight a second time during the same assault at Initiative 0.
+- Whenever Trajann or his unit is chosen as a target during the shooting or assault phase, Trajann gains a 2+ invulnerable save until the start of your next turn.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -1289,6 +1377,102 @@ Should it fail the leadership test, it will immediately take a wound for which n
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry name="Caladius Grav-tank" id="b254-627f-5683-91b7" hidden="false" import="true" type="model">
+      <constraints>
+        <constraint id="94b7-8a20-99e9-69c7" field="selections" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="bc5c-72b2-e1c1-3f82" field="selections" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="230"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Caladius Grav-tank" id="8e99-1ef7-a63a-3a63" hidden="false" targetId="a57a-e0aa-9c89-b9e7" type="profile"/>
+        <infoLink name="Skimmer" id="8858-9467-0c8d-0fbe" hidden="false" targetId="5768-8357-f0e3-1484" type="rule"/>
+        <infoLink name="Twin-linked Heavy Bolter" id="979c-67a0-cb48-8c0a" hidden="false" targetId="684d-431d-f854-d4fd" type="profile"/>
+        <infoLink name="Super-Heavy Tank" id="dfe9-8d54-63f7-d996" hidden="false" targetId="a1eb-f5b7-8211-8840" type="rule"/>
+        <infoLink name="Super-Heavy Vehicle" id="ea77-64a5-f1ec-a7d9" hidden="false" targetId="d740-8c38-4a3f-9f85" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Equipped with one of the following:" id="2b06-09ef-8a45-a111" defaultSelectionEntryId="5c73-0f22-0d10-d653" hidden="false">
+          <constraints>
+            <constraint id="791e-dd00-1a33-7ad2" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="e7be-e23a-c4ff-6363" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Twin Arachnus Heavy Blaze Cannon" id="4342-f577-f073-b564" hidden="false" import="true" sortIndex="2" targetId="2662-26b8-c5d5-5b4a" type="selectionEntry">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
+              </costs>
+            </entryLink>
+            <entryLink name="Twin Iliastus Accelerator Cannon" id="5c73-0f22-0d10-d653" hidden="false" import="true" sortIndex="1" targetId="3dbb-aed5-939c-79ac" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Twin Arachnus Heavy Blaze Cannon" id="2662-26b8-c5d5-5b4a" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Twin Arachnus Heavy Blaze Cannon" id="35c8-30f5-fe39-2fe5" hidden="false" targetId="55c7-3f22-a320-308d" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Twin Iliastus Accelerator Cannon" id="3dbb-aed5-939c-79ac" hidden="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink name="Twin Iliastus Accelerator Cannon" id="fdee-b6ce-9050-2df5" hidden="false" targetId="d451-5628-34ae-c4f0" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Captain-General Trajann Valoris" id="b7d7-f3e2-ada7-993c" hidden="false" import="true" type="model">
+      <constraints>
+        <constraint id="4d2e-4393-c3ac-8918" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+        <constraint id="bc0b-323b-e847-b126" field="selections" scope="parent" shared="true" type="min" value="1"/>
+        <constraint id="9c67-aa8f-4f57-2aa2" field="selections" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="280"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Trajann Valoris" id="ed6e-7cfe-10c0-8389" hidden="false" targetId="4ef3-1775-d8ea-4f56" type="profile"/>
+        <infoLink name="Martial Ka&apos;tah" id="1ba9-df47-db4c-c7ce" hidden="false" targetId="66a4-eb78-7ea4-8b78" type="profile"/>
+        <infoLink name="Only In Death" id="99a3-067a-6561-f55c" hidden="false" targetId="a226-a827-1018-b8bf" type="rule"/>
+        <infoLink name="Independent Character" id="dccd-a230-4c33-4a49" hidden="false" targetId="db9c-91d8-5b8a-ee16" type="profile"/>
+        <infoLink name="Golden Fortitude" id="9e26-88f0-89a5-ab85" hidden="false" targetId="c5e9-ede3-9a5f-3a3a" type="profile"/>
+        <infoLink name="Auramite Armor" id="2edc-bc82-3cef-292a" hidden="false" targetId="9406-f42c-ca79-e645" type="profile"/>
+        <infoLink name="Eternal Warrior" id="e615-78c3-9183-4d8d" hidden="false" targetId="0fcb-3f5f-22f7-bffd" type="profile"/>
+        <infoLink name="Fearless" id="311d-9880-3b80-24d3" hidden="false" targetId="1380-eda3-7a3b-055c" type="profile"/>
+        <infoLink name="Moment Shackle" id="bebd-b156-0967-ddfd" hidden="false" targetId="4516-fcf9-c669-24be" type="profile"/>
+      </infoLinks>
+      <modifiers>
+        <modifier affects="self.entries.forces.db0d-dc07-66c9-eda7" field="hidden" scope="force" type="set" value="false"/>
+      </modifiers>
+      <rules>
+        <rule name="Panoply of Heroes" id="d68e-d457-1a64-9e06" hidden="false">
+          <description>In an army that includes Trajann Valoris, Shield Captains may be taken as Elite choices.</description>
+        </rule>
+      </rules>
+      <selectionEntries>
+        <selectionEntry name="Misericordia" id="c496-2555-fbc7-c157" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="dee5-b843-1ef5-e40d-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="dee5-b843-1ef5-e40d-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Misericordia" id="eac9-b09d-bbe6-4685" hidden="false" targetId="1508-6096-5ba2-6ee3" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry name="The Watcher&apos;s Axe" id="c910-2503-ef44-2c77" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="b3d8-c61b-c590-adaa-min" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="b3d8-c61b-c590-adaa-max" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="The Watcher&apos;s Axe" id="2c9d-8655-8b03-510b" hidden="false" targetId="b5b9-d979-68ee-f0b8" type="profile"/>
+            <infoLink name="The Watcher&apos;s Axe (Shooting)" id="7eed-a8d4-2d59-f147" hidden="false" targetId="1303-2a92-1a44-7796" type="profile"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="The Watcher&apos;s Axe" id="0af8-97fd-8f83-5b92" hidden="false" import="true" type="upgrade"/>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="HQ Exemplar Traits" id="f20f-d73e-cd99-f6f0" hidden="false">
