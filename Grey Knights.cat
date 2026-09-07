@@ -3927,55 +3927,6 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Combat Weapon" id="92bc-3ba3-5bd7-6b30" defaultSelectionEntryId="c5ad-f39b-a812-8f99" hidden="false">
-                  <constraints>
-                    <constraint id="b36e-396c-505b-2bba-min" field="selections" scope="self" shared="true" type="min" value="1"/>
-                    <constraint id="b36e-396c-505b-2bba-max" field="selections" scope="self" shared="true" type="max" value="1"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry name="Nemesis Force Sword" id="c5ad-f39b-a812-8f99" hidden="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint id="9bf3-b707-4bed-da24" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink name="Nemesis Force Sword" id="5acd-2b96-03bc-54e9" hidden="false" targetId="64f0-ab46-acac-8862" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry name="Nemesis Force Halberd" id="42c6-eee8-76f9-adcb" hidden="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint id="b36a-cb16-3eba-1694" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Nemesis Force Halberd" id="f992-cb78-3f31-78ed" hidden="false" targetId="d9dc-c6c6-7f2e-1642" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry name="Nemesis Daemon Hammer" id="2d08-95b4-ce90-5c59" hidden="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint id="14a5-9b16-e3b2-7d24" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Nemesis Daemon Hammer" id="1c62-3864-0b72-4b9e" hidden="false" targetId="74e2-b19f-7313-eb5e" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry name="Pair of Nemesis Falchions" id="c18b-f85b-0d22-f9a0" hidden="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint id="1eac-b6c8-b439-a900" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Nemesis Falchions" id="aada-0030-1100-a730" hidden="false" targetId="2db1-5616-6e7e-0efa" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry name="Purifier Combatant" id="6cb9-a094-91bb-97f9" hidden="false" import="true" type="model">
@@ -4022,7 +3973,6 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
       <infoLinks>
         <infoLink name="Storm Bolter" id="710d-be87-cd7f-533f" hidden="false" targetId="a37b-6942-f8fb-4aee" type="profile"/>
         <infoLink name="Smoke Launchers" id="7e8c-f7f0-9430-78fa" hidden="false" targetId="180e-ad4b-4df0-81ae" type="profile"/>
-        <infoLink name="Searchlight" id="3119-3d4d-2f90-5791" hidden="false" targetId="589c-c16c-2ed7-61f9" type="profile"/>
         <infoLink name="Fortitude" id="8878-0610-af03-28d5" hidden="false" targetId="5427-be80-df9e-a991" type="profile"/>
         <infoLink name="Tank" id="23de-bffa-9cc5-dda6" hidden="false" targetId="3475-46b4-28e6-8fb0" type="rule"/>
         <infoLink name="The Aegis" id="5df6-8015-5075-6c46" hidden="false" targetId="3eb7-ed67-2a65-23a7" type="profile"/>
@@ -4130,6 +4080,17 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
                 <infoLink name="Truesilver Armour" id="fc76-3aa6-8055-bfa1" hidden="false" targetId="2cdf-5c02-4ba7-da5e" type="profile"/>
               </infoLinks>
             </selectionEntry>
+            <selectionEntry name="Searchlight" id="3e28-8c52-585a-ca39" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="6d90-f576-4cac-2ac1" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Searchlight" id="121a-3410-0f3a-7165" hidden="false" targetId="589c-c16c-2ed7-61f9" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4143,7 +4104,6 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
       </costs>
       <infoLinks>
         <infoLink name="Smoke Launchers" id="c3f9-72e2-3e1b-e376" hidden="false" targetId="180e-ad4b-4df0-81ae" type="profile"/>
-        <infoLink name="Searchlight" id="7bab-de25-a23d-abdb" hidden="false" targetId="589c-c16c-2ed7-61f9" type="profile"/>
         <infoLink name="Tank" id="7c20-b718-0583-c7f2" hidden="false" targetId="3475-46b4-28e6-8fb0" type="rule"/>
         <infoLink name="Psychic Pilot" id="816f-8539-e6e7-010e" hidden="false" targetId="adc0-ba32-b690-5496" type="profile"/>
         <infoLink name="The Aegis" id="ab07-32ed-ba1d-26a9" hidden="false" targetId="3eb7-ed67-2a65-23a7" type="profile"/>
@@ -4255,6 +4215,17 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
               </costs>
               <infoLinks>
                 <infoLink name="Psyflame Ammunition" id="3d63-b04b-9b54-1b11" hidden="false" targetId="f7a8-929b-9869-0356" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Searchlight" id="3588-d4ae-2252-9380" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="b666-4c7f-79c1-be03" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Searchlight" id="baa0-b4c0-57ef-65ca" hidden="false" targetId="589c-c16c-2ed7-61f9" type="profile"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -4736,6 +4707,17 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
               </costs>
               <infoLinks>
                 <infoLink name="Psyflame Ammunition" id="c589-b0cb-bf6a-b593" hidden="false" targetId="f7a8-929b-9869-0356" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Searchlight" id="7523-7eb5-8de9-32be" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="feb9-1523-f956-e995" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="1"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Searchlight" id="da8d-34d0-91b9-587a" hidden="false" targetId="589c-c16c-2ed7-61f9" type="profile"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
