@@ -1020,6 +1020,20 @@ If the player using this power has a Chaos Spawn model available, he may replace
         <characteristic name="A" typeId="12be-9dd2-0dd7-b17a">2</characteristic>
       </characteristics>
     </profile>
+    <profile name="Enhanced Warriors" id="4bb1-5ff3-1242-fb48" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If Fabius Bile is included in a force, he can enhance some of the warriors in the army through genetic manipulation and drugs. For +3 pts per model, any number of Chaos Space Marine squads can be &apos;enhanced&apos; by Bile&apos;s treatment. At the start of the battle, after both sides have set up but before the first turn takes place, roll a D6 for each enhanced squad and consult the table.
+
+
+1: Berserk Rage! Make an Armour save for each warrior, removing any who fail. Survivors are Fearless and at +1 Strength for the remainder of the game.
+
+
+2-5: Stable Mutation. The Enhanced warriors are Fearless and at +1 Strength for the entire game.
+
+
+6: Created a Monster. The warriors are Fearless and add +2 to their Strength for the entire game. At the end of every owning player&apos;s turn, one of the squad&apos;s members is removed as a casualty (owner&apos;s choice).</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Chaos Icon" id="b2c2-5f7b-a147-6f46" hidden="false">
@@ -1069,7 +1083,11 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
         <infoLink name="Fearless" id="4a1d-1216-2c14-7fdc" hidden="false" targetId="1380-eda3-7a3b-055c" type="profile"/>
         <infoLink name="Independent Character" id="420c-2a06-f7ec-1ee2" hidden="false" targetId="db9c-91d8-5b8a-ee16" type="profile"/>
         <infoLink name="Feel No Pain" id="d045-1c5f-7f8d-902d" hidden="false" targetId="d22d-ca74-1014-8212" type="profile"/>
+        <infoLink name="Enhanced Warriors" id="8b59-e18c-5e74-e34d" hidden="false" targetId="4bb1-5ff3-1242-fb48" type="profile"/>
       </infoLinks>
+      <modifiers>
+        <modifier affects="self.entries.forces.recursive.9e27-dc7e-95d9-ea80" field="hidden" scope="force" type="set" value="false"/>
+      </modifiers>
       <profiles>
         <profile name="Xyclos Needler" id="afde-974b-90d6-a104" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
           <characteristics>
@@ -1085,18 +1103,9 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
             <characteristic name="Ability" typeId="2113-98a2-4376-a94c">This is a close combat weapon. Any opposing model suffering one or more wounds from the Rod of Torment is immediately disabled by the pain and suffers Instant Death, regardless of toughness.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Enhanced Warriors" id="7c6f-5768-54c6-9c87" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
+        <profile name="The Chirurgeon" id="6e0f-301a-a013-d99f" hidden="true" typeId="ccb3-7790-3139-7975" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If Fabius Bile is included in a force, he can enhance some of the warriors in the army through genetic manipulation and drugs. For +3 pts per model, any number of Chaos Space Marine squads can be &apos;enhanced&apos; by Bile&apos;s treatment. At the start of the battle, after both sides have set up but before the first turn takes place, roll a D6 for each enhanced squad and consult the table.
-
-
-1: Berserk Rage! Make an Armour save for each warrior, removing any who fail. Survivors are Fearless and at +1 Strength for the remainder of the game.
-
-
-2-5: Stable Mutation. The Enhanced warriors are Fearless and at +1 Strength for the entire game.
-
-
-6: Created a Monster. The warriors are Fearless and add +2 to their Strength for the entire game. At the end of every owning player&apos;s turn, one of the squad&apos;s members is removed as a casualty (owner&apos;s choice).</characteristic>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Gives Fabius two extra Attacks and +1 Strength (included in his profile) and confers the Feel No Pain special rule.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1140,7 +1149,7 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
       <profiles>
         <profile name="Herald of Nurgle" id="8858-4ed6-50cb-1a40" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Typhus always successfully passes his Psychic tests when casting &apos;winds of chaos&apos; or &apos;Nurgle&apos;s Rot&apos;</characteristic>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Typhus always successfully passes his Psychic tests when casting &apos;Winds of Chaos&apos; or &apos;Nurgle&apos;s Rot&apos;</characteristic>
           </characteristics>
         </profile>
         <profile name="Manreaper" id="6f63-0faa-30d6-45a3" hidden="false" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons">
@@ -1234,7 +1243,7 @@ Once deployed, the Daemons cannot do anything else in that turn&apos;s Movement 
       <profiles>
         <profile name="Armour of Shrieking Souls" id="c068-2598-59fe-92db" hidden="false" typeId="456a-26d9-cb27-bd5c" typeName="Wargear">
           <characteristics>
-            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">For each successful Power armour save or Invulnerable save Lucius makes in close combat, the unit causing the wound immediately suffers a Strength 4 hit that ignored armour saves.</characteristic>
+            <characteristic name="Description" typeId="9e5e-2cfd-7c93-749a">For each successful Power armour save or Invulnerable save Lucius makes in close combat, the unit causing the wound immediately suffers a Strength 4 hit that ignores armour saves.</characteristic>
           </characteristics>
         </profile>
         <profile name="Lash of Torment" id="6567-6b42-712e-dc19" hidden="false" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons">
@@ -1839,7 +1848,7 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Pistol" id="6c61-51c5-25e4-17c0" hidden="false">
+        <selectionEntryGroup name="Pistol" id="6c61-51c5-25e4-17c0" hidden="true">
           <constraints>
             <constraint id="61b5-9474-25f8-546d" field="selections" scope="self" shared="true" type="max" value="1"/>
           </constraints>
@@ -1935,13 +1944,17 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Loadout" id="4cb2-3882-7dc9-5350" hidden="false">
+        <selectionEntryGroup name="Loadout" id="4cb2-3882-7dc9-5350" defaultSelectionEntryId="0920-8a5b-f643-b6a3" hidden="false">
           <constraints>
             <constraint id="5ef5-15b8-d9e4-cc61-min" field="selections" scope="self" shared="true" type="min" value="1"/>
             <constraint id="5ef5-15b8-d9e4-cc61-max" field="selections" scope="self" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Combi-weapon" id="e034-4305-5035-5a13" hidden="false" import="true" targetId="d720-24d4-d7f1-df20" type="selectionEntry"/>
+            <entryLink name="Combi-weapon" id="e034-4305-5035-5a13" hidden="false" import="true" targetId="d720-24d4-d7f1-df20" type="selectionEntry">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+            </entryLink>
           </entryLinks>
           <selectionEntries>
             <selectionEntry name="Twin-linked bolter" id="0920-8a5b-f643-b6a3" hidden="false" import="true" type="upgrade">
@@ -3730,6 +3743,25 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
         <infoLink name="Frag Grenades" id="18a3-19a8-7e9a-9835" hidden="false" targetId="6e7c-a63e-3bc6-5bc9" type="profile"/>
         <infoLink name="Krak Grenades" id="67c3-0a6a-dfc7-0245" hidden="false" targetId="0a12-b99c-7d80-2ab6" type="profile"/>
       </infoLinks>
+      <selectionEntries>
+        <selectionEntry name="Enhanced Warriors" id="9e27-dc7e-95d9-ea80" defaultAmount="0" hidden="true" import="true" type="upgrade">
+          <constraints>
+            <constraint id="6b31-4a0b-3b46-f341" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Enhanced Warriors" id="6961-03ef-8ca0-aa7e" hidden="false" targetId="4bb1-5ff3-1242-fb48" type="profile"/>
+          </infoLinks>
+          <modifiers>
+            <modifier affects="self.entries.8215-ed9e-2d9e-ecdc" field="6f18-a8fc-2c5b-9517" scope="parent" type="increment" value="3"/>
+            <modifier affects="self.entries.4933-3d02-85ef-4e67" field="6f18-a8fc-2c5b-9517" scope="parent" type="increment" value="3"/>
+            <modifier affects="self.entries.5da9-a0c6-39f2-4be1" field="6f18-a8fc-2c5b-9517" scope="parent" type="increment" value="3"/>
+            <modifier affects="self.entries.bc94-7070-7951-fa13" field="6f18-a8fc-2c5b-9517" scope="parent" type="increment" value="3"/>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="207f-8a77-7dae-df6f" hidden="false">
           <constraints>
@@ -5182,6 +5214,13 @@ Daemon Weapons have an additional ability based on which Mark of Chaos they have
       </selectionEntries>
     </selectionEntry>
     <selectionEntry name="Chaos Havocs" id="3b84-4996-7cd2-8d8c" hidden="false" import="true" type="unit">
+      <entryLinks>
+        <entryLink name="Chaos Rhino" id="5ac7-7978-5e54-b646" hidden="false" import="true" targetId="cf1c-dbad-48f1-0ff7" type="selectionEntry">
+          <constraints>
+            <constraint id="36e0-695f-4984-338f" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <infoLinks>
         <infoLink name="Frag Grenades" id="b959-2259-c839-827e" hidden="false" targetId="6e7c-a63e-3bc6-5bc9" type="profile"/>
         <infoLink name="Krak Grenades" id="b704-0b74-a1a4-a20d" hidden="false" targetId="0a12-b99c-7d80-2ab6" type="profile"/>
