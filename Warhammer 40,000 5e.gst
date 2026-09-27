@@ -1582,6 +1582,15 @@ Each player then rolls a D6 and adds their model&apos;s leadership value to the 
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
+    <profile name="Stub Pistol" id="efd8-9a36-2270-3d56" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">3</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">-</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Pistol</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Rapid Fire" id="b8cf-e92b-ef14-d1e4" hidden="false" publicationId="ad9c-8597-0188-2ba0">
