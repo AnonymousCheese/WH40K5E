@@ -5955,6 +5955,13 @@ If the model that is possessed by the Greater Daemon is inside a transport, the 
       </selectionEntries>
     </selectionEntry>
     <selectionEntry name="Cultist Mob" id="6cc9-07f1-82ff-462c" hidden="false" import="true" type="unit">
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
+            <condition childId="0d75-b87c-69ae-f778" childName="Hide Homebrew" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <selectionEntryGroups>
         <selectionEntryGroup name="Mob" id="eb35-8b4e-0eee-202d" hidden="false">
           <selectionEntries>

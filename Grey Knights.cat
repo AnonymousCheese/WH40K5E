@@ -193,11 +193,6 @@
         <categoryLink name="Heavy Support" id="453e-c6d9-f249-08f6" primary="true" targetId="9260-7d57-be5c-bd52"/>
       </categoryLinks>
     </entryLink>
-    <entryLink name="Dreadnought" id="4209-fbda-9f16-50db" hidden="false" import="true" targetId="4e7d-fd20-d351-dac9" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Heavy Support" id="4025-2023-9236-4cf5" primary="true" targetId="9260-7d57-be5c-bd52"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink name="Nemesis Dreadknight" id="c950-b89e-d9da-79ff" hidden="false" import="true" targetId="54bd-3f31-a24e-c692" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Heavy Support" id="c2d6-113e-c1bc-26e2" primary="true" targetId="9260-7d57-be5c-bd52"/>
@@ -236,6 +231,11 @@
     <entryLink name="Purifier Squad" id="7444-3ed3-2358-eeab" hidden="true" import="true" targetId="22e5-fe42-46ba-dc7a" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Troops" id="dd59-abed-fe57-8d61" primary="true" targetId="default-category"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink name="Dreadnought" id="a4ef-f1df-e4f5-f8f7" hidden="false" import="true" targetId="c44f-fba3-d3fb-0d7f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Heavy Support" id="69ca-88bf-edd7-f546" hidden="false" primary="true" targetId="9260-7d57-be5c-bd52"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
