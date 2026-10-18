@@ -4612,5 +4612,48 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry name="Combi-Flamer" id="4c73-6724-244f-a62c" defaultAmount="1" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="7037-d2d7-1bbb-05a6" field="selections" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Combi-Flamer (Flamer)" id="5250-6da8-5302-3405" hidden="false" targetId="6895-2cfe-6f5b-8f88" type="profile"/>
+        <infoLink name="Combi-Flamer (Boltgun)" id="e70c-c33b-be7c-9e6b" hidden="false" targetId="79ec-9032-001f-b7bf" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Combi-Melta" id="2fc6-a081-f112-642c" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="417a-dcdb-2b98-471b" field="selections" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Combi-Melta (Boltgun)" id="1e2c-5337-7042-2218" hidden="false" targetId="aad5-fec1-bd21-2ae3" type="profile"/>
+        <infoLink name="Combi-Melta (Melta)" id="2b2f-fccb-e7d0-549e" hidden="false" targetId="38ae-bcac-62af-c514" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry name="Combi-Plasma" id="a041-c875-5667-4ca3" hidden="false" import="true" type="upgrade">
+      <constraints>
+        <constraint id="80bb-2a46-b063-1de2" field="selections" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <profiles>
+        <profile name="Combi-Plasma (Boltgun)" id="f871-3537-bd14-c96f" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+            <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire</characteristic>
+            <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+          </characteristics>
+        </profile>
+        <profile name="Combi-Plasma (Plasma)" id="a55b-6749-f512-ab5e" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24&quot;</characteristic>
+            <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Rapid Fire, Gets Hot!, One Shot</characteristic>
+            <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
 </gameSystem>
