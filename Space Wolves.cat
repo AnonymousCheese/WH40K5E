@@ -2550,6 +2550,59 @@ Space Wolves cannot use the Deep Strike ability normally given to Terminators</d
                 <infoLink name="Bolt Pistol" id="0839-262a-4c5d-dcb1" hidden="false" targetId="d1b6-0b7d-7649-7b73" type="profile"/>
               </infoLinks>
             </selectionEntry>
+            <selectionEntry name="Second Grey Hunter Gunner" id="2243-448a-7d1f-c941" hidden="true" import="true" type="model">
+              <constraints>
+                <constraint id="3340-a0b7-7dc3-6111" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="2"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Grey Hunter" id="0538-4d7f-714d-d020" hidden="false" targetId="0acd-6972-2b7d-9ef9" type="profile"/>
+                <infoLink name="Close-Combat Weapon" id="fc91-1242-02b5-852f" hidden="false" targetId="662b-09f1-bd5b-b334" type="profile"/>
+                <infoLink name="Bolt Pistol" id="23f8-c849-0132-848e" hidden="false" targetId="d1b6-0b7d-7649-7b73" type="profile"/>
+              </infoLinks>
+              <modifiers>
+                <modifier field="hidden" type="set" value="false">
+                  <conditions>
+                    <condition childId="any" field="selections" scope="f65d-8cee-155e-a3bb" shared="true" type="atLeast" value="9"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Loadout" id="bbea-b60d-a398-f118" defaultSelectionEntryId="97f4-be00-c54f-eeed" hidden="false">
+                  <constraints>
+                    <constraint id="7e75-87db-f860-1e86" field="selections" scope="self" shared="true" type="max" value="2"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry name="Flamer" id="03ef-e62f-c750-e787" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="18eb-67b2-18bb-6da3" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Flamer" id="3eb7-43ef-50b0-aa26" hidden="false" targetId="8e25-e118-f3a3-6ac8" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Meltagun" id="ad5a-1e87-4eba-8302" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="d1cc-bc56-7473-c0c1" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Meltagun" id="705c-b241-2745-13fc" hidden="false" targetId="a9bc-3c46-8c3e-c07a" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Plasma gun" id="a359-2b91-1824-2792" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="ba3f-c328-da3a-a0d8" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Plasma Gun" id="155e-c26f-69f1-29db" hidden="false" targetId="29c3-2b26-b62c-779c" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>

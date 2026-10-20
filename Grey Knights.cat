@@ -4808,6 +4808,14 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
                         <infoLink name="Nemesis Falchions" id="a188-8155-d307-fe7e" hidden="false" targetId="2db1-5616-6e7e-0efa" type="profile"/>
                       </infoLinks>
                     </selectionEntry>
+                    <selectionEntry name="Nemesis Warding Stave" id="d126-bc6c-2f45-a199" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="de60-884d-691b-1bf8" field="selections" includeChildForces="true" includeChildSelections="true" scope="80dd-8506-b945-10e2" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Nemesis Warding Stave" id="a174-fd9a-0b3d-0a34" hidden="false" targetId="1deb-a37b-fa22-ff45" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="May make any weapon Master-crafted" id="7054-09ec-4394-f2d3" hidden="false">
@@ -4867,6 +4875,57 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
+                <selectionEntryGroup name="Combat Weapon" id="a9e4-19a9-5dca-963a" defaultSelectionEntryId="c5ad-f39b-a812-8f99" hidden="false">
+                  <constraints>
+                    <constraint id="c0a7-58f7-532e-9384" field="selections" scope="self" shared="true" type="min" value="1"/>
+                    <constraint id="0abb-6881-7690-57bd" field="selections" scope="self" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry name="Nemesis Force Sword" id="171c-2618-42a8-679d" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="74af-17a6-92b7-6243" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Nemesis Force Sword" id="44a3-b9ba-8507-0507" hidden="false" targetId="64f0-ab46-acac-8862" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Nemesis Force Halberd" id="2502-ae21-d04e-3f94" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="31c7-e788-e9c9-fe7c" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Nemesis Force Halberd" id="9f31-94b5-b5c2-507c" hidden="false" targetId="d9dc-c6c6-7f2e-1642" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Nemesis Daemon Hammer" id="fd3a-393f-c52e-5039" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="7ab9-0901-e5d4-4771" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Nemesis Daemon Hammer" id="495d-fbe8-1ff3-f04c" hidden="false" targetId="74e2-b19f-7313-eb5e" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Pair of Nemesis Falchions" id="fd46-6bf9-6481-9744" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="b8ac-fd5c-cf22-e374" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+                      </costs>
+                      <infoLinks>
+                        <infoLink name="Nemesis Falchions" id="780a-4eb6-2626-9de7" hidden="false" targetId="2db1-5616-6e7e-0efa" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Nemesis Warding Stave" id="28c4-5c61-faca-6c5f" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="5655-9372-d372-8aab" field="selections" includeChildSelections="false" scope="80dd-8506-b945-10e2" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Nemesis Warding Stave" id="bfa3-5ea7-e70f-b57d" hidden="false" targetId="1deb-a37b-fa22-ff45" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry name="Paladin Gunner" id="c3c5-bf93-42ed-ef9b" hidden="false" import="true" type="model">
@@ -4912,49 +4971,6 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-                <selectionEntryGroup name="Combat Weapon" id="1254-7cf6-32ba-0450" defaultSelectionEntryId="c5ad-f39b-a812-8f99" hidden="false">
-                  <constraints>
-                    <constraint id="dfc3-a7d0-efc3-fdda-min" field="selections" scope="self" shared="true" type="min" value="1"/>
-                    <constraint id="dfc3-a7d0-efc3-fdda-max" field="selections" scope="self" shared="true" type="max" value="1"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry name="Nemesis Force Sword" id="a2d1-8175-b7e6-e4ab" hidden="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint id="15f8-378b-6d23-a77f" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink name="Nemesis Force Sword" id="ad58-fa79-943d-af50" hidden="false" targetId="64f0-ab46-acac-8862" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry name="Nemesis Force Halberd" id="4f58-77d6-d41b-5ef9" hidden="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint id="f56d-1469-93ed-8648" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink name="Nemesis Force Halberd" id="afcb-2eac-e6f1-dde2" hidden="false" targetId="d9dc-c6c6-7f2e-1642" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry name="Nemesis Daemon Hammer" id="6a91-010d-9998-7e64" hidden="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint id="f301-0e01-a25f-9491" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink name="Nemesis Daemon Hammer" id="0367-4f33-d864-0d0f" hidden="false" targetId="74e2-b19f-7313-eb5e" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry name="Pair of Nemesis Falchions" id="9969-923d-b70c-3f4d" hidden="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint id="4ad3-1668-155a-2be8" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Nemesis Falchions" id="fce0-7923-9b9d-9185" hidden="false" targetId="2db1-5616-6e7e-0efa" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
                 <selectionEntryGroup name="May make any weapon Master-crafted" id="277e-8e41-02db-d94b" hidden="false">
                   <selectionEntries>
                     <selectionEntry name="Master-Crafted Weapon" id="08d5-f1fb-7345-6669" hidden="false" import="true" type="upgrade">
@@ -4970,32 +4986,53 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
-              </selectionEntryGroups>
-            </selectionEntry>
-            <selectionEntry name="Paladin Combatant" id="ee0f-519c-c717-a753" hidden="false" import="true" type="model">
-              <constraints>
-                <constraint id="b369-eef6-8630-cdc1" field="selections" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="55"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Paladin" id="fafa-dd45-3db7-dd4f" hidden="false" targetId="f089-fd1a-0bf8-a2fc" type="profile"/>
-                <infoLink name="Storm Bolter" id="1ea4-c05b-72e2-d5d8" hidden="false" targetId="a37b-6942-f8fb-4aee" type="profile"/>
-                <infoLink name="Nemesis Warding Stave" id="0252-188d-e9db-a923" hidden="false" targetId="1deb-a37b-fa22-ff45" type="profile"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="May make any weapon Master-crafted" id="34c8-48e2-19b1-b010" hidden="false">
+                <selectionEntryGroup name="Combat Weapon" id="cf4a-6fda-57be-5e3c" defaultSelectionEntryId="c5ad-f39b-a812-8f99" hidden="false">
+                  <constraints>
+                    <constraint id="7a49-df14-7a69-0239" field="selections" scope="self" shared="true" type="min" value="1"/>
+                    <constraint id="ed7e-abfc-fb15-1f7b" field="selections" scope="self" shared="true" type="max" value="1"/>
+                  </constraints>
                   <selectionEntries>
-                    <selectionEntry name="Master-Crafted Weapon" id="785c-6a71-c4d9-32cb" hidden="false" import="true" type="upgrade">
+                    <selectionEntry name="Nemesis Force Sword" id="f023-7f81-00f1-6c7e" hidden="false" import="true" type="upgrade">
                       <constraints>
-                        <constraint id="d503-c266-38ad-f185" field="selections" scope="parent" shared="true" type="max" value="2"/>
+                        <constraint id="2b1b-e154-de95-29a0" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Nemesis Force Sword" id="b6c0-2106-a2a6-4c07" hidden="false" targetId="64f0-ab46-acac-8862" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Nemesis Force Halberd" id="dc85-7120-8fb4-a587" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="2795-ae40-b3d5-51a2" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Nemesis Force Halberd" id="c119-bfbf-ced6-a43d" hidden="false" targetId="d9dc-c6c6-7f2e-1642" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Nemesis Daemon Hammer" id="29a7-2822-dc46-26cd" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="c93c-a6b4-1843-b8b2" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Nemesis Daemon Hammer" id="a294-c21e-b50b-dda8" hidden="false" targetId="74e2-b19f-7313-eb5e" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Pair of Nemesis Falchions" id="5bfe-7eca-7973-7844" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="0512-cefa-1bd2-35e5" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                       <costs>
                         <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
                       </costs>
                       <infoLinks>
-                        <infoLink name="Master-crafted" id="ee69-7144-9ec3-310b" hidden="false" targetId="cd03-6afa-5db9-cf04" type="rule"/>
+                        <infoLink name="Nemesis Falchions" id="7c56-772e-49e4-a0d5" hidden="false" targetId="2db1-5616-6e7e-0efa" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry name="Nemesis Warding Stave" id="7bc7-f953-a6f4-256d" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="ea6d-98c4-7dd8-77e1" field="selections" includeChildForces="true" includeChildSelections="true" scope="80dd-8506-b945-10e2" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Nemesis Warding Stave" id="fa92-01c4-7b20-c39b" hidden="false" targetId="1deb-a37b-fa22-ff45" type="profile"/>
                       </infoLinks>
                     </selectionEntry>
                   </selectionEntries>
@@ -5007,7 +5044,7 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
                 <constraint id="9bdc-fa0a-0a87-b415" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="55"/>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="80"/>
               </costs>
               <infoLinks>
                 <infoLink name="Paladin" id="e776-7ba2-ff8a-5f81" hidden="false" targetId="f089-fd1a-0bf8-a2fc" type="profile"/>
@@ -5789,6 +5826,14 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
                         <infoLink name="Nemesis Falchions" id="e061-8395-b049-a715" hidden="false" targetId="2db1-5616-6e7e-0efa" type="profile"/>
                       </infoLinks>
                     </selectionEntry>
+                    <selectionEntry name="Nemesis Warding Stave" id="3fd3-95ee-c24d-175b" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="32d0-031c-6138-6c06" field="selections" includeChildForces="true" includeChildSelections="true" scope="a446-c41c-003b-dce4" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Nemesis Warding Stave" id="efdf-d50e-0e85-8c28" hidden="false" targetId="1deb-a37b-fa22-ff45" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -5862,6 +5907,14 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
                         <infoLink name="Nemesis Falchions" id="cc15-4e67-f390-ffa8" hidden="false" targetId="2db1-5616-6e7e-0efa" type="profile"/>
                       </infoLinks>
                     </selectionEntry>
+                    <selectionEntry name="Nemesis Warding Stave" id="2e71-9587-8134-322e" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="52d9-eaaf-9fa3-f2e6" field="selections" includeChildForces="true" includeChildSelections="false" scope="a446-c41c-003b-dce4" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Nemesis Warding Stave" id="f1d8-2cac-83dd-3017" hidden="false" targetId="1deb-a37b-fa22-ff45" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -5918,6 +5971,14 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
                         <infoLink name="Nemesis Falchions" id="9f3c-43d9-2fd3-6c75" hidden="false" targetId="2db1-5616-6e7e-0efa" type="profile"/>
                       </infoLinks>
                     </selectionEntry>
+                    <selectionEntry name="Nemesis Warding Stave" id="76e4-daec-fed1-c6ae" hidden="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint id="95e3-7727-5c86-5dfb" field="selections" includeChildForces="true" includeChildSelections="true" scope="a446-c41c-003b-dce4" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink name="Nemesis Warding Stave" id="e09b-5f1c-bcfb-941d" hidden="false" targetId="1deb-a37b-fa22-ff45" type="profile"/>
+                      </infoLinks>
+                    </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Loadout" id="4a48-a059-362a-05a0" defaultSelectionEntryId="a221-ea6c-c4df-4af9" hidden="false">
@@ -5960,16 +6021,6 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry name="Terminator Combatant" id="e07e-33f1-f05c-a294" hidden="false" import="true" type="model">
-              <costs>
-                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="60"/>
-              </costs>
-              <infoLinks>
-                <infoLink name="Terminator" id="c688-3898-093d-04ee" hidden="false" targetId="7e33-bf40-a4fb-ad4a" type="profile"/>
-                <infoLink name="Nemesis Warding Stave" id="365f-d340-0a57-ba30" hidden="false" targetId="1deb-a37b-fa22-ff45" type="profile"/>
-                <infoLink name="Storm Bolter" id="8414-132c-d729-0b7a" hidden="false" targetId="a37b-6942-f8fb-4aee" type="profile"/>
-              </infoLinks>
-            </selectionEntry>
             <selectionEntry name="Terminator Banner Bearer" id="cf5d-3f65-dcea-6cbb" hidden="false" import="true" type="model">
               <constraints>
                 <constraint id="5255-c89c-14ac-8113" field="selections" scope="parent" shared="true" type="max" value="1"/>
@@ -5982,51 +6033,6 @@ If Mordrak is removed as a casualty, the Ghost Knights lose their connection to 
                 <infoLink name="Storm Bolter" id="d42d-2ad1-87d2-d890" hidden="false" targetId="a37b-6942-f8fb-4aee" type="profile"/>
                 <infoLink name="Brotherhood Banner" id="907e-38a9-f68f-7bc2" hidden="false" targetId="8f62-6ba0-3a79-a512" type="profile"/>
               </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Combat Weapon" id="9196-9cae-40a7-e476" defaultSelectionEntryId="d7f2-5ce2-0f55-d8ae" hidden="false">
-                  <constraints>
-                    <constraint id="8ae9-4b7a-92f0-c6ff-min" field="selections" scope="self" shared="true" type="min" value="1"/>
-                    <constraint id="8ae9-4b7a-92f0-c6ff-max" field="selections" scope="self" shared="true" type="max" value="1"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry name="Nemesis Force Sword" id="d7f2-5ce2-0f55-d8ae" hidden="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint id="f140-2369-8828-8e5a" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink name="Nemesis Force Sword" id="e69f-6d4d-ea51-bf72" hidden="false" targetId="64f0-ab46-acac-8862" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry name="Nemesis Force Halberd" id="c908-9f81-e09e-32c9" hidden="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint id="6758-4cbf-5df3-7e5e" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink name="Nemesis Force Halberd" id="20b3-9710-1e2a-8b05" hidden="false" targetId="d9dc-c6c6-7f2e-1642" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry name="Nemesis Daemon Hammer" id="b8d7-3677-82f6-b8a1" hidden="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint id="8b1b-65fd-df3c-8231" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink name="Nemesis Daemon Hammer" id="ac85-a658-f89e-7869" hidden="false" targetId="74e2-b19f-7313-eb5e" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry name="Pair of Nemesis Falchions" id="8ce6-1363-ab3a-5812" hidden="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint id="91cf-ace8-d754-9f40" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
-                      </costs>
-                      <infoLinks>
-                        <infoLink name="Nemesis Falchions" id="34dc-de1f-f80f-4173" hidden="false" targetId="2db1-5616-6e7e-0efa" type="profile"/>
-                      </infoLinks>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>

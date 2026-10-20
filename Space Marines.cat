@@ -4231,7 +4231,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
     </selectionEntry>
     <selectionEntry name="Land Raider Redeemer" id="8cc0-a205-f73d-4ff9" hidden="false" import="true" type="unit">
       <costs>
-        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="250"/>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="240"/>
       </costs>
       <infoLinks>
         <infoLink name="Tank" id="c054-6dad-751e-fed9" hidden="false" targetId="3475-46b4-28e6-8fb0" type="rule"/>
@@ -9340,7 +9340,11 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
         <infoLink name="Krak Grenades" id="7a0a-4ba4-1be2-e7ea" hidden="false" targetId="0a12-b99c-7d80-2ab6" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry name="Jump Packs" id="ab5e-c3cc-b77d-0f3c" defaultAmount="1" hidden="false" import="true" type="upgrade"/>
+        <selectionEntry name="Jump Packs" id="ab5e-c3cc-b77d-0f3c" defaultAmount="1" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="d075-864c-29a2-96c3" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="Squad" id="c244-35f0-4b4e-45e9" collective="false" hidden="false">
@@ -9543,14 +9547,31 @@ If the tank suffers a Wrecked or Explodes! result, roll a D6. On a 1 or 2, Chron
               <constraints>
                 <constraint id="e908-041d-f36c-fd2e" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+              </costs>
             </entryLink>
             <entryLink name="Drop Pod" id="53a1-accb-b675-cc89" hidden="false" import="true" targetId="57d0-d692-2492-52c0" type="selectionEntry">
               <constraints>
                 <constraint id="073d-0824-65ea-53bd" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+              </costs>
             </entryLink>
-            <entryLink name="Impulsor" id="105b-9089-8b50-226f" hidden="false" import="true" targetId="029f-8e03-0080-1cf7" type="selectionEntry"/>
+            <entryLink name="Impulsor" id="105b-9089-8b50-226f" hidden="false" import="true" targetId="029f-8e03-0080-1cf7" type="selectionEntry">
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
+          <modifiers>
+            <modifier field="hidden" type="set" value="true">
+              <conditions>
+                <condition childId="ab5e-c3cc-b77d-0f3c" childName="Jump Packs" field="selections" scope="7b7c-2abf-58a6-939e" shared="true" type="atLeast" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>

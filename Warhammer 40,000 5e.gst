@@ -4389,12 +4389,12 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
         <constraint id="9ed1-adc2-b692-1915-max" childId="any" field="selections" includeChildSelections="false" scope="parent" shared="false" type="max" value="1"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry name="Hide Homebrew Units" id="0d75-b87c-69ae-f778" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Hide Homebrew Units" id="0d75-b87c-69ae-f778" defaultAmount="1" hidden="false" import="true" type="upgrade">
           <constraints>
             <constraint id="d847-745c-29eb-88c3" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry name="Hide Apocalypse Units" id="7a0f-60e9-0b8f-41f9" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Hide Apocalypse Units" id="7a0f-60e9-0b8f-41f9" defaultAmount="1" hidden="false" import="true" type="upgrade">
           <constraints>
             <constraint id="8391-61a9-bdee-c97a" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
@@ -4617,8 +4617,8 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
         <constraint id="7037-d2d7-1bbb-05a6" field="selections" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Combi-Flamer (Flamer)" id="5250-6da8-5302-3405" hidden="false" targetId="6895-2cfe-6f5b-8f88" type="profile"/>
-        <infoLink name="Combi-Flamer (Boltgun)" id="e70c-c33b-be7c-9e6b" hidden="false" targetId="79ec-9032-001f-b7bf" type="profile"/>
+        <infoLink name="Combi-flamer (Flamer)" id="5250-6da8-5302-3405" hidden="false" targetId="6895-2cfe-6f5b-8f88" type="profile"/>
+        <infoLink name="Combi-flamer (Boltgun)" id="e70c-c33b-be7c-9e6b" hidden="false" targetId="79ec-9032-001f-b7bf" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Combi-Melta" id="2fc6-a081-f112-642c" hidden="false" import="true" type="upgrade">
@@ -4626,8 +4626,8 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
         <constraint id="417a-dcdb-2b98-471b" field="selections" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Combi-Melta (Boltgun)" id="1e2c-5337-7042-2218" hidden="false" targetId="aad5-fec1-bd21-2ae3" type="profile"/>
-        <infoLink name="Combi-Melta (Melta)" id="2b2f-fccb-e7d0-549e" hidden="false" targetId="38ae-bcac-62af-c514" type="profile"/>
+        <infoLink name="Combi-melta (Boltgun)" id="1e2c-5337-7042-2218" hidden="false" targetId="aad5-fec1-bd21-2ae3" type="profile"/>
+        <infoLink name="Combi-melta (melta)" id="2b2f-fccb-e7d0-549e" hidden="false" targetId="38ae-bcac-62af-c514" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Combi-Plasma" id="a041-c875-5667-4ca3" hidden="false" import="true" type="upgrade">
