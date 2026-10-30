@@ -8,11 +8,7 @@
     <categoryEntry name="Heavy Support" id="9260-7d57-be5c-bd52" hidden="false"/>
     <categoryEntry name="Dedicated Transport" id="168b-a772-94f7-83f5" hidden="false"/>
     <categoryEntry name="Unique" id="1f0d-7d41-7ef9-ce4a" hidden="false"/>
-    <categoryEntry name="Super-Heavy" id="5968-f35e-18fd-612b" hidden="false">
-      <constraints>
-        <constraint id="6b87-b497-7b84-2c68" field="selections" includeChildSelections="false" scope="force" shared="true" type="max" value="1"/>
-      </constraints>
-    </categoryEntry>
+    <categoryEntry name="Apocalypse" id="5968-f35e-18fd-612b" hidden="false"/>
     <categoryEntry name="Homebrew" id="df0c-6e22-d859-7f22" hidden="false"/>
     <categoryEntry name="Forgeworld" id="1d90-693c-460a-0301" hidden="false"/>
     <categoryEntry name="Configuration" id="525f-0a42-3f5c-5613" hidden="false"/>
@@ -203,6 +199,19 @@
         <categoryLink name="Configuration" id="b6b4-0137-20db-fa65" hidden="false" targetId="525f-0a42-3f5c-5613"/>
       </categoryLinks>
     </forceEntry>
+    <forceEntry name="Apocalypse Force" id="94f3-b37b-35c0-f66d" hidden="false">
+      <categoryLinks>
+        <categoryLink name="HQ" id="d39d-a753-14a9-ea28" hidden="false" targetId="ac8d-efba-1884-d3ad"/>
+        <categoryLink name="Troops" id="564c-eaf6-f5b4-cc2e" hidden="false" targetId="default-category"/>
+        <categoryLink name="Elites" id="1b01-a538-dac7-833e" hidden="false" targetId="978c-e18f-8aeb-f4c1"/>
+        <categoryLink name="Fast Attack" id="2473-c06e-45b5-f63c" hidden="false" targetId="74fe-37c3-fbbf-849e"/>
+        <categoryLink name="Heavy Support" id="5a42-6325-85d0-10f5" hidden="false" targetId="9260-7d57-be5c-bd52"/>
+        <categoryLink name="Dedicated Transport" id="0746-293e-1ad3-e420" hidden="false" targetId="168b-a772-94f7-83f5"/>
+        <categoryLink name="Unique" id="8d64-1a3e-bef0-7218" hidden="false" targetId="1f0d-7d41-7ef9-ce4a"/>
+        <categoryLink name="Configuration" id="b6cf-af43-baa4-dec7" hidden="false" targetId="525f-0a42-3f5c-5613"/>
+        <categoryLink name="Super-Heavy" id="6881-e058-caaa-afbe" hidden="false" targetId="5968-f35e-18fd-612b"/>
+      </categoryLinks>
+    </forceEntry>
   </forceEntries>
   <profileTypes>
     <profileType name="Abilities" id="ccb3-7790-3139-7975" hidden="false" kind="ability">
@@ -287,13 +296,14 @@
       <characteristicTypes>
         <characteristicType name="WS" id="0b22-562d-304f-708a"/>
         <characteristicType name="BS" id="5ac3-7cf1-7a4b-0bdc"/>
-        <characteristicType name="S" id="b80b-7f3f-9d69-7f75"/>
+        <characteristicType name="STR" id="b80b-7f3f-9d69-7f75"/>
         <characteristicType name="F" id="22f8-d228-3d58-0d92"/>
         <characteristicType name="S" id="82d2-1b71-b01a-7615"/>
         <characteristicType name="R" id="58d5-2599-2a90-7cbc"/>
         <characteristicType name="I" id="12b2-2bea-bc7f-ac88"/>
         <characteristicType name="A" id="e212-98ab-8660-eeab"/>
         <characteristicType name="Structure Points" id="3f21-3557-c8fe-4dda"/>
+        <characteristicType name="Void Shields" id="a37b-5765-0523-d074"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -1591,6 +1601,33 @@ Each player then rolls a D6 and adds their model&apos;s leadership value to the 
         <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
       </characteristics>
     </profile>
+    <profile name="Terrifying" id="b179-e7d5-46aa-592d" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">All units wishing to assault this unit must pass a Morale check. If the test is failed, the unit may not assault that turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Stomp" id="0eb1-9a1f-2f67-68e1" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">This unit may make one attack against every enemy model engaged in combat with it, instead of using its normal Attack value (no bonus attack for charging applies, roll to hit once separately against each model attacked)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bombing Run" id="4b6e-3c69-ad6f-c9e8" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="e24a-6018-20cf-d76c">In order to use a weapon with the Bomb special rule, a Flyer must execute a special maneuver called a Bombing run. The player must announce this when he moved the flyer. Flyers on a bombing run are always moved at the end of the Movement phase, so that their bombs hit the ground immediately at the beginning of the ensuing Shooting phase. 
+
+
+Leave a marker in the original position of the flyer and then move the flyer as normal.
+
+
+Draw a line between the marker and the flyer&apos;s final position. This is the flyer&apos;s bombing run corridor.
+
+
+At the beginning of the Shooting phase, pick any one point along the bombing corridor as the target point. If the Flyer just entered the table, the target point can be anywhere on the table. 
+
+
+Place the Apocalyptic Barrage Template centred on the target point, then resolve the hits as described in the appropriate model&apos;s datasheet.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Rapid Fire" id="b8cf-e92b-ef14-d1e4" hidden="false" publicationId="ad9c-8597-0188-2ba0">
@@ -2168,6 +2205,98 @@ In addition, when rolling on the appropriate vehicle damage chart, add +1 to the
 
 
 If a destroyer weapon hits a non-vehicle model, there is no need to roll to wound - it automatically scores a wound. If the target fails to save this wound (no cover saves are allowed, but Invulnerable saves do apply) the weapon always inflicts Instant Death, regardless of the target&apos;s Toughness. If the target is immune to Instant Death, then the Destroyer will cause one Wound as normal.</description>
+    </rule>
+    <rule name="Power Field" id="509a-1a17-b6b9-0a22" hidden="false">
+      <description>Each hit scored against a unit from a distance of 12&quot; or more will instead hit a Power Field. Close combat attacks, and ranged attacks from a distance of less than 12&quot;, come from inside the field and therefore are not stopped. Power Fields are the equivalent of Armour 12. Each glancing or penetrating hit scored against the field causes one to collapse. After all the fields have collapsed, further hits are resolved against the vehicle&apos;s real Armour Value, as normal.</description>
+    </rule>
+    <rule name="Void Shields" id="0a20-6e95-3f00-f221" hidden="false">
+      <description>Each hit scored against a unit with Void Shields from a distance of 12&quot; or more will instead hit Void Shields. Close combat attacks, and ranged attacks from a distance of less than 12&quot;, come from inside the field and therefore are not stopped. Void Shields are the equivalent of Armour 12. Each glancing or penetrating hit scored against the field causes one to collapse. After all the fields have collapsed, further hits are resolved against the vehicle&apos;s real Armour Value, as normal.
+
+
+Additionally, at the end of any of it&apos;s turns, roll a dice for each Structure Point the vehicle has left. Any result of 5+ immediately restores one collapsed Shield.</description>
+    </rule>
+    <rule name="Apocalypse Barrage" id="e7ed-740f-0ece-2843" hidden="false">
+      <description>Use the special multiple blast template. To use this, place it with its centre on an enemy model anywhere in line of sight of the weapon firing and then measure the range (if applicable). if the centre is in range, the weapon has hit and the barrage is left in place, otherwise it is removed. The player may rotate it around it&apos;s centre to any final position they wish. Once this is done, roll a number of dice equal to the number in the brackets and compare the results with the numbers on the template. Each dice result indicates which one of the round areas making up the template has been covered by the explosion. Models completely or partially under the area covered by an explosion are hit at full strength. Resolve the explosion on each area in turn, in any order chosen by the firer.</description>
+    </rule>
+    <rule name="Gargantuan Creature" id="9e5a-8be5-9041-1f26" hidden="false">
+      <description>Gargantuan Creatures follow the rules for Monstrous Creatures with the following exceptions.
+
+
+MOVEMENT
+Gargantuan creatures can move up to 12&quot; in their movement phase. They are slowed by difficult terrain (roll as normal and double the distance). If their path is blocked by enemy models that are not Gargantuan or Super-heavy walkers, Gargantuan creatures can tank shock them, counting as a tank with a frontal armour value of 14. Enemies affected by this must test their Morale with an extra -1 modifier to their Leadership, and can execute Death of Glory attacks as normal.
+
+
+SHOOTING
+Gargantuan creatures can fire all of their weapons every turn, and can fire them at different targets.
+
+
+ASSAULT
+Gargantuan creatures can assault any unit within reach, not just the one they shot at. 
+When attacking in close combat, a Gargantuan creature can choose to either fight normally or execute a Stomp special attack. 
+Gargantuan creatures never roll for sweeping advance.
+If, at the end of an assault, enemy models that are not gargantuan or super-heavy walkers are still engaged with a Gargantuan Creature, they must immediately make a consolidation move, in order to get at least 1&quot; away from the Gargantuan creature. 
+Gargantuan creatures may not consolidate.
+
+
+RULES
+All Gargantuan creatures are Fearless
+They  are not affected by Psychic Powers (Friend or Foe) with the exception of those that have a Strength Value.
+They are immune to Instant Death, they are also immune to any attack that would normally kill a model automatically. Such attacks cause D3 Wounds instead.
+All Gargantuan creatures have the Terrifying Special rule.
+All Sniper and Poisoned weapons wound Gargantuan creatures only on a roll of 6.</description>
+    </rule>
+    <rule name="Flyer" id="f219-1213-d07f-f369" hidden="false">
+      <description>Flyers follow the normal rules for its unit type with the following exceptions:
+
+
+MOVEMENT
+Flyers always begin the game in Strategic Reserve.
+When the flyer arrives from reserve, it can be placed anywhere on the table except on top of other models. It can be placed over any piece of terrain, but never counts as being inside it. Note this is not a Deep Strike, and the model does not scatter.
+
+
+In each of its subsequent Movement phases, the Flyer can be placed anywhere on the table, facing any direction, but the new position must be more than 36&quot; away from its former position.
+
+
+A Flyer may disengage instead of moving, and is removed from the table. It may return in any following turn, and is placed anywhere on the table. If, at the end of the game, the flyer has disengaged and is not on the table, it is not considered destroyed.
+
+
+SHOOTING
+Flyers always count as stationary for the purposes of firing weapons. When hitting a non-flyer vehicle, flyers always attack the target&apos;s side armour, regardless of the relative position. When shooting other flyers, armour aspects are used as normal.
+
+
+When determining line of sight from flyers, always ignore all intervening terrain and models. The only exception is area terrain occupied by the target, which is not ignored.
+
+
+SHOOTING AT FLYERS
+When shooting at a flyer, all models need a 6 to score a hit, regardless of their BS. In addition, when measuring the range to a flyer, all weapons&apos; maximum range is reduced by 12&quot; (this means weapons with a maximum range of 12&quot;, like pistols, cannot hit flyers)
+
+
+Weapons using any teardrop-shaped template cannot hit flyers.
+
+
+Weapons that do not roll to hit using Ballistic Skill (like Blast weapons) cannot hit flyers, unless these weapons also have the anti-aircraft mount special rule.
+
+
+When shot at, flying vehicles follow the same rules as skimmers moving over 12&quot;, meaning they recieve a 4+ Cover save. However, against flyers, Stunned results always count as Shaken, and if flyers are Immobilised, they are automatically destroyed.
+
+
+When determining line of sight and cover to flyers, always ignore all intervening terrain and models, as the flyer will be higher up than anything on the battlefield.
+
+
+ASSAULTS
+Flyers may never assault nor be assaulted.
+
+
+VICTORY
+Flyers are never scoring units.
+
+
+SUPER-HEAVY FLYING VEHICLES
+Flyers that are super-heavy treat Drive Stunned results as Gun Crew Shaken, and Drive Damaged results as Chain Reaction.
+They cannot use the Damage Control Rule.</description>
+    </rule>
+    <rule name="Apocalyptic Barrage Template" id="fcf4-1963-afd6-8123" hidden="false">
+      <description>To use this blast template, place it with the centre on an enemy model anywhere in line of sight of the weapon firing and then measure the range (if applicable). If the centre is in range, the weapon has hit and the barrage is left in place, otherwise it is removed. The player may rotate it around its centre to any final position. Once done, roll a number of dice equal to the number in the brackets and compare the results with the number on the template. Each dice result indicated which one of the round areas making up the template has been covered by an explosion are hit at full strength (much in the same way as template weapons, except that covers saves apply as normal). Resolve the explosion on each area in turn, in any order chosen by the firer.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -4397,6 +4526,11 @@ Once the Drop Pod has landed, all passengers must immediately disembark, as norm
         <selectionEntry name="Hide Apocalypse Units" id="7a0f-60e9-0b8f-41f9" defaultAmount="1" hidden="false" import="true" type="upgrade">
           <constraints>
             <constraint id="8391-61a9-bdee-c97a" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry name="Hide Forge World Units" id="484c-5d0e-ee6d-1ece" defaultAmount="1" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="9514-c6ac-98be-7d97" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>

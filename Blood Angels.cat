@@ -30,11 +30,6 @@
         <infoLink name="The Red Thirst" id="400b-d724-2b19-565e" hidden="false" targetId="545c-83df-5191-aab3" type="profile"/>
       </infoLinks>
     </entryLink>
-    <entryLink name="Whirlwind" id="261e-4d04-4bd0-f857" hidden="false" import="true" targetId="b31b-afe0-7c98-d3e1" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Heavy Support" id="cdb5-39b7-767f-c2c6" primary="true" targetId="9260-7d57-be5c-bd52"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink name="Gladiator" id="c5f9-7eb0-8387-749a" hidden="false" import="true" targetId="b8fb-3d05-1547-38bc" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Heavy Support" id="6e91-16ec-5023-d723" primary="true" targetId="9260-7d57-be5c-bd52"/>
@@ -14114,7 +14109,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
                         <constraint id="dcd9-0b08-2941-2730" field="selections" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                       <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
                       </costs>
                       <infoLinks>
                         <infoLink name="Heavy Bolter" id="fdf6-f8e5-5ab7-17b0" hidden="false" targetId="a9ff-3d1e-c9e1-c169" type="profile"/>
@@ -14125,7 +14120,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
                         <constraint id="7365-a746-c343-ca37" field="selections" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                       <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
                       </costs>
                       <infoLinks>
                         <infoLink name="Multi-melta" id="3efe-115e-a1f1-7b65" hidden="false" targetId="0b59-dfc6-9696-0b99" type="profile"/>
@@ -14136,7 +14131,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
                         <constraint id="143d-412a-fb79-3705" field="selections" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                       <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
                       </costs>
                       <infoLinks>
                         <infoLink name="Missile Launcher (Frag)" id="abff-9f13-8653-e3fb" hidden="false" targetId="5c9b-64b6-6546-fc94" type="profile"/>
@@ -14148,7 +14143,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
                         <constraint id="3a56-d77d-179b-43e4" field="selections" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                       <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="25"/>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
                       </costs>
                       <infoLinks>
                         <infoLink name="Plasma Cannon" id="95f0-2359-6c79-44dc" hidden="false" targetId="fe57-d289-2133-fdb2" type="profile"/>
@@ -14159,7 +14154,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
                         <constraint id="13a3-46ec-8da0-37e4" field="selections" scope="parent" shared="true" type="max" value="1"/>
                       </constraints>
                       <costs>
-                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="35"/>
+                        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="20"/>
                       </costs>
                       <infoLinks>
                         <infoLink name="Lascannon" id="8af2-096b-0b60-62ad" hidden="false" targetId="2965-8d8c-d5b0-8aa1" type="profile"/>
@@ -14173,7 +14168,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Predator" id="defc-f542-af03-0b6b" hidden="false" import="true" type="unit">
+    <selectionEntry name="Blood Angels Predator" id="defc-f542-af03-0b6b" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Heavy Support" id="5e4a-89a2-ed8b-a7f9" primary="true" targetId="9260-7d57-be5c-bd52"/>
       </categoryLinks>
@@ -14291,7 +14286,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry name="Vindicator" id="6f9c-de22-0c3f-9630" hidden="false" import="true" type="upgrade">
+    <selectionEntry name="Blood Angels Vindicator" id="6f9c-de22-0c3f-9630" hidden="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink name="Heavy Support" id="f330-cc97-f42d-6889" primary="true" targetId="9260-7d57-be5c-bd52"/>
       </categoryLinks>
@@ -14303,6 +14298,7 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
         <infoLink name="Searchlight" id="eda1-e812-78a1-eaa1" hidden="false" targetId="589c-c16c-2ed7-61f9" type="profile"/>
         <infoLink name="Tank" id="ea5a-bfde-2f29-c042" hidden="false" targetId="3475-46b4-28e6-8fb0" type="rule"/>
         <infoLink name="Storm Bolter" id="4364-c946-9587-445e" hidden="false" targetId="a37b-6942-f8fb-4aee" type="profile"/>
+        <infoLink name="Fast" id="7db0-27d4-dd9e-c86f" hidden="false" targetId="0e9a-ece3-5024-5d32" type="profile"/>
       </infoLinks>
       <profiles>
         <profile name="Vindicator" id="43fb-76f5-8bb6-f310" hidden="false" typeId="0092-3322-1b28-b657" typeName="Vehicle">
@@ -14384,6 +14380,98 @@ Therefore, a Land Raider that has moved at combat speed can fire two weapons, an
                   </characteristics>
                 </profile>
               </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Blood Angels Whirlwind" id="1e73-1ba8-2746-b932" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Heavy Support" id="250f-6afc-a7b0-9473" hidden="false" primary="true" targetId="9260-7d57-be5c-bd52"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="85"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Smoke Launchers" id="d48b-aeb4-f83c-ecca" hidden="false" targetId="180e-ad4b-4df0-81ae" type="profile"/>
+        <infoLink name="Searchlight" id="7582-1cfb-e90f-6f35" hidden="false" targetId="589c-c16c-2ed7-61f9" type="profile"/>
+        <infoLink name="Tank" id="1b9d-4975-1768-7ffc" hidden="false" targetId="3475-46b4-28e6-8fb0" type="rule"/>
+        <infoLink name="Fast" id="6216-9458-a112-a33b" hidden="false" targetId="0e9a-ece3-5024-5d32" type="profile"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Whirlwind" id="7ff2-b3e7-ea56-1688" hidden="false" typeId="0092-3322-1b28-b657" typeName="Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="b539-c71b-9239-8da0">4</characteristic>
+            <characteristic name="F" typeId="84f1-6495-b3c8-6025">11</characteristic>
+            <characteristic name="S" typeId="38b6-8429-f0fd-11cb">11</characteristic>
+            <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Whirlwind Multiple Missile Launcher (Vengeance Missiles)" id="10ea-7b62-32b6-7900" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12-48&quot;</characteristic>
+            <characteristic name="Str." typeId="1ebc-896c-43de-904a">5</characteristic>
+            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Barrage</characteristic>
+            <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+          </characteristics>
+        </profile>
+        <profile name="Whirlwind Multiple Missile Launcher (Incendiary Castellan Missiles)" id="9756-0b7b-e7aa-91b0" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+          <characteristics>
+            <characteristic name="Range" typeId="9b9e-0c24-e409-a801">12-48&quot;</characteristic>
+            <characteristic name="Str." typeId="1ebc-896c-43de-904a">4</characteristic>
+            <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">5</characteristic>
+            <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Barrage, Ignore Cover</characteristic>
+            <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Upgrades" id="99f7-e2a2-aafe-b717" hidden="false">
+          <selectionEntries>
+            <selectionEntry name="Storm Bolter" id="2f4c-ecd1-1103-96e6" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="6495-60e0-9620-00f9" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Storm Bolter" id="7d6f-28df-14aa-9e22" hidden="false" targetId="a37b-6942-f8fb-4aee" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Hunter-killer Missile" id="c014-c038-be1d-5aec" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="d0d4-ee62-de28-28e5" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Hunter-Killer Missile" id="a10e-1061-6ca9-537c" hidden="false" targetId="ecc5-0991-ef00-23ac" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Dozer Blade" id="8fd9-e7f3-311d-9890" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="0b88-07dd-2b50-1aac" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="5"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Dozer Blade" id="3fb9-ef30-5f7d-2505" hidden="false" targetId="071f-6e73-2a57-cfc4" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Extra Armour" id="183e-8133-2df0-f3ef" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="20ce-8fb4-6a8e-94c5" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="15"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Extra Armour" id="a450-6494-7191-6fa5" hidden="false" targetId="ec58-94f7-12e5-a9b9" type="profile"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>

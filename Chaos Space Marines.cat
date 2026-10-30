@@ -6477,6 +6477,7 @@ If the model that is possessed by the Greater Daemon is inside a transport, the 
             <characteristic name="I" typeId="12b2-2bea-bc7f-ac88">3</characteristic>
             <characteristic name="A" typeId="e212-98ab-8660-eeab">4</characteristic>
             <characteristic name="Structure Points" typeId="3f21-3557-c8fe-4dda">3</characteristic>
+            <characteristic name="Void Shields" typeId="a37b-5765-0523-d074"/>
           </characteristics>
         </profile>
         <profile name="Fueled by Rage" id="97ea-5220-0fef-dee7" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">

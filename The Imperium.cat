@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue name="The Imperium" id="4d6b-e4a6-7beb-5569" battleScribeVersion="2.03" gameSystemId="sys-9c90-407d-0876-14fb" gameSystemRevision="3" library="false" revision="1" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry name="Warlord Titan" id="59be-57e8-eb5f-f7e7" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Apocalypse" id="2f1e-f946-eee6-21fc" hidden="false" primary="true" targetId="5968-f35e-18fd-612b"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="2500"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Void Shields" id="5b51-67e5-c2d3-dcaa" hidden="false" targetId="0a20-6e95-3f00-f221" type="rule"/>
+        <infoLink name="Super-Heavy Walker" id="dccb-147a-5f15-8fbb" hidden="false" targetId="5769-fec8-be67-6310" type="rule"/>
+        <infoLink name="Super-Heavy Vehicle" id="3f43-f910-4474-2418" hidden="false" targetId="d740-8c38-4a3f-9f85" type="rule"/>
+        <infoLink name="Stomp" id="ff02-f2db-610b-76ac" hidden="false" targetId="0eb1-9a1f-2f67-68e1" type="profile"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Warlord Titan" id="1af1-36d9-fce8-f3f4" hidden="false" typeId="7b1d-75a0-b2de-cb2e" typeName="Super-Heavy Walker">
+          <characteristics>
+            <characteristic name="WS" typeId="0b22-562d-304f-708a">2</characteristic>
+            <characteristic name="BS" typeId="5ac3-7cf1-7a4b-0bdc">4</characteristic>
+            <characteristic name="S" typeId="b80b-7f3f-9d69-7f75">14</characteristic>
+            <characteristic name="F" typeId="22f8-d228-3d58-0d92">14</characteristic>
+            <characteristic name="S" typeId="82d2-1b71-b01a-7615">14</characteristic>
+            <characteristic name="R" typeId="58d5-2599-2a90-7cbc">13</characteristic>
+            <characteristic name="I" typeId="12b2-2bea-bc7f-ac88">1</characteristic>
+            <characteristic name="A" typeId="e212-98ab-8660-eeab">3</characteristic>
+            <characteristic name="Structure Points" typeId="3f21-3557-c8fe-4dda">9</characteristic>
+            <characteristic name="Void Shields" typeId="a37b-5765-0523-d074">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Reactor Meltdown" id="3d92-ac3f-0cd9-d298" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If the Warlord suffers an Apocalyptic Explosion result on the Catastrophic damage chart, it&apos;s reactor goes nuclear! This is the same as an Apocalyptic Explosion, except that the range is 6D6&quot;, and models within range suffer a Destroyer hit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Towering Monstrosity" id="86df-49be-da7e-7e0b" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">Because of its immense size, it is difficult for the Warlord to engage targets that are too close. It suffers from the following limitations: 
+-Weapons mounted on the carapace of the Warlord have a minimum range of 24&quot;
+-A Warlord titan&apos;s close combat weapon can only be used against Gargantuan Creatures and Super-heavy vehicles.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Carapace Weapons" id="fc4c-029a-7502-a0a1" hidden="false">
+          <constraints>
+            <constraint id="264a-62f7-276d-9f54-min" field="selections" scope="self" shared="true" type="min" value="2"/>
+            <constraint id="264a-62f7-276d-9f54-max" field="selections" scope="self" shared="true" type="max" value="2"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Double-barrelled Turbo-laser" id="73b7-ed19-fc2b-f389" hidden="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink name="Double-barrelled Turbo-laser" id="fa8b-b45b-14a2-4a60" hidden="false" targetId="e836-e3a2-2374-568f" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Plasma Blastgun" id="b254-8eee-68fd-284a" hidden="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink name="Plasma Blastgun (Rapid)" id="7d6f-0b51-c064-e724" hidden="false" targetId="f45c-451c-4698-fb9e" type="profile"/>
+                <infoLink name="Plasma Blastgun (Full)" id="9d08-f551-47d8-74f0" hidden="false" targetId="42e2-c136-7dbe-79d2" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Inferno Gun" id="bb5e-bdcd-1854-47c0" hidden="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink name="Inferno Gun" id="138b-6021-c279-8c22" hidden="false" targetId="6a2a-e1e8-de8a-3d88" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Vulcan Mega-bolter" id="97f4-1c35-5cdc-bbe4" defaultAmount="2" hidden="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink name="Vulcan Mega-bolter" id="b7a7-d759-7aca-e5e0" hidden="false" targetId="16a9-3946-9ebd-ffb9" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Apocalypse Missile Launcher" id="bd84-227f-8856-c22d" hidden="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink name="Apocalypse Missile Launcher" id="96ce-969a-2dc8-14f7" hidden="false" targetId="f4eb-6d05-bd50-57bd" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Vortex Support Missile" id="0aaa-d21e-3505-eab4" hidden="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink name="Vortex Support Missile" id="c55e-fd40-cfa8-0c04" hidden="false" targetId="153d-8f69-ba76-c6b3" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Arm Weapons" id="cbaf-6dba-cb1a-bb08" hidden="false">
+          <constraints>
+            <constraint id="575c-45ac-a5d2-605f-min" field="selections" scope="self" shared="true" type="min" value="1"/>
+            <constraint id="575c-45ac-a5d2-605f-max" field="selections" scope="self" shared="true" type="max" value="1"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Laser Blaster" id="ed26-9328-aba5-8a1e" hidden="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink name="Laser Blaster" id="a034-d03d-3802-f5d2" hidden="false" targetId="a11f-d07f-068c-97dd" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Gatling Blaster" id="d9a9-314c-6242-73eb" hidden="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink name="Gatling Blaster" id="4c3b-227b-ad3e-9fbc" hidden="false" targetId="cfd4-031b-291f-2868" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Melta Cannon" id="9720-d3a7-0403-5e80" hidden="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink name="Melta Cannon" id="eeb8-11e4-84fa-793a" hidden="false" targetId="b8fd-a5a2-4dd0-3b49" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Plasma Destructor" id="fe49-342a-64a0-2e71" hidden="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink name="Plasma Destructor (Rapid)" id="8c44-ad08-a74e-f401" hidden="false" targetId="036d-c3c3-c50b-5b6a" type="profile"/>
+                <infoLink name="Plasma Destructor (Full)" id="5be1-4520-b593-4a67" hidden="false" targetId="071b-f4ee-4434-ee57" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Quake Cannon" id="5265-6543-9de5-c606" hidden="false" import="true" type="upgrade">
+              <profiles>
+                <profile name="Quake Cannon" id="b740-8059-de09-fa2c" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24-360&quot;</characteristic>
+                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">9</characteristic>
+                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 2, Apocalyptic Blast, Primary Weapon</characteristic>
+                    <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Volcano Cannon" id="4b8e-c162-a2e0-2efb" hidden="false" import="true" type="upgrade">
+              <profiles>
+                <profile name="Volcano Cannon" id="f14a-a477-5da4-032c" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9b9e-0c24-e409-a801">240&quot;</characteristic>
+                    <characteristic name="Str." typeId="1ebc-896c-43de-904a">D</characteristic>
+                    <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+                    <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Apocalyptic Blast, Destroyer, Primary Weapon</characteristic>
+                    <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Titan Close-combat Weapon" id="1f93-e996-741c-eded" hidden="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink name="Titan Close-combat Weapon" id="5d05-ad83-da06-76a8" hidden="false" targetId="bce6-a45a-2a27-ff77" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Warhound Scout Titan" id="c153-ca7a-2142-2e97" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Apocalypse" id="1d3c-4494-9655-8318" hidden="false" primary="true" targetId="5968-f35e-18fd-612b"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="750"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Super-Heavy Vehicle" id="ad2a-fc7e-16e0-d99f" hidden="false" targetId="d740-8c38-4a3f-9f85" type="rule"/>
+        <infoLink name="Super-Heavy Walker" id="e24c-7084-e10a-9fd5" hidden="false" targetId="5769-fec8-be67-6310" type="rule"/>
+        <infoLink name="Void Shields" id="2d76-491d-dbd0-adc0" hidden="false" targetId="0a20-6e95-3f00-f221" type="rule"/>
+        <infoLink name="Stomp" id="5356-3541-47c4-2c30" hidden="false" targetId="0eb1-9a1f-2f67-68e1" type="profile"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Warhound Scout Titan" id="3fe9-dfdd-4871-a34b" hidden="false" typeId="7b1d-75a0-b2de-cb2e" typeName="Super-Heavy Walker">
+          <characteristics>
+            <characteristic name="WS" typeId="0b22-562d-304f-708a">2</characteristic>
+            <characteristic name="BS" typeId="5ac3-7cf1-7a4b-0bdc">4</characteristic>
+            <characteristic name="STR" typeId="b80b-7f3f-9d69-7f75">10</characteristic>
+            <characteristic name="F" typeId="22f8-d228-3d58-0d92">14</characteristic>
+            <characteristic name="S" typeId="82d2-1b71-b01a-7615">13</characteristic>
+            <characteristic name="R" typeId="58d5-2599-2a90-7cbc">12</characteristic>
+            <characteristic name="I" typeId="12b2-2bea-bc7f-ac88">1</characteristic>
+            <characteristic name="A" typeId="e212-98ab-8660-eeab">1</characteristic>
+            <characteristic name="Structure Points" typeId="3f21-3557-c8fe-4dda">3</characteristic>
+            <characteristic name="Void Shields" typeId="a37b-5765-0523-d074">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Agile" id="f434-8273-f575-98c8" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">In the Shooting phase the Warhound may divert some of the energy from its primary weapons towards its legs, so it can choose to:
+-Fire all available weapons, as normal
+-Fire a single Primary Weapon and move an extra D6&quot; (as per the Fleet of Foot rule)
+-Fire no weapons and move an extra 2D6&quot; (as per the Fleet of Foot rule)
+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Reactor Meltdown" id="f8e2-4619-6e82-dbfb" hidden="false" typeId="ccb3-7790-3139-7975" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="e24a-6018-20cf-d76c">If the Warlord suffers an Apocalyptic Explosion result on the Catastrophic damage chart, it&apos;s reactor goes nuclear! This is the same as an Apocalyptic Explosion, except that the range is 6D6&quot;, and models within range suffer a Destroyer hit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Arm Weapons" id="e796-79df-a32e-c10e" hidden="false">
+          <constraints>
+            <constraint id="23e3-0e75-7df8-99ea-min" field="selections" scope="self" shared="true" type="min" value="2"/>
+            <constraint id="23e3-0e75-7df8-99ea-max" field="selections" scope="self" shared="true" type="max" value="2"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Double Barrelled Turbo-laser Destructor" id="213f-3daa-0935-27b2" hidden="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink name="Double-barrelled Turbo-laser" id="0e5d-2e18-6c9f-ae3a" hidden="false" targetId="e836-e3a2-2374-568f" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Plasma Blastgun" id="fb5a-92ae-9e3a-681e" hidden="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink name="Plasma Blastgun (Full)" id="7967-db43-ca95-2fed" hidden="false" targetId="42e2-c136-7dbe-79d2" type="profile"/>
+                <infoLink name="Plasma Blastgun (Rapid)" id="6b6e-8b39-c812-e618" hidden="false" targetId="f45c-451c-4698-fb9e" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Inferno Gun" id="9904-7f42-4299-b451" hidden="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink name="Inferno Gun" id="d494-520c-3628-ce82" hidden="false" targetId="6a2a-e1e8-de8a-3d88" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Vulcan Mega-bolter" id="5391-aa01-c552-9156" defaultAmount="2" hidden="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink name="Vulcan Mega-bolter" id="be02-dfc8-fcfc-5ba2" hidden="false" targetId="16a9-3946-9ebd-ffb9" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Thunderbolt Fighter" id="56b7-d3bf-b69c-ce2c" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Apocalypse" id="595b-860e-1b25-96b8" hidden="false" primary="true" targetId="5968-f35e-18fd-612b"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="180"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Flyer" id="f9db-86fb-6409-75e6" hidden="false" targetId="f219-1213-d07f-f369" type="rule"/>
+        <infoLink name="Twin-linked Autocannon" id="f624-38e1-8d73-df80" hidden="false" targetId="11aa-86cf-4281-eae2" type="profile"/>
+        <infoLink name="Twin-linked Autocannon" id="934d-6b0a-2f9d-ae66" hidden="false" targetId="11aa-86cf-4281-eae2" type="profile"/>
+        <infoLink name="Twin-linked Lascannon" id="180b-9eca-de79-286b" hidden="false" targetId="e50f-e49c-148c-4aee" type="profile"/>
+        <infoLink name="Bombing Run" id="ebe6-832b-c5ab-162b" hidden="false" targetId="4b6e-3c69-ad6f-c9e8" type="profile"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Thunderbolt Fighter" id="185d-5efb-8f66-9fe0" hidden="false" typeId="0092-3322-1b28-b657" typeName="Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="b539-c71b-9239-8da0">3</characteristic>
+            <characteristic name="F" typeId="84f1-6495-b3c8-6025">10</characteristic>
+            <characteristic name="S" typeId="38b6-8429-f0fd-11cb">10</characteristic>
+            <characteristic name="R" typeId="10a0-8c50-f9d5-466b">10</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Loadout" id="7d4d-081d-917f-110c" hidden="false">
+          <constraints>
+            <constraint id="2df5-5441-d1d6-14af-min" field="selections" scope="self" shared="true" type="min" value="1"/>
+            <constraint id="2df5-5441-d1d6-14af-max" field="selections" scope="self" shared="true" type="max" value="1"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Four Hellstrike Missiles" id="b984-2596-cb4c-0935" defaultAmount="1" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="2829-735f-917c-120e" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Hunter-Killer Missile" id="3869-54cf-e6da-48a2" hidden="false" targetId="ecc5-0991-ef00-23ac" type="profile"/>
+                <infoLink name="Hunter-Killer Missile" id="48d3-ffa6-ba28-3737" hidden="false" targetId="ecc5-0991-ef00-23ac" type="profile"/>
+                <infoLink name="Hunter-Killer Missile" id="d882-555c-13f7-e27d" hidden="false" targetId="ecc5-0991-ef00-23ac" type="profile"/>
+                <infoLink name="Hunter-Killer Missile" id="5152-6011-bca2-905e" hidden="false" targetId="ecc5-0991-ef00-23ac" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Four Bombs" id="0742-2c19-ca1e-aed8" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="a557-3d90-18d4-c09d" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="40"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Bomb" id="0b86-6e68-0582-df44" hidden="false" targetId="573a-0df7-343d-c3ff" type="profile"/>
+                <infoLink name="Bomb" id="164e-d6d0-3d33-8324" hidden="false" targetId="573a-0df7-343d-c3ff" type="profile"/>
+                <infoLink name="Bomb" id="94c6-1ff6-429e-28ae" hidden="false" targetId="573a-0df7-343d-c3ff" type="profile"/>
+                <infoLink name="Bomb" id="3f44-d5d8-18a4-a55a" hidden="false" targetId="573a-0df7-343d-c3ff" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry name="Marauder Bomber" id="8f5a-3e5c-20eb-3eab" hidden="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink name="Apocalypse" id="15fd-cf16-9347-fb37" hidden="false" primary="true" targetId="5968-f35e-18fd-612b"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="6f18-a8fc-2c5b-9517" value="400"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Flyer" id="0489-c949-838e-7604" hidden="false" targetId="f219-1213-d07f-f369" type="rule"/>
+        <infoLink name="Bombing Run" id="2b10-9e92-4530-5d75" hidden="false" targetId="4b6e-3c69-ad6f-c9e8" type="profile"/>
+        <infoLink name="Twin-linked Lascannon" id="7054-1053-fd40-7010" hidden="false" targetId="e50f-e49c-148c-4aee" type="profile"/>
+        <infoLink name="Twin-linked Heavy Bolter" id="6ef3-6ef7-5107-398f" hidden="false" targetId="684d-431d-f854-d4fd" type="profile"/>
+        <infoLink name="Twin-linked Heavy Bolter" id="2b99-70e6-9a26-54af" hidden="false" targetId="684d-431d-f854-d4fd" type="profile"/>
+        <infoLink name="Super-Heavy Vehicle" id="0560-59e6-2ece-4615" hidden="false" targetId="d740-8c38-4a3f-9f85" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Marauder Bomber" id="3850-b647-ad96-68d7" hidden="false" typeId="4f6f-b40f-36fb-7ece" typeName="Super-Heavy Vehicle">
+          <characteristics>
+            <characteristic name="BS" typeId="c083-0548-101e-0f69">3</characteristic>
+            <characteristic name="F" typeId="ccd0-0f66-453c-e26b">10</characteristic>
+            <characteristic name="S" typeId="3f4c-12d9-90e8-3794">10</characteristic>
+            <characteristic name="R" typeId="5972-c096-9c99-ea47">10</characteristic>
+            <characteristic name="Structure Points" typeId="0a2a-2e66-c248-4b50">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Loadout" id="87f5-8b4e-9e58-f87c" hidden="false">
+          <constraints>
+            <constraint id="a687-c246-8161-b138-min" field="selections" scope="self" shared="true" type="min" value="1"/>
+            <constraint id="a687-c246-8161-b138-max" field="selections" scope="self" shared="true" type="max" value="1"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Twelve Bombs" id="6b21-7acc-8595-e2a1" defaultAmount="1" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="4e5f-d46c-8c0b-92c9" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Bomb" id="6578-fca3-cd2e-fbfd" hidden="false" targetId="573a-0df7-343d-c3ff" type="profile"/>
+                <infoLink name="Bomb" id="2002-cf09-915d-292f" hidden="false" targetId="573a-0df7-343d-c3ff" type="profile"/>
+                <infoLink name="Bomb" id="3387-41ab-2da8-57ae" hidden="false" targetId="573a-0df7-343d-c3ff" type="profile"/>
+                <infoLink name="Bomb" id="f3aa-e256-f581-300b" hidden="false" targetId="573a-0df7-343d-c3ff" type="profile"/>
+                <infoLink name="Bomb" id="8488-e873-6802-6adf" hidden="false" targetId="573a-0df7-343d-c3ff" type="profile"/>
+                <infoLink name="Bomb" id="08d9-5f10-8802-e809" hidden="false" targetId="573a-0df7-343d-c3ff" type="profile"/>
+                <infoLink name="Bomb" id="b89f-a20c-d457-8c43" hidden="false" targetId="573a-0df7-343d-c3ff" type="profile"/>
+                <infoLink name="Bomb" id="c2e5-b074-1a2c-bd14" hidden="false" targetId="573a-0df7-343d-c3ff" type="profile"/>
+                <infoLink name="Bomb" id="cfab-6025-83d2-fce9" hidden="false" targetId="573a-0df7-343d-c3ff" type="profile"/>
+                <infoLink name="Bomb" id="5062-335a-f893-ca27" hidden="false" targetId="573a-0df7-343d-c3ff" type="profile"/>
+                <infoLink name="Bomb" id="ec8e-0d0c-ae1c-9241" hidden="false" targetId="573a-0df7-343d-c3ff" type="profile"/>
+                <infoLink name="Bomb" id="8f6e-4eae-af51-bf37" hidden="false" targetId="573a-0df7-343d-c3ff" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry name="Two Hellstorm Bombs" id="798f-cac0-6591-947b" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="3279-20ad-b1c0-fe6b" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Hellstorm Bomb" id="0fb5-1b1d-0dfb-e25f" hidden="false" targetId="e9b9-5ba0-b2d7-ebd9" type="profile"/>
+                <infoLink name="Hellstorm Bomb" id="3363-a203-bbf6-479c" hidden="false" targetId="e9b9-5ba0-b2d7-ebd9" type="profile"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedProfiles>
+    <profile name="Apocalypse Missile Launcher" id="f4eb-6d05-bd50-57bd" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">24-360&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Apocalypse Barrage (5), Primary Weapon</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Double-barrelled Turbo-laser" id="e836-e3a2-2374-568f" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">96&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">D</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 2, Blast, Destroyer, Primary Weapon</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Inferno Gun" id="6a2a-e1e8-de8a-3d88" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Hellstorm</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 1, Primary Weapon</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">To fire the Inferno gun place the Hellstorm template so that the narrow end is within 18&quot; of the weapon and the larger end is no closer to the weapon than the narrow end. The Inferno Gun is then treated like any other template weapon.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Plasma Blastgun (Full)" id="42e2-c136-7dbe-79d2" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">96&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Apocalyptic Blast, Primary Weapon</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Plasma Blastgun (Rapid)" id="f45c-451c-4698-fb9e" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 2, Large Blast, Primary Weapon</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Vortex Support Missile" id="153d-8f69-ba76-c6b3" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">48-480&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">n/a</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">n/a</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Apocalyptic Blast, One-shot, Primary Weapon</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">After determining the final position of the marker, any models and removable terrain features touched by the blast are removed from the game (flyers are not affected). Gargantuan Creatures are not removed, but automatically lose D6 Wounds. Super-heavy vehicles are not removed, but automatically lose D3 Structure Points.
+
+
+NO SAVE OF ANY KIND (EVEN INVULNERABLES) ARE ALLOWED!</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Vulcan Mega-bolter" id="16a9-3946-9ebd-ffb9" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">60&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 15, Primary Weapon</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Gatling Blaster" id="cfd4-031b-291f-2868" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Heavy 6, Blast, Primary Weapon</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Laser Blaster" id="a11f-d07f-068c-97dd" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">96&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">D</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Blast, Primary Weapon, Destroyer</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Melta Cannon" id="b8fd-a5a2-4dd0-3b49" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">1</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 1, Apocalyptic Blast, Melta, Primary Weapon</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">Rolle 3D6+10 for armour penetration against targets under the hole in the centre of the marker, and 2D6+10 against other targets.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Plasma Destructor (Full)" id="071b-f4ee-4434-ee57" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">96&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">10</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 2, Apocalyptic Blast, Primary Weapon</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Plasma Destructor (Rapid)" id="036d-c3c3-c50b-5b6a" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">72&quot;</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">8</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">2</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Ordnance 3, Large Blast, Primary Weapon</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c"/>
+      </characteristics>
+    </profile>
+    <profile name="Titan Close-combat Weapon" id="bce6-a45a-2a27-ff77" hidden="false" typeId="1d88-1369-f0ed-b39c" typeName="Melee Weapons">
+      <characteristics>
+        <characteristic name="Ability" typeId="2113-98a2-4376-a94c">Each Titan Close Combat Weapon adds three extra close combat attacks to the profile of the unit. It also confers the destroyer rule to all the walker&apos;s close combat attacks. Note that the Stomp special rule is not affected by either of these bonuses. The enemy may apply a weapon destroyed result against a Titan close-combat weapon, which counts as a Primary Weapon. If the weapon is destroyed - the walker loses the three extra attacks and the destroyer rule in close combat.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Bomb" id="573a-0df7-343d-c3ff" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Bomb</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">6</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">4</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Apocalypse Barrage (1), One-Shot</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">You may elect to drop as many bombs as you wish in a single bombing run - for each bomb dropped, roll once on the Apocalyptic Barrage template.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hellstorm Bomb" id="e9b9-5ba0-b2d7-ebd9" hidden="false" typeId="8e6f-7553-28c5-95a0" typeName="Weapons">
+      <characteristics>
+        <characteristic name="Range" typeId="9b9e-0c24-e409-a801">Hellstorm</characteristic>
+        <characteristic name="Str." typeId="1ebc-896c-43de-904a">7</characteristic>
+        <characteristic name="AP" typeId="730c-47dc-fdad-3c8b">3</characteristic>
+        <characteristic name="Type" typeId="1524-30c8-5da7-66ff">Inferno!, One-shot, Ignore Cover</characteristic>
+        <characteristic name="Notes" typeId="45fd-0f50-e1d0-907c">You may only drop one Hellstorm per bombing run.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedRules>
+    <rule name="Inferno!" id="eb48-a5c5-68bd-6de3" hidden="false">
+      <description>Execute a Bombing run and then place the Hellstorm template anywhere along the bombing corridor, with the large end towards the flyer. The template is then moved 3D6 forward along the bombing corridor towards the flyer (Hits are only scored after the template has moved). Once the template is in place, hits are determined as described in the weapons datasheet (No cover saves apply) </description>
+    </rule>
+  </sharedRules>
+</catalogue>
